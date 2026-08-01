@@ -1,0 +1,966 @@
+[
+ {
+  "id": "b06-001",
+  "slide": 308,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The table compares crude oil transportation rates in North America by pipeline and by rail. Read the numbers off the table, quantify how much more expensive rail is than pipeline on a comparable relation, and explain both differences: pipeline vs. rail and light vs. heavy crude.",
+  "solution": "Pipeline rates in the table are 3,78 $/bbl for light and 4,54 $/bbl for heavy crude from Alberta to Cushing, and 2,71 $/bbl (light) resp. 3,26 $/bbl (heavy) from Cushing to Houston. Rail is far more expensive: 10,38 $/bbl from North Dakota to Houston, 10,55 $/bbl from North Dakota to NY Harbor and 16,73 $/bbl for Canadian heavy crude from Alberta to Houston. On the comparable Alberta-Houston relation rail therefore costs about twice as much as the two pipeline legs together (16,73 $/bbl against 4,54 + 3,26 = 7,80 $/bbl), and three to four times as much per leg. The reason lies in the cost structure of the modes: a pipeline is a capital-intensive fixed installation with very low variable cost per barrel and a huge throughput, so its unit cost falls with volume, whereas rail has high variable cost per tonne-kilometre (traction, personnel, rolling stock, terminal handling) and no comparable economies of scale. Heavy crude is dearer than light crude on every relation because it is more viscous: it has to be diluted or heated, it flows more slowly and it uses capacity less efficiently. Rail is used nevertheless because it is flexible and needs no dedicated infrastructure - it is the option wherever pipeline capacity is missing, which is exactly the Bakken situation.",
+  "keywords": [
+   "3,78 $/bbl",
+   "16,73 $/bbl",
+   "pipeline",
+   "rail",
+   "heavy crude",
+   "fixed installation"
+  ]
+ },
+ {
+  "id": "b06-002",
+  "slide": 309,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The map gives typical cost ranges for moving crude oil in and out of North America. Which statement is consistent with the figures shown?",
+  "options": [
+   "Rail from the Bakken area to the West Coast (11-13 $/bbl) is the cheapest movement on the map.",
+   "Moving crude from Cushing to Houston by pipeline (2-4 $/bbl) is cheaper than moving it from the Bakken area to the US East Coast by rail (10-11 $/bbl).",
+   "Sea transport from the US Gulf Coast to the US East Coast is more expensive than rail on the same relation.",
+   "Shipping crude from the US Gulf Coast to Europe on a foreign vessel costs more than 10 $/bbl."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The pipeline from Cushing to Houston is quoted at 2 to 4 $/bbl, rail to the US East Coast (USEC) at 10 to 11 $/bbl, so the first statement is correct. West Coast rail at 11-13 $/bbl is one of the most expensive movements on the map, not the cheapest. USGC to Europe on a foreign ship costs only 2-3 $/bbl: ocean transport in large parcels is by far the cheapest mode per barrel, which is why crude is a globally traded commodity at all. For the same reason the US ship from USGC to USEC (4 $/bbl) is cheaper, not more expensive, than rail (10-11 $/bbl) on that relation. The general ranking on the map is ship < pipeline < rail per barrel and kilometre."
+ },
+ {
+  "id": "b06-003",
+  "slide": 310,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows VLCC spot rates from the Arabian Gulf to Japan, UK/Northern Europe, the US Gulf Coast and Singapore between January 2018 and January 2020, with four events marked. What does VLCC stand for, in which order of magnitude do the rates lie, and how do the marked events explain the shape of the curves?",
+  "solution": "VLCC stands for Very Large Crude Carrier, a tanker of roughly two million barrels. The rates are quoted in dollars per barrel and normally lie between about 0,50 and 1,50 $/bbl, i.e. one to two per cent of a crude price of 60-70 $/bbl - which is why sea transport hardly moves the delivered oil price in normal times. The chart shows that this small number is extremely volatile. All four annotated events lift the curves: the first and the second round of Iran sanctions (7 August 2018 and 5 November 2018) take Iranian tonnage out of the market and lengthen voyages, pushing rates to roughly 2,00-2,50 $/bbl; the attacks on Aramco sites (14 September 2019) and above all the US sanctions on COSCO (25 September 2019) remove a large part of the available fleet at once and drive the rates above 5,00 $/bbl within days. The order of the curves follows distance: Arabian Gulf to Japan and to UK/Northern Europe are the most expensive, Singapore as the shortest voyage the cheapest. The economic lesson is that tanker freight is a capacity market with an almost fixed fleet in the short run, so a small loss of available tonnage or a small increase in voyage length produces a very large price reaction.",
+  "keywords": [
+   "Very Large Crude Carrier",
+   "dollars per barrel",
+   "Iran sanctions",
+   "COSCO",
+   "volatile",
+   "distance"
+  ]
+ },
+ {
+  "id": "b06-004",
+  "slide": 312,
+  "type": "open",
+  "prompt": "Name and explain the three contract types used to charter a crude oil tanker, and say who carries which risk in each case.",
+  "solution": "Voyage charter: the shipowner agrees to transport a cargo of crude oil from one port to another for a fixed freight rate. The owner operates the vessel, pays crew, bunkers and port costs and carries the operational risk; the charterer simply buys a transport service for one voyage. Time charter: the charterer hires the vessel for a set period and pays a daily hire rate. The owner still crews and maintains the ship, but the charterer decides where it sails and therefore carries the commercial risk of employing it - including the risk that the vessel earns nothing while it waits. Bareboat charter: the charterer takes full control of the vessel including crewing and operations, i.e. he becomes its operator for the duration of the charter and carries practically all risks; economically this is a lease of the asset itself. The three forms thus form a ladder: buying a service (voyage charter), renting capacity with crew (time charter), renting the bare asset (bareboat charter), with risk and control moving step by step from the owner to the charterer.",
+  "keywords": [
+   "Voyage charter",
+   "fixed freight rate",
+   "Time charter",
+   "daily hire rate",
+   "Bareboat charter",
+   "crewing and operations"
+  ]
+ },
+ {
+  "id": "b06-005",
+  "slide": 312,
+  "type": "mc",
+  "prompt": "Under which Incoterm does the seller pay the freight to the destination port and in addition cover the insurance of the cargo?",
+  "options": [
+   "CFR (Cost and Freight)",
+   "CIF (Cost, Insurance, Freight)",
+   "Bareboat charter",
+   "FOB (Free on Board)"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "CIF (Cost, Insurance, Freight) is the term under which the seller covers freight and insurance up to the destination port. Under FOB (Free on Board) the seller only delivers the oil onto the vessel and the buyer assumes risk and costs from that moment. CFR (Cost and Freight) is the intermediate case: the seller pays the freight to the destination port, but the risk passes to the buyer as soon as the oil is loaded, so the buyer has to insure the cargo himself. The bareboat charter is not an Incoterm at all but one of the three contract types between shipowner and charterer. The point to remember is that the Incoterms allocate cost and risk separately - under CFR the seller pays but does not bear the risk."
+ },
+ {
+  "id": "b06-006",
+  "slide": 313,
+  "type": "open",
+  "prompt": "Which freight rate system do tanker contracts reference, and which technical and operational clauses does a crude oil shipping contract typically contain?",
+  "solution": "Contracts usually reference the AFRA system (Average Freight Rate Assessment). AFRA classifies tankers by size - Aframax, Suezmax, VLCC, ULCC - and publishes standardised freight rates for these classes, so that a contract can be written against a published benchmark instead of negotiating an absolute price for every voyage. The technical and operational clauses cover: the vessel specifications (capacity, safety standards, approval by a classification society); the loading and discharge ports together with the laytime, i.e. the time allowed for loading and unloading; demurrage, the penalty the charterer pays if loading or discharge exceeds the agreed laytime; and insurance and liability clauses for pollution, cargo loss and accidents. Laytime and demurrage are the commercially decisive pair, because they put a price on port time and give the charterer an incentive to keep an expensive asset moving.",
+  "keywords": [
+   "AFRA",
+   "Average Freight Rate Assessment",
+   "Aframax",
+   "laytime",
+   "demurrage",
+   "classification society"
+  ]
+ },
+ {
+  "id": "b06-007",
+  "slide": 313,
+  "type": "cloze",
+  "prompt": "The penalty a charterer has to pay if loading or discharge takes longer than the agreed laytime is called ___.",
+  "accept": [
+   "demurrage",
+   "Demurrage",
+   "demurrage payment",
+   "Liegegeld"
+  ],
+  "solution": "Demurrage. Laytime is the time the contract allows for loading and unloading; every hour beyond it is charged as demurrage, because the vessel is blocked in port and cannot earn a new freight."
+ },
+ {
+  "id": "b06-008",
+  "slide": 314,
+  "type": "open",
+  "prompt": "Explain how risk, regulation and geopolitics are handled in a crude oil shipping contract: when does the risk pass from seller to buyer, which international rules have to be complied with, and why do such contracts contain force majeure clauses?",
+  "solution": "Risk: the contract has to define precisely when the risk passes from seller to buyer; usually this is the moment the crude is loaded on board the vessel, which is also the rule behind the Incoterms. Regulation: the parties must comply with international maritime law - in particular MARPOL for pollution prevention and SOLAS for safety of life at sea - with the local port regulations and with the IMO rules and the oil pollution liability conventions. Geopolitics: tanker routes cross a small number of chokepoints such as the Strait of Hormuz and the Malacca Strait. A blockade, a war or a new sanctions regime can make performance impossible through no fault of either party, so contracts contain force majeure clauses which suspend the obligations instead of turning the event into a breach of contract. Marine insurance closes the remaining gap: cover for cargo loss, piracy and accidents is critical, especially under CIF terms where the seller is the party that has to procure it.",
+  "keywords": [
+   "loaded on board",
+   "MARPOL",
+   "SOLAS",
+   "Strait of Hormuz",
+   "force majeure",
+   "marine insurance"
+  ]
+ },
+ {
+  "id": "b06-009",
+  "slide": 315,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows four tank designs and gives storage costs of about 0,5 - 1 US$/bbl per month. Name the tank types, explain why floating roof tanks are used for crude oil, and calculate how large the price spread between two dates six months apart has to be before storing crude is worthwhile.",
+  "solution": "The four designs shown are the cone roof tank, the dome roof tank, the (external) floating roof tank and the internal floating roof tank. In a floating roof tank the roof rests directly on the liquid surface and moves up and down with the filling level, so there is no vapour space above the oil. This suppresses evaporation losses and prevents an explosive vapour-air mixture from forming, which is exactly what matters for crude oil and light products with a high vapour pressure; fixed cone or dome roofs are used where evaporation is less critical or where rain and snow have to be kept out. Cost calculation: at 0,5 - 1 US$/bbl/month, six months of storage cost 3 to 6 US$/bbl. Storing crude is therefore only worthwhile if the price for delivery in six months exceeds today's price by more than that, i.e. if the market is in contango with a spread larger than the full storage cost including the cost of the capital tied up in the barrel and the insurance. If the spread is smaller, or if the market is in backwardation (forward price below spot), the rational decision is to sell now and not to store.",
+  "keywords": [
+   "floating roof",
+   "cone roof tank",
+   "evaporation",
+   "0,5 - 1 US$/bbl",
+   "3 to 6 US$/bbl",
+   "contango"
+  ]
+ },
+ {
+  "id": "b06-010",
+  "slide": 316,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows total US crude oil stocks by calendar week for 2017 to 2020, with the note that total US shell capacity is 769 million barrels and working capacity 653 million barrels. Describe what happened in 2020 and explain why the difference between shell capacity and working capacity matters.",
+  "solution": "In the first months of 2020 US crude stocks rise almost vertically: from about 430 million barrels in week 1 to roughly 530 million barrels by week 19, far steeper than in any of the three preceding years, so that the 2020 curve ends above even the 2017 peak. The cause is the collapse of demand during the Covid-19 lockdowns together with the OPEC+/Russia price war, which left crude with nowhere to go but into tanks. The capacity note explains why this became critical: total US shell capacity is 769 million barrels, but only 653 million barrels are working capacity. Shell capacity is the geometric volume of all tanks; working capacity is the part that can actually be filled and emptied in operation, because a tank cannot be run completely full (roof clearance, floating roof travel) nor completely empty (bottom sediment, pump suction). Stocks approaching the working capacity limit means tank tops - the physical impossibility of storing the next barrel. Once storage is full the marginal barrel has a negative value, which is exactly what produced the negative WTI settlement in April 2020, and it is also why storage cost and the contango spread explode in such a situation.",
+  "keywords": [
+   "769 million barrels",
+   "653 million barrels",
+   "working capacity",
+   "shell capacity",
+   "tank tops",
+   "2020"
+  ]
+ },
+ {
+  "id": "b06-011",
+  "slide": 317,
+  "type": "open",
+  "prompt": "Explain the German oil stockholding regulation (\"Erdoelbevorratung\"): who has to hold the stocks, how large do they have to be, over which periods is the obligation defined, and how is the system financed?",
+  "solution": "The obligation is carried by the Erdoelbevorratungsverband (EBV, Oil Stockpiling Association), established in 1978 on the basis of the Oil Stockpiling Act (ErdoelBevG) as a legal entity under public law with its headquarters in Hamburg - so neither the state nor each individual company holds the reserve, but a jointly financed body. The EBV must permanently hold stocks of crude oil and oil products corresponding to at least 90 days of the average daily net imports into Germany. Two periods are relevant: the stockholding year runs from 1 April of one year to 31 March of the following year, and the import figure used as the yardstick is the average of the last three calendar years before that stockholding year (reference period). Financing: all companies that produce the relevant products domestically or import them into Germany are mandatory members of the EBV and must pay mandatory fees. The levy is 3,56 EUR/t for petrol, diesel, light heating oil and kerosene (JET A-1) alike; per cubic metre it differs (2,70 EUR/cbm petrol, 3,00 EUR/cbm diesel and light heating oil, 2,85 EUR/cbm JET A-1) simply because the products have different densities. The purpose is security of supply: a 90-day national buffer against an import disruption, in line with the IEA and EU stockholding obligations.",
+  "keywords": [
+   "Erdoelbevorratungsverband",
+   "90 days",
+   "1 April",
+   "31 March",
+   "three calendar years",
+   "3,56 EUR/t",
+   "mandatory members"
+  ]
+ },
+ {
+  "id": "b06-012",
+  "slide": 317,
+  "type": "cloze",
+  "prompt": "The Erdoelbevorratungsverband has to hold stocks of crude oil and oil products corresponding permanently to at least ___ of the average daily net imports into Germany.",
+  "accept": [
+   "90 days",
+   "90 Tage",
+   "90",
+   "ninety days",
+   "90 days of net imports"
+  ],
+  "solution": "90 days. The reference quantity is the average daily net import into Germany over the three calendar years preceding the stockholding year (1 April to 31 March), so the buffer is measured against past import volumes, not against consumption or domestic production."
+ },
+ {
+  "id": "b06-013",
+  "slide": 317,
+  "type": "mc",
+  "prompt": "Which statement about the German oil stockholding system is correct?",
+  "options": [
+   "The federal government holds the reserve; producing and importing companies are not involved.",
+   "The EBV levy is identical per cubic metre for petrol, diesel and kerosene.",
+   "The stockholding year runs from 1 January to 31 December and the required volume is recalculated every month.",
+   "The stockholding year runs from 1 April to 31 March, and the required volume is derived from the average net imports of the three preceding calendar years."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The stockholding period runs from 1 April of one year to 31 March of the following year, and the required 90-day volume is calculated from the average daily net imports of the three calendar years before it. The reserve is not held by the state but by the Erdoelbevorratungsverband, a body under public law whose mandatory members are all companies producing or importing the relevant products - which is why the third statement is wrong. The last statement is wrong because the levy is uniform per tonne (3,56 EUR/t) but differs per cubic metre (2,70 EUR/cbm for petrol, 3,00 EUR/cbm for diesel and light heating oil, 2,85 EUR/cbm for JET A-1), since the products have different densities."
+ },
+ {
+  "id": "b06-014",
+  "slide": 329,
+  "type": "open",
+  "prompt": "Contrast energy systems analysis with energy market analysis: whose perspective is taken, how are existing rules and regulations treated, and what is optimised in each case?",
+  "solution": "Energy systems analysis takes the perspective of a central planner. Existing rules and regulations - taxes, levies, support schemes - are deliberately not applied, because the question is what would be efficient for society and not what happens to be profitable under the current regime. The objective is typically cost minimisation, and typically long(er) planning periods of at least decades are included. The result is the least-cost combination of supply-side and demand-side infrastructures including transport that satisfies all relevant restrictions: the \"best solution for society\". Energy market analysis takes the perspective of an entrepreneur, a company or a private investor. Here existing rules and regulations are taken into account, because they determine the cash flows the investor actually sees. The objective is typically profit maximisation at various time horizons, and the result is the combination of supply infrastructures with the maximum profit: the \"best solution for investor\". The distinction matters because the two answers can diverge - an option that minimises system cost need not be profitable for any individual investor, and closing that gap is precisely the task of regulation and support schemes.",
+  "keywords": [
+   "central planner",
+   "not applied",
+   "cost minimisation",
+   "entrepreneur",
+   "profit maximisation",
+   "best solution for society"
+  ]
+ },
+ {
+  "id": "b06-015",
+  "slide": 329,
+  "type": "cloze",
+  "prompt": "Energy systems analysis takes the perspective of a ___, whereas energy market analysis takes the perspective of an entrepreneur.",
+  "accept": [
+   "central planner",
+   "central planer",
+   "zentraler Planer",
+   "social planner"
+  ],
+  "solution": "Central planner. That is why existing rules and regulations such as taxes are not applied in energy systems analysis and the target is cost minimisation for society, while the entrepreneurial view takes taxes and regulation as given and maximises profit."
+ },
+ {
+  "id": "b06-016",
+  "slide": 330,
+  "type": "open",
+  "prompt": "Which questions does energy systems analysis address in the short and mid term, which in the long term, and what is stated as its overall goal?",
+  "solution": "In the short and mid term, energy systems analysis optimises the operation of the existing system: the asset base is given and only the dispatch is chosen. For this a target has to be defined explicitly, and the lecture names cost minimisation, profit maximisation and emission minimisation as alternatives - the result depends entirely on which of them is chosen, which is why the target must always be stated with the result. In the long term the question changes: how does the energy system develop under certain assumptions and conditions, i.e. which capacities are built and decommissioned over a horizon of decades. On both horizons the overall goal is the same: to analyse and understand the interactions between system elements and to investigate cause-effect relations and causal chains. This is the essential point about what a model is for - it is not a prediction machine but an instrument for understanding why a result comes about, so that decisions can be supported in a structured way.",
+  "keywords": [
+   "optimises the operation",
+   "cost minimisation",
+   "emission minimisation",
+   "cause-effect relations",
+   "causal chains",
+   "decades"
+  ]
+ },
+ {
+  "id": "b06-017",
+  "slide": 331,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide summarises the macro perspective on today's energy sector. Name the two drivers that make a structural rearrangement necessary, four of the challenges that follow from them, and the options available to deal with them.",
+  "solution": "The two drivers at the top of the figure are the ambitious targets for the expansion of renewable energy sources (RES) and the decentralisation of energy systems; together they make a structural rearrangement of the system necessary. The challenges that follow are: avoiding capacity overloads despite an increasing regional imbalance between production and consumption (wind in the north, load in the south); power flow reversions and voltage stability problems in distribution grids, which were never designed for injection; an increasing share of market players that are not primarily driven by economic criteria, so that behavioural aspects have to be modelled; and, overarching all of them, maintaining security of supply and system stability. The options listed are grid expansion, the build-up of reserve capacities, increased export/import of electricity, storage technologies and/or demand response (DR) mechanisms, and injection management of RES generation, i.e. curtailment in times of 'excess' generation - illustrated by the small diagram in which the peak of the PV generation profile is cut off. The goal of energy systems analysis in this context is to provide structured support to guide decision processes in energy systems, in the political as well as in the entrepreneurial or individual context.",
+  "keywords": [
+   "renewable energy sources",
+   "decentralisation",
+   "voltage stability",
+   "behavioural aspects",
+   "demand response",
+   "grid expansion",
+   "security of supply"
+  ]
+ },
+ {
+  "id": "b06-018",
+  "slide": 333,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch and explain the triangle at the bottom right of the slide. Which three goals form its corners, why is there a question mark in the middle, and which factors have to be considered when analysing how the energy system will develop?",
+  "solution": "The triangle is the classical target triangle (Zieldreieck) of energy policy. Its corners are economic efficiency, security of supply and environmental compatibility. The question mark in the middle expresses that the three goals cannot be maximised simultaneously: every path from today's system to a future system trades them off against each other - cheap and secure tends to be dirty, clean and secure tends to be expensive - so the position inside the triangle is a political decision and not a model result. The arrow above the triangle makes the second point: both the future energy system and the path towards it are unknown, and even the point in time t at which it is reached is a question mark. The analysis of the likely development therefore has to consider energy technology developments, fossil resources and climate change, political, social and ecological conditions and goals, and sustainability ambitions; from these, energy concepts are developed under consideration of system aspects rather than for single technologies in isolation.",
+  "keywords": [
+   "economic efficiency",
+   "security of supply",
+   "environmental compatibility",
+   "target triangle",
+   "trades them off",
+   "path"
+  ]
+ },
+ {
+  "id": "b06-019",
+  "slide": 335,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide reduces every energy systems model to three elements A, B and C and attaches a learning objective to each. Name the three elements and state what you are expected to be able to do with each of them.",
+  "solution": "A is the model input, B is the modelling approach / algorithm and C is the model output. For A you should be able to name and apply methods for generating input in a structured way - this is the data side: load curves, fuel prices, installed capacities, scenario assumptions and the methods that produce them. For B you should be able to name, explain, categorise and apply methods and algorithms - that is the whole categorisation scheme bottom-up/top-down and optimisation/simulation, plus the ability to actually set up and solve a linear programme. For C you should be able to interpret results and draw conclusions to support decision making, which includes checking the results for plausibility and being explicit about the uncertainty attached to them. The chain input, algorithm, output is at the same time the structure of the course: an error in the input or a wrongly chosen algorithm cannot be repaired at the output stage, and a correct result that nobody can interpret does not support any decision.",
+  "keywords": [
+   "model input",
+   "modelling approach",
+   "model output",
+   "structured way",
+   "categorise",
+   "interpret results"
+  ]
+ },
+ {
+  "id": "b06-020",
+  "slide": 338,
+  "type": "open",
+  "prompt": "The lecturer states three learning objectives for this section. Name them, and answer the second one in full.",
+  "solution": "The three objectives are: understand the overall learning objectives of this course; be able to name and understand the key steps of a systems analysis; and understand the categorisation scheme for modelling approaches within energy systems analysis. The key steps of a systems analysis are eight. (1) Formulate the problem: identify and specify it precisely and define the target of the analysis. (2) Define the system and its boundaries and choose a model type. (3) Data collection, often the most time expensive step. (4) Model development and implementation, restricted to the characteristics essential for the problem. (5) Model validation, in particular backtesting against historical data. (6) Model application in scenario-based calculations. (7) Interpret results and draw conclusions. (8) Take the decision. The sequence is not strictly linear: if the validation shows that the model needs refinement, the process loops back to data collection and model development, and if the results are not plausible, the scenario assumptions or the model itself are revised before any decision is taken.",
+  "keywords": [
+   "formulate the problem",
+   "data collection",
+   "model validation",
+   "model application",
+   "take the decision",
+   "backtesting"
+  ]
+ },
+ {
+  "id": "b06-021",
+  "slide": 340,
+  "type": "open",
+  "prompt": "Define \"model\" as the lecture defines it and explain what is meant by the \"art of modelling\". Why can a model never be a copy of reality?",
+  "solution": "A model is a target-oriented, simplified representation of reality. Two ideas are contained in this definition: reduction of complexity and abstraction, i.e. the deliberate negligence of certain characteristics. A model can never be a copy of reality because such a copy would be as complex as reality itself and therefore useless for answering any question - the value of a model comes precisely from what it leaves out. That is why the lecture speaks of the art of modelling: neglecting the 'right' characteristics, namely exactly those that do not matter for the target of the analysis while keeping those that do. 'Target-oriented' is the operative word, because the same system is modelled quite differently depending on the question asked. The term itself is used differently across disciplines: in economic and natural sciences models are generally mathematical models, in medical science fifty mice become a 'mouse model' expressing the hope that the results are transferable, in computer science one speaks of a data model, and in engineering of laboratory models, for instance for observing hydraulic resistance.",
+  "keywords": [
+   "target-oriented",
+   "simplified representation of reality",
+   "reduction of complexity",
+   "abstraction",
+   "art of modelling",
+   "mathematical models"
+  ]
+ },
+ {
+  "id": "b06-022",
+  "slide": 340,
+  "type": "cloze",
+  "prompt": "In this lecture a model is defined as a target-oriented, simplified representation of ___.",
+  "accept": [
+   "reality",
+   "the reality",
+   "Realitaet",
+   "Wirklichkeit"
+  ],
+  "solution": "Reality. The two building blocks of the definition are reduction of complexity and abstraction; the art of modelling consists in neglecting the right characteristics, i.e. those that are irrelevant for the target of the analysis."
+ },
+ {
+  "id": "b06-023",
+  "slide": 341,
+  "type": "open",
+  "prompt": "Describe the first three steps of a systems analysis and name the typical pitfall of each.",
+  "solution": "Step 1, formulate the problem: identify and specify the problem precisely and define the target of the analysis. The pitfall is quoted on the slide (Cook et al. 1985): it is difficult to arrive at the right answer if you are working on the wrong problem - a technically perfect model of the wrong question is worthless. Step 2, define the system and its boundaries and choose a model type: describe the relevant parts and parameters, draw the system boundaries and then decide which model type fits the question. The pitfall is a boundary drawn too narrowly, so that the decisive feedback lies outside the model, or a model type that cannot answer the question at all. Step 3, data collection: often the most time expensive step of modelling a system. The pitfall here is the collection of unessential individual data, which increases the complexity of the problem without contributing to better decision support. Note the counter-intuitive remark on the slide: sometimes simplifications of reality are necessary on the input side in order to obtain model output that matches reality better - more input detail does not automatically produce a better result.",
+  "keywords": [
+   "formulate the problem",
+   "wrong problem",
+   "boundaries",
+   "most time expensive step",
+   "unessential individual data",
+   "simplifications of reality"
+  ]
+ },
+ {
+  "id": "b06-024",
+  "slide": 342,
+  "type": "mc",
+  "prompt": "Step 4 of a systems analysis is model development and implementation. Which requirement does the lecture formulate for this step?",
+  "options": [
+   "Restrict the modelling to the system characteristics that are essential to solve the problem - \"Don't model the whole world\".",
+   "Model the system as completely as possible so that no cause-effect relation can be lost.",
+   "Postpone the choice of the software environment until after the model has been validated.",
+   "Implement the model in a spreadsheet first and only later in a solver environment."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The rule is \"Don't model the whole world\": the modelling has to be restricted to those system characteristics that are essential for solving the problem, while still giving a realistic description of the functionality and of the cause-effect relations within the system. Modelling everything is the opposite error and produces a model that is neither solvable nor understandable, and whose results nobody can trace. The two statements about software are inventions: the slide explicitly makes the choice of an appropriate software environment part of step 4, not of a later stage, and says nothing about spreadsheets."
+ },
+ {
+  "id": "b06-025",
+  "slide": 343,
+  "type": "open",
+  "prompt": "How is an energy systems model validated? Name the procedures and the quantitative criteria mentioned in the lecture.",
+  "solution": "Validation asks whether the essential cause effect relations are represented correctly by the model. Two procedures are named. First, validation on the basis of a small test data set: it is efficient to check the mechanism on a case small enough to be verified by hand before the full model is run. Second, backtesting: the model is run on real historical system data - historical load and demand, fuel prices and so on, collected from official entities - and the question is whether history can be reconstructed or explained, and how closely. The criterion is quantitative: one calculates the mean absolute, mean relative or mean quadratic deviation between the model results and officially published data, for example the generation balance or the market prices. A model that cannot reproduce the past is not trustworthy for the future; the converse, however, does not hold, since a model can reproduce history for the wrong reasons, which is why the structural plausibility of the cause effect relations has to be checked as well.",
+  "keywords": [
+   "cause effect relations",
+   "small test data set",
+   "backtesting",
+   "historical",
+   "mean quadratic deviation",
+   "generation balance"
+  ]
+ },
+ {
+  "id": "b06-026",
+  "slide": 344,
+  "type": "open",
+  "prompt": "Describe steps 6 to 8 of a systems analysis and explain what happens if the model results turn out not to be plausible.",
+  "solution": "Step 6, model application: the model is used for scenario-based analyses of likely developments of the energy system. This means defining the scenarios to be investigated, identifying the crucial drivers and uncertainties, carrying out the scenario calculations and checking the results for plausibility. If implausibilities appear, the scenario assumptions or the model itself have to be refined iteratively - the process loops back instead of proceeding to the decision. Step 7, interpret results and draw conclusions: what do the model results mean for the decision to be taken, how shall they be used in the decision making process, and how are uncertainties and differing results in different scenarios to be handled. Step 8, take the decision - a management act, not a model output: the model supports the decision, it does not make it. The essential point of these three steps is that a scenario is not a forecast; several scenarios are calculated deliberately in order to show the bandwidth of possible developments and to make the influence of the crucial drivers visible.",
+  "keywords": [
+   "scenario-based",
+   "crucial drivers and uncertainties",
+   "plausibility",
+   "refined iteratively",
+   "take the decision",
+   "bandwidth"
+  ]
+ },
+ {
+  "id": "b06-027",
+  "slide": 345,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Draw the flow chart of a systems analysis as given on the slide (adapted from Kuell & Staehly), including the two feedback loops, and name the questions that have to be answered when the problem is formulated and the system is defined.",
+  "solution": "The chain of boxes from top to bottom is: formulate the problem, define the system, data collection, model development and implementation, model validation, model application, interpret results and draw conclusions, take decision. Two feedback loops break the linearity. The first, labelled 'model needs refinement', runs from model validation back to data collection and to model development and implementation: if the validation fails, either the data or the model structure is at fault. The second, labelled 'results are not plausible', runs from the application and interpretation stage back to data collection, so that implausible scenario results send the analyst back to the assumptions before any decision is taken. The questions attached to the first two boxes are: which shortcomings does the system to be investigated have? which system elements are objects of investigation and what are the system boundaries? what is the target of modelling? how are the model and its results used in the decision process? who will be using the model? which decision criteria shall be taken into account? The last three are the ones most often forgotten, and they are the reason why technically correct models are sometimes never used in practice.",
+  "keywords": [
+   "formulate the problem",
+   "model validation",
+   "model needs refinement",
+   "results are not plausible",
+   "system boundaries",
+   "decision criteria"
+  ]
+ },
+ {
+  "id": "b06-028",
+  "slide": 346,
+  "type": "mc",
+  "prompt": "Why are energy markets - and the electricity wholesale market in particular - comparatively well suited to model-based analysis?",
+  "options": [
+   "Because the electricity market is unregulated and therefore free of institutional constraints.",
+   "Because electricity is a homogeneous good, the production processes are well defined and data such as power plant efficiencies are comparatively well available.",
+   "Because the requirements of climate protection, security of supply and economic profitability all point in the same direction.",
+   "Because electricity demand is almost perfectly price elastic and therefore easy to describe."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Electricity is a homogeneous good - one MWh is like any other, so no product differentiation has to be modelled - the production processes are well defined and the data (installed capacities, efficiencies, fuel prices) are comparatively well available, which makes the modelling of the production system, especially for the wholesale market, comparatively 'easy'. Short-term electricity demand is in fact famously inelastic, and optimisation models are criticised precisely for ignoring the price sensitivity that does exist. The statement about the three requirements inverts the argument of the slide: climate protection, security of supply and economic profitability are numerous and partly conflicting requirements, and it is this complexity that necessitates structured decision support. And the sector is of course heavily regulated."
+ },
+ {
+  "id": "b06-029",
+  "slide": 348,
+  "type": "open",
+  "prompt": "Compare bottom-up and top-down approaches: what do they model, at which level of detail, in which units do they represent energy flows, and which model families are their typical representatives?",
+  "solution": "Bottom-up approaches are called \"energy process models\". They focus on the energy or the electricity sector, are disaggregated and work with a high level of detail: the technological details of energy conversion - individual plants, efficiencies, capacities - are modelled explicitly. Energy flows are modelled typically in energetic units such as MWh or PJ. Their typical representatives are optimisation models and simulation models. Top-down approaches are called \"energy economic models\". They model the interdependencies between the energy sector and the other sectors of the economy, are aggregated and have a low level of technological detail: energy conversion technologies are not represented explicitly. Energy flows are modelled typically in monetary units, i.e. as value flows between sectors. Their typical representatives are general equilibrium models and econometric models. The choice follows from the question: substitution between technologies and the level of electricity prices require bottom-up, employment and growth effects require top-down.",
+  "keywords": [
+   "energy process models",
+   "energy economic models",
+   "high level of detail",
+   "energetic units",
+   "monetary units",
+   "general equilibrium models"
+  ]
+ },
+ {
+  "id": "b06-030",
+  "slide": 348,
+  "type": "cloze",
+  "prompt": "Bottom-up models represent energy flows typically in energetic units, top-down models typically in ___ units.",
+  "accept": [
+   "monetary",
+   "monetary units",
+   "money",
+   "monetaer",
+   "monetaere"
+  ],
+  "solution": "Monetary. Top-down \"energy economic models\" describe the flows between sectors in money terms (input-output tables, value added), which is why they cannot represent individual technologies or technological progress, whereas bottom-up \"energy process models\" count MWh or PJ and can."
+ },
+ {
+  "id": "b06-031",
+  "slide": 350,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The slide contrasts the inputs and outputs of a top-down and a bottom-up model of the \"System Germany\". Which assignment is correct?",
+  "options": [
+   "Output: employment effects and economic growth - model type: bottom-up.",
+   "Input: input-output tables for the sectors and regions under consideration - model type: top-down.",
+   "Output: marginal costs of electricity supply - model type: top-down.",
+   "Input: installed capacities, efficiencies and locations of all power plants - model type: top-down."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Input-output tables for sectors and regions, i.e. historical macroeconomic accounts, are the typical input of a top-down model; its typical outputs are employment effects, economic growth, income distribution and energy or electricity demand. The bottom-up model is fed with the supply side (installed capacities, efficiencies and locations of all power plants, fuel prices) and the demand side (electrical load curves for every time step) and produces energy usage, the composition of electricity generation and the marginal costs of electricity supply. The other three options therefore all assign the item to the wrong family. Note in particular that electricity demand is an output of the top-down model but an input of the bottom-up model - which is exactly why the two families are sometimes coupled into hybrid models."
+ },
+ {
+  "id": "b06-032",
+  "slide": 351,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the categorisation scheme of energy systems models shown on the slide. Which branches belong to top-down, which to bottom-up, and what do the two arrows at the bottom of the figure express?",
+  "solution": "The root is 'energy models', which splits into top-down and bottom-up. Under top-down the figure lists econometric models, general equilibrium models, input/output models and system dynamics; under bottom-up partial equilibrium models, optimisation models and simulation models (including system dynamics, SD, and multi agent systems, MAS), with game theoretic models attached below. The grey bars link the branches to the scope: top-down answers cross-sectoral questions and covers the relevant sectors including energy, bottom-up answers sector specific questions and covers either the whole energy system ('all' pathways) or only electricity. The two arrows at the bottom are the two dimensions along which the families move in opposite directions: the sectoral and spatial model size, i.e. the system boundaries (multinational, national, regional), grows towards the top-down side, whereas the technological and temporal level of detail grows towards the bottom-up and electricity side. Highlighted in the lecture are the bottom-up optimisation and simulation models for the electricity sector, which is where the rest of the course operates. One inconsistency of the figure is worth noting: system dynamics appears both as a top-down branch and inside the bottom-up simulation box.",
+  "keywords": [
+   "top-down",
+   "bottom-up",
+   "cross-sectoral questions",
+   "sector specific questions",
+   "technological and temporal level of detail",
+   "system dynamics"
+  ]
+ },
+ {
+  "id": "b06-033",
+  "slide": 352,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Name two strengths and two weaknesses each of bottom-up and of top-down models, and explain why the weaknesses of the one are the strengths of the other.",
+  "solution": "Bottom-up strengths: individual technologies are modelled explicitly, which yields the substitution elasticities of energy carriers, and technological progress can be taken into account because a new technology simply enters as a new process. Bottom-up weaknesses: no consideration of interdependencies with other sectors and the macroeconomy, so impacts on growth or employment remain invisible; no consideration of behavioural aspects, because a rational cost-minimising actor is assumed; and a high demand for data. Top-down strengths: interdependencies with other sectors and the macroeconomy are considered, and behavioural aspects are implicitly contained through the use of historical data. Top-down weaknesses: the models including their elasticities are estimated on historical data, which gives them a limited suitability for long-term analyses, since structural breaks and technologies that did not exist in the past are not captured; there is no explicit modelling of technologies and therefore no consideration of technological progress; and a high demand for data, particularly for econometric models. The mirror image is no accident but follows directly from the level of aggregation: modelling every plant makes technology visible and the economy invisible, modelling the economy in monetary aggregates makes the feedback visible and technology invisible. The high demand for data is the one weakness both families share.",
+  "keywords": [
+   "substitution elasticities",
+   "technological progress",
+   "macroeconomy",
+   "behavioural aspects",
+   "historical data",
+   "high demand for data"
+  ]
+ },
+ {
+  "id": "b06-034",
+  "slide": 353,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "A ministry wants to know how a nuclear phase-out affects employment and economic growth. Which model type does the lecture recommend for this question?",
+  "options": [
+   "A top-down model that captures macroeconomic feedback",
+   "A simulation model of the day-ahead auction",
+   "A bottom-up model of the energy sector covering the sectors beyond electricity",
+   "A bottom-up model of the electricity sector with a high technological and temporal level of detail"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Employment and economic growth are macroeconomic quantities, so only a top-down model with macroeconomic feedback can answer the question. The table on the slide assigns the other two question types as follows: the substitution of energy carriers in electricity generation and the level and structure of electricity prices call for a bottom-up model of the electricity sector with a high technological and temporal level of detail; climate change mitigation questions such as the achievability of carbon reduction targets on EU level or carbon abatement costs call for a bottom-up model of the whole energy sector, i.e. one that also covers heat, transport and industry. A simulation model of the day-ahead auction answers neither - it describes market behaviour, not macroeconomics."
+ },
+ {
+  "id": "b06-035",
+  "slide": 356,
+  "type": "open",
+  "prompt": "What characterises an optimisation model and what task does it perform? Give three examples of classical optimisation problems named in the lecture.",
+  "solution": "An optimisation model searches for an optimal decision under consideration of constraints. It is applicable to quantifiable issues with multiple choices, and the task is: gathering all possible alternatives and choosing the best alternative corresponding to a quality criterion such as cost or time. The two ingredients are therefore the quality criterion, formalised as the objective function, and the constraints that decide which alternatives are admissible at all - without constraints the problem is usually unbounded, without an objective there is nothing to choose between feasible points. Classical examples named in the lecture are the scheduling of projects (e.g. the shortest duration of the project), production planning (j raw materials, m machinery and i goods, maximise the profit), the traveling salesman problem and the Chinese postman problem. In the power sector the direct analogue of the production planning example is the cost-minimal dispatch of a plant portfolio under the load coverage constraint, which is exactly the exercise of this chapter.",
+  "keywords": [
+   "optimal decision",
+   "constraints",
+   "quality criterion",
+   "traveling salesman problem",
+   "production planning",
+   "objective function"
+  ]
+ },
+ {
+  "id": "b06-036",
+  "slide": 357,
+  "type": "cloze",
+  "prompt": "The lecture distinguishes linear, (mixed) integer, nonlinear, dynamic and ___ optimisation problems.",
+  "accept": [
+   "stochastic",
+   "stochastic optimisation",
+   "stochastisch",
+   "stochastische"
+  ],
+  "solution": "Stochastic. In a stochastic optimisation problem the parameters are not known with certainty but described by probability distributions - a wind feed-in profile or a future fuel price, for instance - and the solution optimises the expected value of the objective across the scenarios instead of one deterministic path."
+ },
+ {
+  "id": "b06-037",
+  "slide": 358,
+  "type": "open",
+  "prompt": "Define simulation as the lecture defines it, name the types of simulation, and explain the difference between the model and the simulation.",
+  "solution": "VDI 3633 defines simulation as the emulation of a dynamic process in a system with the aid of a model capable of experimenting, in order to gain knowledge which can be transferred to reality; Banks et al. (2001) put it more briefly as the imitation of the operation of a real-world process or system over time. Both definitions contain the two decisive words: dynamic and over time. The types named are laboratory experiments (e.g. in medical science), physical simulation (e.g. crash tests in the automotive industry) and computer simulation. The distinction between model and simulation is the key point: the model represents the system itself - its key characteristics and behaviours and the interactions between the selected physical or abstract systems, processes or actors - whereas the simulation represents the operation of the system over time. Developing a model is therefore the prerequisite for simulating anything, and the underlying assumption is that the model behaves like the real system with respect to the examined variables. Unlike an optimisation model a simulation does not select a best alternative; it reproduces what happens if the actors behave as specified, which is why its result depends entirely on the behavioural rules and the calibration.",
+  "keywords": [
+   "dynamic process",
+   "capable of experimenting",
+   "over time",
+   "computer simulation",
+   "the model represents the system",
+   "examined variables"
+  ]
+ },
+ {
+  "id": "b06-038",
+  "slide": 360,
+  "type": "open",
+  "prompt": "Compare optimisation and simulation models with respect to their advantages and disadvantages, and say which of the two you would choose to analyse a decentralised system with price-sensitive households.",
+  "solution": "Optimisation models: the advantage is that they calculate an optimal system development - the model always converges to a system optimum, so the result is a benchmark of what would be possible. The disadvantages are a decreasing realism as the energy transition proceeds, because developments in distributed energy systems are not considered or are strongly simplified (usually no consideration of the price sensitivity of electricity demand), and the fact that they are computationally expensive. Simulation models: the advantage is that they describe the behaviour of individual market players more realistically, including non-rational and non-economic behaviour, which makes them better suited to describing the effects of the energy transition and to analysing developments in distributed energy systems - the consideration of price elasticity is easily possible - and they are computationally inexpensive. Their disadvantages are a strong dependence on model calibration and input and the fact that they provide no information on the system optimum, since there is no assurance of convergence. For a decentralised system with price-sensitive households the simulation model is the right choice, because exactly the two features that matter - individual, partly non-economic behaviour and price elasticity - are the ones the optimisation model cannot represent. The price to pay is that the result is one plausible outcome and not the optimum.",
+  "keywords": [
+   "system optimum",
+   "computationally expensive",
+   "non-rational",
+   "price elasticity",
+   "computationally inexpensive",
+   "model calibration"
+  ]
+ },
+ {
+  "id": "b06-039",
+  "slide": 366,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Two products P1 and P2 are produced on the same two machines I and II; the table gives the maximum weekly output of each product on each machine. Derive the two capacity constraints of the linear programme from this table and explain the reasoning.",
+  "solution": "The table says that machine I could produce 8 t/week of P1 or 8 t/week of P2, and machine II 10 t/week of P1 or 5 t/week of P2. Each figure is the maximum for the case that the machine makes only that one product, so one tonne of P1 uses 1/8 of the weekly capacity of machine I and 1/10 of that of machine II, while one tonne of P2 uses 1/8 of machine I and 1/5 of machine II. Adding the capacity shares and requiring that they do not exceed the full week gives for machine I: x1/8 + x2/8 <= 1, i.e. x1 + x2 <= 8. For machine II: x1/10 + x2/5 <= 1, multiplied by 10, i.e. x1 + 2x2 <= 10. Together with the non-negativity condition x1 >= 0, x2 >= 0 these are the constraints of the programme. The interpretation of the coefficients is worth noting: in machine II a tonne of P2 costs twice as much capacity as a tonne of P1, which is why machine II and not machine I becomes the restriction that limits the production of the more profitable product P2.",
+  "keywords": [
+   "8 t/week",
+   "x1 + x2 <= 8",
+   "x1 + 2x2 <= 10",
+   "non-negativity",
+   "machine II"
+  ]
+ },
+ {
+  "id": "b06-040",
+  "slide": 367,
+  "type": "open",
+  "graphic": true,
+  "prompt": "With contribution margins of 2 EUR/t for P1 and 3 EUR/t for P2, write down the complete linear programme of the example and explain why the feasible region is a convex polyhedron.",
+  "solution": "Objective function: maximise 2x1 + 3x2, the total contribution margin in EUR/week. Constraints: machine I: x1 + x2 <= 8; machine II: x1 + 2x2 <= 10; non-negativity condition: x1 >= 0 and x2 >= 0. All constraints are linear inequalities, so each of them cuts the plane along a straight line and admits the half-plane on one side of it. The feasible region is the intersection of finitely many half-planes; such an intersection is convex by construction - if two points satisfy all inequalities, then so does every point on the straight line between them - and it is bounded by straight edges, i.e. it is a convex polyhedron, here the polygon with the vertices (0|0), (8|0), (6|2) and (0|5). Convexity is what makes linear programmes easy: there are no local optima that are not global, and the optimum can always be found in a vertex, which is exactly the property the simplex algorithm exploits.",
+  "keywords": [
+   "2x1 + 3x2",
+   "half-planes",
+   "convex polyhedron",
+   "vertex",
+   "global"
+  ]
+ },
+ {
+  "id": "b06-041",
+  "slide": 368,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Solve the example graphically: how do you find the optimum with the objective function line, where does it lie, and what are the optimal quantities and the optimal objective value?",
+  "solution": "The feasible region Z is the shaded polygon bounded by the lines x1 + x2 = 8 and x1 + 2x2 = 10 and by the two axes. The objective function 2x1 + 3x2 = const. is a family of parallel straight lines; the objective value increases as this line is shifted in parallel away from the origin, so the optimum is the last point of Z that the line still touches at the maximum parallel shift. Here that point is the intersection of the two constraint lines x1 + x2 = 8 and x1 + 2x2 = 10. Solving: subtracting the first equation from the second gives x2* = 2, and inserting this into x1 + x2 = 8 gives x1* = 6. The optimal objective value is 2*6 + 3*2 = 18 EUR/week. In this point both machines are fully utilised (machine I: 6 + 2 = 8; machine II: 6 + 2*2 = 10), i.e. both constraints are binding - which is why the optimum sits on a vertex where two restrictions intersect. The check on the other vertices confirms it: (8|0) yields 16, (0|5) yields 15 and (0|0) yields 0, all less than 18.",
+  "keywords": [
+   "parallel shift",
+   "x2* = 2",
+   "x1* = 6",
+   "18 EUR/week",
+   "binding"
+  ]
+ },
+ {
+  "id": "b06-042",
+  "slide": 368,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Where does the optimum of a linear programme with a bounded, non-empty feasible region always lie?",
+  "options": [
+   "In the centre of gravity of the feasible region",
+   "In at least one vertex of the convex polyhedron formed by the constraints",
+   "In the interior of the feasible region, where the gradient of the objective function vanishes",
+   "In the point in which all constraints are satisfied with equality, irrespective of the objective function"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "For a linear objective function the optimum always lies in at least one vertex of the convex polyhedron. If the objective line happens to be parallel to a binding constraint, a whole edge is optimal - but then its two end vertices are optimal as well, so the statement still holds. This is precisely why the simplex algorithm only has to search vertices instead of the whole region. An interior optimum is impossible because a linear objective has a constant, non-vanishing gradient. Requiring all constraints to hold with equality confuses feasibility with optimality: in this example the point where both machine constraints are tight happens to be optimal, but only because the objective points that way - with the objective 3x1 + x2 the optimum would move to the vertex (8|0). The centre of gravity has no role at all in linear optimisation."
+ },
+ {
+  "id": "b06-043",
+  "slide": 369,
+  "type": "cloze",
+  "prompt": "Linear programmes in the standard form c^T x -> max., Ax <= b, x >= 0 are typically solved by the ___ algorithm or by variations of it.",
+  "accept": [
+   "simplex",
+   "Simplex",
+   "simplex algorithm",
+   "simplex method",
+   "Simplex-Algorithmus"
+  ],
+  "solution": "Simplex. The simplex algorithm walks from vertex to vertex of the feasible polyhedron, always to an adjacent vertex with a better objective value, until no further improvement is possible - which is sufficient because the optimum of a linear programme is always attained in a vertex. Commercial solvers and modelling environments such as GAMS implement it, together with interior-point variants, for problems with millions of variables."
+ },
+ {
+  "id": "b06-044",
+  "slide": 370,
+  "type": "open",
+  "prompt": "Define an optimisation problem in the sense of Operations Research and clear up the two common misunderstandings the lecture warns about.",
+  "solution": "In Operations Research, optimisation is the selection of a best element - with regard to an optimisation objective - from some set of discrete or continuous alternatives. In the simplest case it means maximising or minimising a real function by systematically choosing input values, the optimisation variables, from within an allowed set, the solution space determined by the optimisation parameters, and computing the value of the objective function. First misunderstanding: parameters can vary, e.g. over time, but this does not make them variables. The profile of available wind generation changes every hour and is still a parameter, because it is given to the model from outside; a variable is a quantity the model itself decides, for instance how much a plant generates in a given hour. Second misunderstanding: the objective function of an energy systems model is not the same thing as the objectives or goals of energy systems analysis. The objective function is a technical device such as \"minimise total system costs\", whereas the goal of the analysis is to understand cause-effect relations and to support a decision. Confusing the two leads to the false claim that a model \"says\" what ought to be done.",
+  "keywords": [
+   "best element",
+   "optimisation variables",
+   "solution space",
+   "parameters",
+   "objective function",
+   "wind generation"
+  ]
+ },
+ {
+  "id": "b06-045",
+  "slide": 370,
+  "type": "cloze",
+  "prompt": "The allowed set from which the optimisation variables may be chosen, delimited by the optimisation parameters, is called the ___.",
+  "accept": [
+   "solution space",
+   "feasible region",
+   "feasible set",
+   "Loesungsraum",
+   "solution area"
+  ],
+  "solution": "Solution space. It is spanned by the constraints. The optimisation variables are the quantities the model decides; the optimisation parameters (fuel prices, wind profiles, capacities) are given from outside and merely delimit that space - and a parameter that varies over time is still a parameter, not a variable."
+ },
+ {
+  "id": "b06-046",
+  "slide": 371,
+  "type": "open",
+  "prompt": "This slide states the learning objectives of the chapter on optimal unit commitment. Name them, and answer the first one: which energy market is mainly addressed by fundamental power systems models, and why?",
+  "solution": "The objectives are: understand which energy market(s) are mainly addressed by fundamental power systems models; understand marginal cost bidding and the merit order principle and their relation to (linear) optimisation; be able to name the most important components of the variable power generation costs of a conventional thermal power plant; be able to explain the relation between the variable costs of a single producer and the system marginal costs in the context of linear optimisation including different constraints; and be able to apply the merit order principle, i.e. cost minimal load coverage by existing assets, in an exercise. The answer to the first objective: fundamental models mainly address the wholesale electricity market, and within it above all the day-ahead spot market. The reason is that this is where the merit order actually determines the price - producers bid their short-run marginal costs, the market is cleared centrally in an auction, electricity is a homogeneous good and the necessary data (capacities, efficiencies, fuel and CO2 prices) are available. Retail markets are dominated by taxes, levies and grid fees and futures markets by expectations and risk premia, so neither is reproduced by a fundamental cost model.",
+  "keywords": [
+   "wholesale electricity market",
+   "day-ahead",
+   "merit order principle",
+   "marginal cost bidding",
+   "homogeneous good",
+   "cost minimal load coverage"
+  ]
+ },
+ {
+  "id": "b06-047",
+  "slide": 373,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Draw the typical value chain of the electricity industry and mark which market covers which part of it. What changes in this picture with renewables and prosumers?",
+  "solution": "The chain from left to right is: extraction of gas, oil, coal and uranium, then conventional power generation - with renewable power generation entering in parallel at the same stage - then energy trading and optimisation (supply, transportation, storage) together with transmission, then sales and distribution, and finally the end consumers. The markets span it as follows: the world markets for coal, oil and gas cover extraction and generation; the European emission market and the wholesale electricity market (e.g. Germany) cover generation, trading and transmission; the ancillary service markets sit alongside them at the generation and transmission level; and the retail market for electricity covers sales, distribution and the end consumer. Renewables change the picture in two ways. First, they have no fuel extraction stage at all, so the left end of the chain simply disappears for them and with it the exposure to world fuel markets. Second, the arrow at the bottom of the slide shows that the energy flow is no longer one-directional: future energy flows also run from the end consumer back into the distribution grid, which is what turns consumers into prosumers and forces distribution grids to cope with reversed power flows.",
+  "keywords": [
+   "extraction",
+   "conventional power generation",
+   "energy trading",
+   "transmission",
+   "wholesale electricity market",
+   "ancillary service markets",
+   "prosumers"
+  ]
+ },
+ {
+  "id": "b06-048",
+  "slide": 374,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The slide classifies the markets relevant for a power trading floor spatially into world markets, European markets and national markets. Which assignment is correct?",
+  "options": [
+   "Power markets are world markets, because electricity is traded across continents.",
+   "The currency market is a national market, because every country has its own currency.",
+   "The CO2 market is a European market, while coal, oil, gas and currencies are traded on world markets.",
+   "The gas market is a purely national market and the CO2 market a world market."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The CO2 market is European: the EU ETS is a European system with a single allowance price, not a global one. Coal, oil, gas and currencies are world markets - they are priced globally and arbitraged between regions, and gas has become considerably more global through LNG even though regional price differences persist. Power markets belong to the national market and foreign trade level in the figure: electricity is traded within a country and with its neighbours across interconnectors, but it cannot be shipped between continents, which is why national wholesale prices can differ strongly. The point of the classification is that a trader on a power trading floor is exposed to all three levels simultaneously - a global fuel price, a European CO2 price and a national power price - and a fundamental model has to reflect exactly this."
+ },
+ {
+  "id": "b06-049",
+  "slide": 375,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Classify the German power markets temporally: name the segments in the order in which they are used before delivery, give their time horizons and say what each of them is used for.",
+  "solution": "The sequence towards real time is: futures market, spot market day-ahead, spot market intraday, reserve markets, real time. The futures market covers roughly one week to five years ahead and serves the mid- and long-term balancing and hedging of supply and demand, i.e. risk management; it fixes prices rather than physical delivery. The spot market (day-ahead) is the short-term optimisation of the supply and demand portfolios: the central auction in which the merit order determines the price for every hour of the following day. The intraday market allows trading after the closure of the day-ahead market, in Germany up to about 5 minutes before delivery; it is used when forecasts deviate on the demand or the supply side - particularly for RES generation - or when a power plant fails unplanned. The reserve markets are different in kind: they are option-like products sold in a preceding auction, in which the grid operators procure primary, secondary and tertiary (minute) reserve in order to maintain system stability; under German regulation the grid operators have to publish a call for bids and acquire reserve capacity and reserve energy on these markets. The logic behind the sequence is that uncertainty falls as delivery approaches, so the portfolio is refined in ever shorter steps, and whatever imbalance is left in real time is covered by reserve contracted long beforehand.",
+  "keywords": [
+   "futures market",
+   "day-ahead",
+   "intraday",
+   "5 minutes before delivery",
+   "reserve markets",
+   "risk management",
+   "secondary"
+  ]
+ },
+ {
+  "id": "b06-050",
+  "slide": 375,
+  "type": "cloze",
+  "prompt": "Trading after the closure of the day-ahead market, up to a few minutes before delivery, takes place on the ___ market.",
+  "accept": [
+   "intraday",
+   "intra-day",
+   "Intraday",
+   "intraday market"
+  ],
+  "solution": "Intraday. It is used above all when forecasts deviate - particularly for renewable generation - or when a power plant fails unplanned, and in Germany it runs until about 5 minutes before delivery."
+ },
+ {
+  "id": "b06-051",
+  "slide": 376,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The pie chart breaks down the average German household electricity price of 29,38 Cent/kWh (BNetzA 2013). Name the components with their shares and explain what this composition means for the effect of the wholesale price on the household bill.",
+  "solution": "The components of the 29,38 Cent/kWh average household price are: production 21 %, sales 8 %, use-of-system charges 20 %, taxes 23 %, state dues including the EEG and the cogeneration act 26 %, and charges for billing and measurement 2 %. Only the production share of 21 % is the wholesale market power price; sales adds the supplier's own cost and margin. The consequence is that the household price is dominated by regulated and political components: taxes plus state dues alone make up 49 %, and together with the regulated grid fees roughly 69 % of the bill is not set on any market. A change in the wholesale price therefore reaches the household strongly damped - a fall of 20 % in the wholesale price moves the end price by only about 4 % - which is the standard explanation for household prices in Germany rising while spot prices fell. It also shows the limits of fundamental models: they explain the wholesale price, i.e. one fifth of what the household actually pays.",
+  "keywords": [
+   "29,38 Cent/kWh",
+   "21 %",
+   "use-of-system charges",
+   "26 %",
+   "grid fees",
+   "wholesale price"
+  ]
+ },
+ {
+  "id": "b06-052",
+  "slide": 377,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The bar chart shows the German household electricity price from 2012 to 2023, split into procurement and distribution, grid fee/metering/billing, and taxes, duties and levies. Describe the development and explain what happened in 2022/23.",
+  "solution": "Between 2012 and 2021 the price rises moderately, from 25,89 ct/kWh to 32,16 ct/kWh, i.e. by roughly a quarter in ten years, and almost the whole increase comes from the block taxes, duties and levies, which climbs from 11,59 to 16,43 ct/kWh. The procurement and distribution component actually falls in this period, from 8,16 ct/kWh in 2012 to 5,71 ct/kWh in 2017, and only recovers afterwards. Then the picture changes completely: 37,07 ct/kWh in the first half of 2022, 40,07 ct/kWh in the second half and 46,27 ct/kWh in 2023. The driver is now the procurement component, which explodes from 7,93 ct/kWh in 2021 to 24,28 ct/kWh in 2023 - roughly a tripling caused by the gas price crisis following the Russian invasion of Ukraine, which fed through the merit order into the power price because gas plants set the price in most hours. At the same time the tax and levy block falls from 16,43 to 12,47 ct/kWh, because the EEG levy was abolished in mid-2022; this political relief offset only a small part of the market-driven increase. The lesson is that the wholesale price is normally the smaller and calmer part of the household bill but becomes the dominant one in a supply crisis.",
+  "keywords": [
+   "25,89",
+   "46,27",
+   "taxes, duties and levies",
+   "24,28",
+   "EEG levy",
+   "procurement"
+  ]
+ },
+ {
+  "id": "b06-053",
+  "slide": 379,
+  "type": "open",
+  "prompt": "Fundamental optimisation models for power systems distinguish two basic situations. Name them, state the target function used in each, and explain why the optimal expansion option from a systems perspective need not be profitable for an investor.",
+  "solution": "Situation one, enough capacity is available: the existing plant park can cover the load, so only the dispatch has to be decided. The suppliers make their bids according to their (short-run) marginal costs, and the usual target function of a systems model is the minimisation of the total system's costs under the hard constraint of load coverage. Situation two, new capacity is needed: demand grows and/or old power plants reach the end of their lifetime. From a systems perspective the 'optimal' capacity expansion option is chosen from a set of alternative options, and 'optimal' typically means the candidate that contributes most to minimising the system expenses - a macroeconomic approach. The two views do not coincide automatically. The systems model minimises total costs for society and ignores taxes, levies and market design, whereas the investor earns market revenues minus his own costs. A plant can lower total system costs and still fail to recover its fixed costs at the prices that result: the classic cases are a peaking unit that is needed in a few hours only and earns nothing but a scarcity margin, and a capital-intensive plant with low marginal costs that depresses the very price it has to earn. Therefore it cannot be concluded that the optimal expansion option from a systems perspective will be economically profitable from an entrepreneurial perspective - which is exactly the gap that capacity mechanisms and support schemes try to close.",
+  "keywords": [
+   "short-run",
+   "marginal costs",
+   "load coverage",
+   "system expenses",
+   "macroeconomic approach",
+   "entrepreneurial perspective"
+  ]
+ },
+ {
+  "id": "b06-054",
+  "slide": 380,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Calculate the variable generation costs of the hard coal plant on the slide step by step: efficiency 40 %, heating value of ARA coal 25 GJ/t, coal price 100 EUR/t, logistic costs 10 EUR/t, specific CO2 emissions 0,35 t CO2/MWh_th at a CO2 price of 10 EUR/t CO2, auxiliary variable costs 2,00 EUR/MWh_el. What does the result mean for the bidding behaviour of the plant?",
+  "solution": "First convert the heating value: 25 GJ/t divided by 3,6 GJ/MWh gives 6,944 MWh_th/t. Fuel costs: 100 EUR/t divided by 6,944 MWh_th/t = 14,4 EUR/MWh_th; divided by the efficiency of 0,40 this becomes 36,00 EUR/MWh_el. Logistic costs: 10 EUR/t divided by 6,944 MWh_th/t = 1,44 EUR/MWh_th, divided by 0,40 gives 3,60 EUR/MWh_el. CO2 costs: 0,35 t CO2/MWh_th times 10 EUR/t CO2 = 3,50 EUR/MWh_th, divided by 0,40 gives 8,75 EUR/MWh_el. The auxiliary variable costs (e.g. limestone for the flue gas desulphurisation) are already given per electrical unit: 2,00 EUR/MWh_el. Sum: 36,00 + 3,60 + 8,75 + 2,00 = 50,35 EUR/MWh_el. Two things about the method have to be remembered: every thermal cost item must be divided by the efficiency to become an electrical one, and the auxiliary costs must not be divided again because they are already electrical. The meaning: these variable costs are the bid price of the power plant. Under profit maximisation the plant produces whenever the market price is higher than its variable costs - in the EEX day curve on the slide only in those hours in which the spot price lies above the 50 EUR/MWh line, roughly the late morning and the early evening peak. Fixed costs play no role in this decision because they are sunk in the short run.",
+  "keywords": [
+   "6,944 MWh_th/t",
+   "14,4 EUR/MWh_th",
+   "36,00 EUR/MWh_el",
+   "8,75 EUR/MWh_el",
+   "50,35 EUR/MWh_el",
+   "bid price"
+  ]
+ },
+ {
+  "id": "b06-055",
+  "slide": 380,
+  "type": "open",
+  "prompt": "Take the same hard coal plant (efficiency 40 %, heating value 6,944 MWh_th/t, 0,35 t CO2/MWh_th, logistic costs 10 EUR/t, auxiliary costs 2,00 EUR/MWh_el) and recalculate its variable costs for a coal price of 120 EUR/t and a CO2 price of 80 EUR/t CO2. By how much do the variable costs change, and which of the two price increases hurts more?",
+  "solution": "Fuel: 120 EUR/t divided by 6,944 MWh_th/t = 17,28 EUR/MWh_th; divided by 0,40 gives 43,20 EUR/MWh_el instead of 36,00. Logistics unchanged: 10 EUR/t divided by 6,944 MWh_th/t = 1,44 EUR/MWh_th; divided by 0,40 gives 3,60 EUR/MWh_el. CO2: 0,35 t CO2/MWh_th times 80 EUR/t CO2 = 28,00 EUR/MWh_th; divided by 0,40 gives 70,00 EUR/MWh_el instead of 8,75. Auxiliary: 2,00 EUR/MWh_el. Total: 43,20 + 3,60 + 70,00 + 2,00 = 118,80 EUR/MWh_el, against 50,35 EUR/MWh_el in the original example - the variable costs more than double, they rise by 68,45 EUR/MWh_el. The CO2 price is by far the stronger lever: raising it from 10 to 80 EUR/t adds 61,25 EUR/MWh_el, whereas the 20 % higher coal price adds only 7,20 EUR/MWh_el. The reason follows from the structure of the formula: every euro per tonne of CO2 costs this plant 0,35/0,40 = 0,875 EUR/MWh_el, and this factor is the larger the dirtier and the less efficient the plant is. That is why a rising CO2 price does not shift the merit order uniformly but rotates it, and eventually pushes hard coal behind the cleaner and more efficient gas units.",
+  "keywords": [
+   "43,20 EUR/MWh_el",
+   "70,00 EUR/MWh_el",
+   "118,80 EUR/MWh_el",
+   "0,875",
+   "merit order"
+  ]
+ },
+ {
+  "id": "b06-056",
+  "slide": 380,
+  "type": "cloze",
+  "prompt": "A heating value of 25 GJ/t for ARA hard coal corresponds to ___ MWh_th per tonne.",
+  "accept": [
+   "6,944",
+   "6.944",
+   "6,944 MWh",
+   "6,94",
+   "6.94"
+  ],
+  "solution": "6,944 MWh_th/t, obtained by dividing 25 GJ/t by 3,6 GJ/MWh. This conversion is the first step of every variable cost calculation: a coal price in EUR/t only becomes a EUR/MWh_th figure after division by the heating value, and only after a further division by the efficiency does it become a EUR/MWh_el figure."
+ },
+ {
+  "id": "b06-057",
+  "slide": 381,
+  "type": "cloze",
+  "prompt": "In a competitive market a supplier adjusts his output until marginal costs equal the market price; therefore a price-taker's supply curve is identical to his ___ curve.",
+  "accept": [
+   "marginal cost",
+   "marginal costs",
+   "marginal-cost",
+   "Grenzkosten",
+   "Grenzkostenkurve"
+  ],
+  "solution": "Marginal cost. Because a price taker cannot influence the price, he increases his output as long as the price exceeds his marginal costs and stops when the two are equal - so his optimal quantity for any given price is read off the marginal cost curve, and offering electricity at marginal costs is the profit-maximising bid. This is the theoretical justification of marginal cost bidding, and it is the reason why the rules of a central day-ahead auction should be informed by a coherent theory of marginal costs."
+ },
+ {
+  "id": "b06-058",
+  "slide": 382,
+  "type": "open",
+  "prompt": "Distinguish the marginal costs of an individual generator from the system marginal costs. What does each of them mean, when do they coincide, and which warning does the lecture add for mixed integer problems?",
+  "solution": "Marginal costs in general are the change in total costs that arises when the quantity produced is incremented by one unit, e.g. one MWh of electricity; at different production levels they include any additional cost required to produce that one more unit. For an individual generator, marginal costs are the costs of producing one more MWh_el; assuming a constant efficiency they are equal to the plant's variable costs - fuel, logistics, CO2 and auxiliary costs - which is why the variable cost calculation is at the same time a marginal cost calculation and why the plant bids exactly this figure. The system marginal costs are the lowest costs of producing one more MWh_el from the perspective of the system, i.e. the variable costs of the cheapest generator that can still produce one more unit. In a purely linear problem with free capacity the two coincide for one particular plant, the marginal plant: its variable costs are at the same time the system marginal costs and the market price. The warning concerns mixed integer linear programmes (MILPs): where start-up decisions, minimum load and block sizes are modelled with binary variables, the system marginal costs are often not equal to the marginal costs of the most expensive generator needed to cover demand. One extra MWh may force a whole unit to start up, or it may make a cheaper commitment feasible, so the true system marginal cost can lie above or below the bid of the last plant - which is why real markets need uplift payments in addition to a uniform clearing price.",
+  "keywords": [
+   "change in total costs",
+   "variable costs",
+   "cheapest generator",
+   "system marginal costs",
+   "mixed integer linear programmes",
+   "minimum load"
+  ]
+ },
+ {
+  "id": "b06-059",
+  "slide": 382,
+  "type": "mc",
+  "prompt": "Why can the system marginal costs in a mixed integer linear programme differ from the variable costs of the most expensive plant needed to cover the load?",
+  "options": [
+   "Because in a MILP the objective function is no longer cost minimisation.",
+   "Because a MILP works in monetary instead of energetic units.",
+   "Because in a MILP the load coverage constraint is only a soft constraint.",
+   "Because integer decisions such as start-ups, block commitment and minimum load make the cost of one additional MWh depend on discrete changes in the unit commitment."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The reason is the integer part of the problem. With binary start-up, block and minimum-load decisions the cost of one additional MWh is no longer simply the variable cost of one plant: the extra unit may trigger the start-up of a whole block, or it may render a different, cheaper commitment feasible, so the dual value loses its simple interpretation and the system marginal cost can lie above or below the bid of the most expensive dispatched plant. The objective is still cost minimisation, so the first option is wrong. Monetary versus energetic units is the top-down/bottom-up distinction and has nothing to do with it. And load coverage remains a hard constraint - it is precisely the shadow price of that hard constraint which would be the system marginal cost in the purely linear case."
+ },
+ {
+  "id": "b06-060",
+  "slide": 383,
+  "type": "mc",
+  "prompt": "Which two cost components does the lecture call the \"typical linear variable costs\" that enter a bid on a liberalised wholesale spot market?",
+  "options": [
+   "Load change costs and minimum load requirements",
+   "Operating costs and fuel costs",
+   "Fuel costs and capital costs",
+   "Start-up costs and shut-down costs"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Operating costs and fuel costs are the typical linear variable costs: they scale proportionally with the generated MWh and can therefore be written as a single EUR/MWh figure in a linear programme. The other items on the slide - load change costs, start-up/ramp-up costs, shut-down costs, heat production in CHP and minimum load requirements - do influence a real bid, but they are not linear in output: they depend on discrete decisions or on the operating history, which is exactly why they require integer variables and turn the dispatch problem into a MILP. Capital costs do not belong in a short-run bid at all, because they are fixed and sunk; including them would make the plant withhold capacity that is profitable to run."
+ },
+ {
+  "id": "b06-061",
+  "slide": 384,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the merit order principle with the help of the figure. In which order are the technologies called, what determines the market price in a given hour, and what happens to the price between hour 1 and hour 9?",
+  "solution": "The figure plots the available capacity of the plant park, sorted by variable production costs, against those costs: nuclear first at roughly 10 EUR/MWh, then lignite at about 29 EUR/MWh, hard coal at about 41 EUR/MWh, CCGT at about 60 EUR/MWh and finally the OCGT peaking units above 90 EUR/MWh. This ordered supply curve is the merit order. All producers bid on the basis of their variable production costs, and the plants are called from left to right until the system load of the hour is covered, so that the load is covered while minimising the system expenses. The last plant needed - the marginal power plant - sets the market price for that hour, and every cheaper plant earns the difference between price and its own variable costs as a contribution towards its fixed costs. The three vertical lines show the effect: in hour 1 the load is low and reaches only into the lignite block, so the price is about 29 EUR/MWh; in hour 7 it reaches into hard coal, giving about 41 EUR/MWh; in hour 9 the load is highest and reaches into the CCGT block, giving about 60 EUR/MWh. The price therefore roughly doubles between hour 1 and hour 9 although no plant changed its costs - only the point at which demand cuts the supply curve moved. Two further consequences are stated on the slide: fuel and CO2 prices determine the merit order, so a change in them can reorder the blocks (fuel switch), and in a fully competitive environment the minimisation of system expenses and the maximisation of company profits lead to the same dispatch.",
+  "keywords": [
+   "variable production costs",
+   "marginal power plant",
+   "sets the market price",
+   "lignite",
+   "CCGT",
+   "fuel switch"
+  ]
+ },
+ {
+  "id": "b06-062",
+  "slide": 385,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the market equilibrium diagram of the slide and explain consumer surplus and producer surplus. Why is the supply function drawn as a step function in the electricity market, and what does \"the market equilibrium is pareto efficient\" mean?",
+  "solution": "The diagram shows a falling demand function p(x) and a rising supply function mc(x); their intersection defines the equilibrium price p_GG and the equilibrium quantity x_GG. The consumer surplus is the area between the demand curve and the price line up to x_GG: for every unit except the last one consumers would have been willing to pay more than they actually pay, and they keep that difference. The producer surplus is the area between the price line and the supply curve up to x_GG: every producer whose marginal costs lie below the market price earns the difference, which is his contribution margin towards fixed costs. In the electricity market the supply function is a step function because the plant park consists of a finite number of blocks, each with approximately constant marginal costs over its capacity range - it is precisely the merit order of the preceding slide, and the height of each step is the variable cost of one technology. That the market equilibrium is pareto efficient means that no participant can be made better off without making another worse off: the sum of consumer and producer surplus, i.e. the welfare, is maximal at the equilibrium, and any other quantity would either leave profitable trades unrealised or force trades whose costs exceed the buyer's willingness to pay. This is the theoretical reason why the minimisation of system costs and the competitive market outcome can be equated - subject to the usual qualifications of externalities, market power and inelastic demand.",
+  "keywords": [
+   "consumer surplus",
+   "producer surplus",
+   "equilibrium price",
+   "step function",
+   "pareto efficient",
+   "merit order"
+  ]
+ },
+ {
+  "id": "b06-063",
+  "slide": 385,
+  "type": "cloze",
+  "prompt": "Because no participant can be made better off without making another one worse off, the market equilibrium is said to be ___.",
+  "accept": [
+   "pareto efficient",
+   "pareto-efficient",
+   "pareto optimal",
+   "Pareto-effizient",
+   "pareto efficiency"
+  ],
+  "solution": "Pareto efficient. At the intersection of the demand function p(x) and the supply function mc(x) the sum of consumer and producer surplus is maximal, so a free market economy with a policy of laissez-faire leads to the appropriate use of resources according to the consumers' requests - under the usual assumptions of full competition and no externalities."
+ }
+]

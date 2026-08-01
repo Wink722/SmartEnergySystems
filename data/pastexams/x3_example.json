@@ -1,0 +1,80 @@
+[
+ {
+  "id": "px-033",
+  "nr": 33,
+  "exam": "Official example 25/26",
+  "prompt": "A trader reserves transport capacity under an entry-exit pricing system: 10,000 m³/h at the entry point for 2 €/kWh/h/a and the same capacity at the exit point for 0.01 €/kWh/h/day. The calorific value of the natural gas is 11 kWh/m³. How much does he pay for the reservation of transport capacity in one year?",
+  "count": 2,
+  "hot": true,
+  "chapter": 3,
+  "slides": [229, 199, 193],
+  "solution": "Step 1 — convert the volumetric capacity into energy capacity:\nκ_E = κ_V · GCV = 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h = 110,000 kW = 110 MW\n\nStep 2 — entry point (price already per year):\n110,000 kW · 2 €/kW/a = 220,000 €/a\n\nStep 3 — exit point (price per day, so multiply by 365):\n110,000 kW · 0.01 €/kW/day · 365 d/a = 401,500 €/a\n\nStep 4 — total annual transport capacity cost:\n220,000 + 401,500 = 621,500 €/a\n\nThe two things that decide this task: convert to energy before touching a price, and check the period of every price. Note that €/(kWh/h)/a and €/kW/a are the same unit — a capacity price, paid for the right to flow, regardless of how much gas actually flows.",
+  "keywords": [
+   "κ_E = κ_V · GCV",
+   "110,000 kWh/h",
+   "220,000",
+   "365",
+   "401,500",
+   "621,500",
+   "capacity price"
+  ]
+ },
+ {
+  "id": "px-034",
+  "nr": 34,
+  "exam": "Official example 25/26",
+  "prompt": "The same trader wants to store the natural gas: withdrawal capacity 3,000 m³/h, injection capacity 3,000 m³/h, working gas capacity 12 million m³. Prices: working gas 0.003 €/kWh/a, withdrawal 2 €/kWh/h/a, injection 2.5 €/kWh/h/a; calorific value 11 kWh/m³. How much does he pay for reserving the storage capacity in one year?",
+  "count": 2,
+  "hot": true,
+  "chapter": 4,
+  "slides": [229, 243],
+  "solution": "T_storage = p_injection · κ_injection + p_withdrawal · κ_withdrawal + p_working gas · v_working gas\n\nStep 1 — rates to energy:\nWithdrawal: 3,000 m³/h · 11 kWh/m³ = 33,000 kWh/h = 33,000 kW\nInjection: 3,000 m³/h · 11 kWh/m³ = 33,000 kWh/h = 33,000 kW\n\nStep 2 — rate charges:\nWithdrawal: 33,000 kW · 2 €/kW/a = 66,000 €/a\nInjection: 33,000 kW · 2.5 €/kW/a = 82,500 €/a\n\nStep 3 — working gas (a quantity, not a rate):\n12,000,000 m³ · 11 kWh/m³ = 132,000,000 kWh\n132,000,000 kWh · 0.003 €/kWh/a = 396,000 €/a\n\nStep 4 — total annual storage cost:\n66,000 + 82,500 + 396,000 = 544,500 €/a\n\nWatch the unit of the third component: the working gas price is €/kWh/a, an energy price, while injection and withdrawal are €/kW/a, capacity prices. Mixing the two is the standard mistake in this task.",
+  "keywords": [
+   "33,000 kW",
+   "66,000",
+   "82,500",
+   "132,000,000 kWh",
+   "396,000",
+   "544,500",
+   "working gas"
+  ]
+ },
+ {
+  "id": "px-035",
+  "nr": 35,
+  "exam": "Official example 25/26",
+  "prompt": "The same trader buys 40 million m³ of natural gas at a price of 20 €/MWh (calorific value 11 kWh/m³). How much does he pay in total for this quantity?",
+  "count": 1,
+  "hot": false,
+  "chapter": 3,
+  "slides": [229],
+  "solution": "Step 1 — convert the volume into energy:\n40,000,000 m³ · 11 kWh/m³ = 440,000,000 kWh = 440,000 MWh\n\nStep 2 — multiply by the commodity price:\n440,000 MWh · 20 €/MWh = 8,800,000 €\n\nThe commodity is by far the largest item — 8.8 million € against 621,500 € of transport and 544,500 € of storage. Keep the 440,000 MWh: it is the denominator of the next part.",
+  "keywords": [
+   "440,000,000 kWh",
+   "440,000 MWh",
+   "20 €/MWh",
+   "8,800,000",
+   "commodity"
+  ]
+ },
+ {
+  "id": "px-036",
+  "nr": 36,
+  "exam": "Official example 25/26",
+  "prompt": "Given the transport, storage and purchase costs above: how high are the trader's total specific procurement costs, including the price of the natural gas, in €/MWh?",
+  "count": 2,
+  "hot": true,
+  "chapter": 3,
+  "slides": [229, 243, 199],
+  "solution": "Step 1 — add up all costs:\nGas purchase 8,800,000 € + transport 621,500 € + storage 544,500 € = 9,966,000 €\n\nStep 2 — divide by the energy procured:\n9,966,000 € / 440,000 MWh = 22.65 €/MWh\n\nBreakdown, which is the more informative way to present it:\nGas 20.00 €/MWh\nTransport 621,500 / 440,000 = 1.41 €/MWh\nStorage 544,500 / 440,000 = 1.24 €/MWh\nTotal 22.65 €/MWh\n\nThe lesson of the whole example: infrastructure adds about 13 % on top of the commodity price here, and it is a fixed cost — the trader pays the 1,166,000 € of capacity charges whether or not he uses the booked capacity. The fewer MWh he actually moves, the higher his specific cost becomes, which is exactly why utilisation matters so much in network industries.",
+  "keywords": [
+   "9,966,000",
+   "440,000 MWh",
+   "22.65",
+   "1.41",
+   "1.24",
+   "fixed cost",
+   "utilisation"
+  ]
+ }
+]

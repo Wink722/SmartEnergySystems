@@ -1,0 +1,92 @@
+[
+ {
+  "id": "b04x-001",
+  "slide": 211,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure plots one year of gas demand against a flat purchase. Explain how storage lets a supplier cover a strongly seasonal demand while buying a constant band, and mark what injection and withdrawal do in the picture.",
+  "solution": "The chart runs over the twelve months of a gas year. The horizontal line is the base load — the flat band the supplier buys from its upstream contract, sized close to the annual average rather than the winter peak. The curve above it is actual demand, high in the winter months and low in summer.\n\nIn the summer months demand lies below the band, so the surplus gas goes into the store: that is the injection. In the winter months demand lies above the band and the gap is closed out of the store: that is the withdrawal. Over the year the two areas match, apart from losses and the fuel used for compression.\n\nThe economic point of the picture is the reserved capacity. Without storage the supplier would have to reserve import and transport capacity for the winter peak and leave it idle all summer — capacity is billed whether it flows or not, so the specific cost would explode. With storage the reservation is sized to the band, and the store supplies the flexibility. That is exactly the first of the three functions of storage: compensating demand fluctuations, here in its seasonal form.",
+  "keywords": [
+   "base load",
+   "band",
+   "injection",
+   "withdrawal",
+   "reserved capacity",
+   "seasonal",
+   "peak"
+  ]
+ },
+ {
+  "id": "b04x-002",
+  "slide": 246,
+  "type": "open",
+  "prompt": "A commodity import contract, a transportation contract and a storage contract each define a \"delivery or receipt point\", but they mean different things. Name the points each contract type uses and say what changes hands there.",
+  "solution": "Commodity import contract (for example a long-term GSPA): the delivery point is where legal title and risk pass from seller to buyer. It is often a virtual trading hub or a physical interconnection point — the gas becomes the buyer's property there, whatever happens to it afterwards.\n\nTransportation contract (GTA): entry point, where the shipper's gas enters the pipeline system, and exit point, where it is redelivered from the system. Nothing changes ownership here; what is bought is the right to have an equivalent quantity taken in at one point and handed out at another.\n\nStorage contract: injection point, where gas is put into storage from the transmission system, and withdrawal point, where it is returned to the transmission system. Again no change of title — the customer's gas stays the customer's, the operator only holds it.\n\nThe distinction matters because it separates the three products the lecture keeps apart throughout: the molecule, the transport service and the storage service. Only the first is a purchase; the other two are capacity rights.",
+  "keywords": [
+   "delivery point",
+   "title",
+   "risk",
+   "entry point",
+   "exit point",
+   "injection point",
+   "withdrawal point",
+   "capacity"
+  ]
+ },
+ {
+  "id": "b04x-003",
+  "slide": 246,
+  "type": "open",
+  "prompt": "Explain what nomination means in a gas contract, and how the nomination duty differs between the commodity, the transportation and the storage contract.",
+  "solution": "A nomination is the notification, normally daily and in advance, of how much gas a party intends to move on the following gas day. It is what turns a contractual right into an operational instruction, and it is the point at which the physical system and the commercial system are tied together.\n\nCommodity contract: the buyer nominates how much gas it wishes to take on a daily basis, within the flexible limits the contract grants — often plus indicative nominations for longer periods so that the seller can plan production and transport.\n\nTransportation contract: the shipper submits daily nominations to the transmission system operator, stating the quantity to be transported from the entry point to the exit point. The nomination must stay within the booked capacity.\n\nStorage contract: the customer nominates daily injection or withdrawal quantities to the storage operator, again within the booked rates.\n\nIn all three cases the sanction is the same: if the physical flow does not match the nomination, the difference is an imbalance and is charged through the balancing regime. That is why nomination and balancing always appear together in the contract structure.",
+  "keywords": [
+   "nomination",
+   "daily",
+   "booked capacity",
+   "shipper",
+   "injection",
+   "withdrawal",
+   "imbalance",
+   "balancing"
+  ]
+ },
+ {
+  "id": "b04x-004",
+  "slide": 247,
+  "type": "open",
+  "prompt": "Gas quality appears as a clause in all three contract types. Explain why, and what happens to gas that is out of specification.",
+  "solution": "Gas quality is specified because natural gas is not one product but a range of compositions, and every party downstream has been engineered for a band rather than for a point. The commodity contract sets bandwidths for chemical composition, calorific value and the other physical properties the gas must meet at the delivery point. The transportation contract requires the same standards for gas entering and leaving the network, because the network was built for a defined quality. The storage contract requires quality compatible with both the storage facility and the transmission network — the store gives back what it took in, so what goes in has to be fit to come out again.\n\nThe consequence is identical in all three: out-of-spec gas may be refused or incur penalties. That is the practical meaning of the Wobbe index and the DVGW ranges from the gas quality chapter — they are not academic parameters, they are contractual thresholds with money attached.\n\nThe underlying idea is the same one as compatibility at network nodes: a network only functions if what is handed over at the interface meets an agreed specification.",
+  "keywords": [
+   "bandwidths",
+   "calorific value",
+   "delivery point",
+   "compatible",
+   "refused",
+   "penalties",
+   "Wobbe"
+  ]
+ },
+ {
+  "id": "b04x-005",
+  "slide": 247,
+  "type": "open",
+  "prompt": "What does a force majeure clause do in a gas transportation or storage contract, and how does its effect differ between the two?",
+  "solution": "A force majeure clause covers events beyond the control of the parties and suspends the duty to perform without turning it into a breach of contract. It is the mechanism by which the risk of the genuinely unforeseeable is allocated rather than litigated.\n\nIn a transportation contract it specifies the conditions under which service may be curtailed — pipeline damage, a compressor failure, political events — and it limits the transporter's liability for the consequences. The shipper's gas does not arrive, and the transporter does not owe damages for it.\n\nIn a storage contract it defines the operator's liability for capacity and for the inventory held, and names the circumstances that excuse non-performance, typically a mechanical failure of the facility. Note the asymmetry: the storage operator is holding the customer's gas, so liability for the inventory is a separate question from liability for the service.\n\nIn the commodity contract the same clause covers major infrastructure failures or political events that stop the seller supplying or the buyer receiving. After 2022 that clause stopped being boilerplate.",
+  "keywords": [
+   "beyond the control",
+   "curtailed",
+   "liability",
+   "inventory",
+   "mechanical failure",
+   "non-performance"
+  ]
+ },
+ {
+  "id": "b04x-006",
+  "slide": 247,
+  "type": "cloze",
+  "prompt": "If the physical flow does not match the quantity a shipper nominated, the difference is called an ___ and is settled through the balancing regime.",
+  "accept": ["imbalance", "imbalances", "Imbalance"],
+  "solution": "Imbalance. Every one of the three contract types defines what happens when nominated and actual quantities diverge: the commodity contract usually hands it to the balancing regime at the trading hub, the transportation contract sets imbalance charges and daily balancing rules, and the storage contract defines penalties for failing to match injection or withdrawal nominations with the physical flow. Balancing is what makes a nomination binding rather than advisory."
+ }
+]

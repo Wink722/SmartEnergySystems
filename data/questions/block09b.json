@@ -1,0 +1,677 @@
+[
+ {
+  "id": "b09x-001",
+  "slide": 560,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the German extra-high-voltage network twice, once as of 01.01.2003 and once as of 01.01.2020. Which line classes does the legend distinguish, and which two structural changes are visible between the two maps?",
+  "solution": "The legend distinguishes the lines by operating voltage and by current type: 380 kV alternating-current lines (red in the 2003 map, orange in the 2020 map), 220 kV alternating-current lines (green) and HVDC overhead lines and cables (magenta), together with the substations and the converter stations. Two changes are visible. First, the network has been shifted upwards in voltage: many corridors that were 220 kV in 2003 carry 380 kV in 2020, because at the same transmitted power a higher voltage means a smaller current and the ohmic losses fall with the square of the current. Second, the 2020 map contains offshore connections in the North Sea and the Baltic Sea and a whole set of HVDC links under construction or in planning that run from north to south - the grid answer to wind generation in the north and to load plus closing nuclear plants in the south. Note the mismatch on the slide: the heading says Electricity exchange in Europe, but both maps show only the German transmission grid; the European dimension follows on the UCTE slides.",
+  "keywords": [
+   "380 kV",
+   "220 kV",
+   "HVDC",
+   "offshore",
+   "losses"
+  ]
+ },
+ {
+  "id": "b09x-002",
+  "slide": 574,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the curtailment chart: how did the curtailed renewable energy in Germany develop between 2010 and 2020, which technology dominates, and what does this have to do with smart infrastructure?",
+  "solution": "The bars give the curtailed, i.e. not fed-in, renewable energy per year in TWh. It stays far below 0.5 TWh from 2010 to 2013, reaches about 1.5 TWh in 2014 and then jumps to 4.7 TWh in 2015; from 2017 on it stays in a band of roughly 5 to 6.5 TWh per year, with the maximum of about 6.5 TWh in 2019. Wind energy accounts for almost the whole amount; photovoltaics adds only a thin cap on top of each bar and bioenergy is visible only in 2015. The cause is regional: the wind capacity stands in the north and north-east, the grid capacity to move the energy south is missing, so the transmission system operator has to curtail wind farms. This is exactly the argument for smart infrastructure: instead of curtailing, the surplus can be steered into flexible loads, storage or power-to-X, and the roughly 6 TWh/a of curtailed electricity quoted on slide 578 for 2022 is the same number that is used there to motivate synthetic energy carriers.",
+  "keywords": [
+   "6.5 TWh",
+   "wind",
+   "curtail",
+   "grid",
+   "power-to-X"
+  ]
+ },
+ {
+  "id": "b09x-003",
+  "slide": 578,
+  "type": "open",
+  "prompt": "The lecture gives three reasons why an all-electric society is not enough and synthetic energy carriers are needed. Name the three and explain each in one or two sentences.",
+  "solution": "First, storability: renewable generation is volatile and the grid cannot always take it, so electricity has to be curtailed - about 6 TWh/a in Germany in 2022 - while a molecule can be stored for months and thus bridges the seasonal gap. Second, long-distance transportability: electricity is a neighbourhood business, limited by losses and by the cost of very long links, whereas hydrogen or a derivative can be shipped or piped between continents; this matters because the renewable potentials are spread very unevenly over the globe. Third, hard-to-electrify applications: high-temperature heat, aviation, shipping, steelmaking and the basic chemicals either need a chemical feedstock or a very high energy density and cannot simply be run on electrons. The slide condenses this into the need for storable, transportable and combustible green molecules.",
+  "keywords": [
+   "storability",
+   "6 TWh",
+   "neighbourhood business",
+   "hard-to-electrify",
+   "green molecules"
+  ]
+ },
+ {
+  "id": "b09x-004",
+  "slide": 578,
+  "type": "cloze",
+  "prompt": "The slide summarises the need for synthetic energy carriers as the need for storable, transportable and combustible green ___.",
+  "accept": [
+   "molecules",
+   "molecule",
+   "green molecules",
+   "Molekuele",
+   "Molekule"
+  ],
+  "solution": "Green molecules. The counterpart in the language of the lecture is green electrons: electrons cover everything that can be electrified directly, molecules cover storage over months, intercontinental transport and the hard-to-electrify applications."
+ },
+ {
+  "id": "b09x-005",
+  "slide": 579,
+  "type": "open",
+  "prompt": "Distinguish the two families of synthetic renewable energy carriers on the slide and sketch the Power-to-X chain from renewable electricity to ammonia and to methanol, naming the inputs that have to be provided besides hydrogen.",
+  "solution": "The first family are biofuels, energy carriers of biogenic origin such as bioethanol, biodiesel and biomethane; their weak point is the food-or-fuel debate, because the biomass competes with food production for land. The second family is Power-to-X, energy carriers made from renewable electricity (PtG, PtL, PtC; marketing names windgas, solargas, e-fuels, e-methane; in EU law RFNBO). The chain starts with renewable electricity driving a water electrolysis that delivers H2 and O2. From there two branches leave: with nitrogen from an air separation unit the Haber-Bosch synthesis makes NH3; with CO2 from direct air capture (DAC) or from a point source, if necessary converted to CO in a reverse water-gas shift (rWGS), the synthesis makes CH4, methanol, Fischer-Tropsch or e-fuels, or a LOHC. Besides hydrogen the chain therefore needs either N2 or a carbon source, and every additional synthesis step costs efficiency.",
+  "keywords": [
+   "biofuels",
+   "food-or-fuel debate",
+   "electrolysis",
+   "air separation",
+   "Haber-Bosch",
+   "DAC"
+  ]
+ },
+ {
+  "id": "b09x-006",
+  "slide": 579,
+  "type": "cloze",
+  "prompt": "In EU legislation, renewable synthetic fuels produced from renewable electricity are called ___ (abbreviation).",
+  "accept": [
+   "RFNBO",
+   "RFNBOs",
+   "renewable fuels of non-biological origin",
+   "renewable fuel of non-biological origin"
+  ],
+  "solution": "RFNBO - renewable fuel of non-biological origin. The term matters because only fuels that meet the RFNBO criteria (additional renewable electricity, temporal and geographic correlation) count towards the EU transport and industry quotas; biofuels form a separate category because their carbon is biogenic."
+ },
+ {
+  "id": "b09x-007",
+  "slide": 580,
+  "type": "open",
+  "prompt": "What is hydrogen used for today, which reaction stands behind the largest single use, and why is this demand grey? Name the new demand segments the slide expects.",
+  "solution": "Today hydrogen is almost entirely an industrial feedstock and not an energy carrier. The largest single use is ammonia and fertiliser production via the Haber-Bosch synthesis, N2 + 3 H2 -> 2 NH3; the second large use is refining, where hydrogen is needed for hydrocracking, denitrification and desulfurization. Both take their hydrogen almost exclusively from steam methane reforming of natural gas or from coal gasification, i.e. it is grey or brown hydrogen, which is why today's production already carries about 9.6 kg CO2 per kg H2. The upcoming segments are different in kind: industry (steel via direct reduced iron DRI, process heat above 1,000 °C, chemicals), transportation (heavy-duty trucks, shipping, aviation) and the power sector (flexible generation in turbines and fuel cells, large-scale energy storage).",
+  "keywords": [
+   "Haber-Bosch",
+   "N2 + 3 H2 -> 2 NH3",
+   "refining",
+   "hydrocracking",
+   "steam methane reforming"
+  ]
+ },
+ {
+  "id": "b09x-008",
+  "slide": 580,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The bar chart shows global hydrogen demand growing from 90 Mt in 2020 to 660 Mt in 2050, a factor of 7.5. Which statement about this projection is correct?",
+  "options": [
+   "The chart is drawn in TWh, so the 660 for 2050 has to be read as TWh and not as million tons.",
+   "The growth is carried almost entirely by the existing industrial uses, which expand from 90 Mt to about 500 Mt.",
+   "Existing industry use stays roughly at today's level; the growth comes from new industry feedstock, building and industry heat, transport and power generation.",
+   "Demand already reaches 385 Mt in 2030, so the bulk of the growth happens in the current decade."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Correct is the second option: the existing industry use, the light blue block containing refining and ammonia, stays roughly at today's order of magnitude of about 90 Mt, and the whole growth to 660 Mt comes from the new segments - new industry feedstock, building and industry heat, transport and power generation. The chart is labelled in million tons, not TWh. The intermediate values are 140 Mt in 2030 and 385 Mt in 2040, so the bulk of the growth falls into the 2030s and 2040s and not into the current decade."
+ },
+ {
+  "id": "b09x-009",
+  "slide": 581,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The IEA figure splits hydrogen demand into unabated and low-emissions and gives the hydrogen share of four sub-sectors. Describe the two movements in the left panel up to 2050 and name the sub-sectors with the highest shares in the right panel.",
+  "solution": "The left panel is drawn in EJ. Unabated hydrogen, i.e. hydrogen from unabated fossil sources, stands at about 11 to 12 EJ in 2024, mostly industry and refining, and shrinks steadily to roughly 3 EJ in 2050. Low-emissions hydrogen starts from almost nothing in 2024, reaches about 12 EJ in 2035 and about 38 EJ in 2050. The picture is therefore a double movement: the existing grey demand is substituted, and on top of it a much larger new demand is added, dominated by industry and transport in the Net Zero Emissions scenario. In the right panel shipping has the highest share of hydrogen and hydrogen-based fuels in 2050 at more than 50 %, mostly as ammonia, followed by aviation with roughly 40 %, almost entirely as synthetic hydrocarbon fuels, then steel with about 25 % and chemicals with about 14 %. The message is that hydrogen appears in the transport sub-sectors mainly through its derivatives, not as the pure molecule.",
+  "keywords": [
+   "unabated",
+   "low-emissions",
+   "38 EJ",
+   "shipping",
+   "ammonia",
+   "aviation"
+  ]
+ },
+ {
+  "id": "b09x-010",
+  "slide": 582,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The right-hand chart puts five scenarios for 2050 next to today's production. Give the range, say what the small dial under each bar means, and explain why the scenarios differ so strongly.",
+  "solution": "Today's production is the grey bar of roughly 120 Mt, entirely grey hydrogen, and the dial below it reads 0 % of final energy demand. The 2050 scenarios spread from about 520 Mt (IEA Net Zero) and 613 Mt (IRENA 1.5 degree scenario) through about 650 Mt (Hydrogen Council) up to about 790 Mt (BNEF Green Scenario) and 810 Mt (ETC), and the dial gives the corresponding share of final energy demand, rising from 12 % to 22 %. The scenarios differ because they assume different things about three questions: how much of final energy demand is electrified directly, how much efficiency and demand reduction is achieved, and how much of the rest is served by hydrogen rather than by biomass or by CCS on the fossil route. They also differ in colour: IRENA and ETC keep a blue hydrogen share of roughly 120 to 200 Mt, whereas BNEF assumes an all-green supply. The honest exam answer is therefore a range together with the name of the source, not a single number.",
+  "keywords": [
+   "120 Mt",
+   "final energy demand",
+   "12 %",
+   "22 %",
+   "blue hydrogen",
+   "range"
+  ]
+ },
+ {
+  "id": "b09x-011",
+  "slide": 583,
+  "type": "open",
+  "graphic": true,
+  "prompt": "About twenty studies project European hydrogen demand for 2050; the number in square brackets is the share used as direct hydrogen. What range do the studies span, what does the comparison of a bar with its bracket value tell you, and which conclusion does the lecturer draw?",
+  "solution": "The studies span roughly 11 Mt at the low end (Potsdam-PRIMES 2020) to 108 Mt at the high end (IFP Energies, renewable push 2022), i.e. an order of magnitude, and the axis groups them into academic, government-commissioned and private or semi-private studies. The bracket gives how much of the total is consumed as direct hydrogen: 70 of the 108 Mt in the highest study, only 48 of 90 Mt in the Groningen study, and only 14 of 72 Mt at TUB. Wherever the bracket is much smaller than the bar, most of the hydrogen is consumed as a derivative - ammonia, methanol or synthetic fuels - and not as a molecule delivered to the customer. The colour split shows the same disagreement by sector: industry and transport dominate everywhere, but power and buildings appear in some studies and are absent in others. The conclusion is printed under the figure: we will need hydrogen, but we are not sure how much, in which sector and in which form - so an exam answer must quote a range and name its source.",
+  "keywords": [
+   "11 Mt",
+   "108 Mt",
+   "direct hydrogen",
+   "derivative",
+   "industry",
+   "range"
+  ]
+ },
+ {
+  "id": "b09x-012",
+  "slide": 584,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the IEA low-emissions hydrogen balance: how large is low-emissions production today, how large is it in the Net Zero column for 2050, which route dominates, and why is the trade share in the Net Zero column lower than under Current Policies?",
+  "solution": "In 2024 low-emissions hydrogen production is 0.7 Mt, of which 0.1 Mt from water electrolysis and 0.5 Mt from fossil fuels with CCUS - next to nothing against roughly 100 Mt of total hydrogen production. In the Net Zero Emissions by 2050 column it reaches 376 Mt, of which 304 Mt from water electrolysis and 71 Mt from fossil fuels with CCUS; this is the note on the slide that more than 80 % comes from electrolysis in 2050. Hydrogen demand for end-use sectors grows to 170 Mt, which is the pointer that industry and not the power sector is the main customer. Trade reaches 68 Mt in the Net Zero column against 22 Mt under Current Policies, but as a share of demand it is only 18 % in Net Zero against 65 % under Current Policies. The reason lies in the denominator: in Net Zero total demand explodes and every region builds domestic low-emissions production, whereas under Current Policies only a few cheap export regions produce at all, so the little hydrogen that is used is largely imported.",
+  "keywords": [
+   "0.7 Mt",
+   "376 Mt",
+   "304 Mt",
+   "electrolysis",
+   "18 %",
+   "65 %"
+  ]
+ },
+ {
+  "id": "b09x-013",
+  "slide": 585,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Five German scenarios for 2045 are compared. What is the range of the demand for synthetic energy carriers, how high is the import share, and why does the lecturer put the 70 % fossil import share of 2021 next to it?",
+  "solution": "The bars give German demand for synthetic energy carriers in 2045, split into imports (dark) and domestic production (light): Agora KNDE2045 324 + 96 = about 420 TWh, BDI 2.0 424 + 118 = 542 TWh, LFS T45-Strom 397 + 186 = 583 TWh, dena KN100 596 + 59 = 655 TWh and LFS T45-H2 615 + 272 = 887 TWh. The red diamonds give the import share, between roughly 68 % and 91 %, so in every scenario the larger part is imported. In total these imports amount to 18-33 % of German primary energy consumption in 2045. The 70 % fossil import share of 2021 is the benchmark: Germany already imports about 70 % of its primary energy today, so the future import dependency on synthetic carriers is smaller than today's fossil dependency but does not disappear - the transition changes the commodity and the supplier countries, not the fact that Germany is an energy importer.",
+  "keywords": [
+   "887 TWh",
+   "import share",
+   "18-33 %",
+   "70 %",
+   "primary energy"
+  ]
+ },
+ {
+  "id": "b09x-014",
+  "slide": 587,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the idea of the Clean Hydrogen Ladder by M. Liebreich. What orders the rungs, which applications sit on rung A and rung B, and what is on the bottom rung?",
+  "solution": "The ladder ranks applications by how unavoidable hydrogen is for them, from A, where there is no real alternative, down to G, the Row of Doom, where hydrogen is uncompetitive. The ordering criterion is not technical feasibility - almost everything can be run on hydrogen - but whether a cheaper and more efficient alternative exists, usually direct electrification with batteries or heat pumps, or biomass and biogas. Rung A holds the chemical uses that already exist and cannot be substituted: fertiliser, hydrogenation, methanol, hydrocracking and desulphurisation. Rung B contains shipping (as ammonia or methanol), jet aviation (as e-fuel or PBTL), chemical feedstock, steel and long duration grid balancing. The bottom rung G collects metro trains and buses, urban delivery and taxis, 2- and 3-wheelers, cars, bulk e-fuels, mid- and low-temperature industrial heat, domestic heating and power generation using non-stored hydrogen. The exam value of the ladder is as an argument structure: hydrogen is scarce and every conversion step costs efficiency, so it should be spent where there is no alternative.",
+  "keywords": [
+   "Row of Doom",
+   "fertiliser",
+   "hydrocracking",
+   "domestic heating",
+   "no real alternative",
+   "batteries"
+  ]
+ },
+ {
+  "id": "b09x-015",
+  "slide": 587,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "According to the Clean Hydrogen Ladder, which application is placed in the top group, rung A, where there is no real alternative?",
+  "options": [
+   "Domestic heating",
+   "Fertiliser production",
+   "Urban delivery vehicles and taxis",
+   "Short duration grid balancing"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Fertiliser production is on rung A: ammonia synthesis needs hydrogen as a chemical feedstock and no alternative route exists. Domestic heating and urban delivery or taxis sit on rung G, the Row of Doom, because heat pumps and battery vehicles are far more efficient. Short duration grid balancing sits on rung E; only long duration grid balancing reaches rung B, because there the storage duration and not the round-trip efficiency is the binding constraint."
+ },
+ {
+  "id": "b09x-016",
+  "slide": 587,
+  "type": "cloze",
+  "prompt": "Liebreich calls the bottom rung G of his Clean Hydrogen Ladder the ___.",
+  "accept": [
+   "Row of Doom",
+   "row of doom",
+   "the Row of Doom"
+  ],
+  "solution": "The Row of Doom. It collects the applications for which hydrogen is uncompetitive - cars, 2- and 3-wheelers, urban delivery, metro trains and buses, domestic heating, mid- and low-temperature industrial heat, bulk e-fuels and power generation from non-stored hydrogen - because direct electrification is cheaper and much more efficient in all of them."
+ },
+ {
+  "id": "b09x-017",
+  "slide": 592,
+  "type": "open",
+  "prompt": "Hydrogen has an energy density of 33.33 kWh_LHV/kg and, liquefied, a density of 0.07 kg/l. Verify the volumetric energy density of 2.4 kWh/l given on the slide, compare it with diesel at about 10 kWh/l, and say what follows for transport and storage.",
+  "solution": "The volumetric energy density is the gravimetric energy density multiplied by the density: 33.33 kWh/kg x 0.07 kg/l = 2.33 kWh/l, which is the 2.4 kWh/l printed on the slide within rounding of the density. Diesel carries roughly 10 kWh/l, so even liquid hydrogen needs about four times the volume for the same energy, and gaseous hydrogen at ambient conditions with a density of 0.09 g/l is hopeless as a store. This is the central logistical fact about hydrogen: per kilogram it is the best fuel there is, about 2.8 times the heating value of diesel, but per litre it is the worst. Every element of the hydrogen infrastructure - compression to 700 bar, liquefaction at -253 °C, binding to a LOHC or conversion to ammonia - is a way of buying volumetric density with energy and with equipment.",
+  "keywords": [
+   "33.33 kWh",
+   "0.07 kg/l",
+   "2.33 kWh/l",
+   "diesel",
+   "-253 °C"
+  ]
+ },
+ {
+  "id": "b09x-018",
+  "slide": 592,
+  "type": "cloze",
+  "prompt": "Hydrogen has to be cooled down to ___ before it becomes liquid.",
+  "accept": [
+   "-253 °C",
+   "-253 C",
+   "minus 253 °C",
+   "-253 degrees Celsius",
+   "20 K"
+  ],
+  "solution": "-253 °C, i.e. about 20 K. This boiling point is the reason why liquefaction alone consumes roughly 7 kWh of electricity per kg H2, about a fifth of the energy content of the hydrogen, and why every liquid hydrogen tank loses product continuously through boil-off."
+ },
+ {
+  "id": "b09x-019",
+  "slide": 593,
+  "type": "open",
+  "prompt": "The slide states about 100 Mt/a of hydrogen production with average emissions of 9.6 kg CO2 per kg H2 and claims that this corresponds to more than 1 Gt or 2.21 % of global emissions. Check the calculation and comment on the renewable share.",
+  "solution": "100 Mt/a of hydrogen at 9.6 kg CO2 per kg H2 give 100 x 10^6 t x 9.6 = 960 Mt CO2 per year, i.e. about 1 Gt CO2 per year, which confirms the figure on the slide. If this 1 Gt is 2.21 % of global emissions, global emissions follow as 1 Gt / 0.0221 = about 45 Gt CO2 per year, which is the right order of magnitude and shows that the numbers on the slide are consistent. Of this production less than 1 % is renewable, only 0.09 Mt/a. Today's hydrogen is therefore not part of the solution but part of the problem, and the first task of any hydrogen strategy is to replace this existing grey production. Note a small inconsistency in the deck: this slide says about 100 Mt/a whereas the electrolysis slide 597 says about 110 Mt/a, both with the same 0.09 Mt/a renewable figure - quote the number with an approximately and you are safe.",
+  "keywords": [
+   "9.6 kg",
+   "960 Mt",
+   "1 Gt",
+   "0.09 Mt",
+   "2.21 %"
+  ]
+ },
+ {
+  "id": "b09x-020",
+  "slide": 595,
+  "type": "open",
+  "graphic": true,
+  "prompt": "European hydrogen trade in 2023 amounted to 29,767 t, which the slide calls 0.4 % of production, and 65 % of it flowed from Belgium to the Netherlands. Calculate the implied European production and explain why the traded share is so small.",
+  "solution": "If 29,767 t are 0.4 % of production, production follows as 29,767 t / 0.004 = about 7.4 Mt of hydrogen per year in Europe. The traded volume is therefore a rounding error, and 65 % of it, about 19,300 t, is a single connection between Belgium and the Netherlands in the Antwerp-Rotterdam industrial cluster. The reason is that hydrogen today is captive: it is produced on site by the refinery or the ammonia plant that consumes it, usually by steam methane reforming right next to the consumer, because moving hydrogen is expensive - it needs a dedicated pipeline, compression to several hundred bar, or liquefaction at -253 °C. Cross-border trade therefore exists only where a short dedicated pipeline already links two clusters. The lecture uses this to make the point that a hydrogen market with genuine trade is something that first has to be built.",
+  "keywords": [
+   "29,767 t",
+   "0.4 %",
+   "7.4 Mt",
+   "65 %",
+   "captive",
+   "steam methane reforming"
+  ]
+ },
+ {
+  "id": "b09x-021",
+  "slide": 596,
+  "type": "cloze",
+  "prompt": "The term electrolysis was defined by ___, and alkaline electrolysers of more than 100 MW were already built during the 20th century, usually next to hydropower dams.",
+  "accept": [
+   "Faraday",
+   "Michael Faraday",
+   "M. Faraday"
+  ],
+  "solution": "Michael Faraday. The point of the slide is that electrolysis is not a new technology: the first water-splitting experiments date from around 1800, Faraday defined the term in the 1830s, and alkaline electrolysers above 100 MW ran through the 20th century wherever cheap hydropower was available, mostly for fertiliser production. The historical logic is exactly today's logic - put the electrolyser where the cheap renewable electricity is."
+ },
+ {
+  "id": "b09x-022",
+  "slide": 597,
+  "type": "open",
+  "prompt": "By the end of 2024 about 2 GW of electrolysis capacity were installed worldwide, and roughly 5,000 GW are needed in 2050. Which average annual growth rate does that imply, and does 5,000 GW fit the production figures for 2050?",
+  "solution": "From 2 GW at the end of 2024 to 5,000 GW in 2050 is a factor of 2,500 in 26 years. The average growth rate follows from 2500^(1/26) = exp(ln 2500 / 26) = exp(0.301) = 1.35, i.e. about 35 % per year sustained over a quarter of a century - roughly the pace of photovoltaics in its best decade, but from a much smaller base and for equipment that needs iridium or nickel and large amounts of clean water. Plausibility check: 5,000 GW at, say, 4,000 full-load hours deliver 5,000 GW x 4,000 h = 20,000 TWh of electricity per year; at a specific consumption of about 55 kWh_el per kg H2 that gives roughly 364 Mt of hydrogen, which matches the order of magnitude of the IEA Net Zero value of 376 Mt of low-emissions hydrogen in 2050. The 5,000 GW is therefore not an arbitrary number but the electrolyser fleet behind the Net Zero demand.",
+  "keywords": [
+   "2 GW",
+   "5,000 GW",
+   "35 %",
+   "20,000 TWh",
+   "376 Mt"
+  ]
+ },
+ {
+  "id": "b09x-023",
+  "slide": 598,
+  "type": "open",
+  "prompt": "Which critical raw materials does each of the three electrolysis technologies depend on, where do they come from, and what does this mean for scaling up?",
+  "solution": "PEM electrolysis uses platinum and iridium for the electrodes; the supply of these platinum group metals is highly concentrated in South Africa and they are among the scarcest and most emission-intensive metals in the world, which is why there is intensive research on non-iridium PEM. SOEC depends on zirconium, yttrium, gadolinium, lanthanum and cerium, and almost 95 % of these critical materials come exclusively from China. Alkaline electrolysis is the uncritical one - nickel electrodes together with steel, copper and zinc - although the cathode coating uses cobalt or wolfram, both mined extensively in Congo. For scaling this means a double risk: a quantity risk, because a fleet of thousands of GW would multiply today's iridium demand many times over, and a price risk, since over the past 20 years the price of platinum moved by a factor of four, palladium by a factor of 15 and iridium by a factor of 70. This is one of the reasons why alkaline electrolysis still dominates the installed capacity despite the better dynamics of PEM.",
+  "keywords": [
+   "platinum",
+   "iridium",
+   "South Africa",
+   "95 %",
+   "China",
+   "factor of 70",
+   "nickel"
+  ]
+ },
+ {
+  "id": "b09x-024",
+  "slide": 598,
+  "type": "mc",
+  "prompt": "By which factor did the price of iridium fluctuate over the past 20 years, according to the slide?",
+  "options": [
+   "Factor 4",
+   "Factor 15",
+   "Factor 700",
+   "Factor 70"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Factor 70 for iridium. Platinum moved by a factor of four and palladium by a factor of 15 over the same period. Iridium is the extreme case because world production is only a few tonnes per year, it is a by-product of platinum mining and therefore cannot be scaled on demand - which is exactly why reducing the iridium loading per MW is the central research target for PEM electrolysis."
+ },
+ {
+  "id": "b09x-025",
+  "slide": 599,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare alkaline (AE), PEM and solid oxide (SOEC) electrolysis using the table: maturity, typical size, system efficiency, operating conditions, cost, flexibility, materials and lifetime. Which technology would you choose for a wind-powered plant today, and why?",
+  "solution": "AE is the mature workhorse: TRL 9 with commercial applications for more than 100 years, MW scale, system efficiency today 63-70 % and 70-80 % in the future, 50-80 °C and 1-30 bar, the cheapest at 500-1,400 $/kW_el today, uncritical materials such as steel, nickel, copper and zinc, and the longest lifespan at 20-30 a; its weakness is the moderate flexibility, marked with a single plus, and a minimum load it cannot go below. PEM is likewise TRL 9 and MW scale, slightly less efficient today at 58-65 %, runs at 60-80 °C but at 30-50 bar, which saves a compression stage, and is the most flexible, marked with two pluses, but it costs 1,100-1,800 $/kW_el, needs platinum and iridium and lives only 15-20 a. SOEC is the efficiency champion with 74-81 % today because it runs at 700-1,000 °C and can use external steam, but it is only TRL 8, sub-MW scale, by far the most expensive at 2,800-5,600 $/kW_el, the least flexible because the ceramic cells must not be thermally cycled, and it needs yttrium, zirconium and cobalt. For a wind-powered plant today the answer is AE or PEM: AE if the plant is large, the load reasonably steady and cost decisive, PEM if the profile is highly volatile and the pressurised product is useful. SOEC only pays where a constant high-temperature steam or waste-heat source exists, for example next to a chemical plant.",
+  "keywords": [
+   "63-70 %",
+   "58-65 %",
+   "74-81 %",
+   "700-1,000 °C",
+   "2,800-5,600",
+   "flexibility"
+  ]
+ },
+ {
+  "id": "b09x-026",
+  "slide": 599,
+  "type": "open",
+  "prompt": "The exercises of this lecture use a specific electricity consumption of 4.7 kWh per Nm3 of hydrogen for an alkaline electrolyser. Show how this value follows from the system efficiency in the table, give the corresponding value for a SOEC, and convert both into kWh per kg.",
+  "solution": "The lower heating value of hydrogen is 3.0 kWh per Nm3 (33.33 kWh/kg x 0.0899 kg/Nm3 = 3.00 kWh/Nm3). The system efficiency is the heating value of the hydrogen produced divided by the electricity consumed, so the specific consumption is 3.0 kWh/Nm3 divided by the efficiency. For an alkaline electrolyser in the middle of the band of the table, 64 %: 3.0 / 0.64 = 4.7 kWh/Nm3, exactly the value used in the exercises; per kilogram this is 4.7 / 0.0899 = about 52 kWh_el per kg H2. For a SOEC at the upper end, 83 %: 3.0 / 0.83 = 3.6 kWh/Nm3, i.e. about 40 kWh_el per kg H2. PEM lies in between at roughly 4.9 to 5.0 kWh/Nm3. The difference of about 1 kWh/Nm3 between AE and SOEC is around a fifth of the electricity bill, which is why SOEC is attractive despite its capital cost - but only where high-temperature heat or steam is available anyway, because that heat is part of the reason for the high efficiency.",
+  "keywords": [
+   "3.0 kWh",
+   "4.7 kWh/Nm3",
+   "64 %",
+   "3.6 kWh/Nm3",
+   "83 %",
+   "52 kWh"
+  ]
+ },
+ {
+  "id": "b09x-027",
+  "slide": 600,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The flexibility table gives load ranges, start-up times and load gradients for AEL, PEMEL and HTEL. Which technology follows a fluctuating renewable feed-in best, what do the numbers say about the high-temperature route, and which efficiency figure contradicts the previous slide?",
+  "solution": "PEMEL is the flexible one: its load range is 0-160 % of nominal load, so it can be switched off completely and overloaded by 60 % for a short time, its warm start-up takes less than 10 seconds, a cold start under 10-15 minutes and the load gradient at start-up reaches 10-90 %/s. AEL is usable but stiffer: load range 20-100 %, so it cannot go below about a fifth of nominal load without gas-purity problems, warm start 1-5 min and cold start 5-15 min. HTEL is the opposite of flexible: warm start 15 min, cold start over 60 min and a load gradient of only about 0.1-0.3 %/s, because the ceramic cells must not be thermally cycled; its special property is the load range from -100 to 100 %, which means it can be reversed and operated as a fuel cell (SOFC-SOEC). For a wind or PV profile PEMEL is therefore first choice, AEL second and HTEL only in buffered, steady operation. Watch the contradiction: this table gives an efficiency of 96 % for HTEL, whereas the comparison table on slide 599 gives 74-81 % at system level. The 96 % is a stack value that counts only the electricity and ignores the steam supply and the balance of plant; the system value is the honest one for an exam answer.",
+  "keywords": [
+   "0-160 %",
+   "10 seconds",
+   "20-100 %",
+   "0.1-0.3 %/s",
+   "96 %",
+   "74-81 %"
+  ]
+ },
+ {
+  "id": "b09x-028",
+  "slide": 601,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The TRL scale on the slide runs from 1 to 9 in three groups. Which assignment is correct?",
+  "options": [
+   "TRL 1-3 research, TRL 4-6 development, TRL 7-9 deployment; TRL 9 means the actual system is proven in an operational environment.",
+   "TRL 1-4 research, TRL 5-8 pilot phase, TRL 9 series production; TRL 9 means the patents have been granted.",
+   "TRL 1-3 research, TRL 4-6 deployment, TRL 7-9 development; TRL 9 means the technology has been validated in the lab.",
+   "TRL 1-3 development, TRL 4-6 deployment, TRL 7-9 market saturation; TRL 9 means the technology is cost-competitive."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The scale groups TRL 1-3 as research (basic principles observed, technology concept formulated, experimental proof of concept), TRL 4-6 as development (validated in the lab, validated in a relevant environment, demonstrated in a relevant environment) and TRL 7-9 as deployment (system prototype demonstration in an operational environment, system complete and qualified, actual system proven in an operational environment). Note what TRL does not say: it measures technical maturity only, not cost competitiveness and not market share. That is why alkaline electrolysis and PEM are both rated TRL 9 although their capital costs differ by roughly a factor of two, and why SOEC at TRL 8 is already sold commercially in small units."
+ },
+ {
+  "id": "b09x-029",
+  "slide": 601,
+  "type": "cloze",
+  "prompt": "In the technology readiness scale the highest level, ___, means that the actual system has been proven in an operational environment.",
+  "accept": [
+   "TRL 9",
+   "9",
+   "TRL9",
+   "level 9"
+  ],
+  "solution": "TRL 9. In the electrolysis comparison table alkaline electrolysis and PEM are both rated TRL 9 - alkaline with commercial applications for more than 100 years - while SOEC is rated TRL 8, i.e. system complete and qualified but not yet proven in long-term operation."
+ },
+ {
+  "id": "b09x-030",
+  "slide": 602,
+  "type": "open",
+  "prompt": "Name the hydrogen colours of the lecture with their production route. Which of them are low-carbon, and where does the colour scheme break down?",
+  "solution": "Grey: from natural gas by steam methane reforming. Brown: from coal gasification. Blue: from fossil fuels with CO2 capture. Turquoise: by methane pyrolysis, which produces solid carbon instead of a CO2 stream. Green: by electrolysis using renewable electricity. Yellow: by electrolysis using grid electricity. Pink: by electrolysis using nuclear power. White: a by-product of industrial processes or from natural reservoirs. Gold: from natural reservoirs, i.e. geological hydrogen. Genuinely low-carbon are green and pink; blue and turquoise only conditionally - blue depends on the capture rate and on the upstream methane leakage, turquoise on what happens to the solid carbon and on the electricity used for the pyrolysis. Yellow is undefined until the grid mix is known and can be worse than grey. The scheme breaks down in two places: it says nothing about the actual emissions per kg, which is why regulation works with thresholds in kg CO2 per kg H2 rather than with colours, and white and gold overlap on this very slide, both being used for hydrogen from natural reservoirs.",
+  "keywords": [
+   "steam methane reforming",
+   "coal gasification",
+   "methane pyrolysis",
+   "solid carbon",
+   "renewable electricity",
+   "nuclear",
+   "grid electricity"
+  ]
+ },
+ {
+  "id": "b09x-031",
+  "slide": 602,
+  "type": "mc",
+  "prompt": "Which colour denotes hydrogen from methane pyrolysis, whose carbon leaves the process as a solid?",
+  "options": [
+   "Yellow hydrogen",
+   "Blue hydrogen",
+   "Turquoise hydrogen",
+   "White hydrogen"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Turquoise hydrogen. Methane pyrolysis splits CH4 into hydrogen and solid carbon, so no CO2 stream has to be captured and stored and the carbon can in principle be sold or landfilled. Blue is hydrogen from fossil fuels with CO2 capture, white is a by-product of industrial processes or from natural reservoirs, and yellow is electrolysis with grid electricity."
+ },
+ {
+  "id": "b09x-032",
+  "slide": 604,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The map shows hydrogen production potential for 2050 with cost categories and marks the demand centres. What does the factor of 5 refer to, which regions are the cheap producers, and which conclusion does the lecture draw?",
+  "solution": "The colour scale gives the production cost, from below 1.00 $/kg (competitive for exports to any market) through 1.00-1.20, 1.20-1.80 and 1.80-2.50 up to above 2.50 $/kg, where production is uncompetitive against imports; between the cheapest and the most expensive location that is roughly a factor of 5. The large cheap potentials lie in the sun and wind belts: South America with 864 Mt/a, North Africa with 597 Mt/a, Australia with 380 Mt/a, the Middle East with 290 Mt/a and Namibia together with South Africa. The demand centres marked in blue are Europe, China, Japan and South Korea, India and the United States - and Japan and South Korea fall into the most expensive category, so they cannot produce competitively at all. The conclusion printed on the slide is that the best production locations and the demand centres do not coincide, so hydrogen transport is required; this is the bridge to the transport part of the chapter, where pipeline against ship and the chemical form of the molecule are discussed.",
+  "keywords": [
+   "factor of 5",
+   "864",
+   "597",
+   "demand centres",
+   "Japan",
+   "transport"
+  ]
+ },
+ {
+  "id": "b09x-033",
+  "slide": 605,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The map gives the technical potential for producing green hydrogen below USD 1.5/kg by 2050, in EJ. Which statement matches the figure?",
+  "options": [
+   "Europe leads with 88 EJ, ahead of Sub-Saharan Africa.",
+   "The total technical potential is about 500 EJ and therefore smaller than today's global primary energy demand.",
+   "The potentials are spread evenly over the continents, between 600 and 900 EJ each.",
+   "Sub-Saharan Africa with 2,715 EJ and the Middle East and North Africa with 2,023 EJ lead; Europe reaches only 88 EJ, about 30 times less than Sub-Saharan Africa."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Sub-Saharan Africa leads with 2,715 EJ, followed by the Middle East and North Africa with 2,023 EJ, North America with 1,314 EJ, Oceania with 1,272 EJ and Latin America with 1,114 EJ; Europe reaches only 88 EJ, roughly 30 times less than Sub-Saharan Africa, and Southeast Asia 64 EJ. The sum is of the order of 9,500 EJ, i.e. many times today's global primary energy demand of roughly 600 EJ, so the technical potential is not the limiting factor. What limits the build-out is capital, water, grid, land use and above all the willingness of the demand centres to depend on these regions."
+ },
+ {
+  "id": "b09x-034",
+  "slide": 606,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart compares the levelized cost of green hydrogen, blue hydrogen and natural gas from 2025 to 2050 in EUR/MWh_LHV. Describe the curve bundles and say when green becomes the cheaper option - and against which benchmark.",
+  "solution": "The green bundle starts highest, at about 190 EUR/MWh_LHV in 2025 in the conservative case and about 130 in the progressive case, and falls to roughly 80 and 45 respectively by 2050; the fall comes from cheaper renewable electricity, cheaper electrolysers and more full-load hours, i.e. from learning curves. The blue bundle starts lower, about 140 EUR/MWh with a high gas price and high CAPEX and about 65 with a low gas price and low CAPEX, but falls only slightly to about 85 and 50, because its cost is dominated by the gas price and not by learning. The two bundles cross in the early to mid 2030s in the combination of a progressive green case with a high gas price, and their ranges overlap from then on. The lowest lines are unabated natural gas, about 20 EUR/MWh as a direct cost at a low gas price and about 65 falling to 45 at a high gas price. The honest reading is therefore: green hydrogen undercuts blue hydrogen somewhere between roughly 2032 and 2045 depending on gas price and CAPEX, but it only reaches the level of natural gas itself at the end of the period and only in the progressive case - which is why a CO2 price or a quota is needed to close the remaining gap.",
+  "keywords": [
+   "190 EUR/MWh",
+   "gas price",
+   "CAPEX",
+   "2030s",
+   "CO2 price"
+  ]
+ },
+ {
+  "id": "b09x-035",
+  "slide": 607,
+  "type": "open",
+  "prompt": "What is geological hydrogen, how large is the estimated resource, and why does the lecture treat it with caution?",
+  "solution": "Geological hydrogen, also called white or gold hydrogen, is hydrogen generated in the earth's crust, mainly by serpentinisation of iron-rich rock and by radiolysis of water, and it can accumulate in traps in the same way as natural gas. Ellis et al. (2024) estimate a global generation of 15-30 Mt/a, but this figure says nothing about the trapping and accumulation propensity, i.e. how much of it can actually be found in one place. Their stochastic model gives a range of 10^3 to 10^10 Mt for the trapped hydrogen - seven orders of magnitude, which is not a resource estimate but an admission of very high uncertainty. Most of this hydrogen is likely to be too dispersed or too deep to be recovered economically. The caution is therefore justified: geological hydrogen would need no electricity input at all and would be extremely cheap, so the research potential is huge, but nobody can currently say whether commercially exploitable accumulations exist in relevant numbers, which makes it a research topic and not a supply option for a 2030 or 2045 strategy.",
+  "keywords": [
+   "15-30 Mt",
+   "trapped",
+   "uncertainty",
+   "serpentinisation",
+   "research"
+  ]
+ },
+ {
+  "id": "b09x-036",
+  "slide": 609,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure plots the cost of hydrogen delivered to Germany against the transport distance for pipeline and ship. Explain the shape of the two curves and the break-even distances given on the slide.",
+  "solution": "The pipeline curve starts low but rises steeply and roughly linearly with distance, because every additional kilometre needs more pipe, more right of way and additional compressor stations. The ship curve starts high, because the conversion at the export terminal - liquefaction or synthesis to ammonia or LOHC - and the reconversion at the import terminal have to be paid in full even for a short voyage, but it then rises only slowly, since another 1,000 km at sea costs almost nothing extra. The two curves therefore cross, and the slide gives the break-even distance as about 2,000-4,000 km against a newly built pipeline and 8,000-10,000 km against an existing, repurposed pipeline. The difference between the two numbers shows how much a re-used natural gas pipeline is worth: its capital cost is largely written off, so it stays competitive over more than twice the distance. Below the break-even the pipeline wins, above it the ship. The slide adds two arguments on the ship side: the major energy demand of liquefaction of about 7 kWh_el per kg H2, and the availability of ships, since the world fleet of liquid hydrogen carriers currently consists of a single vessel.",
+  "keywords": [
+   "2,000-4,000 km",
+   "8,000-10,000 km",
+   "liquefaction",
+   "compressor",
+   "break-even"
+  ]
+ },
+ {
+  "id": "b09x-037",
+  "slide": 609,
+  "type": "open",
+  "prompt": "Liquefaction of hydrogen requires about 7 kWh of electricity per kg H2. Express this as a share of the energy content of the hydrogen, compare it with LNG, and say what follows for the choice of the transport vector.",
+  "solution": "Hydrogen carries 33.33 kWh_LHV per kg, so 7 kWh_el per kg are 7 / 33.33 = 21 % of its own energy content - and since this is electricity, it is 21 % paid in the most valuable form of energy. Liquefying natural gas costs roughly 10 % of its energy content and the LNG chain runs at -162 °C instead of -253 °C, so hydrogen liquefaction is both more expensive and technically harder. Adding the electrolysis loss (an alkaline electrolyser at about 64 % already loses a third), the boil-off during the voyage and the energy for the regasification, the chain efficiency of delivered liquid hydrogen falls well below 50 %. This is why most real export projects choose ammonia instead: the Haber-Bosch step also costs energy, but ammonia liquefies at -33 °C, uses ships and terminals that already exist and has almost no boil-off problem. Liquid hydrogen is preferable only where the customer really needs the pure molecule, because cracking ammonia back into hydrogen would eat the advantage.",
+  "keywords": [
+   "7 kWh",
+   "33.33 kWh",
+   "21 %",
+   "ammonia",
+   "-33 °C",
+   "boil-off"
+  ]
+ },
+ {
+  "id": "b09x-038",
+  "slide": 610,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure gives the tolerance of existing elements of the natural gas network to hydrogen blending by volume. Which elements limit the achievable blend share, and what does that mean for a blending strategy?",
+  "solution": "The tolerances differ by an order of magnitude. On the network side the distribution grid tolerates about 50 % by volume and up to 100 % under certain circumstances, gas meters about 50 %, the transmission grid about 20 %, compressors about 10 % and underground storage only about 2 %. On the end-use side boilers and cooking appliances tolerate about 30 %, CNG tanks about 30 % under certain circumstances, engines about 5 % and gas turbines about 2 %. The system limit is set by the weakest element actually present in the chain, i.e. underground storage and gas turbines at about 2 %, followed by engines and compressors. A blending strategy must therefore either stay at a very low single-digit share system-wide or be organised locally, since a distribution island with no storage and no turbine behind it can go far higher. Blending is also thermodynamically unattractive: hydrogen has only about a third of the volumetric energy content of methane, so 20 % hydrogen by volume replaces only about 7 % of the energy and saves correspondingly little CO2. The real answer is a dedicated hydrogen network, i.e. repurposing whole strings instead of blending into them.",
+  "keywords": [
+   "50 %",
+   "20 %",
+   "compressors",
+   "underground storage",
+   "gas turbines",
+   "blending"
+  ]
+ },
+ {
+  "id": "b09x-039",
+  "slide": 610,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which two elements of the existing gas system tolerate the lowest hydrogen blend share according to the figure?",
+  "options": [
+   "Boilers and cooking appliances, at about 30 %",
+   "Transmission pipelines and CNG tanks, at about 20 %",
+   "Distribution grid and gas meters, at about 50 %",
+   "Underground storage and gas turbines, at about 2 %"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Underground storage and gas turbines are the bottlenecks at roughly 2 % by volume - the storage because of microbiology, gas losses and reservoir chemistry, the turbines because of flame speed, flashback and NOx formation. Distribution and gas meters are the most tolerant network elements at about 50 %, boilers and cooking appliances lie around 30 %, and transmission pipelines are around 20 % with the compressors at about 10 %."
+ },
+ {
+  "id": "b09x-040",
+  "slide": 611,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the worldwide natural gas transmission network and the length of the European pipelines by pressure class. What is the argument behind these two figures, and what has to be done before such a pipeline can carry hydrogen?",
+  "solution": "The argument is asset re-use. A dense transmission network already exists in North America, Europe, Russia, the Middle East and increasingly in China, and in Europe alone there are tens of thousands of kilometres of transmission pipeline, most of it designed for pressures between about 59 and 85 bar, with Middle Europe holding by far the largest share. Repurposing such a string for hydrogen is much cheaper than building a new one - the literature from the IEA and the European Hydrogen Backbone puts repurposing at roughly 10-35 % of the cost of a new build - and this is exactly what pushes the break-even distance against shipping from 2,000-4,000 km out to 8,000-10,000 km on the previous slide. What has to be done technically: check the steel grade for hydrogen embrittlement and reduce the allowed stress or the operating pressure accordingly, replace or reline valves, seals and flanges, replace the compressors, because hydrogen needs about three times the volume flow for the same energy and machines designed for methane cannot deliver it, recalibrate the metering and clean the pipe. Note that the repurposing cost share is not printed on this slide; it is the figure used in the transport cost comparison of the chapter.",
+  "keywords": [
+   "re-use",
+   "embrittlement",
+   "compressors",
+   "85 bar",
+   "10-35 %"
+  ]
+ },
+ {
+  "id": "b09x-041",
+  "slide": 612,
+  "type": "open",
+  "prompt": "The Suiso Frontier carries about 80 t of liquid hydrogen in 1,250 m3 of tank volume. Check this against the density of liquid hydrogen, give the energy content of one cargo and compare it with an LNG carrier of 170,000 m3.",
+  "solution": "80 t in 1,250 m3 give 80,000 kg / 1,250 m3 = 64 kg/m3, i.e. 0.064 kg/l, which fits the density of liquid hydrogen of about 0.07 kg/l at a filling level of roughly 90 %; the remaining volume is the ullage space needed for the boil-off gas. The energy content of one cargo is 80,000 kg x 33.33 kWh/kg = 2,666,400 kWh, i.e. about 2.7 GWh. An LNG carrier of 170,000 m3 holds roughly 76,500 t of LNG at 0.45 kg/l with about 13.9 kWh/kg, i.e. of the order of 1,060 GWh - some 400 times as much energy in a single ship. That is the scale problem of maritime hydrogen: the successor vessel of 160,000 m3 planned by Kawasaki was scaled down to 40,000 m3 in 11/2024 for lack of demand, and even that would carry only about 85 GWh per voyage. Note the irony of the demonstration run of 01/2022 from Australia to Japan over about 9,000 km: the ship has diesel-electric propulsion and the hydrogen came from coal gasification, so the shipment was neither green nor climate-neutral - it was a technical proof of concept.",
+  "keywords": [
+   "64 kg/m3",
+   "0.07 kg/l",
+   "2.7 GWh",
+   "coal gasification",
+   "boil-off"
+  ]
+ },
+ {
+  "id": "b09x-042",
+  "slide": 612,
+  "type": "cloze",
+  "prompt": "The world's first liquid hydrogen carrier ship, which made the first international liquid hydrogen shipment from Australia to Japan in January 2022, is called ___.",
+  "accept": [
+   "Suiso Frontier",
+   "Suiso-Frontier",
+   "Suiso"
+  ],
+  "solution": "Suiso Frontier, built by Kawasaki Heavy Industries, carrying about 80 t of liquid hydrogen in 1,250 m3 of tanks. It is still the only vessel of its kind; the planned successor of 160,000 m3 was scaled down to 40,000 m3 in 11/2024 because demand was lower than expected, and two Korean yards have so far only received an approval in principle from DNV for carriers of 80,000 m3."
+ },
+ {
+  "id": "b09x-043",
+  "slide": 613,
+  "type": "cloze",
+  "prompt": "The slide notes that liquid hydrogen receiving terminals are being built although most international hydrogen export projects target ___ instead of liquid hydrogen.",
+  "accept": [
+   "ammonia",
+   "NH3",
+   "Ammoniak"
+  ],
+  "solution": "Ammonia. It liquefies at -33 °C instead of -253 °C, moves in ships and terminals that already exist, has hardly any boil-off problem and is a product with an established world market. The terminal on the slide is nevertheless built with the world's largest liquid hydrogen tank, 50,000 m3 or 3,438 t - a density of about 0.069 kg/l and roughly 115 GWh of hydrogen - for first operation in 2030, which is a bet on a liquid hydrogen trade that does not yet exist."
+ },
+ {
+  "id": "b09x-044",
+  "slide": 614,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure shows liquid hydrogen export costs by country from 2020 to 2050. Describe the trend and the spread and explain what makes a country cheap or expensive on this chart.",
+  "solution": "All curves fall over time, from a band of roughly 4 to 7.6 EUR/kg in 2020 to roughly 2.2 to 5.1 EUR/kg in 2050, with the steepest drop between 2020 and 2030. The fall is driven by the learning curves of PV, wind and electrolysers and by rising full-load hours; the ranking of the countries, however, hardly changes, and that is the important message - the resource endowment decides. Cheap exporters are the countries with many solar and wind full-load hours: Oman, Namibia, Chile, Peru and Saudi Arabia end below about 2.5 EUR/kg. Expensive are the high-latitude countries with poor solar resources; Russia stays highest at about 5.1 EUR/kg in 2050 and Norway follows at about 4.3 EUR/kg. Note what the y-axis contains: these are export costs at the loading terminal, i.e. electricity, electrolysis and liquefaction, but not the voyage - so the ranking reflects production and liquefaction conditions and not the distance to the customer.",
+  "keywords": [
+   "7.6 EUR/kg",
+   "2.2 to 5.1 EUR/kg",
+   "full-load hours",
+   "liquefaction",
+   "export costs"
+  ]
+ },
+ {
+  "id": "b09x-045",
+  "slide": 616,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure compares studies on the cost of liquid hydrogen imported to Germany in 2050 from Australia and from Morocco, broken down by cost component. Name the components, say which one dominates and explain the difference between the two exporters.",
+  "solution": "Each bar is stacked from electricity, electrolysis, liquefaction, storage, others and shipping, i.e. the whole chain from the renewable power plant to the German import terminal. The results scatter enormously, from about 2.0 to 8.9 EUR per kg H2 depending on the study and on whether the pessimistic, reference or optimistic case is shown, and that scatter is itself the message: it comes from different assumptions on the cost of capital, on full-load hours and on electrolyser CAPEX, not from different physics. In almost every bar the electricity block is the largest single component, followed by liquefaction; electrolysis and shipping are smaller, and shipping is the only component that really distinguishes the two exporters. Morocco is cheaper overall - most Morocco bars lie between about 2.0 and 3.5 EUR/kg while the Australian ones reach from 3.2 up to 8.9 EUR/kg - because the distance to Germany is far shorter while its solar resource is nearly as good. The practical conclusion for a European importer is that the electricity price matters more than the distance, but where the electricity price is comparable, the nearer supplier wins.",
+  "keywords": [
+   "electricity",
+   "liquefaction",
+   "shipping",
+   "8.9 EUR",
+   "Morocco",
+   "cost of capital"
+  ]
+ }
+]

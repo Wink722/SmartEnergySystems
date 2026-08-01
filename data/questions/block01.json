@@ -1,0 +1,597 @@
+[
+ {
+  "id": "b01-001",
+  "slide": 12,
+  "type": "open",
+  "prompt": "The lecture separates 'energy carrier' from 'energy source'. Define both and explain why the distinction matters when you describe an energy supply chain.",
+  "solution": "An energy carrier is a substance, impulse, radiation or field which contains or transmits energy - more precisely, something from which usable energy can be obtained directly or through one or more conversions. Coal, natural gas, hydrogen, electricity, steam and district heat are energy carriers.\n\nAn energy source, by contrast, is the system that provides the energy: the coal seam, the gas field, the sun, the wind, the reservoir behind a dam.\n\nThe distinction matters because infrastructure is always built for the carrier, not for the source. A pipeline, a cable or a storage cavern handles a carrier with defined physical properties - pressure, calorific value, voltage - while the source only determines how much of that carrier is available and at what cost. It also keeps the accounting straight: one source can feed several carriers (natural gas becomes electricity, heat or hydrogen), and one carrier can come from many sources. In the exam, never call the wind an energy carrier: the wind is the source, the kinetic energy of the air and afterwards the electricity are the carriers.",
+  "keywords": [
+   "energy carrier",
+   "conversions",
+   "energy source",
+   "provides",
+   "usable energy"
+  ]
+ },
+ {
+  "id": "b01-002",
+  "slide": 13,
+  "type": "open",
+  "prompt": "Name the four levels of energy the lecture distinguishes, in the right order, and explain what is lost between each of them. Illustrate the chain with one example running from lignite to light.",
+  "solution": "The order is: primary energy - secondary energy - end energy - usable energy.\n\nPrimary energy carriers occur naturally and have not been subjected to any conversion: coal, lignite, crude oil, natural gas, uranium and the renewable sources.\n\nSecondary energy carriers are the result of a conversion process in power plants, refineries or coking plants and are obtained from primary energy with conversion losses: coke, briquettes, electricity, district heating, heating oil, gasoline.\n\nEnd energy is the energy consumed by the user, i.e. secondary (or directly primary) energy reduced by conversion and distribution losses - the kWh on the electricity meter, the litre of heating oil in the tank.\n\nUsable energy is what is available after the final conversion in the devices of the end consumer: light, mechanical work, heat at the required temperature.\n\nExample: lignite in the open-cast mine (primary) becomes electricity in the power plant at roughly 40 % efficiency (secondary), arrives at the socket after grid losses (end energy) and leaves the lamp as light (usable energy). Every arrow costs efficiency, which is why usable energy is only a small fraction of the primary input - and why saving one unit of usable energy saves several units of primary energy. That leverage is the whole argument for efficiency measures at the consumer end.",
+  "keywords": [
+   "primary energy",
+   "secondary energy",
+   "end energy",
+   "usable energy",
+   "conversion and distribution losses"
+  ]
+ },
+ {
+  "id": "b01-003",
+  "slide": 13,
+  "type": "cloze",
+  "prompt": "The energy that is available after the final conversion in the devices of the end consumer - light, for instance - is called ___ energy.",
+  "accept": [
+   "usable",
+   "useful",
+   "Nutzenergie",
+   "usable energy",
+   "useful energy"
+  ],
+  "solution": "Usable energy (Nutzenergie). It sits at the end of the chain primary - secondary - end - usable energy. End energy is what the consumer buys and pays for; usable energy is what the appliance finally delivers, after the last conversion loss in the lamp, the boiler or the motor."
+ },
+ {
+  "id": "b01-004",
+  "slide": 15,
+  "type": "open",
+  "graphic": true,
+  "prompt": "A hard-coal power plant burns 500,000 t of coal per year, accounted for as tonnes of coal equivalent (tce). Use the conversion table on the slide to express this fuel input in kWh, in GWh and in TWh, and compare it with the same mass counted in tonnes of oil equivalent (toe).",
+  "solution": "From the table, 1 tce = 8.141 * 10^3 kWh = 8,141 kWh.\n\nStep 1 - convert the mass into energy:\n500,000 tce * 8,141 kWh/tce = 4.0705 * 10^9 kWh = 4,070,500,000 kWh.\n\nStep 2 - apply the decimal prefixes (giga = 10^9, tera = 10^12):\n4.0705 * 10^9 kWh = 4,070.5 GWh = 4.07 TWh.\n\nStep 3 - the oil comparison. The table gives 1 toe = 1.163 * 10^4 kWh = 11,630 kWh, and correspondingly 1 tce = 0.7 toe. The same 500,000 t counted as oil equivalent would be 500,000 * 11,630 = 5.815 * 10^9 kWh = 5,815 GWh, about 43 % more energy, because oil has the higher calorific value per tonne.\n\nThe lesson: tce and toe are energy units disguised as masses, so always convert to kWh or J before comparing anything, and watch the prefix - the factor of 1,000 between GWh and TWh is the classic exam mistake.",
+  "keywords": [
+   "8,141 kWh",
+   "4,070.5 GWh",
+   "11,630 kWh",
+   "0.7 toe",
+   "tce"
+  ]
+ },
+ {
+  "id": "b01-005",
+  "slide": 16,
+  "type": "open",
+  "graphic": true,
+  "prompt": "A tanker discharges 1,000,000 US petroleum barrels of crude oil. Using the volumetric conversion table, convert the cargo into cubic metres, into litres and into US gallons, and state the rules of thumb worth memorising.",
+  "solution": "From the table: 1 bbl = 0.15898729 m3 = 158.9873 l = 42 US gallons (liquid).\n\nCubic metres: 1,000,000 bbl * 0.15898729 m3/bbl = 158,987 m3, i.e. about 1.59 * 10^5 m3.\nLitres: 1,000,000 * 158.9873 l = 1.589873 * 10^8 l = 158,987,300 l.\nUS gallons: 1,000,000 * 42 = 42,000,000 US gallons.\n\nThe reverse direction is in the same table: 1 m3 = 6.2898 bbl.\n\nRules of thumb: one barrel is 159 litres or 42 US gallons, and one cubic metre is roughly 6.3 barrels. Two traps on this slide: the table is written with German decimal separators, so the barrel/cubic-inch entry '9.702' means nine thousand seven hundred two cubic inches, not 9.7; and a barrel is a volume, not an energy - to price or compare a cargo you still need the density and the calorific value.",
+  "keywords": [
+   "42 US gallons",
+   "158.9873 l",
+   "158,987 m3",
+   "6.2898 bbl",
+   "159 litres"
+  ]
+ },
+ {
+  "id": "b01-006",
+  "slide": 17,
+  "type": "cloze",
+  "prompt": "In the decimal-prefix table, the factor 10^15 carries the prefix ___ (abbreviation P).",
+  "accept": [
+   "Peta",
+   "P",
+   "peta"
+  ],
+  "solution": "Peta, abbreviation P, factor 10^15 = 1,000,000,000,000,000. The three prefixes you need for energy statistics are Tera (T, 10^12), Peta (P, 10^15) and Exa (E, 10^18): German final energy consumption is quoted in PJ, European electricity generation in TWh, world primary energy in EJ. Below them come Kilo (k, 10^3), Mega (M, 10^6) and Giga (G, 10^9)."
+ },
+ {
+  "id": "b01-007",
+  "slide": 18,
+  "type": "open",
+  "prompt": "Define economies of scale and distinguish internal from external economies of scale. Give one energy-infrastructure example of each.",
+  "solution": "Economies of scale are the cost advantages a business achieves as a result of an increase in its level of production or output: as more units are produced, the average cost of production per unit tends to decrease.\n\nInternal economies of scale result from factors within the firm - increased specialization, improved technology, better utilization of resources and increased bargaining power with suppliers. Example: a transmission system operator running 35,000 km of line spreads its control centre, its dispatching staff and its maintenance fleet over far more kilometres than a small operator, and it orders transformers in quantities that earn a discount.\n\nExternal economies of scale occur outside the firm and are usually industry-specific: a whole industry benefits from a skilled labour force or from improved infrastructure in a particular region. Example: the cluster of pipeline engineering, welding and inspection firms in the Ruhr area, or a port region where LNG know-how, dredged channels and berths already exist, so that every additional terminal built there is cheaper than a greenfield one.\n\nThe purpose of both is the same - increase profit and market share. In infrastructure, economies of scale running up to the size of the market are the economic root of the natural monopoly.",
+  "keywords": [
+   "economies of scale",
+   "average cost",
+   "internal economies of scale",
+   "external economies of scale",
+   "market share"
+  ]
+ },
+ {
+  "id": "b01-008",
+  "slide": 18,
+  "type": "mc",
+  "prompt": "Which of the following is an *external* economy of scale in the sense of the slide?",
+  "options": [
+   "A larger compressor unit has a lower investment cost per unit of throughput than a small one.",
+   "A region develops a pool of skilled pipeline welders and good port infrastructure, so every firm building there has lower costs.",
+   "A utility orders 200 transformers at once and receives a volume discount from the manufacturer.",
+   "A network operator specialises its workforce so that each team performs only one type of maintenance."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "External economies of scale occur outside the firm and are industry- or region-specific: a skilled labour force and improved regional infrastructure lower costs for every firm in that industry, not just for one. The other three are internal economies of scale - specialization, bargaining power with suppliers and better utilization of a larger technical unit are all achieved inside the firm's own boundaries."
+ },
+ {
+  "id": "b01-009",
+  "slide": 19,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the average-cost curve shown on the slide and state the measure E_K the lecture uses for economies of scale. What do E_K < 1, E_K = 1 and E_K > 1 mean, and where does each case sit on your sketch?",
+  "solution": "Sketch: cost per unit (average cost, DK) on the vertical axis, output on the horizontal axis. The curve is U-shaped - it falls steeply at first, flattens to a minimum and then rises again. The falling branch is labelled 'Economies of Scale', the rising branch 'Diseconomies of Scale', and the minimum is the point of constant returns.\n\nThe measure is the cost elasticity:\nE_K = (dK/K)/(dQ/Q) = (dK/dQ)/(K/Q) = GK/DK,\nthat is, marginal cost divided by average cost.\n\nE_K < 1: GK < DK. Marginal cost lies below average cost, so every additional unit pulls the average down - economies of scale, the falling branch.\nE_K = 1: GK = DK. The average cost curve is at its minimum - constant returns.\nE_K > 1: GK > DK. Each additional unit costs more than the current average and pulls it up - dis-economies of scale, the rising branch.\n\nOne caution: the wording on the slide, 'E_K = percentage change of costs as a result of increase in production', is loose. E_K is not the percentage change of costs but the ratio of the two percentage changes, i.e. the elasticity of cost with respect to output.",
+  "keywords": [
+   "U-shaped",
+   "cost elasticity",
+   "GK/DK",
+   "Economies of Scale",
+   "Diseconomies of Scale",
+   "minimum"
+  ]
+ },
+ {
+  "id": "b01-010",
+  "slide": 19,
+  "type": "open",
+  "prompt": "A gas transmission operator increases the transported quantity Q by 20 %. Its total costs K rise by 12 %. Compute E_K, classify the case, and say what it implies for marginal and average cost - and for the question whether a second operator should build a parallel grid.",
+  "solution": "E_K = (dK/K)/(dQ/Q) = 0.12 / 0.20 = 0.6.\n\nE_K = 0.6 < 1, so the firm is in the region of economies of scale. Because E_K = GK/DK, marginal cost is only 60 % of average cost: GK < DK, and every additional unit transported pulls the average cost down. On the U-shaped average-cost curve the operator still sits on the falling branch, to the left of the minimum.\n\nConsequence for market structure: splitting the transported quantity between two parallel grids would move both firms back up the falling branch to a lower output each, and therefore to a higher average cost each. One operator serves the whole demand more cheaply than two - the cost function is sub-additive and the grid is a natural monopoly. That is precisely why a second parallel grid is not built and why the single operator is regulated instead.",
+  "keywords": [
+   "0.6",
+   "economies of scale",
+   "GK < DK",
+   "sub-additive",
+   "natural monopoly"
+  ]
+ },
+ {
+  "id": "b01-011",
+  "slide": 20,
+  "type": "open",
+  "prompt": "Define economies of scope and name the sources from which they arise. Give an example from a multi-utility.",
+  "solution": "Economies of scope are the cost advantages a business achieves by producing a variety of goods or services rather than specializing in the production of a single good or service: the combined production of several products results in lower average costs than producing each product independently.\n\nThe slide names the sources: shared production processes, shared distribution channels, shared marketing effort and shared research and development. The following slide adds diversification, efficiency gains from leveraging common resources such as production facilities or distribution networks, and risk reduction - if one product runs into trouble, the success of the others cushions the effect.\n\nMulti-utility example: a Stadtwerk supplying electricity, gas, district heat and water digs one trench for pipes and cables, runs one metering and billing system, one call centre, one field service and one brand for all four products. Each product on its own would have to pay for its own trench, its own IT and its own crews, so joint production is cheaper than four separate companies.\n\nThis also shows the price of regulation: unbundling forces the network business apart from sales and thereby deliberately gives up part of these economies of scope in exchange for competition.",
+  "keywords": [
+   "economies of scope",
+   "lower average costs",
+   "shared production processes",
+   "distribution channels",
+   "research and development",
+   "risk reduction"
+  ]
+ },
+ {
+  "id": "b01-012",
+  "slide": 21,
+  "type": "mc",
+  "prompt": "Which of the following effects does the lecture list as a benefit of economies of *scope* rather than of scale?",
+  "options": [
+   "A volume discount obtained by ordering a larger quantity of one input.",
+   "Spreading business risk by diversifying the product or service portfolio.",
+   "Lower specific investment cost of a larger compressor compared with a small one.",
+   "Falling average cost because a large fixed investment is spread over more units of the same product."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Risk reduction through a diversified portfolio is one of the three effects the slide lists for economies of scope, alongside diversification with shared resources and efficiency gains from common production facilities and distribution networks. The other three options all describe economies of scale: they concern a larger output of one and the same product, not the joint production of several products."
+ },
+ {
+  "id": "b01-013",
+  "slide": 22,
+  "type": "open",
+  "prompt": "Economies of scale and economies of scope are regularly confused. Contrast them precisely, and say which of the two a vertically integrated gas utility loses when it is unbundled.",
+  "solution": "Economies of scale concern the quantity of one product: cost reductions associated with an increased production of a single good, so that the average cost per unit falls. Economies of scope concern the number of products: cost advantages achieved through the joint production of several products or services, so that producing them together is cheaper than producing each independently. Formally, scale is measured by the cost elasticity E_K = GK/DK, scope by SK = [K(Q1) + K(Q2) - K(Q1,Q2)] / K(Q1,Q2). Both contribute to a firm's overall efficiency and competitiveness, and both can be present at the same time.\n\nUnbundling attacks the economies of scope, not the economies of scale. The grid keeps its scale advantages - it is still one network serving the whole area, and nobody asks it to shrink. What is lost is the joint production of network operation, storage, trading and sales inside one company: separate legal entities need their own management, their own IT, their own balancing and their own regulatory reporting. That is exactly the 'complexity' the lecture lists as a result of unbundling. The trade-off is accepted because the gain - competition and non-discriminatory third-party access in the commodity stages - is judged to be larger than the lost scope economies.",
+  "keywords": [
+   "economies of scale",
+   "economies of scope",
+   "average cost per unit",
+   "joint production",
+   "unbundling",
+   "complexity"
+  ]
+ },
+ {
+  "id": "b01-014",
+  "slide": 23,
+  "type": "open",
+  "prompt": "A utility can produce electricity and district heat separately or jointly in a CHP plant. Separate production costs K(Q1) = 60 M EUR and K(Q2) = 50 M EUR; joint production costs K(Q1,Q2) = 88 M EUR. State the lecture's measure of economies of scope, compute it and interpret the result.",
+  "solution": "The measure is\nSK = [K(Q1) + K(Q2) - K(Q1,Q2)] / K(Q1,Q2),\nwhere K(Q1) is the cost of producing Q1 alone, K(Q2) the cost of producing Q2 alone and K(Q1,Q2) the cost of producing both products jointly.\n\nSubstitution:\nSK = (60 + 50 - 88) / 88 = 22 / 88 = 0.25.\n\nResult: SK = 0.25 > 0, so joint production is advantageous. In absolute terms the CHP plant saves 22 M EUR, that is 25 % of the cost of joint production (and 20 % of the 110 M EUR that separate production would cost).\n\nInterpretation and counter-case: SK > 0 means advantageous joint production, SK < 0 means dis-advantageous joint production, SK = 0 means indifference. One caution for the regulation chapter: economies of scope on their own are not sufficient for the cost function to be sub-additive in the multi-product case - the natural-monopoly slide states this explicitly.",
+  "keywords": [
+   "0.25",
+   "22 M EUR",
+   "advantageous",
+   "joint production",
+   "sub-additive"
+  ]
+ },
+ {
+  "id": "b01-015",
+  "slide": 25,
+  "type": "open",
+  "prompt": "Give the general definition of infrastructure the lecture quotes and name the two properties of infrastructure investments that follow directly from it. In what respect is this definition narrower than the one the lecture uses afterwards?",
+  "solution": "Definition: infrastructure is the basic physical systems of a business or a nation - transportation, communication, sewage, water and electric systems are all examples. The definition is deliberately wide in one direction: it applies to large- and small-scale organizational frameworks and covers any system or structure as long as physical components are required. The standard example given is the electrical grid across a city, a state or a country.\n\nTwo properties follow directly. First, these systems tend to be high-cost investments: very large amounts of capital are tied up before anything is earned, and the payback runs over decades. Second, they are vital to a country's economic development and prosperity - nothing else in the economy functions without them, which is why their failure has consequences far beyond the operator and why the state never leaves them entirely alone.\n\nWhere it is narrower: this definition is purely physical. Jochimsen's concept, which the lecture turns to on the next slides, adds institutional infrastructure (norms, laws, institutions) and immaterial or personnel infrastructure (human capital). A pipeline without a legal access regime and without engineers able to operate it delivers nothing, so the physical definition alone is not enough.",
+  "keywords": [
+   "basic physical systems",
+   "high-cost investments",
+   "economic development",
+   "electrical grid",
+   "Jochimsen"
+  ]
+ },
+ {
+  "id": "b01-016",
+  "slide": 26,
+  "type": "open",
+  "prompt": "What are 'critical infrastructures' (KRITIS) in Germany, which sectors do they cover, and what changed for power plants on 1 January 2022?",
+  "solution": "The definition is laid down in the BSI KritisV, the Ordinance for Determining Critical Infrastructures. Critical infrastructures (KRITIS) are organizations and facilities of major importance for society - in the energy, information technology, telecommunications, transport, health, water, finance and other sectors.\n\nThe defining criterion is the consequence of failure: the failure or impairment of these infrastructures would lead to sustained shortages of supplies, to significant disruptions to public order, safety and security, or to other dramatic consequences.\n\nThe ordinance uses both qualitative and quantitative criteria to decide which individual facilities actually count. Qualitatively, the facility must perform a supply function for the general public; quantitatively, it must exceed a threshold, derived from the rule of thumb that a facility supplying roughly 500,000 people is critical.\n\nThe change: for power plants the threshold was lowered from 420 megawatts to 104 megawatts as of 1 January 2022. Many more and much smaller units therefore fall under KRITIS and must meet the obligations attached to it - state-of-the-art IT security, an information security management system, regular audits and mandatory reporting of incidents to the BSI. The direction is deliberate: with a decentralised generation fleet the relevant risk is no longer the single large block but the simultaneous loss of many mid-size units, for instance through a common software vulnerability.",
+  "keywords": [
+   "BSI KritisV",
+   "420 megawatts",
+   "104 megawatts",
+   "sustained shortages of supplies",
+   "quantitative criteria"
+  ]
+ },
+ {
+  "id": "b01-017",
+  "slide": 26,
+  "type": "cloze",
+  "prompt": "As of 1 January 2022 the threshold above which a power plant counts as critical infrastructure in Germany was lowered from 420 MW to ___ MW.",
+  "accept": [
+   "104",
+   "104 MW",
+   "104 megawatts",
+   "104MW"
+  ],
+  "solution": "104 MW. The BSI KritisV lowered the threshold from 420 megawatts to 104 megawatts with effect from 1 January 2022, so that far more and much smaller generation units now fall under the KRITIS obligations for IT security, audits and incident reporting."
+ },
+ {
+  "id": "b01-018",
+  "slide": 27,
+  "type": "open",
+  "prompt": "Quote Jochimsen's definition of infrastructure and explain what economic function it ascribes to infrastructure. Which three types does the lecture derive from it, and what terminological inconsistency should you notice on this slide?",
+  "solution": "Jochimsen (1966, Theorie der Infrastruktur, p. 145) defines infrastructure as the entirety of material, institutional and personnel facilities and conditions available to the division-of-labour economy. Its function: it contributes to ensuring that equal factor payments are made for equal factor services with a purposeful allocation of resources.\n\nThat function is the examinable part. Infrastructure is what makes an economy behave as one single market instead of many isolated ones. If transport, grids, legal rules and qualified people are available everywhere, the same unit of labour or capital earns the same return wherever it is employed, and resources flow to where they are most productive. Infrastructure is therefore justified by an allocation and equalisation argument, not by the profitability of the individual asset - which is exactly why so much of it is publicly provided, publicly financed or regulated.\n\nThe three types the lecture derives are material infrastructure, institutional infrastructure and immaterial infrastructure.\n\nThe inconsistency: the definition on this very slide speaks of material, institutional and *personnel* facilities, while the list of types underneath calls the third one *immaterial*. Jochimsen's original triad is materielle / institutionelle / personelle Infrastruktur. Both labels denote the same thing here - the people and their qualification, i.e. human capital - but if the exam asks for 'the three types of infrastructure', answer with the lecture's own list: material, institutional, immaterial.",
+  "keywords": [
+   "Jochimsen",
+   "division-of-labour economy",
+   "equal factor payments",
+   "personnel",
+   "immaterial",
+   "material infrastructure"
+  ]
+ },
+ {
+  "id": "b01-019",
+  "slide": 28,
+  "type": "mc",
+  "prompt": "Jochimsen's definition of *material* infrastructure lists three groups of facilities. Which of the following is NOT one of them?",
+  "options": [
+   "The structures for the conservation of natural resources and transportation routes in the broadest sense.",
+   "The buildings and facilities of government administration, education and research, as well as health and welfare services.",
+   "All facilities, equipment and resources of a national economy that serve energy supply, transportation and telecommunications.",
+   "The evolved and established norms, institutions and procedures in their 'constitutional reality'."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The first three options are exactly the three groups Jochimsen lists under material infrastructure: (1) energy supply, transport and telecommunications, (2) conservation of natural resources and transport routes, (3) the buildings of administration, education, research, health and welfare. Note that schools and hospitals therefore count as material infrastructure - it is the building that is meant, not the teaching or the treatment. The last option is the definition of institutional infrastructure, the rule framework, which is a different type."
+ },
+ {
+  "id": "b01-020",
+  "slide": 29,
+  "type": "cloze",
+  "prompt": "The evolved and established norms, institutions and procedures in their 'constitutional reality', which provide the framework within which economic entities formulate and implement their own economic plans, are called ___ infrastructure.",
+  "accept": [
+   "institutional",
+   "institutionelle",
+   "institutionell",
+   "institutional infrastructure"
+  ],
+  "solution": "Institutional infrastructure. It is the rule framework - laws, established procedures, institutions - and Jochimsen measures it by the degree of actual equal treatment of similar economic conditions, excluding 'meta-economic' influences. In the energy sector: the Energiewirtschaftsgesetz, the EU internal-market directives, the Bundesnetzagentur, the unbundling rules, the entry-exit market model, DVGW and DIN standards. Its counterparts in the triad are material infrastructure (the physical stock) and immaterial infrastructure (the people)."
+ },
+ {
+  "id": "b01-021",
+  "slide": 30,
+  "type": "cloze",
+  "prompt": "The number and characteristics of the individuals in the division-of-labour market economy, with regard to their ability to contribute to raising the level and degree of integration of economic activity, is what Jochimsen calls ___ infrastructure.",
+  "accept": [
+   "immaterial",
+   "immaterielle",
+   "personnel",
+   "personelle",
+   "immaterial infrastructure"
+  ],
+  "solution": "Immaterial infrastructure - in Jochimsen's original wording personelle (personnel) infrastructure, which is why the lecture's definition slide says 'personnel' while its list of types says 'immaterial'. In plain terms it is human capital: education, qualification, know-how, health, mobility and willingness to work. For the energy transition this is the type that binds first: the electricians, welders, grid planners and heat-pump installers who are missing are immaterial infrastructure, and no amount of steel in the ground substitutes for them."
+ },
+ {
+  "id": "b01-022",
+  "slide": 31,
+  "type": "open",
+  "prompt": "Name the five *technical* characteristics of infrastructure the lecture lists and explain three of them with an example from the energy sector.",
+  "solution": "The five are: indivisibility of facilities and projects; long-term utilization; interdependencies in production; immobility; and limited import possibilities.\n\nIndivisibility. You cannot build half a pipeline or a third of a transformer station. The smallest sensible unit is large, so capacity arrives in lumps - this is the technical root of the step costs that reappear among the economic characteristics.\n\nLong-term utilization. A transmission line, a cavern or a pipeline is designed for 40 to 80 years, so the investment decision has to anticipate demand over decades. This is why gas grids built for a growing heat market are now the subject of a decommissioning-versus-hydrogen debate.\n\nImmobility. The asset is fixed to its location and cannot be moved to a better market: an offshore converter platform in the North Sea has no alternative use elsewhere. Together with the long life this is what makes the capital sunk.\n\nBriefly, the remaining two: interdependencies in production mean the parts only work as a system - a line is worthless without the substation, the generation and the load at either end; limited import possibilities mean the service itself cannot be bought abroad, since you can import energy but not a distribution grid.",
+  "keywords": [
+   "indivisibility",
+   "long-term utilization",
+   "interdependencies in production",
+   "immobility",
+   "limited import possibilities",
+   "sunk"
+  ]
+ },
+ {
+  "id": "b01-023",
+  "slide": 32,
+  "type": "cloze",
+  "prompt": "Because infrastructure capacity can only be added in discrete lumps - a 36-inch pipeline but not a 33.7-inch one - the cost curve does not rise smoothly. The lecture calls this economic characteristic ___.",
+  "accept": [
+   "step costs",
+   "step cost",
+   "Sprungkosten",
+   "stepped costs",
+   "step-costs"
+  ],
+  "solution": "Step costs (Sprungkosten). They are one of the five economic characteristics of infrastructure, together with large investment projects with high capital requirements, external effects, economies of scale and a high proportion of fixed costs. Step costs are the economic image of the technical characteristic 'indivisibility': capacity jumps ahead of demand, the new asset is under-utilised for years, and average cost only falls again as demand grows into the step."
+ },
+ {
+  "id": "b01-024",
+  "slide": 33,
+  "type": "open",
+  "prompt": "Name the institutional characteristics of infrastructure and explain why 'lack of market prices' and 'infrastructure as a public good' belong together. Where is the lecture's wording economically imprecise?",
+  "solution": "The list: (often) central planning; public or private provision; infrastructure as predominantly a public good (collective good); (often) lack of market prices; special prices and special forms of price formation; and free or paid use of the infrastructure.\n\nWhy the two belong together: a public good is non-rival and non-excludable in consumption. If nobody can be excluded, nobody can be made to pay, so no market price forms - there is no revealed willingness to pay for a market to work with. The state therefore either plans and finances the facility centrally out of taxes, or it has to construct an artificial price: a regulated network charge, a toll, a capacity fee. That is exactly why the last three items on the list exist - special prices, price formation by rule instead of by market, and the choice between free and paid use.\n\nWhere the wording is imprecise: most energy infrastructure is not a pure public good. A grid connection is perfectly excludable - access can be refused and every flow is metered - and it is non-rival only until the line is congested. Economically these are club goods, and they become rival the moment capacity is scarce. That is precisely why network access can be priced at all, and why the regulatory debate concerns the level and structure of the charge rather than tax financing. Pure public-good character applies at most to system-wide services such as frequency stability and security of supply.",
+  "keywords": [
+   "central planning",
+   "public good",
+   "lack of market prices",
+   "non-rival",
+   "club goods",
+   "network charge"
+  ]
+ },
+ {
+  "id": "b01-025",
+  "slide": 34,
+  "type": "open",
+  "prompt": "Who are the participants in infrastructure provision according to the lecture, and why has private capital become interested in an asset class that used to be purely public?",
+  "solution": "The lecture's list: the federal government; the states (regions); the municipalities; private infrastructure investors; funds; banks; companies from unrelated sectors; and infrastructure service providers, as far as this is regulatory permissible.\n\nWhy private capital came in: a regulated infrastructure asset has exactly the risk-return profile that pension funds and insurers need. Revenues are set by a regulator rather than by a market, they are largely independent of the business cycle, they run over decades and they are usually indexed, which makes them a hedge against inflation. Demand is inelastic - nobody stops using the grid in a recession. Through a long period of low interest rates this stable, bond-like return was attractive enough that infrastructure became its own asset class, with listed vehicles such as Snam or National Grid and several hundred infrastructure funds.\n\nThe caveat sits in the last item of the list, 'if regulatory permissible'. Unbundling and regulation decide who may own what - a trading company may not simply buy the transmission grid it ships through - and the regulator's decision on the allowed return decides whether the investment case survives at all. Municipalities have been moving the other way for two decades, buying back concessions and re-municipalising grids, which shows that the question of who provides infrastructure is political as much as financial.",
+  "keywords": [
+   "federal government",
+   "municipalities",
+   "funds",
+   "regulatory permissible",
+   "inelastic",
+   "asset class"
+  ]
+ },
+ {
+  "id": "b01-026",
+  "slide": 37,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide puts two figures for the USA next to each other. Describe what each of them shows and explain the tension between them.",
+  "solution": "Left figure: infrastructure investment as a percentage of GDP in the USA, annually from 1957 to 2019 (BEA fixed asset accounts, Deloitte Insights). It starts around 3.0 % in the late 1950s and declines over decades in a saw-tooth pattern to roughly 2.0 %, with a trough below 1.8 % in the early 1990s and a local peak around 2009, the post-crisis stimulus. The message: the United States has been under-investing in its physical stock for two generations relative to the size of its economy.\n\nRight figure: the Bipartisan Infrastructure Deal, signed into law by President Biden in November 2021, opens $550 billion for new federal investments in transportation, broadband and utilities. Of this, $112.5 billion goes to public transport, split into $66 billion to reform rail services, $39 billion to modernise public transit, $5 billion for zero- and low-emission buses and $2.5 billion to improve ferry services.\n\nThe tension: $550 billion sounds enormous, but measured against a GDP of roughly $23 trillion and spread over several years it amounts to well under one percentage point of GDP per year. It slows the decline in the left-hand curve; it does not reverse it. That is the transferable lesson - headline infrastructure packages must be normalised by GDP and by the number of years before they can be judged, exactly as the German grid investment figures have to be read against the size of the grid.",
+  "keywords": [
+   "3.0 %",
+   "2.0 %",
+   "550 billion",
+   "November 2021",
+   "112.5 billion",
+   "66 billion"
+  ]
+ },
+ {
+  "id": "b01-027",
+  "slide": 38,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The chart shows how traffic infrastructure investment in 2021 was split between road (Strasse) and rail (Schiene) in Germany, Switzerland and Austria. Which reading is correct?",
+  "options": [
+   "Austria splits its investment almost evenly, 50 % road and 50 % rail.",
+   "Switzerland spends 69 % on rail, the highest share of the three.",
+   "All three countries put more than half of the money into road.",
+   "Germany has the highest road share of the three at 44 %, Austria the lowest at 31 %, and all three spend the majority on rail."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The chart gives Germany 44 % road / 56 % rail, Switzerland 39 % / 61 % and Austria 31 % / 69 %. Rail therefore takes the majority in all three countries, Germany has the largest road share and Austria the smallest. The first option reverses the picture; the third attributes Austria's 69 % rail share to Switzerland, which has 61 %; the fourth is simply not in the data. The transferable point is that even inside one culturally similar region the split of infrastructure money between competing modes differs by more than ten percentage points - it is a political choice, not a technical necessity."
+ },
+ {
+  "id": "b01-028",
+  "slide": 39,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the Swiss Re figure: how large is the global infrastructure investment need for 2021-2040, how much of it is expected to be met, and where is the gap concentrated?",
+  "solution": "Each bar splits a region's requirement into 'infrastructure investment as per current trend' (dark) and the 'infrastructure investment gap' (light), for 2021-2040, in USD trillion.\n\nGlobal: 66 trillion will be invested on the current trend, 15 trillion is the gap - a total need of about 81 trillion USD over twenty years, roughly 4 trillion per year.\nAdvanced markets: 23 trillion on trend plus a gap of 5 trillion.\nEmerging markets: 43 trillion on trend plus a gap of 10 trillion - two thirds of the world's need and two thirds of the world's gap.\n\nWithin the emerging markets the requirement is dominated by emerging Asia at roughly 33 trillion, of which China alone accounts for about 22 trillion; Africa, Latin America and emerging Europe are each only a few trillion.\n\nTwo conclusions: first, the gap is about 18 % of the total need, so the problem is not that nothing is being built but that roughly one fifth of what is needed is not financed. Second, the gap sits overwhelmingly in the emerging markets, where capital is scarce and the risk premium is high - which is the standard argument for development banks, guarantees and blended finance rather than for more engineering.",
+  "keywords": [
+   "66 trillion",
+   "15 trillion",
+   "43 trillion",
+   "emerging markets",
+   "advanced markets"
+  ]
+ },
+ {
+  "id": "b01-029",
+  "slide": 40,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the development of investment in the German electricity grid between 1991 and 2018 as shown on the slide, name the turning point and explain what caused it.",
+  "solution": "The curve (BDEW/BNetzA: investment in new build, expansion and maintenance of the distribution and transmission grids, in billion euro) is U-shaped, with a long decline and a strong recovery.\n\n1991-1993: a short peak from 2.7 to 4.0 bn EUR, driven by the reconstruction of the East German grid after reunification.\n1993-2003: a decade of continuous decline, from 4.0 bn EUR down to the minimum of 1.7 bn EUR in 2003. This is the liberalisation period - the Energiewirtschaftsgesetz of 1998 opened the market, price pressure was passed straight through to the grid business, and operators postponed everything that could be postponed.\n2003-2015: an almost uninterrupted rise from 1.7 to 7.1 bn EUR, more than a factor of four. The drivers are incentive regulation from 2009, which made investment plannable and remunerable again, and above all the Energiewende: connecting wind and PV, north-south transmission expansion and reinforcement of the distribution grids that absorb decentralised generation.\n2016-2018: a high plateau of 6.6, 6.2 and 6.4 bn EUR, the last value a planned figure.\n\nThe turning point is 2003: the switch from cost-cutting under fresh competition to expansion driven by renewables integration. The figure is also the standard explanation of why network charges rose - every euro invested has to be earned back through the regulated tariff.",
+  "keywords": [
+   "4.0 bn",
+   "1.7 bn",
+   "7.1 bn",
+   "2003",
+   "Energiewende",
+   "incentive regulation"
+  ]
+ },
+ {
+  "id": "b01-030",
+  "slide": 42,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the development of investment in the German gas grid on this slide with the electricity-grid figure two slides earlier. What is the striking difference, what does it tell you - and what labelling problem does the slide have?",
+  "solution": "The gas figure runs from 2013 to 2023: 1,049 M EUR in 2013, then 1,075, 1,203, 1,111, 1,084, 1,078, 1,152, a maximum of 1,365 M EUR in 2020, then 1,204, 1,191 and 1,250 M EUR planned for 2023. In eleven years the level stays inside a band of roughly 1.0 to 1.4 billion euro - it is essentially flat, a variation of about 30 % with no trend.\n\nThe electricity grid over a comparable span does the opposite: from 1.7 bn EUR in 2003 to 7.1 bn EUR in 2015 and about 6.4 bn EUR in 2018, a multiplication - and in absolute terms roughly five times the gas figure.\n\nThe message: the energy transition is being paid for in the electricity grid. Gas infrastructure is being maintained, not expanded; the investment covers replacement, safety and new connections, while the long-term future of the asset - decommissioning versus repurposing for hydrogen - is politically unresolved. Nobody invests heavily in an asset whose remaining useful life is uncertain, and that is precisely the origin of the stranded assets debate for the gas grid.\n\nLabelling problem: the slide is titled 'Investments Natural Gas Distribution Grids Germany', but the underlying Statista series is 'Investitionen der Netzbetreiber in Gasfernleitungen' - long-distance transmission pipelines, not distribution grids. Investment in the German gas distribution grids is considerably larger than 1.2 bn EUR per year. Read the chart as the transmission-pipeline series it actually is.",
+  "keywords": [
+   "1,049 M EUR",
+   "1,365 M EUR",
+   "essentially flat",
+   "stranded assets",
+   "Gasfernleitungen"
+  ]
+ },
+ {
+  "id": "b01-031",
+  "slide": 44,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the table 'Energy Infrastructure': which of the four transport modes - pipeline, ship, rail, road - is available for oil and products, natural gas, coal, uranium and electricity? Explain the two rows that differ most from the others.",
+  "solution": "The table row by row:\nOil and products: pipeline yes; ship yes; rail yes, mainly national; road yes, mainly national. Oil is the only carrier that uses all four modes.\nNatural gas: pipeline as gaseous gas; ship as LNG; rail seldom, as CNG; road seldom, as LNG or CNG.\nCoal: no pipeline; ship by sea and river; rail yes; road seldom.\nUranium: no pipeline; ship by sea and river; rail yes; road not entered on the slide (in practice special transports).\nElectricity: only the pipeline column is filled, with 'yes (cable)' - i.e. the grid; no ship, rail or road.\n\nThe two extreme rows:\nOil is the flexible carrier. It is liquid at ambient conditions, has a high energy density per cubic metre and needs no conditioning, so every mode works and the choice is made purely on cost and volume - pipeline and ship for the base volumes, rail and road mainly national for the last mile.\nElectricity is the opposite. It is not a substance but a flow, cannot be filled into a vessel, and therefore has exactly one mode: the cable or overhead line. Feed-in and withdrawal must match at every instant, which is why the electricity system needs control reserve where the oil system simply needs tank farms.\n\nNatural gas sits in between and shows why conditioning matters: gaseous in the pipeline, liquefied at about -162 degC for the ship, and only rarely on rail or road, because compressing or liquefying small quantities is expensive relative to the value of the gas.",
+  "keywords": [
+   "pipeline",
+   "LNG",
+   "CNG",
+   "mainly national",
+   "cable"
+  ]
+ },
+ {
+  "id": "b01-032",
+  "slide": 44,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "According to the table, in which form is natural gas transported by ship, and in which form - if at all - by rail?",
+  "options": [
+   "By ship as CNG; by rail routinely as LNG.",
+   "By ship as gaseous natural gas in pressure vessels; by rail not at all.",
+   "By ship as LNG; by rail seldom, as CNG.",
+   "By ship as LNG; by rail routinely as LNG, which is why rail is the main mode in Europe."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The natural gas row reads: pipeline = gaseous, ship = LNG, rail = seldom CNG, road = seldom LNG or CNG. Ships carry liquefied natural gas because liquefaction at about -162 degC shrinks the volume by roughly a factor of 600, and only then does a cargo pay. Rail and road are marginal: compressed or liquefied gas in small units is expensive per unit of energy, so they serve niches such as off-grid industry, island supply and LNG filling stations. The first option swaps the two forms, the third ignores LNG shipping entirely, and the fourth overstates rail, which the table explicitly marks 'seldom'."
+ },
+ {
+  "id": "b01-033",
+  "slide": 45,
+  "type": "open",
+  "prompt": "Define transport in the lecture's sense, name the three elements of a transport system, and list the components of a natural gas pipeline system that correspond to them.",
+  "solution": "Transport is the movement of objects in space - literally, from trans-portare, 'to carry across'. Its counterpart is storage, the movement of objects in time.\n\nA transport system has three elements: the infrastructure (road, rail, pipeline, cable); the vehicle (lorry, train, ship - in a pipeline the pressure difference moves the fluid instead of a discrete vehicle); and the dispatching center that decides what goes where and when.\n\nThe lecture's example, a natural gas pipeline system, consists of: the pipelines themselves; processing plants that condition the gas to the required quality; compressors that restore the pressure lost to friction; measurement stations that record quantity and quality at every transfer; delivery points where the gas is handed over; and SCADA systems - supervisory control and data acquisition.\n\nThe mapping is worth stating explicitly in an exam: pipelines, compressors and processing plants are the infrastructure; the pressurised gas stream replaces the vehicle; SCADA together with the control room is the dispatching center; measurement stations and delivery points are the interfaces at which the service is quantified and handed over. This last point is what makes unbundling technically possible at all - a gas grid can be operated by a company that owns no gas, because transport and commodity are measured and sold as separate products.",
+  "keywords": [
+   "movement of objects in space",
+   "dispatching center",
+   "compressors",
+   "measurement stations",
+   "SCADA"
+  ]
+ },
+ {
+  "id": "b01-034",
+  "slide": 45,
+  "type": "cloze",
+  "prompt": "The control and telemetry systems with which a pipeline operator monitors and steers the network from the control room are abbreviated ___ (supervisory control and data acquisition).",
+  "accept": [
+   "SCADA",
+   "SCADA systems",
+   "SCADA-System",
+   "SCADA system"
+  ],
+  "solution": "SCADA - supervisory control and data acquisition. In the lecture's list of the components of a natural gas pipeline system it stands next to the pipelines, processing plants, compressors, measurement stations and delivery points, and it is the technical realisation of the third element of any transport system, the dispatching center."
+ },
+ {
+  "id": "b01-035",
+  "slide": 46,
+  "type": "open",
+  "prompt": "Define storage in the lecture's sense and contrast it with transport. What exactly is the formal difference in the timing of input and output, and what follows from it?",
+  "solution": "Storage is the space where objects are placed during the times when they are not directly or immediately used or needed - a (quasi-)permanent confining of goods or items, including easily accessible input and output. The last clause matters: a facility you cannot get the goods out of again is a dump, not a store.\n\nThe contrast: transport is the movement of objects in space; storage, described abstractly, is the movement of objects in time.\n\nThe formal difference lies in the timing of the two flows. In transport the object is fed in at the transfer point and withdrawn at the receiving point at the same moment - different place, same time. In storage the object is input at one point in time and output at a later point in time, typically at the same location - same place, different time.\n\nWhat follows: because transport is simultaneous, a transport capacity is a single figure, injection capacity equals withdrawal capacity. Because storage separates the two moments, it needs three independent parameters - injection capacity, withdrawal capacity and working volume - and it is priced as three separate reservations. And because electricity cannot be stored to any relevant extent, its 'storage' has to be organised as balancing power in real time instead, which is the reason the electricity chapter needs control reserve where the gas chapter needs caverns.",
+  "keywords": [
+   "movement of objects in time",
+   "movement of objects in space",
+   "same location",
+   "injection capacity",
+   "withdrawal capacity"
+  ]
+ },
+ {
+  "id": "b01-036",
+  "slide": 46,
+  "type": "open",
+  "prompt": "Give the lecture's definition of storage and name the two features that have to be part of it besides the confinement of the goods.",
+  "solution": "Storage is the space where objects are placed during the times when they are not directly or immediately used or needed. The lecture puts it more precisely as the (quasi-)permanent confining of goods or items, including easily accessible input and output.\n\nThe two features that belong to the definition besides the confinement are exactly those input and output: a space that holds goods but cannot take them in or give them out again on demand is not a storage facility, it is a dump. Accessibility is what turns confinement into a service, and it is why every storage product is booked with an injection capacity and a withdrawal capacity alongside the volume - three parameters, not one.\n\nThe abstract counterpart makes it memorable: transport is the movement of objects in space, storage the movement of objects in time. In transport an object is fed in at the transfer point and withdrawn at the receiving point simultaneously; in storage it is input at one point in time and output later, typically at the same location.",
+  "keywords": [
+   "not directly",
+   "confining",
+   "input",
+   "output",
+   "accessible",
+   "injection capacity",
+   "withdrawal capacity",
+   "in time"
+  ]
+ },
+ {
+  "id": "b01-037",
+  "slide": 47,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Why does a transport capacity need only one figure while a storage facility needs three? Name the parameters, and give for natural gas, electricity, oil products and coal the units in which transport and storage capacity are measured.",
+  "solution": "Transport: input and output happen simultaneously, so injection capacity equals withdrawal capacity and one number - 'the capacity' - describes the facility. Storage: input and output are separated in time, so three parameters are needed and they can be chosen independently within physical limits - injection capacity, withdrawal capacity, and volume/quantity, i.e. the working volume. A cavern that fills in 60 days but empties in 20 is entirely normal; that asymmetry cannot even be expressed with a transport capacity.\n\nUnits for transport:\nnatural gas - volume/time (m3/h), or converted with the calorific value into energy/time = capacity (kWh/h);\nelectricity - energy/time = capacity (MW);\noil and products by pipeline - volume/time;\noil and products by other modes - volume (limited), i.e. per cargo or per tank;\ncoal - mass (limited), i.e. per shipload or per train.\n\nUnits for storage:\nnatural gas - volume, and volume/time (m3 of working gas, m3/h for injection and withdrawal);\nelectricity - capacity in the sense of current times time, or energy (MWh);\noil and products - volume, and volume/time;\ncoal - mass, and mass/time.\n\nTwo exam traps live here. First, gas is booked in volume but paid in energy: multiply by the gross calorific value before you price anything. Second, a rate (per hour, per day) is not a quantity - the storage bill contains both, a capacity price on the two rates and a volume price on the working gas.",
+  "keywords": [
+   "injection capacity",
+   "withdrawal capacity",
+   "volume/time",
+   "energy/time",
+   "gross calorific value",
+   "working volume"
+  ]
+ },
+ {
+  "id": "b01-038",
+  "slide": 47,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In which units does the slide give *transport* capacity for natural gas and for electricity?",
+  "options": [
+   "Natural gas in mass/time, electricity in volume/time.",
+   "Natural gas in volume only and electricity in energy only - neither has a time dimension.",
+   "Both in volume/time, because both are gases in the wider sense.",
+   "Natural gas in volume/time or energy/time, electricity in energy/time (= capacity)."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Gas transport is booked volumetrically in m3/h and converted with the calorific value into energy per time, kWh/h, which is a capacity in kW. Electricity transport is by nature energy per time, a capacity in MW. The first option confuses gas with coal, the carrier measured in mass. The third ignores that electricity is not a substance with a volume. The fourth drops the time dimension - and a capacity without a time dimension is a quantity, not a capacity, which is exactly the difference between the working-gas volume and the withdrawal rate."
+ },
+ {
+  "id": "b01-039",
+  "slide": 49,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Define a network in the lecture's sense, say how it is described mathematically, and label the three elements marked in the sketch (Knoten, Kante, Masche). What does the last bullet of the slide add?",
+  "solution": "A network is a system of objects and connections in space. Its structure can be described mathematically as a graph: a set of elements called nodes or vertices, connected to one another by connections called edges.\n\nThe sketch shows a regular rectangular lattice with three labels:\nKnoten = node (vertex) - the red points; in energy terms an entry or exit point, a substation, a gas hub.\nKante = edge - the lines between them; a pipeline section or a transmission line.\nMasche = loop (mesh) - the shaded closed circuit of edges and nodes, i.e. a closed path returning to its starting node.\n\nThe last bullet is the one that carries the engineering: edges get a capacity function. An edge is not merely a connection but a connection with a maximum flow, and it is this capacity that turns a graph into a transport model. Maximum flow through the network, bottlenecks, congestion management and capacity booking all follow from it.\n\nWhy loops matter: meshed networks are the norm in electricity transmission because a closed circuit provides redundancy - if one edge fails, the flow redistributes around the mesh, which is what the (n-1) criterion demands. Distribution grids, by contrast, are usually built as rings but operated radially, so a fault can be isolated and the ring closed from the other side.",
+  "keywords": [
+   "node",
+   "edge",
+   "loop",
+   "capacity function",
+   "graph",
+   "vertices"
+  ]
+ },
+ {
+  "id": "b01-040",
+  "slide": 49,
+  "type": "cloze",
+  "graphic": true,
+  "prompt": "In a network graph, a closed circuit of edges and nodes is called a ___ (German: Masche).",
+  "accept": [
+   "loop",
+   "mesh",
+   "Masche",
+   "cycle",
+   "ring"
+  ],
+  "solution": "A loop (Masche). The sketch on the slide marks one shaded square of the lattice as the Masche; the other two labels are Knoten = node/vertex and Kante = edge. A meshed grid is the standard design of an electricity transmission network because the closed circuit gives redundancy - the (n-1) criterion is exactly the requirement that flow can redistribute around the loop when one edge fails."
+ }
+]

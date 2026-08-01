@@ -1,0 +1,28 @@
+[
+ {
+  "id": "b07x-001",
+  "slide": 402,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The third convolution figure works a concrete example. Walk through what happens to the load duration curve as each power plant is convolved in, and say what the shaded area on the right of the final curve represents.",
+  "solution": "Start with the load duration curve already transformed into steps of constant load — that was step 1. Now the plants are added one at a time, in merit order.\n\nThe first plant has an availability below one, so it cannot be relied on to deliver its full capacity. Convolution replaces the sharp step it would cut out of the curve with a smeared one: with probability p the capacity is there and the residual load drops by the full amount, with probability 1 − p it is not there and the residual load stays where it was. What the second plant sees is therefore not a clean remainder but an expected residual curve that already carries the first plant's outage probability.\n\nRepeat for every plant. With each convolution the curve flattens and stretches to the right, because the possibility of simultaneous outages spreads probability into regions of high residual load that a deterministic calculation would never reach.\n\nThe area remaining to the right after the last plant is the expected unserved energy — demand that the park cannot cover because too many units are out at once. The area under each plant's own segment is its expected generation, which is what feeds the cost calculation. That is the whole point of the method: a deterministic dispatch would report zero unserved energy and overstate every plant's output.",
+  "keywords": [
+   "load duration curve",
+   "availability",
+   "merit order",
+   "residual",
+   "outage probability",
+   "expected generation",
+   "unserved energy",
+   "deterministic"
+  ]
+ },
+ {
+  "id": "b07x-002",
+  "slide": 402,
+  "type": "cloze",
+  "prompt": "The area that remains to the right of the load duration curve after all power plants have been convolved in is the expected ___ energy.",
+  "accept": ["unserved", "unserved energy", "non-served", "not served"],
+  "solution": "Unserved energy — the demand the park is expected not to cover because several units are unavailable at the same time. It only appears once availability is modelled: a deterministic dispatch with full capacities would report none at all, which is exactly why convolution is used for capacity adequacy questions."
+ }
+]

@@ -1,0 +1,1039 @@
+[
+ {
+  "id": "b05-001",
+  "slide": 252,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide reduces \"flexibility\" in the gas business to three dimensions. Name them and explain for each what a buyer actually gains, using a long-term supply contract as the example.",
+  "solution": "The slide names three dimensions of flexibility: Volume, Price and Location.\n\nVolume flexibility means the buyer is not tied to one fixed off-take. A contract fixes an annual contract quantity with a minimum and a maximum, and within that band the buyer decides how much he takes per hour, day, month, quarter, season and year. The classic instrument is the take-or-pay clause: the buyer pays for a minimum share of the annual quantity whether or not he takes it, and everything above that minimum up to the maximum is his to call. This is the dimension that the following slides quantify.\n\nPrice flexibility means the buyer is not tied to one price formula. He can take the gas at the contract price (e.g. oil-indexed), switch part of the volume to a hub-indexed price, or renegotiate the formula. Price flexibility decides whether the buyer participates in falling market prices instead of being locked into a formula that has drifted away from the market.\n\nLocation flexibility means the gas may be delivered, resold or diverted at a different point. In LNG this is the destination clause: a cargo without a destination restriction can be re-routed to the highest-priced market. In pipeline gas it is the ability to shift the delivery point between hubs.\n\nThe three are not independent — a volume that the buyer may take but cannot move to where it is worth something is worth little — and each of them carries a value that can be priced, which is what the following slides develop.",
+  "keywords": [
+   "Volume",
+   "Price",
+   "Location",
+   "take-or-pay",
+   "destination clause"
+  ]
+ },
+ {
+  "id": "b05-002",
+  "slide": 253,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the structure of the slide \"Elements, Sources and Value Drivers of Flexibility\": which elements define flexibility, which tools provide it, how is flexibility itself characterised, and which drivers determine its value?",
+  "solution": "The slide is built around the black box \"Flexibility\" and has four groups arranged around it.\n\nElements (top row) — these define flexibility: Hourly, Daily, Monthly, Quarterly, Seasonally, Annual. Flexibility only exists with reference to a time granularity; the whole rest of the chapter treats these levels one by one.\n\nTools (bottom row) — these are used to provide flexibility: Production (swing at the field), Storage in its forms Cavern, Pore, Line Pack and others, and Other Energy Sources (fuel switching). They are the physical assets that make a flexible off-take possible.\n\nCharacterisation (right) — flexibility itself is described by Capacity, Structure and Load: how much is available, how it is distributed over time, and how much of it is actually used.\n\nValue drivers (left) — six of them determine the Value: Volatility, Interest Rate and Storage Prices in one column, Market Price, Time to Maturity and Availability of Gas in the other. The arrow between Value and Flexibility points both ways: flexibility has a value, and the value of flexibility is what makes anyone build the tools. The list is the option-pricing list — volatility, interest rate, time to maturity and the price of the underlying are exactly the inputs of an option value, which is why flexibility is treated as an option in this lecture.",
+  "keywords": [
+   "Hourly",
+   "Annual",
+   "Line Pack",
+   "Capacity",
+   "Structure",
+   "Load",
+   "Volatility",
+   "Time to Maturity"
+  ]
+ },
+ {
+  "id": "b05-003",
+  "slide": 253,
+  "type": "cloze",
+  "prompt": "On the flexibility overview the black \"Flexibility\" box is characterised by three attributes: capacity, load and ___.",
+  "accept": [
+   "structure",
+   "Structure",
+   "time structure"
+  ],
+  "solution": "Structure. Capacity says how much flexibility is available (the rate), load says how much of it is actually being used, and structure says how it is distributed over time — hourly, daily, monthly, quarterly, seasonally, annually. The same capacity with a different structure is a different product: 100 MW available in every hour of the year is not the same as 100 MW available for ten days in January."
+ },
+ {
+  "id": "b05-004",
+  "slide": 253,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "According to the slide, which of the following is NOT one of the tools used to provide flexibility?",
+  "options": [
+   "Storage (cavern, pore, line pack and others)",
+   "Interest rate",
+   "Other energy sources",
+   "Production"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The interest rate is a value driver, not a tool. Together with volatility, storage prices, market price, time to maturity and availability of gas it sits on the left-hand side of the slide and determines the value of flexibility. The tools that physically provide flexibility are production (swing at the field), storage in all its forms — cavern, pore, line pack and others — and other energy sources (fuel switching). The elements that define flexibility are the time granularities: hourly, daily, monthly, quarterly, seasonally, annually."
+ },
+ {
+  "id": "b05-005",
+  "slide": 254,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch and explain the annual component of flexibility. What do Y_Min and Y_Max mean, what do the two dashed lines represent, and which restriction does this component place on the off-take path?",
+  "solution": "The horizontal axis is the year j, from 0 h to 8760 h; the vertical axis is the cumulative quantity taken since the start of the year. Y_Min = F_YjMin(8760) and Y_Max = F_YjMax(8760) are the minimum and the maximum quantity for the whole year, i.e. the two values the cumulative curve is allowed to reach at hour 8760.\n\nThe two dashed straight lines start at the origin and have the slopes Y_Min/8760 and Y_Max/8760. They are therefore the constant off-take rates at which the annual minimum and the annual maximum would be reached exactly at the end of the year — reference lines, not obligations.\n\nThe restriction this component imposes is only on the end point: the cumulative curve must land between Y_Min and Y_Max at hour 8760. Nothing at all is said about the path in between, so with the annual component alone the buyer could take his whole annual quantity in January and nothing afterwards. That is why the following slides add the seasonal and the hourly component, which restrict how far the actual path may deviate from these straight lines inside the year.\n\nUnit logic to remember: Y is a quantity per year, so it has to be divided by 8760 h to become a rate; the seasonal component divides by 4380 h and the daily one by 24 h in exactly the same way.",
+  "keywords": [
+   "8760",
+   "Y_Min",
+   "Y_Max",
+   "cumulative",
+   "rate",
+   "end point"
+  ]
+ },
+ {
+  "id": "b05-006",
+  "slide": 254,
+  "type": "cloze",
+  "prompt": "In the annual component of flexibility the annual quantity Y is turned into a constant off-take rate by dividing it by ___ hours.",
+  "accept": [
+   "8760",
+   "8.760",
+   "8760 h",
+   "8760 hours",
+   "8,760"
+  ],
+  "solution": "8760 — the number of hours in a (non-leap) year. Y_Max/8760 and Y_Min/8760 are the slopes of the two dashed lines on the slide, i.e. the constant rates at which the annual maximum and the annual minimum would be taken. The seasonal component uses 4380 h (half a year) and the daily component 24 h in exactly the same way; the hourly component needs no division, because a quantity per hour already is a rate."
+ },
+ {
+  "id": "b05-007",
+  "slide": 255,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide \"Seasonal Component - Minimum\" adds a second constraint level on top of the annual one. Describe the two-segment path that is drawn, explain what l_turn^Min is, and say what the seasonal component adds that the annual component does not deliver.",
+  "solution": "The thin dotted line F_YjMin(i) is the reference: the constant-rate path that arrives exactly at the annual minimum Y_Min at hour 8760. The two dashed lines are the seasonal rates, S_Min/4380 (shallow) and S_Max/4380 (steep) — the minimum and the maximum quantity per season divided by the 4380 hours of a season.\n\nThe extreme admissible path is the broken line composed of the two: the buyer first takes at the minimum seasonal rate S_Min/4380, and from the turning point l_turn^Min onwards at the maximum seasonal rate S_Max/4380, arriving exactly at Y_Min at hour 8760. l_turn^Min is that switching point — the latest hour from which the maximum seasonal rate is still sufficient to reach the annual minimum by the end of the year. Any cumulative curve running below this broken line can no longer reach Y_Min and is therefore inadmissible; the broken line is the lower boundary of the feasible region.\n\nWhat the seasonal component adds: the annual component fixed only the total at hour 8760. The seasonal component restricts when inside the year that total may be taken, i.e. it bounds how far the cumulative curve may run away from the annual line within half-year windows. Each further level — quarter, month, day, hour — narrows the region again.",
+  "keywords": [
+   "4380",
+   "S_Min/4380",
+   "S_Max/4380",
+   "l_turn",
+   "cumulative",
+   "Y_Min"
+  ]
+ },
+ {
+  "id": "b05-008",
+  "slide": 256,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide \"Seasonal Component - Maximum\" is the mirror image of the minimum case. Describe the difference in words and explain why l_turn^Max lies earlier in the year than l_turn^Min.",
+  "solution": "The maximum case is front-loaded, the minimum case back-loaded. Here the extreme path starts steep and ends flat: from hour 0 the buyer takes at the maximum seasonal rate S_Max/4380, and from the turning point l_turn^Max onwards only at the minimum seasonal rate S_Min/4380, arriving at the annual maximum Y_Max at hour 8760. The thin dotted line F_YjMax(i) is again the constant-rate reference that reaches Y_Max at 8760 h.\n\nl_turn^Max lies clearly earlier in the year — on the slide at roughly one third of the axis, against roughly four fifths for l_turn^Min — because the front-loaded path spends the fast rate first. It can only stay on the fast rate as long as the remaining quantity up to Y_Max can still be taken at the slow rate in the time that is left; beyond that point it would overshoot the annual maximum.\n\nTogether the two slides give the upper and the lower boundary of the admissible region: slide 256 draws the upper boundary, slide 255 the lower one, and every real off-take path must lie between them. This construction is repeated one level down for the day on slides 257 and 258.",
+  "keywords": [
+   "S_Max/4380",
+   "S_Min/4380",
+   "l_turn",
+   "Y_Max",
+   "8760",
+   "boundary"
+  ]
+ },
+ {
+  "id": "b05-009",
+  "slide": 256,
+  "type": "cloze",
+  "prompt": "In the seasonal component of flexibility the seasonal quantities S_Min and S_Max are divided by ___ hours to obtain the corresponding off-take rates.",
+  "accept": [
+   "4380",
+   "4.380",
+   "4380 h",
+   "4380 hours",
+   "4,380"
+  ],
+  "solution": "4380 h — half of 8760 h, i.e. the length of one season (summer or winter). S_Max/4380 is the steep and S_Min/4380 the shallow dashed line on slides 255 and 256. The pattern of the whole flexibility chapter is always the same: a quantity per period divided by the number of hours in that period gives a rate, and a rate can be drawn as a straight line in the cumulative diagram."
+ },
+ {
+  "id": "b05-010",
+  "slide": 257,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the hourly component of flexibility. Why does the curve on the slide not start at zero, what are H_Min and H_Max, and why do they — unlike Y and S — not have to be divided by a period length?",
+  "solution": "The diagram zooms into a single gas day j, from 0 h to 24 h. The cumulative curve does not start at zero because it continues the cumulative quantity carried over from the previous day: it starts at F_Dj-1Min(24), the value the minimum path had reached at the end of day j-1, and it has to arrive at F_DjMin(24) at the end of day j. The thin dotted line F_DjMin(i) is the constant-rate reference between those two points.\n\nH_Min and H_Max are the minimum and the maximum hourly off-take. They need no division because the period of the hourly component is one hour: a quantity per hour already is a rate. The annual quantity Y has to be divided by 8760 h and the seasonal quantity S by 4380 h precisely because they are quantities per period, not rates — that is the unit trap of this chapter.\n\nThe extreme lower path is again a broken line: the low rate up to the turning point l_turn^Min, then the high rate up to the daily end value.\n\nA remark on the figure: the labels H_Min and H_Max sit loosely between the two dashed lines. Read them by analogy with the seasonal slide — the shallow line carries the minimum rate, the steep line the maximum rate.",
+  "keywords": [
+   "previous day",
+   "H_Min",
+   "H_Max",
+   "one hour",
+   "l_turn",
+   "24 h"
+  ]
+ },
+ {
+  "id": "b05-011",
+  "slide": 257,
+  "type": "cloze",
+  "prompt": "The hour at which the extreme off-take path switches from the minimum rate to the maximum rate — the kink of the broken line — is written on the flexibility slides as ___.",
+  "accept": [
+   "l_turn",
+   "lturn",
+   "l turn",
+   "turning point",
+   "l_turn^Min",
+   "l_turn Min",
+   "l turn min"
+  ],
+  "solution": "l_turn, carrying the superscript Min or Max for the two cases. It is the turning point: the last hour from which the still-available extreme rate is sufficient to reach the prescribed end value of the period. In the minimum case the path runs at the low rate until l_turn^Min and at the high rate afterwards; in the maximum case it runs at the high rate until l_turn^Max and at the low rate afterwards, which is why l_turn^Max always lies earlier in the period than l_turn^Min."
+ },
+ {
+  "id": "b05-012",
+  "slide": 258,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The slide \"Hourly Component - Maximum\" shows the counterpart of the minimum case. Which description fits the extreme path that is drawn?",
+  "options": [
+   "It runs at the constant average rate F_DjMax(24)/24 for the whole day.",
+   "It starts at zero, runs at H_Min for the whole day and jumps to H_Max in the last hour.",
+   "It starts at the value carried over from the previous day, runs at the maximum hourly rate H_Max up to l_turn^Max and continues at H_Min until 24 h.",
+   "It starts at the value carried over from the previous day, runs at H_Min up to l_turn^Max and continues at H_Max until 24 h."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The maximum case is front-loaded, exactly like the seasonal maximum on slide 256: starting from the carried-over value F_Dj-1Max(24) the path first uses the highest permitted hourly rate H_Max, and once the turning point l_turn^Max is passed it may only continue at the minimum rate H_Min, arriving at F_DjMax(24) at hour 24. Option 3 describes the minimum case of slide 257, which is back-loaded. The path never starts at zero (option 2) because the cumulative curve runs across the day boundary. The constant average rate of option 4 is the thin dotted reference line, not the extreme path."
+ },
+ {
+  "id": "b05-013",
+  "slide": 259,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide \"'Area' of Flexibility\" plots a whole family of cumulative curves over the 8760 hours of a year. Explain what is plotted, why the curves cross around the middle of the year, and what the enclosed area means.",
+  "solution": "Plotted is the cumulative quantity taken since the start of the year against time, for every flexibility component at once. The two straight grey lines year min and year max are the annual component of slide 254 — constant rates Y_Min/8760 and Y_Max/8760, ending at roughly 900,000 and 1,100,000 units — and year norm is the normal annual quantity in between. Around them lie the extreme paths of the seasonal, quarterly, monthly, daily and hourly components, each with a low and a high branch.\n\nThe shorter the period of a component, the further its curve may run away from the straight annual line, because the deviation only has to be given back before the end of that period. The hourly and daily curves therefore form the outermost envelope, while the seasonal curves stay closest to the annual lines.\n\nThe curves cross near hour 4200-4400, i.e. around 4380 h, because that is the end of the first season. The turning points l_turn of slides 255 and 256 fall there: a path that has been front-loaded must from then on run at the low rate, while the back-loaded path switches to the high rate. Both families then converge again on the annual end values.\n\nThe region enclosed between the outer curves is the \"area of flexibility\". Every admissible off-take path of the contract lies inside it, and its width at a given hour measures how much freedom the buyer still has at that moment — which is what a trader monetises. A contract with only an annual constraint would fill the entire triangle between the two straight lines; the shorter-period constraints cut that triangle down to the lens shown.",
+  "keywords": [
+   "cumulative",
+   "8760",
+   "year min",
+   "year max",
+   "4380",
+   "envelope"
+  ]
+ },
+ {
+  "id": "b05-014",
+  "slide": 261,
+  "type": "open",
+  "prompt": "Summarise the EU gas storage regulation of 2022: which filling targets, which mechanism for member states without storage, and which instruments were introduced to enforce and to incentivise it?",
+  "solution": "Filling targets. All EU member states with gas storage capacity had to ensure that their underground gas storage was filled to at least 80 % of capacity by 1 November 2022, rising to 90 % for the subsequent years from 1 November 2023 onwards.\n\nMember states without their own storage. They benefit from a burden-sharing mechanism with neighbouring countries which guarantees them access to gas from storage equivalent to at least 15 % of their annual gas consumption — and they share the cost of it. Geology cannot be legislated, so the alternative to owning storage is a contractual claim on someone else's.\n\nEnforcement. The Gas Coordination Group received a mandate to monitor the filling levels. All gas storage system operators in the EU have to be certified; operators that are not certified would have to give up ownership or control of EU gas storage facilities. That provision was aimed directly at the Gazprom-controlled German storages, which had been left deliberately empty in 2021.\n\nIncentive. To make refilling cheaper, a 100 % discount on capacity-based transmission tariffs applies at the entry and exit points of storage facilities (the slide notes: for five years). This removes the double network charge that otherwise makes injection and withdrawal expensive and is the market-based counterpart to the administrative filling obligation.",
+  "keywords": [
+   "80 %",
+   "90 %",
+   "15 %",
+   "burden-sharing",
+   "certification",
+   "100 % discount"
+  ]
+ },
+ {
+  "id": "b05-015",
+  "slide": 261,
+  "type": "cloze",
+  "prompt": "The EU regulation obliged member states with storage capacity to fill their underground gas storage to at least ___ % of capacity by 1 November 2022.",
+  "accept": [
+   "80",
+   "80 %",
+   "80%",
+   "eighty"
+  ],
+  "solution": "80 %. From 1 November 2023 onwards the target rises to 90 % for the subsequent years. Germany went further in its own law and required 90 % already for 1 November 2022 plus 45 % for 1 February, so the EU figure is a floor, not a ceiling. Member states without their own storage are covered instead by the burden-sharing mechanism, which gives them access to stored gas equal to 15 % of their annual consumption."
+ },
+ {
+  "id": "b05-016",
+  "slide": 261,
+  "type": "mc",
+  "prompt": "A member state has no gas storage facilities of its own. What does the EU storage regulation provide for it?",
+  "options": [
+   "It must build storage capacity equivalent to 15 % of its annual consumption within five years.",
+   "It is exempt from all filling obligations and no further provision is made.",
+   "A burden-sharing mechanism with neighbouring countries gives it access to gas from storage equivalent to at least 15 % of its annual gas consumption.",
+   "It receives a 15 % discount on all transmission tariffs at its border points."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The regulation creates a burden-sharing mechanism: member states without their own underground storage must be able to draw on storage in neighbouring countries for at least 15 % of their annual gas consumption, contributing to the cost. An obligation to build storage (option 2) is impossible because suitable geology is not available everywhere, and a plain exemption (option 1) would defeat the purpose of a security-of-supply rule. The tariff instrument in the regulation is a different one: a 100 % discount on capacity-based transmission tariffs at the entry and exit points of storage facilities, meant to make refilling cheaper for everybody, not to compensate states without storage."
+ },
+ {
+  "id": "b05-017",
+  "slide": 262,
+  "type": "open",
+  "prompt": "Explain the German storage filling law that came into force on 1 May 2022: which filling levels, who has to deliver them if the market does not, and which three elements does the multi-stage incentive procedure contain?",
+  "solution": "The law introducing filling level specifications for natural gas storages came into force on 1 May 2022 and is anchored in § 35b EnWG together with the EU storage regulation.\n\nFilling levels: 90 % by 1 November and 45 % by 1 February, with additional figures defined for the summer months so that the trajectory and not only the end point is controlled.\n\nResponsibility: primarily the private companies that hold the storage bookings. If they do not fill, Trading Hub Europe GmbH, the German market area manager/operator, is obliged to do it.\n\nThe planned multi-stage procedure has three main elements: (1) tenders to establish a base provision, the Strategic Storage Based Options (SSBO), i.e. options on stored gas that the market area manager can call; (2) if the storage is still not sufficiently filled, the market area manager can auction capacities; (3) unused capacities must be returned to the market area manager, who then also buys the natural gas to fill them — a use-it-or-lose-it rule that prevents capacity from being hoarded and left empty.\n\nOne correction: the slide cites the European regulation as \"EU-VO 2022/10321\"; the regulation is (EU) 2022/1032 — the trailing digit is a typographical error.",
+  "keywords": [
+   "90 %",
+   "45 %",
+   "Trading Hub Europe",
+   "market area manager",
+   "SSBO",
+   "use-it-or-lose-it"
+  ]
+ },
+ {
+  "id": "b05-018",
+  "slide": 262,
+  "type": "cloze",
+  "prompt": "If private companies do not fill the German gas storages to the prescribed level, the market area manager ___ is obliged to do it.",
+  "accept": [
+   "Trading Hub Europe",
+   "Trading Hub Europe GmbH",
+   "THE",
+   "Trading Hub Europe (THE)"
+  ],
+  "solution": "Trading Hub Europe GmbH (THE), the German market area manager and operator since the merger of the NCG and GASPOOL market areas in October 2021. Under § 35b EnWG it has to procure the missing volumes — through tenders for Strategic Storage Based Options (SSBO), through auctions of storage capacity, and by buying gas for capacities that users have returned to it. The cost is passed on to the market through the balancing levy, so in the end the consumer pays for the filling obligation."
+ },
+ {
+  "id": "b05-019",
+  "slide": 263,
+  "type": "open",
+  "prompt": "The German storage law was criticised heavily by the industry. Name the points of criticism and the counterproposal, and explain the contradiction inside the law that the criticism points at.",
+  "solution": "The slide lists four objections:\n\n1. State control introduced in competitive markets — the storage business had been unbundled and liberalised precisely so that bookings would follow price signals; the law replaces the signal by an administrative target.\n2. Timing not clear — the law was passed in the middle of the injection season, so the addressees did not know by when they had to have done what.\n3. Dis-incentive to book storage capacities — the decisive economic objection. If the market area manager will fill the store anyway when the level runs behind, no trader has a reason to book and pay for capacity himself; the state guarantee crowds out the private booking it was meant to trigger. That is a free-rider problem created by the law itself.\n4. The transfer of responsibility to the storage operators. The law says that the storage operators active in Germany \"haben die Einhaltung der Füllstandsvorgaben zu gewährleisten und zu überwachen\" — they have to guarantee and monitor compliance with the filling targets.\n\nThe contradiction sits in point 4. A storage system operator sells capacity; he does not own the gas and cannot decide whether his customer injects. Making him guarantee a filling level makes him liable for a result he does not control — the same category error as making a road operator responsible for how many cars drive on it.\n\nThe industry's counterproposal was interruptible storage contracts to be booked by the market area operator: leave the capacity with the market, and give the market area operator only an option that it can call if the filling level falls behind. That keeps the commercial booking incentive intact and buys security of supply as an option premium instead of by decree.",
+  "keywords": [
+   "State control",
+   "dis-incentive",
+   "storage operators",
+   "interruptible storage contracts",
+   "market area operator",
+   "free-rider"
+  ]
+ },
+ {
+  "id": "b05-020",
+  "slide": 264,
+  "type": "open",
+  "prompt": "Describe the Austrian storage law: how is the quantity to be stored determined, which body was created for it, and which three products were tendered?",
+  "solution": "The Austrian natural gas law was still in preparation at the time of the slide and was deliberately limited to three years, until 30 September 2025 — a sunset clause, i.e. an emergency instrument and not a permanent market design.\n\nThe quantity to be stored annually is based on the consumption in January of the preceding winter. That is a peak-month reference, not an annual one: storage exists to cover the cold spell, so the obligation is tied to the demand it is supposed to serve. Compare the EU burden-sharing rule, which uses 15 % of annual consumption.\n\nA new company was founded by Austrian Gas Grid Management (AGGM), the Austrian market area manager: the Austrian Strategic Storage Management. (Note that the slide abbreviates it ASGM although the name would give ASSM — the acronym on the slide does not match the name.)\n\nThree products were tendered:\n1. Gas in storage — transfer of working gas volume to the strategic storage company, for 1 November 2022 to 31 March 2023, i.e. gas that is already in the ground.\n2. Storage capacity — injection and withdrawal rates and unfilled working gas capacities, for 1 June 2022 to 1 April 2023, i.e. the empty container plus the rates to move gas in and out.\n3. Commodity Baseload — purchase of fixed monthly quantities, for 1 June 2022 to 1 October 2022, i.e. the molecules with which the container is filled during the injection season.\n\nThe three products together are exactly the three parameters of a storage facility — working gas volume, injection/withdrawal rate and the commodity — procured separately because different market participants can offer them.",
+  "keywords": [
+   "January",
+   "preceding winter",
+   "AGGM",
+   "working gas",
+   "Commodity Baseload",
+   "three years"
+  ]
+ },
+ {
+  "id": "b05-021",
+  "slide": 264,
+  "type": "mc",
+  "prompt": "On what basis is the annual quantity to be stored calculated under the Austrian storage law?",
+  "options": [
+   "On the consumption in January of the preceding winter.",
+   "On the average consumption of the last three calendar years.",
+   "On the technically available working gas volume of the Austrian storages.",
+   "On 15 % of the annual gas consumption, as in the EU burden-sharing mechanism."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The Austrian rule ties the storage obligation to the consumption in January of the preceding winter, i.e. to an observed peak month. That is the natural reference for a security-of-supply instrument, because storage exists to cover the cold spell rather than the average. Option 2 is the EU rule for member states without their own storage. Option 3 would make the obligation depend on the asset instead of on the need — a country with large storage would have to store more than it needs. Option 4 is a plausible smoothing rule but averages away exactly the peak the instrument is meant to cover. The law itself was drafted as a temporary measure limited to three years, until 30 September 2025."
+ },
+ {
+  "id": "b05-022",
+  "slide": 265,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows German day-ahead gas prices. Quantify the movement between May 2020 and summer 2022 and explain the mechanisms that produced it.",
+  "solution": "The slide marks the two extremes: from about 3 €/MWh in May 2020 to more than 300 €/MWh in summer 2022 — a factor of about 100 in barely two years. No other traded commodity of that size moved like this.\n\nThree mechanisms, in sequence:\n\n1. The low. In the Covid spring of 2020 demand collapsed while pipeline and LNG supply kept running. Storages filled early and the market ran out of places to put the gas, so the day-ahead price fell to a level that barely covered variable cost — 3 €/MWh. A price that low is a storage-scarcity price with the sign reversed: it is what gas is worth when nobody can take it.\n\n2. The build-up. From autumn 2021 Russian pipeline deliveries were throttled and the Gazprom-controlled German storages were left unfilled, so Europe entered the winter short and the forward curve started to price scarcity.\n\n3. The peak. After February 2022 the physical loss of Russian volumes had to be replaced by LNG bought in competition with Asia, while the filling mandates of slides 261-263 forced buyers to purchase regardless of price. Inelastic demand met inelastic supply.\n\nThe conclusion is that this is not a cost-based price at all. Nothing about the cost of producing gas changed by a factor of 100. It is a scarcity price whose only function is to ration demand until industrial consumers stop buying — which is exactly what happened.",
+  "keywords": [
+   "3 €/MWh",
+   "300 €/MWh",
+   "factor of about 100",
+   "storages",
+   "LNG",
+   "scarcity price",
+   "inelastic"
+  ]
+ },
+ {
+  "id": "b05-023",
+  "slide": 266,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the Henry Hub price development with the German one on the previous slide. What is the essential difference, and what does the slide give as the reason for the increase at the end of 2022?",
+  "solution": "The essential difference is the order of magnitude of the move. Henry Hub stayed inside a band of a few US$/MMBtu throughout, while the German price rose by roughly a factor of 100. The slide's annotation explains the one visible US move: an increase by the end of 2022 due to exports to Europe.\n\nThe reason for the divergence is structural. The United States is a self-sufficient producing region with a dense domestic pipeline grid and its own storage, so Henry Hub is set by domestic production cost and domestic storage levels. Europe is import-dependent and had to outbid Asia for every spare LNG cargo, so the European price is set by the willingness to pay of the marginal consumer.\n\nThe two markets are connected only through liquefaction capacity, and that capacity was fully booked and physically limited. Normally arbitrage would close a spread: buy at Henry Hub, liquefy, ship, regasify, sell in Europe — a chain that costs of the order of 2-3 US$/MMBtu. In 2022 the transatlantic spread was many times that, and the arbitrage still could not close, because there was no free liquefaction train to put the gas through. A price difference that exceeds the transport cost and persists is the signature of a hard physical bottleneck.\n\nThe rise at the end of 2022 shows the coupling working at the margin: export demand pulls US domestic prices up, so American consumers pay part of the European crisis. That is the political price of becoming an exporter.",
+  "keywords": [
+   "Henry Hub",
+   "exports to Europe",
+   "liquefaction",
+   "import-dependent",
+   "arbitrage",
+   "bottleneck"
+  ]
+ },
+ {
+  "id": "b05-024",
+  "slide": 267,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the German day-ahead base electricity price from about 2008 to 2023. Describe the pattern and explain why an electricity chart appears in the middle of a natural gas chapter.",
+  "solution": "For most of the period the price oscillates around 30-60 €/MWh with short spikes, and it repeatedly dips below zero — the downward excursions around 2013, 2017 and 2019. From late 2021 the whole level breaks out: daily values climb through 200 and 400 €/MWh and peak around 700 €/MWh in the second half of 2022, then fall back.\n\nThe chart belongs here because of the merit order. In Germany a gas-fired plant is the price-setting marginal unit in a large share of the hours, and the day-ahead price then equals that plant's marginal cost: the gas price divided by the electrical efficiency, plus the CO2 cost. With an efficiency of about 50 %, a gas price of 300 €/MWh alone implies about 600 €/MWh of fuel cost per MWh of electricity — which is precisely the order of magnitude of the 2022 peaks. The gas crisis and the electricity crisis are the same event seen through two markets, and this is the quantitative link the exam asks for.\n\nThe negative prices before 2021 have the opposite cause and should not be confused with it: high renewable feed-in plus inflexible must-run capacity at low demand, where it is cheaper for a plant to pay for off-take than to shut down and restart.",
+  "keywords": [
+   "merit order",
+   "marginal",
+   "efficiency",
+   "700 €/MWh",
+   "negative prices",
+   "CO2"
+  ]
+ },
+ {
+  "id": "b05-025",
+  "slide": 269,
+  "type": "open",
+  "graphic": true,
+  "prompt": "What exactly is a standardised hub product? Use the two schematics on the slide to explain the role of the contract conclusion date, the delivery period, the quantity and the price.",
+  "solution": "A hub product is a standardised forward contract for delivery of gas at a virtual trading point. Three things are fixed at contract conclusion, which lies before the start of the delivery period:\n\n- the delivery period — a defined day, month, quarter, season or calendar year, running from the start of the delivery period to the end of the delivery period;\n- the quantity, which is constant during term: the same MW in every hour, i.e. a flat baseload profile;\n- the price, which is likewise constant during term and applies to the whole period.\n\nThat is exactly what the two step-shaped diagrams show: one rectangle for the quantity and one for the price, both switched on at the start and off at the end of the delivery period, both agreed at a contract conclusion date that lies earlier on the time axis.\n\nStandardisation is the whole point. Because every trader trades the same rectangle, the products are fungible, they can be netted and cleared through an exchange, and a continuous price curve exists for them. All the arithmetic of this chapter rests on it: a summer/winter spread is the price of one rectangle minus the price of another, and a swap is the simultaneous purchase and sale of two of them.\n\nAnything that is not a rectangle — a load-following profile, an interruptible volume, an option — is a structured product and has to be built from hub products plus flexibility. That is why the flexibility slides at the start of this chapter and the hub product slide belong together: the rectangle is the tradable part, the flexibility is the rest.",
+  "keywords": [
+   "delivery period",
+   "contract conclusion",
+   "constant during term",
+   "baseload",
+   "standardised",
+   "virtual trading point"
+  ]
+ },
+ {
+  "id": "b05-026",
+  "slide": 269,
+  "type": "cloze",
+  "prompt": "In a hub product both the quantity and the price are ___ during the term, which is why such a product is also called a baseload product.",
+  "accept": [
+   "constant",
+   "constant during term",
+   "flat",
+   "unchanged",
+   "fixed"
+  ],
+  "solution": "Constant. The quantity is the same in every hour of the delivery period, and the price agreed at contract conclusion applies unchanged to the whole period — the two rectangles drawn on the slide. This is what makes hub products fungible and clearable. Any profile that varies over the delivery period has to be assembled from several such rectangles plus flexibility, which is the definition of a structured product."
+ },
+ {
+  "id": "b05-027",
+  "slide": 270,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the location swap as drawn on the slide: what is the intended business, which two transactions replace it, why is there no physical connection, and what is the pricing requirement for profitability?",
+  "solution": "Intended business (the top arrow): purchase at p_supply at location 1 and sell at p_sales at location 2. Executed physically, this would require booking transport capacity from location 1 to location 2.\n\nThe two transactions that replace it, carried out at the same point in time: at hub 1 the trader sells at the hub price p1 the gas he has bought locally, and at hub 2 he buys at the hub price p2 the volume he has to deliver locally. He ends up long at location 2 and flat at location 1 — commercially exactly where he wanted to be.\n\nThe crossed arrows in the middle of the slide mean that there is no physical connection: not one molecule travels from location 1 to location 2. The counterparties at each hub deliver locally; the swap moves title, not gas.\n\nPricing requirement for profitability: p_supply - p1 < p_sales - p2. In words, the loss made on the leg at hub 1 must be smaller than the margin earned on the leg at hub 2.\n\nComparison with transportation: the note on the slide adds that at adjacent hubs p1 is approximately equal to p2, so the swap is nearly free, while physical transport costs p_transport. The swap is the better alternative whenever p2 - p1 < p_transport. This is also the arbitrage relation that keeps a well-connected system together: two hub prices cannot differ by more than the transport tariff for long, because traders would otherwise book transport instead of swapping.",
+  "keywords": [
+   "p_supply",
+   "p1",
+   "p_sales",
+   "p2",
+   "no physical connection",
+   "p_transport",
+   "same point in time"
+  ]
+ },
+ {
+  "id": "b05-028",
+  "slide": 270,
+  "type": "cloze",
+  "prompt": "Compared with reserving transport capacity, a location swap between two hubs is worthwhile as long as p2 - p1 < ___.",
+  "accept": [
+   "p_transport",
+   "ptransport",
+   "p transport",
+   "transport price",
+   "transportation price",
+   "transport tariff",
+   "p_Transport"
+  ],
+  "solution": "p_transport, the price of the transport capacity between the two locations. The hub price difference is what the swap costs; the transport tariff is what the physical alternative costs, and the cheaper one wins. At adjacent hubs p1 is approximately p2, so the swap is almost free. Read the other way round, this is the arbitrage bound that prevents two hub prices in a well-connected system from drifting apart by more than the transport tariff. The time-swap counterpart of the relation is p2 - p1 < p_storage."
+ },
+ {
+  "id": "b05-029",
+  "slide": 271,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows day-ahead prices of four European hub quotations (PEGAS NCG, ICAP TTF, PEGAS TTF, ICE NBP) on two price axes, €/MWh on the left and p/th on the right. What do you read off it, and how does it relate to the location swap of the previous slide?",
+  "solution": "The four curves lie practically on top of each other over the whole period. The differences between the hubs are a fraction of a €/MWh, while the common level moves over a range of some 40 €/MWh. The message is therefore: the European hubs are effectively one price zone, and what matters for a shipper is the level, not the choice of hub.\n\nTwo of the four series — PEGAS TTF and ICAP TTF — are two quotations of the same hub and coincide by construction; that they coincide is a check on the data, not information. The interesting comparison is NCG (Germany) against TTF (Netherlands) against NBP (United Kingdom), and even those separate only marginally, NBP occasionally more than the others because it is linked through interconnectors and LNG terminals rather than through a continuous onshore grid.\n\nThe link to slide 270: this convergence is the location swap seen from the outside. As long as p2 - p1 stays below p_transport, arbitrage — by swap or by physical booking — closes any gap that opens. The residual spread between two hubs is therefore a measure of the transport cost and of the free interconnection capacity between them, and it widens precisely when an interconnector is congested. A persistent large spread is a signal of a physical bottleneck, not of a badly informed market.\n\nThe second axis exists only because the UK quotes gas in pence per therm and the continent in €/MWh (1 therm = 29.31 kWh). The two axes are the same price in different units; the scale difference must not be read as a price difference.",
+  "keywords": [
+   "NCG",
+   "TTF",
+   "NBP",
+   "arbitrage",
+   "p_transport",
+   "therm",
+   "one price zone"
+  ]
+ },
+ {
+  "id": "b05-030",
+  "slide": 272,
+  "type": "open",
+  "prompt": "Put the location swap (slide 270) and the time swap (slide 272) side by side: what is identical in the two constructions, what differs, and which physical asset does each of them substitute? Give the profitability condition and the comparison relation for both.",
+  "solution": "Identical. In both cases the intended business is a purchase at p_supply and a sale at p_sales that cannot be executed directly, and in both cases it is replaced by two hub transactions — a sale at p1 and a purchase at p2 — which leave the trader in the desired commercial position without any physical movement of gas. The profitability condition is literally the same for both: p_supply - p1 < p_sales - p2.\n\nDifferences. The location swap separates the two legs in space: two different hubs, but at the same point in time. It substitutes transport capacity. The time swap separates them in time: the same hub, but time 1 and time 2. It substitutes storage capacity. Accordingly the comparison relations differ — p2 - p1 < p_transport for the location swap, p2 - p1 < p_storage for the time swap.\n\nTypical price relations also differ. At adjacent hubs p1 is approximately p2, so a location swap costs almost nothing. In time, p1 < p2 is the normal case because the forward price of the later delivery is higher, so the time swap normally costs the trader money: he sells cheap now and buys back dear later. He accepts that cost only when it stays below the storage booking fee.\n\nWhat neither of them delivers is physical security of supply. A swap gives a price position, not a molecule. Whoever actually needs gas at a location or at a date must still book transport or storage, and the swap only works because a counterparty at the other hub or at the other date is willing to take the opposite side. In a physically stressed market that counterparty disappears exactly when he is needed.",
+  "keywords": [
+   "p_supply",
+   "p_sales",
+   "p_transport",
+   "p_storage",
+   "same hub",
+   "security of supply",
+   "same point in time"
+  ]
+ },
+ {
+  "id": "b05-031",
+  "slide": 272,
+  "type": "mc",
+  "prompt": "Why does the slide note that in a time swap \"typically p1 < p2\"?",
+  "options": [
+   "Because the storage operator charges the difference p2 - p1 as his fee.",
+   "Because the two transactions are done at different hubs and the second hub is always the more expensive one.",
+   "Because the forward price for the later delivery date is normally higher, so the trader sells cheap at time 1 and buys back dear at time 2 — the swap has a cost.",
+   "Because the trader has to sell at the regulated price p1 and to buy at the market price p2."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "A time swap is executed at one and the same hub but for two different delivery dates. In a normal seasonal market the later (winter) product trades above the earlier (summer) product, so p1 < p2 and the difference p2 - p1 is the cost of the construction — exactly as the storage fee p_storage is the cost of the physical alternative. That is why the comparison relation reads p2 - p1 < p_storage. Option 1 confuses the time swap with the location swap of slide 270, which uses two hubs at the same point in time. Option 3 is wrong because no storage operator is involved at all — avoiding him is the point. Option 4 invents a regulated price, which does not exist at a hub."
+ },
+ {
+  "id": "b05-032",
+  "slide": 273,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The summer/winter-spread schematic dates every price. Explain how the spread of 1 €/MWh is actually constructed: which two products are compared, at which moment are they priced, and why is the spread taken from forward products instead of from day-ahead prices?",
+  "solution": "Both prices are observed at the same moment: 28.02.2021, 16:00. That is one single reading of the forward curve, not two readings at different times.\n\nWhat is compared are two standardised hub products with adjacent, non-overlapping delivery periods:\n- the SUMMER product, delivering 01.04.2021 06:00 to 01.10.2021 06:00, quoted at 27 €/MWh;\n- the WINTER product, delivering 01.10.2021 06:00 to 01.04.2022 06:00, quoted at 28 €/MWh.\n\nSummer/winter spread = 28 - 27 = 1 €/MWh.\n\nNote the 06:00 boundaries: the gas day runs from 6 a.m. to 6 a.m., so the two seasons abut exactly, without overlap and without a gap. Each product is a rectangle in the sense of slide 269 — constant quantity, constant price over its delivery period.\n\nWhy forward and not day-ahead: the storage decision has to be taken in advance. When the trader books storage in February 2021 he cannot know what gas will cost day-ahead in October; what he can do is lock both legs today at the quoted forward prices and thereby fix the spread. That locked, risk-free margin is the intrinsic value of the storage position. A spread computed after the fact from realised day-ahead prices would be a historical statistic — informative, but not tradable and not a basis for a booking decision.",
+  "keywords": [
+   "28.02.2021",
+   "27 €/MWh",
+   "28 €/MWh",
+   "1 €/MWh",
+   "forward",
+   "06:00",
+   "intrinsic value"
+  ]
+ },
+ {
+  "id": "b05-033",
+  "slide": 274,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows realised German summer-winter spreads from 2008/09 to 2021/22 with mean, maximum and minimum. What do you read off it, and what does the picture mean for the business case of a seasonal storage?",
+  "solution": "The vertical axis spans only -2.00 to +10.00 €/MWh, which is already the message: for fourteen consecutive storage years the seasonal spread has moved inside a band of a few €/MWh. For most seasons the mean lies in the low single digits, the maximum reaches into the upper part of the scale only in individual years, and the minimum touches or falls below zero. (The axis caption reads \"Mitteilwert\" — a typo for Mittelwert, mean.)\n\nFor the business case this is decisive, because the spread is the entire revenue of a pure seasonal storage cycle: buy in summer, inject, withdraw and sell in winter. It has to cover the specific storage cost, i.e. the annual storage charge divided by the working gas volume actually cycled. In the lecture's storage example that cost is 4.125 €/MWh. A mean spread of one or two €/MWh therefore means that the intrinsic value of a storage booking is frequently zero or negative — the seasonal cycle alone does not pay for the facility.\n\nTwo consequences follow, and both are examinable. First, storage owners cannot live on the seasonal cycle; they have to earn the extrinsic value by cycling the store several times a year against short-term price volatility, which is why injection and withdrawal rates matter more than working gas volume for a modern cavern. Second, the near-disappearance of the seasonal spread through the 2010s is why storage was written down across Europe, capacity was mothballed and Germany entered 2021 with empty stores — and hence why the state had to step in with the filling mandates of slides 261-263 when security of supply suddenly required a volume that the market had stopped paying for.",
+  "keywords": [
+   "10 €/MWh",
+   "mean",
+   "maximum",
+   "minimum",
+   "specific storage cost",
+   "4.125",
+   "intrinsic value",
+   "extrinsic value"
+  ]
+ },
+ {
+  "id": "b05-034",
+  "slide": 275,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The second spread chart plots the winter-summer future price for the delivery years 2021 to 2024 on a scale from -20 to +10 €/MWh. Explain what a negative winter-summer spread means, how it can arise, and what it does to the storage business.",
+  "solution": "The winter-summer future price is the quotation of the winter product minus the quotation of the adjacent summer product. Negative means the winter product trades below the summer product: gas for delivery in summer is more expensive than gas for delivery in the following winter. In a normal seasonal market that is impossible, because it removes any reason to store.\n\nHow it arose in 2022: the summer became the scarce season. The EU and German filling mandates (80 % and 90 % by 1 November) forced buyers into the market throughout the injection season regardless of price, while the market simultaneously expected the coming winter to be covered by those very full stores and by newly contracted LNG. Forced, price-inelastic summer demand plus an expected winter relief inverts the seasonal curve. The chart shows how far it went: to about -20 €/MWh for the worst quotations of the 2022/2023 delivery years, against the +10 €/MWh at the top of the scale in normal times.\n\nWhat it does to the storage business: the intrinsic value of a storage booking becomes strongly negative. Buying in summer and selling in winter would lose money before a single cent of storage fee is paid, so no commercial user would inject voluntarily. That is exactly the conflict the German storage law created and why the industry complained about a dis-incentive to book storage capacities (slide 263). The regulator's answer was to let the market area manager buy the gas and to grant a 100 % discount on storage-related transmission tariffs — in other words, to pay for a service that the price signal was telling the market not to provide. The residual reason for a commercial player to hold storage in such a market is the extrinsic value: the option to cycle against short-term volatility, which does not depend on the seasonal spread at all.",
+  "keywords": [
+   "negative",
+   "summer",
+   "winter",
+   "filling mandates",
+   "intrinsic value",
+   "-20 €/MWh",
+   "extrinsic value"
+  ]
+ },
+ {
+  "id": "b05-035",
+  "slide": 275,
+  "type": "mc",
+  "prompt": "A winter-summer future price of -15 €/MWh is quoted. What follows for a trader who is considering a storage booking?",
+  "options": [
+   "The seasonal storage cycle is unusually attractive; the spread more than covers any storage fee.",
+   "The seasonal cycle would lose 15 €/MWh before the storage fee is even counted; the intrinsic value of the booking is deeply negative.",
+   "The trader should buy in winter and sell in summer by means of a location swap.",
+   "Nothing follows, because a future price says nothing about the summer/winter relation."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "A negative winter-summer price means the winter product is cheaper than the summer product. The seasonal storage cycle — buy in summer, sell in winter — would therefore lose 15 €/MWh per MWh cycled before the storage charge is added, so the intrinsic value of the booking is deeply negative and no commercial user would inject. Option 1 reverses the sign. Option 3 is wrong because comparing the two seasonal products is precisely what the quotation does. Option 4 mixes up the instruments: buying winter and selling summer at one hub is a time swap; a location swap works between two hubs at one point in time. The trader may still want the storage for its extrinsic value — the option to cycle against short-term volatility — but that is a different, non-seasonal business."
+ },
+ {
+  "id": "b05-036",
+  "slide": 277,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide plots selected crude oils by API gravity and sulfur content. Explain the two axes and the two pairs of adjectives, place Brent, WTI, Arab Heavy and Maya in the picture, and say why the position of a crude in this diagram decides its price.",
+  "solution": "Axes. Horizontal: API gravity, a measure of crude oil density, running from about 20 on the left to about 50 on the right. A higher API number means a lower density, so the axis runs from heavy (left) to light (right). Vertical: sulfur content in percent, from about 0 at the bottom to 3.5 at the top, i.e. from sweet (bottom) to sour (top). The customary dividing line between sweet and sour is around 0.5 % sulfur.\n\nPositions. Brent (North Sea) and WTI (United States) sit close together at the bottom right, around 38-40 API and roughly 0.4 % sulfur — light and sweet, which is why they serve as the benchmarks. Saudi Arab Heavy lies at about 27 API and 2.9 % sulfur, Mexican Maya at about 22 API and 3.3 % — the heaviest and most sour crudes on the chart. Urals (FSU) sits in between at about 32 API and 1.3 %; Tapis (Malaysia) and Sahara Blend (Algeria) are the lightest and sweetest at about 45 API and near 0.1 %.\n\nWhy price follows position. A light, sweet crude yields a high share of the valuable light products — gasoline, kerosene, gas oil/diesel — in simple atmospheric distillation, and needs little desulfurisation. A heavy, sour crude yields much residue and needs conversion capacity (coking, hydrocracking) plus sulfur removal to meet fuel specifications. Processing it therefore costs more capital and more operating expense, so it trades at a discount to Brent, and the size of that discount is the market value of the conversion step.\n\nThis one diagram explains three later slides: why the benchmarks are light and sweet, why the refinery-margin chart distinguishes light sweet cracking from medium sour coking and hydrocracking, and why a refinery configured for Urals could not simply be fed with a different crude in 2022.",
+  "keywords": [
+   "API gravity",
+   "sulfur content",
+   "sweet",
+   "sour",
+   "Brent",
+   "Maya",
+   "discount",
+   "conversion"
+  ]
+ },
+ {
+  "id": "b05-037",
+  "slide": 277,
+  "type": "cloze",
+  "prompt": "A crude oil with a high sulfur content, such as Mexican Maya at about 3.3 %, is called a ___ crude.",
+  "accept": [
+   "sour",
+   "sour crude",
+   "high sulphur",
+   "high sulfur",
+   "sauer",
+   "schwefelreich"
+  ],
+  "solution": "Sour. The counterpart is sweet, used for crudes with a low sulfur content such as Brent or WTI at roughly 0.4 %, with the customary dividing line around 0.5 %. Sour crudes require desulfurisation and therefore trade at a discount to the light sweet benchmarks. Do not confuse the pair with the second pair of adjectives on the slide, heavy and light, which refers to density expressed as API gravity and not to sulfur at all."
+ },
+ {
+  "id": "b05-038",
+  "slide": 277,
+  "type": "mc",
+  "prompt": "Which of the following crudes shown on the slide is the lightest and sweetest, i.e. the one a simple refinery can process most profitably?",
+  "options": [
+   "FSU - Urals (about 32 API, about 1.3 % sulfur)",
+   "Mexico - Maya (about 22 API, 3.3 % sulfur)",
+   "Malaysia - Tapis (about 45 API, about 0.1 % sulfur)",
+   "Saudi Arabia - Arab Heavy (about 27 API, 2.9 % sulfur)"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Tapis sits at the bottom right of the diagram: the highest API gravity, i.e. the lowest density, combined with almost no sulfur. It yields the largest share of light products in straight distillation and needs no desulfurisation, so it commands a premium even over Brent. Maya and Arab Heavy sit at the top left — heavy and sour, much residue, high sulfur, conversion capacity required, hence a discount. Urals lies in between; its medium-sour quality is exactly why the European refineries configured for it could not simply switch to light sweet crude after 2022."
+ },
+ {
+  "id": "b05-039",
+  "slide": 278,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the simplified oil value chain of the slide. Name the three main sections and their activities, and explain where the natural gas branch splits off and where trading sits.",
+  "solution": "Upstream — Exploration and Production: seismic, drilling, discovery, development, production.\n\nMidstream — Transportation/Storage, Trading and Refining: the crude moves by pipeline or by tanker to the refinery, where it is converted into products.\n\nDownstream — Distribution, Retail & Marketing, and Petrochemicals: the refinery output goes either as petrochemical feedstock to a petrochemical plant, which produces bulk products and specialty products for industry, or as petroleum products through wholesale to industry and through retail to cars, trucks and so on.\n\nThe gas branch splits off already at the production stage: the field delivers gas and NGL alongside the oil. The gas goes through gas processing and then either by pipeline transportation or through the LNG chain — liquefaction, transportation, regasification — to power plants and large industry, and via distribution to households and smaller industry. Oil and gas share the upstream and separate in the midstream, which is why one lecture covers both.\n\nTrading is drawn as a band spanning the midstream and reaching over refining. That placement is the point of the picture: trading is not a stage between two stages but a layer that connects them. Crude, freight and products are all traded, and the physical chain is therefore priced at every interface — which is what allows the following slides to quote a crude price, a product price and the difference between the two.\n\nOne caveat: the boundaries are conventions, not laws. Several sources put refining in the downstream; this slide draws it at the midstream/downstream boundary.",
+  "keywords": [
+   "Upstream",
+   "Midstream",
+   "Downstream",
+   "refining",
+   "liquefaction",
+   "petrochemical",
+   "Trading"
+  ]
+ },
+ {
+  "id": "b05-040",
+  "slide": 278,
+  "type": "cloze",
+  "prompt": "Transportation, storage and trading of crude oil between the field and the refinery form the ___ part of the oil value chain.",
+  "accept": [
+   "midstream",
+   "mid-stream",
+   "Midstream",
+   "mid stream"
+  ],
+  "solution": "Midstream. Upstream is exploration and production — seismic, drilling, discovery, development, production. Midstream is transportation/storage, trading and, on this slide, refining. Downstream is distribution and retail & marketing together with the petrochemical branch. The classification matters for regulation: the midstream assets — pipelines, terminals, storage — carry the network characteristics that make third-party access and unbundling rules relevant, whereas upstream and downstream are competitive activities."
+ },
+ {
+  "id": "b05-041",
+  "slide": 279,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The three doughnuts show the distribution of proved oil reserves in 2000, 2010 and 2020. Describe the two movements you can read off them — in the total and in the regional shares — and explain what caused the largest single shift.",
+  "solution": "The total. Proved reserves grew from 1300.9 through 1636.9 to 1732.4 thousand million barrels — up by a third in twenty years, although the world consumed roughly 30 billion barrels every one of those years. That is only an apparent paradox: proved reserves are not a geological stock but an economic one. They are the volumes that are known and producible at prevailing prices with existing technology, so they grow when prices rise and when technology improves, and they shrink again when prices fall.\n\nThe regional shares. The Middle East fell from 53.6 % to 46.8 % and recovered to 48.3 % — still just under half of the world's reserves. North America went 18.2 -> 13.5 -> 14.0 %, the CIS 9.2 -> 8.8 -> 8.4 %, Africa is stable at about 7.2 %, Asia Pacific declines to 2.6 % and Europe halves from 1.6 to 0.8 %.\n\nThe largest single shift is S. & Cent. America: 7.4 % in 2000, 19.6 % in 2010, 18.7 % in 2020 — nearly a tripling in one decade. This is essentially one country. Venezuela reclassified the extra-heavy oil of the Orinoco belt as proved reserves during the high-price years of the late 2000s, which on paper made it the largest reserve holder in the world. It is the clearest possible illustration of the point above: a change in the price assumption moved more reserves than any discovery of that decade.\n\nFinally, a high reserve share is not a high production share. Venezuelan extra-heavy oil is expensive and difficult to produce, whereas Middle East reserves are the cheapest in the world — which is why the trade-flow map of slide 286 is dominated by arrows out of the Middle East and not by arrows out of South America.",
+  "keywords": [
+   "1732.4",
+   "53.6",
+   "48.3",
+   "19.6",
+   "Venezuela",
+   "proved reserves",
+   "18.2"
+  ]
+ },
+ {
+  "id": "b05-042",
+  "slide": 279,
+  "type": "mc",
+  "prompt": "What share of the world's proved oil reserves did the Middle East hold in 2020, and how did the world total change between 2000 and 2020?",
+  "options": [
+   "About 48 %, and the total rose from 1300.9 to 1732.4 thousand million barrels.",
+   "About 48 %, and the total fell from 1732.4 to 1300.9 thousand million barrels.",
+   "About 54 %, and the total stayed roughly constant at about 1600 thousand million barrels.",
+   "About 19 %, and the total rose from 1300.9 to 1732.4 thousand million barrels."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The Middle East held 48.3 % in 2020, against 53.6 % in 2000 and 46.8 % in 2010, and the world total grew from 1300.9 through 1636.9 to 1732.4 thousand million barrels. Option 1 reverses the direction of the total. Option 3 quotes the year-2000 share. Option 4 quotes the 2010 share of S. & Cent. America, the region whose share nearly tripled through the reclassification of Venezuelan extra-heavy oil. The point worth remembering is that reserves rose while the world produced roughly 30 billion barrels a year, because proved reserves is an economic and not a geological figure."
+ },
+ {
+  "id": "b05-043",
+  "slide": 280,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The BP chart plots the crude oil price from 1861 to 2020 in US dollars per barrel and marks the world events behind the moves. Distinguish the main price regimes and name the mechanism that produced each of them.",
+  "solution": "1. 1861 to about 1970 — administered prices. After the wild swings of the early Pennsylvania boom the price is essentially flat and low for a century: first under the control of Standard Oil, later under the Texas Railroad Commission and the international majors. Supply was administered, so the price hardly moved.\n\n2. 1973 to 1985 — the OPEC decade. Two step changes: the 1973/74 embargo after the Yom Kippur war, and the 1979 Iranian revolution followed by the Iran-Iraq war. Pricing power passed to the producing states, and in real terms the price multiplied several times over.\n\n3. 1986 to 1999 — the counter-move and the long low. Saudi Arabia abandoned its swing-producer role in 1986 and the price collapsed; efficiency gains and substitution had cut demand while North Sea and Alaskan supply arrived. The price then sat around 20 US$/bbl for over a decade, interrupted only briefly by the 1990 Gulf war.\n\n4. 2000 to 2020 — demand shock, then supply shock. Chinese demand growth pushed the price above 100 US$/bbl by 2008; the financial crisis collapsed it; it recovered to a plateau above 100 US$/bbl until 2014, when US shale supply plus OPEC's decision not to cut broke it again. 2020 brings the Covid demand collapse.\n\nThe lesson the chart teaches is the same at every break: oil supply and oil demand are both very inelastic in the short run, so a small physical imbalance produces a very large price move. And every regime change coincides with a change in who controls the marginal barrel — Standard Oil, the majors, OPEC, the North Sea, OPEC again, US shale.",
+  "keywords": [
+   "OPEC",
+   "1973",
+   "1986",
+   "shale",
+   "inelastic",
+   "100 US$/bbl"
+  ]
+ },
+ {
+  "id": "b05-044",
+  "slide": 282,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide notes that crude oil prices in the US were negative and that the price rose to about 130 US$/bbl in 2022. Explain how a negative oil price is possible at all, and correct the date the slide gives.",
+  "solution": "A negative price means the seller pays the buyer to take the barrel. That can only happen for a physically settled contract when storage is full.\n\nIn spring 2020 the Covid demand collapse cut consumption far faster than production could be shut in — an oil well cannot simply be switched off and on. The US storage hub at Cushing, Oklahoma, which is the delivery point of the WTI contract, filled to its practical limit. Holders of the expiring WTI contract were then obliged to take physical delivery of oil for which no tank was available, and on 20 April 2020 the WTI contract settled at about -37.63 US$/bbl. The negative number is therefore the price of storage scarcity, not the price of oil: it equals minus the cost of having to find somewhere to put the barrel. It was a WTI phenomenon; Brent, which settles against a seaborne cargo market where tankers are available as floating storage, stayed positive at roughly 20 US$/bbl.\n\nCorrection to the slide. The slide says the negative prices occurred in May 2020. They occurred on 20 April 2020. What carries the name \"May 2020\" is the delivery month of the contract that settled negative — precisely the distinction between the trading date and the delivery period that slide 269 makes for hub products.\n\nThe 2022 move is the mirror image: after the invasion of Ukraine Brent traded up to about 130 US$/bbl, because the market feared the loss of Russian barrels at a time when OPEC spare capacity was minimal. Same inelasticity, opposite sign.",
+  "keywords": [
+   "negative",
+   "Cushing",
+   "storage scarcity",
+   "20 April 2020",
+   "delivery month",
+   "130 US$/bbl"
+  ]
+ },
+ {
+  "id": "b05-045",
+  "slide": 283,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The right-hand panel shows product differentials to crude — Rotterdam product prices minus Dated Brent. Why are gasoline and gas oil consistently positive while high sulphur fuel oil is consistently negative, and what does such a differential tell a refiner?",
+  "solution": "A differential is the product price minus the crude price for the same barrel, i.e. the gross value that the refining step adds — or destroys — for that particular product.\n\nGasoline and gas oil trade roughly 10 to 20 US$/bbl above Dated Brent over the whole period, with spikes above 30 US$/bbl. They are the light products the market actually wants, they have to meet tight specifications and they require conversion and treating capacity, so their value exceeds that of the crude they are made from.\n\nHigh sulphur fuel oil trades roughly 10 to 30 US$/bbl below crude. It is the residue at the bottom of the barrel; its demand is shrinking (power generation, and marine bunkers before the IMO 2020 sulphur cap) and it has to be disposed of somewhere, so it destroys value relative to the feed.\n\nFor the refiner these differentials are the raw material of his margin. A barrel of crude yields a fixed slate under simple distillation, and the gross margin is the weighted sum of the product differentials minus the operating cost — the crack spread. Because the light-product differentials are positive and the residue differential is negative, every unit of conversion capacity that turns residue into gas oil or gasoline earns the sum of the two differentials. That is why complex refineries (coking, hydrocracking) outperform simple ones, and why the refinery margin chart on the following slide distinguishes exactly those configurations.\n\nThe left panel adds the reason for looking at differentials at all: the absolute prices of all three products move up and down together with crude, so the level says little. The differential is far more stable and is the figure that actually decides whether refining is worth doing.",
+  "keywords": [
+   "differential",
+   "Dated Brent",
+   "gas oil",
+   "high sulphur fuel oil",
+   "crack spread",
+   "conversion",
+   "residue"
+  ]
+ },
+ {
+  "id": "b05-046",
+  "slide": 284,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The refinery margin chart shows three benchmark configurations: USGC Medium Sour Coking, NWE Light Sweet Cracking and Singapore Medium Sour Hydrocracking. Explain what a refinery margin is, why three different ones are shown, and what happened in 2020.",
+  "solution": "The refinery margin is the difference between the value of the product slate that a defined refinery configuration produces from a defined crude and the cost of that crude plus the variable operating cost, expressed in US$ per barrel of crude processed. It is a benchmark figure, not a company's accounts: it states what a standard plant of that type would have earned in that month.\n\nThree configurations are shown because the margin depends jointly on the crude and on the plant. A US Gulf Coast refinery buys cheap medium sour crude and destroys the residue in a coker; a north-west European refinery buys light sweet crude, which is more expensive but easier to process, and runs a cracker; a Singapore refinery buys medium sour and hydrocracks it to maximise middle distillates for the Asian market. On the chart these three margins differ by several US$/bbl and they do not even move together — the USGC coking margin swings between roughly 0 and 18 US$/bbl, while the NWE cracking margin stays in a much narrower band of about 3 to 10 US$/bbl. The gap between the two is the return on conversion capacity, i.e. the payoff for complexity.\n\nIn 2020 all three collapse to about zero and partly below. The Covid demand collapse hit precisely the high-value light products — jet fuel first, then gasoline — so the product differentials of slide 283 vanished while crude fell by less than the products did. Refining became a loss-making activity. The same event appears from the volume side in the refinery utilisation chart of slide 285, and it is the reason refineries were shut or converted in that period.",
+  "keywords": [
+   "refinery margin",
+   "configuration",
+   "coking",
+   "cracking",
+   "complexity",
+   "2020"
+  ]
+ },
+ {
+  "id": "b05-047",
+  "slide": 285,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Refinery utilisation is plotted as a percentage of maximum annual capacity by region from 2010 to 2020. Which regions run high, which run low, what happens in 2020, and why does utilisation matter so much for a refinery?",
+  "solution": "The world line sits around 80-83 % for most of the decade. North America, the Middle East and the CIS run at the top of the field, between roughly 85 and 90 %; Europe and Asia Pacific start below the world average and improve towards 2018/19; the two outliers at the bottom are Africa, which falls from about 77 % in 2010 to below 60 %, and S. & Cent. America, which falls from about 80 % to below 60 % over the same period.\n\nThose two weak regions are weak for a structural and not for a market reason. The refineries in several African countries and in Venezuela were under-maintained and under-invested, so nominal capacity stayed on the books while the plants could not actually run. Utilisation of that kind is a maintenance statistic, not a demand statistic — and it explains the apparent contradiction that countries which produce crude have to import products.\n\nIn 2020 every region drops sharply, including the world line: the Covid demand collapse, the same event that produced the negative WTI price and the near-zero refinery margins.\n\nUtilisation matters because a refinery is an extremely capital-intensive plant dominated by fixed costs. The capital charge per barrel is the annual capital cost divided by the barrels actually processed, so it rises steeply as utilisation falls, and it does so at the same time as the margin per barrel is being squeezed — the two effects multiply. Below roughly 70 % a refinery in a competitive region is normally not viable. This is exactly the fixed-cost logic that governs pipelines and booked gas transport capacity: capacity is paid for whether or not it is used, so the specific cost is a function of utilisation and nothing else.",
+  "keywords": [
+   "utilisation",
+   "world",
+   "Africa",
+   "2020",
+   "fixed costs",
+   "capital-intensive"
+  ]
+ },
+ {
+  "id": "b05-048",
+  "slide": 286,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the structure of the worldwide oil trade map for 2020. Which are the dominant flows, what does the pattern say about where oil is produced and where it is consumed, and what does it imply for the transport infrastructure?",
+  "solution": "The map is dominated by a small number of very large arrows out of one region (BP quotes these trade movements in million tonnes). Out of the Middle East run the largest figures on the whole map — 274.3 into East Asia, 235.7 and 157.5 into other Asian destinations, 44.6 further east, plus 42.0 and 44.0 westward. The Middle East is the world's export hub and Asia Pacific is the world's import sink.\n\nThe second large exporter is the CIS, with 122.8 westward into Europe and 86.4 eastward. Europe is a pure importer and draws from several directions at once — 195.7, 114.9, 82.6, 72.7 and 67.3. North America shows large two-way figures (204.8, 80.3, 49.9, 45.8, 37.2) because Canadian and US crude and products cross the border in both directions and the US simultaneously imports heavy and exports light crude.\n\nWhat the pattern says: production and consumption are geographically separated, and the separation is intercontinental. Oil is therefore a genuinely global commodity, unlike pipeline gas. Every producer competes with every other for every consumer, which is why there is essentially one world oil price with quality and freight differentials rather than the regional price zones that gas had until LNG.\n\nWhat it implies for the infrastructure: the tanker is the backbone of the system. Almost every arrow on this map crosses an ocean; only the CIS-Europe flows and the North American flows are pipeline flows. It also means that the maritime chokepoints — Hormuz for the Middle East arrows, Malacca for the Asian ones, Suez and Bab el-Mandeb for the westward ones — are the single points of failure of the whole system, which is why they, and not the fields, are what security-of-supply analysis watches.",
+  "keywords": [
+   "Middle East",
+   "274.3",
+   "Asia Pacific",
+   "tanker",
+   "CIS",
+   "chokepoints",
+   "one world oil price"
+  ]
+ },
+ {
+  "id": "b05-049",
+  "slide": 288,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the main supplier countries of German crude oil imports. Which country was by far the largest single supplier before 2022, roughly what share did it hold, and what changed afterwards? What does the case show about import dependency?",
+  "solution": "Russia was by far the largest single supplier of German crude oil, on the order of a third of the import volume, ahead of Norway, the United Kingdom, Kazakhstan, the United States, Libya and Nigeria. Germany imports essentially all of the crude it processes — domestic production covers only a low single-digit share of consumption — so this supplier list is the security-of-supply question.\n\nWhat changed: with the EU sanctions Germany stopped importing Russian seaborne crude, and going beyond the sanctions it also gave up the Druzhba pipeline deliveries to the refineries at Schwedt and Leuna from January 2023. The volumes were replaced by seaborne crude from Norway, the United States, Kazakhstan and the Middle East, landed at Rostock, Gdansk and the western harbours.\n\nWhat the case shows: import dependency is not measured by the total import share but by the substitutability of each individual source. Crude oil turned out to be comparatively easy to replace, because it moves globally by tanker and the world price equalises across suppliers — one cargo can be exchanged for another. The two real constraints were physical rather than commercial. First, quality: the refineries were configured for the medium-sour Urals grade (slide 277), and a different crude changes the product slate and the sulfur load. Second, direction: Schwedt was built to be fed from the east, so the Rostock line and the Polish connection had to carry a flow they were never dimensioned for. Compare natural gas, where the same substitution required building entirely new import terminals — the difference between a commodity that travels in ships and one that travels in pipes.",
+  "keywords": [
+   "Russia",
+   "a third",
+   "Druzhba",
+   "Schwedt",
+   "Urals",
+   "tanker",
+   "substitutability"
+  ]
+ },
+ {
+  "id": "b05-050",
+  "slide": 290,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide puts a German product table next to US consumption shares. Name the German product groups with their customers and distribution channels, give the US shares by end-use sector, and state the single most important structural conclusion that both halves support.",
+  "solution": "German half (Produkte / Sorten / Abnehmer / Vertrieb):\n- Ottokraftstoffe (motor gasoline), in the grades Normal unverbleit, Super plus unverbleit, Eurosuper unverbleit, Super verbleit; customer: passenger cars (PKW); sold mainly through filling stations, also through direct business.\n- Dieselkraftstoffe; customers: buses, lorries, tractors; sold through direct business and filling stations.\n- Leichtes Heizöl (light heating oil); customers at the wholesale level (medium-sized traders) and at the end-user level; distributed by refinery companies, wholesalers and importers.\n- Schweres Heizöl (heavy fuel oil), graded by sulfur content; customers: industry and power stations; distributed by the refinery companies directly and through import trade.\n- Rohbenzin (naphtha); customer: industry, as petrochemical feedstock; sold by the refinery companies.\n- Nebenprodukte (by-products): refinery gas, jet fuel, bitumen, LPG, petroleum coke, lubricants, special and test gasolines, waxes, paraffins, vaseline, lamp oils.\n\nUS half — share of total US petroleum consumption by major end-use sector in 2022: transportation 66.6 %, industrial 27.5 %, residential 2.8 %, commercial 2.5 %, electric power 0.6 %.\n\nThe structural conclusion: oil is a transport fuel and a petrochemical feedstock, and essentially nothing else. Two thirds of consumption is transport, almost all the rest is industrial and petrochemical, and electric power is a rounding error at 0.6 %. That is the decisive difference from natural gas and from coal, and it has three consequences the exam likes: the oil price is coupled to mobility rather than to the weather; decarbonising oil means electric vehicles and synthetic fuels, not a fuel switch in power plants; and the dominant distribution channel is the filling station, which is why the German table is organised by customer group and not by refinery.",
+  "keywords": [
+   "66.6 %",
+   "27.5 %",
+   "0.6 %",
+   "transportation",
+   "Ottokraftstoffe",
+   "Schweres Heizöl",
+   "feedstock"
+  ]
+ },
+ {
+  "id": "b05-051",
+  "slide": 290,
+  "type": "cloze",
+  "prompt": "In 2022 the largest share of total US petroleum consumption — ___ % — went to the transportation sector.",
+  "accept": [
+   "66.6",
+   "66.6 %",
+   "66,6",
+   "67",
+   "about 67"
+  ],
+  "solution": "66.6 %. The other sectors are industrial 27.5 %, residential 2.8 %, commercial 2.5 % and electric power only 0.6 %. Oil is a transport fuel and a petrochemical feedstock and has almost completely left the power sector, which is why an oil price shock is transmitted through mobility and freight costs rather than through the electricity price — the opposite of a gas price shock."
+ },
+ {
+  "id": "b05-052",
+  "slide": 293,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the simplified transport infrastructure of the slide and explain the asymmetry between the crude oil side and the oil products side.",
+  "solution": "Crude oil side (above the refinery). The crude leaves Production and reaches the Refinery mainly by Pipeline, drawn as the trunk running straight down the middle of the diagram. Two further routes feed into that trunk, each shown twice: by Ships (Cargoes) from Harbour to Harbour, and by Rail from Station to Station. All of them converge on one point, the refinery.\n\nOil products side (below the refinery). From the refinery the products fan out through three separate channels: via a Harbour to Barges, via a Station to Rail, and via a Station to Truck.\n\nThe asymmetry. Crude arrives in few, very large, continuous streams from a small number of sources, so the economical modes are those with the largest unit size and the lowest specific cost — pipeline and seagoing tanker. Products leave towards very many small, geographically dispersed customers, so the modes with the smallest unit size and the highest flexibility dominate the last stage — barge, rail and above all truck. The refinery is the funnel between the two: it converts a small number of large flows into a large number of small ones, and that is why the transport cost per barrel rises sharply downstream of it.\n\nOne more point the diagram makes implicitly: every change of mode needs a node — a harbour, a station, a tank farm. Those nodes are where storage sits, where quantity and quality are measured, and where ownership of the barrel usually changes. A transport chain is therefore also a chain of custody and of price formation, not only of movement.",
+  "keywords": [
+   "Pipeline",
+   "Harbour",
+   "Station",
+   "Refinery",
+   "Truck",
+   "Barges",
+   "asymmetry",
+   "node"
+  ]
+ },
+ {
+  "id": "b05-053",
+  "slide": 293,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "According to the simplified transport infrastructure diagram, which combination of modes carries the crude oil from production to the refinery?",
+  "options": [
+   "Pipeline only",
+   "Ships and barges only",
+   "Pipeline, ships (cargoes) via harbours, and rail via stations",
+   "Truck, rail and barge"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The crude section of the diagram shows three inbound routes converging on the refinery: the pipeline as the trunk from production, seagoing ships (cargoes) landing at a harbour, and rail arriving at a station. Truck and barge appear only below the refinery, on the oil products side together with rail, so option 1 describes the outbound half of the picture. Option 3 forgets the tanker, which carries almost all of the intercontinental crude on the trade map of slide 286. Option 4 forgets the pipeline, which is the mode with the highest capacity and the lowest specific cost and is the reason the refinery stands where it stands."
+ },
+ {
+  "id": "b05-054",
+  "slide": 294,
+  "type": "open",
+  "prompt": "Using the magnitudes given on the slide, calculate how many rail tank cars, trucks, barges and ship cargoes would be needed to move one day's throughput of a large pipeline, and say what the result means for the choice of mode.",
+  "solution": "Reference: pipeline up to 1,500,000 bbl/day.\n\nRail: 200 bbl per rail car\n1,500,000 / 200 = 7,500 rail cars per day.\nAt roughly 100 cars per unit train that is 75 trains a day, i.e. one train every 20 minutes, around the clock.\n\nTruck: up to 750 bbl per truck\n1,500,000 / 750 = 2,000 truck loads per day, i.e. one tanker leaving every 43 seconds.\n\nBarge: 10,000-30,000 bbl per barge\n1,500,000 / 30,000 = 50 barges per day at the upper end, 150 at the lower end.\n\nShip cargo: 800,000-1,000,000 bbl per ship\n1,500,000 / 1,000,000 = 1.5, and 1,500,000 / 800,000 = 1.9 cargoes per day — one large tanker every 12 to 16 hours.\n\nInterpretation. Only the pipeline and the seagoing tanker are in the same order of magnitude. Rail and truck are two to four orders of magnitude smaller per unit, so replacing a pipeline with them is not primarily a question of price but of physical feasibility: the train paths, terminals, loading racks and drivers simply do not exist in those numbers. That is why the pipeline is the base-load mode while rail and truck are the peaking and distribution modes, and why the loss of a single trunk pipeline cannot be compensated at short notice.\n\nA caveat on the slide's figures: taken literally, one truck (750 bbl) would hold almost four times as much as one rail tank car (200 bbl), which is the wrong way round — a standard crude rail tank car holds roughly 650-700 bbl and a road tanker roughly 200 bbl. Use the slide's numbers in the exam, but be aware that the two values look interchanged.",
+  "keywords": [
+   "1,500,000 bbl/day",
+   "7,500",
+   "2,000",
+   "order of magnitude",
+   "base-load",
+   "750 bbl"
+  ]
+ },
+ {
+  "id": "b05-055",
+  "slide": 294,
+  "type": "cloze",
+  "prompt": "The slide gives the magnitude of a large oil pipeline as up to ___ bbl/day.",
+  "accept": [
+   "1,500,000",
+   "1.500.000",
+   "1500000",
+   "1,5 million",
+   "1.5 million",
+   "1.5 Mio",
+   "1 500 000"
+  ],
+  "solution": "Up to 1,500,000 bbl/day. The other magnitudes on the slide are: cargo ship 800,000-1,000,000 bbl per ship, barge 10,000-30,000 bbl, truck up to 750 bbl and rail 200 bbl per rail car. Note the unit trap: the pipeline figure is a rate per day, while all the others are quantities per vehicle. To compare them you have to know how often each vehicle can complete a round trip — which is exactly where the return costs and the journey times of the following slides come in."
+ },
+ {
+  "id": "b05-056",
+  "slide": 295,
+  "type": "open",
+  "prompt": "The slide lists the advantages of each mode. Give the advantages of ship transport and of railway transport and explain in each case what the underlying economic property is. Why is rail the mode that appears whenever an oil flow changes suddenly?",
+  "solution": "Ship transport — the slide names low costs, local flexibility, high capacities and flexible capacities through different ship sizes.\nThe underlying property is that the waterway is free: the transporter invests only in the vessel, not in the route. The capacity of a hull grows faster than its cost and its resistance, so the specific cost per barrel-kilometre falls with size, which is why tankers became so large. \"Local flexibility\" means that the destination is not fixed by an asset — a cargo at sea can be re-routed to whichever market pays most, and that is precisely what makes oil a single global commodity. And because ships exist as a whole size ladder (the AFRA classes of slide 305, from General Purpose to ULCC), the vessel can be matched to the trade instead of the trade to the vessel.\n\nRailway — the slide names existing infrastructure allowing short-term establishment, short delivery times, short-term adaptation to economic conditions, and (lower) capital requirements.\nThe underlying property is that the network already exists and is shared with other traffic, so the marginal user does not have to build it. Setting up a crude-by-rail flow needs only loading and unloading racks plus rolling stock — months, not years — and it can be stopped again as soon as the price signal disappears, without a stranded asset.\n\nThat is exactly why rail appears whenever a flow changes suddenly: it is the only land mode with a short lead time and low sunk cost, so it is the option that bridges the construction time of a pipeline. The US shale boom after 2010 is the textbook case — production in North Dakota grew faster than pipelines could be permitted and built, so the incremental barrels went by rail for several years, and the rail volumes fell away again once the pipelines were in service. The higher unit cost of rail is the premium paid for that option.",
+  "keywords": [
+   "local flexibility",
+   "different ship sizes",
+   "existing infrastructure",
+   "short-term",
+   "capital requirements",
+   "shale",
+   "sunk cost"
+  ]
+ },
+ {
+  "id": "b05-057",
+  "slide": 295,
+  "type": "mc",
+  "prompt": "Which set of advantages does the slide attribute to pipeline transport?",
+  "options": [
+   "Safety, energy efficiency, high capacity and low (unit) costs",
+   "Existing infrastructure allowing short-term establishment",
+   "Local flexibility and flexible capacities through different vehicle sizes",
+   "Flexibility and the use of public infrastructure"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The slide's list for the pipeline is exactly safety, energy efficiency, high capacity and low (unit) costs — the properties of a dedicated, continuously operated, fixed link. Option 1 belongs to ship transport, whose destination is not fixed by an asset and which exists in a ladder of vessel sizes. Option 2 belongs to railway, which can be established in months because the network is already there. Option 4 belongs to the truck, whose two listed advantages are flexibility and public infrastructure. Note that low unit costs and low investment are not the same thing: the pipeline has the lowest cost per barrel and at the same time the highest capital requirement of all four modes."
+ },
+ {
+  "id": "b05-058",
+  "slide": 296,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the four panels of the comparison slide and give the figures for safety, cost, environmental impact and duration. Which mode wins each panel, and which apparent contradiction does the last panel contain?",
+  "solution": "Safety comparison — fatalities per year (on average): truck 10.2, rail 2.4, pipeline 1.7. The pipeline is the safest, the truck by far the most dangerous, essentially because it shares the road with the public.\n\nHow much does it cost — cost per barrel: truck about $20, rail $10-$15, pipeline about $5. The pipeline is the cheapest by a factor of four against the truck.\n\nEnvironmental impact — barrels spilled per million tons moved every mile: truck 326, pipeline 269, rail 83. Here rail wins and the pipeline comes second. This is the panel students misremember: the pipeline is the best on fatalities but not on spill volume, because a pipeline leak is rare but large, whereas a rail spill is more frequent but small.\n\nHow long does it take — Bakken field in North Dakota to the Gulf Coast: pipeline 40 days, rail 5-7 days.\n\nThe apparent contradiction sits in the last panel: the mode that is cheapest and safest is by far the slowest. Oil creeps through a trunk line at a few kilometres per hour, so a transcontinental pipeline takes weeks while a unit train takes under a week. That matters commercially in two ways. The oil inside the line is working capital that is tied up and price-exposed for 40 days — the line fill is a real, financed inventory. And a trader who wants to react to a price move needs rail, not pipeline. So the ranking depends entirely on the criterion: pipeline for cost and safety, rail for speed and for spill volume, truck only for the last mile.\n\nThe slide's own caveat is worth repeating: these are \"Grobe Anhaltswerte\", rough reference values from a single US study, not numbers to be transferred to Europe without care.",
+  "keywords": [
+   "10.2",
+   "1.7",
+   "$5",
+   "326",
+   "40 days",
+   "5-7 days",
+   "Grobe Anhaltswerte",
+   "line fill"
+  ]
+ },
+ {
+  "id": "b05-059",
+  "slide": 296,
+  "type": "cloze",
+  "prompt": "According to the comparison slide the cost of moving one barrel of oil is about $20 by truck, $10-$15 by rail and about ___ by pipeline.",
+  "accept": [
+   "$5",
+   "5",
+   "5 $",
+   "5 US$",
+   "$5 per barrel",
+   "5 dollars",
+   "5 USD"
+  ],
+  "solution": "$5 per barrel — roughly a quarter of the truck cost and a third to a half of the rail cost. The same ranking appears in the safety panel (1.7 fatalities per year for the pipeline against 2.4 for rail and 10.2 for the truck), but not in the spill panel, where rail is best with 83 barrels per million ton-miles against 269 for the pipeline and 326 for the truck, and not in the duration panel, where the pipeline needs 40 days against 5-7 days by rail. The slide labels all of these \"Grobe Anhaltswerte\", rough reference values."
+ },
+ {
+  "id": "b05-060",
+  "slide": 297,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the comparison table of road, rail, river and pipeline. Go through the criteria and then explain the two rows that are most often misunderstood: \"investment\" and \"return costs\".",
+  "solution": "The table compares four modes across eight criteria.\n\nInvestment — road: low by unit, high overall; rail: moderate by unit, high overall; river: high by unit if sound cost-effectiveness is required (push boat); pipeline: very high and made over a short period.\nInfrastructure costs — road: none (borne by the public); rail: mainly borne by the State; river: toll duties; pipeline: high, and borne entirely by the company.\nPersonnel costs — road: very high; rail: fairly high; river: high for self-propelled barges, low for push boats; pipeline: low (personnel high in skills but low in numbers).\nMaintenance costs — road: very high; rail and river: high except when volumes justify collective installations and automation; pipeline: very low.\nReturn costs — road: empty return; rail: empty return; river: return in ballast; pipeline: nil.\nLength of route — road: outward practically everywhere, but natural obstacles impose significant detours; rail: fairly dense, limited by natural obstacles; river: the most circuitous route, where it exists at all; pipeline: the most direct.\nClimatic conditions during transit — road: very sensitive; rail: not very sensitive; river: sensitive; pipeline: not affected.\nFlexibility of use — road: very high; rail: very limited; river: very limited; pipeline: nil.\n\nInvestment. \"Low by unit, high overall\" for the road is not a contradiction. One truck is cheap, but thousands of them are needed for the same throughput, so the total capital tied up is large. The pipeline is the opposite: a single asset, very expensive, and — this is the important half of the sentence — the money has to be spent over a short period, before one single barrel flows. That is the classic lumpy, irreversible, sunk investment of a network industry, and it is why a pipeline is only built against long-term capacity contracts.\n\nReturn costs. Every vehicle-based mode has to bring the empty vehicle back; the return trip earns nothing but costs fuel, time and personnel, and the barge does it \"in ballast\", i.e. carrying water for stability. The pipeline has no return cost at all, because nothing travels back. This is a genuine and often forgotten cost advantage — the counterpart of its \"nil\" flexibility of use: the pipe does one thing, in one direction, for its whole life.",
+  "keywords": [
+   "Investment",
+   "Return costs",
+   "empty return",
+   "in ballast",
+   "nil",
+   "most direct",
+   "sunk"
+  ]
+ },
+ {
+  "id": "b05-061",
+  "slide": 297,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the comparison table of transportation means, which pair of entries belongs to the pipeline column?",
+  "options": [
+   "Return costs: return in ballast; climatic conditions: sensitive",
+   "Length of route: the most direct; flexibility of use: nil",
+   "Infrastructure costs: mainly borne by State; flexibility of use: very limited",
+   "Investment: low by unit, high overall; personnel costs: very high"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The pipeline column reads \"The most direct\" for the length of route and \"Nil\" for the flexibility of use — two sides of the same property: the line runs exactly where it was built and nowhere else. Option 1 is the rail column, where the State carries the infrastructure. Option 2 is the river column: a barge returns in ballast, while road and rail have an empty return and the pipeline has no return cost at all. Option 4 is the road column. The pipeline's own entries elsewhere in the table are very high investment made over a short period, infrastructure costs borne entirely by the company, low personnel costs, very low maintenance and no sensitivity to climatic conditions during transit."
+ },
+ {
+  "id": "b05-062",
+  "slide": 298,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows US crude oil refinery receipts by mode from 1981 to 2016 in thousand barrels. Describe the shares and the one visible structural change, and explain what caused it.",
+  "solution": "Pipeline dominates the whole period by a wide margin: it is the largest band on the chart throughout and accounts for the great majority of all refinery receipts. Tanker is the second mode, barge a clear third, while rail (tank cars) and truck are almost invisible for most of the thirty-five years.\n\nThe one structural change is the appearance of a rail band from about 2010, growing from essentially nothing to a visible share by 2014 and falling back afterwards.\n\nThe cause is the tight-oil (shale) boom, above all in the Bakken of North Dakota. Production grew far faster than pipelines could be permitted and built — a pipeline needs years of right-of-way acquisition and approval, a rail loading rack needs months — so the incremental barrels moved by rail to the coastal refineries, which were also willing to pay a premium because they were configured for imported light crude. As soon as the new pipeline capacity came into service, and after the 2014 price fall removed the incentive, the rail volumes collapsed again.\n\nThe same period explains the tanker band shrinking: US crude imports fell as domestic production rose.\n\nThe general lesson is that the mode split is not a preference but the outcome of a capacity race. Rail is the swing mode that fills the gap during the construction time of a pipeline, at a higher unit cost — roughly $10-$15 per barrel against $5 by pipeline on slide 296 — and that difference is exactly the premium the market was prepared to pay while the bottleneck lasted.",
+  "keywords": [
+   "Pipeline",
+   "rail",
+   "Bakken",
+   "shale",
+   "swing mode",
+   "$5"
+  ]
+ },
+ {
+  "id": "b05-063",
+  "slide": 301,
+  "type": "cloze",
+  "prompt": "The Keystone pipeline has a capacity of 590,000 bbl/day in Phases I and II, rising to ___ bbl/day with Phase III.",
+  "accept": [
+   "700,000",
+   "700.000",
+   "700000",
+   "700 000",
+   "0.7 million"
+  ],
+  "solution": "700,000 bbl/day. Keystone carries Canadian oil-sands crude from Alberta to the US Midwest and, with Phase III (the Gulf Coast extension), on to the Gulf Coast refineries, which are configured for heavy sour crude and therefore pay the best price for it. For scale: even the expanded 700,000 bbl/day is less than half of the 1,500,000 bbl/day that slide 294 gives as the upper magnitude of a pipeline, and replacing it by rail would require 3,500 tank cars a day at the slide's 200 bbl per car."
+ },
+ {
+  "id": "b05-064",
+  "slide": 304,
+  "type": "open",
+  "prompt": "The Shipping slide notes that a VLCC is \"often used as storage at a single location\". Explain when and why a tanker is used as a floating store instead of sailing, and how this connects to the negative oil price of slide 282.",
+  "solution": "A tanker is a tank that happens to float. Whenever the market is in contango — the forward price for a later delivery exceeds the spot price by more than the cost of carrying the barrel — it pays to buy oil now, store it and sell it forward. That is exactly the storage arbitrage condition of the gas chapter, p_supply + p_storage < p_sales, applied to oil: the spread has to beat the storage cost, and here the storage cost is the charter rate plus financing and insurance.\n\nWhen the onshore tank farms are full or their fees rise, the marginal storage unit is a chartered VLCC lying at anchor. It needs no permit and no construction time, it can be hired for a few months and released again, and its capacity — 160,000 to 320,000 deadweight tonnes, of the order of two million barrels — is available immediately. Floating storage is therefore the top of the storage merit order: the most expensive unit, called only when everything cheaper is full.\n\nThe link to slide 282: in spring 2020 precisely this happened. Demand collapsed, onshore storage at Cushing filled, the forward curve went into deep contango and floating storage rose to record levels. Whoever could get neither a tank nor a ship had to pay someone else to take his physical barrel, which is why the expiring WTI contract settled below zero on 20 April 2020. The negative price was the price of storage scarcity, and the VLCC was the last available answer to it.\n\nThe side effect is that the same fleet is then not available for transport, so freight rates spike at the same moment: storage demand and transport demand compete for one asset.",
+  "keywords": [
+   "VLCC",
+   "contango",
+   "floating storage",
+   "Cushing",
+   "freight rates",
+   "storage scarcity"
+  ]
+ },
+ {
+  "id": "b05-065",
+  "slide": 305,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The AFRA scale on the slide classifies tankers by deadweight. Name the classes with their size ranges and state which cargo each group carries. Why does the size ladder correlate with the cargo type?",
+  "solution": "The Average Freight Rate Assessment (AFRA) scale, in thousand deadweight metric tons (DWT):\n- Refined products: GP (General Purpose) 10-25 DWT and MR (Medium Range) 25-45 DWT.\n- Refined products or crude oil: LR1 (Long Range 1) 45-80 DWT, AFRA (AFRAMAX) 80-120 DWT and LR2 (Long Range 2) 80-160 DWT.\n- Crude oil only: VLCC (Very Large Crude Carrier) 160-320 DWT and ULCC (Ultra Large Crude Carrier) 320-550 DWT.\n\nWhy the ladder correlates with the cargo: it is the same asymmetry as on slide 293. Crude moves in few very large intercontinental parcels from a handful of export regions, so the largest hulls with the lowest cost per tonne-mile are the right tool, and the buyer — a refinery — can absorb a parcel of two million barrels. Refined products move in many small parcels to many terminals, they come in several grades that must not be contaminated by each other, and the receiving ports are smaller and shallower. A product tanker therefore has to be small and to have segregated, coated tanks, while a crude carrier can be large and simple.\n\nThe binding limits at the top of the ladder are physical, not economic: draught and channel width. A VLCC cannot enter most product ports, and a fully laden ULCC cannot transit the Suez Canal, which is why the very largest ships serve only a few deepwater terminals and offshore loading buoys — and why the freight rate for the largest classes is set by a small number of routes.",
+  "keywords": [
+   "AFRA",
+   "MR",
+   "AFRAMAX",
+   "VLCC",
+   "ULCC",
+   "deadweight",
+   "segregated",
+   "draught"
+  ]
+ }
+]

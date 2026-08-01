@@ -1,0 +1,1003 @@
+[
+ {
+  "id": "b08-001",
+  "slide": 471,
+  "type": "open",
+  "graphic": true,
+  "prompt": "In August 2013 Platts reported that five new hard coal plants with a combined capacity of around 4 GW had their 'first fire' in Germany (Hamm D 800 MW, RDK 8 912 MW, Moorburg 840 MW, Walsum 10 725 MW, Wilhelmshaven 800 MW). The slide asks: what was the rationale (if any) behind these investment decisions? Answer it.",
+  "solution": "The plants were not decided in 2013 but around 2007/2008. A coal plant has a lead time of five to seven years between the investment decision and commissioning, so the rationale has to be judged against the expectations of 2007/2008: high and rising fuel and electricity prices, a moderate CO2 price, a comfortable clean dark spread for hard coal, and the base load gap expected from the nuclear phase-out. Under those assumptions a modern hard coal plant with high efficiency looked like the cheapest way to fill mid and base load.\n\nBy the time the roughly 4 GW came online the drivers had moved: the massive RES expansion pushed the residual load down, the merit order effect of wind and PV cut wholesale prices and full load hours, and demand stagnated after the economic crisis. The collapsed CO2 price helped coal but could not compensate the loss of running hours, so the clean dark spread and the achievable full load hours were far below the business case. Several of these units were written down or mothballed within a few years.\n\nThe lesson the lecture draws is exactly the motivation for this chapter: with lead times and lifetimes of decades, a single deterministic forecast is worthless as a basis for an investment decision. The rationale was not irrational, it was a point forecast; what was missing is scenario planning, i.e. testing the investment against a bandwidth of consistent futures instead of one expected development.",
+  "keywords": [
+   "lead time",
+   "clean dark spread",
+   "4 GW",
+   "RES expansion",
+   "merit order effect",
+   "full load hours",
+   "scenario planning"
+  ]
+ },
+ {
+  "id": "b08-002",
+  "slide": 472,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure 'Selected planning tasks of utilities' lists two groups of uncertainties on its left-hand side. Assign the individual uncertainties to the planning horizon they dominate and explain why the uncertainty of a utility grows with the planning horizon.",
+  "solution": "Short-term horizon (online to < 1 a): weather (forecast), RES forecast, load forecast, PP outages. These are forecast errors around a known structure - the plant park, the grid and the customer base are given, only the realisation of the next hours or days is unknown.\n\nLong-term horizon (1-5 a and > 5 a): fuel and CO2 price developments, load development, RES expansion, political uncertainties, market price risks, economic situation, and 'meteorological years' (strong versus weak wind years). These are structural uncertainties: they change the system itself, not just its operating point.\n\nWhy uncertainty grows: a short-term forecast error is bounded, is resolved within hours and can be corrected by re-dispatch, intraday trading or balancing energy; it can also be hedged on liquid markets. A long-term uncertainty has no reliable probability distribution, cannot be hedged (there is no futures contract on climate policy in 2040) and its errors compound over the years. The right-hand side of the figure captures this with a wedge running from deterministic at the bottom to increasing uncertainty at the top: the physical world of unit commitment is treated as deterministic, whereas investment and decommissioning decisions sit in the widest part of the wedge.",
+  "keywords": [
+   "PP outages",
+   "load forecast",
+   "political uncertainties",
+   "increasing uncertainty",
+   "deterministic",
+   "forecast errors",
+   "hedged"
+  ]
+ },
+ {
+  "id": "b08-003",
+  "slide": 473,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Slide 473 adds to the planning-task figure the analytical method that fits each planning horizon. Which assignment is the one the lecture makes?",
+  "options": [
+   "Short-term: stochastic approaches; mid-term: scenario planning; long-term: deterministic optimisation",
+   "Short-term (< 1 a): deterministic optimisation; mid-term (1-5 a): stochastic approaches; long-term (> 5 a): scenario planning",
+   "All three horizons are treated with stochastic approaches; only the number of scenarios changes",
+   "Day-ahead unit commitment: scenario planning; mid-term: deterministic optimisation; investment decisions: stochastic approaches"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The method has to match the quality of the available information. For the short term the inputs are known or well forecast, so a deterministic optimisation (e.g. cost-minimal unit commitment) is adequate. In the mid term prices, outages and hydrology are random but their distributions can be estimated from history, so stochastic approaches (stochastic optimisation, risk measures for hedging and portfolio optimisation) are used. For the long term there is no distribution to estimate - fuel and CO2 prices, policy and RES expansion 20 years out are genuinely uncertain - so the lecture uses scenario planning: a small number of internally consistent, qualitatively distinct futures, each evaluated deterministically with an energy systems model."
+ },
+ {
+  "id": "b08-004",
+  "slide": 474,
+  "type": "open",
+  "prompt": "One learning objective of this section is that you can explain, for a given power plant technology, which drivers are most important for its economic profitability and describe the respective causal chain. Do this for a CCGT plant.",
+  "solution": "The decisive indicator for a CCGT is the clean spark spread: electricity price minus gas cost divided by the electrical efficiency minus the CO2 cost. Everything relevant for the plant works through that one number.\n\nCausal chains: (1) Gas price up - variable generation cost up - the CCGT moves to the right in the merit order - fewer full load hours and a thinner margin in the hours it still runs. (2) CO2 price up - all fossil units become more expensive, but coal roughly twice as much per MWh_el as gas because of its higher emission factor and lower efficiency - the fuel switch moves gas ahead of hard coal, so the clean spark spread widens; a rising CO2 price is one of the few drivers that helps a CCGT. (3) RES expansion up - residual load falls - the merit order is cut from the top, the CCGT is displaced first because it sits in the mid-merit range - full load hours collapse. (4) Electricity demand up - residual load up - more running hours. (5) The USD/EUR rate acts indirectly through the coal price and oil-indexed gas contracts.\n\nThe counterpart for a hard coal plant is the clean dark spread, for nuclear, run-of-river and RES the absolute electricity price level, and for a pumped storage plant the price volatility rather than the price level.",
+  "keywords": [
+   "clean spark spread",
+   "fuel switch",
+   "residual load",
+   "full load hours",
+   "merit order",
+   "clean dark spread"
+  ]
+ },
+ {
+  "id": "b08-005",
+  "slide": 476,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch and explain the figure on the right of the slide (the shape between 'Today' and 'Future (e.g. 2050)') and describe how energy systems analysis (ESA) and scenario planning are combined.",
+  "solution": "The figure is a cone that opens from a single point at 'Today' to a wide circular opening at 'Future (e.g. 2050)'. Inside it run several straight paths that end on the rim: the cone is the space of possible developments, which widens with the time horizon, and each path is one scenario, i.e. one internally consistent way from today to a possible future.\n\nESA enables the techno-economic evaluation of long-term strategies or investment options and offers decision support, but a model needs one complete, consistent set of input parameters per run. Scenario planning delivers exactly that: it fixes a small number of qualitatively different but internally consistent parameter sets. The two are combined by running the energy systems model once per scenario, which turns a single point result into a bandwidth of results.\n\nThe crucial and difficult step, as the slide stresses, is the combination of input parameters and their assignment to scenarios: it requires the understanding of energy economic cause effect relations. A scenario is not a random draw of parameters - a high CO2 price, high renewable expansion and a low electricity demand belong together, whereas combining strict climate policy with cheap coal and stagnating RES would be inconsistent. The cone is not a forecast: none of the paths is 'the' expected future, they span the range against which a decision has to be robust.",
+  "keywords": [
+   "cone",
+   "2050",
+   "bandwidth",
+   "decision support",
+   "cause effect relations",
+   "consistent"
+  ]
+ },
+ {
+  "id": "b08-006",
+  "slide": 477,
+  "type": "mc",
+  "prompt": "Ceteris paribus, what is the impact of a CO2 price increase on the profitability of pumped storage power plants?",
+  "options": [
+   "Lower profitability, because the merit order becomes rather flat and the price volatility falls",
+   "Lower profitability, because the storage has to buy CO2 certificates for the electricity it consumes while pumping",
+   "Higher profitability, because a higher CO2 price lifts the whole price level and the storage sells at higher prices",
+   "Equal profitability, because a pumped storage plant emits no CO2 and is therefore not affected by the certificate price"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Answer B. A pumped storage plant does not earn on the price level but on the price spread between the cheap pumping hours and the expensive turbining hours. The CO2 cost per MWh_el equals the emission factor divided by the efficiency times the CO2 price, so it hits the cheap, high-emitting units (lignite, hard coal) far harder than the expensive gas units at the top of the merit order. The steps of the merit order therefore move together, the merit order becomes rather flat, and the resulting price volatility is low - the storage loses its margin.\n\nA is wrong because the level, not the spread, rises. C is wrong: the storage is affected indirectly through the price structure it trades on. D is wrong: the pumped electricity is bought at a market price that already contains the CO2 cost of the marginal unit, the storage does not surrender certificates itself."
+ },
+ {
+  "id": "b08-007",
+  "slide": 477,
+  "type": "open",
+  "prompt": "Explain the full causal chain from a CO2 price increase to the revenue of a pumped storage plant, using the two merit orders of the lecture. Why is the intuitive answer 'higher CO2 price means higher electricity prices means higher storage profit' wrong?",
+  "solution": "A pumped storage plant buys electricity in the low-price hours to pump and sells it in the high-price hours; with a cycle efficiency of about 75-80 % it needs a spread of roughly 1/eta times the purchase price to break even. Its revenue is driven by the price volatility, i.e. the structure of the price profile, not by the absolute level.\n\nThe CO2 cost of a plant is emission factor divided by electrical efficiency times the CO2 price. Lignite has both the highest emission factor and a low efficiency, hard coal is in between, a CCGT has roughly half the emission factor and the best efficiency - so a uniform CO2 price raises the variable cost of lignite by far the most and of gas the least. The steps of the merit order converge. In the lecture's two scenarios the merit order moves from roughly 29 EUR/MWh (lignite), 41 (hard coal), 60 (CCGT) to roughly 63, 69 and 71 EUR/MWh: the spread across the mid-merit range collapses from about 30 EUR/MWh to about 8 EUR/MWh.\n\nSince the market price in each hour is set by the marginal unit, a flat merit order means that the price hardly changes when the residual load changes - low price volatility, small spread, low storage revenue. The intuitive answer confuses level and spread: prices do rise on average, but the pumping price rises just as much as the turbining price, so the margin of the storage shrinks. Only the extreme peak, set by an OCGT, keeps some distance, which is why storage revenue does not fall to zero but becomes concentrated in very few hours.",
+  "keywords": [
+   "emission factor",
+   "efficiency",
+   "flat",
+   "price volatility",
+   "spread",
+   "marginal unit"
+  ]
+ },
+ {
+  "id": "b08-008",
+  "slide": 478,
+  "type": "open",
+  "graphic": true,
+  "prompt": "For each of the following technologies name the aggregated driver that determines its attractiveness for an investor and explain the indicator: (a) nuclear, run-of-river and RES, (b) hard coal, (c) CCGT, (d) pumped storage. What influences these drivers?",
+  "solution": "(a) Nuclear, run-of-river and RES: the absolute electricity price level on the wholesale market. They have (almost) no fuel and no CO2 cost, run whenever they are available and are practically never the marginal unit, so their contribution margin is simply the price they receive.\n\n(b) Hard coal: the clean dark spread, i.e. electricity price minus coal cost divided by the electrical efficiency minus the CO2 certificate cost. Only the distance between the price and its own variable cost matters, not the price level.\n\n(c) CCGT: the clean spark spread, the same construction with the gas price and the gas emission factor.\n\n(d) Pumped storage: the price volatility, i.e. the structure of the price profile. It buys and sells the same energy, so only the difference between the high and the low price of the day counts.\n\nThese drivers are themselves influenced by two things: the shape and level of the merit order, which follows from the fuel and CO2 price developments, and the volatility of the residual load, which follows from the RES expansion against the counter-effect of 'smart technologies' (load shifting, demand response, storage). A steep merit order combined with a wide bandwidth of residual load produces high volatility and helps storage; a flat merit order and a narrow residual load bandwidth kill it.",
+  "keywords": [
+   "absolute electricity price level",
+   "clean dark spread",
+   "clean spark spread",
+   "price volatility",
+   "merit order",
+   "residual load"
+  ]
+ },
+ {
+  "id": "b08-009",
+  "slide": 478,
+  "type": "cloze",
+  "prompt": "The indicator that decides whether an investment in a hard coal plant is attractive is the ___; the analogous indicator for a CCGT is the clean spark spread.",
+  "accept": [
+   "clean dark spread",
+   "clean dark-spread",
+   "dark spread",
+   "cleandark spread",
+   "clean-dark-spread"
+  ],
+  "solution": "Clean dark spread = electricity price - (coal price / electrical efficiency) - (emission factor / efficiency) x CO2 price. 'Dark' stands for coal, 'spark' for gas, and 'clean' means that the CO2 certificate cost is already deducted; the raw dark spread without CO2 is called the dark spread. It is the contribution margin per MWh_el, so it decides both whether the plant runs at all and how much it earns when it runs."
+ },
+ {
+  "id": "b08-010",
+  "slide": 479,
+  "type": "open",
+  "prompt": "Name the key uncertainties for the development of the wholesale power market that the lecture lists, and explain in detail why the USD/EUR exchange rate is among them.",
+  "solution": "The lecture lists seven: the hard coal price, the natural gas and oil price, the CO2 price and the political environment, the renewable expansion and policy, the electricity demand, the load shifting potential, and the currency exchange rate USD/EUR.\n\nThe exchange rate belongs on the list because internationally traded steam coal is quoted in USD/t (API 2 for north-west Europe) and oil in USD/bbl, while long-term gas contracts were oil-price indexed and gas is still partly linked to dollar-denominated LNG. A German generator, however, sells its electricity in EUR/MWh and pays its CO2 certificates in EUR. If the euro weakens, the euro cost of imported coal rises without any movement of the coal price itself: the coal plant moves up in the merit order, its clean dark spread narrows, and the fuel switch point towards gas shifts. A parameter that looks purely financial therefore changes the physical dispatch and the profitability ranking of technologies - which is exactly why the lecture treats it as an energy-economic uncertainty and includes it as one axis of the scenario spider diagram.",
+  "keywords": [
+   "load shifting potential",
+   "currency exchange",
+   "USD/t",
+   "clean dark spread",
+   "merit order",
+   "renewable expansion"
+  ]
+ },
+ {
+  "id": "b08-011",
+  "slide": 480,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows two spider diagrams (a 0-2 scale for the seven uncertain parameters) and the merit order that each of them produces. Describe both scenarios and read the resulting merit orders off the charts.",
+  "solution": "Scenario 1 (left spider diagram): high natural gas and oil prices, high electricity demand, a high USD/EUR rate, a medium hard coal price and a medium CO2 price, but low renewable expansion and almost no load shifting potential. The resulting merit order is steep: nuclear at about 10 EUR/MWh, lignite about 29, hard coal about 41, CCGT about 60 and OCGT about 92 EUR/MWh. Because the RES expansion is small, the bandwidth of residual load drawn above the curve is wide, so the system runs over the whole steep range and prices swing strongly.\n\nScenario 2 (right spider diagram): high CO2 price and ambitious political environment, high renewable expansion, high load shifting potential, but low gas price and low electricity demand. The merit order becomes flat in the middle: nuclear about 10, lignite about 63, hard coal about 69, CCGT about 71 and OCGT about 110 EUR/MWh. The three fossil mid-merit technologies are within roughly 8 EUR/MWh of each other, and the bandwidth of residual load is narrow because RES and load shifting smooth it.\n\nThe message: the same seven parameters, combined in two consistent ways, produce two completely different price structures - a steep merit order with a wide residual load band (volatile prices, good for storage) and a flat merit order with a narrow band (stable prices, bad for storage, high absolute level).",
+  "keywords": [
+   "spider diagram",
+   "steep",
+   "flat",
+   "bandwidth of residual load",
+   "OCGT",
+   "load shifting potential"
+  ]
+ },
+ {
+  "id": "b08-012",
+  "slide": 481,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Slide 481 evaluates the short- and medium-term effects of the two scenarios on the existing plant park. Which combination does the lecture give for the scenario with a low clean dark spread, a flat merit order, a small bandwidth of residual load and a high absolute price level?",
+  "options": [
+   "Attractive for hard coal because the high absolute price level lifts the clean dark spread, unattractive for pumped storage",
+   "Attractive for pumped storage and for hard coal plants, unattractive for nuclear and RES",
+   "Rather unattractive for hard coal plants and for pumped storage, possibly attractive for nuclear and RES, rather unattractive for CCGTs",
+   "Attractive for CCGTs because the clean spark spread is high, unattractive for everything else"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The low clean dark spread makes hard coal plants rather unattractive; the small bandwidth of residual load together with the flat merit order removes the price volatility and makes pumped storage rather unattractive; the high absolute price level is possibly attractive for nuclear and RES, which earn on the level; and the clean spark spread stays low, so CCGTs remain rather unattractive as well. Note that CCGTs come out unattractive in both scenarios of the slide - in the other scenario it is the moderate-to-high clean dark spread and the steep merit order with a large residual load bandwidth that make hard coal and pumped storage possibly attractive. Option 3 confuses level and spread: a high price level does not widen the dark spread if the fuel and CO2 costs are what pushed the price up."
+ },
+ {
+  "id": "b08-013",
+  "slide": 482,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 482 shows the long-term effect of the two scenarios in a 'greenfield approach': the capacity mix that would be built if the whole park were planned from scratch. Read the two pie charts and explain the difference.",
+  "solution": "Scenario 1 (medium CO2 price, expensive gas, high demand, little RES): 67.9 % hard coal, 26.7 % OCGT and only 5.5 % CCGT, and no lignite at all. Hard coal covers base and mid load, the cheap-to-build OCGT covers the peak.\n\nScenario 2 (high CO2 price, cheap gas, much RES, load shifting): 86.6 % CCGT and 13.4 % OCGT - coal disappears completely from the new-build mix.\n\nThe mechanism is the screening-curve logic of capacity expansion: a technology is chosen for a range of full load hours in which its total specific cost - annualised investment plus variable cost times the hours - is the lowest. A high CO2 price plus a low gas price raises the variable cost of coal above that of gas over the whole relevant range, so the capital-intensive coal plant is never economic, no matter how many hours it runs. In addition the residual load in Scenario 2 is flatter and more volatile in shape, which favours flexible, low-capex plants. The greenfield view is the long-term counterpart to slide 481: in the short and medium term the existing park is given and only the dispatch and the margins react, in the long run the park itself changes - which is why the same parameter set that merely squeezes the margin of an existing coal plant eliminates coal from the new-build mix entirely.",
+  "keywords": [
+   "67.9 %",
+   "26.7 %",
+   "5.5 %",
+   "86.6 %",
+   "13.4 %",
+   "greenfield",
+   "full load hours"
+  ]
+ },
+ {
+  "id": "b08-014",
+  "slide": 489,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the taxonomy of investment appraisal methods from the slide (the red circle marks the group treated in this lecture) and state the criterion that separates the two branches.",
+  "solution": "The tree starts at 'Investment Appraisal Methods' and splits into Static and Dynamic.\n\nStatic branch: single-period methods - Profit Comparison Method, Cost Comparison Method, Average Return Method - and multi-period methods, of which the slide names the Simple Payback Method.\n\nDynamic branch (the red circle, i.e. the subject of this chapter): Net Present Value (NPV) Method, Annuity Method, Internal Rate of Return Method and Discounted Payback Period.\n\nThe separating criterion is the treatment of time. Static methods compare one representative period or an average and simply add up amounts from different years; they ignore the time value of money. Dynamic methods discount every cash flow to a common reference date with (1+i)^t, so the timing of a payment changes its weight: an amount received in year 20 counts far less than the same amount received in year 1. The price of this is that dynamic methods need a complete cash flow profile over the whole lifetime and an interest rate, whereas a static method needs one typical year.",
+  "keywords": [
+   "Cost Comparison Method",
+   "Simple Payback Method",
+   "Annuity Method",
+   "Internal Rate of Return",
+   "time value of money",
+   "discount"
+  ]
+ },
+ {
+  "id": "b08-015",
+  "slide": 489,
+  "type": "mc",
+  "prompt": "Which of the following is a static, not a dynamic, method of investment appraisal?",
+  "options": [
+   "The simple payback method",
+   "The annuity method",
+   "The internal rate of return method",
+   "The discounted payback period"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The simple payback method is the multi-period static method: it counts how many years of undiscounted cash flow are needed to recover the investment. Its dynamic counterpart, the discounted payback period, does the same with discounted cash flows and is therefore always longer. The four dynamic methods of the lecture are NPV, annuity, internal rate of return and discounted payback period."
+ },
+ {
+  "id": "b08-016",
+  "slide": 490,
+  "type": "open",
+  "prompt": "100 EUR in a savings account at an interest rate of 1 % become 101 EUR after one year. Use this example to explain the concept of the time value of money and name the two justifications the lecture gives for it.",
+  "solution": "After one year the account holds the original money (100 EUR) plus the interest (1 EUR) = 101 EUR. Today's money can be invested and starts earning a return immediately, therefore today's money is worth more than the same nominal amount received tomorrow. This is the time value of money.\n\nThe lecture gives two justifications: first, the opportunity cost from not having the money today - whoever pays out later denies you the return you could have earned in the meantime, and there is also a pure preference for the present (myopia). Second, the marginal increase in future utility due to investment today - money invested now raises the consumption possibilities of all later periods.\n\nThe practical consequence is the whole point of the chapter: cash flows of different periods must not be added up before they have been made comparable. Either you compound everything forward or you discount everything back to one common reference date. Compounding and discounting are the basis of all dynamic methods.",
+  "keywords": [
+   "101",
+   "opportunity cost",
+   "myopia",
+   "future utility",
+   "common reference date",
+   "compounding"
+  ]
+ },
+ {
+  "id": "b08-017",
+  "slide": 492,
+  "type": "cloze",
+  "prompt": "To move a capital forward in time you compound with Ct = C0 x (1+i)^t; to move a future amount back to today you discount with C0 = Ct / ___.",
+  "accept": [
+   "(1+i)^t",
+   "(1+i)t",
+   "(1 + i)^t",
+   "1+i hoch t",
+   "(1+i)**t",
+   "(1+i) hoch t"
+  ],
+  "solution": "C0 = Ct / (1+i)^t. Compounding and discounting are the same operation in opposite directions: the factor (1+i)^t is the compounding factor, its reciprocal 1/(1+i)^t is the discount factor. Example: 121 EUR received in two years at i = 10 % are worth 121 / 1.1^2 = 121 / 1.21 = 100 EUR today; conversely 100 EUR invested today at 10 % grow to 121 EUR in two years. Note that t is the number of periods between the amount and the reference date, so the reference date has to be fixed before anything is discounted."
+ },
+ {
+  "id": "b08-018",
+  "slide": 494,
+  "type": "open",
+  "prompt": "Write down the net present value formula as it is given on the slide, explain every symbol, and state which interest rate is used in practice and why.",
+  "solution": "NPV = sum over t = 0 to n of (Revenue_t - Expenditure_t) / (1+i)^t = sum over t = 0 to n of Cash Flow_t / (1+i)^t.\n\nSymbols: t is the period, n is the lifetime of the project, i is the discount or interest rate, Revenue_t - Expenditure_t is the net cash flow of period t. In words: the net present value is the sum of the differences between the present values of all revenues and expenditures, i.e. the sum of the discounted cash flows.\n\nThe investment enters as a negative cash flow in the first periods (in the wind farm example even before t = 0, so those instalments have to be compounded rather than discounted, or the reference date has to be set at the first instalment). The rate used in practice is the WACC, the weighted average cost of capital: a project is financed by a mixture of equity and debt, and the WACC weights the required return on equity and the interest on debt by their shares. Discounting with the WACC means that a positive NPV is a surplus over and above the full remuneration of both capital providers.",
+  "keywords": [
+   "Cash Flow",
+   "lifetime",
+   "WACC",
+   "weighted average cost of capital",
+   "discounted cash flows",
+   "negative cash flow"
+  ]
+ },
+ {
+  "id": "b08-019",
+  "slide": 495,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the techno-economic data of the wind farm example (specific investment 1000 EUR/kW, installed capacity 100 MW, WACC 10 %, 30 % of the investment two years and 70 % one year before commissioning, feed-in tariff 8 EUR ct/kWh, 2000 full load hours per year, annual fixed O&M costs 2 % of the investment), set up the complete cash flow profile of the project. State every intermediate result and every unit conversion.",
+  "solution": "Investment: 100 MW = 100,000 kW; 100,000 kW x 1000 EUR/kW = 100 million EUR total. Split: 30 % = 30 million EUR two years before commissioning (2013 in the lecture chart) and 70 % = 70 million EUR one year before commissioning (2014).\n\nAnnual generation: 100 MW x 2000 h/a = 200,000 MWh/a = 200 GWh/a. The full load hours already contain the availability and the wind resource, so no further correction is applied.\n\nRevenue: the tariff of 8 EUR ct/kWh is 80 EUR/MWh (1 ct/kWh = 10 EUR/MWh). Revenue = 200,000 MWh/a x 80 EUR/MWh = 16 million EUR/a, guaranteed and constant because it is a feed-in tariff, not a market price.\n\nFixed costs: 2 % of the investment = 0.02 x 100 million EUR = 2 million EUR/a for O&M.\n\nNet annual cash flow = 16 - 2 = 14 million EUR/a, constant over the 20 operating years (2015-2034 in the lecture chart).\n\nCash flow profile: -30 million EUR in 2013, -70 million EUR in 2014, then +14 million EUR in each of the 20 years 2015 to 2034. This one profile is the input for all four dynamic methods that follow - NPV, annuity, IRR and discounted payback period.",
+  "keywords": [
+   "100 million",
+   "200,000 MWh",
+   "80 EUR/MWh",
+   "16 million",
+   "2 million",
+   "14 million",
+   "20 operating years"
+  ]
+ },
+ {
+  "id": "b08-020",
+  "slide": 495,
+  "type": "cloze",
+  "graphic": true,
+  "prompt": "With an installed capacity of 100 MW and 2000 full load hours per year the wind farm of the example produces ___ GWh of electricity per year.",
+  "accept": [
+   "200",
+   "200 GWh",
+   "200 GWh/a",
+   "200 GWh/y",
+   "200000 MWh",
+   "200,000 MWh",
+   "200.000 MWh"
+  ],
+  "solution": "100 MW x 2000 h/a = 200,000 MWh/a = 200 GWh/a. Full load hours are the equivalent number of hours at rated power; 2000 h/a corresponds to a capacity factor of 2000/8760 = 23 %, a typical value for onshore wind. At the feed-in tariff of 8 EUR ct/kWh = 80 EUR/MWh this generation yields 16 million EUR of revenue per year."
+ },
+ {
+  "id": "b08-021",
+  "slide": 496,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Calculate the net present value of the wind farm and compare your result with the chart. Discount to the year of the first instalment (2013 in the lecture chart) and use the 20-year operating period 2015-2034 with i = 10 %. Also describe the three data series in the chart.",
+  "solution": "Present value of the investment: 30 + 70/1.1 = 30 + 63.64 = 93.64 million EUR.\n\nPresent value of the operating cash flows: the 20 payments of 14 million EUR run from 2015 to 2034, i.e. from t = 2 to t = 21 relative to 2013. A uniform series is first valued one period before its first payment, i.e. in 2014, with the present value annuity factor PVA(20; 10 %) = (1.1^20 - 1)/(1.1^20 x 0.1) = (6.7275 - 1)/0.67275 = 8.514. Value in 2014 = 14 x 8.514 = 119.19 million EUR. Discounted one more year to 2013: 119.19/1.1 = 108.36 million EUR.\n\nNPV = 108.36 - 93.64 = 14.7 million EUR.\n\nSince NPV > 0 the project earns more than the 10 % cost of capital and should be realised.\n\nThe chart contains three series: the blue bars are the yearly (nominal) cash flows, -30, -70 and then 14 every year; the green bars are the same amounts discounted, so they shrink from 11.6 million EUR in 2015 to 1.9 million EUR in 2034; the purple line is the cumulated discounted cash flow, which drops to its minimum of -93.6 million EUR in 2014, rises continuously afterwards and ends exactly at the dashed line marked NPV, at about 14.7 million EUR. The chart therefore shows the NPV as the end point of the cumulated discounted cash flow.",
+  "keywords": [
+   "93.64",
+   "8.514",
+   "108.36",
+   "14.7 million",
+   "NPV > 0",
+   "cumulated discounted cash flow"
+  ]
+ },
+ {
+  "id": "b08-022",
+  "slide": 497,
+  "type": "open",
+  "prompt": "State the decision rules of the NPV method and comment critically on the two statements the slide makes about the internal rate of return.",
+  "solution": "Decision rules: if NPV > 0 the return of the project is higher than the interest rate used for discounting, i.e. above the cost of capital, and the investment should be realised. If NPV < 0 it should not. Among mutually exclusive alternatives the typical recommendation is to realise the one with the highest NPV.\n\nFirst critical point: the slide writes 'In practice: required rate of return (IRR) instead of interest rate'. This conflates two different quantities. The required rate of return is a hurdle rate, an input chosen by the investor, typically the WACC plus a risk premium. The internal rate of return is an output of the project, the rate at which its NPV becomes zero. What is meant is only that companies discount with a required rate of return above the pure cost of capital; the abbreviation IRR is used wrongly here.\n\nSecond critical point: 'there may be multiple IRRs resulting in an NPV of zero, in which case the lowest positive value is usually correct'. Multiple roots occur when the sign of the cash flow changes more than once (e.g. a large decommissioning payment at the end). In that case the IRR criterion is simply not meaningful - none of the roots is 'the' return of the project - and the decision must be taken on the NPV at the relevant discount rate. There is no general rule that makes the lowest positive root correct; treat this sentence as a rule of thumb of the slide, not as theory.",
+  "keywords": [
+   "NPV > 0",
+   "highest NPV",
+   "hurdle rate",
+   "sign of the cash flow",
+   "not meaningful",
+   "cost of capital"
+  ]
+ },
+ {
+  "id": "b08-023",
+  "slide": 499,
+  "type": "mc",
+  "prompt": "What does the annuity method add compared with the net present value method?",
+  "options": [
+   "It adds non-financial criteria to the monetary evaluation",
+   "It transfers revenues and expenditures into a uniform series from t = 1 to n, so the result is an average yearly rather than a total profit; the recommendation itself is the same as with the NPV method",
+   "It uses a different interest rate, namely the internal rate of return instead of the WACC",
+   "It replaces discounting by a static average over the yearly cash flows"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The annuity method is based on the net present value method and gives the same recommendations; it only expresses the result differently. Revenues and expenditures that vary over time are first turned into a net present value and then spread over the lifetime as a uniform series (annuity) from t = 1 to n, so that average yearly expenditures and revenues can be compared and the alternative with the highest annuity is chosen. This is the natural form whenever a yearly figure is wanted (EUR per year, or divided by the annual generation, EUR/MWh as a levelised cost) and it is the only clean way to compare projects of different lifetimes."
+ },
+ {
+  "id": "b08-024",
+  "slide": 500,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Derive the capital recovery factor from the time line on the slide: how do you convert a present value C0 into a uniform series of n payments r, and what is the relation between CRF and PVA?",
+  "solution": "The time line shows C0 at t = 0 and then a payment r at the end of every period t = 1, 2, ..., n. Discounting the series gives\n\nC0 = r(1+i)^-1 + r(1+i)^-2 + ... + r(1+i)^-n = r x [(1+i)^n - 1] / [(1+i)^n x i].\n\nThe bracket is the present value annuity factor PVA - the present value of one monetary unit per year for n years. Solving for r inverts it:\n\nr = C0 x [(1+i)^n x i] / [(1+i)^n - 1] = C0 x CRF, with CRF = 1/PVA.\n\nThe capital recovery factor CRF is therefore the yearly payment that repays one unit of capital plus interest over n years - exactly the annuity of a loan. Two things to watch in the exam: the first payment falls at t = 1, one full period after the reference date C0, so a series that starts in 2015 has its reference date in 2014; and CRF > i always, because the annuity has to cover both the interest and the repayment, approaching i only for very large n.",
+  "keywords": [
+   "PVA",
+   "CRF",
+   "1/PVA",
+   "uniform series",
+   "t = 1",
+   "repays"
+  ]
+ },
+ {
+  "id": "b08-025",
+  "slide": 500,
+  "type": "open",
+  "prompt": "Apply the annuity method to the wind farm example (investment 30 million EUR in 2013 and 70 million EUR in 2014, net cash flow 14 million EUR/a in 2015-2034, i = 10 %). Determine the annuity of the project and check the result against the NPV of 14.7 million EUR.",
+  "solution": "Step 1 - capital recovery factor for the 20 operating years: CRF(20; 10 %) = 0.1 x 1.1^20 / (1.1^20 - 1) = 0.1 x 6.7275 / 5.7275 = 0.1175. The table on slide 501 lists only t = 1...10 and t = 30, so for t = 20 the factor has to be computed from the formula.\n\nStep 2 - value of the investment at the reference date. The 20 annuity payments run from 2015 to 2034, so their reference date is 2014, one year before the first payment. Compounding the instalments to 2014: 30 x 1.1 + 70 = 33 + 70 = 103.0 million EUR.\n\nStep 3 - annuity of the capital cost: 103.0 x 0.1175 = 12.1 million EUR/a.\n\nStep 4 - annuity of the project: the operating cash flow is already a uniform series of 14 million EUR/a, so the annuity of the project is 14 - 12.1 = 1.9 million EUR/a. It is positive, so the project is realised - the same recommendation as the NPV method gives.\n\nCross-check: discount the annuity back. 1.9 x PVA(20; 10 %) = 1.9 x 8.514 = 16.2 million EUR in 2014, and 16.2/1.1 = 14.7 million EUR in 2013 - exactly the NPV. Interpretation: the wind farm earns 14 million EUR a year, of which 12.1 million EUR are needed to service and repay the capital at 10 %; 1.9 million EUR a year are left over as a genuine surplus.",
+  "keywords": [
+   "0.1175",
+   "103.0",
+   "12.1 million",
+   "1.9 million",
+   "same recommendation",
+   "surplus"
+  ]
+ },
+ {
+  "id": "b08-026",
+  "slide": 501,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain how the CRF table on the slide is used - which quantity stands in the rows and which in the columns - why every entry of the first row equals 1 + i, and annualise an investment of 250 million EUR over 10 years at 8 % with it.",
+  "solution": "The rows are the number of periods t (1 to 10, then 30), the columns are the interest rate i in per cent (1 to 10, then 15). An entry is the capital recovery factor CRF(t; i) = (1+i)^t x i / ((1+i)^t - 1), i.e. the yearly annuity that repays one unit of capital including interest over t years.\n\nFirst row: with t = 1 the whole capital is repaid one year later in a single payment, which must carry the capital plus one year of interest. Formally CRF(1; i) = (1+i) x i / ((1+i) - 1) = (1+i) x i / i = 1 + i, which is exactly what the table shows: 1.010 at 1 %, 1.080 at 8 %, 1.150 at 15 %.\n\nExample: CRF(10; 8 %) = 0.149, so the annuity of 250 million EUR is 250 x 0.149 = 37.3 million EUR/a.\n\nHow to read the trends: down a column the CRF falls, because the repayment is spread over more years - at 10 % it goes from 1.100 (t = 1) over 0.163 (t = 10) to 0.106 (t = 30), which is already close to the pure interest of 0.100 because after 30 years the repayment share of the annuity is almost negligible. Along a row the CRF rises with the interest rate. Note that a lifetime of 20 years, as in the wind farm example, is not tabulated and has to be computed from the formula (0.1175 at 10 %).",
+  "keywords": [
+   "0.149",
+   "37.3 million",
+   "1 + i",
+   "0.106",
+   "rises with the interest rate",
+   "falls"
+  ]
+ },
+ {
+  "id": "b08-027",
+  "slide": 501,
+  "type": "cloze",
+  "graphic": true,
+  "prompt": "Read from the CRF table of the slide: for a lifetime of 5 years and an interest rate of 6 % the capital recovery factor is ___.",
+  "accept": [
+   "0.237",
+   "0,237",
+   "23.7 %",
+   "23,7 %"
+  ],
+  "solution": "CRF(5; 6 %) = 0.237 - row t = 5, column i = 6. Check with the formula: 1.06^5 = 1.3382, so 0.06 x 1.3382 / 0.3382 = 0.237. An investment of 100 million EUR over 5 years at 6 % therefore has a capital annuity of 23.7 million EUR/a, of which 6 million EUR is interest in the first year and the rest repayment."
+ },
+ {
+  "id": "b08-028",
+  "slide": 503,
+  "type": "cloze",
+  "prompt": "The internal rate of return (IRR) is the interest rate at which the net present value of an investment becomes exactly ___.",
+  "accept": [
+   "zero",
+   "0",
+   "null",
+   "nil"
+  ],
+  "solution": "Zero. The condition on the slide is: sum over t = 1 to n of (Revenue_t - Expenditure_t)/(1+i)^t - Investment = 0; the i that solves it is the internal rate of return, also called internal interest rate of return method or time-adjusted rate of return. Decision rule: choose the alternative with the highest internal interest rate, and realise a project only if its IRR exceeds the cost of capital. For n > 2 the equation is a polynomial of degree n in i and cannot be solved in closed form, which is why the following slide offers simulation, a graphical solution or an approximation procedure such as Newton's method. The great advantage of the IRR is that it is a percentage and therefore independent of the project size; that is also its weakness, because a large project with a lower IRR can create far more value than a small one with a high IRR."
+ },
+ {
+  "id": "b08-029",
+  "slide": 504,
+  "type": "mc",
+  "prompt": "Which three ways of determining the internal rate of return does the lecture name?",
+  "options": [
+   "Analytical solution of the polynomial, bisection of the cash flow profile and dynamic programming",
+   "Look-up in the capital recovery factor table, a graphical solution and linear interpolation of the annuity",
+   "Simulation with PCs, a graphical solution, and an approximation procedure such as Newton's method",
+   "Linear programming, Monte Carlo simulation and sensitivity analysis"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Because the defining equation is a polynomial of degree n, there is no closed-form solution beyond n = 2. The lecture therefore names three practical routes: simulation with PCs (in practice a spreadsheet function such as IRR, which iterates internally), the graphical solution (plot the NPV against the interest rate and read off the zero crossing, as on the next slide), and an approximation procedure such as Newton's method (or regula falsi: compute the NPV at two rates and interpolate linearly to the zero)."
+ },
+ {
+  "id": "b08-030",
+  "slide": 505,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart plots the NPV of the wind farm against the rate of return from 1 % to 20 %. Read the IRR off the chart, explain the shape of the curve, and state the investment decision given a WACC of 10 %.",
+  "solution": "The curve starts at about +150 million EUR at 1 %, falls monotonically, crosses the zero line at about 12 % - the point marked IRR - and reaches roughly -30 million EUR at 20 %. So the IRR of the wind farm is about 12 %.\n\nShape: every cash flow is divided by (1+i)^t, and the exponent is large for the late revenues but almost zero for the investment in 2013 and 2014. Raising i therefore devalues the 20 years of revenue strongly while leaving the investment almost untouched, and the NPV falls. The fall gets flatter with increasing i - the curve is convex - because the discount factors themselves shrink geometrically, so each additional percentage point removes less than the one before. Since the cash flow changes sign only once (minus, minus, then 20 times plus), there is exactly one zero crossing and the IRR is unambiguous.\n\nDecision: the IRR of 12 % exceeds the WACC of 10 %, so the project is accepted - consistent with NPV(10 %) = +14.7 million EUR > 0. The two percentage points of distance are the safety margin: the project still breaks even if the cost of capital rises by 2 points, or equivalently if the revenues fall until the NPV at 10 % is used up.",
+  "keywords": [
+   "12 %",
+   "150 million",
+   "monotonically",
+   "convex",
+   "WACC",
+   "14.7 million",
+   "one zero crossing"
+  ]
+ },
+ {
+  "id": "b08-031",
+  "slide": 507,
+  "type": "mc",
+  "prompt": "Which statement about the discounted payback period is correct?",
+  "options": [
+   "It is a dynamic method: the investment is set against the cumulated discounted cash flows, and the shorter the payback period the better",
+   "It is a static method, because it only counts years",
+   "It always produces the same ranking of projects as the net present value method",
+   "It measures the number of years until the cumulated undiscounted cash flows cover the investment"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The discounted payback period is dynamic because it takes the (different) cash flows of different periods into account, i.e. it discounts them before cumulating; the shorter the payback period, the better. Option 3 describes the static simple payback method. Option 4 is wrong and is the main limitation of the criterion: the DPP ignores everything that happens after the payback date, so a project that pays back quickly and then stops beats a project that pays back slowly and then earns for another 20 years. It is a risk and liquidity indicator, not a profitability criterion, and should be used beside the NPV, never instead of it. Note also that the formula on the slide, DPP = Investment / discounted cash flows, is only valid if the discounted cash flows were uniform; in general - as in the chart on the next slide - you cumulate the discounted cash flows year by year until they reach the investment."
+ },
+ {
+  "id": "b08-032",
+  "slide": 508,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Determine the discounted payback period of the wind farm from the chart and reproduce the calculation. How many years of operation are needed, and why is the discounted payback period so much longer than the simple one?",
+  "solution": "The cumulated discounted cash flow starts at -30 million EUR (2013), falls to its minimum of -93.6 million EUR (2014) and then rises. It crosses the zero line in 2028, which is the year highlighted on the slide. So the discounted payback period ends in 2028: 14 years of operation (2015-2028), or 16 years after the first instalment.\n\nCalculation: the discounted cash flow of year t is 14/1.1^t with t counted from 2013, i.e. 11.57 (2015), 10.52 (2016), 9.56, 8.69, 7.90, 7.18, 6.53, 5.94, 5.40, 4.91, 4.46, 4.05, 3.69 (2027) and 3.35 (2028) million EUR. Cumulating them against the 93.64 million EUR present value of the investment leaves -3.2 million EUR after 2027; the 3.35 million EUR of 2028 push the balance to about +0.1 million EUR. That is the payback point.\n\nComparison: undiscounted, the 100 million EUR investment is recovered by 14 million EUR/a in 100/14 = 7.1 years of operation. Discounting more than doubles this, because the later a cash flow lies the less it contributes - 14 million EUR in 2034 are worth only 1.9 million EUR in 2013 at 10 %. The remaining six years after the payback point (2029-2034) contribute the whole NPV of 14.7 million EUR, which shows why the DPP alone would be a poor decision criterion.",
+  "keywords": [
+   "2028",
+   "93.6",
+   "14 years",
+   "11.57",
+   "7.1 years",
+   "1.9 million"
+  ]
+ },
+ {
+  "id": "b08-033",
+  "slide": 510,
+  "type": "cloze",
+  "prompt": "All dynamic methods assume a ___ market in which resources can be raised or invested at one uniform interest rate i - a market that in reality does not exist or is very rare.",
+  "accept": [
+   "perfect",
+   "perfect capital",
+   "perfect capital market",
+   "vollkommen",
+   "vollkommener"
+  ],
+  "solution": "A perfect (capital) market. In reality borrowing and lending rates differ, credit is rationed, and the rate depends on the volume and the risk of the individual project. Two further limitations from the same slide: the methods assume constant interest rates for the reinvestment of the net cash flows - the NPV method implicitly reinvests them at i, the IRR method at the internal interest rate, which is why NPV and IRR may rank the same set of projects differently. And the economic criterion is only one of several: assessment criteria can also be ecological (emissions/immissions), social (employment, health, safety) or technical (feasibility, specifications, efficiency), which leads to multi-criteria analysis."
+ },
+ {
+  "id": "b08-034",
+  "slide": 511,
+  "type": "mc",
+  "prompt": "Which limitation of investment appraisal does slide 511 ('Limitations 2/2') state?",
+  "options": [
+   "The methods require probabilities for all states of nature, which are usually unknown",
+   "The methods cannot handle projects with a lifetime of more than 30 years",
+   "It is difficult or impossible in practice to assign a proportionate revenue or investment to a single investment, and non-financial and qualitative factors are not considered at all",
+   "Discounting is mathematically undefined for negative cash flows"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The attribution problem is the first point of the slide: in an integrated system a new plant, a grid reinforcement or an IT system changes the result of the whole portfolio, and cutting out 'its' revenue is largely arbitrary. Added to that, every investment carries a risk, for which the lecture proposes scenario planning techniques, and non-financial and qualitative factors (acceptance, strategy, know-how, security of supply) do not appear in the cash flow at all. The conclusion of the slide: an investment decision must not be reached by investment appraisal methods alone, investment decisions are entrepreneurial decisions; multi-criteria approaches can support the decision process, but no method is intended to replace the decision makers. Option 3 is wrong because probabilities are exactly what the dynamic methods do not need - that is the subject of the next chapter."
+ },
+ {
+  "id": "b08-035",
+  "slide": 511,
+  "type": "cloze",
+  "prompt": "The lecture stresses that multi-criteria approaches can support decision processes; however, no methods are intended to replace the ___.",
+  "accept": [
+   "decision makers",
+   "decision maker",
+   "decision-makers",
+   "decision-maker",
+   "Entscheider",
+   "Entscheidungstraeger"
+  ],
+  "solution": "The decision makers. The reasoning: investment decisions are entrepreneurial decisions - they involve risk, strategy, timing and non-quantifiable factors. An appraisal method structures the problem, makes the assumptions explicit and produces a comparable indicator, but the responsibility and the weighing of chances against risks stay with the decision maker. This is also why the chapter on decision rules under uncertainty later warns against any automatism in applying a rule."
+ },
+ {
+  "id": "b08-036",
+  "slide": 512,
+  "type": "open",
+  "prompt": "The learning objectives require you to name the dynamic investment appraisal methods and to summarise the purpose and the boundaries of each. Do it in one or two sentences per method.",
+  "solution": "Net present value: discounts all cash flows to one reference date and states the total surplus in money; realise if NPV > 0, prefer the highest NPV. Boundary: the result is an absolute amount, so it favours large projects and cannot compare projects of different lifetimes or different capital requirements without adjustment.\n\nAnnuity: converts the NPV into a uniform yearly amount with the capital recovery factor, r = C0 x CRF, and gives the average yearly profit; the recommendation is identical to the NPV method. Boundary: it inherits everything from the NPV and only makes sense for series that really can be treated as uniform; its strength is the comparison of projects of different lifetimes and the calculation of levelised costs.\n\nInternal rate of return: the interest rate at which the NPV becomes zero, i.e. the return of the project itself; accept if it exceeds the cost of capital, prefer the highest IRR. Boundary: it is a percentage and ignores the project size, it cannot be computed in closed form for n > 2, and with several sign changes in the cash flow there may be multiple roots and the criterion loses its meaning.\n\nDiscounted payback period: the year in which the cumulated discounted cash flows reach the investment; the shorter the better. Boundary: it says nothing about what happens after the payback date and is therefore a risk and liquidity indicator, not a profitability criterion.\n\nCommon boundaries of all four: they assume a perfect capital market with one uniform interest rate, they need cash flow forecasts over decades that are genuinely uncertain, and they contain no non-financial criteria - which is why they are combined with scenario planning and multi-criteria approaches.",
+  "keywords": [
+   "net present value",
+   "annuity",
+   "internal rate of return",
+   "discounted payback period",
+   "perfect capital market",
+   "capital recovery factor"
+  ]
+ },
+ {
+  "id": "b08-037",
+  "slide": 517,
+  "type": "open",
+  "prompt": "From the entrepreneurial perspective, what happens to an investment appraisal once it is combined with a set of scenarios, and which two central challenges does the lecture derive from this?",
+  "solution": "The main target of energy systems analysis is to generate a set of scenarios as a framework for analysing the chances and risks of strategic decisions. The consequence for the appraisal is that an investment decision is no longer represented by one figure but by a bandwidth of NPVs - one for each scenario. It is likely that a project achieves a positive NPV in one scenario and a negative NPV in another, and the same holds for every other indicator, e.g. the IRR or the discounted payback period.\n\nFrom this the lecture derives two central challenges. First, communication: how can the uncertainties, i.e. the chances and risks associated with the investment decision, be transported, communicated and visualised to the decision makers in an understandable way? A board does not decide on a distribution, it decides on a project, so the bandwidth has to be made readable - which is what the visualisation with present values of capex, opex and gross margins per scenario is for. Second, interpretation: how can and should the information on the uncertainties be used in the decision-making process, i.e. how should the results be interpreted? This is exactly the question the decision rules under uncertainty - maximax, maximin, minimax regret, Laplace and Hurwicz - try to answer by condensing the bandwidth into one number.",
+  "keywords": [
+   "bandwidth of NPVs",
+   "one for each scenario",
+   "positive NPV",
+   "negative NPV",
+   "communicated",
+   "interpreted"
+  ]
+ },
+ {
+  "id": "b08-038",
+  "slide": 518,
+  "type": "mc",
+  "prompt": "Why does the lecture argue that classical energy systems modelling is not sufficient from a governmental perspective?",
+  "options": [
+   "Because governments always decide under certainty and therefore need no models",
+   "Because governments are not allowed to use a discount rate",
+   "Because the models are unable to represent renewable energies",
+   "Because energy systems models are mainly one-dimensional (economic) optimisations, whereas strategies and technologies have to be evaluated against multiple criteria and with multiple stakeholder groups integrated into the evaluation and decision-making process"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Energy systems models minimise one objective, normally system cost, and thus produce a one-dimensional economic optimum. Recent developments in the energy sector show that this is not enough: strategies and technologies have to be evaluated with respect to multiple criteria, and multiple stakeholder groups have to be integrated into the evaluation and decision-making process. The lecture's example is that construction projects for new power plants, such as pumped storage plants, and for new transport grids face significant acceptance problems - the cost-optimal solution may be politically unrealisable. This applies to entrepreneurial as well as political decision making."
+ },
+ {
+  "id": "b08-039",
+  "slide": 519,
+  "type": "mc",
+  "prompt": "Which statement reflects the position of the lecture on public acceptance in energy policy?",
+  "options": [
+   "Economic objectives dominate; the other dimensions are side constraints that only apply to state-owned utilities",
+   "Public acceptance is a purely legal question that is settled in the approval procedure",
+   "Besides economic objectives, environmental sustainability and security of supply, energy policy has to take public acceptance into account as a key dimension, and ab initio involvement of all relevant stakeholder groups is essential for achieving acceptance and societal consensus",
+   "Public acceptance is created after the decision by information campaigns and does not belong in the evaluation"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The slide raises public acceptance to a fourth dimension next to the classical triangle of economic efficiency, environmental sustainability and security of supply, and it makes the timing explicit: the involvement of all relevant stakeholder groups has to be ab initio, from the beginning, because acceptance cannot be repaired once a project has been designed and announced. This is the argument for multi-criteria and participatory approaches; the reference given is Hauff et al. (2011)."
+ },
+ {
+  "id": "b08-040",
+  "slide": 520,
+  "type": "open",
+  "prompt": "The learning objectives of this section are to understand the existing approaches for decision making under uncertainty and to be able to summarise their boundaries. Demonstrate both for the Laplace rule.",
+  "solution": "Understanding: the equally likely or Laplace rule computes the average payoff of every decision alternative over all states of nature and chooses the alternative with the highest average. Formally it assigns the probability 1/m to each of the m states of nature and then maximises the expected value, so it is the only one of the five rules that uses every entry of the payoff table.\n\nBoundaries: (1) It assumes that the scenarios are equally likely, i.e. that they all have the same probability of occurrence, which can often not be confirmed - scenarios are storylines, not draws from a distribution. (2) The result depends on how the scenario set was cut: if the coal-friendly world is described by two similar scenarios instead of one, its weight doubles and the ranking can flip, so the rule is manipulable through the scenario design. (3) It converts a decision under uncertainty into one under risk by an arbitrary assumption. (4) Like every rule it condenses the bandwidth into a single number and thereby disguises the presence of uncertainty, which is the general criticism the lecture makes of all classical approaches.",
+  "keywords": [
+   "equally likely",
+   "average payoff",
+   "1/m",
+   "cannot be confirmed",
+   "manipulable",
+   "disguises"
+  ]
+ },
+ {
+  "id": "b08-041",
+  "slide": 522,
+  "type": "open",
+  "prompt": "Distinguish the three types of decision-making environments and say which one applies to a strategic power plant investment. Then criticise the definition the slide gives for decision making under uncertainty.",
+  "solution": "Type 1, decision making under certainty: the decision maker knows for sure the outcome or consequence of every decision alternative. Type 2, decision making under uncertainty: the decision maker has no information about the probabilities of the various outcomes or states of nature. Type 3, decision making under risk: the decision maker has some knowledge regarding the probability of occurrence of each outcome or state of nature.\n\nA strategic power plant investment belongs to type 2. Fuel and CO2 prices, climate policy, the RES expansion path and demand over the 20 to 40 years of a plant's life have no reliable probability distribution; there is no sample of comparable futures from which frequencies could be estimated. The main focus of the methods is the selection of the most preferable option among a set of alternatives, e.g. the best investment option for a given investment budget.\n\nCriticism: the slide defines type 2 as 'decision makers have no information at all about various outcomes or states of nature'. That is too strong and contradicts what follows. All five rules - maximax, maximin, minimax regret, Laplace and Hurwicz - require the complete payoff table, i.e. the outcome of every alternative in every state of nature, and they also require the set of states of nature to be known. What is missing under uncertainty is only the probability of the states, not the outcomes. The correct formulation is: the states of nature and the payoffs are known, their probabilities are not.",
+  "keywords": [
+   "certainty",
+   "risk",
+   "probability",
+   "payoff table",
+   "too strong",
+   "states of nature"
+  ]
+ },
+ {
+  "id": "b08-042",
+  "slide": 523,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the matrix on the slide and locate the entrepreneurial perspective, the governmental perspective and strategic decision making in energy systems in it.",
+  "solution": "The matrix has three columns - Certainty, Risk, Uncertainty - and two rows: 'one decision criterion (e.g. payoff, NPV...)' and 'multiple decision criteria (e.g. economic, ecological, sociological criteria)'.\n\nThree ellipses are drawn over it. A horizontal ellipse on the upper row, reaching into the uncertainty column, is labelled entrepreneurial perspective: a company decides on one monetary criterion, the payoff or the NPV. A second horizontal ellipse on the lower row, again reaching into the uncertainty column, is labelled governmental perspective: the state weighs economic, ecological and social criteria simultaneously. A vertical ellipse encloses the whole uncertainty column and is labelled strategic decision making in energy systems.\n\nThe message: strategic decisions in the energy sector always sit in the uncertainty column - neither certainty nor known probabilities are available for the relevant horizons. What distinguishes the company from the state is not the environment but the number of criteria. This is exactly the structure of the chapter: first the one-criterion rules under uncertainty (maximax, maximin, minimax regret, Laplace, Hurwicz), then multi-criteria approaches with stakeholder involvement.",
+  "keywords": [
+   "Certainty",
+   "Risk",
+   "Uncertainty",
+   "one decision criterion",
+   "multiple decision criteria",
+   "entrepreneurial perspective",
+   "governmental perspective"
+  ]
+ },
+ {
+  "id": "b08-043",
+  "slide": 524,
+  "type": "cloze",
+  "prompt": "The lecture lists five classical rules for decision making under uncertainty: the optimistic approach (maximax), the conservative approach (maximin), the minimax regret approach, the equally likely or ___ rule, and the criterion of realism (Hurwicz).",
+  "accept": [
+   "Laplace",
+   "Laplace rule",
+   "laplace",
+   "equally likely"
+  ],
+  "solution": "The Laplace rule. The five in one line each: maximax takes the best value of each row and picks the largest; maximin takes the worst value of each row and picks the largest of those; minimax regret builds an opportunity loss table and picks the alternative with the smallest maximum regret; Laplace averages each row, treating all states of nature as equally likely; Hurwicz weights the best and the worst value of each row with a coefficient of risk attitude a and (1-a). The reference given by the lecture is Bamberg & Coenenberg (2008)."
+ },
+ {
+  "id": "b08-044",
+  "slide": 525,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The payoff table of the lecture example (profits in EUR 1000) is: d1, an investment in a coal-fired power plant, yields 20 in s1 and 6 in s2; d2, an investment in a CCGT, yields 25 in s1 and 3 in s2. Apply all five decision rules and state which alternative each of them selects.",
+  "solution": "Maximax (optimistic): the row maxima are 20 for d1 and 25 for d2; the largest single value in the table is 25, so choose d2.\n\nMaximin (conservative): the row minima are 6 for d1 and 3 for d2; the maximum of these minima is 6, so choose d1.\n\nMinimax regret: the column maxima are 25 in s1 and 6 in s2. Regret table: d1 gets 25-20 = 5 and 6-6 = 0, maximum regret 5; d2 gets 25-25 = 0 and 6-3 = 3, maximum regret 3. The minimum of the maximum regrets is 3, so choose d2.\n\nLaplace (equally likely): average for d1 = (20+6)/2 = 13, average for d2 = (25+3)/2 = 14, so choose d2.\n\nHurwicz with a coefficient of risk attitude a = 0.8: payoff for d1 = 0.8 x 20 + 0.2 x 6 = 17.2, payoff for d2 = 0.8 x 25 + 0.2 x 3 = 20.6, so choose d2.\n\nFour of the five rules select d2, only the conservative maximin selects d1. That is the didactic point of the example: with the same data the recommendation depends on the rule, i.e. on the risk attitude of the decision maker, not on the facts. d2 has both the better best case (25 against 20) and the worse worst case (3 against 6) - it is the riskier alternative, and every rule that puts weight on the good outcomes picks it.",
+  "keywords": [
+   "maximax",
+   "maximin",
+   "minimax regret",
+   "17.2",
+   "20.6",
+   "risk attitude",
+   "d2"
+  ]
+ },
+ {
+  "id": "b08-045",
+  "slide": 526,
+  "type": "cloze",
+  "prompt": "The maximax rule is the rule of the optimistic decision maker: it picks the decision with the largest possible payoff. If the table is stated in terms of costs instead of profits, the optimist accordingly chooses the decision with the ___ cost.",
+  "accept": [
+   "lowest",
+   "smallest",
+   "minimum",
+   "lowest possible",
+   "minimal"
+  ],
+  "solution": "The lowest cost. Formally maximax is max over d of (max over s of payoff): first the best outcome of each alternative, then the best of those - so it evaluates every alternative by its single best case and ignores everything else. In a cost table the good direction is downwards, so the same optimism means taking the lowest single cost entry, which is strictly speaking a 'minimin' rule; the name maximax only fits a profit table. The lecture itself notes that these extreme rules are of limited benefit in reality, because they base a decision on one number of the whole table."
+ },
+ {
+  "id": "b08-046",
+  "slide": 527,
+  "type": "open",
+  "prompt": "An investor compares three projects - d1 a hard coal plant, d2 a CCGT and d3 a wind farm - under three scenarios. The payoff table gives the NPV in million EUR: d1: 40 (s1), 15 (s2), -10 (s3); d2: 30, 25, 5; d3: 10, 20, 22. Apply the maximax rule. Which project is chosen, and what does the choice reveal about the decision maker?",
+  "solution": "Maximax means: list the maximum payoff of every decision and choose the largest of them.\n\nRow maxima: d1 = 40 (in s1), d2 = 30 (in s1), d3 = 22 (in s3). The largest single value in the table is 40, so the maximax rule selects d1, the hard coal plant.\n\nWhat the choice reveals: the decision maker is an optimist who evaluates each alternative solely by its best case and behaves as if the favourable scenario s1 would occur. The rule uses exactly one of the nine numbers in the table and therefore ignores that d1 is the only alternative with a loss - it destroys 10 million EUR of value in s3, the worst outcome in the whole table - and that its result in the middle scenario, 15, is the weakest of the three. A single optimistic estimate in one cell can drive the whole decision, which is why the lecture calls maximax and maximin of limited benefit in reality. In an exam always add this qualification instead of only naming the winner.",
+  "keywords": [
+   "row maxima",
+   "40",
+   "d1",
+   "best case",
+   "ignores",
+   "limited benefit"
+  ]
+ },
+ {
+  "id": "b08-047",
+  "slide": 528,
+  "type": "cloze",
+  "prompt": "Under the maximin rule you first list the ___ payoff of every decision and then choose the decision that has the maximum of these values.",
+  "accept": [
+   "minimum",
+   "smallest",
+   "lowest",
+   "worst",
+   "minimal"
+  ],
+  "solution": "The minimum payoff. Maximin is max over d of (min over s of payoff): it maximises the minimum possible payoff and is therefore the rule of the conservative decision maker, who secures a floor and accepts a lower upside for it. Cost version: if the table is in terms of costs, determine the maximum cost for each decision and select the decision with the minimum of these maximum costs, i.e. the maximum possible costs are minimised (minimax cost). Like maximax it uses only one entry per row - here the worst one - and ignores the rest of the table."
+ },
+ {
+  "id": "b08-048",
+  "slide": 529,
+  "type": "open",
+  "prompt": "Apply the maximin rule to the payoff table of the three projects (d1: 40 / 15 / -10, d2: 30 / 25 / 5, d3: 10 / 20 / 22, NPV in million EUR, columns s1 / s2 / s3). Which project is chosen, and how does the result differ from the maximax answer?",
+  "solution": "Maximin: list the minimum payoff of each decision and choose the maximum of these minima.\n\nRow minima: d1 = -10 (in s3), d2 = 5 (in s3), d3 = 10 (in s1). The maximum of the minima is 10, so the maximin rule selects d3, the wind farm.\n\nDifference: maximax selected d1, the hard coal plant with the best single value of 40; maximin selects d3, the alternative whose worst case is the least bad. The two extreme rules pick the two extreme alternatives and neither of them ever looks at the same number: maximax reads only the best entry of each row, maximin only the worst.\n\nInterpretation: the conservative decision maker buys a guaranteed floor of 10 million EUR - d3 has a positive NPV in every scenario - and pays for it with the upside, because d3 never exceeds 22 while d1 could reach 40. Note also that d3 is the alternative with the narrowest bandwidth (10 to 22), i.e. the one whose result depends least on which scenario materialises; maximin systematically favours robust, low-spread alternatives, which in energy systems typically means the technology with low fuel and CO2 price exposure.",
+  "keywords": [
+   "row minima",
+   "10",
+   "d3",
+   "wind farm",
+   "floor",
+   "upside"
+  ]
+ },
+ {
+  "id": "b08-049",
+  "slide": 530,
+  "type": "open",
+  "prompt": "Explain how a regret table (opportunity loss table) is constructed and what a single entry means. Why is a regret always computed within a column and never within a row?",
+  "solution": "Construction: for each state of nature separately, take the largest payoff in that column and subtract every payoff of that column from it. The result is the regret table; then the maximum regret of each decision (each row) is listed and the decision with the minimum of these maximum regrets is chosen.\n\nMeaning of an entry: it is the opportunity loss - how much worse off you are than you would have been if you had chosen the best alternative for that scenario. In the language of the lecture: for each investment option, the difference between its NPV in a certain scenario and the NPV of the 'best' investment option in this scenario. It is the ex-post regret of the decision maker who learns which scenario has occurred.\n\nWhy per column: the comparison is only meaningful within one and the same state of nature. Different scenarios describe different worlds; the payoff of d1 in s1 and the payoff of d1 in s3 are not alternatives to each other, you never had a choice between scenarios. Only within a column did you really have a choice between d1, d2 and d3.\n\nTwo checks for the exam: every column of a regret table contains at least one zero - the best alternative for that scenario - and all entries are greater than or equal to zero. If a negative number appears, you have subtracted in the wrong direction.",
+  "keywords": [
+   "opportunity loss",
+   "largest payoff",
+   "at least one zero",
+   "maximum regret",
+   "minimum of these maximum regrets",
+   "same state of nature"
+  ]
+ },
+ {
+  "id": "b08-050",
+  "slide": 531,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Build the regret table for d1: 40 / 15 / -10, d2: 30 / 25 / 5, d3: 10 / 20 / 22 (NPV in million EUR) and apply the minimax regret rule. Compare the result with the maximax and the maximin answer.",
+  "solution": "Column maxima (the best alternative per scenario): s1 = 40 (d1), s2 = 25 (d2), s3 = 22 (d3).\n\nRegret table, entry = column maximum minus payoff:\nd1: 40-40 = 0, 25-15 = 10, 22-(-10) = 32, maximum regret 32.\nd2: 40-30 = 10, 25-25 = 0, 22-5 = 17, maximum regret 17.\nd3: 40-10 = 30, 25-20 = 5, 22-22 = 0, maximum regret 30.\n\nThe minimum of the maximum regrets is 17, so minimax regret selects d2, the CCGT. Each column contains a zero and no entry is negative, so the table is consistent.\n\nComparison: maximax chose d1, maximin chose d3, minimax regret chooses the middle alternative d2. The reason is structural: the regret rule punishes an alternative for being far behind the leader in any single scenario. d1 misses 32 million EUR in s3 and d3 misses 30 million EUR in s1, whereas d2 is never more than 17 million EUR behind the best - it is nowhere the winner but nowhere badly beaten either. That is why minimax regret typically produces the balanced, hedged answer and why it is the rule closest to how portfolios are actually built in the energy sector.",
+  "keywords": [
+   "column maxima",
+   "32",
+   "17",
+   "30",
+   "d2",
+   "contains a zero"
+  ]
+ },
+ {
+  "id": "b08-051",
+  "slide": 532,
+  "type": "open",
+  "prompt": "Apply the equally likely (Laplace) rule to the same payoff table (d1: 40 / 15 / -10, d2: 30 / 25 / 5, d3: 10 / 20 / 22, NPV in million EUR). Which project wins, and which implicit assumption have you made?",
+  "solution": "Average payoff per alternative:\nd1 = (40 + 15 - 10)/3 = 45/3 = 15 million EUR\nd2 = (30 + 25 + 5)/3 = 60/3 = 20 million EUR\nd3 = (10 + 20 + 22)/3 = 52/3 = 17.3 million EUR\n\nThe highest average payoff is 20, so the Laplace rule selects d2, the CCGT - the same alternative as minimax regret, but for a different reason: here it wins because it is good in all three scenarios, not because its worst gap is small.\n\nImplicit assumption: every scenario has the same probability of occurrence, here 1/3. The rule therefore silently converts a decision under uncertainty into a decision under risk and maximises an expected value. The lecture's criticism applies directly: this equal probability can often not be confirmed. It is also manipulable through the scenario design - if the coal-friendly world were split into two similar scenarios, d1 would get twice the weight and could overtake d2 without a single input having changed. The rule is nevertheless the only one of the five that uses every number of the table, which is its main advantage over maximax, maximin and Hurwicz.",
+  "keywords": [
+   "15",
+   "20",
+   "17.3",
+   "equally likely",
+   "1/3",
+   "manipulable"
+  ]
+ },
+ {
+  "id": "b08-052",
+  "slide": 533,
+  "type": "open",
+  "prompt": "Apply the Hurwicz criterion (criterion of realism) to the table d1: 40 / 15 / -10, d2: 30 / 25 / 5, d3: 10 / 20 / 22 (NPV in million EUR), once with a coefficient of risk attitude a = 0.7 and once with a = 0.3. Interpret the two results.",
+  "solution": "Formula: payoff = a x (maximum payoff) + (1-a) x (minimum payoff), with a between 0 and 1.\n\nWith a = 0.7:\nd1 = 0.7 x 40 + 0.3 x (-10) = 28 - 3 = 25\nd2 = 0.7 x 30 + 0.3 x 5 = 21 + 1.5 = 22.5\nd3 = 0.7 x 22 + 0.3 x 10 = 15.4 + 3 = 18.4\nHighest value 25, so choose d1.\n\nWith a = 0.3:\nd1 = 0.3 x 40 + 0.7 x (-10) = 12 - 7 = 5\nd2 = 0.3 x 30 + 0.7 x 5 = 9 + 3.5 = 12.5\nd3 = 0.3 x 22 + 0.7 x 10 = 6.6 + 7 = 13.6\nHighest value 13.6, so choose d3.\n\nInterpretation: Hurwicz is a weighted average between the optimistic and the pessimistic approach; a close to 1 means an optimistic, a close to 0 a rather conservative decision maker. With a = 0.7 the optimistic pole dominates and the rule reproduces the maximax answer d1, with a = 0.3 the conservative pole dominates and it reproduces the maximin answer d3 - the rule contains both extremes as the special cases a = 1 and a = 0. The weakness is visible in the arithmetic: only the best and the worst entry of each row are used, the middle scenario s2 has no influence at all, so the whole information about d2's excellent 25 in s2 is thrown away. Because the recommendation flips with a, the coefficient must never be picked casually - hence the sensitivity analysis on the following slide.",
+  "keywords": [
+   "a = 0.7",
+   "22.5",
+   "18.4",
+   "12.5",
+   "13.6",
+   "maximax",
+   "maximin",
+   "middle scenario"
+  ]
+ },
+ {
+  "id": "b08-053",
+  "slide": 533,
+  "type": "mc",
+  "prompt": "What does a coefficient of risk attitude of a = 1 mean in the Hurwicz criterion?",
+  "options": [
+   "All states of nature are weighted equally; the rule becomes identical to the Laplace rule",
+   "The decision maker is completely conservative; the rule becomes identical to maximin",
+   "The rule becomes identical to the minimax regret approach",
+   "The decision maker is completely optimistic; the rule becomes identical to maximax"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "With payoff = a x (maximum payoff) + (1-a) x (minimum payoff), a = 1 puts the whole weight on the maximum payoff of each row, which is exactly the maximax rule; a = 0 puts the whole weight on the minimum and gives maximin. The lecture states it qualitatively: when a is close to 1 the decision maker is optimistic, when a is close to 0 he is rather conservative. Hurwicz therefore spans the range between the two extreme rules, and the choice of a is where the risk attitude enters. The Laplace rule is not a special case of Hurwicz, because it averages over all states of nature, whereas Hurwicz only ever uses the best and the worst."
+ },
+ {
+  "id": "b08-054",
+  "slide": 534,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart varies the coefficient of risk attitude a from 0 to 1 for the lecture example (d1: 20 / 6, d2: 25 / 3). Describe the two lines and calculate the value of a at which the recommendation changes. What does the lecture conclude from such a sensitivity analysis?",
+  "solution": "Both curves are straight lines in a, because the Hurwicz payoff a x max + (1-a) x min is linear in a. The line of d1 runs from 6 at a = 0 to 20 at a = 1; the line of d2 runs from 3 at a = 0 to 25 at a = 1. d2 is the steeper line because its payoff range (25 - 3 = 22) is wider than that of d1 (20 - 6 = 14); it starts lower and ends higher, so the two lines cross exactly once.\n\nSwitching point: set the two payoffs equal.\n20a + 6(1-a) = 25a + 3(1-a)\n6 + 14a = 3 + 22a\n3 = 8a, so a = 0.375, at a payoff of 0.375 x 20 + 0.625 x 6 = 11.25.\n\nFor a < 0.375 the conservative alternative d1 is preferred, for a > 0.375 the optimistic alternative d2 - which is why the lecture's assumption of a = 0.8 leads to d2.\n\nConclusion: since the coefficient of risk attitude is difficult to determine and to agree upon, the sensitivity analysis is the honest form of the result. Report the switching point instead of one number. If the alternatives can be clearly distinguished at the relevant level of risk attitude, the decision can be taken easily; if the payoffs of the alternatives are very similar around the assumed a - i.e. if the assumed a lies close to the crossing point, as 0.4 would here - the ranking is not robust and it has to be checked whether this a really reflects the risk attitude of the decision makers adequately.",
+  "keywords": [
+   "a = 0.375",
+   "11.25",
+   "steeper",
+   "cross exactly once",
+   "0.8",
+   "switching point"
+  ]
+ },
+ {
+  "id": "b08-055",
+  "slide": 535,
+  "type": "mc",
+  "prompt": "Which of the following criticisms of the classical decision rules is NOT made by the lecture?",
+  "options": [
+   "The Laplace rule assumes that scenarios are equally likely, which can often not be confirmed",
+   "Applying the rules disguises the presence of uncertainty, at least if only the result, i.e. one number, is used in further communication",
+   "The rules cannot be applied when there are more than two states of nature",
+   "The extreme rules maximax and maximin are of limited benefit in reality"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Option 4 is invented: all five rules work for any number of alternatives and states of nature - a payoff table may have any size, as the three-scenario examples show. The genuine criticisms of the lecture are the other three plus one more: the determination of a risk attitude coefficient and the assessment of its consequences is demanding. The first point is the most important one for the exam: every rule condenses the whole bandwidth into a single number, and once that number travels through the organisation the uncertainty it was meant to handle has disappeared from the communication."
+ },
+ {
+  "id": "b08-056",
+  "slide": 536,
+  "type": "mc",
+  "prompt": "What does the lecture conclude about the practical use of decision rules from an entrepreneurial perspective?",
+  "options": [
+   "The company should fix one rule in its investment guideline and apply it automatically to every project",
+   "Decision rules should replace the NPV method, because they need no assumptions about the future",
+   "Only the Hurwicz criterion should be used, because it contains the other rules as special cases",
+   "There should be no automatism for the application of decision rules; investment decisions are entrepreneurial decisions, and the chances and risks have to be communicated to the decision makers in an understandable way"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Bearing in mind the relevance of investment decisions for the future development of an enterprise, any kind of automatism would be inappropriate: the rules structure the problem, they do not decide it. Option 3 is superficially attractive - Hurwicz does contain maximax (a = 1) and maximin (a = 0) as special cases - but fixing it as the company standard is exactly the automatism the slide warns against, and Hurwicz ignores all intermediate scenarios. Option 4 is wrong twice: the rules presuppose a payoff table, which itself comes from NPV calculations per scenario, and they make strong implicit assumptions."
+ },
+ {
+  "id": "b08-057",
+  "slide": 537,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the visualisation the lecture proposes for communicating the result of a scenario-based investment appraisal, and name the indicators that should accompany the NPV.",
+  "solution": "For each scenario S1 to S4 the chart shows a stacked bar of present values: the present value of capex and the present value of opex below the axis (what the project costs), and above it the present value of the minimum gross margins plus, drawn on top of it, the bandwidth of the present value of the gross margins - i.e. the range between the low and the high margin case within that scenario. The NPV of a scenario is the difference between the margin bar and the capex-plus-opex bar, so the reader sees at a glance in which scenarios the project pays and by how much.\n\nWhy this form: presenting the present values of capex and opex in addition to the gross margins is insightful and allows a better understanding of the magnitude of the uncertainties in the scenarios. A single NPV bandwidth would hide whether the spread comes from a small margin on a huge committed capex - a high-risk project - or from a comfortable margin that merely varies.\n\nIndicators to add: in addition to the NPV, the IRR provides valuable information, and information about the dynamic payback period is often requested by the decision makers. Finally the story lines of the scenarios associated with the different NPVs and IRRs are needed for the interpretation - a number without its narrative cannot be judged, because the decision maker has to form his own view on how plausible that world is.",
+  "keywords": [
+   "present value of capex",
+   "opex",
+   "bandwidth",
+   "IRR",
+   "dynamic payback period",
+   "story lines"
+  ]
+ },
+ {
+  "id": "b08-058",
+  "slide": 543,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe how a single-phase alternating voltage is generated according to the slide, name the three labelled parts of the machine, and give the equations for u(t), i(t) and the angular frequency. What is the angular frequency at 50 Hz?",
+  "solution": "A conductor loop rotates in the constant magnetic field between the north and the south pole of a magnet. The flux linked with the loop changes with the rotation angle, so a voltage is induced; it is tapped from the rotating loop through two slip rings and the carbon brushes sliding on them. The three labels on the drawing are conductor loop, slip rings and carbon brushes.\n\nBecause the induced voltage is proportional to the rate of change of the flux, which varies sinusoidally with the angle, one gets\nu(t) = u_max x sin(wt), i(t) = i_max x sin(wt), with w = 2 pi f.\n\nThe slide shows the same process in two representations. In the pointer diagram (phasor diagram) a pointer of length equal to the amplitude rotates counter-clockwise; its projection on the vertical axis is the instantaneous value. In the line chart to the right of it that projection is plotted over the angle from 0 to 360 degrees, which produces the sine curve; the two are linked by horizontal construction lines at 30, 60, 90 degrees and so on. One full revolution of the pointer corresponds to one period T of the sine.\n\nAt f = 50 Hz the angular frequency is w = 2 pi x 50 = 314 per second, and one period lasts T = 1/f = 20 ms. Note that for a purely ohmic load current and voltage are written with the same argument, i.e. they are in phase; a phase shift appears only with reactive components, which is the subject of the next slides.",
+  "keywords": [
+   "conductor loop",
+   "slip rings",
+   "carbon brushes",
+   "pointer diagram",
+   "314",
+   "20 ms"
+  ]
+ },
+ {
+  "id": "b08-059",
+  "slide": 544,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the curves of voltage, current and power for a purely ohmic load. Give the equation for the instantaneous power, explain why the power curve never becomes negative, and say what that means physically.",
+  "solution": "The instantaneous power is the product of the instantaneous values:\nP = U_max x sin(wt) x I_max x sin(wt - phi).\n\nWith a purely ohmic (effective) resistance R there is no phase shift between current and voltage, so phi = 0 and P = U_max x I_max x sin(wt) squared. A squared sine is never negative: the power curve lies entirely in the positive range, touching zero at the zero crossings of u and i and reaching U_max x I_max at their peaks. It oscillates at twice the frequency of voltage and current - with alternating current the power, like the current and the voltage, constantly oscillates between a maximum and a minimum.\n\nPhysically this means that the resistance absorbs electrical power at every moment and releases it, for example as heat; no energy ever flows back to the source. The average of the curve is U_max x I_max / 2 = U_eff x I_eff, and this average is the active power P, the only part that does useful work. This is the reference case: as soon as an inductive or capacitive component is added, current and voltage drift apart, part of the power curve falls below the time axis, and the average - the active power - becomes smaller than the product of the effective values.",
+  "keywords": [
+   "no phase shift",
+   "squared sine",
+   "positive range",
+   "heat",
+   "active power",
+   "twice the frequency"
+  ]
+ },
+ {
+  "id": "b08-060",
+  "slide": 545,
+  "type": "cloze",
+  "graphic": true,
+  "prompt": "The slide shows the power curve for phase shifts of 0.125 pi, 0.25 pi and 0.5 pi. At a phase shift of ___ pi the areas above and below the time axis are equal, so the active power becomes zero and only reactive power is exchanged.",
+  "accept": [
+   "0.5",
+   "0,5",
+   "0.5 pi",
+   "1/2",
+   "90",
+   "90 degrees",
+   "half"
+  ],
+  "solution": "0.5 pi, i.e. 90 degrees. As the reactive component of the load increases, the phase shift increases and with it the reactive power: the part of the power curve that lies below the time axis is negative and is called reactive power Q, which has the opposite direction to the active power P over the time axis. The three charts show this progressively - at 0.125 pi only a small negative lobe appears, at 0.25 pi it grows, and at 0.5 pi the positive and negative areas are equal, so the net energy transferred over a period is zero: energy merely oscillates back and forth between source and load. Reactive power usually occurs in all components connected to the network and in the line network itself, because a circuit in principle always contains the three passive linear properties capacitance, inductance and ohmic resistance; hence there is practically always a reactive power load in an AC supply network, which is why grid operators have to procure reactive power as a system service."
+ },
+ {
+  "id": "b08-061",
+  "slide": 546,
+  "type": "open",
+  "prompt": "State Kirchhoff's two laws in correct wording, say what each of them is used for, and correct the wording of the slide where the machine translation from German has gone wrong.",
+  "solution": "Node rule (Kirchhoff I, Knotenregel): at every node the sum of all currents, each weighted with +1 or -1 according to the chosen node orientation (inflow positive, outflow negative), is equal to zero. In words: what flows into a node flows out of it, charge does not accumulate. It supplies the nodal equations.\n\nMesh rule (Kirchhoff II, Maschenregel): in every closed mesh the sum of all voltages, each weighted with +1 or -1 according to the chosen direction of circulation, is equal to zero. In words: going once round a loop you return to the same potential. It supplies the mesh equations.\n\nUse: together with the component equations the nodal and mesh equations determine all currents and voltages of a network; they are the basis of the load flow calculation. The consequence the slide draws is the important one for this lecture: electricity flows according to Kirchhoff's laws, i.e. it distributes itself over all parallel paths in inverse proportion to their impedance and not along the contractual path. This is why physical and commercial flows differ, why loop flows through neighbouring countries occur, and why a transmission grid cannot be operated like a set of point-to-point contracts.\n\nCorrections to the slide: 'stitch orientation' must read mesh orientation (German Masche means mesh, not stitch); 'the sum of all tensions in a mesh' must read voltages (German Spannung means voltage); and the sentence 'The voltage source is loaded with a mixed resistance of R and XL' has been copied over from the previous slide and has nothing to do with Kirchhoff's laws.",
+  "keywords": [
+   "sum of all currents",
+   "sum of all voltages",
+   "nodal equations",
+   "mesh equations",
+   "load flow",
+   "loop flows"
+  ]
+ },
+ {
+  "id": "b08-062",
+  "slide": 547,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Give the formula for the ohmic resistance of a line together with the resistivities in the table, calculate the resistance of a 100 km aluminium overhead line with a cross-section of 300 mm2, and explain why aluminium is used although copper conducts better.",
+  "solution": "Formula: R = rho x l / a, with rho the resistivity in ohm-metres, l the length of the conductor and a its cross-section. The resistance therefore grows in proportion to the length and falls in inverse proportion to the cross-section.\n\nResistivities at 20 degrees C from the table: aluminium 2.7 x 10^-8, iron 9.8 x 10^-8, copper 1.7 x 10^-8, fresh water 10 to 100, and a typical insulator 10^10 to 10^16 ohm-metres - about twenty-four orders of magnitude between a good conductor and an insulator.\n\nCalculation: R = 2.7 x 10^-8 ohm-metre x 100,000 m / (300 x 10^-6 m2) = 2.7 x 10^-3 / 3 x 10^-4 = 9 ohms for the 100 km aluminium line.\n\nMaterial choice: copper has a roughly 37 % lower resistivity than aluminium, so for the same resistance a copper conductor may be about a third thinner. But copper has roughly three times the density and is several times more expensive, so the copper conductor would still be about twice as heavy and far more costly - and on an overhead line the conductor weight determines the tower spacing and the tower design. Aluminium (in practice aluminium-steel composite conductors, where the steel core carries the mechanical load) is therefore the standard for overhead lines, while copper is used where the cross-section rather than the weight is the binding constraint, e.g. in cables and in windings. Iron would be unsuitable in any case: its resistivity is 3.6 times that of aluminium.",
+  "keywords": [
+   "rho",
+   "2.7 x 10^-8",
+   "1.7 x 10^-8",
+   "9 ohms",
+   "density",
+   "cross-section"
+  ]
+ },
+ {
+  "id": "b08-063",
+  "slide": 548,
+  "type": "open",
+  "prompt": "A power plant delivers 100 MW of power at a voltage of 20 kV; the line resistance is 3 ohms. State the three laws given on the slide and calculate the transmission loss for the 20 kV line, expressing the result also as a share of the transmitted power.",
+  "solution": "The three laws on the slide: (I) power P = U x I; (II) resistance R = U / I, i.e. U = R x I (Ohm's law); inserting II into I gives the line loss Pv = R x I squared. Note that the lecture works with the single-phase relation P = U x I.\n\nStep 1 - current: I = P / U = 100 x 10^6 W / (20 x 10^3 V) = 5000 A.\n\nStep 2 - loss: Pv = I squared x R = (5000 A) squared x 3 ohms = 25 x 10^6 x 3 = 7.5 x 10^7 W = 75 MW.\n\nThat is 75 % of the 100 MW fed into the line - three quarters of the energy would be turned into heat and the line would be unusable. The example is deliberately extreme, but the message is correct and general: the loss is driven by the current, and it grows with the square of the current. Doubling the transmitted power at the same voltage quadruples the loss.\n\nThe consequence, worked out on the following slide, is to transmit the same power at a higher voltage, because a higher voltage means a proportionally smaller current for the same power.",
+  "keywords": [
+   "5000 A",
+   "75 MW",
+   "75 %",
+   "square of the current",
+   "3 ohms",
+   "P = U x I"
+  ]
+ },
+ {
+  "id": "b08-064",
+  "slide": 549,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Same task, now for the 380 kV line (100 MW, 3 ohms): calculate the loss, compare it with the 20 kV case, derive the general relation between loss, power, resistance and voltage, and state the conclusion the slide draws.",
+  "solution": "Current: I = P / U = 100 x 10^6 W / (380 x 10^3 V) = 263 A.\nLoss: Pv = I squared x R = (263 A) squared x 3 ohms = 2.1 x 10^5 W = 0.21 MW, i.e. 0.21 % of the transmitted power - against 75 MW or 75 % on the 20 kV line.\n\nGeneral relation: substituting I = P/U into Pv = R x I squared gives Pv = R x P squared / U squared. At constant transmitted power the loss falls with the square of the voltage and grows with the square of the power. The factor between the two cases is (380/20) squared = 361, and indeed 75 MW / 361 = 0.21 MW.\n\nConclusion of the slide: lower resistance, reduce current, increase voltage (transform). Of the three levers the voltage is by far the most effective, because it enters quadratically while the resistance enters only linearly - doubling the conductor cross-section halves the loss, whereas raising the voltage by a factor of 19 cuts it by a factor of 361. This is why long-distance transmission uses the extra-high-voltage levels 220 kV and 380 kV, why every step between voltage levels requires a transformer, and why low voltage is only used over the last few hundred metres to the customer.\n\nMethodological note: the lecture uses the single-phase relation P = U x I. With the correct three-phase relation I = P / (root 3 x U x cos phi) and Pv = 3 x I squared x R the same expression Pv = R x P squared / U squared results, so the numbers are unaffected - but write down the formula the lecture uses.",
+  "keywords": [
+   "263 A",
+   "0.21 MW",
+   "361",
+   "square of the voltage",
+   "transform",
+   "380 kV"
+  ]
+ }
+]

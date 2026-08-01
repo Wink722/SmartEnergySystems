@@ -1,0 +1,325 @@
+[
+ {
+  "id": "b01x-001",
+  "slide": 50,
+  "type": "open",
+  "prompt": "Define a network in the graph-theoretical sense the lecture uses, and name the two sets it consists of.",
+  "solution": "A graph is a pair G = (V, E). V is a set whose elements are called vertices — the nodes of the network. E is a set of paired vertices whose elements are called edges, also referred to as links or lines. The two vertices x and y of an edge {x, y} are its endpoints; the edge joins x and y and is said to be incident on both. A vertex may belong to no edge at all, in which case it is simply not connected to anything.\n\nTranslated into energy infrastructure: the vertices are the entry and exit points, compressor stations, substations and interconnection points; the edges are the pipelines and lines between them. The lecture uses the undirected simple graph as the default — undirected to distinguish it from a directed graph, simple to distinguish it from a multigraph, where two vertices may be joined by more than one edge.\n\nThe reason for the formalism is that it makes the later statements precise: capacity is a property of edges, compatibility is a property of vertices, and the network effect is a statement about how many vertices are connected at all.",
+  "keywords": [
+   "vertices",
+   "edges",
+   "endpoints",
+   "undirected",
+   "multigraph",
+   "nodes"
+  ]
+ },
+ {
+  "id": "b01x-002",
+  "slide": 51,
+  "type": "open",
+  "prompt": "State Metcalfe's Law, explain what it claims about the utility of a network, and give the two criticisms the lecture raises against it.",
+  "solution": "Metcalfe's Law states that the utility of a network grows with U ~ n(n−1), where U is utility and n is the number of network users. Since n(n−1) grows roughly with the square of n, the claim is that doubling the number of participants roughly quadruples the value of the network. The underlying idea is that the utility of a consumer depends on the number of other users: each additional participant creates a potential connection with every existing one, so the value of the good increases with the quantity offered. These are positive network effects, and they are usually positive in the cases the lecture is interested in.\n\nThe two criticisms on the slide:\n1. The quality of connections is not taken into account — every link is counted as worth the same, which is plainly false in a real network.\n2. It assumes that all nodes can and will connect with all others, which overstates the number of connections that actually carry value.\n\nThe lecture classifies networks as material or virtual, and notes that most modern networks are both: a telecommunications network has physical cables and also supports digital communication between devices.",
+  "keywords": [
+   "utility",
+   "n(n-1)",
+   "network effects",
+   "quality of connections",
+   "all nodes",
+   "material",
+   "virtual"
+  ]
+ },
+ {
+  "id": "b01x-003",
+  "slide": 52,
+  "type": "open",
+  "prompt": "Metcalfe's Law is not the only network law. Name three of the alternatives the lecture lists and say what each claims.",
+  "solution": "Sarnoff's Law: the value of a network is proportional to the number of viewers or listeners — a linear relationship rather than a quadratic one. It fits broadcast networks, where participants receive but do not interconnect.\n\nOdlyzko's Law: network value does not increase as fast as Metcalfe's Law suggests. It is the explicit correction to Metcalfe — real users do not value all connections equally, so growth is slower than quadratic.\n\nBeckstrom's Law: the value of a network is directly proportional to the net economic value created by all transactions conducted over it. This grounds value in what actually happens on the network rather than in how many nodes it has.\n\nOthers on the list worth knowing: Zipf's Law — the frequency of an event is inversely proportional to its rank, so the top users generate most of the traffic. Braess's Paradox — adding a new route to a network can counterintuitively increase overall travel time, because users change their behaviour. The Law of Diminishing Marginal Returns — adding more resources eventually yields less incremental value. Bash's Law — the total value of a network becomes diluted as its size grows.\n\nThe point of the collection: network value is not one formula, and the choice of law changes the case for building more network.",
+  "keywords": [
+   "Sarnoff",
+   "linear",
+   "Odlyzko",
+   "Beckstrom",
+   "transactions",
+   "Zipf",
+   "Braess"
+  ]
+ },
+ {
+  "id": "b01x-004",
+  "slide": 53,
+  "type": "cloze",
+  "prompt": "A common transmission protocol between two network operators is an example of ___ compatibility.",
+  "accept": [
+   "communication",
+   "communication compatibility",
+   "Kommunikation"
+  ],
+  "solution": "Communication compatibility — the nodes have to speak the same language. The lecture's three types of compatibility, all of them prerequisites of a working network, are physical compatibility (the interface is a physical part of the product), communication compatibility (a common transmission protocol) and compatibility by convention (the interface works because of an agreement, such as a currency or a common time reference)."
+ },
+ {
+  "id": "b01x-005",
+  "slide": 54,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The lecture separates a network industry into four levels. Name them from top to bottom with one example each, and say why the separation matters.",
+  "solution": "Level 1 — network services: what the customer actually buys, for example air traffic, telecommunications services, or the generation and consumption of electricity.\nLevel 2 — infrastructure management: the operational control of the system, for example air traffic control or rail traffic control.\nLevel 3 — network infrastructures: the physical assets themselves, for example railroads, airports, telecommunications networks and electricity grids.\nLevel 4 — public resources on which the infrastructures and their management are built, for example land, air, space and water.\n\nThe separation matters because competition is possible on some levels and not on others. Level 1 can be fully competitive — many suppliers can sell electricity over the same wires. Level 3 is the natural monopoly, where duplication would be wasteful. Level 4 is not owned by anyone in the ordinary sense and is allocated by the state. Unbundling and regulation are precisely the instruments that keep these levels apart, so the monopoly on level 3 does not spill into the competitive level 1.",
+  "keywords": [
+   "network services",
+   "infrastructure management",
+   "network infrastructures",
+   "public resources",
+   "competition",
+   "natural monopoly"
+  ]
+ },
+ {
+  "id": "b01x-006",
+  "slide": 56,
+  "type": "open",
+  "prompt": "Price, fee, tariff, wage, licence fee and lease are related but not interchangeable. Explain what distinguishes each.",
+  "solution": "Price is the general term: the monetary compensation for a defined scope of service.\n\nFee: charged for public goods or services, often by non-profit organisations. The distinguishing feature is the nature of the provider and the public character of what is supplied, not the size of the amount.\n\nTariff: a price linked to application conditions — it only applies if you fall into the category the tariff defines. Network charges are tariffs in exactly this sense.\n\nWage: compensation for labour.\n\nLicence fee: a fee for a right rather than for a good or a service — you pay to be allowed to do something.\n\nLease and rental: fees for rights to real estate, i.e. a right of use limited in time.\n\nThe common thread, and the reason the lecture bothers: what is being paid for differs. A good, a service, a right, or access under conditions. In network industries this matters because a capacity charge buys a right to flow, not a quantity of gas — which is why it is due whether or not the capacity is used.",
+  "keywords": [
+   "monetary compensation",
+   "fee",
+   "public",
+   "tariff",
+   "application conditions",
+   "wage",
+   "licence",
+   "right"
+  ]
+ },
+ {
+  "id": "b01x-007",
+  "slide": 57,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Give the general definition of a price and name the four dimensions along which a price has to be specified before it means anything.",
+  "solution": "Price = monetary compensation divided by scope of services. A number on its own is not a price; it is only a price once it is clear what is being bought for it.\n\nThe four dimensions:\n1. Scope of service — what shall be priced? The components of the service have to be defined in detail.\n2. Location — where does which price apply? Prices at different locations are determined separately.\n3. Time — when does which price apply? Prices at different points in time are defined separately.\n4. Other restrictions — any further conditions limiting the validity of the price.\n\nThis structure is what makes the later gas chapters computable. An entry-exit tariff specifies scope (booked capacity), location (a named entry or exit point), time (per year or per day) and restrictions (firm or interruptible). Miss any one of the four and the same figure can mean two different things — which is exactly the trap in the ambiguity-of-storage-prices example later on.",
+  "keywords": [
+   "monetary compensation",
+   "scope of service",
+   "location",
+   "time",
+   "restrictions",
+   "validity"
+  ]
+ },
+ {
+  "id": "b01x-008",
+  "slide": 59,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The mobile phone tariff is used as an example of price definition. Show how its components map onto the four dimensions of a price.",
+  "solution": "Scope of service: the components that are billed at all — a base fee in € per month, a connection fee in €, a duration price in € per minute, and a maximum data volume of 2 GB. Each is a separate component with its own unit.\n\nLocation: the price depends on where the call is made — domestic, abroad within Europe, and international outside Europe are defined as separate locations with separate prices.\n\nTime: the price depends on when. The example defines day and night bands, 06h–18h against 18h–06h in one case and 07h–19h against 19h–07h in another, and seasonal periods, May to September against October to April.\n\nOther restrictions: the data cap of 2 GB limits the validity of the quoted price — beyond it, different terms apply.\n\nThe example is chosen because everyone has met it, and because it makes the point that a single headline number tells you almost nothing. Exactly the same structure reappears in a transport or storage tariff, where the components are entry capacity, exit capacity and commodity rather than minutes and megabytes.",
+  "keywords": [
+   "scope of service",
+   "base fee",
+   "location",
+   "domestic",
+   "time",
+   "restrictions",
+   "2 GB"
+  ]
+ },
+ {
+  "id": "b01x-009",
+  "slide": 61,
+  "type": "open",
+  "prompt": "Which industries does the lecture list as network industries, and what do they have in common that makes them a case for regulation?",
+  "solution": "The list: natural gas, electricity, water, wastewater, postal services, telecommunications, roads, railways and aviation.\n\nWhat they share is a physical or organisational network that has to exist before any service can be sold over it, and that network is expensive, long-lived and largely sunk. Building a second one next to the first would roughly double the cost without increasing the service, so a single supplier can serve the market more cheaply than several — the cost function is sub-additive and the network is a natural monopoly.\n\nThat combination is what makes them a regulatory case rather than an ordinary market. Competition works perfectly well in the stages before and after the network — production, trading, retail — but not in the network itself, so the network is separated out and its access and prices are set by the state instead of by competition. Every one of the industries on the list has been through some version of that liberalisation.",
+  "keywords": [
+   "natural gas",
+   "electricity",
+   "telecommunications",
+   "railways",
+   "sunk",
+   "sub-additive",
+   "natural monopoly",
+   "single supplier"
+  ]
+ },
+ {
+  "id": "b01x-010",
+  "slide": 62,
+  "type": "cloze",
+  "prompt": "A natural monopoly is a market situation in which a single supplier can serve the relevant market at lower costs than several suppliers; formally it is a property of the cost function, which is then called ___.",
+  "accept": [
+   "subadditive",
+   "sub-additive",
+   "subadditiv",
+   "sub additive"
+  ],
+  "solution": "Sub-additive. The lecture is explicit that the natural monopoly is a characteristic of the cost function, not of the firm or of its behaviour. It is often the result of high fixed costs together with low marginal costs and is often associated with economies of scale: total costs for providing the good are lower when only one company offers it."
+ },
+ {
+  "id": "b01x-011",
+  "slide": 63,
+  "type": "open",
+  "prompt": "Write down the formal condition for a sub-additive cost function and explain in words what it says.",
+  "solution": "Let C(x) be the cost function for producing output x. The cost function is sub-additive if, for any two outputs a and b:\n\nC(a+b) ≤ C(a) + C(b)\n\nIn words: the total cost of producing the combined output of two or more processes is less than or equal to the sum of the costs of producing each output separately. Producing a and b together never costs more than producing them apart, and usually costs less.\n\nSub-additivity reflects economies of scale or synergies in production — shared fixed assets, shared overhead, better utilisation of an indivisible plant. It indicates efficiency gains when resources are used in combination, and that is exactly why splitting a grid between two operators would raise total cost rather than lower it.\n\nWatch the direction of the argument in an exam: economies of scale are a sufficient but not a necessary condition for sub-additivity in the single-product case, and economies of scope alone are not sufficient. Sub-additivity is the definition; the others are causes that often produce it.",
+  "keywords": [
+   "C(a+b)",
+   "less than or equal",
+   "separately",
+   "economies of scale",
+   "synergies",
+   "sufficient",
+   "necessary"
+  ]
+ },
+ {
+  "id": "b01x-012",
+  "slide": 64,
+  "type": "open",
+  "prompt": "Name the characteristics of a natural monopoly the lecture lists, and be precise about the logical status of economies of scale and economies of scope.",
+  "solution": "The characteristics: economies of scale; economies of scope; network effects; high fixed costs, in particular investment and sunk costs; often a high demand for standardisation; a potential competitor having no interest in market entry; no artificial barriers to entry being necessary; indivisibilities, so that capacities can only be expanded in discrete increments — the density and bundling effects; and the possibility that the natural monopoly is unstable for individual submarkets.\n\nThe logical status is what gets marked. Economies of scale are, in the single-product case, a sufficient but not a necessary condition for sub-additivity — they produce it, but sub-additivity can arise without them. Economies of scope are not sufficient for sub-additivity at all. So neither is the definition; the definition is sub-additivity of the cost function, and these are the conditions that typically bring it about.\n\nTwo further points that are easy to state and easy to forget: no artificial barriers to entry are needed, because the cost structure itself deters entry, and a potential competitor stays out voluntarily. And instability for submarkets means that even where the whole market is a natural monopoly, parts of it may be contestable — which is precisely the argument for unbundling rather than for regulating everything.",
+  "keywords": [
+   "economies of scale",
+   "sufficient",
+   "not necessary",
+   "economies of scope",
+   "sunk costs",
+   "indivisibilities",
+   "market entry",
+   "instability"
+  ]
+ },
+ {
+  "id": "b01x-013",
+  "slide": 65,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows a chain from cost structure to regulation. Reproduce that chain and explain each arrow.",
+  "solution": "The chain reads: sub-additive cost function → natural monopoly → risk of monopoly rents → unbundling of vertically integrated companies → sector-specific regulation.\n\nFirst arrow: the cost function is sub-additive — driven by economies of scope, economies of scale and sunk costs — which by definition makes the activity a natural monopoly.\n\nSecond arrow: a monopolist without competitive pressure can raise price above cost. The result is the risk of monopoly rents and thus disadvantages for customers. Note that the slide phrases it as a risk, not a certainty: the monopoly itself is efficient, it is the pricing behaviour that is the problem.\n\nThird arrow: if the monopolist is also active in the competitive stages, it can use control of the bottleneck to disadvantage rivals there. The answer is unbundling — separating the vertically integrated company so that the network is not run by a party with an interest in who uses it.\n\nFourth arrow: separation alone does not set the price of network access, so the remaining monopoly is regulated sector by sector.\n\nThe important nuance: the aim is never to break the natural monopoly, because that would raise costs. The aim is to stop it being exploited.",
+  "keywords": [
+   "sub-additive",
+   "natural monopoly",
+   "monopoly rents",
+   "unbundling",
+   "vertically integrated",
+   "regulation",
+   "bottleneck"
+  ]
+ },
+ {
+  "id": "b01x-014",
+  "slide": 66,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the idea of \"as-if competition\" and which stages of the gas value chain it applies to.",
+  "solution": "The political objective is lower prices for the end customer. Theory says prices are lowest under perfect competition, so the natural instinct is to create competition. The insight that blocks it: perfect competition in energy transmission is not achievable, because transmission is a monopolistic bottleneck — a natural monopoly.\n\nThe solution the lecture names is \"as-if competition\" for the monopolistic bottleneck: since real competition cannot exist there, the state imposes the outcome competition would have produced. Concretely that means state determination of access and of prices or quantities — which is regulation.\n\nThe expected result is an increase in the number of providers of the commodity, and therefore genuine competition in the sale of the energy.\n\nApplied to the value chain shown on the slide — production, transportation, storage, distribution, retail — the split is: transportation and distribution are the bottleneck and are regulated. Production, trading and retail are competitive and are not. Storage sits in between and has been treated differently in different jurisdictions. That division is the whole architecture of the European energy market.",
+  "keywords": [
+   "monopolistic bottleneck",
+   "as-if competition",
+   "access",
+   "prices",
+   "transportation",
+   "distribution",
+   "retail",
+   "competitive"
+  ]
+ },
+ {
+  "id": "b01x-015",
+  "slide": 67,
+  "type": "open",
+  "prompt": "Distinguish horizontal from vertical integration and say which of the two unbundling is aimed at.",
+  "solution": "Horizontal integration is the consolidation of businesses at the same stage of the value chain — the same element — under unified management or within one new company. Two regional distributors merging is horizontal integration.\n\nVertical integration is the combination of all elements of the value chain, that is of successive production stages, within one company. A utility that produces, transports, stores and sells gas is vertically integrated.\n\nUnbundling is aimed at vertical integration. The problem it addresses is that a company owning the network and also selling the commodity has an interest in who gets network access on what terms — it can favour its own sales arm and squeeze competitors out of the stages where competition is supposed to work. Separating the stages removes the incentive along with the opportunity.\n\nHorizontal integration is not harmless — it is the classic concern of general competition law and merger control — but it is not what sector-specific unbundling is for.",
+  "keywords": [
+   "horizontal integration",
+   "same stage",
+   "vertical integration",
+   "value chain",
+   "one company",
+   "unbundling",
+   "network access"
+  ]
+ },
+ {
+  "id": "b01x-016",
+  "slide": 68,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure shows the levels of unbundling as a ladder. Name them from the weakest to the strongest and say what changes at each step.",
+  "solution": "Read the figure from the bottom up. In every band the activities are the same — storage, transport, trading, distribution and other services — what changes is how far they are separated from one another.\n\n1. Accounting separation (Kontenseparierung). One owner, one company, the activities still inside it, but separate accounts per activity. Nothing changes operationally; the point is only that cross-subsidies become visible.\n\n2. Organisational separation. Still one owner and one company, but the activities are now distinct organisational units with their own management and their own decision-making. Information and staff are separated.\n\n3. Founding separate companies — legal unbundling. The activities become legally independent companies, each with its own balance sheet, but they still have the same owner behind them.\n\n4. Disintegration through a change in the ownership structure of the separate companies — ownership unbundling. The top band of the figure shows owners A to E, one per activity: the companies are now in different hands, and the strategic interest in favouring a sister company disappears with the common shareholder.\n\nThe ladder is a genesis as well as a classification: European energy regulation moved up it step by step, and each step was resisted harder than the last because each takes away more.",
+  "keywords": [
+   "accounting separation",
+   "organisational",
+   "legal",
+   "separate companies",
+   "ownership",
+   "same owner",
+   "cross-subsidies"
+  ]
+ },
+ {
+  "id": "b01x-017",
+  "slide": 69,
+  "type": "open",
+  "prompt": "What does unbundling together with regulation actually change in the market, and which price does the customer pay for it?",
+  "solution": "The separation runs between trading and wholesale, transportation and distribution, and storage. Its consequences, as the slide lists them:\n\nNo more \"integrated\" supplies. The customer no longer buys one bundled product from one company that produces, moves and sells the gas. The molecule, the transport and the storage become three separately purchased products with three separate prices.\n\nIndependent companies. The network operator is a company in its own right, with its own accounts and its own regulator, and it has no interest in who ships gas through it.\n\nNon-discrimination. Every shipper gets access on the same published terms — which is what makes competition in trading and retail possible in the first place.\n\nThe price paid for it is complexity, and the slide says so explicitly. Where one contract used to do, there are now several; where one company was responsible, there are several, each with its own nominations, balancing rules and liability regime. That complexity is not an accident of implementation, it is the direct cost of the separation — and it is why a large part of this lecture is about contracts.",
+  "keywords": [
+   "trading",
+   "transportation",
+   "storage",
+   "integrated",
+   "independent companies",
+   "non-discrimination",
+   "complexity"
+  ]
+ },
+ {
+  "id": "b01x-018",
+  "slide": 70,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the structure of the European natural gas market as the lecture draws it, from producer to end user.",
+  "solution": "The chain of parties runs: producer → importer → regional utility → regional distributor → local distributor → end user, with a hub sitting alongside as the place where gas is traded rather than moved.\n\nThe essential feature of the diagram is that each of these stages carries the same three functions in parallel: trading and sales services on one side, and transportation and storage on the other. Every level buys the commodity from the level above, and independently of that buys transport capacity and, if it needs flexibility, storage capacity.\n\nThat is the visual statement of what unbundling did. The vertical chain is the commercial route the molecule takes and the horizontal boxes are the regulated infrastructure services that every participant buys separately. The hub is what makes the commodity fungible: gas can be bought and sold there without anyone knowing or caring which physical path it takes, because entry-exit capacity has replaced point-to-point transport.\n\nThe parenthetical stages in the figure — regional utility, regional distributor, local distributor — are bracketed because they are not always present. Large customers buy at the hub directly.",
+  "keywords": [
+   "producer",
+   "importer",
+   "distributor",
+   "end user",
+   "hub",
+   "trading",
+   "transportation",
+   "storage"
+  ]
+ },
+ {
+  "id": "b01x-019",
+  "slide": 71,
+  "type": "open",
+  "prompt": "Give the lecture's definition of regulation and name the instruments through which it works.",
+  "solution": "Regulation is the entirety of all sector-specific rules through which the government intervenes in free competition in order to correct market failures or to enforce governmental objectives around competition. Put more concretely: governmental measures that control the pricing, sales and production decisions of private companies. The aim is to prevent private decisions that inadequately consider the general interest.\n\nTwo words in that definition carry weight. Sector-specific separates regulation from general competition law, which applies to every industry — regulation is the extra layer that exists because of the natural monopoly. And intervention in free competition makes clear that regulation is an exception requiring justification, not the normal state of affairs.\n\nThe instruments listed: laws; directives; administrative decisions; \"voluntary\" guidelines — the quotation marks are the lecture's own, since voluntary compliance under regulatory supervision is not entirely voluntary; and support of standards, for example DIN and EN standards.\n\nNote how the instruments range from hard to soft. Not everything a regulator achieves is achieved by prohibition; a standard that everyone adopts shapes the market just as effectively.",
+  "keywords": [
+   "sector-specific",
+   "market failures",
+   "pricing",
+   "general interest",
+   "laws",
+   "directives",
+   "administrative decisions",
+   "standards"
+  ]
+ },
+ {
+  "id": "b01x-020",
+  "slide": 64,
+  "type": "mc",
+  "prompt": "Which statement about economies of scale and sub-additivity is correct in the single-product case?",
+  "options": [
+   "Economies of scope are sufficient for sub-additivity.",
+   "Economies of scale and sub-additivity are equivalent.",
+   "Economies of scale are a necessary but not a sufficient condition for sub-additivity.",
+   "Economies of scale are a sufficient but not a necessary condition for sub-additivity."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "In the single-product case economies of scale are sufficient but not necessary for a sub-additive cost function: where they exist, sub-additivity follows, but sub-additivity can also arise without them. Economies of scope are explicitly not sufficient. The definition of a natural monopoly is sub-additivity itself; scale and scope are the conditions that typically produce it."
+ }
+]

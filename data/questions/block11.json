@@ -1,0 +1,1031 @@
+[
+ {
+  "id": "b11-001",
+  "slide": 680,
+  "type": "open",
+  "prompt": "Give the gravimetric and the two volumetric energy densities of methane, its boiling point and its hydrogen mass content, and explain why methane's global warming potential matters for a power-to-gas strategy.",
+  "solution": "Methane (CH4) carries 13.9 kWhLHV/kg. Volumetrically it is 9.96 kWhLHV/m3 as a gas at standard conditions and 6.3 kWhLHV/l once liquefied - the factor of roughly 600 between the two is exactly why LNG exists. Its hydrogen content is 25.13 wt.-%, i.e. a quarter of the mass is hydrogen. It boils at -162 °C, which is 91 K warmer than liquid hydrogen at -253 °C, so a methane tank has far less boil-off and much cheaper insulation. Methane is an organic, colourless and odourless flammable gas, occurs naturally as the main component of natural gas (75 - 99 %) and is constantly created by microorganisms; global extraction is about 4 trillion m3/a, roughly 40,000 TWh/a. The catch is leakage: methane has a global warming potential 28 times greater than CO2 on a 100-year timescale and a factor of 84 on a 20-year timescale, so even a small leakage rate along the synthetic-methane chain can cancel the climate benefit of replacing fossil gas.",
+  "keywords": [
+   "13.9 kWhLHV/kg",
+   "9.96 kWhLHV/m3",
+   "6.3 kWhLHV/l",
+   "25.13 wt.-%",
+   "-162 °C",
+   "40,000 TWh/a",
+   "28 times",
+   "84"
+  ]
+ },
+ {
+  "id": "b11-002",
+  "slide": 680,
+  "type": "cloze",
+  "prompt": "Methane's global warming potential is ___ times that of CO2 on a 100-year timescale.",
+  "accept": [
+   "28",
+   "28 times",
+   "factor 28"
+  ],
+  "solution": "28. On a 100-year horizon methane is 28 times more potent than CO2; on a 20-year horizon the factor is 84. That is why methane slip from production, pipelines, LNG terminals and ship engines is the central climate risk of an SNG or LNG strategy, and why it appears again as one of the four challenges of SNG."
+ },
+ {
+  "id": "b11-003",
+  "slide": 681,
+  "type": "open",
+  "prompt": "Write down the methanation reaction, state its thermodynamics and operating window, and give the stoichiometric input per kilogram of methane. Which efficiency does the lecture quote and at which TRL is the technology?",
+  "solution": "Methanation runs the Sabatier process: 4 H2 + CO2 -> CH4 + 2 H2O. The reaction is highly exothermic with dH0 = -164.9 kJ/mol, so the reactor has to be cooled and the reaction heat is a by-product that should be used elsewhere. It operates at 300 - 450 °C and 1 - 5 bar. The efficiency is about 80 %, against a theoretical limit of 83 % - the gap to 100 % is exactly the reaction enthalpy that leaves the reactor as heat. Stoichiometrically 1 kg of CH4 needs 0.50 kg H2 and 2.74 kg CO2, which is why methanation always has to be paired with a carbon source; the complete power-to-methane chain is therefore CO2 capture + electrolysis + synthesis. The lecture places methanation at TRL 7, system prototype demonstration in an operational environment.",
+  "keywords": [
+   "4 H2 + CO2",
+   "-164.9 kJ/mol",
+   "300 - 450 °C",
+   "1 - 5 bar",
+   "80 %",
+   "83 %",
+   "0.50 kg H2",
+   "2.74 kg CO2",
+   "TRL 7"
+  ]
+ },
+ {
+  "id": "b11-004",
+  "slide": 681,
+  "type": "cloze",
+  "prompt": "The catalytic production of methane from H2 and CO2 is called ___, whereas the anaerobic digestion of organic matter by microorganisms is called methanisation.",
+  "accept": [
+   "methanation",
+   "Sabatier process",
+   "Sabatier reaction",
+   "methanation (Sabatier)"
+  ],
+  "solution": "Methanation, i.e. the Sabatier reaction. The lecture insists on this distinction: methanation is the catalytic Sabatier process 4 H2 + CO2 -> CH4 + 2 H2O at 300 - 450 °C, whereas methanisation is the biological route, the anaerobic digestion of organic matter by microorganisms that produces biogas."
+ },
+ {
+  "id": "b11-005",
+  "slide": 681,
+  "type": "mc",
+  "prompt": "Which statement about the Sabatier methanation reaction 4 H2 + CO2 -> CH4 + 2 H2O is correct?",
+  "options": [
+   "It is endothermic (dH0 = +164.9 kJ/mol) and therefore needs a high-temperature heat supply.",
+   "It is highly exothermic (dH0 = -164.9 kJ/mol) and runs at 300 - 450 °C and 1 - 5 bar.",
+   "It runs at ambient temperature but requires 200 - 300 bar, like the Haber-Bosch synthesis.",
+   "It produces methane and oxygen, so no separate carbon source is needed."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Methanation is highly exothermic, dH0 = -164.9 kJ/mol, and the lecture gives 300 - 450 °C and 1 - 5 bar as the operating window. The endothermic variant inverts the sign: the reaction releases heat, it does not consume it, and that released enthalpy is the main efficiency loss (about 80 % efficiency, theoretical limit 83 %). The high-pressure variant confuses methanation with Haber-Bosch, which does need 150 - 300 bar. The last option is wrong twice: the products are methane and water, not oxygen, and 2.74 kg of CO2 are needed per kilogram of methane, so a carbon source is indispensable."
+ },
+ {
+  "id": "b11-006",
+  "slide": 682,
+  "type": "open",
+  "prompt": "A power-to-methane plant sources its CO2 either from direct air capture or from a point source. Calculate the capture energy per kilogram of methane in both cases, express it as a share of the methane's energy content, and say what follows for the choice of carbon source.",
+  "solution": "Methanation needs 2.74 kgCO2 per kgCH4.\\nDirect air capture: the lecture gives 2 - 2.5 MWh per tonne of CO2, i.e. 2 - 2.5 kWh/kgCO2, of which roughly 80 % is heat and 20 % electricity. With the upper value: 2.74 kgCO2/kgCH4 * 2.5 kWh/kgCO2 = 6.9 kWh/kgCH4.\\nPoint source capture: heat demand about 0.5 - 1 MWh/t plus 0.05 - 0.15 MWh/t of electricity, i.e. roughly 1.1 kWh/kgCO2 in total: 2.74 kgCO2/kgCH4 * 1.1 kWh/kgCO2 = 3.0 kWh/kgCH4.\\nMethane carries 13.9 kWh/kg (LHV). Direct air capture therefore consumes 6.9 / 13.9 = 50 % of the product's own energy content, point source capture 3.0 / 13.9 = 22 %.\\nInterpretation: carbon capture is not a side issue but a major energy consumer of the chain, charged on top of the electrolysis losses. Point sources are far cheaper energetically but usually fossil, so the carbon is only used twice rather than removed; DAC is climate-neutral and location-independent but roughly doubles the capture energy, and its costs are only expected to reach a level below 100 €/tCO2 in the long term.",
+  "keywords": [
+   "2.74 kgCO2",
+   "6.9 kWh/kgCH4",
+   "3.0 kWh/kgCH4",
+   "13.9 kWh/kg",
+   "50 %",
+   "22 %",
+   "100 €/tCO2"
+  ]
+ },
+ {
+  "id": "b11-007",
+  "slide": 682,
+  "type": "cloze",
+  "prompt": "Capturing CO2 from the atmosphere itself, at an energy demand of about 2 - 2.5 MWh/t of which roughly 80 % is heat, is called ___.",
+  "accept": [
+   "direct air capture",
+   "DAC",
+   "Direct Air Capture (DAC)",
+   "direct-air capture"
+  ],
+  "solution": "Direct air capture (DAC). It needs about 2 - 2.5 MWh per tonne of CO2, roughly 80 % heat and 20 % electricity, and costs might reach a level below 100 €/tCO2 in the long term. Its counterpart is point source capture at a power plant, steel works or cement plant, which needs only about 0.5 - 1 MWh/t of heat plus 0.05 - 0.15 MWh/t of electricity but delivers carbon of fossil origin."
+ },
+ {
+  "id": "b11-008",
+  "slide": 683,
+  "type": "open",
+  "prompt": "Name the advantages the lecture claims for synthetic natural gas as an energy carrier, and explain why the infrastructure re-use argument is stronger for SNG than for any other hydrogen derivative.",
+  "solution": "Four advantages. (1) Re-use of the full natural gas infrastructure and its applications: pipelines, underground storage of roughly 260 TWh, gas-fired power plants, heating systems, ships and gas transport applications all accept SNG unchanged, because it is chemically identical to natural gas. (2) High energy density: 13.9 kWh/kg and 6.3 kWh/l liquefied, far above liquid hydrogen. (3) Easier handling than hydrogen, because the higher boiling point of -162 °C against -253 °C means much less boil-off and cheaper insulation. (4) Well-experienced application, handling and transport - a century of industrial practice with natural gas transfers directly. The re-use argument is stronger than for ammonia, methanol or LOHC because those carriers inherit only parts of an existing world (LPG ships, oil tanks, oil pipelines), whereas SNG inherits the complete gas chain from the import terminal to the domestic boiler: it is a drop-in molecule, not a substitute.",
+  "keywords": [
+   "260 TWh",
+   "13.9 kWh/kg",
+   "6.3 kWh/l",
+   "-162 °C",
+   "boil-off",
+   "drop-in"
+  ]
+ },
+ {
+  "id": "b11-009",
+  "slide": 684,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the European gas transmission grid next to a table of technical working gas volume in underground storage. Which country holds the largest volume, what is the EU total, and how does the table explain the '260 TWh' figure claimed for SNG on the previous slide?",
+  "solution": "The table lists operational, under-construction and planned technical working gas volume per country in TWh. Germany is by far the largest with 260.5 TWh operational plus 5.9 TWh planned, 266.4 TWh in total; Italy follows with 195.4 TWh operational (244.7 TWh including construction and plans), then the Netherlands with 144.6 TWh, France with 132.3 TWh, Austria with 95.2 TWh and Hungary with 69.6 TWh. The EU sums to 1,148.2 TWh operational, 11.1 TWh under construction and 85.2 TWh planned, 1,243.5 TWh in total. This makes the '260 TWh' of the SNG advantage slide readable: it is the German operational storage volume, not the European one, and the European figure is almost five times larger. The map beside it makes the same point graphically - a dense meshed transmission grid with storage sites concentrated in Germany, the Netherlands, northern Italy and Austria, all of which synthetic methane could use without any modification.",
+  "keywords": [
+   "260.5 TWh",
+   "195.4 TWh",
+   "144.6 TWh",
+   "1,148.2 TWh",
+   "1,243.5 TWh",
+   "Germany"
+  ]
+ },
+ {
+  "id": "b11-010",
+  "slide": 686,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the world map of LNG infrastructure: which two terminal types are distinguished, where does each cluster, and what does that geography imply for a future trade in synthetic methane?",
+  "solution": "The map distinguishes operational liquefaction terminals (circles) from operational regasification terminals (triangles) and draws the main LNG trade routes between them. Liquefaction terminals sit at the resource end: the US Gulf coast, the Caribbean, North and West Africa, Qatar and the Gulf, the Russian Arctic coast, Malaysia, Indonesia and north-west Australia. Regasification terminals sit at the demand end and are far more numerous: Japan, South Korea, China and the rest of East Asia dominate, followed by a dense ring around Europe (Iberia, France, Italy, north-west Europe) and India. The trade routes form a genuinely global network rather than a set of bilateral pipeline links, which is the structural difference between LNG and pipeline gas. The implication for SNG is the point of the whole section: liquefied synthetic methane is the same molecule as LNG, so this entire built network of liquefaction plants, carriers and import terminals can be used unchanged, whereas a hydrogen trade would have to build its equivalent from scratch - hydrogen currently has one import and one export terminal worldwide.",
+  "keywords": [
+   "liquefaction terminals",
+   "regasification terminals",
+   "trade routes",
+   "East Asia",
+   "unchanged"
+  ]
+ },
+ {
+  "id": "b11-011",
+  "slide": 687,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The LNG-tanker slide gives the state of the global fleet. Which set of figures is correct?",
+  "options": [
+   "701 active vessels, 43 newly delivered, an orderbook of 359 vessels, and an average capacity that rises steeply towards 2029.",
+   "About 6,500 active vessels, of which 47 are FSRUs, with a stagnating orderbook.",
+   "701 active vessels, no orderbook at all, because LNG shipping is considered a stranded-asset business.",
+   "359 active vessels, 701 on order, and an average capacity that has been falling since 2010."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The fleet consists of 701 active vessels, 43 of them new, including 47 FSRUs (floating storage and regasification units) and 10 FSUs, and the global LNG vessel orderbook stands at 359 vessels. The bar chart of deliveries by year shows a first wave around 2006 - 2009, a lull after 2010, and a very large wave scheduled for 2024 - 2028, while the yellow average-capacity line rises from about 110,000 m3 in the early 1990s to roughly 175,000 m3 today and jumps towards 275,000 m3 for the vessels on order. Swapping 701 and 359 inverts fleet and orderbook; the figure of about 6,500 vessels belongs to the oil tanker world (more than 8,800 oil tankers); and an orderbook half the size of the existing fleet is the opposite of a stranded-asset business."
+ },
+ {
+  "id": "b11-012",
+  "slide": 688,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the development of global liquefaction capacity off the chart: order of magnitude at the start and at the end of the period, the shape of the growth, and which regions drive it.",
+  "solution": "The chart plots global liquefaction capacity in MTPA (million tonnes per annum) by region from 1990 to the mid-2020s. It starts at roughly 75 MTPA in 1990, is still only about 100 MTPA around 2000, passes 300 MTPA around 2010 and then rises to about 860 MTPA at the end of the series - more than a tenfold increase in thirty-five years, with the steepest section after 2020. The growth is not smooth: there is a plateau between about 2010 and 2015 and then a sharp acceleration. Regionally, Asia Pacific (Australia, Malaysia, Indonesia) is the largest single block throughout, the Middle East (above all Qatar) is second, Africa contributes a stable base, the former Soviet Union a smaller one, and North America is the fastest-growing block after 2016, when US shale gas turned the country from a prospective importer into the swing exporter. The relevance for the lecture: this is a fully built and still rapidly expanding global chain that synthetic methane can enter as a drop-in molecule.",
+  "keywords": [
+   "MTPA",
+   "75 MTPA",
+   "860 MTPA",
+   "Asia Pacific",
+   "Middle East",
+   "North America"
+  ]
+ },
+ {
+  "id": "b11-013",
+  "slide": 689,
+  "type": "open",
+  "prompt": "Name the challenges of SNG as an energy carrier and rank them by how much they threaten the concept.",
+  "solution": "The lecture lists four. (1) Energy-intense CO2 extraction, whether by direct air capture or from a point source: 6.9 kWh/kgCH4 with DAC and 3.0 kWh/kgCH4 with point source capture, i.e. 50 % respectively 22 % of the methane's own 13.9 kWh/kg. (2) Lower efficiency compared to the direct use of hydrogen, because methanation at about 80 % is stacked on top of electrolysis at 63 - 70 %; the maritime methane chain ends at only 31 - 54 % overall, the worst of all derivatives. (3) High investment costs due to the complex production chain of electrolyser, capture plant and synthesis reactor. (4) Risk of methane leakage with a high impact on global warming, since methane has 28 times the warming effect of CO2 over 100 years. Ranked: the efficiency penalty is the structural problem, because it follows from thermodynamics and will not disappear with learning; leakage is the risk that can void the climate benefit entirely and is the reason methane is treated with suspicion despite its perfect infrastructure fit; capture energy and capital costs are expected to fall over time and are therefore the least threatening.",
+  "keywords": [
+   "6.9 kWh/kgCH4",
+   "3.0 kWh/kgCH4",
+   "80 %",
+   "63 - 70 %",
+   "31 - 54 %",
+   "methane leakage",
+   "28 times"
+  ]
+ },
+ {
+  "id": "b11-014",
+  "slide": 693,
+  "type": "cloze",
+  "prompt": "Liquid hydrocarbons produced from renewable electricity via the Fischer-Tropsch route are marketed as synfuels, e-fuels, FTF or, for aviation, ___.",
+  "accept": [
+   "e-SAF",
+   "eSAF",
+   "E-SAF",
+   "sustainable aviation fuel",
+   "sustainable aviation fuels",
+   "SAF"
+  ],
+  "solution": "E-SAF, electricity-based sustainable aviation fuel. Power-to-liquid produces synthetic liquid hydrocarbons with high similarity to conventional energy carriers - diesel, gasoline, kerosene - via the Fischer-Tropsch process; the same product is labelled synfuels, e-fuels, Fischer-Tropsch fuels (FTF) or e-SAF depending on the market being addressed. The multiplicity of names is itself examinable: they all denote the same molecule class."
+ },
+ {
+  "id": "b11-015",
+  "slide": 694,
+  "type": "open",
+  "prompt": "Write the Fischer-Tropsch reaction, give its thermodynamics, operating window and products, and explain the historical and geopolitical pattern behind the countries that have built FT plants.",
+  "solution": "The Fischer-Tropsch process is a collection of catalytic reactions that convert carbon monoxide and hydrogen into liquid hydrocarbons: (2n + 1) H2 + n CO -> CnH2n+2 + n H2O. It is highly exothermic with dH0 = -158 kJ/mol and runs at 150 - 350 °C and 1 - 25 bar; the chain length n, and thus the product slate, is set by catalyst, temperature and pressure. Possible products are synthetic fuels such as kerosene, diesel and naphtha, synthetic motor oils, waxes and olefines for the chemical industry. It was invented in 1925 and gained its first economic importance as coal liquefaction in the Third Reich, to reduce Germany's dependence on mineral oil imports. The geopolitical pattern has been the same ever since: countries with cheap carbon but no secure oil access, or under embargo, build FT plants - South Africa, China, Russia, Malaysia and Qatar - and accept the high investment costs because the alternative is import dependence. Power-to-liquid repeats the pattern with renewable electricity and captured CO2 in place of coal.",
+  "keywords": [
+   "(2n + 1) H2 + n CO",
+   "-158 kJ/mol",
+   "150 - 350 °C",
+   "1 - 25 bar",
+   "1925",
+   "coal liquefaction",
+   "South Africa"
+  ]
+ },
+ {
+  "id": "b11-016",
+  "slide": 694,
+  "type": "cloze",
+  "prompt": "The Fischer-Tropsch reaction converts a mixture of hydrogen and ___ into liquid hydrocarbons.",
+  "accept": [
+   "carbon monoxide",
+   "CO",
+   "carbon monoxide (CO)",
+   "Kohlenmonoxid"
+  ],
+  "solution": "Carbon monoxide. The reaction is (2n + 1) H2 + n CO -> CnH2n+2 + n H2O, highly exothermic at -158 kJ/mol; the H2/CO mixture is called syngas and is used in roughly a 2:1 stoichiometric ratio. In power-to-liquid the CO is not taken from coal gasification but produced from captured CO2 by the endothermic reverse water-gas shift reaction CO2 + H2 -> CO + H2O with dH = +41.2 kJ/mol."
+ },
+ {
+  "id": "b11-017",
+  "slide": 695,
+  "type": "open",
+  "prompt": "Sketch the power-to-liquid process chain and say what happens in each box. Which reaction produces the syngas, and in what ratio?",
+  "solution": "Four boxes in a row, with renewable electricity entering at the left. (1) CO2 capture: direct air capture or point source capture at a power plant, steel or cement production. (2) Electrolysis: renewable electricity and water give hydrogen. (3) Syngas production: part of the hydrogen reduces the captured CO2 to carbon monoxide in the endothermic reverse water-gas shift reaction, CO2 + H2 -> CO + H2O with dH = +41.2 kJ/mol. Syngas is the mixture of hydrogen and carbon monoxide, roughly in a 2:1 stoichiometric ratio, which is what the Fischer-Tropsch stoichiometry (2n + 1) H2 + n CO demands for long chains. (4) Synthesis: the Fischer-Tropsch reactor builds the liquid hydrocarbon, which is then upgraded to kerosene, diesel or naphtha. Note that the rWGS step is endothermic while the FT step is exothermic, so heat integration between the two is one of the main efficiency levers of the plant - and it is exactly the integration that the high-temperature co-electrolysis route takes one step further.",
+  "keywords": [
+   "CO2 capture",
+   "electrolysis",
+   "reverse water-gas shift",
+   "CO2 + H2",
+   "41.2 kJ/mol",
+   "2:1",
+   "Fischer-Tropsch"
+  ]
+ },
+ {
+  "id": "b11-018",
+  "slide": 695,
+  "type": "mc",
+  "prompt": "Syngas for the Fischer-Tropsch synthesis is produced in power-to-liquid plants by the reverse water-gas shift reaction. Which description is correct?",
+  "options": [
+   "CO + H2O -> CO2 + H2, exothermic; the product is a roughly 1:2 mixture of H2 and CO.",
+   "CH4 + H2O -> CO + 3 H2, endothermic; the syngas comes from steam reforming of natural gas.",
+   "CO2 + H2 -> CO + H2O, endothermic with dH = +41.2 kJ/mol; the product is a roughly 2:1 mixture of H2 and CO.",
+   "CO2 + 4 H2 -> CH4 + 2 H2O, exothermic; the methane is afterwards cracked to syngas."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The reverse water-gas shift uses hydrogen to strip one oxygen atom from CO2: CO2 + H2 -> CO + H2O. Run in this direction it is endothermic, dH = +41.2 kJ/mol, and it delivers the carbon monoxide that Fischer-Tropsch needs, giving syngas as an H2/CO mixture of roughly 2:1. The second option is the forward water-gas shift, which belongs to grey hydrogen production from steam reforming, not to PtL. The third option is steam reforming itself - a real syngas route, but a fossil one, and not what the PtL slide shows. The fourth is the Sabatier methanation reaction and belongs to power-to-gas; cracking the methane again would be a pointless detour."
+ },
+ {
+  "id": "b11-019",
+  "slide": 696,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows an 'innovative' Fischer-Tropsch chain with one box fewer than the conventional one. What has been merged, how does it work, and what is gained?",
+  "solution": "The conventional PtL chain has four steps: CO2 capture - electrolysis - syngas production (rWGS) - FT synthesis. In the innovative chain the middle two are merged into a single box labelled 'Electrolysis & Syngas Production', so only three boxes remain: CO2 capture - electrolysis and syngas production - synthesis (FT process). The mechanism is high-temperature co-electrolysis in a solid oxide cell: water and captured CO2 are fed into the same stack and reduced simultaneously to H2 and CO, so renewable syngas leaves the electrolyser ready for the FT reactor. Because there is only one reactor and no separate endothermic rWGS stage that has to be heated and integrated, conversion losses are minimal and one whole process stage with its capital cost disappears. The commercial example is Sunfire's 'SynLink SOEC', whose flow picture reads: renewable electricity plus water plus captured CO2 into the SOEC, renewable syngas (CO + H2) out.",
+  "keywords": [
+   "co-electrolysis",
+   "solid oxide",
+   "SynLink SOEC",
+   "one reactor",
+   "syngas",
+   "rWGS"
+  ]
+ },
+ {
+  "id": "b11-020",
+  "slide": 697,
+  "type": "open",
+  "prompt": "Why does the lecture call Fischer-Tropsch fuels the most infrastructure-friendly hydrogen derivative? Name the advantages and give the energy densities that back the claim.",
+  "solution": "Four advantages. (1) Re-use of the mineral oil infrastructure and its applications without adaptions: refineries, product pipelines, tank farms, filling stations, ships, engines and turbines take FTF as a drop-in fuel, because the molecule belongs to the same hydrocarbon class as diesel or kerosene. (2) The highest volumetric energy density of all derivatives, comparable with mineral oil products: 9.7 kWh/l, against 6.3 kWh/l for liquefied methane, 4.7 kWh/l for methanol, 3.2 kWh/l for liquid ammonia and 2.4 kWh/l for liquid hydrogen; gravimetrically 11.9 kWh/kg. (3) Easy, well-experienced handling, because the fuel is liquid at ambient temperature and pressure - no refrigeration, no pressure vessel, no boil-off. (4) High expected public acceptance, precisely because of the product similarity to conventional energy carriers such as diesel and crude oil products. That combination is what makes FTF the preferred option for aviation, where no other carrier fits the existing aircraft, tank volumes and airport fuel systems.",
+  "keywords": [
+   "mineral oil infrastructure",
+   "9.7 kWh/l",
+   "11.9 kWh/kg",
+   "drop-in",
+   "boil-off",
+   "aviation"
+  ]
+ },
+ {
+  "id": "b11-021",
+  "slide": 699,
+  "type": "open",
+  "prompt": "Name the challenges of Fischer-Tropsch fuels and explain the sectoral conclusion the lecture draws from them.",
+  "solution": "Four challenges. (1) Energy-intense CO2 extraction from DAC or a point source, the same burden as for SNG. (2) Lower efficiency compared to the direct use of hydrogen, because electrolysis, reverse water-gas shift and FT synthesis are stacked on top of each other. (3) Complex synthesis processes and therefore high capital costs. (4) Currently only small-scale industrial implementation of e-fuel production, so the product is expensive: more than 200 €/MWh. The conclusion is sectoral: because the fuel will stay expensive, it is presumably limited to air and maritime applications - the two sectors in which direct electrification and hydrogen fail, because batteries are too heavy and hydrogen tanks too bulky for the required range, and in which the existing fleet and refuelling infrastructure cannot be replaced within one asset generation. For cars, heating and most industry the clean hydrogen ladder puts direct electrification far above e-fuels.",
+  "keywords": [
+   "200 €/MWh",
+   "efficiency",
+   "capital costs",
+   "air and maritime",
+   "direct electrification"
+  ]
+ },
+ {
+  "id": "b11-022",
+  "slide": 700,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide shows the process-cost breakdown of Australian PtL production for 2020, 2030, 2040 and 2050. Read off the totals and say which components dominate and which shrink most.",
+  "solution": "The stacked bars give process costs in EUR/MWh for the years 2020, 2030, 2040 and 2050. The total falls from about 200 €/MWh in 2020 to roughly 145 €/MWh in 2030, about 120 €/MWh in 2040 and about 85 €/MWh in 2050 - a reduction of some 60 % over three decades. The cost components shown are wind, solar, biomass, PEM electrolysis, Fischer-Tropsch, DAC, battery, H2 storage, CO2 storage, tank and transport. Two blocks dominate throughout: the renewable electricity supply, mostly solar with a small wind share, and the PEM electrolyser; together they make up well over two thirds of the cost in every year, and they are also the blocks that shrink most in absolute terms, because PV and electrolyser capex are the fastest-learning components. DAC and the Fischer-Tropsch synthesis shrink far less and therefore take a growing share of the remaining cost. Transport is a minor item throughout. The message for the exam: e-fuel cost is essentially electricity cost plus electrolyser cost, which is why cheap-electricity locations such as Australia are the natural production sites even though the product then has to be shipped 14,000 km.",
+  "keywords": [
+   "EUR/MWh",
+   "200 €/MWh",
+   "85 €/MWh",
+   "PEM",
+   "solar",
+   "DAC",
+   "electricity cost"
+  ]
+ },
+ {
+  "id": "b11-023",
+  "slide": 701,
+  "type": "cloze",
+  "prompt": "The Karlsruhe company that builds modular container-based rWGS and synthesis plants and broke ground in 2023 on the world's biggest PtL plant (2,500 t/a) in Frankfurt-Höchst is a KIT spin-off called ___.",
+  "accept": [
+   "INERATEC",
+   "Ineratec",
+   "INERATEC GmbH",
+   "Ineratec GmbH"
+  ],
+  "solution": "INERATEC GmbH. Founded in 2014 as a spin-off from KIT and headquartered in Karlsruhe, it sells modular SNG and e-fuel production facilities built into shipping containers, combining reverse water-gas shift and Fischer-Tropsch synthesis in one skid. In 2023 it broke ground on the world's biggest PtL plant, 2,500 t/a in Frankfurt-Höchst, for aviation, shipping and chemicals, with a supply contract signed among others with MPC Container Ships. The modular container approach is the point: it trades economies of scale for series production and short project lead times."
+ },
+ {
+  "id": "b11-024",
+  "slide": 704,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the energy-density scatter plot: what is on each axis, roughly where do LOHC, ammonia, methanol, liquefied methane, syn-fuels and hydrogen sit, and what is the trade-off the plot is meant to show?",
+  "solution": "The x-axis is the gravimetric energy density in kWhLHV/kg from 0 to 35, the y-axis the volumetric energy density in kWhLHV/l from 0 to 10, and every carrier is one dot. Hydrogen sits at the far right: liquid hydrogen at about 33 kWh/kg but only 2.4 kWh/l, and hydrogen compressed to 700 bar at the same gravimetric value with an even lower 1.3 kWh/l. LOHC is in the bottom left corner at about 2.1 kWh/kg and 1.6 kWh/l. Ammonia is at about 5.2 kWh/kg and 3.2 kWh/l, methanol at about 5.8 kWh/kg and 4.7 kWh/l; wood and lignite sit near them at about 5 kWh/kg and 2 - 4.3 kWh/l, hard coal at about 8 kWh/kg and 6.6 kWh/l. Liquefied methane is at 13.9 kWh/kg and 6.3 kWh/l. The best volumetric performers are the liquid hydrocarbons: syn-kerosene and syn-diesel at about 11.5 - 12 kWh/kg and 9.6 - 9.7 kWh/l, syn-gasoline slightly lower at 8.5 kWh/l. The trade-off: hydrogen wins by mass by a factor of about three but loses by volume by a factor of four, and because ships, aircraft and tanks are volume-limited rather than mass-limited, the derivatives that bind hydrogen into a carbon chain occupy the useful upper-middle corner. No carrier reaches both a high gravimetric and a high volumetric density - that is precisely why derivatives exist.",
+  "keywords": [
+   "gravimetric",
+   "volumetric",
+   "33 kWh/kg",
+   "2.4 kWh/l",
+   "9.7 kWh/l",
+   "6.3 kWh/l",
+   "volume-limited"
+  ]
+ },
+ {
+  "id": "b11-025",
+  "slide": 704,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the energy-density diagram, which carrier occupies the point of highest gravimetric but lowest volumetric energy density?",
+  "options": [
+   "Liquid hydrogen",
+   "LOHC",
+   "Liquefied methane",
+   "Syn-kerosene"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Liquid hydrogen: about 33 kWh/kg, the highest gravimetric density of any chemical fuel, but only 2.4 kWh/l; hydrogen at 700 bar is even worse volumetrically at roughly 1.3 kWh/l. LOHC is the opposite kind of extreme - poor on both axes at about 2.1 kWh/kg and 1.6 kWh/l, because the carrier molecule itself is dead weight that has to be shipped in both directions. Liquefied methane is the mid-field compromise at 13.9 kWh/kg and 6.3 kWh/l, and syn-kerosene is the volumetric winner at about 9.6 kWh/l with 11.5 kWh/kg."
+ },
+ {
+  "id": "b11-026",
+  "slide": 705,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the comparison table of H2 derivatives, give the gravimetric and volumetric energy density and the physical state at standard conditions for hydrogen, ammonia, methanol, LOHC, methane and syndiesel. Which of them need refrigeration, and why is ammonia the mildest of those cases?",
+  "solution": "Hydrogen 33.33 kWh/kg and 2.4 kWh/l as a liquid, gaseous at standard conditions with a boiling point of -253 °C. Ammonia 5.2 kWh/kg and 3.2 kWh/l liquid, gaseous at standard conditions, boiling point -33 °C. Methanol 5.8 kWh/kg and 4.7 kWh/l, liquid at standard conditions. LOHC 2.1 kWh/kg and 1.6 kWh/l for methylcyclohexane (MCH), liquid. Methane 13.9 kWh/kg and 6.3 kWh/l liquefied, gaseous at standard conditions, boiling point -162 °C. Syndiesel 11.9 kWh/kg and 9.7 kWh/l, liquid. Refrigeration or pressure is needed for the three that are gases: hydrogen at -253 °C is the extreme case and needs vacuum insulation, methane at -162 °C is the standard LNG case, and ammonia at -33 °C is the mildest, because that temperature is reachable with ordinary refrigeration and the gas can alternatively be held liquid at about 10 bar at ambient temperature, exactly as LPG is. Methanol, LOHC and syndiesel are liquid at ambient conditions and need nothing but an ordinary tank - the single biggest practical advantage of the carbon-based carriers.",
+  "keywords": [
+   "33.33 kWh/kg",
+   "5.2 kWh/kg",
+   "5.8 kWh/kg",
+   "2.1 kWh/kg",
+   "13.9 kWh/kg",
+   "11.9 kWh/kg",
+   "-253 °C",
+   "-33 °C",
+   "ambient"
+  ]
+ },
+ {
+  "id": "b11-027",
+  "slide": 705,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The comparison table has a row 'hydrogen release'. Explain what it means, give the figures for the carriers that have one, and say which carrier is the most expensive to convert back to hydrogen.",
+  "solution": "The row states the energy that has to be spent at the destination to get the hydrogen back out of the carrier, split into electricity and heat per kilogram of hydrogen released. Hydrogen itself only needs regasification of the liquid: 0.6 kWhel/kgH2. Ammonia cracking needs 10 kWhth/kgH2 plus 1.5 kWhel/kgH2. Methanol reforming needs 4.5 kWhth/kgH2 plus 3.2 kWhel/kgH2. LOHC dehydrogenation needs 13.5 kWhth/kgH2 plus 1.5 kWhel/kgH2 and is therefore the most expensive of all: the heat demand alone is about 40 % of the 33.33 kWh/kg the hydrogen contains, and it has to be supplied at high temperature, which is the well-known weak point of the LOHC concept. Methane and Fischer-Tropsch fuels have a dash in this row: they are not cracked back to hydrogen at all but burned as fuels, so the question does not arise. The table greys out the ammonia and methanol figures for a related reason - the intention is increasingly to use ammonia and methanol directly in engines and fuel cells rather than to release the hydrogen, because every release step destroys the efficiency advantage the derivative was chosen for.",
+  "keywords": [
+   "0.6 kWhel/kgH2",
+   "10 kWhth/kgH2",
+   "4.5 kWhth/kgH2",
+   "13.5 kWhth/kgH2",
+   "dehydrogenation",
+   "33.33 kWh/kg"
+  ]
+ },
+ {
+  "id": "b11-028",
+  "slide": 705,
+  "type": "cloze",
+  "prompt": "The LOHC quoted in the comparison table, with 2.1 kWh/kg and 1.6 kWh/l, is ___.",
+  "accept": [
+   "MCH",
+   "methylcyclohexane",
+   "methyl cyclohexane",
+   "MCH (methylcyclohexane)"
+  ],
+  "solution": "Methylcyclohexane (MCH), the hydrogenated form of toluene. It supplies the table's 2.1 kWh/kg and 1.6 kWh/l - the lowest energy density of all carriers listed, because the toluene skeleton is dead weight that has to be shipped in both directions. The table also marks LOHC as 'no release' in the carbon-free row: the carrier does contain carbon, but it never releases it, since the molecule is dehydrogenated and recycled instead of burned."
+ },
+ {
+  "id": "b11-029",
+  "slide": 705,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which carriers does the comparison table mark as carbon-free?",
+  "options": [
+   "Hydrogen and ammonia.",
+   "Hydrogen, ammonia and methanol.",
+   "Only hydrogen.",
+   "Hydrogen, ammonia and LOHC."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Only hydrogen and ammonia get a 'yes' in the carbon-free row, because neither molecule contains a carbon atom: ammonia is NH3, made by air separation and Haber-Bosch from nitrogen out of the air and hydrogen. Methanol, methane and Fischer-Tropsch fuels get a 'no' - they contain carbon and release CO2 on combustion, which is only climate-neutral if the carbon was captured from the air or from a biogenic source beforehand. LOHC is the special case marked 'no release': the carrier molecule contains carbon, but it is dehydrogenated and shipped back rather than burned, so no carbon leaves the loop."
+ },
+ {
+  "id": "b11-030",
+  "slide": 706,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Go through the safety row of the comparison table of H2 derivatives: what is the specific hazard of hydrogen, ammonia, methanol, LOHC, methane and FTF, and which of them are dangerous to the environment rather than to people?",
+  "solution": "Hydrogen: highly flammable, with a very wide ignition range and an almost invisible flame, so the hazard is fire and explosion, not toxicity. Ammonia: corrosive, (eco-)toxic and caustic - it attacks eyes and lungs at low concentrations, and released into water it causes a eutrophication risk; combustion additionally produces NOx and N2O, and N2O is an extremely strong greenhouse gas, so the emission problem is not solved by the absence of carbon. Methanol: toxic to humans, since ingestion or vapour causes blindness and death, but explicitly not harmful to aquatic fauna and biodegradable, so a spill at sea is far less damaging than an oil spill; it is also highly flammable, again with a nearly invisible flame. LOHC: the hazard depends on the carrier material, since toluene/methylcyclohexane are flammable and health-hazardous while other carriers are milder. Methane: neither toxic nor corrosive, but a strong GHG at 28 times CO2 over 100 years, so a leak is a climate hazard rather than a safety hazard. FTF: toxic, like the mineral-oil products they imitate. The environmental rather than personal hazards are therefore ammonia (eutrophication and N2O) and methane; methanol is the paradox of the table - the most acutely toxic to humans and at the same time the least damaging to the marine environment, which is why it is nevertheless the favourite marine fuel.",
+  "keywords": [
+   "highly flammable",
+   "eutrophication",
+   "N2O",
+   "toxic to humans",
+   "carrier material",
+   "strong GHG",
+   "28 times"
+  ]
+ },
+ {
+  "id": "b11-031",
+  "slide": 706,
+  "type": "open",
+  "graphic": true,
+  "prompt": "From the comparison table: rank the six carriers by how ready their ship transport is, quoting the vessel sizes the table gives, and explain why hydrogen is at the bottom.",
+  "solution": "The ship-transport row runs from 'established' to 'no re-use'. LOHCs and Fischer-Tropsch fuels are at the top with potential re-use of oil ships larger than 500,000 dwt, because both are oil-like liquids and the existing crude and product tanker fleet fits them. Methanol is likewise established with potential re-use of oil ships, but the table gives no size figure for it. Methane is established with a purpose-built fleet, ships up to 120,000 dwt - the LNG carriers, of which more than 650 exist. Ammonia is established but with smaller vessels, ships up to 75,000 dwt, taken from the LPG and chemical tanker world. Hydrogen is at the bottom: no re-use, only 1 prototype of 2,200 dwt. The reason is physical rather than industrial: liquid hydrogen requires -253 °C, hence vacuum-insulated tanks, permanent boil-off management and re-liquefaction on board, and it carries only 2.4 kWh/l, so a hydrogen carrier moves roughly a quarter of the energy of an equally large product tanker. A purpose-built fleet would have to be created from nothing, whereas every other carrier inherits an existing ship type.",
+  "keywords": [
+   "500,000 dwt",
+   "120,000 dwt",
+   "75,000 dwt",
+   "2,200 dwt",
+   "no re-use",
+   "-253 °C",
+   "2.4 kWh/l"
+  ]
+ },
+ {
+  "id": "b11-032",
+  "slide": 706,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The storage row of the comparison table splits the six carriers into two groups. Which are they, what physically causes the split, and why does ammonia sit on the difficult side even though it is much easier to liquefy than hydrogen?",
+  "solution": "The split is between carriers that are liquid at ambient conditions and carriers that are not. Methanol, LOHC and Fischer-Tropsch fuels get 'high compatibility': they are liquids at standard temperature and pressure, so an ordinary steel product tank, a tank farm or a road tanker takes them without modification. Hydrogen, ammonia and methane get 'requires refrigerated or (high) pressure tanks', because at standard conditions they are gases. The physical cause is the boiling point: -253 °C for hydrogen, -162 °C for methane, -33 °C for ammonia. Ammonia is on the difficult side simply because it is still a gas at ambient temperature, but its case is by far the mildest, which is why the table writes 'refrigerated or pressure tanks' for ammonia while hydrogen and methane get 'refrigerated or high pressure tanks': -33 °C is reachable with ordinary refrigeration, or the gas can be held liquid at about 10 bar at ambient temperature. That is why ammonia storage is routine in the fertiliser industry and needs no new technology, whereas liquid hydrogen storage needs vacuum insulation and continuous boil-off handling.",
+  "keywords": [
+   "high compatibility",
+   "ambient",
+   "-253 °C",
+   "-162 °C",
+   "-33 °C",
+   "pressure tanks",
+   "fertiliser"
+  ]
+ },
+ {
+  "id": "b11-033",
+  "slide": 706,
+  "type": "cloze",
+  "prompt": "According to the comparison table, repurposing existing pipelines for hydrogen costs about ___ of the cost of new construction.",
+  "accept": [
+   "10-35 %",
+   "10-35%",
+   "10 - 35 %",
+   "10 to 35 %",
+   "10-35 percent",
+   "10-35"
+  ],
+  "solution": "10-35 % of new construction. That figure is the strongest single argument for building a hydrogen backbone out of converted natural gas pipelines rather than new ones. In the same row ammonia gets 'no re-use', because there is no ammonia pipeline network and the gas attacks the steel and seals of a gas grid; methanol is 'compatibility unclear'; and methane, LOHC and FTF all get 'high compatibility', because they are drop-in for the gas respectively the oil product network."
+ },
+ {
+  "id": "b11-034",
+  "slide": 707,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart plots conversion plus transport costs per unit of energy delivered to Germany against transport distance. Explain the two families of curves, name the cheapest option for a short and for a very long distance, and read off roughly where hydrogen pipelines stop being competitive.",
+  "solution": "The y-axis is the cost per energy supplied to Germany in ct/kWh, explicitly without the cost of hydrogen production itself; the x-axis is the transport distance to Germany in km, with markers for Eastern Europe and the Iberian Peninsula at about 1,500 km, North Africa at about 3,000 km, North America at about 6,500 km, the Arabian peninsula at about 8,300 km, South America at about 10,700 km and Southern Africa at about 12,300 km. Family one, pipelines: they start almost at zero, about 0.2 ct/kWh, because no conversion is needed, but they rise steeply because cost is essentially proportional to length. A new-build hydrogen pipeline is the steepest line of all, a retrofitted hydrogen pipeline is much flatter because the pipe already exists, and a retrofitted methane pipeline starts higher at about 5.6 ct/kWh, since it carries the methanation cost, and rises in parallel to about 8.3 ct/kWh. Family two, tankers: almost horizontal, because their cost is dominated by the conversion step at the export terminal and the marine leg adds very little per additional 1,000 km. Tanker ammonia without cracking is the cheapest, rising only from about 3.8 to 4.25 ct/kWh; liquid hydrogen tanker runs from about 4.0 to 5.2; ammonia with cracking is roughly flat at 5.5; methanol at about 5.9; LOHC rises from 6.3 to 9, the steepest tanker line; and Fischer-Tropsch products are the most expensive throughout at about 8.2 ct/kWh. Cheapest short distance: a retrofitted hydrogen pipeline. Cheapest very long distance: ammonia by tanker without cracking. The crossover lies at roughly 2,500 - 3,000 km for a new hydrogen pipeline and at roughly 8,000 km for a retrofitted one, so pipelines serve Europe and North Africa and ships serve everything beyond.",
+  "keywords": [
+   "ct/kWh",
+   "hydrogen production",
+   "retrofit",
+   "ammonia without cracking",
+   "Fischer-Tropsch",
+   "crossover",
+   "8,000 km"
+  ]
+ },
+ {
+  "id": "b11-035",
+  "slide": 707,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Why are the tanker curves in the supply-chain cost chart almost horizontal while the pipeline curves rise steeply?",
+  "options": [
+   "Because ships can carry hydrogen without any conversion, while pipelines always require liquefaction.",
+   "Because the chart shows only the marine leg for ships but the full chain for pipelines.",
+   "Because tanker cost is dominated by the conversion step at the export terminal, while pipeline cost is essentially proportional to the length of pipe that has to be built.",
+   "Because ships are subsidised and pipelines are not."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "A tanker chain pays once for liquefaction or synthesis at the export terminal and then only for fuel and vessel time on the voyage, which is a small addition per extra 1,000 km - hence lines such as ammonia without cracking rising only from about 3.8 to 4.25 ct/kWh over 15,000 km. A pipeline pays no conversion at all, which is why all pipeline lines start close to zero, but every kilometre of pipe and every compressor station costs money, so cost grows roughly linearly with distance. That is the entire message of the figure: pipelines win short distances, ships win long ones, and for a retrofitted hydrogen pipeline the crossover lies at roughly 8,000 km. Shipped hydrogen is not conversion-free - it must be liquefied at 6.8 kWh/kg - and both families in the chart are conversion plus transport, with only hydrogen production excluded."
+ },
+ {
+  "id": "b11-036",
+  "slide": 708,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the efficiency comparison of maritime supply chains: which stages does each pathway contain and what overall efficiency does each reach? Which carrier is best, which is worst, and what happens if the customer insists on receiving hydrogen?",
+  "solution": "All five pathways start with electrolysis at 63 - 70 % (TRL 8-9) and then run through conversion, storage, shipping and, where needed, reconversion.\\nHydrogen: liquefaction 75 - 86 % (TRL 5-9), storage 98 %, shipping 93 % (TRL 5-7), regasification 95 - 100 % gives 41 - 55 % overall.\\nAmmonia: synthesis 83 - 95 % (TRL 7-9), storage 99.96 %, shipping 97 % gives 51 - 64 % overall, the best of all; with optional cracking at 69 - 93 % the delivered hydrogen is only 35 - 60 %.\\nMethanol: DAC plus synthesis 65 - 79 % or point source capture plus synthesis 71 - 90 %, storage 99.999 %, shipping 98 % gives 40 - 62 % overall.\\nMethane: DAC plus synthesis 64 - 81 % or PSCC plus synthesis 69 - 90 %, then liquefaction 85 - 90 %, storage 99.8 %, shipping 97 % and regasification 95 - 98 % gives 31 - 54 % overall, the worst, because it is the only chain that pays both a synthesis and a liquefaction penalty.\\nLOHC: hydrogenation 90 - 99 %, storage 99.95 %, shipping 94 %, dehydrogenation 73 - 75 % gives 39 - 49 % overall.\\nTwo lessons. First, storage losses are negligible everywhere (98 - 99.999 %) and shipping losses are small (93 - 98 %), so the efficiency is decided entirely at the conversion and reconversion stages, not on the voyage. Second, if the customer wants hydrogen rather than the derivative, every chain loses again: ammonia falls from 51 - 64 % to 35 - 60 % through cracking, and the LOHC route ends at 39 - 49 % through dehydrogenation - so the ranking depends completely on whether the derivative itself can be used at the destination.",
+  "keywords": [
+   "63 - 70 %",
+   "41 - 55 %",
+   "51 - 64 %",
+   "31 - 54 %",
+   "39 - 49 %",
+   "dehydrogenation",
+   "cracking"
+  ]
+ },
+ {
+  "id": "b11-037",
+  "slide": 708,
+  "type": "cloze",
+  "prompt": "In the efficiency comparison of maritime supply chains every pathway starts with electrolysis at an efficiency of ___ %.",
+  "accept": [
+   "63 - 70",
+   "63-70",
+   "63 to 70",
+   "63 - 70 %",
+   "63-70 %"
+  ],
+  "solution": "63 - 70 %, at TRL 8-9. This is the common first stage of all five pathways, and everything that follows - liquefaction, synthesis, hydrogenation, storage, shipping and reconversion - multiplies down from there. That is why the best chain, ammonia at 51 - 64 %, still loses roughly a third of the electricity, and the worst, methane at 31 - 54 %, loses about half to two thirds of it."
+ },
+ {
+  "id": "b11-038",
+  "slide": 709,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the maturity of maritime transport - not of the fuel - for ammonia, methanol, LOHC, methane and hydrogen, using TRL, existing ship capacity and terminal count. Which carriers could start trading immediately?",
+  "solution": "The slide deliberately separates the TRL of maritime transport from the TRL of the fuel. Ammonia: TRL 8-9, more than 70 chemical tankers and potentially more than 1,000 LPG tankers, 88 import and 38 export terminals plus potentially more than 400 LPG terminals. Methanol: TRL 9, chemical tankers of unknown number and potentially the oil product tanker fleet, 122 ports with storage facilities. LOHCs: TRL 9, more than 8,800 oil tankers and more than 300 oil terminals - by far the largest existing asset base, because a loaded LOHC ships like an oil product. Methane: TRL 9, more than 650 LNG carriers, 187 import and more than 130 export terminals. Hydrogen: TRL 7, one pilot-scale tanker, one import and one export terminal in the entire world. The conclusion: methanol, LOHC and methane could start trading immediately on existing assets, ammonia needs only modest additions to an existing LPG and fertiliser fleet, while liquid hydrogen has effectively no fleet and no terminals and would require a complete new build. Note the asymmetry the slide is careful about: LOHC has the highest transport readiness but among the lowest fuel readiness, because dehydrogenation at 13.5 kWhth/kgH2 remains the bottleneck.",
+  "keywords": [
+   "TRL 9",
+   "8,800 oil tankers",
+   "650 LNG carriers",
+   "1,000 LPG tankers",
+   "TRL 7",
+   "one pilot-scale tanker",
+   "122 ports"
+  ]
+ },
+ {
+  "id": "b11-039",
+  "slide": 709,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which carrier has, according to the slide on adaptation of existing maritime infrastructure, the largest fleet of ships that could in principle be re-used?",
+  "options": [
+   "LOHCs, with more than 8,800 oil tankers.",
+   "Ammonia, with more than 1,000 LPG tankers.",
+   "Hydrogen, with more than 70 chemical tankers.",
+   "Methane, with more than 650 LNG carriers."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "LOHCs: because a loaded LOHC is an oil-like liquid, the more than 8,800 oil tankers and more than 300 oil terminals of the world are potentially available - an order of magnitude more than for any other carrier. Ammonia can potentially use more than 1,000 LPG tankers on top of its 70-plus chemical tankers, methane has more than 650 purpose-built LNG carriers, and hydrogen has exactly one pilot-scale tanker with one import and one export terminal; the 70-plus chemical tankers belong to ammonia, not to hydrogen."
+ },
+ {
+  "id": "b11-040",
+  "slide": 710,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The box plot compares supply costs of six carriers for 2030 and 2050. What is on the axes, what does the spread of each box represent, and which carriers come out cheapest and most expensive?",
+  "solution": "The y-axis is supply cost in EUR/MWh, the x-axis the two scenario years 2030 and 2050, and there is one box per carrier: FTD (Fischer-Tropsch diesel), LCH4 (liquefied methane), MeOH, LH2, NH3 and LOHC. The box is the interquartile range over many supply routes and parameter combinations, the whiskers the plausible range, the cross the mean, and the isolated points above 250 EUR/MWh are outlier route-and-parameter combinations. In 2030 the means are roughly 161 for FTD and 163 for LCH4, about 143 for both MeOH and LH2, and about 100 for NH3 and 96 for LOHC. By 2050 everything falls by roughly a quarter: about 124 for FTD and LCH4, 116 for MeOH, 121 for LH2, about 72 for NH3 and 76 for LOHC. Two results matter. First, the ranking is stable over time: ammonia and LOHC are the cheapest carriers and the carbon-based fuels FTD and LCH4 the most expensive, because the latter carry carbon capture and synthesis costs on top of the electrolysis. Second, the spread within each carrier is larger than the difference between the carriers, so production location and electricity price decide more than the choice of molecule - which is also why a policy that picks one winning molecule today is poorly founded.",
+  "keywords": [
+   "EUR/MWh",
+   "interquartile",
+   "NH3",
+   "LOHC",
+   "FTD",
+   "spread",
+   "electricity price"
+  ]
+ },
+ {
+  "id": "b11-041",
+  "slide": 711,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The Sankey diagram shows the projected 2050 global long-distance supply of hydrogen and derivatives. Give the total, the largest product carrier, and the largest supplier and offtaker, and explain the phrase 'pure hydrogen is a neighbourhood business'.",
+  "solution": "The diagram runs suppliers - product carriers - offtakers in million tonnes per year for 2050 and sums to about 400 Mt. On the supplier side China leads with 138.7 Mt, then North America with 80.0, the Middle East with 50.0, Africa with 35.1, Latin America with 31.1, the rest of the world with 32.0, Australia with 17.5 and Europe with 14.7. The product carriers are piped H2 with 205.1 Mt - more than half the total - then synthetic kerosene with 58.7, ammonia with 55.7, HBI steel with 34.2, shipped H2 with 27.0 and methanol with 18.5. On the offtaker side China leads again with 164.2 Mt, followed by North America with 62.1, Europe with 58.8, the rest of Asia with 41.7, Japan and Korea with 38.3 and the rest of the world with 34.1. 'Pure hydrogen is a neighbourhood business' means exactly the dominance of piped H2 over shipped H2 by a factor of almost eight: the molecule itself is sourced domestically or piped from a nearby region, because liquefaction and shipping are too expensive and too lossy, while what actually crosses oceans is the derivatives - more extensive use of synthetic kerosene and ammonia as opposed to L-H2 and methanol - and increasingly hydrogen embodied in a product, such as directly reduced iron.",
+  "keywords": [
+   "400 Mt",
+   "piped H2",
+   "205.1",
+   "58.7",
+   "55.7",
+   "shipped H2",
+   "neighbourhood business"
+  ]
+ },
+ {
+  "id": "b11-042",
+  "slide": 712,
+  "type": "open",
+  "prompt": "How many ships will the maritime trade in hydrogen and derivatives require by 2050, how does that compare with today, and for which carriers can existing tonnage be re-used?",
+  "solution": "More than 1,000 ships are required by 2050 for the maritime trade of hydrogen and derivatives, against roughly 700 LNG tankers in the world fleet today. The requirement is therefore of the same order as the entire existing LNG fleet, which took three decades to build, and it has to be delivered within about one. Re-use covers a large part of it: existing ammonia and methanol ships can be used directly, synthetic kerosene can be shipped in existing oil and product tankers, and green-steel pellets travel in existing bulk carriers. What cannot be re-used is precisely the genuinely new part - liquid hydrogen carriers and CO2 carriers are at a low TRL and the lecture calls their breakthrough questionable. The conclusion is the same as everywhere in this chapter: the shipbuilding problem of the hydrogen economy is not a problem for the derivatives, it is a problem only for pure hydrogen and for CO2 - and that is exactly the part most likely not to happen.",
+  "keywords": [
+   "1,000 ships",
+   "700 LNG tankers",
+   "ammonia and methanol ships",
+   "bulk carriers",
+   "low TRL",
+   "questionable"
+  ]
+ },
+ {
+  "id": "b11-043",
+  "slide": 713,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The two panels show published projections of global hydrogen trade in 2050. How large is the disagreement between the studies, in volume and in transport mode, and what should be concluded from it?",
+  "solution": "The left panel gives the projected 2050 trade volume in Mt as bars and the share of global production that is traded as diamonds on the right axis. The range is enormous: Makepeace et al. project about 288 Mt and roughly 85 % of production traded, the Hydrogen Council about 200 Mt and 55 %, IRENA about 155 Mt and 25 %, Zhang et al. about 128 Mt and 25 %, Shirizadeh et al. about 110 Mt and 20 %, and Alanazi et al. only about 90 Mt but at 38 %. Highest and lowest differ by more than a factor of three in volume and by a factor of four in traded share. The right panel breaks the trade down by transport method and disagrees just as strongly: the Hydrogen Council has roughly 41 % piped hydrogen, 24 % ammonia and 22 % synthetic kerosene; IRENA has about 55 % piped and 43 % ammonia and almost nothing else; Alanazi et al. put about 46 % into liquid hydrogen, which no other study does; Shirizadeh et al. have only about 7 % piped but 53 % ammonia and 36 % synthetic kerosene; Zhang et al. return to about 44 % piped and 45 % ammonia. The conclusion for the exam: the direction is agreed - there will be long-distance hydrogen trade and ammonia will be a major carrier - but neither the volume nor the dominant carrier is predictable today, so infrastructure decisions should favour options that re-use existing assets or are cheap to reverse rather than betting on one molecule.",
+  "keywords": [
+   "Mt",
+   "Hydrogen Council",
+   "IRENA",
+   "piped hydrogen",
+   "ammonia",
+   "synthetic kerosene",
+   "factor of three"
+  ]
+ },
+ {
+  "id": "b11-044",
+  "slide": 715,
+  "type": "open",
+  "prompt": "Exercise 3: (a) sort liquid hydrogen, liquid ammonia and (syn-)diesel by volumetric energy density; (b) sort liquid methane, methanol and liquid hydrogen by gravimetric energy density; (e) sort methane, hydrogen, ammonia and methanol by boiling point.",
+  "solution": "(a) Volumetric, highest first: (syn-)diesel 9.7 kWh/l > liquid ammonia 3.2 kWh/l > liquid hydrogen 2.4 kWh/l. The liquid hydrocarbon beats liquid hydrogen by a factor of four - this is the reason derivatives exist at all.\\n(b) Gravimetric, highest first: liquid hydrogen 33.33 kWh/kg > liquid methane 13.9 kWh/kg > methanol 5.8 kWh/kg. Note that the order is essentially the reverse of (a): hydrogen is the best fuel by mass and one of the worst by volume, and volume is what limits a ship or an aircraft.\\n(e) Boiling point, lowest first: hydrogen -253 °C < methane -162 °C < ammonia -33 °C < methanol, which is the only one of the four that is already liquid at ambient temperature (its boiling point is about +65 °C; the table only records it as 'liquid'). The ranking explains the storage row of the comparison table directly: hydrogen needs vacuum-insulated cryogenic tanks, methane the standard LNG tank, ammonia only mild refrigeration or about 10 bar, and methanol an ordinary tank.",
+  "keywords": [
+   "9.7 kWh/l",
+   "3.2 kWh/l",
+   "2.4 kWh/l",
+   "33.33 kWh/kg",
+   "13.9 kWh/kg",
+   "5.8 kWh/kg",
+   "-253 °C",
+   "-162 °C",
+   "-33 °C"
+  ]
+ },
+ {
+  "id": "b11-045",
+  "slide": 715,
+  "type": "open",
+  "prompt": "Exercise 3: (c) which of ammonia, methane, hydrogen, methanol, LOHCs and FTFs contain carbon? (d) which of them are liquid at ambient conditions? What general rule do the two answers together produce?",
+  "solution": "(c) Carbon-containing: methane (CH4), methanol (CH3OH), LOHCs - methylcyclohexane and comparable hydrocarbons - and FTFs, which are hydrocarbons of the form CnH2n+2. Carbon-free: hydrogen (H2) and ammonia (NH3). Be careful with the LOHC: it contains carbon but never releases it, because the carrier is dehydrogenated and shipped back instead of burned, which is why the comparison table writes 'no release' rather than a plain 'no'.\\n(d) Liquid at ambient conditions: methanol, LOHCs and FTFs. Gaseous at ambient conditions, and therefore in need of refrigeration or pressure: hydrogen (BP -253 °C), methane (BP -162 °C) and ammonia (BP -33 °C).\\nThe rule the two answers produce together is the central trade-off of the whole chapter: the carriers that are easy to handle are exactly the ones that carry carbon, and the two carbon-free carriers are exactly the two that are hard to handle. Anyone who wants a carbon-free carrier pays for it with cryogenics or pressure; anyone who wants ambient-temperature handling has to organise a closed carbon cycle.",
+  "keywords": [
+   "CH4",
+   "CH3OH",
+   "NH3",
+   "no release",
+   "-253 °C",
+   "-33 °C",
+   "ambient"
+  ]
+ },
+ {
+  "id": "b11-046",
+  "slide": 717,
+  "type": "open",
+  "prompt": "How large is the climate footprint of international shipping and what does the fleet burn today? Why is the sector considered hard to abate?",
+  "solution": "The global maritime sector currently emits 940 MtCO2 per year, which is 2.6 % of global greenhouse gas emissions - comparable with a large industrial country. The fleet runs on the cheapest fractions of the barrel: about 60 % heavy fuel oil (HFO) and about 30 % marine diesel, so roughly 90 % of the energy comes from fossil residues. The sector is hard to abate for three reasons. First, energy density: a container ship crossing the Pacific needs weeks of range, so batteries are out and only a liquid or liquefied fuel with a high volumetric energy density works, which is why methanol, ammonia and LNG rather than hydrogen are the candidates. Second, asset lifetime: ships live 25 - 30 years, so a vessel ordered today fixes the fuel of 2050 - which is why Maersk's 2021 decision to order only green-fuel-capable newbuilds matters more than any single ship. Third, the sector is international: a ship can bunker anywhere, so a purely national rule has little effect, and regulation therefore attaches to the port - FuelEU Maritime limits the greenhouse gas intensity of energy used on ships above 5,000 gross tonnage calling at European ports, regardless of flag.",
+  "keywords": [
+   "940 MtCO2",
+   "2.6 %",
+   "60 % heavy fuel oil",
+   "30 % marine diesel",
+   "energy density",
+   "25 - 30 years",
+   "FuelEU Maritime"
+  ]
+ },
+ {
+  "id": "b11-047",
+  "slide": 717,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The chart on the shipping-fleet slide gives the share of fuels in the world fleet by gross tonnage for June 2022, July 2023 and June 2024. Which reading is correct?",
+  "options": [
+   "Alternative fuels are dominated by battery/hybrid propulsion, which reached 6.65 % in 2024.",
+   "The alternative-fuel share is stagnating at about 5.5 % because LNG is being phased out.",
+   "Conventional fuels fall from 94.5 % to 92.6 %, alternative fuels rise from 5.5 % to 7.4 %, and almost all of the alternative share is LNG (6.65 % in 2024).",
+   "Conventional fuels have already fallen below 80 %, with methanol as the largest alternative at 6.65 %."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The bars read 94.5 %, 93.5 % and 92.6 % for conventional fuels and 5.5 %, 6.52 % and 7.4 % for alternative fuels in total. Within the alternative share LNG alone accounts for 5.39 %, 5.96 % and 6.65 %, i.e. roughly 90 % of everything that is not conventional. The rest is marginal: battery/hybrid 0.06 %, 0.26 % and 0.32 %, LPG 0.06 %, 0.25 % and 0.37 %, and methanol only 0.02 %, 0.05 % and 0.09 %. Three lessons follow: the transition has barely started in the existing fleet, the only alternative fuel with real market share is LNG - a fossil fuel that improves CO2 only marginally and adds a methane-slip risk - and methanol, despite dominating the orderbook, is still statistically invisible in the fleet, because an orderbook takes a decade to become a fleet."
+ },
+ {
+  "id": "b11-048",
+  "slide": 719,
+  "type": "open",
+  "prompt": "Explain what FuelEU Maritime regulates, which ships it covers, and which two instruments it uses.",
+  "solution": "FuelEU Maritime (2023) does not regulate a fuel but the greenhouse gas intensity of the energy used on board: it limits the GHG produced per unit of energy used on a ship in a year, with the limit tightening over time. Because it is an intensity target it is technology-neutral - a shipowner may reach it with biofuel, e-methanol, ammonia, LNG or any mixture. Its scope is defined by the port and not by the flag: it applies to ships above 5,000 gross tonnage calling at European ports, regardless of flag, which is what gives a regional rule global reach and prevents flagging out. Two instruments enforce it. First, a penalty of 2,400 € per tonne of VLSFO equivalent of non-compliant energy consumption, which puts an explicit price on the gap between actual and required intensity and thereby caps the willingness to pay for green fuel. Second, an obligation to use on-shore power supply or zero-emission technology while in port, which removes the auxiliary-engine emissions that dominate local air pollution in port cities.",
+  "keywords": [
+   "greenhouse gas intensity",
+   "5,000 gross tonnage",
+   "regardless of flag",
+   "2,400 €",
+   "VLSFO",
+   "on-shore power"
+  ]
+ },
+ {
+  "id": "b11-049",
+  "slide": 719,
+  "type": "cloze",
+  "prompt": "FuelEU Maritime imposes a penalty of ___ € per tonne of VLSFO equivalent for non-compliant energy consumption.",
+  "accept": [
+   "2400",
+   "2,400",
+   "2.400",
+   "2400 €",
+   "2,400 €"
+  ],
+  "solution": "2,400 € per tonne of VLSFO (very low sulphur fuel oil) equivalent. The penalty applies to the non-compliant share of the energy consumed by ships above 5,000 gross tonnage calling at EU ports, regardless of flag. Its function is to translate the greenhouse-gas-intensity limit into a euro figure that a shipowner can compare directly with the extra cost of e-methanol or ammonia - it is effectively a ceiling on the green premium the owner will pay."
+ },
+ {
+  "id": "b11-050",
+  "slide": 720,
+  "type": "mc",
+  "prompt": "The 'Stena Germanica' is the lecture's example of methanol propulsion. Which statement is correct?",
+  "options": [
+   "It is a ferry built in 2001 and converted to methanol dual fuel in 2015 for 22 million €; running on methanol alone it cuts sulphur oxides by 99 %, NOx by 60 % and particles by 95 %.",
+   "It runs on methanol only while in port and uses on-shore power at sea.",
+   "It was purpose-built as a methanol ferry in 2015 for 22 million € and runs on the Kiel-Göteborg route.",
+   "It is a container ship of 2,100 TEU, the world's first to run on biogenic methanol."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The Stena Germanica was built in 2001 and converted to methanol/dual-fuel operation in 2015 at a cost of 22 million €, supported by EU funding; it was the first ferry worldwide with (hybrid) methanol propulsion. It is one of the world's largest ferries at 240 m length, with capacity for 300 cars and 1,300 passengers, and serves the Kiel-Göteborg route. Compared with traditional fuels, running solely on methanol reduces sulphur oxide emissions by 99 %, NOx by 60 % and particle emissions by 95 % - note that these are air-quality benefits, while the CO2 benefit depends entirely on whether the methanol is fossil, biogenic or synthetic. It was a conversion, not a newbuild; the 2,100 TEU container ship on biogenic methanol is the 'Laura Maersk'; and the on-shore-power idea belongs to FuelEU Maritime, which requires shore power in port, not the reverse."
+ },
+ {
+  "id": "b11-051",
+  "slide": 721,
+  "type": "open",
+  "prompt": "Trace the market ramp-up of methanol-powered shipping using the figures the lecture gives, and explain why an owner such as Maersk chose methanol rather than ammonia or hydrogen.",
+  "solution": "Maersk issued a directive in 2021 to order only newbuilt vessels able to sail on green fuels. Between 2021 and 2023 it ordered 25 methanol dual-fuel vessels of various sizes, six of them in the Ultra Large Container Ship class of 17,000 TEU, and in September 2023 launched the first feeder-size container ship, the 2,100 TEU 'Laura Maersk', running on methanol of biogenic origin from the US. A third of Maersk's 2030 methanol requirement, 2 of 6 Mt/a, is to come from Iberian producers under a framework agreement signed with the government in Madrid in 2022. COSCO ordered 12 methanol dual-fuel ULCS of 24,000 TEU at 239.85 million $ each. The market grew from an orderbook of more than 100 methanol-enabled vessels in 2023, to 43 methanol-powered ships in operation in 2024, to 65 in operation with about 300 on the order books in October 2025. Methanol was chosen because it is liquid at ambient conditions, so bunkering, tanks and safety procedures stay close to today's practice; because dual fuel means the ship is never stranded without fuel; because methanol is not harmful to aquatic fauna, so a spill is manageable; and because its maritime transport is already at TRL 9 with 122 ports holding storage facilities. Ammonia is toxic and corrosive and its engines only became available in 2024/2025, and liquid hydrogen has no fleet, no terminals and only 2.4 kWh/l.",
+  "keywords": [
+   "25 methanol dual-fuel vessels",
+   "17,000 TEU",
+   "Laura Maersk",
+   "2,100 TEU",
+   "24,000 TEU",
+   "dual fuel",
+   "122 ports",
+   "2.4 kWh/l"
+  ]
+ },
+ {
+  "id": "b11-052",
+  "slide": 722,
+  "type": "mc",
+  "prompt": "The slide lists hydrogen-powered vessels from the Hydra (2000) to the MF Hydra ferry and the Elektra push boat. Which propulsion configuration do they all share?",
+  "options": [
+   "Hydrogen tank plus fuel cells plus batteries plus electric motor.",
+   "A dual-fuel diesel engine that switches between hydrogen and marine diesel.",
+   "A hydrogen internal combustion engine driving the propeller shaft directly.",
+   "Ammonia cracking on board followed by a hydrogen gas turbine."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Every vessel in the list uses the same chain: hydrogen tank + fuel cells + batteries + electric motor. That covers the Hydra passenger boat on the Rhine near Bonn (2000), the Duffy-Herreshoff DH30 in San Francisco (2003), the Berlin push boat Elektra (2021, the world's first hydrogen-fuelled push boat), the Norwegian MF Hydra (2023, the world's first hydrogen-powered ferry, 80 cars), the retrofitted container vessel FPS Waal, the inland cargo vessel Zulu06 and the Sinot super-yacht Aqua. The fuel cell supplies the average power at high efficiency, the battery buffers manoeuvring peaks, and the drive is electric. Note the pattern in the list: all of them are small, mostly inland or short-sea vessels, because the low volumetric density of hydrogen (2.4 kWh/l liquid) rules out deep-sea range. Dual-fuel combustion engines are the standard route for methanol and ammonia, not for these hydrogen vessels."
+ },
+ {
+  "id": "b11-053",
+  "slide": 723,
+  "type": "open",
+  "prompt": "Summarise the state of ammonia-powered shipping from the slide: who is building what, and on what timeline?",
+  "solution": "Ammonia propulsion is roughly one generation behind methanol. Engine makers came first: MAN Energy Solutions announced a two-stroke dual-fuel ammonia engine in 2024, and Wärtsilä a two-stroke ammonia engine retrofittable to existing vessels from 2025. Owners follow: Maersk's first orders for small ammonia vessels begin in 2024 with delivery in 2026, while deliveries of medium- to large-sized ammonia-powered vessels are not expected until 2030. Kawasaki Kisen ordered a 200,000 dwt ammonia-fuelled bulk carrier for delivery in 2026. Two consortium projects flank this: Nordic Green Ammonia Powered Ships (NoGAPS), with Maersk, MAN, GMF and Wärtsilä among the partners, is developing the handy-sized 22,000 m3 gas carrier 'MS NoGAPS', and project ShipFC is converting the 'Viking Energy' to an ammonia high-temperature fuel cell. The timeline is therefore: engines from about 2024/25, first small ships from 2026, large ships around 2030. That fits the comparison table, in which ammonia's maritime transport is already mature at TRL 8-9 while its use as a marine fuel is not. The obstacles are the ones in the safety row: toxicity, corrosiveness, and NOx and N2O emissions from combustion.",
+  "keywords": [
+   "MAN Energy Solutions",
+   "Wärtsilä",
+   "200,000 dwt",
+   "NoGAPS",
+   "ShipFC",
+   "2030",
+   "toxicity"
+  ]
+ },
+ {
+  "id": "b11-054",
+  "slide": 724,
+  "type": "open",
+  "prompt": "The Global Maritime Forum's 2024 report counts demonstration projects for zero-emission shipping. How many ship-technology projects are there, which fuels dominate, and why has methanol been excluded from the report?",
+  "solution": "The report counts a total of 153 international ship technology projects. Ammonia and hydrogen dominate this category, precisely because they are the immature options that still need demonstrating. Methanol-powered vessels have been excluded: they are entering operations in multiple segments and the projects are now mostly considered mature, so there is nothing left to demonstrate. That exclusion is the most informative statement on the slide - a technology leaves a demonstration-project database not when it fails but when it becomes normal business, so the absence of methanol is evidence of success, not of failure. Read together with the other two categories of the same report, 81 bunkering and infrastructure projects and 133 fuel production projects, the picture is that ship technology and fuel production are being addressed faster than the link between them, which makes bunkering infrastructure the thinnest of the three.",
+  "keywords": [
+   "153",
+   "ammonia and hydrogen",
+   "methanol",
+   "mature",
+   "81",
+   "133"
+  ]
+ },
+ {
+  "id": "b11-055",
+  "slide": 725,
+  "type": "cloze",
+  "prompt": "In the Global Maritime Forum's 2024 report the number of bunkering and infrastructure projects is 81, while the number of fuel production projects is ___.",
+  "accept": [
+   "133",
+   "133 projects"
+  ],
+  "solution": "133 international fuel production projects, against 81 bunkering and infrastructure projects and 153 ship technology projects. The relation matters more than the absolute numbers: more projects are making the fuel and more projects are building the ship than are building the link between the two, so bunkering infrastructure is the bottleneck of the maritime energy transition - a ship that can burn e-methanol and a plant that can make it are useless if no port on the route can transfer it."
+ },
+ {
+  "id": "b11-056",
+  "slide": 727,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The metals slide re-draws the energy-density diagram with iron and aluminium added. Where do the metals sit relative to the chemical fuels, and what does that position imply for their use?",
+  "solution": "The axes are the same as before - gravimetric energy density in kWhLHV/kg on the x-axis, volumetric in kWhLHV/l on the y-axis - but the y-axis now runs to 25 instead of 10, because the metals break the old scale. Aluminium sits at about 8.6 kWh/kg and 23.5 kWh/l, by far the highest volumetric density on the chart, with aluminium powder lower at about 14 kWh/l because a powder bed contains voids. Iron sits at about 2.05 kWh/kg and 16.1 kWh/l, with iron powder at roughly 9.7 kWh/l for the same reason. Compare that with the best chemical fuels: syn-kerosene at about 9.6 kWh/l, liquefied methane at 6.3 kWh/l and liquid hydrogen at only 2.4 kWh/l. Gravimetrically the metals are poor - iron at 2.05 kWh/kg is at the level of an LOHC and about one sixteenth of hydrogen - but volumetrically they beat every fuel on the chart. The implication is exactly the application profile the lecture names: metals are attractive where volume and storability matter and mass does not, i.e. seasonal storage in a heap, bulk shipping in existing carriers, and firing a retrofitted coal power plant; they are unattractive wherever the fuel has to be carried along, which rules out aviation and most road transport. Note that the powder values are the ones that count in practice, since a burner is fed with powder and not with a solid block.",
+  "keywords": [
+   "23.5 kWh/l",
+   "16.1 kWh/l",
+   "2.05 kWh/kg",
+   "powder",
+   "9.6 kWh/l",
+   "volumetric"
+  ]
+ },
+ {
+  "id": "b11-057",
+  "slide": 728,
+  "type": "open",
+  "prompt": "Write down the two reactions of the iron energy cycle, state iron's energy densities, and name the applications the lecture proposes. Where is the energy actually stored?",
+  "solution": "The cycle has an oxidation and a reduction half. Oxidation, the energy release: 4 Fe + 3 O2 -> 2 Fe2O3, the combustion of iron powder to iron oxide, which delivers heat. Reduction, the charging step: Fe2O3 + 3 H2 -> 2 Fe + 3 H2O, in which green hydrogen strips the oxygen from the oxide and regenerates metallic iron. The energy is stored in the reduced state of the metal, not in a bond with hydrogen: iron carries the energy of hydrogen without containing any hydrogen, which is why it is carbon-free and sulphur-free and why the oxide must be returned to the reduction site - the carrier circulates, it is not consumed. Energy densities of solid iron: 2.05 kWh/kgFe gravimetric and 16.1 kWh/lFe volumetric, i.e. poor by mass and excellent by volume. The applications named are high-temperature industrial heat, power plants - in particular the retrofitting of coal- or biomass-fired stations - and maritime propulsion. One correction to the slide: the oxidation is printed as '2 Fe2 + 3 O2 -> 2 Fe2O3'. There is no species Fe2; the correct equation is 4 Fe + 3 O2 -> 2 Fe2O3, which balances to exactly the same coefficients.",
+  "keywords": [
+   "4 Fe + 3 O2",
+   "Fe2O3 + 3 H2",
+   "2.05 kWh/kgFe",
+   "16.1 kWh/lFe",
+   "high-temperature industrial heat",
+   "retrofitting",
+   "carbon-free"
+  ]
+ },
+ {
+  "id": "b11-058",
+  "slide": 728,
+  "type": "cloze",
+  "prompt": "The reduction of iron oxide with green hydrogen follows Fe2O3 + 3 H2 -> 2 Fe + ___.",
+  "accept": [
+   "3 H2O",
+   "3H2O",
+   "3 H2O (water)",
+   "water",
+   "3 water",
+   "Wasser"
+  ],
+  "solution": "3 H2O. The full reaction is Fe2O3 + 3 H2 -> 2 Fe + 3 H2O: three moles of hydrogen strip the three oxygen atoms from one mole of iron oxide and leave as water vapour, producing two moles of metallic iron. This is the charging step of the iron cycle, and it is the same reaction as direct reduction in green steelmaking, which is why the lecture points to synergies with the steel industry and puts the reduction process at TRL 6-7 while the oxidation side is far less mature."
+ },
+ {
+  "id": "b11-059",
+  "slide": 729,
+  "type": "open",
+  "prompt": "List the advantages and disadvantages of iron as an energy carrier and explain the two that are the real make-or-break points.",
+  "solution": "Advantages: zero-carbon and sulphur-free; iron is the fourth most abundant element of the earth crust; it is non-toxic; storage and transport are simple, as a bulk material at TRL 8-9; existing infrastructure - bulk carriers, coal handling, coal power plants - can be re-used; the volumetric energy density is high at 16.1 kWh/l; there are no water exports, unlike hydrogen chains that consume roughly 9 kg of water per kg of H2 in exactly the water-scarce regions that are attractive for production; combustion delivers high-temperature heat up to 1,000 °C; energy efficiency and LCOE are competitive; and the reduction process has synergies with the steel industry at TRL 6-7. Disadvantages: additional conversion processes; a low TRL, particularly for the oxidation, which collides with the tight timeline set by the European coal exits; a lower gravimetric energy density of only 2.05 kWh/kg; and the need for the return of the iron oxides. The two make-or-break points are, first, the low TRL of the oxidation against the coal-exit timeline, because a retrofit option that becomes ready after the plants have been demolished is worthless; and second, the closed-loop logistics, because unlike any fuel iron is not consumed but circulated, so half of the transport capacity carries oxide back and the entire economics depend on that return leg working.",
+  "keywords": [
+   "fourth most abundant",
+   "TRL 8-9",
+   "16.1 kWh/l",
+   "1,000 °C",
+   "2.05 kWh/kg",
+   "iron oxides",
+   "coal exits"
+  ]
+ },
+ {
+  "id": "b11-060",
+  "slide": 729,
+  "type": "mc",
+  "prompt": "Which of the following is listed as a disadvantage of iron as an energy carrier?",
+  "options": [
+   "Its toxicity and the need for refrigerated storage.",
+   "Its scarcity, since iron is one of the rarest elements of the earth crust.",
+   "Its low volumetric energy density.",
+   "The need to return the iron oxides to the reduction site, together with a low TRL especially for the oxidation step."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The disadvantages listed are the additional conversion processes, a low TRL - particularly for the oxidation - against the tight timeline of the European coal exits, a lower gravimetric energy density of 2.05 kWh/kg, and the need for the return of the iron oxides. The volumetric argument is inverted in the first option: iron's volumetric density is high at 16.1 kWh/l, and it is the gravimetric one that is poor. The second option is wrong twice, since iron is explicitly listed as non-toxic and is a solid at ambient temperature needing no refrigeration at all. The fourth contradicts the advantage that iron is the fourth most abundant element of the earth crust."
+ },
+ {
+  "id": "b11-061",
+  "slide": 730,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide argues that iron enables infrastructure re-use. How large is the coal fleet involved, what would a new plant cost, and which modifications does a retrofit to iron require?",
+  "solution": "The Global Energy Monitor Coal Plant Tracker map shows more than 6,000 existing coal power plants worldwide - the legend counts 6,580 operating units - plus more than 1,000 units under construction, permitted, pre-permit or announced (381 under construction, 291 permitted, 226 pre-permit, 158 announced), concentrated in China, India and South-East Asia. A new 1,000 MW plant costs about 1,700 - 2,200 million $ (IEA 2023), so re-using an existing station instead of building anything new is the whole economic argument. The retrofit measures after Janicka et al. 2023 are: a new fuel feeding system, but no mills necessary, since the iron already arrives as powder; no desulfurization and probably no de-NOx, since iron contains no sulphur, which alone yields an expected 1 - 2 % efficiency gain because those auxiliaries no longer consume power; jet burners, because the mass flow is about 30 % higher for the same heat output; flue gas dedusting redesigned for the separation of iron oxides, which are now the product to be recovered rather than a waste; and additional dust removal systems in the boiler. Decisively, the complete steam cycle - boiler pressure parts, turbine, generator, condenser and grid connection - can remain unchanged, and that is what makes the retrofit cheap and fast enough to beat the coal-exit deadline.",
+  "keywords": [
+   "6,000 existing coal power plants",
+   "1,700 - 2,200 million $",
+   "no mills necessary",
+   "1 - 2 % efficiency gain",
+   "jet burners",
+   "iron oxides",
+   "steam cycle"
+  ]
+ },
+ {
+  "id": "b11-062",
+  "slide": 731,
+  "type": "open",
+  "prompt": "Which research needs does the lecture name for iron as an energy carrier, and how do they split between the two halves of the cycle?",
+  "solution": "Two halves, two lists. On the combustion side: flame stabilization, because iron powder has a low burning velocity, so the flame tends to detach or extinguish in a burner designed for coal dust; NOx emissions, which do not disappear just because the fuel is carbon-free, since thermal NOx forms from the nitrogen of the combustion air at high flame temperature; nanoparticle formation, i.e. ultrafine iron oxide particles that pass conventional filters and are a health concern; and particle agglomeration, where partly molten oxide sticks particles together and fouls the boiler and the burner. On the reduction side: thermochemical reduction, i.e. the hydrogen-based direct reduction Fe2O3 + 3 H2 -> 2 Fe + 3 H2O known from green steelmaking, and electrochemical reduction as an alternative route that would use electricity directly instead of going through hydrogen. The split matches the TRL figures given elsewhere in the section: reduction is at TRL 6-7 thanks to the steel industry, while oxidation is the genuinely immature half and is therefore the critical path for any coal power plant retrofit.",
+  "keywords": [
+   "flame stabilization",
+   "burning velocity",
+   "NOx",
+   "nanoparticle",
+   "agglomeration",
+   "thermochemical reduction",
+   "electrochemical reduction"
+  ]
+ },
+ {
+  "id": "b11-063",
+  "slide": 732,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The bar chart compares energy supply costs of iron, aluminium, hydrogen, ammonia, methanol and methane, the latter two with DAC and with point source capture. Read off the ranking and explain the cost structure of the metal options.",
+  "solution": "The y-axis is energy supply cost in €/MWh, and every bar is split into electrolysis, reduction/synthesis, carbon capture, liquefaction, air separation, product storage, H2 intermediate storage and transport. Reading the chart: aluminium is cheapest at about 161 €/MWh, then methanol with point source capture at about 171 €/MWh, iron and methane-PSC at roughly 178 - 180 €/MWh, hydrogen at about 188 €/MWh, ammonia at about 190 €/MWh, and the DAC variants are most expensive - methanol-DAC at about 204 €/MWh and methane-DAC at about 206 €/MWh. Two structural points. First, the pair of DAC and PSC bars on either side of the dividing line prices climate-neutral carbon directly: switching methanol or methane from point source capture to direct air capture adds roughly 30 €/MWh, visible as the growing black carbon capture block. Second, the metals have a completely different structure: aluminium consists almost entirely of a single reduction/synthesis block, because the Hall-Héroult smelting is itself the electrolysis step, and iron is electrolysis plus a large reduction block, with no carbon capture, no air separation and no liquefaction at all; the transport block is also small, because a bulk solid ships cheaply. That is why the metals come out competitive despite their extra conversion step - they simply avoid the carbon capture and liquefaction costs that burden every molecular carrier.",
+  "keywords": [
+   "€/MWh",
+   "161 €/MWh",
+   "206 €/MWh",
+   "reduction/synthesis",
+   "carbon capture",
+   "point source capture",
+   "liquefaction"
+  ]
+ },
+ {
+  "id": "b11-064",
+  "slide": 733,
+  "type": "open",
+  "prompt": "Exercise 4a: how much hydrogen does it take stoichiometrically to produce one kilogram of iron by reduction of Fe2O3? Use Fe2O3 + 3 H2 -> 2 Fe + 3 H2O, M(H) = 1.008 g/mol and M(Fe) = 55.845 g/mol, and comment on the energy this hydrogen represents.",
+  "solution": "Reaction: Fe2O3 + 3 H2 -> 2 Fe + 3 H2O. Per formula turnover, 3 mol of H2 give 2 mol of Fe.\\nHydrogen per turnover: 3 mol * 2 * 1.008 g/mol = 6.048 g H2.\\nIron per turnover: 2 mol * 55.845 g/mol = 111.69 g Fe.\\nRule of three for 1,000 g of iron:\\n3 mol * 2 * 1.008 gH2/mol / (2 mol * 55.845 gFe/mol) * 1000 gFe = 54.15 g H2.\\nSo one kilogram of iron requires 54.15 g of hydrogen, i.e. 54.15 kg of H2 per tonne of iron.\\nEnergy check: 54.15 g * 33.33 kWh/kg = 1.81 kWh of hydrogen (LHV) per kilogram of iron, while the iron itself carries 2.05 kWh/kg. The reduction step is therefore roughly at parity in energy terms - the hydrogen input is of the same order as the heat later released by burning the iron, which is what makes the metal cycle plausible at all. The real losses of the chain sit upstream in the electrolysis that produces the hydrogen (63 - 70 %) and downstream in the boiler that burns the iron, not in the stoichiometry.",
+  "keywords": [
+   "6.048 g",
+   "111.69 g",
+   "54.15 g",
+   "3 mol",
+   "55.845",
+   "2.05 kWh/kg",
+   "33.33 kWh/kg"
+  ]
+ },
+ {
+  "id": "b11-065",
+  "slide": 733,
+  "type": "open",
+  "prompt": "Exercise 4b: how much ammonia could stoichiometrically be generated from the same amount of hydrogen (54.15 g) that reduces one kilogram of iron? Use N2 + 3 H2 -> 2 NH3, M(N) = 14.007 g/mol and M(H) = 1.008 g/mol, and compare the energy stored in the two products.",
+  "solution": "Reaction: N2 + 3 H2 -> 2 NH3. Per turnover, 3 mol of H2, i.e. 3 * 2 * 1.008 = 6.048 g, give 2 mol of NH3.\\nMolar mass of ammonia: 14.007 + 3 * 1.008 = 17.031 g/mol, so 2 mol = 34.06 g NH3.\\nRule of three:\\n2 * (14.007 gN/mol + 3 * 1.008 gH2/mol) / (3 * 2 * 1.008 gH2/mol) * 54.15 gH2 = 304.97 g NH3.\\nThe hydrogen that reduces one kilogram of iron would therefore make 304.97 g of ammonia, a mass ratio of about 5.6 kg of ammonia per kilogram of hydrogen, because nitrogen makes up 82 % of the ammonia molecule and is taken free of charge from the air by air separation.\\nEnergy comparison: 0.30497 kg * 5.2 kWh/kg = 1.59 kWh stored in the ammonia, against 1 kg * 2.05 kWh/kg = 2.05 kWh stored in the iron, both from the same 54.15 g of hydrogen worth 1.81 kWh. Iron thus appears to store more energy than the hydrogen put in, which violates nothing: the reduction only removes oxygen, and the heat released later comes from re-oxidation with atmospheric oxygen, whereas ammonia synthesis genuinely stores the hydrogen's own chemical energy and loses some of it in the Haber-Bosch step. Volumetrically the gap is much wider still: 16.1 kWh/l for solid iron against 3.2 kWh/l for liquid ammonia.",
+  "keywords": [
+   "N2 + 3 H2",
+   "34.06 g",
+   "304.97 g",
+   "54.15 g",
+   "5.2 kWh/kg",
+   "2.05 kWh/kg",
+   "16.1 kWh/l"
+  ]
+ }
+]

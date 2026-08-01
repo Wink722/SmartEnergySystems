@@ -1,0 +1,10 @@
+[
+  {"slide": 617, "reason": "Three uncaptioned product photographs (compressed gas storage racks, H2 tube trailer, liquid hydrogen sphere) with no figures at all; the quantitative comparison of compressed and liquid hydrogen storage is asked on slide 634."},
+  {"slide": 621, "reason": "Second global project map of the same Hydrogen Council series (2022 vs. 2025); the project counts, the FID share and the regional split are already asked on slide 620."},
+  {"slide": 626, "reason": "Screenshot of the interactive h2inframap.eu website with a project pop-up window; the backbone content it displays is asked on slides 627 and 633."},
+  {"slide": 629, "reason": "IEA net-zero power-sector overview figure in which hydrogen and ammonia appear only inside one generation band; the slide series' own statement about hydrogen in power is asked on slides 628 and 630."},
+  {"slide": 635, "reason": "SUNFIRE company portrait with product renderings; its only examinable data (4.7 and 3.6 kWh/Nm3 at 10 MW and 2.68 MW) are the input values of Exercise 1 on slide 640."},
+  {"slide": 654, "reason": "Verbatim repetition of the Chifeng project slide 637, reused in the ammonia chapter; the project is covered there."},
+  {"slide": 656, "reason": "Hyport Duqm portrait with a satellite photo and two consortium logos; it is the second export-ammonia project portrait in a row and adds no component or process that the Coega plant on slide 655 does not already teach."},
+  {"slide": 670, "reason": "Third of three Carbon Recycling International / e-methanol plant portraits; the first-of-a-kind plant is asked on slide 669 and the largest one on slide 671, and Shunli's own numbers (110,000 t/a from coke-oven hydrogen and lime-kiln CO2) are a marketing snapshot rather than a transferable process."}
+]

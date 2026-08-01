@@ -1,0 +1,1039 @@
+[
+ {
+  "id": "b04-001",
+  "slide": 192,
+  "type": "open",
+  "prompt": "What exactly does a shipper buy when he pays a transport price, and what do the units €/(m³/h)/[km]/a and €/(kWh/h)/[km]/a tell you about the product? Explain the three remarks the slide adds: 'available: volume not energy', 'capacity ≠ utilization' and 'price ≠ cost'.",
+  "solution": "The scope of service is capacity, not gas. The shipper books a maximum flow that the transporter/carrier has to keep available for him: a volume (or energy) per time unit, at a defined point, for a defined period and — if the tariff is distance-related — over a defined length. That is why the unit has three parts: a flow (m³/h or kWh/h), possibly a length (km), and always a period (a). The two unit variants describe the same product; they are linked by the gross calorific value, κ_E = κ_V · GCV, and €/(kWh/h)/a is identical to €/kW/a, i.e. a capacity price.\n\nAvailable: volume not energy — the pipeline physically moves cubic metres; how many kWh those carry depends on the gas quality, so the same m³/h booking delivers a different amount of energy for L-gas than for H-gas.\n\nCapacity ≠ utilization — the shipper pays for the booked capacity whether or not gas flows. A booking used at 50 % costs exactly as much as one used at 100 %, so the specific transport cost in €/MWh doubles when utilisation halves. This is the fixed-cost logic of every network industry.\n\nPrice ≠ cost — what the shipper pays is a regulated or negotiated tariff, not the transporter's cost of producing the service; the two only coincide under strictly cost-based regulation, and incentive regulation deliberately drives a wedge between them.\n\nThe fourth remark, 'time-unit?', is the exam trap: a price may be quoted per year or per day. A price per day has to be multiplied by 365 before it can be added to an annual charge.",
+  "keywords": [
+   "scope of service",
+   "capacity",
+   "gross calorific value",
+   "€/kW/a",
+   "utilization",
+   "price",
+   "cost",
+   "365"
+  ]
+ },
+ {
+  "id": "b04-002",
+  "slide": 192,
+  "type": "cloze",
+  "prompt": "Transport capacity is physically available as a volume flow (m³/h), but tariffs are usually quoted per energy flow (kWh/h). The factor that converts the one into the other is the ___.",
+  "accept": [
+   "gross calorific value",
+   "calorific value",
+   "GCV",
+   "heating value",
+   "Brennwert",
+   "gross calorific value (GCV)"
+  ],
+  "solution": "The gross calorific value (GCV, Brennwert), quoted in kWh/m³. κ_E = κ_V · GCV, e.g. 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h = 110,000 kW = 110 MW. Every capacity calculation in this lecture starts with this conversion, because the booking is stated in m³/h while the price is quoted per kWh/h."
+ },
+ {
+  "id": "b04-003",
+  "slide": 193,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Name the three transportation pricing systems shown on the slide, give the calculation formula of each, and state for each system what the shipper's bill actually depends on.",
+  "solution": "1. Distance-related pricing: C = Price * Distance * Capacity. The shipper contracts a route through the network and pays for its length; the bill grows linearly with the distance (in the lecture example l1 + l2 + l3) and with the booked capacity.\n\n2. Entry-exit pricing: C = (Entry-Price * Entry-Capacity) + (Exit-Price * Exit-Capacity). Entry and exit are booked and paid separately and independently. No route is contracted, so the bill does not depend on where the gas physically flows or how far it travels — only on which points are used and how much capacity is booked at each of them. This is the system used in the EU today; it is what makes a virtual trading point and free re-routing possible.\n\n3. Postage stamp pricing: C = Price * Capacity. One uniform tariff for the whole network, exactly like a stamp on a letter: the same price whether the letter travels 10 km or 500 km. The bill depends only on the booked capacity.\n\nAll three are pricing systems, i.e. they say how the money is calculated, not which physical path the gas takes. In the lecture's three worked examples the same shipper (10,000 m³/h, GCV 11 kWh/m³) pays 275,000 €/a under every one of them — the systems are calibrated to the same revenue, and they differ in how that revenue is spread over shippers with different distances.",
+  "keywords": [
+   "Distance-related",
+   "Price * Distance * Capacity",
+   "Entry-exit",
+   "Postage stamp",
+   "route",
+   "275,000"
+  ]
+ },
+ {
+  "id": "b04-004",
+  "slide": 193,
+  "type": "mc",
+  "prompt": "Which assignment of formulas to pricing systems is correct?",
+  "options": [
+   "Distance-related: price · capacity | Entry-exit: price · distance · capacity | Postage stamp: entry price + exit price",
+   "Distance-related: price · distance · utilisation | Entry-exit: price · distance · capacity | Postage stamp: price · utilisation",
+   "Distance-related: price · distance · capacity | Entry-exit: price · capacity | Postage stamp: entry price · entry capacity + exit price · exit capacity",
+   "Distance-related: price · distance · capacity | Entry-exit: entry price · entry capacity + exit price · exit capacity | Postage stamp: price · capacity"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Option 0 is the slide. Distance-related pricing multiplies a specific price by the contracted length and by the booked capacity; entry-exit adds two independent point charges; postage stamp is one flat tariff times the booked capacity. Options 1 and 2 swap the systems. Option 3 is wrong for a second reason as well: transport tariffs are always charged on booked capacity, never on actual utilisation — 'capacity ≠ utilization'."
+ },
+ {
+  "id": "b04-005",
+  "slide": 194,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide separates the 'pricing system' from the 'capacity reservation system'. Explain the difference and say which capacity reservation system belongs to a defined route and which to no defined route.",
+  "solution": "The two questions are independent and the lecture insists on keeping them apart: a pricing system refers to prices, not paths — it only says how the charge is computed. A capacity reservation system refers to paths, not prices — it says what the shipper actually reserves physically.\n\nIf the product contains a defined route, the reservation is path-related: the shipper books a transport from a named entry to a named exit along a contracted path, and the transporter has to keep exactly that path free. If the product contains no defined route, the reservation is entry-exit related: the shipper books an amount of capacity at an entry point and, separately, an amount at an exit point, and it is the system operator who works out how the gas physically gets from one to the other.\n\nThe practical consequences of the entry-exit reservation system are large: entry and exit bookings can be traded and used independently, the shipper can change his source or his customer without a new transport contract, and all gas in the system meets at one virtual trading point, which is the precondition for a liquid hub. The price of that freedom is that the operator carries the network risk and must buy internal balancing and congestion management.\n\nNote that the two dimensions can in principle be combined: a path-related reservation could still be billed with a postage-stamp price, and an entry-exit reservation could in principle be billed with distance-related prices. In practice the EU combines an entry-exit reservation system with entry-exit prices.",
+  "keywords": [
+   "pricing system refers to prices",
+   "capacity reservation system refers to paths",
+   "defined route",
+   "path-related",
+   "entry-exit",
+   "virtual trading point"
+  ]
+ },
+ {
+  "id": "b04-006",
+  "slide": 195,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Reproduce the 'pancaking' figure in words — what is on the two axes and why does the curve have that shape — and explain why pancaking is a problem and how it is removed.",
+  "solution": "The figure plots the total transportation costs of one shipper against the distance travelled. Above it, three separate networks are drawn in a row. Within one network the cost curve is nearly flat, because inside a system the tariff hardly depends on distance; but every time the shipper crosses into the next network the curve jumps upwards by a whole tariff. The total cost is therefore piled up as 'pancakes', one charge per network crossed.\n\nWhy it is a problem: the shipper pays several full tariffs for one transport, so the cost of moving gas across borders is driven by the number of system operators on the way, not by the physical effort. Long-distance and cross-border trade is penalised, price differences between markets cannot be arbitraged away, and the border, not the pipeline, becomes the bottleneck. It is a purely institutional cost — the physics of the pipeline does not change at the border.\n\nHow it is removed: by an entry-exit system with one tariff pair per market area, so that a shipper pays exactly one entry and one exit charge; by merging market areas (Germany went from originally many market areas to two and, since October 2021, to the single area of Trading Hub Europe); and by inter-TSO compensation between operators so that transit no longer has to be charged to the shipper at every border.",
+  "keywords": [
+   "total transportation costs",
+   "distance",
+   "pancakes",
+   "cross-border",
+   "entry-exit",
+   "market area"
+  ]
+ },
+ {
+  "id": "b04-007",
+  "slide": 196,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the distance-related example the gas goes from Point A to Point B through the network shown, with sections l1 = 100 km, l2 = 50 km and l3 = 100 km. Which distance is charged?",
+  "options": [
+   "The straight-line distance between Point A and Point B",
+   "The sum of the sections along the contracted route, l1 + l2 + l3 = 250 km",
+   "The longest single section on the route, l3 = 100 km",
+   "The total pipeline length of the whole network"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Distance-related pricing charges the contracted path, so the relevant length is l = l1 + l2 + l3 = 100 + 50 + 100 = 250 km. The beeline is irrelevant — gas follows pipelines, and the route is part of the contract. Charging the whole network length would be absurd, and only the longest section would ignore two thirds of the path. Note the slide's own text contains a typo, 'l = l1 + l2 + l2'; the third term is of course l3."
+ },
+ {
+  "id": "b04-008",
+  "slide": 197,
+  "type": "open",
+  "prompt": "A shipper books distance-related transport capacity of κ_V = 15,000 m³/h over a route made of three sections of 120 km, 80 km and 150 km. The gross calorific value is 10 kWh/m³ and the distance price is p_d = 0.008 €/kWh/h/km/a. Calculate the annual charge, and state what he would pay if the same route were priced with the lecture's 0.01 €/kWh/h/km/a.",
+  "solution": "Step 1 — total distance:\nl = 120 km + 80 km + 150 km = 350 km\n\nStep 2 — convert the volumetric capacity into an energy capacity (always first):\nκ_E = κ_V · GCV = 15,000 m³/h · 10 kWh/m³ = 150,000 kWh/h = 150,000 kW = 150 MW\n\nStep 3 — apply the distance formula C_TD = κ_E · l · p_d:\nC_TD = 150,000 kWh/h · 350 km · 0.008 €/kWh/h/km/a = 420,000 €/a\n\nStep 4 — with the lecture's price of 0.01 €/kWh/h/km/a:\n150,000 · 350 · 0.01 = 525,000 €/a\n\nThe result is an annual capacity charge that the shipper owes whether or not he uses the booking. Note how the three factors enter linearly: doubling the distance, the capacity or the price doubles the bill. If instead the GCV had been 11 kWh/m³, κ_E would be 165,000 kWh/h and the charge 462,000 €/a — the gas quality alone changes the transport bill by 10 %.",
+  "keywords": [
+   "350 km",
+   "150,000 kWh/h",
+   "420,000",
+   "525,000",
+   "capacity charge"
+  ]
+ },
+ {
+  "id": "b04-009",
+  "slide": 198,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure shows Point A with tariff A and Point B with tariff B, and the two arrows do not connect. What is the message of the picture, and what does it mean for a shipper who has already booked entry capacity but wants to change his customer?",
+  "solution": "The arrows deliberately do not touch: in an entry-exit system there is no contracted path between A and B. The shipper concludes two independent bookings — an entry booking at Point A, charged with the tariff of Point A, and an exit booking at Point B, charged with the tariff of Point B — and the sum of the two is his transport bill: C = p_Entry · κ_Entry + p_Exit · κ_Exit. The distance between A and B does not appear in the formula at all.\n\nEconomically the gas is deemed to be delivered into the market area at the entry and taken out of it at the exit; between the two it belongs to the virtual trading point, and the system operator, not the shipper, is responsible for making the flows physically work.\n\nFor the shipper this means maximum flexibility. If he changes his customer, he only has to release the old exit booking and buy a new one at the new exit point; the entry booking, the supply contract and the source of the gas are untouched. He can also buy gas at the hub instead of at his entry point without any transport contract at all. That decoupling of entry and exit is precisely what turns a pipeline system into a market, and it is why entry-exit prices and entry-exit reservation are the EU standard.",
+  "keywords": [
+   "no contracted path",
+   "entry booking",
+   "exit booking",
+   "distance",
+   "virtual trading point",
+   "flexibility"
+  ]
+ },
+ {
+  "id": "b04-010",
+  "slide": 199,
+  "type": "open",
+  "prompt": "A shipper books κ_V = 8,000 m³/h at both the entry and the exit point of an entry-exit system. The gross calorific value is 10.5 kWh/m³, the entry price is 1.2 €/kWh/h/a and the exit price 0.0025 €/kWh/h/d. What does the reservation cost for one year? What would a careless student get, and by how much would he be wrong?",
+  "solution": "Step 1 — energy capacity:\nκ_E = κ_V · GCV = 8,000 m³/h · 10.5 kWh/m³ = 84,000 kWh/h = 84,000 kW\n\nStep 2 — entry (the price is already per year):\n84,000 kW · 1.2 €/kW/a = 100,800 €/a\n\nStep 3 — exit (the price is per day, so multiply by 365):\n84,000 kW · 0.0025 €/kW/d = 210 €/d\n210 €/d · 365 d/a = 76,650 €/a\n\nStep 4 — total:\nC_TE = 100,800 + 76,650 = 177,450 €/a\n\nThe careless answer is to add the daily exit charge as if it were annual: 100,800 + 210 = 101,010 €/a, i.e. 76,440 € too little — a factor of 365 on the whole exit component. Two rules therefore decide this type of task: convert m³/h into kWh/h before touching any price, and check the period of every single price before adding it to another.",
+  "keywords": [
+   "84,000 kWh/h",
+   "100,800",
+   "76,650",
+   "177,450",
+   "365"
+  ]
+ },
+ {
+  "id": "b04-011",
+  "slide": 199,
+  "type": "open",
+  "prompt": "On the slide the exit price is the odd-looking number p_Exit = 0.00219178 €/kWh/h/d. Convert it into an annual price and show that the entry-exit example, the distance-related example (250 km at 0.01 €/kWh/h/km/a) and the postage-stamp example (2.5 €/kWh/h/a) all describe the same total charge. What is the point of this construction?",
+  "solution": "Conversion of the exit price:\n0.00219178 €/kWh/h/d · 365 d/a = 0.80 €/kWh/h/a (0.7999997, i.e. exactly 0.8 up to rounding — the number was constructed as 0.8/365).\n\nAdding the entry price gives the total specific entry-exit price:\n1.7 €/kWh/h/a + 0.8 €/kWh/h/a = 2.5 €/kWh/h/a\n\nThe distance-related example gives the same specific price:\n0.01 €/kWh/h/km/a · 250 km = 2.5 €/kWh/h/a\n\nAnd the postage-stamp price is 2.5 €/kWh/h/a by definition.\n\nWith κ_E = 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h all three therefore yield\n110,000 kWh/h · 2.5 €/kWh/h/a = 275,000 €/a.\n\nThe point: the three pricing systems are calibrated to collect the same revenue from this one shipper, so the example isolates the only thing that really differs — how the same total revenue is distributed between shippers. The moment a second shipper with a different distance appears, the three systems give completely different bills.",
+  "keywords": [
+   "0.80",
+   "2.5",
+   "110,000 kWh/h",
+   "275,000",
+   "same revenue"
+  ]
+ },
+ {
+  "id": "b04-012",
+  "slide": 200,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which statement about postage stamp transportation pricing is correct?",
+  "options": [
+   "Entry point and exit point each carry their own tariff and the two are added up.",
+   "The tariff is fixed for every shipper individually in an auction at each network point.",
+   "The tariff is proportional to the distance between the entry and the exit point.",
+   "One uniform tariff applies to the whole network; the bill depends only on the booked capacity, neither on the distance nor on which points are used."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Postage stamp pricing works like a postage stamp on a letter: the same charge for the whole 'postal area', regardless of how far and between which points the item travels, so C = price · capacity. Option 1 describes distance-related pricing, option 2 describes entry-exit pricing. Option 3 confuses the pricing system with capacity auctioning, which is a mechanism for allocating scarce capacity, not a tariff system. The consequence of a postage stamp tariff is a systematic cross-subsidy: short-haul shippers pay the same as long-haul shippers and therefore subsidise them."
+ },
+ {
+  "id": "b04-013",
+  "slide": 201,
+  "type": "open",
+  "prompt": "The three lecture examples all end at 275,000 €/a for a booking of 10,000 m³/h with GCV 11 kWh/m³. Now take a second shipper who books the same capacity but only moves the gas 50 km inside the same network. What does he pay under each of the three systems, and what does the comparison tell you about cost causation and cross-subsidies?",
+  "solution": "κ_E = 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h for both shippers.\n\nDistance-related: 110,000 kWh/h · 50 km · 0.01 €/kWh/h/km/a = 55,000 €/a.\nEntry-exit: he still books one entry and one exit; with the tariffs of the example he pays 110,000 · (1.7 + 0.8) = 275,000 €/a, unchanged, because distance does not enter the formula.\nPostage stamp: 110,000 · 2.5 = 275,000 €/a, unchanged by definition.\n\nSo the short-haul shipper pays five times more under postage stamp or entry-exit than under distance-related pricing, while a shipper travelling 1,000 km would pay 1,100,000 €/a under distance-related pricing but still only 275,000 €/a under the other two.\n\nInterpretation: distance-related pricing follows cost causation most closely, since compression work really does grow with distance; but it needs a contracted path, it re-introduces pancaking at every network border and it makes trading inflexible. Postage stamp and entry-exit deliberately average the cost over the network, which creates a cross-subsidy from short-haul to long-haul users but produces simple, non-discriminatory and tradable products. The EU accepted that cross-subsidy on purpose because a liquid market at a virtual point was judged to be worth more than exact cost reflectivity.",
+  "keywords": [
+   "55,000",
+   "275,000",
+   "cost causation",
+   "cross-subsidy",
+   "pancaking"
+  ]
+ },
+ {
+  "id": "b04-014",
+  "slide": 201,
+  "type": "cloze",
+  "prompt": "A tariff that is the same for the entire network and independent of the distance between entry and exit is called a ___ tariff.",
+  "accept": [
+   "postage stamp",
+   "postage-stamp",
+   "postage stamp tariff",
+   "postage",
+   "Briefmarke",
+   "Briefmarkentarif"
+  ],
+  "solution": "Postage stamp. The analogy is the stamp on a letter: one price for the whole postal area, no matter how far the letter travels. The charge is simply price · capacity, e.g. 110,000 kWh/h · 2.5 €/kWh/h/a = 275,000 €/a. Its counterparts in the lecture are distance-related pricing (price · distance · capacity) and entry-exit pricing (entry charge + exit charge)."
+ },
+ {
+  "id": "b04-015",
+  "slide": 202,
+  "type": "open",
+  "prompt": "Besides capacity and price, which further variables can enter a transport product? Name the three groups of the slide and list in full what has to be agreed for interruptible capacity.",
+  "solution": "Time — the accounting period, the time of the reservation and the beginning and the end of the contract. A capacity for the coming gas year is a different product from the same capacity bought day-ahead, and the tariff reflects that.\n\nLocation — the delivery and redelivery point, possibly the distance, and further physical restrictions such as pipeline diameter or topography. In an entry-exit system the point, not the route, defines the product.\n\nInterruptibility — the shipper accepts that his flow can be curtailed and gets a discount for it. Five parameters have to be fixed: the maximum interruptible capacity, the timing of a potential interruption, the maximum length of a single interruption, the maximum total length of interruption over the period, and the pre-announcement period the operator has to observe. Without all five the product is not defined, because the value of the discount depends entirely on how badly the shipper can be curtailed.\n\nInterruptible capacity is systematically cheaper than firm capacity — the Uniper storage price sheet in this chapter, for instance, charges 60 % of the firm price for interruptible capacity. It is one of the standard security-of-supply tools, because it lets the operator shed load contractually instead of physically failing.",
+  "keywords": [
+   "accounting period",
+   "delivery",
+   "interruptible capacity",
+   "pre-announcement period",
+   "maximum total length",
+   "firm capacity"
+  ]
+ },
+ {
+  "id": "b04-016",
+  "slide": 205,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the shape of the German storage filling curve since 2021 and explain both the regular annual pattern and the striking deviation in 2022.",
+  "solution": "The curve is a saw-tooth with a period of one year: the level rises from roughly March/April to a maximum near 100 % at the end of October and falls back through the winter to a minimum in March. That is the seasonal function of storage — filled in the summer when demand is low and supply is cheap, emptied in winter when demand is two to three times higher than the flat import band.\n\nThe deviation: in the winter 2021/22 the level fell far lower than usual, to about 25 % in March/April 2022, because storages had been filled poorly in autumn 2021 and Russian deliveries were being reduced. The reaction was the German and EU filling obligation — minimum filling levels per date, a duty of Trading Hub Europe to buy gas if the market does not, and the gas storage levy to refinance it. In autumn 2022 the level was pushed back to almost 100 % by 1 November.\n\nA second observation at the right-hand edge: the injection season 2025 ends at only about 75 %, clearly below the previous years, which is exactly the situation discussed on the Rehden slide. Since the legal target is a nationwide average, an individual facility may sit far below it without triggering an intervention.",
+  "keywords": [
+   "saw-tooth",
+   "seasonal",
+   "25 %",
+   "filling obligation",
+   "1 November",
+   "75 %"
+  ]
+ },
+ {
+  "id": "b04-017",
+  "slide": 206,
+  "type": "open",
+  "prompt": "Give the lecture's definition of storage and explain the formal relation between transport and storage. Why is that comparison more than a play on words?",
+  "solution": "Definition: storage is the space where objects are placed during the times when they are not directly or immediately used or needed — the (quasi-)permanent confining of goods or items, including easily accessible input and output. The two accesses are part of the definition: a hole in the ground into which gas cannot be put back quickly is not a storage facility in the economic sense.\n\nThe relation: while transport refers to the movement of objects in space, storage can abstractly be described as the movement of objects in time. In transport an object is fed in at the transfer point and simultaneously withdrawn at the receiving point; in physical storage the object is input at one point in time and output at a later point in time, typically at the same location.\n\nThis is more than wordplay because it makes the two infrastructures formally interchangeable and lets the same economics be applied to both. Both are booked as capacity, both are paid for whether or not they are used, both are valued by a price difference — transport by the spatial spread between two markets, storage by the temporal spread between two dates — and in both cases the business only pays if the spread exceeds the capacity charge. It also explains the financial substitute for a physical store, the time swap: if the movement in time can be bought at the same hub as two market transactions, no reservoir is needed at all.",
+  "keywords": [
+   "input and output",
+   "movement of objects in space",
+   "movement of objects in time",
+   "same location",
+   "spread",
+   "time swap"
+  ]
+ },
+ {
+  "id": "b04-018",
+  "slide": 206,
+  "type": "cloze",
+  "prompt": "While transport is the movement of objects in space, storage can abstractly be described as the movement of objects in ___.",
+  "accept": [
+   "time",
+   "Zeit",
+   "the time dimension"
+  ],
+  "solution": "Time. In transport the object is fed in at the transfer point and withdrawn at the receiving point at the same moment but at a different place; in storage it is put in at time 1 and taken out at time 2, typically at the same location. That symmetry is why transport and storage are priced with the same logic: capacity is booked and paid for in advance, and the business only pays if the price spread — spatial for transport, temporal for storage — exceeds the charge."
+ },
+ {
+  "id": "b04-019",
+  "slide": 207,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Label the storage parameter figure completely: name every quantity in it, give the relation between them, and explain the difference between 'working gas capacity' and 'total gas in storage'.",
+  "solution": "The figure shows a vessel with two arrows and four bracketed quantities.\n\nThe two arrows are the rates: the injection rate (gas going in) and the withdrawal rate (gas coming out), both quoted per hour, e.g. in m³/h or kWh/h — they are capacities, not amounts.\n\nInside the vessel: the lower, grey part is the cushion gas (base gas), the upper part is the working gas volume. Hence total gas storage capacity = cushion gas + working gas capacity. The cushion gas stays in the reservoir permanently; it is the pressure pad that makes any withdrawal possible at all and is a sunk investment of the operator, often 30 to 50 % of the total volume in a pore storage and much less in a salt cavern.\n\nThe distinction the figure makes with its two right-hand brackets: working gas capacity is the maximum amount of gas that can be cycled, the quantity the customer books and pays for with p_working gas in €/kWh/a. Total gas in storage is the current inventory, i.e. cushion gas plus the working gas actually in the reservoir at this moment. The first is a contractual maximum, the second is a filling level that changes every day — the quantity plotted in every storage-level chart.\n\nA storage product is therefore always defined by three numbers, two rates and one volume: injection rate, withdrawal rate and working gas capacity.",
+  "keywords": [
+   "injection rate",
+   "withdrawal rate",
+   "cushion gas",
+   "working gas volume",
+   "total gas storage capacity",
+   "filling level"
+  ]
+ },
+ {
+  "id": "b04-020",
+  "slide": 207,
+  "type": "cloze",
+  "prompt": "Total gas storage capacity minus the cushion gas gives the ___.",
+  "accept": [
+   "working gas volume",
+   "working gas",
+   "working gas capacity",
+   "Arbeitsgas",
+   "Arbeitsgasvolumen",
+   "working gas volume (WGV)"
+  ],
+  "solution": "The working gas volume (working gas capacity). Only this part can actually be injected and withdrawn; the cushion gas remains permanently in the reservoir to maintain the pressure and is never sold. Working gas volume divided by the withdrawal rate gives the number of hours of full withdrawal, and it is the quantity that is priced with p_working gas in €/kWh/a."
+ },
+ {
+  "id": "b04-021",
+  "slide": 208,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the storage principle diagram: which business transaction is intended, which capacities have to be reserved and when, and what is the pricing requirement for profitability?",
+  "solution": "The intended business is a pure time arbitrage: purchase the gas at time 1 at p_supply and sell it at time 2 at p_sales. The upper arrow of the diagram is that commercial transaction; it says nothing about where the gas physically is in between.\n\nThe lower part is the physical realisation. At time 1 the gas is injected into storage — injection capacity has to be reserved for that. Between time 1 and time 2 it is stored at a price p_storage — working gas capacity has to be reserved for the whole period. At time 2 it is withdrawn — withdrawal capacity has to be reserved. All three reservations are made in advance and are paid whether or not they are used, which is why the storage charge is a fixed cost of the trade.\n\nThe pricing requirement for profitability is p_supply + p_storage < p_sales: the purchase price plus the specific storage cost must be lower than the selling price. Equivalently the summer/winter spread p_sales − p_supply must exceed the specific storage cost. Note that p_storage must first be converted into an energy-specific figure in €/MWh by dividing the annual storage charge by the working gas volume actually cycled — comparing a €/kW/a rate charge with a €/MWh commodity price directly is the classic error.\n\nThe financial alternative to the whole construction is the time swap, which reproduces the movement in time with two transactions at the same hub and needs no physical capacity at all.",
+  "keywords": [
+   "p_supply",
+   "p_storage",
+   "p_sales",
+   "injection",
+   "withdrawal",
+   "working gas capacity",
+   "fixed cost"
+  ]
+ },
+ {
+  "id": "b04-022",
+  "slide": 208,
+  "type": "open",
+  "prompt": "A trader buys gas in summer at 25 €/MWh and expects to sell it in winter at 33 €/MWh. His storage booking costs him 6.50 €/MWh of working gas, and he cycles 80,000 MWh. Is the business profitable? Give the margin, the annual result and the break-even winter price, and say what happens if the winter price ends up at 30 €/MWh.",
+  "solution": "Condition from the storage principle: p_supply + p_storage < p_sales.\n\nStep 1 — test the condition:\n25 €/MWh + 6.50 €/MWh = 31.50 €/MWh < 33 €/MWh → the business is profitable.\n\nStep 2 — specific margin:\n33 − 31.50 = 1.50 €/MWh\n\nStep 3 — annual result:\n1.50 €/MWh · 80,000 MWh = 120,000 € per storage year\n\nStep 4 — break-even winter price:\np_sales = p_supply + p_storage = 25 + 6.50 = 31.50 €/MWh, i.e. the summer/winter spread has to reach 6.50 €/MWh, exactly the specific storage cost.\n\nStep 5 — winter price of 30 €/MWh:\n30 − 31.50 = −1.50 €/MWh → a loss of 1.50 €/MWh, i.e. −120,000 € over the 80,000 MWh. The spread of 5 €/MWh is positive but still smaller than the storage cost, so a positive spread alone proves nothing.\n\nThe lesson: only the spread minus the specific storage cost decides. The storage charge is fixed, so the result scales with the volume actually cycled, and a trader who cannot earn the spread will prefer a time swap, which needs no physical booking.",
+  "keywords": [
+   "31.50",
+   "1.50",
+   "120,000",
+   "break-even",
+   "spread",
+   "specific storage cost"
+  ]
+ },
+ {
+  "id": "b04-023",
+  "slide": 208,
+  "type": "cloze",
+  "prompt": "The pricing requirement for a profitable storage business given on the slide is p_supply + p_storage < ___.",
+  "accept": [
+   "p_sales",
+   "psales",
+   "p sales",
+   "sales price",
+   "selling price",
+   "p_Sales"
+  ],
+  "solution": "p_sales, the price at which the gas is sold at time 2. In words: purchase price plus specific storage cost must be below the selling price, i.e. the summer/winter spread has to be larger than the specific storage cost. Rearranged, the break-even selling price is p_sales = p_supply + p_storage."
+ },
+ {
+  "id": "b04-024",
+  "slide": 209,
+  "type": "mc",
+  "prompt": "Which of the following is NOT one of the functions of storage listed on the slide?",
+  "options": [
+   "Compensation of demand fluctuations, short-term and mid-term",
+   "Compensation of supply fluctuations",
+   "(Economic) optimisation",
+   "Odorisation of the gas before it is delivered to end customers"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The slide lists exactly three functions: compensation of demand fluctuations (short-term, i.e. daily and hourly peaks, and mid-term, i.e. the seasonal cycle), compensation of supply fluctuations (the security-of-supply function — a failed field, pipeline or cargo is replaced from the store), and (economic) optimisation (buy cheap, sell dear, subject to p_supply + p_storage < p_sales). Odorisation is a real task in the gas chain, but it happens in the distribution network, not in the storage function catalogue."
+ },
+ {
+  "id": "b04-025",
+  "slide": 210,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the seasonality chart: give the winter/summer ratio for natural gas and for electricity in Germany, explain the difference, and estimate from the chart how much energy has to be moved from summer into winter if supply ran as a flat band.",
+  "solution": "Read-off: natural gas peaks in January at roughly 127 TWh per month and bottoms in August at roughly 44 TWh, a ratio of about 2.9, i.e. nearly a factor of three. Electricity moves between roughly 47 TWh in January and 37 TWh in June/August, a ratio of only about 1.27.\n\nReason: gas demand in Germany is dominated by space heating in households, commerce and parts of industry, so it follows the outside temperature almost linearly. Electricity demand is dominated by industrial processes, lighting and appliances, which run all year; heating is only a small share of it. That is why gas needs seasonal storage while electricity historically needed almost none — and why the sector coupling of heat and power will make electricity more seasonal in future.\n\nEstimate of the seasonal transfer: the twelve monthly bars sum to roughly 950 TWh per year, i.e. about 79 TWh per month on average. The winter half (October to March) accounts for roughly 615 TWh against 6 · 79 = 474 TWh of a flat band, so about 140 TWh have to be shifted from summer into winter. That is comfortably below the German working gas capacity of about 260 TWh — which is exactly why German storage can bridge a normal season, and the flat band of imports plus production can stay near constant.",
+  "keywords": [
+   "127 TWh",
+   "44 TWh",
+   "space heating",
+   "2.9",
+   "140 TWh",
+   "260 TWh"
+  ]
+ },
+ {
+  "id": "b04-026",
+  "slide": 213,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the 'typical storage utilization profile'. What are the two horizontal lines, when is gas withdrawn and when is it injected, and why is the temperature curve drawn underneath?",
+  "solution": "The horizontal axis is a full storage year from 1 October to 30 September, the vertical axis is energy or volume as an index. The jagged line is the daily demand of the portfolio, running above 150 and up to 200 in the winter and down to 50 to 90 in the summer.\n\nThe two horizontal lines are the boundaries of the supply contract: the upper one is the maximum supply obligation — the most the supplier is obliged to deliver on a day — and the lower one is the minimum off-take obligation — the least the buyer must take, the take-or-pay floor. The band between them is the flexibility of the supply contract, i.e. the range that can be covered by the contract itself without any storage.\n\nEverything above the maximum supply obligation is shaded as withdrawal: on cold winter days demand exceeds what the contract can deliver, so the store supplies the difference. Everything below the minimum off-take obligation is shaded as injection: in summer the buyer must take more than he can sell, and the surplus goes into the store. Storage therefore works exactly at the two edges of the contract flexibility.\n\nThe average temperature curve underneath is drawn to show the driver: the withdrawal periods coincide with the cold spells and the injection periods with the warm months. Gas demand is temperature-driven, so the storage profile is ultimately a weather profile, which is also why a mild winter destroys the summer/winter spread.",
+  "keywords": [
+   "1 October",
+   "30 September",
+   "maximum supply obligation",
+   "minimum off-take obligation",
+   "flexibility of the supply contract",
+   "withdrawal",
+   "injection",
+   "temperature"
+  ]
+ },
+ {
+  "id": "b04-027",
+  "slide": 213,
+  "type": "cloze",
+  "prompt": "The storage year in the typical utilization profile runs from 1 ___ to 30 September.",
+  "accept": [
+   "October",
+   "Oktober",
+   "Oct"
+  ],
+  "solution": "1 October. The gas year and the standard storage product both run from 1 October to 30 September, so that one contract covers a complete cycle: injection in the summer months and withdrawal in the following winter. This is also the reference date of the European filling targets, which are set for 1 November of each year."
+ },
+ {
+  "id": "b04-028",
+  "slide": 214,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Use the figure 'Storage used to provide security of supply' to show that the storage balance closes over the year, and calculate how much the store has to deliver in February when supply is interrupted. Read the values off the chart.",
+  "solution": "Read-off. In the summer months (April to September) supply is a flat band of about 105 while demand is only 80, so about 25 units per month are injected — shown as the negative bars below the axis. In the winter months demand jumps to about 130 while supply stays at about 110, so the store delivers about 20 units per month. In February supply is interrupted: it drops from 110 to 80, i.e. a supply interruption of 30 units, marked in yellow.\n\nFebruary withdrawal:\ndemand − available supply = 130 − 80 = 50 units, instead of the planned 20 units.\nThe store has to deliver 2.5 times its planned rate — which is only possible if the withdrawal rate was booked with a reserve, and if the filling level is still high enough at that point in the winter.\n\nAnnual balance:\ninjection = 6 months · 25 = 150 units\nwithdrawal = 5 months · 20 + 1 month · 50 = 100 + 50 = 150 units\nThe two are equal, so the store ends the year at the same level as it started — which is exactly the definition of a seasonal cycle.\n\nThe message of the slide: storage covers not only the predictable seasonal shape but also the unpredictable supply interruption. Both draw on the same working gas volume, so the security-of-supply function and the seasonal function compete for the same booked capacity.",
+  "keywords": [
+   "105",
+   "130",
+   "supply interruption",
+   "50 units",
+   "150 units",
+   "seasonal cycle"
+  ]
+ },
+ {
+  "id": "b04-029",
+  "slide": 215,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure 'Storage used for (economic) optimization' adds a price and a price forecast to the same supply/demand picture. Describe how the trader changes his behaviour compared with the pure security-of-supply case, and name the condition that decides whether it pays off.",
+  "solution": "The additional curves are the observed price, rising from about 1.0 in April to about 1.5 in September, and its forecast, continuing to about 2.0 by March. The trader therefore expects gas to become steadily more expensive over the storage year.\n\nHis reaction is visible in the supply bars. In the cheap early months (April to June) he takes about 110 units, more than the 80 he needs, and injects the surplus of roughly 30 units per month. As the price rises he reduces his purchases: about 105 in July, 100 in August and September. In the expensive late winter he cuts his purchases further, to about 95 in February and 90 in March, and covers the gap out of the store. Compared with the security-of-supply case the store is no longer just a seasonal buffer; it is used to shift purchases from expensive periods into cheap ones.\n\nThe condition is the storage principle: p_supply + p_storage < p_sales. Buying early only pays if the expected price increase exceeds the specific storage cost, and it is a forecast, not a certainty — the dashed part of the price curve is the risk in the deal. The value locked in against today's forward curve is the intrinsic value; the additional value of being able to re-optimise as prices move is the extrinsic value, and it is what makes a fast-cycling facility worth more than the pure seasonal spread suggests.",
+  "keywords": [
+   "price forecast",
+   "injects",
+   "reduces his purchases",
+   "p_supply + p_storage < p_sales",
+   "intrinsic value",
+   "extrinsic value"
+  ]
+ },
+ {
+  "id": "b04-030",
+  "slide": 216,
+  "type": "open",
+  "prompt": "Give the complete classification of gas storage types used in the lecture, with all sub-types, and add for each main group what it is typically used for.",
+  "solution": "Underground storages\n- Pore storages, i.e. gas stored in the pore volume of a rock formation:\n  - depleted reservoirs (former gas or oil fields), and\n  - aquifers (water-bearing formations whose water is displaced by the injected gas).\n  Pore storages are large and slow: high working gas volume, comparatively low injection and withdrawal rates, a large cushion gas requirement and typically one cycle per year. They are the seasonal workhorses.\n- Caverns, i.e. artificial cavities:\n  - salt caverns, leached out of a salt dome with water, and\n  - rock caverns (hard-rock caverns, often former mines).\n  Caverns are small and fast: modest working gas volume but very high rates, little cushion gas, several cycles per year. They are the peak-shaving and trading facilities.\n\nAboveground storages\n- gasholders or gasometers (small, historically for daily balancing in city gas systems),\n- LNG storages (liquefied, therefore very dense, at an import terminal or as a peak-shaving plant), and\n- line pack, i.e. gas stored in the pipeline system itself by raising the pressure — the cheapest and fastest but by far the smallest buffer, used for hourly balancing within the gas day.\n\nNote that the storage-type figure on the following slide adds a sixth item, mines, which does not appear on this list.",
+  "keywords": [
+   "pore storages",
+   "depleted reservoirs",
+   "aquifers",
+   "salt caverns",
+   "rock caverns",
+   "gasholders",
+   "LNG storages",
+   "line pack"
+  ]
+ },
+ {
+  "id": "b04-031",
+  "slide": 216,
+  "type": "cloze",
+  "prompt": "The gas held in the transmission pipelines themselves, by letting the pressure in the system rise and fall, is called ___.",
+  "accept": [
+   "line pack",
+   "linepack",
+   "line-pack",
+   "Netzpuffer",
+   "Leitungspuffer"
+  ],
+  "solution": "Line pack. It is listed among the aboveground storages together with gasholders/gasometers and LNG storages. Line pack needs no separate facility, reacts within minutes and is therefore the instrument for balancing within the gas day, but its capacity is tiny compared with an underground storage, and using it costs pressure that the network needs for transport."
+ },
+ {
+  "id": "b04-032",
+  "slide": 217,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The block diagram labels five storage locations A to E in a landscape. Name them, say for each in which geological structure it sits, and note the one that does not appear on the preceding classification list.",
+  "solution": "A — salt caverns: cavities leached into a salt dome, reached by a single well each; the group of narrow vertical shapes on the left of the block.\nB — mines: former underground workings re-used as gas storage; the flat horizontal galleries in the middle of the block.\nC — aquifers: a water-bearing porous layer under an impermeable cap rock, into which gas is injected so that it displaces the formation water.\nD — depleted reservoirs: a former gas or oil field, i.e. a porous formation whose gas has been produced and which is refilled.\nE — hard-rock caverns: a cavity excavated in solid rock, drawn high up in the mountain on the right.\n\nThe figure makes the essential geological point: pore storages (C and D) are not caves but rock whose pore volume holds the gas, always sealed by an impermeable cap rock and located in a structural trap; caverns (A, B and E) are real cavities, either leached, mined or excavated.\n\nMines are the item that is shown here but does not appear in the classification list on the preceding slide, which names only pore storages (depleted reservoirs, aquifers), caverns (salt, rock) and the aboveground types. Depending on the reading, mines belong to the rock cavern group.",
+  "keywords": [
+   "salt caverns",
+   "mines",
+   "aquifers",
+   "depleted reservoirs",
+   "hard-rock caverns",
+   "cap rock",
+   "pore"
+  ]
+ },
+ {
+  "id": "b04-033",
+  "slide": 218,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The schematic shows a pore storage (depleted reservoir) next to a cavern storage in a salt dome. Explain the two storage principles from the drawing and compare them along the parameters that matter commercially.",
+  "solution": "Pore storage (left): the gas is not in a cave but in the pore volume of a porous rock layer, drawn as the yellow arch. Below it lies the formation water (blue), above it an impermeable cap rock; the arch shape is the structural trap that keeps the gas from migrating. Several wells go down into the crest of the structure. The gas/water contact moves down when gas is injected and up when it is withdrawn, so the reservoir behaves like a very large, slow, elastic vessel.\n\nCavern storage (right): a real cavity leached out of a salt dome with water. Salt is gas-tight and self-healing under pressure, which is why almost no cushion gas is technically needed and why the cavern can be cycled hard.\n\nCommercial comparison:\n- Working gas volume: pore storage large (a former field can hold billions of m³), cavern small (typically a few hundred million m³ per cavern).\n- Injection and withdrawal rate relative to the volume: cavern very high, pore storage low — flow through pore space is limited by permeability.\n- Cushion gas share: pore storage high (roughly half the total volume), cavern low.\n- Cycles per year: pore storage about one, i.e. seasonal; cavern several, i.e. peak shaving and trading.\n- Specific cost per unit of working gas: pore storage cheap, cavern expensive — which is exactly the spread visible in the merit order of German storages and in the Uniper price sheet.\n\nGeography follows geology: caverns need salt domes, which in Germany lie in the north; pore storages need depleted fields, mostly in the south and east.",
+  "keywords": [
+   "pore volume",
+   "cap rock",
+   "formation water",
+   "salt dome",
+   "cushion gas",
+   "withdrawal rate",
+   "cycles per year"
+  ]
+ },
+ {
+  "id": "b04-034",
+  "slide": 219,
+  "type": "open",
+  "graphic": true,
+  "prompt": "What does the Haidach figure show about the construction of a pore storage? Name the depth, the reservoir rock, the sealing mechanism and the surface installations, and say why the grain size is given at all.",
+  "solution": "Haidach is a pore storage in a depleted gas field in Austria, and the figure is a vertical section through it. The reservoir lies at roughly 1,600 m depth; the depth scale on the left runs from 0 through 400 m, 800 m and 1,200 m down to about 1,600 m.\n\nThe gas is not in a cave. It sits in the pore space of a porous rock, and the magnified circle shows the grains with a grain size of about 0.5 mm (the second image gives a range of roughly 0.1 to 2 mm). The grain size is given because it determines porosity and permeability: the porosity fixes how much gas fits into a cubic metre of rock, i.e. the working gas volume, and the permeability fixes how fast the gas can flow to the well, i.e. the injection and withdrawal rate. Both storage parameters are ultimately a property of the rock.\n\nThe seal is provided by impermeable clay layers above the reservoir ('abdichtende Tonschichten'); below the gas lies the formation water. Without that cap rock and an arched trap structure the gas would migrate away.\n\nOn the surface the aerial photograph shows two well pads (Bohrplatz 1 and 2), each with several deviated wells fanning out into the reservoir, a connecting pipeline between them, the storage station with the compressors and the treatment plant, and the connection to the long-distance grid. The wells are deviated so that a large reservoir area can be reached from a few small surface sites.",
+  "keywords": [
+   "depleted gas field",
+   "1,600 m",
+   "0.5 mm",
+   "porosity",
+   "permeability",
+   "clay layers",
+   "storage station"
+  ]
+ },
+ {
+  "id": "b04-035",
+  "slide": 221,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch and explain the surface facilities of an underground storage: which units does the gas pass on injection, which on withdrawal, and why is each of them needed?",
+  "solution": "The schematic has two parallel paths between the long-distance pipeline (Fernleitung) on the left and the storage wells (Speicherbohrungen) on the right.\n\nInjection (Einspeicherung), upper path: valve station → filter separator (Filterabscheider), which takes dust and liquid droplets out of the pipeline gas so that they do not damage the machine → metering (Messung), since everything injected has to be measured for the balance and the invoice → compressor (Verdichter), which raises the pressure from the grid level to the reservoir pressure; this is the energy-intensive step and the reason why the injection rate collapses when the store is nearly full → cooler (Kühler), because compression heats the gas → separator (Abscheider) → distribution to the individual wells.\n\nWithdrawal (Ausspeicherung), lower path: the gas comes out of the wells at reservoir pressure → pre-heating (Vorwärmung), because the following expansion cools the gas strongly (Joule-Thomson effect) and would otherwise cause hydrate formation and icing → pressure regulation (Druck-Regelung), which throttles the gas down to the grid pressure → drying (Trocknung), because the gas leaves the reservoir saturated with formation water, which must be removed to meet the water dew point specification of the network → metering → back into the pipeline.\n\nThe asymmetry is the point: injection needs compression and cooling, withdrawal needs expansion, heating and drying. Both directions need metering and both are limited by the reservoir pressure, which is why injection and withdrawal rate depend on the filling level in opposite ways.",
+  "keywords": [
+   "filter separator",
+   "compressor",
+   "cooler",
+   "pre-heating",
+   "pressure regulation",
+   "drying",
+   "metering",
+   "reservoir pressure"
+  ]
+ },
+ {
+  "id": "b04-036",
+  "slide": 221,
+  "type": "cloze",
+  "prompt": "On withdrawal the gas expands from reservoir pressure down to grid pressure and therefore cools strongly (Joule-Thomson effect). To prevent icing and hydrate formation the gas must be ___ before the pressure regulation.",
+  "accept": [
+   "pre-heated",
+   "preheated",
+   "pre-heating",
+   "preheating",
+   "heated",
+   "warmed",
+   "Vorwärmung",
+   "vorgewärmt"
+  ],
+  "solution": "Pre-heated (Vorwärmung). In the schematic the pre-heater sits directly before the pressure regulation in the withdrawal path. After the throttling the gas still carries formation water and therefore passes a drying stage (Trocknung) before it is metered and fed back into the long-distance pipeline. The mirror image on the injection side is the cooler behind the compressor, which removes the heat of compression."
+ },
+ {
+  "id": "b04-037",
+  "slide": 223,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the two curves in the figure 'Storage Parameters' Interdependence' — what is on the axes, how does each curve run — and explain the physics behind them and the consequence for a storage contract.",
+  "solution": "The horizontal axis is the working gas volume currently in the store, i.e. the filling level; the vertical axis carries both rates.\n\nThe withdrawal rate (blue) starts very low at an almost empty store, rises steeply and then saturates at its maximum for a well-filled store. The injection rate (red) does the opposite: it is at its maximum while the store is fairly empty, stays flat for a long stretch and then falls away steeply as the store approaches full. The two curves cross at roughly half filling.\n\nThe physics is the reservoir pressure. A full store has high pressure, so gas flows out by itself and the withdrawal rate is at its maximum, whereas pushing further gas in against that pressure needs ever more compression power — the injection rate collapses. An empty store has low pressure, so injection is easy while withdrawal has too little driving pressure. This is also why the cushion gas exists: it is the pressure pad that keeps the withdrawal rate usable at low filling levels, and more cushion gas buys a higher rate for the same working gas volume.\n\nConsequence for the contract: the three storage parameters cannot be chosen independently. A contract therefore does not quote one withdrawal rate but a rate curve or ratchet table as a function of the filling level, and the nominal rate is only guaranteed above a certain level. For the trader this means the store is least able to deliver exactly when it has already been drawn down — late in a cold winter — which is a security-of-supply issue and not only a commercial one.",
+  "keywords": [
+   "working gas volume",
+   "filling level",
+   "withdrawal rate",
+   "injection rate",
+   "reservoir pressure",
+   "cushion gas",
+   "ratchet"
+  ]
+ },
+ {
+  "id": "b04-038",
+  "slide": 223,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "A storage facility is filled almost to its maximum working gas volume. According to the interdependence curves, which statement is correct?",
+  "options": [
+   "The withdrawal rate is at its maximum and the injection rate has fallen to its minimum, because the reservoir pressure is high.",
+   "Both rates are at their maximum, because rates depend only on the compressor size and not on the filling level.",
+   "The injection rate is at its maximum and the withdrawal rate at its minimum, because the reservoir pressure is high.",
+   "Both rates fall, because the cushion gas can no longer maintain the pressure at a high filling level."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "At a high filling level the reservoir pressure is high. Gas therefore flows out easily — maximum withdrawal rate — while injecting further gas against that pressure needs increasing compression power, so the injection rate drops off. Option 1 reverses the two and describes the nearly empty store. Option 2 ignores the whole point of the slide: the rates are functions of the filling level, not constants. Option 3 misunderstands the cushion gas, whose job is to hold the pressure up at low filling levels, not at high ones."
+ },
+ {
+  "id": "b04-039",
+  "slide": 224,
+  "type": "open",
+  "prompt": "Give the lecture's definition of security of supply and compare it with the two alternative definitions quoted on the slide. Which element does each of them add, and why does that matter?",
+  "solution": "Lecture definition: security of supply is the safeguarding of the availability of natural gas according to the anticipated demand at each point in time. Three elements are contained in it — availability (the gas has to be physically there), anticipated demand (the benchmark is the demand that was forecast, not any conceivable demand), and at each point in time (it is a permanent, not an average requirement).\n\nThe E-Control definition adds two elements: quality ('electricity of a determined quality') and price ('at market-based and transparent prices'). Security of supply is thus not only a physical but also a commercial and qualitative concept — gas at the wrong Wobbe index or gas that is only available at an extortionate price is not proper supply.\n\nThe IEA definition (2001) is the physical availability of supplies to satisfy demand at a given price. It makes the price condition explicit as well: at an infinite price everything is available, so a security-of-supply statement without a price reference is meaningless.\n\nWhy it matters: the strictness of the definition decides how much infrastructure has to be built and who pays for it. The narrow physical definition can always be satisfied with more redundancy, but redundancy is idle capacity and someone has to finance it. The price-based definitions make the trade-off explicit — security of supply is not free and is optimised, not maximised. That is also why the crisis instruments of 2022, the filling obligations, were paid for out of a levy.",
+  "keywords": [
+   "availability",
+   "anticipated demand",
+   "at each point in time",
+   "quality",
+   "at a given price",
+   "redundancy"
+  ]
+ },
+ {
+  "id": "b04-040",
+  "slide": 225,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the 'Security of Supply – explanation' chart. Which four curves are plotted, and which two failure modes does the figure identify? Read off roughly when and how large they are.",
+  "solution": "The chart runs over one gas year from October 2019 to September 2020. Four series are plotted: planned supply (grey area), planned demand (dark area), actual supply (thick yellow line) and actual demand (thin line). The planned curves follow the smooth seasonal shape — about 5 units in the winter, down to about 1 unit at the end of April and back up in autumn. Under normal conditions the actual curves lie on top of the planned ones, and there is no problem.\n\nThe figure identifies two, and only two, ways in which security of supply can be at risk:\n\n1. Unplanned additional demand — visible in October and November 2019, where the actual demand spikes up to about 7 units against a planned 5. Typical cause: a cold spell, i.e. weather deviating from the temperature assumption of the forecast.\n\n2. Unplanned deficiency of supply — visible in December 2019, where actual supply collapses from about 4.5 to roughly 1.6 units for a few weeks. Typical cause: the failure of a field, a pipeline, a compressor station or an LNG cargo.\n\nBoth gaps have to be closed from the same set of instruments — storage first of all, plus supply diversification, back-up contracts, redundant transport routes and interruptible sales contracts. The figure also makes the definition operational: security of supply means matching actual, not planned, demand at every point in time, so both the demand side and the supply side can break the promise.",
+  "keywords": [
+   "planned supply",
+   "actual supply",
+   "unplanned additional demand",
+   "unplanned deficiency of supply",
+   "cold spell",
+   "storage"
+  ]
+ },
+ {
+  "id": "b04-041",
+  "slide": 226,
+  "type": "open",
+  "prompt": "Name the main tools for ensuring security of supply and explain for each how it works. What do all of them have in common economically?",
+  "solution": "Diversification\n- of supply contracts, including back-up contracts: several sellers, several source regions and several contract types, so that the failure of one seller only removes a share of the portfolio. Back-up contracts are options that are only called in an emergency.\n- of transportation routes: gas from the same source over different corridors, so that one damaged pipeline does not cut the supply.\n- of storages: several facilities, of different types and in different locations, so that a technical failure or a regional problem does not block the whole stock.\n\nRedundant transportation infrastructure: parallel lines, loops and interconnectors with spare capacity, plus compressor stations with n+1 machines. Redundancy means capacity that is deliberately idle in normal operation.\n\nInterruptible sales contracts: customers who can be curtailed, typically industrial users with fuel-switching capability or dual-fuel boilers, and who pay a lower price for that. This is demand-side security — instead of adding supply, the peak is contractually removed.\n\nWhat they have in common: every one of them costs money in normal operation and pays off only in a rare event. Diversification foregoes the cheapest single source, redundancy and storage are capacity that is paid for whether used or not, and interruptible contracts are sold at a discount. Security of supply is therefore an insurance premium, and its optimal level is an economic trade-off between the cost of the instruments and the value of the lost load — not a maximum.",
+  "keywords": [
+   "Diversification",
+   "back-up contracts",
+   "transportation routes",
+   "Redundant transportation infrastructure",
+   "Interruptible sales contracts",
+   "fuel-switching",
+   "insurance premium"
+  ]
+ },
+ {
+  "id": "b04-042",
+  "slide": 227,
+  "type": "mc",
+  "prompt": "Who does what in security of supply, according to the slide 'Parties and Roles'?",
+  "options": [
+   "The government defines the security-of-supply policy and the role of the players; regulators monitor the fulfilment of the objectives where this is delegated to them, or otherwise ensure appropriate market arrangements and rules.",
+   "Security of supply is entirely a matter for the gas suppliers; public bodies have no role because the market solves the problem.",
+   "The transmission system operators define the security-of-supply objectives, since they alone know the physical state of the network.",
+   "The regulator defines the security-of-supply policy, and the government monitors whether the market rules are being observed."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The slide assigns the executive power to define the security-of-supply policy and the role of the different players to governments. Regulators, where governments delegate, monitor the fulfilment of objectives and responsibilities; otherwise they are responsible for appropriate market arrangements and rules. Gas suppliers must meet demand in line with their contractual and regulatory obligations, gas system operators (TSOs, DSOs) must provide sufficient transportation and distribution capacity, and consumers may be involved as well — power generators, large industrial customers with fuel-switching capability, or users with back-up emergency generators. Options 0 and 2 swap the roles; option 3 contradicts the entire list."
+ },
+ {
+  "id": "b04-043",
+  "slide": 228,
+  "type": "mc",
+  "prompt": "The lecture stresses that the consequences of a supply interruption are not predictable. Which of the following is NOT among the factors it lists as determining them?",
+  "options": [
+   "The weather and the availability of alternative sources of energy",
+   "The credit rating of the supplier whose delivery has failed",
+   "The diversification of the portfolio and the behaviour of the consumers",
+   "Term, location, timing and magnitude of the interruption itself"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The slide lists: the interruption itself (its term, location, timing and magnitude), the diversification of the portfolio, the consumers' behaviour, the co-operation of transport system operators and storage system operators, the weather, and alternative sources of energy. The supplier's credit rating matters for the commercial settlement afterwards, but it does not determine the physical consequences of the outage. The message of the slide is that the same nominal outage can be harmless or critical depending on when and where it happens — which is why security of supply cannot be reduced to a single number."
+ },
+ {
+  "id": "b04-044",
+  "slide": 229,
+  "type": "open",
+  "prompt": "Variant of the capacity tariff exercise: a trader books 5,000 m³/h at the entry point for 1.5 €/kWh/h/a and the same capacity at the exit point for 0.005 €/kWh/h/day. The calorific value is 10 kWh/m³. What does he pay for one year, and why is the exit point the more expensive of the two despite the much smaller number?",
+  "solution": "Step 1 — convert to energy capacity:\nκ_E = 5,000 m³/h · 10 kWh/m³ = 50,000 kWh/h = 50,000 kW = 50 MW\n\nStep 2 — entry point (price per year):\n50,000 kW · 1.5 €/kW/a = 75,000 €/a\n\nStep 3 — exit point (price per day, therefore · 365):\n50,000 kW · 0.005 €/kW/d · 365 d/a = 91,250 €/a\n\nStep 4 — total:\n75,000 + 91,250 = 166,250 €/a\n\nWhy the exit is dearer: the two prices are not comparable as printed, because they refer to different periods. Expressed annually the exit price is 0.005 · 365 = 1.825 €/kW/a against 1.5 €/kW/a at the entry — 22 % more. The small-looking daily number is the trap of this whole exercise family: always bring every price onto the same period before comparing or adding.",
+  "keywords": [
+   "50,000 kWh/h",
+   "75,000",
+   "91,250",
+   "166,250",
+   "1.825"
+  ]
+ },
+ {
+  "id": "b04-045",
+  "slide": 229,
+  "type": "open",
+  "prompt": "In the official example the trader pays 621,500 €/a for transport capacity, 544,500 €/a for storage capacity and buys 40 million m³ of gas at 20 €/MWh (GCV 11 kWh/m³), which gives total specific procurement costs of 22.65 €/MWh. Now assume that a mild winter leaves him with only 20 million m³ to buy and move, while his bookings stay the same. Recalculate the specific procurement cost and interpret the result.",
+  "solution": "Step 1 — the capacity charges are unchanged, because they are paid for the booking, not for the use:\ntransport 621,500 €/a + storage 544,500 €/a = 1,166,000 €/a of fixed cost.\n\nStep 2 — new energy quantity:\n20,000,000 m³ · 11 kWh/m³ = 220,000,000 kWh = 220,000 MWh\n\nStep 3 — new commodity cost:\n220,000 MWh · 20 €/MWh = 4,400,000 €\n\nStep 4 — total and specific cost:\n4,400,000 + 1,166,000 = 5,566,000 €\n5,566,000 € / 220,000 MWh = 25.30 €/MWh\n\nComparison: at 40 million m³ the infrastructure added 1,166,000 / 440,000 = 2.65 €/MWh on top of the 20 €/MWh commodity price, giving 22.65 €/MWh. At half the volume it adds 5.30 €/MWh — exactly twice as much — and the specific cost rises to 25.30 €/MWh, i.e. by 12 %.\n\nInterpretation: the commodity price per MWh is constant, but every capacity charge is a fixed cost, so the specific procurement cost is a hyperbola in the volume actually moved. That is the quantitative version of the remark 'capacity ≠ utilization': under-utilised bookings are pure loss, which is why shippers book as tightly as they dare and why utilisation is the central figure of merit in network industries.",
+  "keywords": [
+   "1,166,000",
+   "220,000 MWh",
+   "4,400,000",
+   "25.30",
+   "2.65",
+   "fixed cost",
+   "utilisation"
+  ]
+ },
+ {
+  "id": "b04-046",
+  "slide": 229,
+  "type": "mc",
+  "prompt": "The exit price in the exercise is 0.01 €/kWh/h/day. What is the corresponding annual price?",
+  "options": [
+   "8.76 €/kWh/h/a",
+   "0.12 €/kWh/h/a",
+   "0.365 €/kWh/h/a",
+   "3.65 €/kWh/h/a"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "0.01 €/kWh/h/d · 365 d/a = 3.65 €/kWh/h/a. Option 0 multiplies by 12 months, which would only be right for a monthly price. Option 1 slips one decimal place. Option 3 multiplies by 8,760 hours, i.e. it confuses the capacity price (€ per kW and year) with an energy price (€ per kWh). Applied to the exercise: 110,000 kW · 3.65 €/kW/a = 401,500 €/a at the exit, against 110,000 · 2 = 220,000 €/a at the entry, giving the 621,500 €/a of the official solution."
+ },
+ {
+  "id": "b04-047",
+  "slide": 231,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The map of German gas storages distinguishes pore storages from cavern storages. Which statement matches the picture?",
+  "options": [
+   "The storages are distributed evenly over the country, because every federal state is legally required to hold storage capacity.",
+   "Cavern storages are concentrated in Bavaria because the Alps provide the necessary hard rock, and pore storages lie along the coast.",
+   "Almost all German storages lie directly at the entry points from Russia and Norway, since the map shows no facility further inland than 100 km.",
+   "Cavern storages dominate in the north (Lower Saxony, Schleswig-Holstein, the North Sea coast) because the salt domes are there, while the pore storages are found mainly in the south and east, where depleted fields exist."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The map shows a dense cluster of cavern storages in the northern half of Germany — around Wilhelmshaven, Etzel, Epe, Kiel, Harsefeld, Bernburg, Staffurt — because salt domes occur in the North German Basin; the same salt structures are also used for crude oil, mineral oil products and LPG, which is why the legend has a second column for them. Pore storages appear as isolated large dots further south and east, for instance Bierwang, Wolfersberg, Inzenham and Breitbrunn in Bavaria and Rehden in Lower Saxony, always where a gas field was produced first. Geology, not policy or geography of imports, decides the location: caverns need salt, pore storages need a depleted field or an aquifer."
+ },
+ {
+  "id": "b04-048",
+  "slide": 234,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The map colours the countries by the indicator (total national working gas capacity + national production) / national consumption. What does this indicator express?",
+  "options": [
+   "The ratio of the national injection rate to the national withdrawal rate",
+   "The current filling level of the national storages as a percentage of their working gas capacity",
+   "The share of one year's national consumption that could in principle be covered from domestic sources — the stock in storage plus own production — hence a measure of independence from imports",
+   "The share of that country in the total EU storage capacity"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The indicator relates domestically available quantities (working gas in storage plus own production) to annual consumption, so it is a self-sufficiency or resilience measure and not an absolute capacity figure. It explains why the ranking looks so different from the pure TWh ranking: Germany has by far the largest absolute capacity but lands in a middle band because its consumption is huge, whereas Austria, Hungary, Slovakia, Latvia and Romania reach the top bands with modest absolute volumes, and the Netherlands and Denmark score high thanks to their own production. Countries shown in black have neither storage nor production and depend entirely on continuous imports, which is precisely the exposure the indicator is meant to reveal. Option 0 is the daily filling level, option 2 the EU share of slides 232/236 and option 3 a technical storage parameter."
+ },
+ {
+  "id": "b04-049",
+  "slide": 235,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows storage capacity in bcm as bars and storage as a percentage of annual demand as a line. Read off the main results and explain why the two measures rank the countries so differently.",
+  "solution": "Read-off. In absolute terms Germany leads with about 20 bcm, followed by Italy with about 14 bcm and France with about 12 bcm; the UK has only about 4.4 bcm, and Austria, Hungary, the Czech Republic, Romania, Slovakia, the Netherlands and Spain lie between 2.5 and 4 bcm.\n\nThe line tells a different story. Austria reaches about 50 % of its annual demand and Slovakia about 48 %, Czech Republic about 33 % and Hungary about 27 %, while Germany reaches only about 25 %, Italy about 17 %, the Netherlands about 7 % and the UK about 5 %. The EU average line sits at roughly 16 %.\n\nWhy the rankings differ: the bar is the numerator, the line divides it by national consumption. Germany's 20 bcm are huge but so is its demand of about 90 bcm. Austria and Slovakia are small consumers sitting on major transit routes, so their facilities were built to serve transit and neighbouring markets, not their own demand — which is why Haidach, for example, was historically connected to the German market. The UK's low value reflects a deliberate policy choice: with its own North Sea production and LNG terminals it relied on flexible supply instead of storage, and closed Rough in 2017.\n\nThe lesson for the exam: absolute capacity says nothing about security of supply. Only capacity relative to demand — and the withdrawal rate, which this chart does not show at all — tells you how long a country can hold out.",
+  "keywords": [
+   "20 bcm",
+   "Austria",
+   "50 %",
+   "25 %",
+   "EU average",
+   "transit",
+   "relative to demand"
+  ]
+ },
+ {
+  "id": "b04-050",
+  "slide": 236,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the GIE table of EU storage capacities: how large is the operational EU capacity, how much is Germany's share, what share do the four largest countries hold, and how much capacity is in the pipeline? Where is the largest expansion planned?",
+  "solution": "Total operational EU capacity: 1,148.2 TWh. Adding 10.1 TWh under construction and 85.2 TWh planned gives a total of 1,243.5 TWh.\n\nGermany's share:\n260.5 / 1,148.2 = 0.227 → about 22.7 % of all operational EU capacity in one member state.\n\nThe four largest — Germany 260.5, Italy 195.4, the Netherlands 144.6 and France 132.3 TWh:\n260.5 + 195.4 + 144.6 + 132.3 = 732.8 TWh\n732.8 / 1,148.2 = 0.638 → about 64 % of the EU capacity sits in four countries, so European storage is highly concentrated and the internal market depends on cross-border access to it.\n\nCapacity in the pipeline:\n(10.1 + 85.2) / 1,148.2 = 95.3 / 1,148.2 = 8.3 % growth potential — modest.\nThe largest single expansion is Italy with 8.6 TWh under construction and 40.7 TWh planned, i.e. 49.3 TWh, which is roughly half of everything planned in the EU; Romania (12.5 TWh planned), Poland (9.0) and Bulgaria (4.8) follow. Greece appears with no operational capacity at all and only 3.9 TWh planned, and Sweden with 0.1 TWh is effectively without storage.\n\nFor orientation: 1,148 TWh of working gas stands against an EU annual consumption of roughly 3,500 TWh, so European storage holds a good third of one year's consumption — enough for a heating season, not for a year.",
+  "keywords": [
+   "1,148.2",
+   "260.5",
+   "22.7 %",
+   "732.8",
+   "64 %",
+   "1,243.5",
+   "Italy"
+  ]
+ },
+ {
+  "id": "b04-051",
+  "slide": 237,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart compares EU storage filling levels for 2021, 2022 and 2023. Describe the three curves and explain why 2023 looks so different from the two years before.",
+  "solution": "All three curves have the same seasonal shape — falling from January to a minimum around late March/early April, then rising continuously through the injection season to a maximum in late October or early November, then falling again. What differs is the level.\n\n2021 (orange): starts around 73 %, falls to a minimum of roughly 28 % at the end of March, and refills only to about 75 % by the beginning of November — an unusually poor filling that entered the winter of 2021/22 as a weak starting position.\n2022 (blue): starts far lower, around 50 %, and falls to a minimum of about 26 % in late March, then rises steeply through the summer to nearly 95 % in November — the crisis refill.\n2023 (green): never drops below roughly 55 % in the spring and rises steadily to almost 100 % by November, i.e. far above both earlier years for the entire year.\n\nWhy 2023 is different: the mild winter 2022/23 left a high starting level, EU demand was reduced by roughly a sixth through prices and savings, LNG imports replaced a large part of the Russian pipeline volume, and the EU storage regulation of 2022 obliged member states to reach 90 % by 1 November, with intermediate targets. The picture is the reason for the Reddit headline behind the chart — with storages practically full and continued LNG inflow, Europe was running out of space rather than out of gas. It also shows the commercial flip side: when everybody must fill, the summer price rises, the summer/winter spread collapses and the storage business loses its intrinsic value.",
+  "keywords": [
+   "minimum",
+   "26 %",
+   "2023",
+   "90 %",
+   "1 November",
+   "LNG",
+   "spread"
+  ]
+ },
+ {
+  "id": "b04-052",
+  "slide": 239,
+  "type": "open",
+  "prompt": "Explain the German storage filling regime using the Rehden case of 2025: who has to fill, who pays, and why did nobody have to intervene although Rehden was only about a quarter full?",
+  "solution": "Who has to fill: under § 35c of the German Energy Industry Act (EnWG) the market area manager Trading Hub Europe (THE) is obliged to fill the gas storage facilities if the market participants fail to reach the legally required minimum filling levels by the given dates. The market is expected to do the filling itself; THE is the backstop that steps in only if the targets are at risk.\n\nWho pays: the obligation is financed through the gas storage levy under § 35e EnWG, a surcharge on gas withdrawals from the network, which remains in force until 31 December 2025. The costs of the state-organised filling are thus socialised over all gas consumers.\n\nThe 2025 situation: the Rehden facility — Germany's largest single storage, a pore storage owned by Astora, part of the state-owned SEFE group — was only filled to about 25 % by 1 November instead of the roughly 45 % expected for it. The Bundesnetzagentur nevertheless pointed out that German storage facilities were filled to about 75 % on average nationwide.\n\nWhy nobody intervened: the legal target is a national minimum filling level, not a per-facility level. As long as the nationwide figure is met, THE has no duty and no right to step in at an individual site, so there was no need to intervene specifically at Rehden. The case illustrates the general problem of a portfolio-level obligation: the average can be met while a single large facility — with its own regional withdrawal capacity — stands nearly empty, which matters physically if a cold spell hits that region.",
+  "keywords": [
+   "§ 35c",
+   "Trading Hub Europe",
+   "minimum filling levels",
+   "gas storage levy",
+   "§ 35e",
+   "25 %",
+   "75 %",
+   "nationwide"
+  ]
+ },
+ {
+  "id": "b04-053",
+  "slide": 239,
+  "type": "cloze",
+  "prompt": "The cost that Trading Hub Europe incurs when it has to fill German gas storages under § 35c EnWG is refinanced through the gas ___ (§ 35e EnWG).",
+  "accept": [
+   "storage levy",
+   "gas storage levy",
+   "storage surcharge",
+   "Gasspeicherumlage",
+   "Speicherumlage",
+   "levy"
+  ],
+  "solution": "The gas storage levy (Gasspeicherumlage) under § 35e EnWG, in force until 31 December 2025. It is charged on gas withdrawals from the network and spreads the cost of the state-organised filling over all consumers. THE only has to act when the national minimum filling levels are at risk — which is why the poorly filled Rehden facility did not trigger an intervention in 2025 while the nationwide average stood at about 75 %."
+ },
+ {
+  "id": "b04-054",
+  "slide": 242,
+  "type": "open",
+  "prompt": "Which parameters define a storage product commercially, and which clauses does a storage contract share with a transportation contract? Structure your answer.",
+  "solution": "The product parameters — the right-hand column of the slide, i.e. what actually has to be negotiated:\n- withdrawal capacity (the maximum withdrawal rate),\n- injection capacity (the maximum injection rate),\n- working gas capacity (the maximum inventory),\n- the storage location, since a facility in the wrong market area is worth much less,\n- the cycling rate, i.e. how often the working gas volume may be turned over in the period, and\n- the prices, quoted separately for withdrawal capacity, injection capacity and working gas capacity, plus\n- the term of the contract, normally one storage year from 1 October.\nThese are exactly the three quantities that enter T_storage = p_injection · κ_injection + p_withdrawal · κ_withdrawal + p_working gas · v_working gas, plus the two qualifiers (location, cycling rate) that decide what the booking is worth.\n\nThe general clauses — in principle analogous to transportation contracts: definitions; quality, mostly by reference to the national or regional gas quality specification; invoicing and payment (billing); nominations; measurement and facilities; credit risk or performance assurance; force majeure; and the usual other clauses — taxes and public charges, exchange of information, applicable law, language, settlement of disputes, assignment, consents and approvals, severability, entire-contract and amendment clauses, warranties and representations, insurances.\n\nThe structure is worth remembering: a storage contract is a capacity service contract like a transport contract; only the product definition differs, because a store is characterised by two rates and one volume instead of one capacity between two points.",
+  "keywords": [
+   "withdrawal capacity",
+   "injection capacity",
+   "working gas capacity",
+   "cycling rate",
+   "nominations",
+   "force majeure",
+   "quality",
+   "term"
+  ]
+ },
+ {
+  "id": "b04-055",
+  "slide": 242,
+  "type": "cloze",
+  "prompt": "The contract parameter that states how often the working gas volume may be completely filled and emptied within the contract period is the ___.",
+  "accept": [
+   "cycling rate",
+   "cycle rate",
+   "cycling",
+   "turnover rate",
+   "Umschlagrate",
+   "Zyklenzahl"
+  ],
+  "solution": "The cycling rate. It follows directly from the interdependence of the parameters: working gas volume divided by the withdrawal rate gives the hours of full withdrawal, the same for injection, and the sum of the two is the cycling time of one full turn. A seasonal pore storage manages roughly one cycle per year, a salt cavern several — which is why the cycling rate, not the price of a single component, decides which product is the cheaper one for a given trading strategy."
+ },
+ {
+  "id": "b04-056",
+  "slide": 243,
+  "type": "open",
+  "prompt": "Write down the storage pricing formula with all its symbols and units, and explain why two of the three price components are capacity prices while the third is not. What is the consequence for comparing storage offers?",
+  "solution": "T_storage = p_injection · κ_injection + p_withdrawal · κ_withdrawal + p_working gas · v_working gas\n\nwith κ_injection the injection rate, κ_withdrawal the withdrawal rate and v_working gas the working gas capacity, and T_storage the amount to be paid for the reservation of the storage product.\n\nUnits:\n- p_injection and p_withdrawal are quoted in monetary units per capacity per period, e.g. €/(kWh/h)/a, which is identical to €/kW/a, or €/(m³/h)/a. They are capacity prices, because a rate is a flow, i.e. a power.\n- p_working gas is quoted in monetary units per quantity per period, e.g. €/kWh/a or €/m³/a. It is a quantity price, because the working gas volume is an amount of energy, not a flow.\n\nThe distinction matters arithmetically: the rates must be multiplied by an hourly capacity in kW, the working gas by a quantity in kWh. Multiplying the working gas volume by a €/kW/a price, or the rates by a €/kWh/a price, is the standard error in this task, and it is off by a factor of several thousand.\n\nConsequence for comparing offers: the total is the sum of three products, so the same total can be produced by very different combinations of the three prices. A single component — 'our working gas price is only 0.0475 €/m³/a' — says nothing at all. Storage offers can only be compared as a total annual charge, and then divided by a reference quantity that reflects the intended use, either per MWh of working gas or per kW of withdrawal rate. This is exactly the ambiguity the following slides demonstrate.",
+  "keywords": [
+   "T_storage",
+   "injection rate",
+   "withdrawal rate",
+   "working gas capacity",
+   "capacity prices",
+   "quantity price",
+   "total annual charge"
+  ]
+ },
+ {
+  "id": "b04-057",
+  "slide": 243,
+  "type": "open",
+  "prompt": "Calculate the annual charge for the following storage product: withdrawal capacity 5,000 m³/h at 1.8 €/kWh/h/a, injection capacity 4,000 m³/h at 2.2 €/kWh/h/a, working gas capacity 20 million m³ at 0.0025 €/kWh/a; gross calorific value 10 kWh/m³. Also give the specific storage cost in €/MWh and the minimum summer/winter spread the trader needs.",
+  "solution": "Formula: T_storage = p_injection · κ_injection + p_withdrawal · κ_withdrawal + p_working gas · v_working gas\n\nStep 1 — rates into energy capacity:\nwithdrawal: 5,000 m³/h · 10 kWh/m³ = 50,000 kWh/h = 50,000 kW\ninjection: 4,000 m³/h · 10 kWh/m³ = 40,000 kWh/h = 40,000 kW\n\nStep 2 — rate charges:\nwithdrawal: 50,000 kW · 1.8 €/kW/a = 90,000 €/a\ninjection: 40,000 kW · 2.2 €/kW/a = 88,000 €/a\n\nStep 3 — working gas (a quantity, not a rate):\n20,000,000 m³ · 10 kWh/m³ = 200,000,000 kWh = 200,000 MWh\n200,000,000 kWh · 0.0025 €/kWh/a = 500,000 €/a\n\nStep 4 — total:\n90,000 + 88,000 + 500,000 = 678,000 €/a\n\nStep 5 — specific storage cost, if the working gas volume is cycled once:\n678,000 € / 200,000 MWh = 3.39 €/MWh\n\nThe trader therefore needs a summer/winter spread of more than 3.39 €/MWh to break even (p_supply + p_storage < p_sales). Note how dominant the working gas component is here — 500,000 of 678,000 €, i.e. 74 % — which is typical for a slow seasonal facility. If he managed two cycles a year, the same charge would be spread over 400,000 MWh and the specific cost would fall to 1.70 €/MWh.",
+  "keywords": [
+   "50,000 kW",
+   "90,000",
+   "88,000",
+   "200,000 MWh",
+   "500,000",
+   "678,000",
+   "3.39"
+  ]
+ },
+ {
+  "id": "b04-058",
+  "slide": 243,
+  "type": "mc",
+  "prompt": "The lecture writes the injection and withdrawal rate price as €/(kWh/h)/a. Which unit is identical to it?",
+  "options": [
+   "€/MWh",
+   "€/kW/a",
+   "€/kW",
+   "€/kWh/a"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "kWh/h is an energy per hour, i.e. a power: 1 kWh/h = 1 kW. Hence €/(kWh/h)/a = €/kW/a, a capacity price paid per year for the right to flow. €/kWh/a is the unit of the working gas capacity price, i.e. a quantity price — the third term of the storage formula and a completely different animal. €/MWh is a commodity or specific-cost figure, and €/kW without a period is a one-off investment cost, not an annual tariff."
+ },
+ {
+  "id": "b04-059",
+  "slide": 244,
+  "type": "open",
+  "prompt": "Compare the natural gas commodity import contract (GSPA), the transportation contract (GTA) and the storage contract with respect to purpose, parties and subject of the agreement.",
+  "solution": "Purpose. The GSPA sells and transfers the ownership (title) of a specific quantity of natural gas from a seller to a buyer at a designated point — it is a purchase contract for a commodity. The GTA provides a service: moving a shipper's gas from an entry point to an exit point within a transmission system. The storage contract also provides a service: storing a shipper's gas in a facility over a specified period. Only the first transfers ownership; the other two are pure service contracts on someone else's gas.\n\nParties. GSPA: seller (a producer, trader or large portfolio company) and buyer (a utility, industrial consumer or trader). GTA: the shipper, who holds title to the gas, and the transporter, i.e. the transmission system operator (TSO) that owns and operates the pipeline network. Storage: the customer or shipper, again the title holder, and the storage operator, the storage system operator (SSO). Note that in both service contracts the customer keeps the title to the gas throughout — the operator is a service provider, not a buyer.\n\nSubject of the agreement. GSPA: a specified quantity of natural gas, a physical commodity. GTA: capacity between entry and exit, i.e. the right to use capacity in a pipeline network for transportation. Storage: working gas capacity, injection rate and withdrawal rate, i.e. the right to use capacity in a storage facility for injection, storage and withdrawal. The storage product needs three numbers where transport needs one — which is the whole reason why storage prices are so hard to compare.",
+  "keywords": [
+   "title",
+   "GSPA",
+   "shipper",
+   "transmission system operator",
+   "storage system operator",
+   "entry point to an exit point",
+   "working gas capacity"
+  ]
+ },
+ {
+  "id": "b04-060",
+  "slide": 245,
+  "type": "mc",
+  "prompt": "Which set of quantity definitions belongs to a natural gas storage contract?",
+  "options": [
+   "Daily Contract Quantity (DCQ) and Annual Contract Quantity (ACQ), with take-or-pay provisions",
+   "Reserved Capacity or Maximum Daily Quantity (MDQ) in kWh/day between an entry and an exit point",
+   "Working Gas Volume as the maximum inventory, plus Maximum Injection Capacity (MIC) and Maximum Withdrawal Capacity (MWC) as daily limits",
+   "Contract Quantity in barrels of oil equivalent, with a price indexed to Brent"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The storage contract defines a total working gas volume (maximum inventory) in m³ or Wh, plus the daily limits Maximum Injection Capacity (MIC) and Maximum Withdrawal Capacity (MWC) in m³/h or W. Option 0 belongs to the commodity import contract, where DCQ, ACQ and take-or-pay or deliver-or-pay flexibility are agreed; option 1 belongs to the transportation contract, which defines reserved capacity or an MDQ in energy units per day. Option 3 mixes in the oil world. The typical term also differs: import contracts run 10 to 25+ years with price renegotiation clauses, transport contracts are mostly short-term at hubs, and storage contracts are typically annual so as to cover one full cycle of summer injection and winter withdrawal."
+ },
+ {
+  "id": "b04-061",
+  "slide": 248,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the Uniper storage price sheet: how is the price of a storage bundle composed, and what does a bundle at Epe L-Gas cost per MWh of working gas compared with one at Breitbrunn? Explain the difference between the two facilities.",
+  "solution": "Composition of the bundle price. The footnote states the split: 40 % of the bundle price falls on the withdrawal capacity, 33 % on the working gas capacity and 27 % on the injection capacity; the unbundled component prices are derived from the bundle price with this key, and prices for interruptible capacity are 60 % of the prices for firm capacity. Every bundle contains 10 MWh/h of withdrawal capacity; the working gas and injection capacity per bundle are given in the two right-hand columns.\n\nCheck with Epe L-Gas, 78,099 € per bundle:\nwithdrawal 0.40 · 78,099 = 31,239.60 € for 10 MWh/h → 3,124 € per MWh/h, exactly the unbundled figure in the table;\nworking gas 0.33 · 78,099 = 25,772.67 € for 5.00 GWh → about 5,155 €/GWh, the table says 5,158;\ninjection 0.27 · 78,099 = 21,086.73 € for 2.50 MWh/h → about 8,435 € per MWh/h, the table says 8,437.\n\nSpecific cost per unit of working gas:\nEpe L-Gas: 78,099 € / 5,000 MWh = 15.62 €/MWh/a\nBreitbrunn: 133,884 € / 20,000 MWh = 6.69 €/MWh/a\nSo the Epe product costs 2.3 times as much per MWh of stored gas.\n\nWhy: Epe is a salt cavern and Breitbrunn a pore storage, and the price sheet shows it in the bundle composition. Epe offers 5 GWh of working gas behind 10 MWh/h of withdrawal, so it empties in 5,000/10 = 500 h, about three weeks, and fills at 2.50 MWh/h in 2,000 h. Breitbrunn offers 20 GWh behind the same 10 MWh/h, so it needs 2,000 h to empty and 3,597 h to fill — a full cycle of some 5,600 h against 2,500 h at Epe. You pay for speed, not for volume: the cavern allows roughly three cycles a year, the pore storage barely one and a half.",
+  "keywords": [
+   "40 %",
+   "33 %",
+   "27 %",
+   "60 %",
+   "15.62",
+   "6.69",
+   "salt cavern",
+   "pore storage",
+   "500 h"
+  ]
+ },
+ {
+  "id": "b04-062",
+  "slide": 249,
+  "type": "open",
+  "graphic": true,
+  "prompt": "'Ambiguity of storage prices I': verify by calculation that the two products cost the same, although every single price differs, and state what the slide is trying to teach.",
+  "solution": "Both products offer the same physical service: 1,000,000 m³ working gas capacity, 250 m³/h withdrawal rate, 250 m³/h injection rate, 8,000 h cycling period, GCV 11 kWh/m³. Only the price components differ.\n\nProduct 1 (working gas 0.05 €/m³/a, rates 55 €/m³/h/a each):\nworking gas: 1,000,000 m³ · 0.05 = 50,000 €/a\nwithdrawal: 250 m³/h · 55 = 13,750 €/a\ninjection: 250 m³/h · 55 = 13,750 €/a\ntotal = 77,500 €/a\n\nProduct 2 (working gas 0.0475 €/m³/a, rates 60 €/m³/h/a each):\nworking gas: 1,000,000 · 0.0475 = 47,500 €/a\nwithdrawal: 250 · 60 = 15,000 €/a\ninjection: 250 · 60 = 15,000 €/a\ntotal = 77,500 €/a\n\nBoth cost 77,500 €/a. Product 2 looks 5 % cheaper on the headline working gas price and is 9 % dearer on both rates; the two effects cancel exactly.\n\nThe lesson: a storage price is a vector of three numbers, not one number, so no single component allows a comparison, and a seller can make his offer look cheap on whichever component the buyer happens to look at. Only the total annual charge T_storage, evaluated for the capacities the buyer actually intends to book, is comparable. The next slide adds the second half of the trap: even the total can be equal while the products are worth completely different amounts.",
+  "keywords": [
+   "50,000",
+   "13,750",
+   "47,500",
+   "15,000",
+   "77,500",
+   "total annual charge"
+  ]
+ },
+ {
+  "id": "b04-063",
+  "slide": 250,
+  "type": "open",
+  "graphic": true,
+  "prompt": "'Ambiguity of storage prices II': both products again cost 77,500 €/a, but product 2 has twice the rates and half the cycling time. Verify the total, calculate the two reference prices given in the table, and decide which product a trader should take.",
+  "solution": "Product 1: 1,000,000 m³ at 0.05 €/m³/a = 50,000 €/a; withdrawal 250 m³/h at 55 = 13,750 €/a; injection 250 m³/h at 55 = 13,750 €/a; total 77,500 €/a; cycling time 8,000 h.\nProduct 2: 1,000,000 m³ at 0.025 €/m³/a = 25,000 €/a; withdrawal 500 m³/h at 52.50 = 26,250 €/a; injection 500 m³/h at 52.50 = 26,250 €/a; total 77,500 €/a; cycling time 4,000 h.\n\nReference price per unit of working gas:\nenergy = 1,000,000 m³ · 11 kWh/m³ = 11,000,000 kWh = 11,000 MWh\n77,500 € / 11,000 MWh = 7.05 €/MWh/a — identical for both products.\n\nReference price per unit of withdrawal rate:\nProduct 1: 77,500 / 250 m³/h = 310 €/(m³/h)/a; in power terms 250 · 11 = 2,750 kW, so 77,500 / 2,750 = 28.18 €/kW/a.\nProduct 2: 77,500 / 500 m³/h = 155 €/(m³/h)/a; 500 · 11 = 5,500 kW, so 77,500 / 5,500 = 14.09 €/kW/a.\n\nSo measured per MWh of working gas the two products are exactly equally expensive, while measured per kW of withdrawal rate product 2 is half the price. Which is 'cheaper' depends entirely on the reference unit — that is the ambiguity.\n\nDecision: product 2 dominates. It costs the same, offers the same inventory and twice the rates, and its cycling time of 4,000 h instead of 8,000 h means it can be turned over twice in a storage year instead of once. If the trader really cycles twice, his specific storage cost falls to 77,500 / 22,000 MWh = 3.52 €/MWh, so he breaks even at half the summer/winter spread. Product 1 is only equivalent for a trader who has a purely seasonal strategy and will never use the extra rate — and even then the extra rate is free optionality, i.e. extrinsic value.",
+  "keywords": [
+   "77,500",
+   "7.05",
+   "310",
+   "28.18",
+   "155",
+   "14.09",
+   "4,000 h",
+   "extrinsic value"
+  ]
+ },
+ {
+  "id": "b04-064",
+  "slide": 250,
+  "type": "cloze",
+  "prompt": "The number of hours a storage product needs to fill and to empty its working gas volume once at the contracted rates is called the ___.",
+  "accept": [
+   "cycling time",
+   "cycling period",
+   "cycle time",
+   "cycling",
+   "Zyklusdauer",
+   "Zykluszeit"
+  ],
+  "solution": "The cycling time (cycling period). For product 1 of the slide: 1,000,000 m³ / 250 m³/h = 4,000 h to fill plus 4,000 h to empty = 8,000 h. Product 2 has twice the rates and therefore a cycling time of 4,000 h, so it can be turned over twice in a storage year. Since a year has 8,760 h, the cycling time translates directly into the number of cycles — and thus into how many times the annual charge can be earned back from a price spread."
+ },
+ {
+  "id": "b04-065",
+  "slide": 251,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the 'merit order' of German storages. What is on the axes, what does the curve look like, and how do you use it together with the summer/winter spread? Convert the horizontal axis into energy as a cross-check.",
+  "solution": "Axes: the horizontal axis is the cumulated working gas capacity of the German storage facilities in million m³, running to about 21,000 mio. m³; the vertical axis is the specific cost of that capacity in €/MWh of working gas. The facilities are sorted by rising specific cost, exactly like power plants in an electricity merit order.\n\nShape: a rising staircase. It starts at about 3.7 €/MWh, sits on a broad plateau around 4.3 €/MWh up to roughly 5,000 mio. m³, steps to about 4.8 and then to about 6.6 €/MWh at around 9,000 mio. m³, climbs slowly to about 8 €/MWh at 16,000 mio. m³ and ends steeply at about 10.8 €/MWh. Each step is one facility or one product; the cheap left end is the large, slow pore storages, the expensive right end the fast caverns and small facilities.\n\nUse: the summer/winter spread plays the role of the market price. A storage is worth booking only if its specific cost lies below the spread, because the profitability condition is p_supply + p_storage < p_sales. Draw a horizontal line at the spread and everything to the left of the intersection is in the money. At a spread of 5 €/MWh only roughly 8,000 to 9,000 mio. m³, i.e. about 40 % of German working gas capacity, covers its cost; at 8 €/MWh it is about 16,000 mio. m³, i.e. some 75 %. This is why the thin spreads of recent years left part of the German capacity commercially unbookable — and why filling obligations had to replace the market signal.\n\nCross-check of the axis: 21,000 mio. m³ · 11 kWh/m³ = 231,000 GWh = 231 TWh, which fits the German working gas capacity of about 245 to 260 TWh reported in the GIE table earlier in the chapter.",
+  "keywords": [
+   "cumulated",
+   "specific cost",
+   "merit order",
+   "summer/winter spread",
+   "p_supply + p_storage < p_sales",
+   "231 TWh",
+   "pore storages"
+  ]
+ }
+]

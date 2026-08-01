@@ -1,0 +1,19 @@
+[
+  {"slide": 134, "reason": "The 1970 map is the 'before' picture of the same European network; the development from 1970 to about 2017 is asked once, on slide 135."},
+  {"slide": 138, "reason": "Section-divider slide carrying only the word 'LNG'; no content."},
+  {"slide": 144, "reason": "Single drawing of one Moss-type spherical tank (its title field even contains only the source line); the self-supporting versus membrane comparison with the 125,000 m3 / 4,000 t / 400 t figures is asked on slide 143."},
+  {"slide": 146, "reason": "Slide contains only an embedded liquefaction video, which renders as an empty pale frame - nothing readable to examine."},
+  {"slide": 148, "reason": "Still frame of an embedded video showing an LNG carrier at sea; no data, figure or statement."},
+  {"slide": 149, "reason": "Second embedded regasification video, rendering as a black frame; nothing readable."},
+  {"slide": 151, "reason": "BP trade-flow map repeated for 2016; the development across the whole 2013-2021 series is asked once, on slide 150."},
+  {"slide": 152, "reason": "BP trade-flow map repeated for 2017; same map, one year later than slide 151."},
+  {"slide": 153, "reason": "BP trade-flow map repeated for 2018; the trend question sits on slide 150."},
+  {"slide": 154, "reason": "BP trade-flow map repeated for 2020 (its title field is garbled to 'Source:'); adds no new statement over slide 150."},
+  {"slide": 155, "reason": "Last BP trade-flow map of the series, 2021; the trend across all six maps is covered by the question on slide 150."},
+  {"slide": 167, "reason": "IGU receiving-terminal chart with exactly the same layout as the liquefaction chart of slide 166; European regasification capacity and its utilisation are examined on slides 170 and 171."},
+  {"slide": 168, "reason": "Receiving-terminal chart repeated for 2017, practically identical to slide 167."},
+  {"slide": 169, "reason": "European regasification utilisation 2019-2022 as a line chart with no printed values; superseded by the Q4 2022-2024 load factors on slide 170, which carry readable country figures."},
+  {"slide": 172, "reason": "Section-divider slide carrying only the words 'Transportation Costs'."},
+  {"slide": 180, "reason": "Exact repeat of the LNG-versus-pipeline cost chart of slide 160, where the break-even calculation is asked."},
+  {"slide": 181, "reason": "Section-divider slide carrying only the words 'Transportation Contracts'."}
+]

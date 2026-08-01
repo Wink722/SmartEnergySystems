@@ -1,0 +1,13 @@
+[
+  {"slide": 11, "reason": "Chapter divider showing only the words 'Definitions Fundamentals'; no content to examine."},
+  {"slide": 14, "reason": "Feynman quotation used as a motivational opener ('we have no knowledge what energy is'); no examinable statement about energy infrastructure."},
+  {"slide": 24, "reason": "Section divider showing only the word 'Infrastructure'."},
+  {"slide": 35, "reason": "Screenshots of the Snam and National Grid share-price charts and of a fund screener listing 325 infrastructure funds; the point that infrastructure has become an asset class is asked on slide 34."},
+  {"slide": 36, "reason": "World map of forecast infrastructure investment gaps by country; the same message is given with concrete numbers on the Swiss Re chart of slide 39, where the question sits."},
+  {"slide": 41, "reason": "Third investment chart in a row (transmission grid only, 2011-2021); the trend in German electricity grid investment is asked on slide 40 and the gas counterpart on slide 42."},
+  {"slide": 43, "reason": "Map of hydropower sites on German rivers with one Neckar section circled; a location illustration with no transferable statement, and hydropower belongs to the electricity chapter."},
+  {"slide": 48, "reason": "Photo collage of network-like structures (a social graph, air traffic, a mesh, a cracked surface); the definition it introduces is examined on slides 49 and 50."},
+  {"slide": 55, "reason": "Section divider showing only the word 'Price'."},
+  {"slide": 58, "reason": "Empty generic template of the four-dimension pricing scheme; the scheme is asked on slide 57 and its filled-in version on slide 59."},
+  {"slide": 60, "reason": "Section divider showing only the word 'Regulation'."}
+]

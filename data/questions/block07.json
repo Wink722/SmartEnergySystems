@@ -1,0 +1,1505 @@
+[
+ {
+  "id": "b07-001",
+  "slide": 387,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 1, Part 1: determine the variable generation costs (EUR/MWh_el) of the lignite, the hard coal and the CCGT plant from the data table. Show every conversion step.",
+  "solution": "Method: build the cost per MWh_th first, then divide by the electrical efficiency, then add the auxiliary costs.\n\nStep 0 - unit conversion. 1 MWh = 3.6 GJ, so lignite 11.00 GJ/t / 3.6 = 3.06 MWh_th/t, hard coal 25.00 GJ/t / 3.6 = 6.94 MWh_th/t, natural gas 3.33 GJ / 3.6 = 0.9262 MWh_th per unit (the gas 'unit' is 1 MWh_Gas as it is billed, which contains 0.9262 MWh_th).\n\nLignite: fuel + logistics = 20 + 1 = 21 EUR/t, i.e. 21/3.06 = 6.87 EUR/MWh_th. CO2 cost = 0.40 tCO2/MWh_th x 10 EUR/t = 4.00 EUR/MWh_th. Total fuel-related = 10.87 EUR/MWh_th. Divided by the efficiency of 38 % this gives 28.61 EUR/MWh_el; plus 1.39 auxiliary costs = 30.00 EUR/MWh_el.\n\nHard coal: the price of 100 USD/t is converted at 1.25 USD/EUR into 80 EUR/t; plus 5 EUR/t logistics = 85 EUR/t, i.e. 85/6.94 = 12.24 EUR/MWh_th. CO2 cost = 0.35 x 10 = 3.50 EUR/MWh_th. Total 15.74 EUR/MWh_th / 40 % = 39.35 EUR/MWh_el; plus 0.65 = 40.00 EUR/MWh_el.\n\nCCGT: fuel + logistics = 25 + 2 = 27 EUR per unit, i.e. 27/0.9262 = 29.15 EUR/MWh_th. CO2 cost = 0.184 x 10 = 1.84 EUR/MWh_th. Total 30.99 EUR/MWh_th / 53 % = 58.47 EUR/MWh_el; plus 1.53 = 60.00 EUR/MWh_el.\n\nResults: 30.00 EUR/MWh_el (lignite), 40.00 EUR/MWh_el (hard coal), 60.00 EUR/MWh_el (CCGT) - exactly the variable costs of PP1, PP2 and PP3 used in Part 2. Two classic traps: the currency conversion USD/EUR, and the fact that the emission factor is given per MWh_th, so the CO2 cost must be added before dividing by the efficiency, never after.",
+  "keywords": [
+   "3.6",
+   "12.24 EUR/MWh_th",
+   "30.00 EUR/MWh_el",
+   "40.00 EUR/MWh_el",
+   "60.00 EUR/MWh_el",
+   "before dividing by the efficiency"
+  ]
+ },
+ {
+  "id": "b07-002",
+  "slide": 387,
+  "type": "cloze",
+  "prompt": "The hard coal price of 100 USD/t is converted at an exchange rate of 1.25 USD/EUR into ___ EUR/t.",
+  "accept": [
+   "80",
+   "80 EUR/t",
+   "80 EUR",
+   "80,00",
+   "80.00"
+  ],
+  "solution": "80 EUR/t. 100 USD/t divided by 1.25 USD/EUR = 80 EUR/t. Together with the 5 EUR/t logistic costs this gives 85 EUR/t, which divided by the heating value of 6.94 MWh_th/t yields 12.24 EUR/MWh_th."
+ },
+ {
+  "id": "b07-003",
+  "slide": 387,
+  "type": "mc",
+  "prompt": "Which of the following cost items is NOT part of the variable generation costs calculated in Exercise 1, Part 1?",
+  "options": [
+   "The auxiliary costs (e.g. limestone) in EUR/MWh_el",
+   "The annuity of the specific investment of the plant",
+   "The logistic costs of the fuel (EUR per unit)",
+   "The CO2 certificate costs (emission factor times CO2 price)"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The annuity of the specific investment is a fixed cost; it belongs to the annualised fixed costs used in the capacity expansion exercise (Exercise 3), not to the variable generation costs. The variable generation costs consist of fuel cost including logistics, CO2 certificate cost, and auxiliary costs - the first two divided by the electrical efficiency because they arise per MWh_th, the auxiliary costs already given per MWh_el."
+ },
+ {
+  "id": "b07-004",
+  "slide": 388,
+  "type": "open",
+  "prompt": "Exercise 1, Part 2a: PP1 (240 MW, 30 EUR/MWh_el), PP2 (240 MW, 40 EUR/MWh_el) and PP3 (180 MW, 60 EUR/MWh_el) have to cover a load of 560 MW in hour 8, with no technical constraints. Determine the cost-minimal dispatch, the system marginal costs and the hourly system expenses.",
+  "solution": "Apply the merit order: call the cheapest capacity first.\n\nPP1 is cheapest at 30 EUR/MWh and runs at its full 240 MW. PP2 at 40 EUR/MWh runs next and also goes to its full 240 MW. Together they cover 480 MW; the remaining 560 - 480 = 80 MW must come from PP3 at 60 EUR/MWh.\n\nDispatch: PP1 240 MW, PP2 240 MW, PP3 80 MW.\n\nThe system marginal costs are set by the last, most expensive unit that is still free to move - here PP3, which is only partly loaded. Marginal costs = 60 EUR/MWh.\n\nHourly system expenses = 240 x 30 + 240 x 40 + 80 x 60 = 7,200 + 9,600 + 4,800 = 21,600 EUR.\n\nNote the difference between the two figures the examiner asks for: the average cost of this hour is 21,600/560 = 38.6 EUR/MWh, but the price-relevant number is the marginal cost of 60 EUR/MWh. Inframarginal plants earn the difference as a contribution margin.",
+  "keywords": [
+   "merit order",
+   "240 MW",
+   "80 MW",
+   "60 EUR/MWh",
+   "21,600 EUR",
+   "contribution margin"
+  ]
+ },
+ {
+  "id": "b07-005",
+  "slide": 388,
+  "type": "cloze",
+  "prompt": "In a cost-minimal dispatch the system marginal costs of an hour are given by the variable costs of the ___ power plant, i.e. the last unit called that is not at its capacity limit.",
+  "accept": [
+   "marginal",
+   "marginal plant",
+   "price-setting",
+   "last",
+   "most expensive running"
+  ],
+  "solution": "The marginal (price-setting) plant. It is the last unit called in the merit order that still has free capacity, so an additional MW of load would be produced by it. In hour 8 of the exercise that is PP3 at 60 EUR/MWh; in hour 0 (load 230 MW) it is PP1 at 30 EUR/MWh."
+ },
+ {
+  "id": "b07-006",
+  "slide": 389,
+  "type": "open",
+  "prompt": "Exercise 1, Part 2b: minimum stable levels of 60 MW (PP1), 120 MW (PP2) and 120 MW (PP3) are added. Compare hour 7 (load 500 MW) with and without this constraint and explain why the total expenses rise while the marginal costs fall.",
+  "solution": "Without constraints (case a) the merit order gives PP1 240 MW, PP2 240 MW, PP3 20 MW. Cost of the hour = 240 x 30 + 240 x 40 + 20 x 60 = 7,200 + 9,600 + 1,200 = 18,000 EUR, and PP3 is the marginal unit, so the marginal costs are 60 EUR/MWh.\n\nWith minimum stable levels (case b) PP3 is needed - PP1 and PP2 together give only 480 MW - but it cannot run at 20 MW: its minimum stable level is 120 MW. So PP3 must produce 120 MW, and the cheaper PP2 has to be pushed back to 500 - 240 - 120 = 140 MW. Cost = 240 x 30 + 140 x 40 + 120 x 60 = 7,200 + 5,600 + 7,200 = 20,000 EUR.\n\nThe total expenses rise by 2,000 EUR, because 100 MWh are shifted from a 40 EUR/MWh unit to a 60 EUR/MWh unit. At the same time the marginal costs fall from 60 to 40 EUR/MWh: PP3 is now blocked at its minimum and can no longer respond to a small load change, whereas PP2 has free headroom between 140 and 240 MW and therefore becomes the marginal unit.\n\nThe lesson: with technical constraints the marginal cost is no longer simply the variable cost of the most expensive running plant - it is the cost of the unit that is actually free to move. Higher system expenses and lower marginal prices can occur simultaneously.",
+  "keywords": [
+   "minimum stable level",
+   "120 MW",
+   "18,000 EUR",
+   "20,000 EUR",
+   "40 EUR/MWh",
+   "free to move"
+  ]
+ },
+ {
+  "id": "b07-007",
+  "slide": 389,
+  "type": "cloze",
+  "prompt": "In part c) of Exercise 1 the plants are additionally limited by their maximum load ramps; PP1 may change its output by at most ___ MW per hour.",
+  "accept": [
+   "60",
+   "60 MW",
+   "60 MW/h",
+   "60 MW per hour"
+  ],
+  "solution": "60 MW/h. The maximum load ramps in part c) are 60 MW/h for PP1, 120 MW/h for PP2 and 180 MW/h for PP3. Because PP1 - the cheapest unit - is also the most sluggish, it can no longer follow the steep load rise between hour 5 (200 MW) and hour 6 (380 MW) freely, which is exactly what makes case c) more expensive than case b)."
+ },
+ {
+  "id": "b07-008",
+  "slide": 390,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 1, Part 3d: read the total system expenses of the three cases off the solution table and explain the pattern. What stays constant?",
+  "solution": "The three cases give: a) unconstrained 130,600 EUR, b) with minimum stable levels 135,400 EUR, c) additionally with ramp restrictions 138,600 EUR.\n\nThe generated energy is identical in all three cases: 3,820 MWh over the twelve hours (the load has to be covered exactly in every hour, so the total energy cannot change). What changes is only how that energy is split between the units. In a) the split is 2,460 / 1,240 / 120 MWh, in b) 2,460 / 1,000 / 360 MWh, in c) 2,460 / 840 / 520 MWh - energy migrates step by step from the cheap plants to the expensive PP3.\n\nThe pattern: every additional constraint narrows the feasible set of the optimisation problem, so the optimal value of the objective function can only get worse or stay the same - the total system expenses rise monotonically, 130,600 < 135,400 < 138,600 EUR. Expressed per MWh the average system cost rises from 34.19 to 35.45 to 36.28 EUR/MWh.\n\nThe marginal costs, in contrast, do not move monotonically: in some hours they fall when a constraint is added (hour 7 drops from 60 to 40 EUR/MWh in case b), because the plant that is blocked at a limit is no longer the price-setting unit.",
+  "keywords": [
+   "130,600",
+   "135,400",
+   "138,600",
+   "3,820 MWh",
+   "narrows the feasible set",
+   "monotonically"
+  ]
+ },
+ {
+  "id": "b07-009",
+  "slide": 390,
+  "type": "open",
+  "graphic": true,
+  "prompt": "In case c) of Exercise 1 the solution for hour 6 (load 380 MW) is PP1 = 240 MW, PP2 = 0 MW, PP3 = 140 MW. Why does the expensive PP3 (60 EUR/MWh) run while the cheaper PP2 (40 EUR/MWh) stays off?",
+  "solution": "In hour 5 the load is 200 MW and only PP1 runs; PP2 and PP3 are off. In hour 6 the load jumps to 380 MW, i.e. by 180 MW.\n\nPP1 may ramp by 60 MW/h, so it can go from 200 to at most 260 MW, i.e. to its capacity limit of 240 MW. That leaves 140 MW to be covered by a second unit.\n\nPP2 would be the cheaper candidate, but it faces two constraints at once: its ramp rate is 120 MW/h, so starting from zero it can reach at most 120 MW, and its minimum stable level is also 120 MW. It could therefore only deliver exactly 120 MW - which leaves 20 MW for PP3, and 20 MW is below PP3's minimum stable level of 120 MW. That combination is infeasible.\n\nPP3 can do the job alone: its ramp rate of 180 MW/h allows it to go from 0 to 140 MW in one hour, and 140 MW is above its minimum stable level of 120 MW. Cost of the hour = 240 x 30 + 140 x 60 = 7,200 + 8,400 = 15,600 EUR.\n\nThe alternative would be to back PP1 down to 140 MW and run PP2 and PP3 at their minima of 120 MW each: 140 x 30 + 120 x 40 + 120 x 60 = 16,200 EUR - 600 EUR more expensive. So the printed solution is the cheaper one. Careful: the Excel solution sheet for part c) prints exactly this second, more expensive variant (139,200 EUR in total instead of the 138,600 EUR on the slide); the slide is the correct optimum.",
+  "keywords": [
+   "ramp",
+   "minimum stable level",
+   "120 MW",
+   "15,600 EUR",
+   "16,200 EUR",
+   "infeasible"
+  ]
+ },
+ {
+  "id": "b07-010",
+  "slide": 390,
+  "type": "cloze",
+  "prompt": "In the unconstrained case a) of Exercise 1 the total system expenses over the twelve hours amount to ___ EUR.",
+  "accept": [
+   "130600",
+   "130,600",
+   "130.600",
+   "130600 EUR",
+   "130,600 EUR"
+  ],
+  "solution": "130,600 EUR. It is the sum of 2,460 MWh x 30 + 1,240 MWh x 40 + 120 MWh x 60 = 73,800 + 49,600 + 7,200 EUR. Adding minimum stable levels raises it to 135,400 EUR, adding ramp restrictions on top of that to 138,600 EUR."
+ },
+ {
+  "id": "b07-011",
+  "slide": 390,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The solution table of Exercise 1 shows the generation of PP1 as 2,460 MWh in all three cases. What does that tell you?",
+  "options": [
+   "PP1 has no technical constraints at all in the exercise",
+   "PP1 is the cheapest unit and is never displaced by the minimum stable levels; only the ramp restriction in case c) touches it, and it happens to leave its energy total unchanged",
+   "PP1 must be running at its minimum stable level in every hour of the twelve-hour period",
+   "PP1 is the marginal plant in every hour, which is why its output is fixed"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "PP1 is the base-load unit at 30 EUR/MWh; the optimiser always uses it first and it is never pushed back by the minimum stable levels of the other units. Its ramp rate of 60 MW/h is binding only around the steep load rise in hour 6, but the printed solution keeps its energy total at 2,460 MWh. PP1 does have constraints (60 MW minimum, 60 MW/h ramp), it is not always at its minimum, and it is the marginal unit only in the low-load hours 0 to 5."
+ },
+ {
+  "id": "b07-012",
+  "slide": 392,
+  "type": "open",
+  "prompt": "Name the most important components of the variable generation costs of a conventional thermal power plant and explain how they are combined into one figure in EUR/MWh_el.",
+  "solution": "Four components:\n\n1. Fuel costs - the fuel price per unit (t of coal, MWh of gas) plus the logistic costs per unit, divided by the heating value of the fuel to obtain EUR/MWh_th.\n2. CO2 certificate costs - the specific emission factor (tCO2 per MWh_th) times the CO2 price in EUR/tCO2, again in EUR/MWh_th.\n3. The electrical efficiency, which converts thermal into electrical energy: the sum of 1 and 2 is divided by the efficiency to give EUR/MWh_el. This is the step where the efficiency does its work - a high-efficiency plant needs less thermal input per MWh_el and is therefore hit less hard by fuel and CO2 prices.\n4. Auxiliary costs (e.g. limestone for flue gas desulphurisation, operating materials), which are already given per MWh_el and are simply added at the end.\n\nFormula: c_var = (fuel price + logistics)/heating value + emission factor x CO2 price, all divided by the efficiency, plus auxiliary costs.\n\nWhat is deliberately not included: capital costs, fixed operating costs and start-up costs. Those are irrelevant for the short-term dispatch decision, which is why the merit order is built on variable costs only.",
+  "keywords": [
+   "fuel costs",
+   "CO2 certificate costs",
+   "efficiency",
+   "auxiliary costs",
+   "heating value",
+   "merit order"
+  ]
+ },
+ {
+  "id": "b07-013",
+  "slide": 398,
+  "type": "open",
+  "prompt": "Why are power plant outages modelled in energy system analysis at all, and why does the lecture prefer convolution over Monte Carlo simulation?",
+  "solution": "Real technical appliances need maintenance and fail from time to time. In the hours in which a plant is off-line it cannot contribute to covering the load, so a model that assumes 100 % availability systematically overestimates the security of supply and underestimates the cost of covering the load.\n\nThe exact point in time at which a failure occurs is not known beforehand - but the amount of hours a plant is unavailable is determined by probability and known from historic track records. That is enough to work with: the outage is treated as a probability, not as a scheduled event.\n\nTwo methods can be used. Monte Carlo simulation draws a large number of random outage patterns and averages the results; it is easy to implement but the result carries a sampling error and depends on the number of draws. Convolution instead analyses all possible combinations of available and unavailable units analytically, so it provides a more precise result. That is the reason the lecture uses it.",
+  "keywords": [
+   "maintenance",
+   "historic track records",
+   "probability",
+   "Monte Carlo simulation",
+   "all possible combinations",
+   "more precise"
+  ]
+ },
+ {
+  "id": "b07-014",
+  "slide": 398,
+  "type": "cloze",
+  "prompt": "As an alternative to the convolution method, ___ simulation can be applied to model power plant outages, but it gives a less precise result because it does not analyse all possible combinations.",
+  "accept": [
+   "Monte Carlo",
+   "Monte-Carlo",
+   "Monte Carlo simulation",
+   "monte carlo"
+  ],
+  "solution": "Monte Carlo simulation. It samples random outage patterns, so its accuracy depends on the number of draws. Convolution enumerates all possible combinations of available and unavailable blocks analytically and therefore provides a more precise result - which is why the lecture chooses it."
+ },
+ {
+  "id": "b07-015",
+  "slide": 399,
+  "type": "open",
+  "prompt": "Describe the convolution method 'step by step' as the lecture presents it. Which assumption about outages is made, and what happens to the load in the hours in which a plant is unavailable?",
+  "solution": "Step 1: the load duration curve is transformed into a shape with steps of constant load, i.e. it is approximated by a small number of blocks of constant MW over a constant number of hours.\n\nStep 2: the plants are dispatched in merit order, the plant with the lowest cost first.\n\nThe basic assumption is that outages may occur at any point in time and are not related to a specific time or season - the outage probability is the same in every hour, independent of the load level. This is what allows the outage to be applied proportionally to every step of the curve.\n\nFor the share of hours in which the plant is available, the load is reduced by the plant's capacity. For those hours in which the plant is not available the load is not met - graphically it is not reduced - so other blocks have to cover the load in those time slices. The result is a residual load duration curve with more, smaller steps, which is then handed on to the next plant in the merit order.\n\nBecause there is a (very low) probability that all plants fail at the same time, the load can never be met with 100 % certainty, no matter how many blocks are in the system. For modelling purposes the missing energy, which would have to be procured externally, is allocated a very high price - it acts as a backstop technology and its energy volume is the model's measure of unserved demand.",
+  "keywords": [
+   "steps of constant load",
+   "merit order",
+   "not related to a specific time",
+   "residual load",
+   "100 % certainty",
+   "very high price"
+  ]
+ },
+ {
+  "id": "b07-016",
+  "slide": 399,
+  "type": "cloze",
+  "prompt": "In the convolution approach the missing energy that would have to be procured externally is allocated a very ___ price, so that the model only uses it as a last resort.",
+  "accept": [
+   "high",
+   "high price",
+   "very high",
+   "expensive"
+  ],
+  "solution": "A very high price. The unserved energy is treated as a backstop supply with a prohibitive cost. This has two effects: the optimisation avoids it wherever cheaper capacity exists, and the volume of energy that is nevertheless procured at that price becomes a quantitative measure of the residual supply risk of the system."
+ },
+ {
+  "id": "b07-017",
+  "slide": 399,
+  "type": "mc",
+  "prompt": "Why can the load never be met with 100 % certainty in a convolution model, no matter how many power plant blocks are in the system?",
+  "options": [
+   "Because the merit order always leaves the most expensive plant out of the dispatch",
+   "Because the outage probability of a plant increases with the number of plants in the system",
+   "Because the load duration curve is only approximated by steps, which always leaves a rounding error",
+   "Because there is a small but non-zero probability that all plants fail at the same time"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The outages of the individual blocks are treated as independent events, so the probability that all of them are unavailable simultaneously is the product of their individual outage probabilities - a very small number, but never zero. Hence a residual amount of unserved energy always remains and is priced at a very high value. The stepwise approximation of the load duration curve is a separate modelling simplification and not the reason; the merit order dispatches all plants that are needed; and the outage probability of a single plant is a plant property, independent of how many other plants exist."
+ },
+ {
+  "id": "b07-018",
+  "slide": 400,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Step 1 of the graphical convolution: describe what is shown in the two diagrams and why the transformation is carried out.",
+  "solution": "The left diagram shows a real load duration curve for about 168 hours (one week): the hourly loads sorted in descending order, starting at roughly 8,000 MW, falling steeply in the first 15 hours to about 6,500 MW, then declining almost linearly to about 3,500 MW around hour 160 and dropping to zero at the end.\n\nThe right diagram shows the same curve after the transformation into a stepwise constant load: five blocks of constant height, roughly 7,000 MW for the first 30 hours, 5,700 MW for hours 30-60, 5,000 MW for hours 60-90, 4,600 MW for hours 90-120 and 3,500 MW for the remaining hours up to 160.\n\nThe purpose: the convolution operates on discrete probability distributions. With a smooth curve every hour would be a separate load level; with a small number of steps each block can be treated as one state with a known duration, and the outage probability of a plant can be applied to that block by splitting it into an available and an unavailable share. The approximation must preserve the energy under the curve (the area) and the peak, otherwise the residual load and the unserved energy come out wrong.\n\nWhat you lose is chronology: the load duration curve says how many hours a load level occurs, not when - which is precisely the assumption that convolution needs, since outages are also assumed to be independent of the point in time.",
+  "keywords": [
+   "load duration curve",
+   "descending order",
+   "stepwise constant load",
+   "8,000 MW",
+   "duration",
+   "chronology"
+  ]
+ },
+ {
+  "id": "b07-019",
+  "slide": 400,
+  "type": "cloze",
+  "prompt": "Step 1 of the convolution method transforms the load duration curve into a ___ load, i.e. into a small number of blocks of constant height and known duration.",
+  "accept": [
+   "stepwise constant",
+   "step-wise constant",
+   "stepwise",
+   "stepwise constant load",
+   "constant stepwise"
+  ],
+  "solution": "A stepwise constant load. Each step is a load level of constant height with a known number of hours. This discretisation is what makes the convolution possible: the outage probability of a plant can then be applied to each block by splitting it into an available share and an unavailable share of its hours."
+ },
+ {
+  "id": "b07-020",
+  "slide": 401,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Step 2 of the graphical convolution: plant 1 has 1,000 MW and an outage probability of 10 %. Explain what happens to the first block of the stepwise load duration curve (7,000 MW for 30 hours) and sketch the result.",
+  "solution": "The plant is available in 90 % and unavailable in 10 % of the hours of every block - by assumption the outage is independent of the point in time, so the split applies to each block separately.\n\nFor the block of 7,000 MW lasting 30 hours this means:\n- in 0.9 x 30 = 27 hours the plant runs at 1,000 MW and the load is reduced to 7,000 - 1,000 = 6,000 MW;\n- in 0.1 x 30 = 3 hours the plant is out and the load is not reduced at all, so it stays at 7,000 MW and has to be covered by the following plants in the merit order.\n\nEnergy supplied by the plant in this block = 1,000 MW x 27 h = 27,000 MWh. Over the whole 160-hour curve, if the plant is in merit throughout, it supplies 1,000 MW x 160 h x 0.9 = 144,000 MWh.\n\nGraphically: one block of the curve is replaced by two steps - a short high one at the original level (the outage hours) and a long low one at 'level minus capacity'. Doing this for every block and re-sorting the resulting steps in descending order gives the residual load duration curve labelled 'remaining load after dispatch of plant' in the right-hand diagram; the red dotted line is the 'load before dispatch of plant'. The new curve has roughly twice as many steps as the old one - which is why the number of steps has to be kept small at the start.",
+  "keywords": [
+   "90 %",
+   "27 hours",
+   "6,000 MW",
+   "3 hours",
+   "27,000 MWh",
+   "residual load duration curve"
+  ]
+ },
+ {
+  "id": "b07-021",
+  "slide": 401,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Look at the right-hand diagram of the convolution figure: why does the residual load curve still reach the original peak level, and why does it have more steps than the curve before the dispatch?",
+  "solution": "The residual curve still touches the original peak because of the outage hours. In the small share of hours in which plant 1 is unavailable (10 % of the hours of the highest block) the load is not reduced at all - the curve keeps the original value of about 7,000 MW. Only in the remaining 90 % of those hours is the load pulled down by the plant's 1,000 MW. Graphically, the residual curve therefore starts with a short spike at the old maximum before dropping to peak-minus-capacity.\n\nThat is the whole point of the method: dispatching a plant does not shift the entire load duration curve down by its capacity, it shifts down only the available fraction. Repeating this for every plant means that no matter how much capacity is added, a thin sliver of load at high levels always survives - the load can never be met with 100 % certainty, and the remaining sliver is exactly the expected unserved energy.\n\nThe number of steps roughly doubles with every plant, because every existing block is split into an 'available' and an 'unavailable' part, and the resulting pieces then have to be re-sorted in descending order. This combinatorial growth is the practical price of the method's precision and the reason why the initial load duration curve is approximated by only a handful of steps.",
+  "keywords": [
+   "outage hours",
+   "not reduced",
+   "available fraction",
+   "100 % certainty",
+   "unserved energy",
+   "doubles"
+  ]
+ },
+ {
+  "id": "b07-022",
+  "slide": 401,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "A 1,000 MW plant with an outage probability of 10 % is dispatched against a block of the stepwise load duration curve that is 5,000 MW high and lasts 30 hours. What does the block look like afterwards?",
+  "options": [
+   "27 hours at 4,000 MW and 3 hours at 5,000 MW",
+   "30 hours at 4,000 MW",
+   "30 hours at 4,100 MW",
+   "3 hours at 4,000 MW and 27 hours at 5,000 MW"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The plant is available in 90 % of the hours (27 h), and in those hours the load is reduced by the full 1,000 MW to 4,000 MW. In the remaining 10 % (3 h) the plant is out and the load stays at 5,000 MW. Option A would be the naive result without outages; option B corresponds to reducing the load by the expected capacity of 900 MW in all hours, which is exactly the averaging error that convolution avoids; option D reverses availability and outage."
+ },
+ {
+  "id": "b07-023",
+  "slide": 406,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide asks 'In which way are energy systems likely to develop in future?' and shows a triangle. Name its three corners and explain why they make the future path of the energy system a genuine planning problem.",
+  "solution": "The triangle is the classic target triangle of energy policy. Its three corners are economic efficiency, security of supply and environmental compatibility.\n\nThe planning problem arises because the three goals are only partly compatible. Pushing environmental compatibility (rapid decarbonisation, phase-out of coal and nuclear) can raise system costs and reduce firm capacity, which touches both of the other corners. Maximising security of supply through large reserve margins or domestic fuels raises costs and may mean burning lignite. Optimising costs alone would keep the cheapest and often the dirtiest assets running. Therefore no unique optimum exists; a weighting between the corners has to be assumed, and different weightings produce different 'optimal' systems.\n\nOn top of that the slide places a question mark on the time axis: not only the target state of the future energy system is unknown, but also the path towards it and the time t at which it is reached. This is precisely the reason why the lecture moves on to optimising energy system models (which compute a cost-minimal path once the assumptions are fixed) and to scenario planning (which deals with the fact that those assumptions themselves are uncertain).",
+  "keywords": [
+   "economic efficiency",
+   "security of supply",
+   "environmental compatibility",
+   "target triangle",
+   "path",
+   "scenario planning"
+  ]
+ },
+ {
+  "id": "b07-024",
+  "slide": 407,
+  "type": "open",
+  "prompt": "The learning objectives of this section ask you to explain the concept of an 'optimal power plant park' within optimising energy system models. What does 'optimal' mean here, and from whose point of view?",
+  "solution": "An optimal power plant park is the combination of installed capacities per technology that minimises the total discounted system expenses of covering the given demand over the whole planning horizon, subject to all technical, resource and policy constraints.\n\nThe target function is a cost minimisation for the system as a whole, not a profit maximisation for a single company - that makes it a macroeconomic approach. The model decides on plant commissioning and decommissioning, on the dispatch of the units and on their operation modes; the hard constraint that drives everything is that electricity demand has to be satisfied in every time step.\n\nTwo consequences the lecture insists on. First, 'optimal' is only meaningful relative to the input assumptions - demand, fuel and CO2 prices, technology costs, potentials - so the optimal park is the answer to a scenario, not a forecast. Second, the optimal expansion option from a systems perspective need not be profitable from an entrepreneurial perspective: a technology that lowers total system expenses may still fail to recover its own capital costs at the resulting market prices.",
+  "keywords": [
+   "total discounted system expenses",
+   "macroeconomic approach",
+   "demand has to be satisfied",
+   "input assumptions",
+   "entrepreneurial perspective",
+   "optimal power plant park"
+  ]
+ },
+ {
+  "id": "b07-025",
+  "slide": 409,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the input-output structure of an energy systems model as shown on the slide: which groups of inputs enter the market model, and which results does it produce?",
+  "solution": "The figure has three columns. On the left the scenario assumptions / energy economic market view, in the middle the market model, on the right the results.\n\nInputs on the left (scenario assumptions):\n- power plant technology development for conventional expansion candidates (capex, opex, efficiency)\n- technology development data for renewables (capex, opex)\n- regional renewable potentials and generation profiles\n- world market fuel price scenarios (hard coal, gas, oil)\n- domestic fuel price scenarios (e.g. lignite)\n- CO2 certificate limits or prices\n- macroeconomic developments (GDP, inflation, exchange rates)\n- regional electricity consumption (amount and profile)\n\nInputs from above: the existing assets and decided projects - the thermal power plant park with installed capacities and efficiencies, and the hydro storages with volumes and discharge rates. From below: external policy-driven developments, e.g. the nuclear phase-out in Germany between 2012 and 2022.\n\nThe market model itself minimises the system expenses for load coverage; inside it the figure shows the merit order, i.e. variable costs in EUR/MWh plotted against available capacity in GW, with renewables, nuclear, lignite, hard coal, CCGT and OCGT, against the system (residual) load.\n\nResults on the right: the regional power plant park development, fuel consumption, CO2 emissions, marginal prices (short-run and long-run marginal costs) and the total system expenses.",
+  "keywords": [
+   "scenario assumptions",
+   "existing assets and decided projects",
+   "minimises the system expenses",
+   "merit order",
+   "residual",
+   "long-run marginal costs"
+  ]
+ },
+ {
+  "id": "b07-026",
+  "slide": 409,
+  "type": "cloze",
+  "prompt": "Among the results of an energy systems model the slide lists marginal prices, distinguishing short-run marginal costs from ___ marginal costs.",
+  "accept": [
+   "long-run",
+   "long run",
+   "long-term",
+   "long-run marginal",
+   "LRMC"
+  ],
+  "solution": "Long-run marginal costs. The short-run marginal costs are the variable generation costs of the marginal unit and set the price when capacity is sufficient. The long-run marginal costs additionally include the annualised investment of the marginal expansion candidate and are the relevant price signal when new capacity has to be built - which is exactly the situation the peak-load pricing theory describes."
+ },
+ {
+  "id": "b07-027",
+  "slide": 410,
+  "type": "open",
+  "prompt": "Which model type, target function, variables and constraints does the energy systems model of the lecture use?",
+  "solution": "Model type and methodology: a multi-periodic linear programming approach - linear because all cost relationships are formulated as linear functions of the decision variables, multi-periodic because several years or time steps are optimised in one problem.\n\nTarget function: minimisation of the decision-relevant expenditures. These comprise, for power plants, the fixed and variable operational costs and the investment, and for the energy flows the fuel costs and the variable transmission costs.\n\nVariables: plant commissioning and decommissioning, unit dispatch, and operation modes.\n\nConstraints: generation capacity, plant availability, fuel resource availability and, if a grid is represented, load flow constraints in the transmission grids.\n\nDriving force: the electricity demand has to be satisfied. That is the hard constraint which forces the model to build and run something in every time step; all other elements only decide what the cheapest way of doing so is. Note the wording 'decision-relevant expenditures' - sunk costs of existing plants do not influence the decision and are therefore excluded.",
+  "keywords": [
+   "multi-periodic linear programming",
+   "decision-relevant expenditures",
+   "commissioning",
+   "unit dispatch",
+   "plant availability",
+   "demand has to be satisfied"
+  ]
+ },
+ {
+  "id": "b07-028",
+  "slide": 410,
+  "type": "mc",
+  "prompt": "Which of the following is a decision variable of the energy systems model described on the slide, rather than an input?",
+  "options": [
+   "The CO2 certificate price",
+   "The regional electricity consumption profile",
+   "The commissioning and decommissioning of power plants",
+   "The world market price of hard coal"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Plant (de)commissioning, unit dispatch and operation modes are the model's variables - the model chooses them so as to minimise the decision-relevant expenditures. Fuel prices, CO2 prices and electricity consumption are exogenous scenario assumptions fed into the model from the left-hand side of the input-output diagram; they are the reason why the result is scenario-dependent and not a forecast."
+ },
+ {
+  "id": "b07-029",
+  "slide": 411,
+  "type": "open",
+  "prompt": "Fundamental optimisation models distinguish two basic situations. Name them and explain the target function used in each case - and the caveat the lecture adds for the second situation.",
+  "solution": "Situation 1 - enough capacity is available. The suppliers make their bids according to their (short-run) marginal costs, and the model's target function is the minimisation of the total system's costs under the hard constraint of load coverage. This is the classical unit commitment / merit order problem: only the dispatch of existing assets is decided.\n\nSituation 2 - new capacity is needed. If demand grows and/or old power plants reach the end of their lifetime, new capacity has to be built. From a systems perspective the 'optimal' capacity expansion option is chosen from a set of alternative options; 'optimal' means the expansion candidate that contributes most to minimising the system expenses. That is a macroeconomic approach: it now includes the investment, so fixed and variable costs have to be traded off against each other - which is precisely what peak-load pricing does.\n\nThe caveat: it cannot be concluded that the optimal expansion option from a systems perspective will also be economically profitable from an entrepreneurial perspective. The system optimum minimises total costs, but whether the individual investor recovers his capital depends on the market prices and on the number of hours in which the plant is in the money - a gap that is at the root of the missing-money debate and of capacity mechanisms.",
+  "keywords": [
+   "short-run marginal costs",
+   "load coverage",
+   "new capacity is needed",
+   "macroeconomic approach",
+   "entrepreneurial perspective",
+   "peak-load pricing"
+  ]
+ },
+ {
+  "id": "b07-030",
+  "slide": 411,
+  "type": "cloze",
+  "prompt": "The lecture warns that the optimal expansion option from a systems perspective need not be economically profitable from an ___ perspective.",
+  "accept": [
+   "entrepreneurial",
+   "entrepreneurial perspective",
+   "business",
+   "company",
+   "microeconomic"
+  ],
+  "solution": "Entrepreneurial. The system optimum is defined macroeconomically - the candidate that minimises total system expenses. Whether the individual investor earns his capital back depends on the market prices in the hours in which the plant runs. The two criteria coincide only under idealised conditions (a complete, undistorted market with scarcity pricing); in reality this gap is the origin of the missing-money problem."
+ },
+ {
+  "id": "b07-031",
+  "slide": 412,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the theory of peak-load pricing using the four diagrams of the slide. How is the cost-minimal technology for a given number of operating hours found, and how are the installed capacities derived?",
+  "solution": "Bottom-left diagram - the cost lines. For each technology the annual cost per MW is a straight line in the operating time t: C(t) = C_fix + C_var x t. The intercept is the annualised fixed cost (annuity of the investment plus fixed operating costs), the slope is the variable generation cost. Technologies with a low investment and high variable costs (technology 1) start low and rise steeply; technologies with a high investment and low variable costs (technology 3) start high and rise flatly.\n\nThe cost-minimal technology for a given utilisation time is the one on the lower envelope of all these straight lines. The envelope is a convex, piecewise linear curve, and the break points t1, t2, t3 are the utilisation times at which two technologies have equal total costs: t* = (C_fix,B - C_fix,A) / (C_var,A - C_var,B). Technology 4 in the figure never touches the envelope - it is dominated by the others and therefore not built.\n\nTop diagram - the load duration curve. The break points are transferred to the load duration curve: the load level at t1 gives the capacity of the peaking technology, the load at t2 minus the load at t1 the capacity of the mid-merit technology, and so on. The bands P_inst,1 (top, peak), P_inst,2 (middle) and P_inst,3 (bottom, base) are read off in this way, which is why the peak technology is on top of the stack and the base technology at the bottom.\n\nBottom-right diagram - the price. In each time segment the price equals the variable costs of the technology that is marginal there: C_var1 during the t1 peak hours, C_var2 during t2, C_var3 during t3. The price is therefore highest in the shortest segment - which is exactly what allows the peaking plant, running few hours, to earn its fixed costs.",
+  "keywords": [
+   "C_fix",
+   "C_var",
+   "lower envelope",
+   "break points",
+   "load duration curve",
+   "marginal"
+  ]
+ },
+ {
+  "id": "b07-032",
+  "slide": 412,
+  "type": "open",
+  "graphic": true,
+  "prompt": "In the cost diagram of the peak-load pricing slide, four technologies are drawn but only three appear in the load duration curve. Why is technology 4 not part of the optimal power plant park?",
+  "solution": "Because its cost line never lies on the lower envelope. For every utilisation time t between 0 and 8,760 hours there is at least one other technology whose total annual cost C_fix + C_var x t is lower. Technology 4 is therefore dominated: whatever number of operating hours you consider, building technology 4 would raise the total system expenses.\n\nIn the figure this is visible from its position: its line runs above technology 2 over the whole relevant range while lying below technology 1 only where technology 2 is already cheaper still. A technology is only built if it wins on some interval of the utilisation time, i.e. if it has both a lower fixed cost than the technology to its left and a lower variable cost than the technology to its right.\n\nThis is the general rule for capacity expansion: the optimal park contains exactly those technologies that form the vertices of the lower envelope; any candidate that is dominated in both dimensions - or dominated by a combination of the others - gets zero capacity, no matter how attractive it looks in a single indicator such as the levelised cost of electricity at one assumed utilisation.",
+  "keywords": [
+   "lower envelope",
+   "dominated",
+   "total system expenses",
+   "utilisation time",
+   "zero capacity",
+   "levelised cost"
+  ]
+ },
+ {
+  "id": "b07-033",
+  "slide": 412,
+  "type": "cloze",
+  "prompt": "In the peak-load pricing diagram the annual cost of a technology per MW is drawn as the straight line C(t) = C_fix + C_var * t; the cost-minimal technology for a given operating time is found on the ___ of all these lines.",
+  "accept": [
+   "lower envelope",
+   "envelope",
+   "lower hull",
+   "minimum envelope",
+   "lower boundary"
+  ],
+  "solution": "The lower envelope. Since every technology's annual cost is linear in the operating time, the cheapest option for each t is the minimum over all lines; connecting these minima yields a convex, piecewise linear lower envelope. Its break points t1, t2, t3 are the utilisation times at which two technologies are exactly equally expensive, and they are the values that get transferred to the load duration curve to read off the installed capacities."
+ },
+ {
+  "id": "b07-034",
+  "slide": 412,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which combination of cost characteristics belongs to the technology that occupies the top band P_inst,1 of the load duration curve, i.e. the peaking technology?",
+  "options": [
+   "Highest fixed costs and lowest variable costs",
+   "Lowest fixed costs and lowest variable costs",
+   "Highest fixed costs and highest variable costs",
+   "Lowest fixed costs and highest variable costs"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The peaking technology runs only for the few hours t1 at the top of the load duration curve, so its fixed costs are spread over very little energy. It is only competitive if its investment - and therefore its annualised fixed cost - is as low as possible; it can afford high variable costs because it runs so rarely. Option B describes the base-load technology at the bottom band. Option C would be dominant everywhere and would leave no room for any other technology; option D would be dominated everywhere and never built."
+ },
+ {
+  "id": "b07-035",
+  "slide": 414,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 3a: determine the total annualised fixed costs (EUR/MWa) of the four technologies at a WACC of 10 %. Show the annuity calculation.",
+  "solution": "The annuity factor for an interest rate i and a lifetime n is a = i(1+i)^n / ((1+i)^n - 1).\n\nFor n = 40 years at 10 %: 1.1^40 = 45.259, so a = 0.1 x 45.259 / 44.259 = 0.10226.\nFor n = 30 years: 1.1^30 = 17.449, a = 0.1 x 17.449 / 16.449 = 0.10608.\nFor n = 20 years: 1.1^20 = 6.7275, a = 0.1 x 6.7275 / 5.7275 = 0.11746.\n\nAnnuity of the investment plus the given fixed operating costs:\n- Lignite: 2,200 x 0.10226 = 224.97 EUR/kWa, plus 60 = 284.97 EUR/kWa = 284,971 EUR/MWa\n- Hard coal: 1,750 x 0.10226 = 178.95 EUR/kWa, plus 40 = 218.95 EUR/kWa = 218,954 EUR/MWa\n- CCGT: 875 x 0.10608 = 92.82 EUR/kWa, plus 25 = 117.82 EUR/kWa = 117,819 EUR/MWa\n- OCGT: 450 x 0.11746 = 52.86 EUR/kWa, plus 15 = 67.86 EUR/kWa = 67,857 EUR/MWa\n\nWatch the unit: the question asks for EUR/MWa, so the EUR/kWa figures have to be multiplied by 1,000.\n\nNote on the data: the official Excel solution sheet uses 900 EUR/kW for the CCGT instead of the 875 EUR/kW printed on the slide, giving 95.47 + 25 = 120.47 EUR/kWa = 120,471 EUR/MWa. The graphical solution on the following slides is based on the 900 EUR/kW variant.",
+  "keywords": [
+   "annuity factor",
+   "0.10226",
+   "284,971",
+   "218,954",
+   "67,857",
+   "EUR/MWa"
+  ]
+ },
+ {
+  "id": "b07-036",
+  "slide": 414,
+  "type": "cloze",
+  "prompt": "For a lifetime of 40 years and a WACC of 10 % the annuity factor is a = i(1+i)^n/((1+i)^n-1) = ___ (four decimals).",
+  "accept": [
+   "0.1023",
+   "0,1023",
+   "0.10226",
+   "0,10226",
+   "0.1022",
+   "10.23 %",
+   "10,23 %"
+  ],
+  "solution": "0.1023 (more precisely 0.10226). With 1.1^40 = 45.259 the factor is 0.1 x 45.259 / 44.259 = 0.10226. Applied to the lignite investment of 2,200 EUR/kW it gives 224.97 EUR/kWa; adding the fixed operating costs of 60 EUR/kWa yields 284.97 EUR/kWa. Note how flat the annuity factor becomes for long lifetimes: for 30 years it is 0.1061 and for 20 years 0.1175, so at a WACC of 10 % a longer lifetime buys surprisingly little."
+ },
+ {
+  "id": "b07-037",
+  "slide": 414,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which technology in Exercise 3 has the highest total annualised fixed costs, and roughly how much are they?",
+  "options": [
+   "CCGT, about 118,000 EUR/MWa",
+   "Lignite, about 285,000 EUR/MWa",
+   "Hard coal, about 219,000 EUR/MWa",
+   "OCGT, about 68,000 EUR/MWa"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Lignite: 2,200 EUR/kW x 0.10226 = 224.97 EUR/kWa plus 60 EUR/kWa fixed operating cost = 284.97 EUR/kWa, i.e. about 285,000 EUR/MWa. It is the most capital-intensive technology of the set and therefore also the one that needs the largest number of full load hours to pay off - which is exactly why it ends up at the bottom of the load duration curve as the base-load technology. The other three figures are correct for their technologies but are not the highest."
+ },
+ {
+  "id": "b07-038",
+  "slide": 415,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 3b: determine the variable generation costs (EUR/MWh_el) of lignite, hard coal, CCGT and OCGT from the table.",
+  "solution": "Same scheme as in Exercise 1: cost per MWh_th first, then divide by the efficiency, then add the auxiliary costs of 2.00 EUR/MWh_el.\n\nLignite (efficiency 44 %): fuel plus logistics = 20 + 1 = 21 EUR/t; divided by 3.06 MWh_th/t = 6.87 EUR/MWh_th. CO2 = 0.40 x 10 = 4.00. Total 10.87 EUR/MWh_th / 0.44 = 24.71, plus 2.00 = 26.71 EUR/MWh_el.\n\nHard coal (46 %): 100 USD/t / 1.25 = 80 EUR/t, plus 5 = 85 EUR/t; divided by 6.94 MWh_th/t = 12.24 EUR/MWh_th. CO2 = 0.35 x 10 = 3.50. Total 15.74 / 0.46 = 34.22, plus 2.00 = 36.22 EUR/MWh_el.\n\nCCGT (59 %): 25 + 2 = 27 EUR per gas unit; divided by 0.9262 MWh_th = 29.15 EUR/MWh_th. CO2 = 0.184 x 10 = 1.84. Total 30.99 / 0.59 = 52.53, plus 2.00 = 54.53 EUR/MWh_el.\n\nOCGT (40 %): identical fuel, so again 30.99 EUR/MWh_th, but divided by 0.40 = 77.48, plus 2.00 = 79.48 EUR/MWh_el.\n\nMerit order: lignite 26.71 < hard coal 36.22 < CCGT 54.53 < OCGT 79.48 EUR/MWh_el. CCGT and OCGT differ only through the efficiency - the same fuel, the same CO2 factor - which shows very clearly how strongly the efficiency leverages the fuel and carbon price into the electricity cost.\n\nData note: the official Excel sheet works with an updated gas price of 35 EUR per gas unit instead of the 25 printed on the slide, which raises CCGT to 72.83 and OCGT to 106.47 EUR/MWh_el.",
+  "keywords": [
+   "26.71",
+   "36.22",
+   "54.53",
+   "79.48",
+   "efficiency",
+   "merit order"
+  ]
+ },
+ {
+  "id": "b07-039",
+  "slide": 415,
+  "type": "cloze",
+  "prompt": "In Exercise 3 the CCGT and the OCGT burn exactly the same fuel with the same CO2 factor; the only reason their variable costs differ (about 54.5 versus about 79.5 EUR/MWh_el) is their different ___.",
+  "accept": [
+   "efficiency",
+   "electrical efficiency",
+   "net efficiency",
+   "Wirkungsgrad"
+  ],
+  "solution": "The efficiency: 59 % for the CCGT against 40 % for the OCGT. The total fuel-related cost of 30.99 EUR/MWh_th is identical for both; dividing by 0.59 gives 52.53 and by 0.40 gives 77.48 EUR/MWh_el, and adding 2.00 EUR/MWh_el auxiliary costs yields 54.53 and 79.48 EUR/MWh_el. The efficiency acts as a lever on every input that is priced per MWh_th - fuel and CO2 alike."
+ },
+ {
+  "id": "b07-040",
+  "slide": 416,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 3c: the system load is equally distributed between 20 GW and 100 GW throughout the year. Determine the installed capacity of each technology in the ideal green-field system. Show the method.",
+  "solution": "Step 1 - the total annual cost per MW of each technology as a function of the operating time t: C(t) = C_fix + C_var x t, with the figures from a) and b) (the CCGT taken with 900 EUR/kW as in the official solution):\nLignite 284,971 EUR/MWa + 27 x t; hard coal 218,954 + 36 x t; CCGT 120,471 + 55 x t; OCGT 67,857 + 79 x t (variable costs rounded to whole EUR/MWh as in the solution sheet).\n\nStep 2 - the break-even utilisation times, i.e. the intersections of neighbouring lines, t* = delta C_fix / delta C_var:\nLignite/hard coal: (284,971 - 218,954)/(36 - 27) = 66,017/9 = about 7,335 h\nHard coal/CCGT: (218,954 - 120,471)/(55 - 36) = 98,483/19 = about 5,183 h\nCCGT/OCGT: (120,471 - 67,857)/(79 - 55) = 52,615/24 = about 2,192 h\nThey are strictly decreasing, so all four technologies appear in the optimal park.\n\nStep 3 - transfer the hours to the load duration curve. A uniform distribution between 20 and 100 GW gives the straight line L(t) = 100 - 80 x t/8,760 GW:\nL(7,335) = 33.1 GW, L(5,183) = 52.7 GW, L(2,192) = 80.0 GW.\n\nStep 4 - the capacities are the differences between these load levels, read from the bottom of the curve upwards:\nLignite 33.1 GW (base), hard coal 52.7 - 33.1 = 19.6 GW, CCGT 80.0 - 52.7 = 27.3 GW, OCGT 100 - 80.0 = 20.0 GW. Sum 100 GW = the peak load, as it must be on a green field.\n\nThis is the pie chart printed on the slide: 33.1 / 19.6 / 27.3 / 20.0 GW. With the higher gas price of the Excel sheet (35 instead of 25 per gas unit) the CCGT is squeezed out almost completely and the mix becomes 33.1 / 42.6 / 9.7 / 14.6 GW - a good illustration of how sensitive a green-field park is to the fuel price assumption.",
+  "keywords": [
+   "break-even",
+   "7,335",
+   "5,183",
+   "2,192",
+   "33.1",
+   "19.6",
+   "27.3",
+   "20.0"
+  ]
+ },
+ {
+  "id": "b07-041",
+  "slide": 416,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain how the two diagrams on the right of the Exercise 3 solution slide work together, and why the dashed vertical lines are drawn at the same hour values in both.",
+  "solution": "The upper diagram plots, for each of the four technologies, the total annual cost per MW (in million EUR/MWa) against the number of operating hours per year, from 0 to 8,760 h. Each technology is a straight line: intercept = total annualised fixed cost, slope = variable generation cost. OCGT starts lowest and rises steepest, lignite starts highest and rises flattest. Their intersections are the break-even utilisation times, marked by the dashed vertical lines at roughly 2,192, 5,183 and 7,335 hours.\n\nThe lower diagram plots the load duration curve of the same year - a straight line falling from 100 GW at hour 0 to 20 GW at hour 8,760, because the load is assumed to be uniformly distributed between those two values.\n\nThe dashed lines are drawn at identical hours in both diagrams because the hour axis is the link between the two: a break-even time computed in the cost diagram tells you for how many hours a technology is the cheapest option; reading the load duration curve at that same hour tells you which load level that corresponds to, and hence how much capacity of the technology should be installed. The horizontal dashed lines at 33, 53 and 80 GW are the answers read off in this way.\n\nThe direction matters: the technology that is cheapest at long operating times (lignite) is placed at the bottom of the load duration curve as base load; the one that is cheapest at short operating times (OCGT) sits at the top as peak capacity.",
+  "keywords": [
+   "operating hours",
+   "intercept",
+   "slope",
+   "break-even",
+   "load duration curve",
+   "base load"
+  ]
+ },
+ {
+  "id": "b07-042",
+  "slide": 416,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the green-field optimum of Exercise 3 the peak load is 100 GW and the minimum load is 20 GW. What must the sum of all installed capacities be, and which technology covers the band from 0 to 20 GW?",
+  "options": [
+   "100 GW in total; the band from 0 to 20 GW is covered by the OCGT",
+   "80 GW in total; the band from 0 to 20 GW is covered by the OCGT",
+   "120 GW in total, to provide a reserve margin; the band is covered by the CCGT",
+   "100 GW in total; the band from 0 to 20 GW is covered by the lignite plants"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "On a green field without outages, reserve requirements or renewables, the installed capacity must equal the peak load exactly - 100 GW, which is the sum 33.1 + 19.6 + 27.3 + 20.0. The bottom band of the load duration curve is the load that is present in all 8,760 hours; it is covered by the technology with the lowest variable costs and the highest fixed costs, i.e. lignite. The OCGT sits in the top band from 80 to 100 GW and runs only about 2,192 hours a year. No reserve margin is added in this idealised exercise."
+ },
+ {
+  "id": "b07-043",
+  "slide": 417,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 3d: what would the average power price be in the ideal supply system? Use the hint on the slide and determine for each technology the number of hours in which it sets the price.",
+  "solution": "In each hour the price equals the variable costs of the marginal, i.e. price-setting, technology. The peak technology is marginal in the hours of highest load, the base technology in the hours of lowest load, and the boundaries are exactly the break-even times found in part c).\n\nHours in which each technology sets the price:\n- OCGT: from hour 0 to hour 2,192, i.e. 2,192 h at 79 EUR/MWh\n- CCGT: 5,183 - 2,192 = 2,991 h at about 55 EUR/MWh\n- Hard coal: 7,335 - 5,183 = 2,152 h at about 36 EUR/MWh\n- Lignite: 8,760 - 7,335 = 1,425 h at about 27 EUR/MWh\nSum of hours = 8,760, as required.\n\nAverage price = (2,192 x 79 + 2,991 x 55 + 2,152 x 36 + 1,425 x 27) / 8,760\n= (173,168 + 164,505 + 77,472 + 38,475) / 8,760 = 453,620 / 8,760 = about 51.8 EUR/MWh.\n\n(With the exact, unrounded variable costs 79.48 / 54.53 / 36.22 / 26.71 the result is 51.75 EUR/MWh; with the updated gas price of the Excel sheet it comes out at 51.91 EUR/MWh - practically the same number, because the higher gas cost is offset by the smaller number of hours in which gas sets the price.)\n\nInterpretation: this is a time-weighted average of the price, not a load-weighted one, and it does not contain any scarcity rent. In this idealised model the peak plant just recovers its fixed costs because the price in the peak hours is its own variable cost only in the marginal hour - in a real market the peaking plant additionally needs scarcity prices above its variable costs to refinance itself.",
+  "keywords": [
+   "marginal",
+   "2,192",
+   "2,991",
+   "2,152",
+   "1,425",
+   "51.8 EUR/MWh",
+   "scarcity"
+  ]
+ },
+ {
+  "id": "b07-044",
+  "slide": 417,
+  "type": "cloze",
+  "prompt": "In the ideal green-field system of Exercise 3 the technology that sets the price in the roughly 2,200 hours of highest load is the ___.",
+  "accept": [
+   "OCGT",
+   "open cycle gas turbine",
+   "open-cycle gas turbine",
+   "gas turbine",
+   "peaking plant",
+   "peak load plant"
+  ],
+  "solution": "The OCGT. It occupies the top band of the load duration curve (80 to 100 GW), runs about 2,192 hours a year and has the highest variable costs of the set at 79.48 EUR/MWh; hence it is the marginal, price-setting unit in exactly those hours. In the remaining hours the price falls to the variable cost of the CCGT, then of hard coal, and in the last 1,425 hours to that of lignite."
+ },
+ {
+  "id": "b07-045",
+  "slide": 418,
+  "type": "cloze",
+  "prompt": "The acronym TIMES stands for 'The Integrated ___ EFOM System' and denotes one of the internationally spread optimising energy and material flow models.",
+  "accept": [
+   "MARKAL",
+   "Markal",
+   "Market Allocation",
+   "Market Allocation Model"
+  ],
+  "solution": "MARKAL (Market Allocation Model). TIMES is the successor that merges MARKAL with EFOM-ENV (Energy Flow Optimisation Model - Environment). Further examples on the slide are MESSAGE (Model for Energy Supply System Alternatives and their General Environmental Impact) and the commercial tools Artelys and PLEXOS. The synonyms for this model family are 'energy economic bottom-up models', stressing the technology focus, and 'energy system models', stressing the system aspect."
+ },
+ {
+  "id": "b07-046",
+  "slide": 418,
+  "type": "mc",
+  "prompt": "The slide lists synonyms for optimising energy and material flow models. Which pair is correct?",
+  "options": [
+   "'Energy balance models' highlights the technology focus, 'input-output models' highlights the system aspect",
+   "'Energy economic bottom-up models' highlights the technology focus, 'energy system models' highlights the system aspect",
+   "'Simulation models' highlights the optimisation, 'econometric models' highlights the technology",
+   "'Top-down models' highlights the technology focus, 'bottom-up models' highlights the macroeconomic aspect"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The lecture gives exactly these two synonyms: energy economic bottom-up models, because the system is built up from individual technologies with their technical and economic parameters, and energy system models, because the whole system is optimised at once. The family is applied not only in the electricity and gas industry but also in process industry, iron and steel, pulp and paper, and in policy analysis; examples are EFOM-ENV, MARKAL, MESSAGE, TIMES, Artelys and PLEXOS."
+ },
+ {
+  "id": "b07-047",
+  "slide": 420,
+  "type": "open",
+  "prompt": "Which exogenous data does a capacity expansion model need, and why does the lecture call the provision of these data the major effort of modelling?",
+  "solution": "The exogenous data requirements are:\n- the power plant park structure and the historical generation mix (generation, demand etc.), used for the calibration of the model on historical data\n- energy market developments, above all the price development on the fuel markets\n- technical, economic and ecological data of every potentially relevant generation technology for the complete horizon, e.g. 2020 to 2050 - which includes efficiency improvements (for instance for CCGT) and cost degressions, in particular for renewable electricity technologies such as PV and wind\n- electricity demand development assumptions\n- the market diffusion of new technologies (heat pumps, electric mobility) and its impact on electricity demand\n\nThe major effort of modelling is the provision and maintenance of consistent data. Consistency is the key word: the data have to fit each other across technologies, regions and decades. A fuel price path, a CO2 price path and an economic growth path that were taken from three different sources will contradict each other; a cost degression assumed for PV must be compatible with the deployment volume the model itself produces. Because the model results are only as good as this input, an optimisation model is in practice mostly a data project - and this is also the reason why growth curves and experience curves are needed: they are the instruments that generate the technology data for the future in a consistent way.",
+  "keywords": [
+   "calibration on historical data",
+   "cost degressions",
+   "market diffusion",
+   "consistent data",
+   "complete horizon",
+   "experience curves"
+  ]
+ },
+ {
+  "id": "b07-048",
+  "slide": 420,
+  "type": "cloze",
+  "prompt": "Among the exogenous assumptions of a capacity expansion model the lecture explicitly lists cost ___, in particular for renewable electricity technologies such as PV and wind.",
+  "accept": [
+   "degressions",
+   "degression",
+   "reductions",
+   "Degression",
+   "degressionen"
+  ],
+  "solution": "Cost degressions. These are the assumed future reductions of the specific investment of a technology, and they are precisely what experience (learning) curves are used to quantify. Together with the assumed efficiency improvements of conventional plants such as CCGT they determine which technology the model chooses in later periods - so a large part of the result is fixed by these input assumptions before the optimisation even starts."
+ },
+ {
+  "id": "b07-049",
+  "slide": 422,
+  "type": "open",
+  "graphic": true,
+  "prompt": "How is the supply side represented in the model, and which parameter groups does the table on the slide distinguish?",
+  "solution": "The European power plant park is aggregated into technology classes - roughly 3 to 4 classes for each energy carrier - categorised according to size, efficiency, investment and so on. Individual units are not modelled; the class is the modelling object. This keeps the linear program solvable while retaining the technological differentiation that the bottom-up approach needs.\n\nThe table distinguishes three data groups in the columns - technical data, economic data (split into parameters and conditions/restrictions) and ecological data - and two object levels in the rows:\n\nInstallation level: installed capacity, plant availability and technical lifetime as technical data; investment, fixed expenses and economic lifetime as economic parameters; limitations to free de-/commissioning and exogenous expansion as restrictions.\n\nProcess level: inputs 1 to 3 and outputs 1 to 3 with their respective share of total input and output, plus the efficiency, as technical data; variable costs, auxiliary fuel costs and ramping costs as economic parameters; limitation of the operating mode to base load, exogenously given operating modes and full load hours as restrictions; emission factors (specific CO2 emissions) and green certificates for renewable electricity generation as ecological data.\n\nThe input/output structure with shares is what makes it an energy and material flow model: a class can consume several fuels and produce several products (electricity and heat, for instance) in fixed proportions.",
+  "keywords": [
+   "technology classes",
+   "3-4 technology classes",
+   "installed capacity",
+   "efficiency",
+   "emission factors",
+   "full load hours"
+  ]
+ },
+ {
+  "id": "b07-050",
+  "slide": 423,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The table of expansion options gives efficiencies for 2015, 2030 and 2050. What is striking about the way they develop, and how does this connect to the growth curve concept?",
+  "solution": "The efficiencies rise between 2015 and 2030 and then stop: CCGT goes from 59.1 % to 62.1 % and stays at 62.1 % in 2050; hard coal (pulverised firing) from 47.2 % to 50.9 % and stays there; lignite from 43.9 % to 49.1 % and stays there; IGCC without CCS reaches 54.0 % in 2030 and remains at 54.0 %. Only the gas turbine still creeps up from 46.0 % to 47.0 %.\n\nThis is the assumption of a saturating technical development - exactly the upper plateau of the S-shaped technology growth curve. The technologies are mature: they are approaching the limit of performance set by thermodynamics and materials, so the assumption of further improvement after 2030 would not be defensible. In growth-curve language, conventional thermal plants are basic technologies in the maturity phase, not pacemaker technologies.\n\nThe other columns of the table give the specific investment (CCGT 700 EUR/kW, gas turbine 400, hard coal 1,300, IGCC 1,500, lignite 1,500), fixed operating costs (14, 8, 26, 30, 30 EUR/kWa), variable operating costs (0.07 to 0.2 cent/kWh), an amortisation period of 25 years throughout and technical lifetimes of 25 to 40 years. The source is IIP data based on BMU (2010) - which explains why these investment figures are far below the 2024 CAPEX figures on the following slide (CCGT 900 to 1,300 EUR/kW, hard coal 1,700 to 2,300): conventional plant costs have risen rather than fallen since then, which is the opposite of what a naive learning curve would predict.",
+  "keywords": [
+   "59.1 %",
+   "62.1 %",
+   "saturating",
+   "limit of performance",
+   "maturity",
+   "BMU (2010)"
+  ]
+ },
+ {
+  "id": "b07-051",
+  "slide": 424,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The CAPEX table for 2024 gives a low and a high investment figure for every technology. Compare the bandwidths of nuclear, PV utility-scale and CCGT and explain what such a spread means for a capacity expansion model.",
+  "solution": "Selected figures from the table (specific CAPEX in EUR/kW, low/high, Fraunhofer ISE and Lazard 2024):\n- nuclear 6,000 to 16,000 - a factor of 2.7 between the two ends and by far the most expensive option\n- fuel cell 5,000 to 8,000; H2 CCGT 1,100 to 2,400; H2 gas turbine 550 to 1,200\n- wind onshore 1,300 to 1,900; wind offshore 2,200 to 3,400; biogas 2,894 to 5,788\n- lignite 1,850 to 2,550; hard coal 1,700 to 2,300; CCGT 900 to 1,300; gas turbine 450 to 700\n- PV utility-scale 700 to 900 EUR/kWp, PV rooftop small 1,000 to 2,000 EUR/kWp\nBattery figures are given per kWh, not per kW: 400 to 1,000 EUR/kWh depending on the segment.\n\nThe bandwidths differ strongly. PV utility-scale is narrow (about 30 % spread) because the technology is standardised and built in enormous volumes; nuclear is extremely wide because every project is a one-off with site-specific licensing, financing and construction-time risk. Conventional gas plants sit in between.\n\nFor a capacity expansion model this matters twice over. First, the choice within the band decides the result: with 900 EUR/kW the CCGT is a completely different candidate from one at 1,300 EUR/kW - as the Exercise 3 sensitivity shows, a moderate change already reshapes the whole park. Second, a single deterministic value hides the risk: a technology with a wide band should be evaluated in several scenarios rather than with one 'best guess', which is exactly the argument that leads from optimisation to scenario planning.\n\nNote also the unit trap in the table: PV is given in EUR/kWp and battery systems in EUR/kWh, so the figures cannot be compared with the EUR/kW of thermal plants without stating the assumed full load hours or the storage duration.",
+  "keywords": [
+   "6,000 to 16,000",
+   "700 to 900",
+   "900 to 1,300",
+   "bandwidth",
+   "EUR/kWh",
+   "scenario"
+  ]
+ },
+ {
+  "id": "b07-052",
+  "slide": 424,
+  "type": "cloze",
+  "prompt": "According to the 2024 CAPEX table the specific investment of a nuclear plant ranges from 6,000 up to ___ EUR/kW - the widest bandwidth of all technologies listed.",
+  "accept": [
+   "16000",
+   "16,000",
+   "16.000",
+   "16000 EUR/kW",
+   "16,000 EUR/kW"
+  ],
+  "solution": "16,000 EUR/kW. The band of 6,000 to 16,000 EUR/kW reflects the fact that nuclear projects are one-off constructions with site-specific licensing, financing and construction-time risk; recent European projects have overrun their budgets by factors. By comparison, PV utility-scale is quoted at only 700 to 900 EUR/kWp because it is a mass-produced, standardised technology - the practical result of decades of learning effects."
+ },
+ {
+  "id": "b07-053",
+  "slide": 425,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide calls batteries a '(potential?) game changer' and shows the German battery storage build-out from January 2020 to October 2025. Describe what the four diagrams show and why it is relevant for capacity expansion planning.",
+  "solution": "The four diagrams (ISEA / RWTH Aachen) show:\n1. Installed battery energy capacity in GWh, split into large-scale, industrial and home storage: growth from roughly 1 GWh at the beginning of 2020 to about 23 GWh in October 2025, i.e. more than a twentyfold increase in under six years. Home storage is by far the largest share; large-scale storage only becomes clearly visible from 2023 onwards.\n2. The monthly additions in MWh: from a few tens of MWh per month in 2020 to peaks above 600 MWh per month in 2024/25, with large-scale projects appearing as individual spikes.\n3. Installed battery power in GW, again split by segment: from below 1 GW to roughly 15 GW.\n4. Energy capacity by technology: virtually the entire stock is lithium-ion; lead-acid, NiCd/NiMH, high-temperature and redox-flow batteries are marginal.\n\nWhy this matters for expansion planning: peak-load pricing as taught in this chapter assumes that the peak band has to be covered by a peaking generator with low fixed and high variable costs. A battery is a different kind of candidate - it shifts energy in time instead of producing it, so it flattens the residual load duration curve rather than filling its top band. If storage becomes cheap enough, the number of hours in which an OCGT is needed collapses and the whole capacity mix computed in Exercise 3 changes. The energy-to-power ratio (23 GWh over about 15 GW, i.e. roughly 1.5 hours) also shows the current limit: this fleet can cover short peaks, not a Dunkelflaute lasting days.\n\nThe question mark in the title is deliberate: the growth is a fact, the system-level consequence is an assumption - and in a model it enters as an exogenous cost degression, i.e. through an experience curve.",
+  "keywords": [
+   "23 GWh",
+   "home storage",
+   "lithium-ion",
+   "15 GW",
+   "residual load",
+   "cost degression"
+  ]
+ },
+ {
+  "id": "b07-054",
+  "slide": 427,
+  "type": "open",
+  "prompt": "What are growth curves used for in energy systems analysis, and what is the typical shape of the growth rate over time?",
+  "solution": "Growth curves support the quantification of technical progress and change. Their goal is to characterise and analyse the growth rates and the limits of technologies - how and when a technology reaches its limit.\n\nThe typical pattern: many growth phenomena show growth rates that initially increase over time and then change into decreasing growth rates at a later stage. The cumulated quantity therefore follows an S-shaped curve, while the growth rate itself follows a hump: slow at first because the technology is immature and the market small, fastest in the middle, and falling towards zero as saturation is approached. The lecture illustrates it with a non-technical example, the growth of the body weight of ducks.\n\nApplication in energy systems analysis: the examination of the future market penetration of new technologies - the slide names electric mobility - which may have a major impact on the overall development of electricity demand. In other words, growth curves generate the demand-side input assumptions of the expansion model, in the same way that experience curves generate the cost assumptions on the supply side.",
+  "keywords": [
+   "technical progress",
+   "limits of technologies",
+   "increasing",
+   "decreasing growth rates",
+   "market penetration",
+   "electricity demand"
+  ]
+ },
+ {
+  "id": "b07-055",
+  "slide": 428,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the basic model of the technology growth curve and name the four phases and the three technology roles marked in the figure.",
+  "solution": "The figure plots the technical-functional performance of a technology against time as an S-shaped curve that approaches a horizontal asymptote, the limit of performance of the technology.\n\nFour phases along the time axis:\n1. Development - the curve is almost flat, performance improves slowly despite considerable effort.\n2. Growth - the steep part, where each unit of effort produces a large gain in performance.\n3. Maturity - the curve bends over as the physical or technical limit is approached.\n4. Decline - performance stagnates just below the limit; further investment produces almost nothing.\n\nThree roles are attached to the phases: in the development phase the technology is a pacemaker technology (high potential, still unproven, strategically interesting), in the growth phase a key technology (it decides the competitive position), and in the maturity phase a basic technology (everybody has it, it no longer differentiates anyone).\n\nTwo further empirical statements accompany the figure: the diffusion of new technologies often lasts many years, and the speed of diffusion differs between industrial sectors, regions or countries, and technologies.\n\nThe practical use in modelling: knowing which phase a technology is in tells you whether to assume further improvement (development, growth) or saturation (maturity, decline) - which is exactly the assumption behind the constant post-2030 efficiencies of conventional thermal plants in the expansion data.",
+  "keywords": [
+   "S-shaped",
+   "limit of performance",
+   "Development",
+   "Growth",
+   "Maturity",
+   "Decline",
+   "pacemaker",
+   "key technology",
+   "basic technology"
+  ]
+ },
+ {
+  "id": "b07-056",
+  "slide": 428,
+  "type": "cloze",
+  "prompt": "In the technology growth curve a technology in the early development phase is called a ___ technology; in the growth phase it becomes a key technology and in the maturity phase a basic technology.",
+  "accept": [
+   "pacemaker",
+   "pace-maker",
+   "pacemaker technology",
+   "Schrittmacher",
+   "Schrittmachertechnologie"
+  ],
+  "solution": "A pacemaker technology. The sequence pacemaker - key - basic technology maps onto the phases development - growth - maturity of the S-curve. The strategic reading: a pacemaker technology carries high risk but also the largest remaining performance potential, a key technology decides today's competitive position, and a basic technology is available to everyone and therefore no longer a differentiator. In the decline phase the technology stagnates at its limit of performance."
+ },
+ {
+  "id": "b07-057",
+  "slide": 429,
+  "type": "open",
+  "prompt": "Summarise the empirical findings on the market penetration of energy technologies (after Lund 2006) that the lecture quotes.",
+  "solution": "Four findings:\n1. The 'typical' growth rate varies between 4 % and 40 % per year - an order of magnitude of spread, so a single generic diffusion rate cannot be assumed.\n2. The time needed to take over 50 % of the estimated market potential, starting from 1 %, varies between 10 and 70 years. Energy technologies diffuse slowly, mainly because the capital stock is long-lived.\n3. A saturation close to 100 % is rarely achieved - niches, incumbent technologies and heterogeneous applications remain, so the S-curve usually flattens well below the theoretical potential.\n4. The governmental influence is fairly high and the competitive situation is important for the development - diffusion is not purely a technical or cost process; regulation, subsidies and the behaviour of competing technologies shape it.\n\nConsequence for modelling: the diffusion path of a new technology such as electric mobility or heat pumps cannot be derived from the technology alone. It has to be set as a scenario assumption, and the resulting bandwidth of electricity demand is one of the main uncertainties of the whole expansion calculation.",
+  "keywords": [
+   "4 % to 40 %",
+   "50 %",
+   "10 and 70 years",
+   "saturation",
+   "governmental influence",
+   "competitive situation"
+  ]
+ },
+ {
+  "id": "b07-058",
+  "slide": 429,
+  "type": "cloze",
+  "prompt": "Empirical analysis of energy technologies shows that the time needed to take over 50 % of the estimated market potential, starting at 1 %, varies between 10 and ___ years.",
+  "accept": [
+   "70",
+   "70 years",
+   "seventy"
+  ],
+  "solution": "70 years. Together with the observed growth rates of 4 % to 40 % per year and the finding that a saturation close to 100 % is rarely achieved, this is the reason why energy system transformations are modelled over decades: the capital stock is long-lived and diffusion is slow, so even a technology that is economically superior today needs a generation to dominate the stock."
+ },
+ {
+  "id": "b07-059",
+  "slide": 431,
+  "type": "open",
+  "prompt": "Explain the concept of the experience curve and distinguish it from the learning curve in the strict sense.",
+  "solution": "The experience curve is an economic concept that was first discovered in aircraft construction in the early 20th century. Its idea is that the real unit costs decline as the cumulative production volume increases - 'real' because inflation has to be removed, and 'cumulative' because it is the total volume ever produced, not the annual output, that carries the experience.\n\nThe distinction: in its original definition the term learning curve refers more narrowly only to the accumulated working time - the labour input per unit falls because workers repeat the same operations. The term experience curve refers more broadly to accumulated production volumes and therefore also captures technical progress, rationalisation, standardisation, the degression of fixed costs and economies of scale.\n\nHowever, the terms are often used synonymously, and the lecture explicitly states that they will be understood as synonyms in this course. In exam terms: you should be able to name the difference in the original definitions and then say that they are used interchangeably here.",
+  "keywords": [
+   "aircraft construction",
+   "real unit costs",
+   "cumulative production volume",
+   "accumulated working time",
+   "experience curve",
+   "synonyms"
+  ]
+ },
+ {
+  "id": "b07-060",
+  "slide": 431,
+  "type": "cloze",
+  "prompt": "The experience curve effect was first discovered in the early 20th century in ___ construction.",
+  "accept": [
+   "aircraft",
+   "airplane",
+   "aeroplane",
+   "plane",
+   "aircraft construction",
+   "Flugzeug",
+   "Flugzeugbau"
+  ],
+  "solution": "Aircraft construction. Observations there showed that the labour time - and later the real unit cost - needed for each additional aircraft fell by a roughly constant percentage whenever the cumulative number produced doubled. From this observation the Boston Consulting Group generalised the experience curve as a strategic instrument; today it is one of the standard tools for deriving future technology costs in energy scenarios."
+ },
+ {
+  "id": "b07-061",
+  "slide": 432,
+  "type": "open",
+  "graphic": true,
+  "prompt": "State the central statement of the experience curve and quantify it. What is plotted against what in the diagram?",
+  "solution": "The experience curve describes the functional relationship between the cumulative production volume and the (real) unit cost. The diagram plots the unit costs K/x on the vertical axis against the accumulated production volume x - the 'experience' - on the horizontal axis.\n\nCentral statement: if the cumulative production volume increases, the unit costs decrease. The quantification the lecture gives: doubling the cumulative production volume will lead to a unit cost decrease of 20 to 30 %. The figure shows two curves for these two rates; the 30 % curve falls visibly faster and lies below the 20 % curve.\n\nThe shape in the linear diagram is a decaying power function: steep at the beginning, then flattening out. This is not saturation in the sense of a physical limit - the relative reduction per doubling stays the same - it is simply the fact that each doubling requires ever more absolute additional volume. Going from 1 to 2 GW installed produces the same percentage cost reduction as going from 100 to 200 GW, but the second step takes a hundred times more deployment.\n\nThat is precisely why the curve is redrawn on a double logarithmic scale on a later slide, where the same relationship becomes a straight line.",
+  "keywords": [
+   "cumulative production volume",
+   "unit cost",
+   "doubling",
+   "20 to 30 %",
+   "power function",
+   "logarithmic"
+  ]
+ },
+ {
+  "id": "b07-062",
+  "slide": 432,
+  "type": "mc",
+  "prompt": "According to the experience curve concept as presented in the lecture, what happens when the cumulative production volume of a technology doubles?",
+  "options": [
+   "The real unit costs fall by 20 to 30 % per year",
+   "The real unit costs fall by typically 20 to 30 %",
+   "The annual production costs fall by typically 20 to 30 %",
+   "The real unit costs fall to typically 20 to 30 % of the previous value"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The unit costs fall BY 20 to 30 %, i.e. TO 70 to 80 % of the previous value - that residual share is the progress ratio. Option B confuses the reduction with the progress ratio. Option C refers to annual production rather than cumulative volume, which is the decisive quantity: experience is what has been accumulated, not what is produced this year. Option D turns the effect into a time trend, but the experience curve is driven by volume, not by the calendar - a technology that is not deployed does not become cheaper."
+ },
+ {
+  "id": "b07-063",
+  "slide": 433,
+  "type": "open",
+  "prompt": "Name and explain the reasons behind the experience curve effect.",
+  "solution": "The lecture groups them as follows:\n\n1. Learning effect in the narrow sense: workers become more efficient through the repetition of operations. Handling time per unit falls, error and scrap rates fall.\n2. Technical progress: better process technology, better materials, improved product design derived from field experience.\n3. Rationalisation: reorganisation of the production process, automation, elimination of unnecessary steps.\n4. Standardisation: fewer variants, standardised components and interfaces, which also enables mass production and a supplier industry.\n5. Degression of fixed costs and economies of scale: improved workload (utilisation of existing plant), purchasing advantages through larger order volumes, accumulated know-how.\n\nNote that only the first of these is 'learning' in the literal sense - which is exactly why the broader term experience curve is preferred. It also explains why the effect is not automatic: it requires that the additional volume is actually produced and that the organisation exploits it, which is why the precondition on the following slide is that the market can absorb the additional volume or that market share is won from the competition.",
+  "keywords": [
+   "Learning effect",
+   "repetition",
+   "Technical progress",
+   "Rationalisation",
+   "Standardisation",
+   "economies of scale"
+  ]
+ },
+ {
+  "id": "b07-064",
+  "slide": 434,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Write down the formal description of the experience curve given on the slide, explain every symbol, and calculate by how much the unit cost falls when the cumulative volume grows from 1 to 1,024 units at a progress ratio of 80 %.",
+  "solution": "Formal description: c_i = c_1 * lambda^k, with i = 2^k.\n\nSymbols: c_i is the production cost of the i-th unit, c_1 the production cost of the first unit, lambda the reduction factor with 0 < lambda < 1 (the progress ratio, i.e. the share of the cost that remains after one doubling), and k the number of doublings of the cumulative production volume - defined implicitly by i = 2^k, so k = log2(i) = ln(i)/ln(2).\n\nCalculation: going from 1 to 1,024 units means i = 1,024 = 2^10, so k = 10 doublings. With lambda = 0.80:\nc_1024 = c_1 * 0.80^10 = c_1 * 0.1074.\nThe unit cost falls to about 10.7 % of the cost of the first unit, i.e. by about 89 %.\n\nCross-check with a rounder case: after 5 doublings (i = 32) the factor is 0.8^5 = 0.328, so about a third of the initial cost. Each doubling always removes the same percentage - 20 % here - which is why the relationship becomes a straight line in a double logarithmic plot.\n\nOne remark on the notation: the slide calls lambda the 'reduction exponent', although in the formula lambda is the base and k is the exponent. The quantity that is usually called the progress ratio is lambda; the learning rate is 1 - lambda, here 20 %.",
+  "keywords": [
+   "c_1",
+   "lambda",
+   "number of doublings",
+   "log2",
+   "0.1074",
+   "progress ratio"
+  ]
+ },
+ {
+  "id": "b07-065",
+  "slide": 434,
+  "type": "cloze",
+  "prompt": "In the experience curve formula c_i = c_1 * lambda^k the exponent k is linked to the cumulative volume by i = 2^k, so k is simply the number of ___ of the cumulative production volume.",
+  "accept": [
+   "doublings",
+   "doubling",
+   "doublings of the volume",
+   "Verdopplungen",
+   "Verdopplung"
+  ],
+  "solution": "The number of doublings, k = log2(i). This is the whole trick of the formulation: the cost is not a function of time or of the annual output, but of how often the accumulated volume has doubled. Ten doublings correspond to a factor of 1,024 in volume; at a progress ratio of 0.8 they reduce the unit cost to 0.8^10 = 10.7 % of the initial value."
+ },
+ {
+  "id": "b07-066",
+  "slide": 435,
+  "type": "open",
+  "prompt": "What are the limitations of the experience curve approach according to the lecture, and where does its strength lie?",
+  "solution": "Limitations:\n- The approach still lacks a theoretical basis. It cannot explain the specific design of the reduction curves or their slope (Wene 2000); there is no theory that predicts why a technology has a progress ratio of 0.82 rather than 0.75.\n- Experience curves are macroscopic models based on the ex-post analysis of empirical data. They describe an aggregate regularity over long periods and large volumes.\n- Consequently they cannot form a reliable basis for short-term decisions. Using an experience curve to justify a price for next year's tender is a misuse of the instrument.\n\nStrength: the multitude of empirical observations. The relationship has been found again and again across very different industries and technologies. Typical values of the cost reduction rates lie between 70 and 85 %, i.e. the costs decrease to 70 to 85 % of the initial costs per doubling, although they vary considerably between industries.\n\nA terminological warning for the exam: the slide calls 70 to 85 % a 'cost reduction rate' although it is the share of the cost that remains - the progress ratio. The corresponding learning rate, i.e. the actual reduction, is 15 to 30 %. Note also that the earlier slide quotes 20 to 30 % reduction, i.e. a progress ratio of 70 to 80 %, so the upper end of the two statements does not quite match; the safe answer in the exam is 'roughly 15 to 30 % cost reduction per doubling of the cumulative volume'.",
+  "keywords": [
+   "theoretical basis",
+   "macroscopic models",
+   "ex-post",
+   "short-term decisions",
+   "70 and 85 %",
+   "progress ratio"
+  ]
+ },
+ {
+  "id": "b07-067",
+  "slide": 435,
+  "type": "cloze",
+  "prompt": "The lecture states that the typical values lie between 70 and ___ %, i.e. after one doubling of the cumulative volume the costs decrease to that share of the initial costs.",
+  "accept": [
+   "85",
+   "85 %",
+   "85 percent",
+   "85%"
+  ],
+  "solution": "85 %. The number quoted is the progress ratio - the share of the cost that remains after a doubling - so it corresponds to a learning rate (an actual cost reduction) of 15 to 30 %. Be careful with the wording on the slide, which calls this a 'cost reduction rate'; and note that the earlier slide gives the reduction as 20 to 30 %, i.e. a progress ratio of 70 to 80 %, so the two statements overlap but do not coincide exactly."
+ },
+ {
+  "id": "b07-068",
+  "slide": 436,
+  "type": "open",
+  "prompt": "Experience curves are used to support long-term scenarios. What are the main difficulties when they are applied ex ante, i.e. forward in time?",
+  "solution": "Experience curves can be an important tool to support the development of long-term scenarios and strategies (IEA 2000) - they are the standard way of generating the future cost assumptions that an energy system model needs. Applied forward in time, however, three difficulties arise:\n\n1. An accurate theoretical prediction of the course of the cost reduction curve is impossible for a new product. Since the approach has no theoretical basis, the progress ratio of a technology that has hardly been built cannot be derived; it can only be transferred by analogy from a comparable technology.\n2. Assumptions must be made for the starting point as well as for the level of cost reduction. Both are free parameters, and the result over several doublings depends heavily on them - a progress ratio of 0.80 instead of 0.85 changes the cost after ten doublings by roughly a factor of two.\n3. The volume itself is uncertain. The cost falls only if the cumulative volume actually grows, and the volume in turn depends on the cost - a feedback loop that a simple exogenous cost path cannot capture.\n\nMitigating circumstance the lecture adds: normally there are at least some indications for the expected cost reduction rates, from comparable technologies or from the early data points of the technology itself.\n\nPractical consequence: use a bandwidth rather than a single path, and treat the technology cost assumption as one of the key drivers of a scenario set rather than as a fact.",
+  "keywords": [
+   "long-term scenarios",
+   "accurate theoretical prediction",
+   "starting point",
+   "level of cost reduction",
+   "indications",
+   "bandwidth"
+  ]
+ },
+ {
+  "id": "b07-069",
+  "slide": 437,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the linear representation of the PV module experience curve for 1976-1992. Which values can you read off, and what is the progress ratio?",
+  "solution": "The diagram plots the PV module price in US dollars of 1992 per watt peak (US$/Wp) on the vertical axis against the cumulative sales in MW on the horizontal axis, both on linear scales.\n\nValues that can be read off: the 1976 data point lies at a cumulative volume of well under 1 MW and a price of about 48 US$/Wp. The price then falls extremely steeply - by 1 to 2 MW cumulative it is already down to roughly 25 US$/Wp - and the curve flattens out towards the right, reaching about 6 US$/Wp at the 1992 point, where the cumulative sales are roughly 340 MW.\n\nThe progress ratio noted in the figure is 82 %, i.e. every doubling of the cumulative sales reduced the module price to 82 % of its previous value - a learning rate of 18 %.\n\nCheck of the two end points: from 0.3 MW to 340 MW is a factor of about 1,130, i.e. log2(1,130) = about 10.1 doublings. 0.82^10.1 = 0.13, and 48 x 0.13 = about 6.3 US$/Wp - which is exactly the 1992 value. The relationship is therefore consistent over four orders of magnitude of volume.\n\nThe drawback of this linear representation: almost the whole information is compressed into the left-hand edge of the diagram, and the flat right-hand part suggests - wrongly - that the learning has come to an end. That is why the same data are shown again in a double logarithmic plot.",
+  "keywords": [
+   "US$/Wp",
+   "cumulative sales",
+   "48",
+   "6",
+   "progress ratio",
+   "82 %",
+   "18 %"
+  ]
+ },
+ {
+  "id": "b07-070",
+  "slide": 438,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The same PV data are plotted logarithmically. Why does the experience curve become a straight line in a double logarithmic diagram, and how do you obtain the progress ratio from the slope?",
+  "solution": "The experience curve is a power function: c(x) = c_0 * (x/x_0)^b, where x is the cumulative volume. Taking logarithms of both sides gives log c = log c_0 + b * log(x/x_0) - a linear equation in the logarithms. Plotting log c against log x therefore turns the curve into a straight line with slope b, which is why the double logarithmic representation is the standard way of displaying and fitting experience curves.\n\nThe link to the progress ratio lambda: one doubling of the volume multiplies the cost by lambda, so lambda = 2^b, i.e. b = log2(lambda) = ln(lambda)/ln(2). For the PV curve with a progress ratio of 82 %: b = ln(0.82)/ln(2) = -0.198/0.693 = -0.286. A decade of volume (factor 10) therefore reduces the price by a factor 10^-0.286 = 0.52, i.e. roughly by half.\n\nWhat the figure shows: the data points from 1976 at about 0.3 MW cumulative and 48 US$/Wp down to 1992 at about 340 MW and 6 US$/Wp lie almost perfectly on one straight line over three orders of magnitude, with the small staircase symbols marking the successive doublings. The constant slope is the real message: the cost reduction per doubling did not slow down, the doublings simply became harder to achieve.\n\nThis representation is also the diagnostic tool: a break in the straight line signals that something structural has changed (a new production technology, a new material, a market distortion), and a fitted straight line is what actually produces the progress ratio used as a modelling assumption.",
+  "keywords": [
+   "power function",
+   "logarithms",
+   "straight line",
+   "slope",
+   "2^b",
+   "-0.286",
+   "progress ratio"
+  ]
+ },
+ {
+  "id": "b07-071",
+  "slide": 438,
+  "type": "cloze",
+  "prompt": "The PV experience curve has a progress ratio of 82 %; the corresponding learning rate, i.e. the cost reduction achieved per doubling of the cumulative volume, is ___ %.",
+  "accept": [
+   "18",
+   "18 %",
+   "18%",
+   "achtzehn"
+  ],
+  "solution": "18 %. Learning rate = 1 - progress ratio = 1 - 0.82 = 0.18. Every doubling of the cumulative PV module sales reduced the real module price by 18 %. Over the roughly ten doublings between 1976 (about 0.3 MW cumulative, 48 US$/Wp) and 1992 (about 340 MW, 6 US$/Wp) this compounds to 0.82^10 = 0.14, i.e. a reduction of about 86 %."
+ },
+ {
+  "id": "b07-072",
+  "slide": 438,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "A technology's cost data form a straight line in a double logarithmic diagram of unit cost against cumulative production. What does the straight line tell you?",
+  "options": [
+   "The technology has reached the limit of its performance and the cost is saturating",
+   "The unit cost falls by a constant percentage for every doubling of the cumulative volume",
+   "The unit cost falls by a constant percentage per year",
+   "The unit cost falls by a constant absolute amount for every additional unit produced"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "A straight line in a log-log plot means a power law c = c_0 * x^b, which is exactly the statement that a constant relative cost reduction accompanies a constant relative increase in volume - hence a constant percentage per doubling, the progress ratio. Option A would be a straight line in a linear-linear plot; option C would be a straight line in a semi-logarithmic plot against time, and it also mistakes the driver, which is volume, not the calendar; option D would show up as a bend and a horizontal asymptote, which is precisely what the straight line does not show."
+ },
+ {
+  "id": "b07-073",
+  "slide": 439,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The IRENA figure shows the levelised cost of electricity for CSP, solar PV, onshore and offshore wind from 2010 to 2022. Describe the development and explain how the figure should be read.",
+  "solution": "The figure plots the LCOE in 2016 USD/kWh; each circle is an individual project (blue, LCOE database) or an auction result with a single clearing price (orange, auction database), and the thick lines are the global weighted average by year. The shaded horizontal band is the fossil fuel cost range, roughly 0.05 to 0.17 USD/kWh.\n\nSolar PV shows the most dramatic change: the global weighted average LCOE falls from roughly 0.38 USD/kWh in 2010 to below 0.05 USD/kWh around 2020, a reduction of close to 90 %, and the whole cloud of projects moves down with it. Onshore wind falls from about 0.09 to about 0.03 USD/kWh - a smaller relative reduction, because the technology was already mature in 2010. Offshore wind moves from about 0.16 to well below 0.10 USD/kWh, with the auction results (orange) leading the LCOE values by several years. CSP falls from about 0.34 to about 0.08 USD/kWh but remains the most expensive of the four and has by far the fewest projects.\n\nHow to read it: by 2020 the averages of PV and onshore wind lie below the lower edge of the fossil fuel band, i.e. the cheapest renewable generation has become cheaper than new fossil generation on an LCOE basis. Note also that the auction values lie below the LCOE values and start earlier - auctions are forward-looking prices for projects to be built, so they anticipate the cost reduction.\n\nThe figure is the empirical counterpart of the experience curve: what is drawn here against time is the same effect that the experience curve draws against cumulative volume. A caveat the following slide adds: the LCOE ignores when the electricity is produced, so it does not by itself prove competitiveness.",
+  "keywords": [
+   "LCOE",
+   "2016 USD/kWh",
+   "weighted average",
+   "fossil fuel cost range",
+   "auction",
+   "0.05"
+  ]
+ },
+ {
+  "id": "b07-074",
+  "slide": 440,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide is titled 'But ... LCOE might not give you the full picture'. Using the German generation and price chart, explain why a falling LCOE does not by itself decide whether a technology is competitive.",
+  "solution": "The chart shows one week of German data (9 to 15 December): the stacked realised generation by technology (PV yellow, onshore and offshore wind blue, lignite, hard coal, gas, hydro, biomass and pumped storage below), the realised consumption / grid load as the red line, and the wholesale prices for Germany/Luxembourg as the dark line against the left axis in EUR/MWh.\n\nWhat it demonstrates: the price is not constant. In the days with strong wind generation the residual load - load minus renewable feed-in - collapses and with it the wholesale price; in the low-wind period around 12 December the residual load has to be covered by expensive thermal plants and the price spikes to several hundred EUR/MWh.\n\nThe consequence for the LCOE: the LCOE is an average cost per MWh over the lifetime and says nothing about when that MWh is produced. But a wind or PV plant produces precisely when all the other plants of the same technology produce, i.e. in hours when the price is low. Its achievable revenue per MWh - the capture price - is therefore systematically below the time-average price, and this gap widens as the share of the technology grows (the cannibalisation effect).\n\nSo a comparison of LCOE figures compares costs but not values. A complete assessment has to add the market value of the generation profile, the cost of the flexibility needed to firm it (storage, backup capacity, grid), and the plant's contribution to secure capacity - the very reason why capacity expansion is computed with a system model that minimises total system expenses instead of simply picking the technology with the lowest LCOE.",
+  "keywords": [
+   "residual load",
+   "wholesale price",
+   "capture price",
+   "market value",
+   "flexibility",
+   "total system expenses"
+  ]
+ },
+ {
+  "id": "b07-075",
+  "slide": 441,
+  "type": "open",
+  "graphic": true,
+  "prompt": "How is the demand side represented in a long-term energy system model, and why is the full chronological load curve usually replaced by typical days? Quantify the reduction.",
+  "solution": "The model needs the development of the load curves - both the profile and the total demand - for every year of the horizon. A fully chronological consideration of the load, i.e. all 8,760 hours of every model year, can be computationally very expensive, especially in a multi-periodic problem that optimises many years at once.\n\nThe common approach is therefore the modelling by typical or representative days. The example on the slide: 8 typical days = 4 seasons x 2 day types. The year is split into spring (92 days), summer (91), autumn (90) and winter (92 days), and each season into working days (about 71 % of the days) and weekend days (about 29 %). Every typical day is then further divided into a few time slices rather than 24 hours - the working day into 0-5, 5-8, 8-11, 11-13, 13-18 and 18-24 h, the weekend day analogously.\n\nQuantitatively: instead of 8,760 hourly time steps per year the model works with 8 typical days x about 6 time slices = roughly 48 load segments, each weighted with the number of hours it represents. That is a reduction of the temporal resolution by more than a factor of 180.\n\nWhat is gained is tractability, what is lost is chronology: consecutive hours no longer follow one another, so storage cycles longer than a day, ramping constraints and the sequence of scarcity hours can only be represented approximately. This is exactly the trade-off that convolution also makes - it drops the chronology in favour of a duration-based representation.",
+  "keywords": [
+   "typical days",
+   "4 seasons",
+   "8,760",
+   "time slices",
+   "71 %",
+   "chronology"
+  ]
+ },
+ {
+  "id": "b07-076",
+  "slide": 441,
+  "type": "cloze",
+  "prompt": "A common way of representing the demand side in a long-term model is 8 typical days, obtained as 4 seasons times ___ day types.",
+  "accept": [
+   "2",
+   "two",
+   "2 (working day / weekend day)",
+   "working day and weekend day",
+   "working day / weekend day"
+  ],
+  "solution": "2 - a working day and a weekend day. In the example the working days account for about 71 % and the weekend days for about 29 % of each season, and the seasons comprise 92, 91, 90 and 92 days. Each typical day is additionally split into a handful of time slices, which reduces the year from 8,760 hourly steps to roughly 48 weighted load segments."
+ },
+ {
+  "id": "b07-077",
+  "slide": 443,
+  "type": "open",
+  "prompt": "Which target function does a perfect-foresight model use, and why does this approach become computationally expensive?",
+  "solution": "In a perfect-foresight model all input assumptions over the whole horizon of calculation are known at the start, and the development of the energy system - in particular the expansion decisions - takes this knowledge into account. The target function is typically the minimisation of the expenses over the complete horizon, formulated as a net present value (NPV) approach: all future expenditures are discounted back to a common reference date and the sum is minimised.\n\nWhy it is expensive: because all periods are contained in one single optimisation problem. A decision in 2030 is coupled to the fuel prices and CO2 prices of 2045, so the periods cannot be solved one after another. The number of variables and constraints is roughly the number per period multiplied by the number of periods, and the coupling constraints (the capacity stock carried from period to period) prevent any decomposition. Adding regions, technologies or a finer temporal resolution multiplies the problem again - which is why the temporal resolution is usually reduced to typical days.\n\nThe advantage the lecture names is that economically optimal development paths are calculated by the model; the second disadvantage besides the computing effort is that perfect-foresight knowledge is typically not realistic over a period of 30 years - no investor knows the whole path of prices and policies in advance.",
+  "keywords": [
+   "whole horizon",
+   "NPV approach",
+   "one single optimisation problem",
+   "coupled",
+   "optimal development paths",
+   "not realistic"
+  ]
+ },
+ {
+  "id": "b07-078",
+  "slide": 443,
+  "type": "cloze",
+  "prompt": "In a perfect-foresight model the target function is typically the minimisation of the expenses over the complete horizon, using an ___ approach so that expenditures of different years become comparable.",
+  "accept": [
+   "NPV",
+   "net present value",
+   "Net Present Value",
+   "Kapitalwert",
+   "discounting"
+  ],
+  "solution": "An NPV (net present value) approach. All expenditures over the whole calculation horizon are discounted to one reference date and summed, so that an investment made in 2030 and fuel costs incurred in 2045 can be traded off against each other in one objective function. This is precisely what a time-step model cannot do: it only sees the expenses of the individual time step."
+ },
+ {
+  "id": "b07-079",
+  "slide": 444,
+  "type": "open",
+  "prompt": "When do a perfect-foresight model and a time-step model produce similar results, and in which situations do they diverge? Give the example the lecture uses.",
+  "solution": "For 'smooth' developments of scenarios the two approaches typically achieve similar results concerning the development of the energy system. If demand, fuel prices, CO2 prices and technology costs move gradually and monotonically, then what a step-by-step optimiser decides with limited information happens to coincide with what a foresighted optimiser would have chosen - the near future is a good proxy for the far future.\n\nDifferences occur when scenarios include 'shocks'. The example the lecture gives is the sudden start of emission trading in a market where emission trading is not yet implemented. A perfect-foresight model sees the shock coming and prepares for it - it avoids investing in a CO2-intensive plant a few years before the carbon price appears, because the whole lifetime cost is already in its objective function. A time-step model does not see it: it builds the coal plant with the assumptions of the current step, and when the carbon price arrives the plant becomes a stranded asset that is either run uneconomically or written off.\n\nThe practical reading: the difference between the two model families is not primarily a question of accuracy but of the question being asked. Perfect foresight answers 'what would an ideal planner do?', the time-step approach answers 'what is likely to happen given how decisions are really made?'. In scenario work with policy discontinuities the divergence between the two is itself an informative result, because it measures the cost of the surprise.",
+  "keywords": [
+   "smooth",
+   "shocks",
+   "emission trading",
+   "stranded asset",
+   "limited information",
+   "similar results"
+  ]
+ },
+ {
+  "id": "b07-080",
+  "slide": 444,
+  "type": "mc",
+  "prompt": "Which statement correctly describes the time-step approach in energy systems modelling?",
+  "options": [
+   "It is only applicable if the scenario contains shocks such as the sudden start of emission trading",
+   "It minimises the discounted expenses over the whole horizon and therefore produces the optimal development path",
+   "Only the input assumptions of the individual time step are known to the expansion algorithm; economically optimal development paths cannot be calculated",
+   "It is computationally more expensive than perfect foresight because every step has to be solved separately"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "In the time-step approach the expansion algorithm knows only the assumptions of the individual step, and the target function is the expense minimisation over that step. The advantage is that it is computationally inexpensive and arguably more realistic, since real investment decisions are also taken under limited knowledge; the disadvantage is exactly that economically optimal development paths cannot be calculated. Option A describes perfect foresight; option C reverses the computational effort - solving many small problems is far cheaper than one large coupled one; option D reverses the statement about shocks, which are the case in which the two approaches differ most, not a precondition for using the method."
+ },
+ {
+  "id": "b07-081",
+  "slide": 451,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure distinguishes two decision problems and six sources of uncertainty in competitive electricity markets. Name them and state which uncertainty affects which decision problem.",
+  "solution": "Two decision problems (shaded in the figure):\n- operational planning / power plant utilisation - the short-term problem of dispatching the existing park;\n- strategic planning / investments in power plants - the long-term problem of building and retiring capacity.\n\nSix uncertainties (the white ellipses) and their arrows:\n- power plant outages: affect operational planning only - a forced outage matters for this week's dispatch, not for the decision whether to build a plant;\n- load uncertainties: affect both - the load determines both today's dispatch and tomorrow's capacity need;\n- price uncertainties: affect both - fuel, CO2 and electricity prices drive the dispatch order as well as the profitability of an investment;\n- strategic behaviour (of competitors): affects both - withholding capacity moves today's price, and a competitor's investment changes the future merit order;\n- technological development: affects strategic planning only - it changes which candidates exist, not how the current park is dispatched;\n- political and regulatory framework: affects strategic planning only - phase-outs, subsidies and market design work over years.\n\nThe message of the figure: the two problems differ not only in their time horizon but in the kind of uncertainty they face. Operational planning deals with uncertainties that are short-lived, repetitive and statistically describable - which is why they can be handled with probabilities, e.g. by the convolution method. Strategic planning deals with uncertainties that are one-off, structural and not statistically describable - and for exactly those one cannot compute a probability distribution, which is why the lecture turns to scenario planning.",
+  "keywords": [
+   "operational planning",
+   "strategic planning",
+   "power plant outages",
+   "load uncertainties",
+   "price uncertainties",
+   "political and regulatory framework",
+   "scenario planning"
+  ]
+ },
+ {
+  "id": "b07-082",
+  "slide": 451,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which of the listed uncertainties feeds, according to the figure, only into the operational planning / power plant utilisation problem and not into the investment decision?",
+  "options": [
+   "Technological development",
+   "Power plant outages",
+   "Price uncertainties",
+   "The political and regulatory framework"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "Power plant outages are the only uncertainty in the figure with an arrow leading exclusively to operational planning: a forced outage changes which unit runs this week, but it is a statistical property of the park and does not by itself alter the investment decision. Technological development and the political/regulatory framework point exclusively at strategic planning; load, price and strategic behaviour feed into both."
+ },
+ {
+  "id": "b07-083",
+  "slide": 452,
+  "type": "open",
+  "prompt": "What does the lecture mean by 'energy futures', and which three properties does it attribute to them?",
+  "solution": "'Energy futures' is the term for long-term scenarios of the energy system. Scenario-based energy systems analyses help to generate cause-and-effect statements about the future development of an energy system - the point is not to predict a number but to make transparent which consequence follows from which assumption.\n\nThree properties:\n1. Energy futures are, or ought to be, knowledge-based and systematic. They must rest on documented data and a traceable method, not on wishful thinking.\n2. Energy futures are uncertain and are often discussed and perceived controversially - there is no 'right and wrong'. Two well-made scenarios can contradict each other without either being wrong, because they rest on different but equally defensible assumptions.\n3. Energy futures are something present. They express present knowledge and present assessments, for instance about relevant technological developments. A scenario says more about what we believe today than about what will happen.\n\nThe warning attached: beware of 'manipulated', ideological sketches of the future and of self-fulfilling prophecies. Because there is no right and wrong, a scenario is an easy vehicle for interests - which is why the assumptions, not the results, are what has to be scrutinised.",
+  "keywords": [
+   "long-term scenarios",
+   "cause and effect",
+   "knowledge-based",
+   "no 'right and wrong'",
+   "something present",
+   "self-fulfilling"
+  ]
+ },
+ {
+  "id": "b07-084",
+  "slide": 452,
+  "type": "cloze",
+  "prompt": "In the lecture the term 'energy futures' is used as a synonym for ___.",
+  "accept": [
+   "long-term scenarios",
+   "long term scenarios",
+   "longterm scenarios",
+   "long-term energy scenarios",
+   "scenarios"
+  ],
+  "solution": "Long-term scenarios. Energy futures are knowledge-based and systematic, uncertain and controversially discussed (there is no right and wrong), and they are something present - they express today's knowledge and today's assessment of, for instance, technological developments, rather than a prediction of what will happen."
+ },
+ {
+  "id": "b07-085",
+  "slide": 453,
+  "type": "open",
+  "prompt": "Summarise in your own words the purpose of scenario planning approaches and the objectives of the different target groups of energy scenarios.",
+  "solution": "Purpose. Decision making in the energy sector has a very long time horizon - power plants, grids and storage facilities last for decades - so the relevant uncertainty cannot be removed by better data. Scenario planning is a technique for dealing with this omnipresent uncertainty: instead of one forecast it produces several internally consistent, plausible pictures of the future, so that a strategy can be tested against all of them. Its purpose is to make the key uncertainties explicit, to explore the range of possible developments, and to identify strategies that are robust rather than optimal in one single future.\n\nTarget groups. The governmental / political perspective pursues resource security, sustainability and security of supply; its evaluation focus is to find the macroeconomic optimum, i.e. the expense-minimal solution that satisfies all restrictions. The entrepreneurial perspective pursues profit maximisation and risk minimisation; its evaluation focus is to analyse and evaluate the chances and risks associated with investment decisions and to find profitable, robust investment strategies that secure long-term market share.\n\nWhy this matters for the scenario construction: the target group determines what a scenario set must be able to do. A public authority needs one consistent expense-minimal path; a company needs a set that allows the same yardstick to be applied to a coal plant, a pumped storage and a wind park, and that allows the isolated effect of single input variations to be evaluated. The same model can serve both, but not the same scenario set.",
+  "keywords": [
+   "long time horizon",
+   "omnipresent uncertainty",
+   "robust",
+   "macroeconomic optimum",
+   "profit maximisation",
+   "risk minimisation",
+   "chances and risks"
+  ]
+ },
+ {
+  "id": "b07-086",
+  "slide": 455,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows CO2 certificate prices for 2020, 2030 and 2050 taken from different published scenarios. Read off the spread and explain what such a picture means for an investment decision.",
+  "solution": "The chart plots the CO2 price in EUR of 2008 per tonne for a set of published studies (WEO Reference and WEO 450, E[R] Reference, ECF Reference and ECF 80 % RES, EU Trends 2007 and 2009, Eur PowCh) in three time slices.\n\nFor 2020 the values range from 17 EUR/t (EU Trends 2009 Reference) to 47 EUR/t (ECF 80 % RES), with most studies between 20 and 34 EUR/t. For 2030 the range widens dramatically: 19 EUR/t at the bottom, 93 EUR/t at the top, a factor of almost five. For 2050 only four studies remain, between 46 and 103 EUR/t.\n\nWhat it means. The spread is not measurement noise; it is the consequence of different assumptions about climate policy ambition, technology availability and demand. It grows with the time horizon, which is exactly the opposite of what a decision maker would like.\n\nFor an investment this is decisive, because the CO2 price is one of the two determinants of the merit order position of a thermal plant. At 20 EUR/t a hard coal plant is well ahead of a CCGT; at around 48 EUR/t - with the cost data of Exercise 1 - the two swap places, and above that gas runs ahead of coal. The entire scenario band therefore straddles the switching point: within the published range, the same coal plant is either a base-load asset or a stranded one.\n\nThe correct handling is not to pick the average. It is to evaluate the investment in several scenarios, to identify the switching point explicitly, and to prefer the option that performs acceptably across the band - which is the definition of a robust strategy in scenario planning.",
+  "keywords": [
+   "EUR",
+   "17",
+   "93",
+   "103",
+   "spread",
+   "merit order",
+   "robust"
+  ]
+ },
+ {
+  "id": "b07-087",
+  "slide": 456,
+  "type": "open",
+  "prompt": "Define a scenario and explain the sentence 'Scenario planning is NOT forecasting'.",
+  "solution": "A scenario describes a possible but by no means certain set of future conditions - for instance the development of prices on the world fuel markets, of electricity demand, of technology costs or of the regulatory framework. It is a consistent combination of assumptions, not a statement about what will happen.\n\nDecision making in the energy sector typically involves a long-term time horizon, which results in high uncertainty, and scenario planning is the technique for dealing with this omnipresent uncertainty confronting decision makers.\n\n'Scenario planning is NOT forecasting': a forecast claims to name the most probable future and is judged by whether it turns out to be right. Scenario planning is rooted in the assertion that all forecasts are wrong. It therefore does not attach probabilities to its futures and does not designate a most likely one; it deliberately spans a range so that a strategy can be tested against several futures at once.\n\nThe practical consequence: the quality criterion of a scenario is not accuracy but consistency, transparency and relevance - the assumptions must fit each other, must be documented, and must concern drivers that are both important and uncertain. The figure of the widening cone from today towards 2050 expresses the same idea: the further one looks, the wider the range of futures that must be considered, and narrowing that cone artificially to a single line is the error scenario planning is designed to avoid.",
+  "keywords": [
+   "possible but by no means certain",
+   "long-term time horizon",
+   "omnipresent uncertainty",
+   "all forecasts are wrong",
+   "probabilities",
+   "consistency"
+  ]
+ },
+ {
+  "id": "b07-088",
+  "slide": 456,
+  "type": "cloze",
+  "prompt": "Scenario planning is explicitly NOT ___; on the contrary, it is rooted in the assertion that all of these are wrong.",
+  "accept": [
+   "forecasting",
+   "a forecast",
+   "forecast",
+   "prediction",
+   "predicting",
+   "Prognose"
+  ],
+  "solution": "Forecasting. A forecast names the single most probable future and is judged on whether it comes true; scenario planning starts from the assertion that all forecasts are wrong and therefore spans a range of possible but by no means certain sets of future conditions, without assigning probabilities to them. Its quality criterion is consistency and relevance, not accuracy."
+ },
+ {
+  "id": "b07-089",
+  "slide": 457,
+  "type": "open",
+  "prompt": "What does scenario analysis do, according to the lecture? Name the four points.",
+  "solution": "Scenario analysis does:\n1. Acknowledge uncertainty and highlight the key, critical sources of uncertainty and ambiguity. Making the uncertainty explicit - and naming where exactly it sits - is the first product of the exercise, not a side effect.\n2. Develop a range of possible future scenarios for exploration, acknowledging that not all are equally likely and that the future may indeed have aspects from more than one scenario. The scenarios are corner points of a space, not mutually exclusive predictions; reality typically lands somewhere between them.\n3. Develop a range of strategies and future indicators of which strategies may be most critical. The output is not only pictures of the future but also candidate strategies and the early-warning indicators that tell you which world you are actually drifting into.\n4. Acknowledge that future uncertainties may create discontinuities. Trend extrapolation is explicitly abandoned - breaks, shocks and structural changes are legitimate scenario content.\n\nThe counterpart, on the following slide, is what scenario analysis does not do: hide uncertainty, develop a single most likely answer, develop a single strategy to commit to, or obtain unavailable data.",
+  "keywords": [
+   "acknowledge uncertainty",
+   "ambiguity",
+   "range of possible future scenarios",
+   "not all are equally likely",
+   "indicators",
+   "discontinuities"
+  ]
+ },
+ {
+  "id": "b07-090",
+  "slide": 458,
+  "type": "mc",
+  "prompt": "Which of the following is explicitly listed as something scenario analysis does NOT do?",
+  "options": [
+   "Develop a range of future indicators of which strategies may be most critical",
+   "Highlight the key, critical sources of uncertainty and ambiguity",
+   "Develop a single most likely answer and a single strategy to commit to",
+   "Acknowledge that future uncertainties may create discontinuities"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Developing a single most likely answer, and a single strategy to which a company can commit, is on the 'does not' list - together with hiding uncertainty or ambiguity and obtaining unavailable data or making decisions on available data that may not be relevant to the future planning process. The other three options are on the 'does' list. The distinction matters in practice: management usually wants exactly the single answer that the method refuses to deliver, and the value of the method lies in resisting that demand."
+ },
+ {
+  "id": "b07-091",
+  "slide": 459,
+  "type": "open",
+  "prompt": "Distinguish the top-down and the bottom-up approach to scenario construction and explain what the lecture recommends.",
+  "solution": "Top-down ('scenario = consistent story'): one starts from the picture of the future. Pictures of the future and the paths towards those 'target pictures' are defined and described; consistent storylines belonging to those pictures are written; and only then are consistent parameter settings derived that are in line with the storylines. The strength is coherence and communicability - the scenario can be told; the risk is that the numbers are bent to fit the narrative.\n\nBottom-up ('scenario = combination of parameter settings'): one starts from the parameters. The starting point is the parameter settings and drivers for the different technologies; settings of different parameters are then combined into a scenario, ensuring that no relevant chances or risks for a certain technology are missed. The strength is completeness of the parameter space; the risk is combinations that are individually plausible but jointly incoherent - a high CO2 price together with a high coal capacity, for instance.\n\nThe advice of the lecture is to combine the two: build the parameter combinations bottom-up, then assign storylines to those combinations and refine assumptions and descriptions iteratively. The result is called 'narrative scenarios' - quantitatively complete and at the same time tellable, which is what makes them usable both as model input and as a communication instrument.",
+  "keywords": [
+   "consistent story",
+   "storylines",
+   "parameter settings",
+   "combination",
+   "chances or risks",
+   "narrative scenarios"
+  ]
+ },
+ {
+  "id": "b07-092",
+  "slide": 459,
+  "type": "cloze",
+  "prompt": "If storylines are assigned to parameter combinations and the assumptions are refined iteratively, the lecture calls the result ___ scenarios.",
+  "accept": [
+   "narrative",
+   "narrative scenarios",
+   "storyline",
+   "story-line"
+  ],
+  "solution": "Narrative scenarios. They are the recommended combination of the bottom-up approach (scenario = combination of parameter settings, ensuring that no relevant chance or risk for a technology is missed) and the top-down approach (scenario = consistent story, with target pictures and storylines). The iteration between the two is what makes a scenario both quantitatively complete and communicable."
+ },
+ {
+  "id": "b07-093",
+  "slide": 460,
+  "type": "open",
+  "prompt": "The slide warns of a common misunderstanding: top-down versus bottom-up in scenario planning is not the same as top-down versus bottom-up in energy systems modelling. Explain both pairs of terms.",
+  "solution": "In scenario planning the pair describes how a scenario is constructed. Top-down means starting from a picture of the future and a consistent storyline and deriving the parameter settings from it; bottom-up means starting from the parameters and drivers of individual technologies and combining them into a scenario. The distinction is about the direction of the construction process - story first or numbers first.\n\nIn energy systems modelling the pair describes the resolution and the disciplinary logic of the model. A bottom-up model represents the system through individual technologies with their technical and economic parameters - capacities, efficiencies, investments - and computes the system from these building blocks; the optimising energy and material flow models of this chapter (EFOM, MARKAL, MESSAGE, TIMES) are of this type. A top-down model works with aggregated macroeconomic relationships - elasticities, production functions, sectoral aggregates - and represents the energy sector as part of the whole economy; it captures feedbacks on GDP and employment but has no technological detail.\n\nThe two pairs are therefore orthogonal: a bottom-up energy system model can perfectly well be fed with a top-down constructed scenario, and vice versa. Confusing them is a classic exam trap - the words are identical, the meaning is not.",
+  "keywords": [
+   "storyline",
+   "parameter settings",
+   "individual technologies",
+   "aggregated macroeconomic",
+   "elasticities",
+   "orthogonal"
+  ]
+ },
+ {
+  "id": "b07-094",
+  "slide": 461,
+  "type": "open",
+  "prompt": "The selection of a scenario set depends strongly on the targets of the user. Contrast the governmental/political perspective with the entrepreneurial perspective.",
+  "solution": "Governmental / political perspective.\nObjectives: resource security, sustainability and security of supply.\nEvaluation focus of the scenario analysis: find the macroeconomic optimum, i.e. the expense-minimal solution or combination that satisfies all restrictions. This is exactly the target function of the optimising energy system model of this chapter - minimisation of total system expenses under the constraint of load coverage plus the policy restrictions.\n\nEntrepreneurial perspective.\nObjectives: profit maximisation and risk minimisation.\nEvaluation focus: analyse and evaluate the chances and risks associated with (investment) decisions, and find profitable, robust investment strategies to secure long-term market share.\n\nThe difference is not just the objective but the question. The public planner asks 'which system is cheapest for society?' and needs one consistent optimum. The company asks 'which of my options survives in the widest range of futures?' and therefore needs a set of scenarios spanning a band, plus a measure of downside risk. The same model can serve both, but the scenario set cannot - which is why the slide places the choice of the scenario set before the analysis.\n\nThe link back to the capacity expansion chapter: this is the same asymmetry as the caveat that the optimal expansion option from a systems perspective need not be profitable from an entrepreneurial perspective.",
+  "keywords": [
+   "resource security",
+   "sustainability",
+   "security of supply",
+   "macroeconomic optimum",
+   "profit maximisation",
+   "risk minimisation",
+   "robust investment strategies"
+  ]
+ },
+ {
+  "id": "b07-095",
+  "slide": 461,
+  "type": "mc",
+  "prompt": "A utility wants to use one scenario set to compare an investment in a coal-fired plant, a pumped storage and a wind park. Which evaluation focus does this correspond to?",
+  "options": [
+   "The entrepreneurial perspective, whose focus is to analyse and evaluate the chances and risks of investment decisions",
+   "The governmental perspective, because sustainability and resource security determine the value of each option",
+   "The governmental perspective, whose focus is to find the expense-minimal solution satisfying all restrictions",
+   "Neither, because a single scenario set can never be used for different technologies"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "This is the entrepreneurial requirement stated on the following slide: a well-balanced evaluation of different strategies, technologies and investment options with ONE scenario set, which is what makes the decisions consistent and comparable. The governmental focus is the macroeconomic optimum, a different question. Option C states the opposite of the lecture's recommendation - using one set is precisely the point, because otherwise the three options would be judged against different assumptions and could not be ranked."
+ },
+ {
+  "id": "b07-096",
+  "slide": 462,
+  "type": "open",
+  "prompt": "Why does a scenario set have to be reduced to a manageable size, and which two requirements does a company have concerning such a reduced set?",
+  "solution": "In general, many scenarios are imaginable: every driver can take several values, and the number of combinations grows exponentially. In order to avoid an information overflow, a scenario set needs to be reduced to a manageable size. The scenario construction process gives the concrete guidance - reduce the mini-scenarios to a few, 3 to 5, larger scenarios, since experience suggests that managers encounter difficulties coping effectively with much more than three.\n\nThe two entrepreneurial requirements concerning the reduced set:\n1. A well-balanced evaluation of different strategies, technologies and investment options with one and the same scenario set, allowing for consistency and comparability of different decisions. The example given: it should be possible to achieve a balanced evaluation of the chances and risks of an investment in a coal-fired power plant, a pumped storage and a wind park with the same scenario set. If each option were assessed against its own assumptions, the comparison would be meaningless.\n2. The isolated evaluation of the (economic) impact of individual input variations - for example what the impact of a break-through of smart technologies on an investment would be. This is a sensitivity requirement: besides the few full scenarios, one must be able to vary one driver at a time and see what it does.\n\nThe two requirements pull in opposite directions - the first wants few, broad, consistent worlds, the second wants many isolated variations - and balancing them is the actual craft of designing a scenario set.",
+  "keywords": [
+   "information overflow",
+   "manageable size",
+   "consistency and comparability",
+   "same scenario set",
+   "isolated evaluation",
+   "individual input variations"
+  ]
+ },
+ {
+  "id": "b07-097",
+  "slide": 463,
+  "type": "open",
+  "prompt": "Name the six steps of a scenario construction process (after Yoe et al. 2004) and say what each of them delivers.",
+  "solution": "1. Decide on the key drivers for your scenarios. Determine the most important factors that will decide the nature of the future environment; brainstorm lists of drivers and apply the 80:20 rule so that managers can focus on what is truly important. The decisive selection criterion: look for drivers that are subject to significantly different alternative futures, i.e. factors that are both important AND uncertain. A factor that is important but certain is an assumption, not a driver; a factor that is uncertain but unimportant is noise.\n2. Bring the drivers together into a viable framework. Link the critical drivers, construct 'event strings' that connect them so that the linkages and their progression over time become visible, and group the drivers into meaningful combinations.\n3. Construct 'mini-scenarios'. Step 2 typically produces 5 to 10 groups of drivers; work out the connections among these groups, decide what each group represents, and develop a mini-scenario around each of them.\n4. Reduce the scenarios. Reduce the mini-scenarios to a few - 3 to 5 - larger scenarios, because experience suggests that managers have difficulty coping effectively with much more than three.\n5. Write the scenarios. Produce them in the form most suitable for the planners and managers who will use them to develop plans and strategies.\n6. Identify issues arising. Examine the scenarios to identify the most critical outcomes and the issues with the greatest impact on the future; the scenarios can then be used in planning.\n\nThe logic of the sequence: divergence first (steps 1 to 3, opening the space of possibilities), then convergence (steps 4 to 6, reducing it to something a decision maker can actually work with).",
+  "keywords": [
+   "key drivers",
+   "80:20 rule",
+   "important and uncertain",
+   "event strings",
+   "mini-scenarios",
+   "3-5",
+   "issues arising"
+  ]
+ },
+ {
+  "id": "b07-098",
+  "slide": 463,
+  "type": "cloze",
+  "prompt": "In step 4 of the scenario construction process the mini-scenarios are reduced to a few, namely ___ larger scenarios, because managers struggle to cope with many more than three.",
+  "accept": [
+   "3-5",
+   "3 to 5",
+   "three to five",
+   "3 - 5",
+   "3–5",
+   "3 bis 5"
+  ],
+  "solution": "3 to 5. Step 2 of the process typically produces 5 to 10 groups of drivers, each of which becomes a mini-scenario in step 3; these are then condensed into 3 to 5 larger scenarios in step 4. The reason given is purely practical - experience suggests that managers encounter difficulties coping effectively with much more than three scenarios - and it is the same argument that lies behind the requirement to avoid an information overflow."
+ }
+]

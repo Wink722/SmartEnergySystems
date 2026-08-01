@@ -1,0 +1,5 @@
+[
+ {"slide": 484, "reason": "Conclusions slide that repeats the three learning objectives of slide 474 word for word; the objectives are examined there."},
+ {"slide": 491, "reason": "Intermediate derivation step of the compound interest formula (C0 after 1, 2, n years); the general form Ct = C0(1+i)^t and its inversion are asked on slide 492."},
+ {"slide": 539, "reason": "Conclusions slide that repeats the two learning objectives of slide 520 word for word; they are examined there on the Laplace rule."}
+]

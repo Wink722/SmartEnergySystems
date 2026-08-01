@@ -1,0 +1,9 @@
+[
+  {"slide": 92, "reason": "Same Eurostat household gas price series (nrg_pc_202) as slide 91, only without the tax split and the inflation adjustment; the trend and the 2022 spike are asked on slide 91."},
+  {"slide": 93, "reason": "Chapter divider showing only the words 'Natural Gas Fundamentals'; no examinable content."},
+  {"slide": 109, "reason": "Four-column table of national gas quality specifications for Bulgaria, Greece, Turkey and Romania whose units are wrong (GCV and Wobbe index labelled kWh/m3 but given in Wh/m3, decimal commas mixed with thousands separators); the transferable point - national specifications differ and block cross-border flows - is asked on slides 108 and 110."},
+  {"slide": 111, "reason": "Second of two near-identical European bar charts of gas quality limits; the interoperability argument is already asked on the Wobbe-index chart of slide 110, and the mercaptan values here are only an odorisation practice, not a transferable concept."},
+  {"slide": 117, "reason": "Chapter divider showing only the words 'Natural Gas Pipeline Transport'; no examinable content."},
+  {"slide": 121, "reason": "Title frame of an embedded video ('Basic Pipeline Construction Part 1') with no readable content on the slide itself."},
+  {"slide": 122, "reason": "Nothing but a suggested YouTube link on pipeline construction; no slide content to examine."}
+]

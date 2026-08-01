@@ -1,0 +1,994 @@
+[
+ {
+  "id": "b10-001",
+  "slide": 618,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 618 puts two maps of Europe side by side: the geological salt formations suitable for salt caverns, and the existing underground natural gas storages. Describe what each map shows and explain what the comparison tells you about where hydrogen storage can be built.",
+  "solution": "The left map shows the geological salt formations in Europe that could host salt cavern storages: a large belt running from the Netherlands and northern Germany across Poland, a second body over the North Sea and the UK, one further east towards Russia, and smaller lenses in France, Spain, Portugal and the Alpine region.\\n\\nThe right map plots the existing underground natural gas storages in Europe with three symbols: depleted fields (red stars), salt caverns (green diamonds) and aquifers (yellow squares). Depleted fields dominate by number and are spread all over Europe, while the salt caverns cluster exactly where the salt belt is: northern Germany, the Netherlands, Denmark, the UK and Poland.\\n\\nThe comparison matters because only salt caverns are today regarded as proven for hydrogen. Salt is practically impermeable, chemically inert, contains no residual hydrocarbons and no micro-organisms, and a cavern allows fast cycling with several turnovers per year. Porous formations, i.e. depleted fields and aquifers, carry the risk of hydrogen loss by diffusion through the cap rock, of reactions with the mineral matrix, and of microbial conversion of hydrogen into methane or hydrogen sulphide, so their hydrogen suitability is not yet proven.\\n\\nStorage siting is therefore geologically fixed: hydrogen caverns can only be built on the salt belt, whereas Southern and South-Eastern Europe, which today store gas in depleted fields and aquifers, would have to rely on porous formations, on above-ground tanks or on pipeline imports from the north.",
+  "keywords": [
+   "salt caverns",
+   "depleted fields",
+   "aquifers",
+   "impermeable",
+   "not yet proven",
+   "salt belt"
+  ]
+ },
+ {
+  "id": "b10-002",
+  "slide": 618,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The right-hand map on slide 618 uses three symbols for the existing underground gas storages in Europe. Which statement about these three storage types is correct with respect to hydrogen?",
+  "options": [
+   "Salt caverns are the type whose conversion to hydrogen is regarded as feasible; depleted fields and aquifers are porous formations whose hydrogen suitability is not yet proven.",
+   "Aquifers are the type with proven hydrogen suitability, because the water seal prevents any diffusion.",
+   "All three types can be converted to hydrogen without restriction; the only difference is the working gas volume.",
+   "Depleted gas fields are the preferred hydrogen option, because the existing wells and the residual gas can be re-used directly."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The second option is correct. Salt caverns are leached into an impermeable, chemically inert and sterile rock salt body; conversion to hydrogen is regarded as feasible, at the price of losing about 80 % of the natural gas working capacity. Depleted fields and aquifers are porous formations: the hydrogen has to sit in the pore space of a sandstone under a cap rock, where it can diffuse, react with minerals and, above all, be eaten by sulphate-reducing and methanogenic bacteria that turn it into hydrogen sulphide or methane. That is why the lecture states 94 TWh of porous storage with hydrogen suitability not yet proven, against 168 TWh of salt cavern storage with conversion feasible. Residual hydrocarbons in a depleted field are a contamination problem, not an advantage, so option 3 is wrong as well."
+ },
+ {
+  "id": "b10-003",
+  "slide": 619,
+  "type": "open",
+  "prompt": "Slide 619 quantifies the German underground storage stock. Work through the numbers: how much of the existing storage can realistically be converted to hydrogen, how much storage will be needed in 2045, and what does the comparison with the geological salt cavern potential show?",
+  "solution": "Germany has about 94 TWh of porous storage (depleted fields and aquifers) whose hydrogen suitability is not yet proven, and about 168 TWh of salt cavern storage whose conversion to hydrogen is regarded as feasible.\\n\\nA converted cavern loses capacity, because hydrogen has a far lower volumetric energy density than natural gas: only 20 % of the natural gas capacity remains. 168 TWh therefore become a maximum conversion potential of 33 TWh.\\n\\nAgainst that stands the demand side. German hydrogen demand in 2045 is put at 250 - 500 TWh, of which roughly 10-24 % has to be storable, i.e. 25-125 TWh; the Langfristszenarien give 72-74 TWh. Converting every German salt cavern therefore covers only the very bottom of the required range and falls short of the central estimate by a factor of two to three, so new caverns have to be leached.\\n\\nThe geological resource is not the constraint: the potential for salt caverns on land and at sea is up to 36 PWh in Germany and up to 85 PWh in Europe, three orders of magnitude above the requirement. The bottleneck is not geology but the time (leaching a cavern takes years), the money, the disposal of the brine, and the permits.",
+  "keywords": [
+   "94 TWh",
+   "168 TWh",
+   "20 %",
+   "33 TWh",
+   "25-125 TWh",
+   "36 PWh",
+   "85 PWh"
+  ]
+ },
+ {
+  "id": "b10-004",
+  "slide": 619,
+  "type": "cloze",
+  "prompt": "Converting the whole German salt cavern stock of 168 TWh to hydrogen leaves only 20 % of the natural gas capacity, i.e. a maximum conversion potential of ___ TWh.",
+  "accept": [
+   "33",
+   "33 TWh",
+   "ca. 33",
+   "approx. 33",
+   "~33",
+   "about 33"
+  ],
+  "solution": "33 TWh. 20 % of 168 TWh is 33.6 TWh, rounded to 33 TWh on the slide. The loss of capacity comes from the much lower volumetric energy density of hydrogen: at the same pressure the same cavern volume holds roughly a fifth of the energy in hydrogen that it holds in natural gas. The 33 TWh has to be compared with the German storage requirement of 25-125 TWh in 2045 (Langfristszenarien 72-74 TWh), so the existing cavern stock alone is not enough and new caverns have to be leached."
+ },
+ {
+  "id": "b10-005",
+  "slide": 620,
+  "type": "open",
+  "prompt": "Summarise the global state of play of hydrogen as slide 620 gives it (strategies, announced projects, committed projects, capacity actually online) and say what the gap between these numbers means.",
+  "solution": "Policy: 92 countries, covering 83 % of the world's population, have a hydrogen strategy in place or planned as of 2022, so the political intent is nearly universal.\\n\\nProjects: about 1,700 clean hydrogen projects have been announced globally (status 09/2025). Of these, 510 have passed a final investment decision, representing more than $110 billion, and 1,159 are meant to be operational by 2030.\\n\\nReality: only about 1 Mt/a of clean hydrogen capacity was online in 2025, of which roughly 30 % is electrolytic and about half sits in China. The committed pipeline that should be operational by 2030 amounts to 35 GW of electrolysis, i.e. 3.3 Mt/a.\\n\\nThe gap is the message. Less than a third of the announced projects are actually committed, what is online today is a small fraction of what is announced, and even the full FID pipeline of 3.3 Mt/a is a few per cent of today's roughly 110 Mt/a of (mostly grey) hydrogen. Announcements are cheap, final investment decisions are not, and the binding constraint is not the technology but an offtaker willing to sign a long-term contract at a price that covers the cost.",
+  "keywords": [
+   "92 countries",
+   "83 %",
+   "1,700",
+   "510",
+   "$110 billion",
+   "1 Mt/a",
+   "35 GW",
+   "3.3 Mt/a"
+  ]
+ },
+ {
+  "id": "b10-006",
+  "slide": 620,
+  "type": "cloze",
+  "prompt": "About 1 Mt/a of clean hydrogen capacity was online worldwide in 2025, of which roughly 30 % is electrolytic; about half of that capacity is located in ___.",
+  "accept": [
+   "China",
+   "china",
+   "PR China",
+   "the PRC",
+   "People's Republic of China"
+  ],
+  "solution": "China. Of the roughly 1 Mt/a of clean hydrogen capacity online in 2025, about 30 % is electrolytic and about 50 % is in China, which also builds most of the world's alkaline electrolyser capacity and drives the price down. The lecture's project examples show the same picture: Xinjiang Kuqa with 260 MW and Chifeng with 500 MW are the largest green hydrogen projects worldwide, both Chinese. Europe's flagship projects, Holland Hydrogen 1 and Normand'Hy, are 200 MW each."
+ },
+ {
+  "id": "b10-007",
+  "slide": 622,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 622 shows a scatter plot from Van der Zwaan et al. (Nature Communications 2025) of the electricity share versus the hydrogen share in final energy consumption in 2050, across six models and three scenarios. Read the figure: what ranges do the two shares span, and what is the sober conclusion for hydrogen?",
+  "solution": "The x-axis gives the hydrogen share in final energy consumption (FEC) in 2050, the y-axis the electricity share. Each dot is one model (IMAGE 3.2, MESSAGEix-GLOBIOM 1.2, PRIMES 2022, PROMETHEUS 1.2, REMIND 2.1, TIAM-ECN 1.2) and the dot shape is the scenario: NPI (national policies implemented), CO-80 (CO2 price growing to 80 $/tCO2 in 2040) and C400-lin (CO2 price growing to 400 $/tCO2 in 2040). The contour plot behind the dots colours the resulting CO2 emissions in Mt/yr, from about +3,150 down to about -900.\\n\\nReading the axes: the electricity share spans roughly 25 % to 62 %, the hydrogen share only about 0 % to 14 %. The deep-decarbonisation points sit in the upper right, i.e. only a hard CO2 price pushes both shares up, and net-negative emissions appear only at the extreme end.\\n\\nThe conclusion is that hydrogen is a complement, not a substitute, for electrification: even in the most ambitious 2050 scenarios it stays a single-digit to low-double-digit share of final energy, while direct electricity does the heavy lifting. The spread between models at the same CO2 price is almost as large as the difference between scenarios, which is exactly why the lecture titles the slide Hope or Hype: the model uncertainty about hydrogen's role is larger than the number itself.",
+  "keywords": [
+   "final energy consumption",
+   "25 % to 62 %",
+   "0 % to 14 %",
+   "CO2 price",
+   "complement",
+   "Hope or Hype"
+  ]
+ },
+ {
+  "id": "b10-008",
+  "slide": 623,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The left-hand chart on slide 623 breaks the investment pipeline for clean hydrogen projects by 2030 into announced, feasibility, FEED and committed (FID+), from 2020 to 2025. Describe the development of the two ends of that stack and what it says about the sector.",
+  "solution": "The total pipeline grew from $90 billion in 2020 through 160 (2021), 390 (2022), 540 (2023) and 680 (2024) to $695 billion in 2025. It multiplied by almost eight in five years, but the last step is only about 2 %, so the announcement wave has flattened.\\n\\nThe committed part, the investment that has passed a final investment decision (FID+), grew far more slowly in absolute terms but very steadily: 10, 20, 30, 45, 75 and $110 B. The committed share therefore rose from about 11 % of the pipeline in 2020 to about 16 % in 2025.\\n\\nRead together: roughly five sixths of the pipeline is still at announcement or feasibility stage and a large part of it will never be built, while the hard money is only now beginning to move. The right-hand figure supplies the interpretation, the Gartner Hype Cycle: hydrogen has passed the Peak of Inflated Expectations and is in the Trough of Disillusionment, from which the surviving projects climb the Slope of Enlightenment towards the Plateau of Productivity. That is not a refutation of hydrogen; it is the normal life cycle of an infrastructure technology, and the committed line rising while the announced line stalls is exactly what the start of the recovery looks like.",
+  "keywords": [
+   "$695 billion",
+   "$110 B",
+   "final investment decision",
+   "Peak of Inflated Expectations",
+   "Trough of Disillusionment",
+   "Plateau of Productivity"
+  ]
+ },
+ {
+  "id": "b10-009",
+  "slide": 623,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The right-hand figure on slide 623 is the Gartner Hype Cycle. In which order does a technology pass its stages?",
+  "options": [
+   "Technology Trigger - Peak of Inflated Expectations - Trough of Disillusionment - Slope of Enlightenment - Plateau of Productivity",
+   "Peak of Inflated Expectations - Technology Trigger - Trough of Disillusionment - Plateau of Productivity - Slope of Enlightenment",
+   "Technology Trigger - Trough of Disillusionment - Peak of Inflated Expectations - Plateau of Productivity - Slope of Enlightenment",
+   "Technology Trigger - Slope of Enlightenment - Peak of Inflated Expectations - Trough of Disillusionment - Plateau of Productivity"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The second option. The curve plots visibility against time: a Technology Trigger sets off a steep rise to the Peak of Inflated Expectations, disappointment then drops it into the Trough of Disillusionment, after which realistic applications lift it along the Slope of Enlightenment to a stable Plateau of Productivity. The lecture places hydrogen after the peak: the announced investment pipeline has stalled at about $695 billion while the committed (FID+) part keeps growing to $110 B, which is what the transition from trough to slope looks like in numbers."
+ },
+ {
+  "id": "b10-010",
+  "slide": 624,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 624 combines an IRENA map of emerging hydrogen trade routes with a Hydrogen Council Sankey of clean hydrogen offtake for committed projects by pathway and region. Read the Sankey: how large are the two pathways, and which regions produce and which take the product?",
+  "solution": "The Sankey splits committed offtake into 1.5 mtpa of renewable (electrolytic) hydrogen and 2.1 mtpa of low-carbon hydrogen, i.e. fossil-based with carbon capture. Low-carbon is thus the larger of the two despite all the attention on electrolysis.\\n\\nOn the renewable side China produces 620 ktpa and takes 540 back itself; the rest of the world produces 530 against 265 of offtake; Europe produces 295 against 545 of offtake; the USA 95 against 85. On the low-carbon side the USA dominates with 1,400 ktpa produced and 1,115 taken domestically; Canada 505 produced and 505 taken; Japan/Korea take 245 without producing any; Europe 115, China 40, rest of world 20.\\n\\nTwo conclusions. First, almost all committed volume is consumed in the region where it is produced, so the trade routes on the IRENA map are still largely memoranda of understanding and routes under development rather than physical flows. Second, Europe and Japan/Korea are structurally short, taking more than they produce, while the USA, Canada and China are structurally long. That mismatch is exactly what the import terminals, the shipping of derivatives and the European backbone are being built for, and it is why the EU strategy plans for more than 10 Mt/a of imports alongside 10 Mt/a of domestic production.",
+  "keywords": [
+   "1.5 mtpa",
+   "2.1 mtpa",
+   "620",
+   "1,400",
+   "Japan/Korea",
+   "structurally short"
+  ]
+ },
+ {
+  "id": "b10-011",
+  "slide": 625,
+  "type": "open",
+  "prompt": "The European Hydrogen Strategy of 2020 sets for phase 2 (2025-2030) 40 GW of electrolysis capacity, more than 10 Mt/a of production and more than 10 Mt/a of imports. Why does the strategy plan for as much import as domestic production, and what is phase 3 about?",
+  "solution": "Because Europe cannot produce cheap hydrogen at the volume it needs. Electricity is the dominant cost of electrolytic hydrogen, roughly 50 kWh_el per kg, so the hydrogen price follows the local full-load hours and the LCOE of wind and solar. In North Africa, the Middle East, Chile or Australia the same electrolyser runs far more hours per year on cheaper renewable electricity, which is why the fossil-fuel exporters are all building export projects. On top of that, land, grid connections and permits for the required renewable capacity are scarce in Europe, and after the loss of Russian pipeline gas the EU wants to diversify its supply rather than replace one dependency with another.\\n\\nThe strategy therefore doubles the volume by importing: 40 GW of electrolysis inside the EU plus 40 GW in the neighbourhood, giving more than 10 Mt/a of domestic production and more than 10 Mt/a of imports by 2030.\\n\\nPhase 1 (2020-2024) was the pilot phase, 6 GW of electrolysis and more than 1 Mt/a of production. Phase 3 (2030-2050) contains no capacity target at all: hydrogen technologies should reach maturity so that hydrogen can decarbonise all sectors, in particular those that cannot be electrified directly (steel, chemicals, aviation, shipping, dispatchable power).\\n\\nReality check: phase 1 was missed by a wide margin, with only about 2 GW of electrolysis installed worldwide by the end of 2024 against 6 GW planned for the EU alone.",
+  "keywords": [
+   "40 GW",
+   "10 Mt/a",
+   "full-load hours",
+   "diversify",
+   "Phase 3",
+   "maturity"
+  ]
+ },
+ {
+  "id": "b10-012",
+  "slide": 627,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 627 shows the European Hydrogen Backbone map of the EHB Initiative, together with the German power plant units commissioned since 2000 with a capacity above 100 MW. Which pipeline and storage categories does the legend distinguish, what is the structural idea behind the map, and why are the power plant figures on the same slide?",
+  "solution": "The legend splits the pipelines into repurposed lines (converted natural gas pipelines), new lines, import/export connections, UK lines and subsea lines; the storages into salt caverns, aquifers, depleted fields and rock caverns; and marks cities, energy islands and gas import terminals separately.\\n\\nThe structural idea is re-use. The backbone is drawn along the existing natural gas corridors, because a repurposed pipeline costs roughly 0.2-0.6 M EUR/km against 1.4-5.8 M EUR/km for a new one, i.e. it is cheaper by close to an order of magnitude. The network links the production regions (North Sea, Iberia, North Africa, energy islands) with the industrial clusters, and the salt cavern storage sits on the German-Dutch-Polish salt belt, exactly where slide 618 puts the salt formations.\\n\\nThe German fleet figures are the second half of the argument. Since 2000 Germany commissioned 7 hard coal units totalling 5.2 GW, 6 lignite units totalling 5.4 GW and 31 natural gas units totalling 11.4 GW, all above 100 MW. These plants are young, they sit at the nodes named on the slide (Grevenbroich, Duisburg, Lünen, Hamm, Herne, Datteln, Herdecke, Düsseldorf, Eschweiler, Köln, Ludwigshafen, Mannheim), and the 11.4 GW of gas units in particular are the natural candidates for conversion to hydrogen firing. That conversion only works if the backbone physically reaches them, so network planning and power plant planning are one and the same problem.",
+  "keywords": [
+   "repurposed",
+   "salt caverns",
+   "5.2 GW",
+   "5.4 GW",
+   "11.4 GW",
+   "31 natural gas units"
+  ]
+ },
+ {
+  "id": "b10-013",
+  "slide": 628,
+  "type": "mc",
+  "prompt": "Slide 628 quotes RLI (2023): \"Given the comprehensive planning of hydrogen infrastructure at the European and German level, the focus should remain on the direct use of hydrogen in power plants.\" It contrasts this with Japan and Korea. What is the contrast?",
+  "options": [
+   "Japan and Korea co-fire ammonia in their relatively young coal power plant fleet instead of burning hydrogen directly, because they have no hydrogen pipeline infrastructure and their coal plants still have decades of lifetime left.",
+   "Japan and Korea use hydrogen only in fuel cells for mobility, while Europe uses it only in gas turbines.",
+   "Japan and Korea have abandoned hydrogen in power altogether and rely exclusively on nuclear.",
+   "Japan and Korea import hydrogen by pipeline and therefore need no derivatives, whereas Europe has to ship it."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The second option. Europe and Germany are building a hydrogen backbone with cavern storage, so hydrogen can be delivered as a gas to the plant and burnt directly; converting it to ammonia and cracking it back would only cost efficiency. Japan and Korea have no such pipeline network, depend on seaborne imports, and own a young coal fleet they do not want to strand. Ammonia can be shipped as a liquid at -33.34 °C in existing LPG carriers and co-fired in an existing coal boiler with a comparatively modest retrofit. The choice of energy carrier is therefore a consequence of the available infrastructure and of the existing asset base, not of the chemistry."
+ },
+ {
+  "id": "b10-014",
+  "slide": 630,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 630 shows the HYFLEXPOWER power-to-hydrogen-to-power concept. Sketch the chain from renewable electricity to the grid, name the components, and give the key figures of the demonstration.",
+  "solution": "Chain: renewable energy from the grid plus water enter an electrolyser; the hydrogen is compressed and put into storage; from storage it goes to a H2/NG mixing skid, where it is blended with natural gas at any ratio from 0 to 100 % hydrogen; the mixture is burnt in an SGT-400 gas turbine that delivers 12 MW_el at full load to the grid, plus 20 MW_th of recovered heat.\\n\\nIn 10/2023 the HYFLEXPOWER consortium, which includes Siemens Energy, ENGIE and DLR, achieved the first demonstration of industrial-scale operation of an existing 12 MW_el industrial gas turbine on 100 % hydrogen. The word existing matters: the turbine was retrofitted, not newly built, which is what makes the result relevant for the 11.4 GW of young German gas units.\\n\\nThe point of the concept is that it closes a complete long-duration storage loop: surplus renewable electricity is stored chemically and reconverted when it is needed, and the mixing skid means the plant can run on whatever share of hydrogen happens to be available. The price is the round-trip efficiency: roughly 64 % in the electrolyser, times compression and storage losses, times about 40 % in the turbine, leaves only a quarter to a third of the electricity. That is why this route is reserved for the residual-load hours that batteries and pumped storage cannot cover, not for daily cycling.",
+  "keywords": [
+   "SGT-400",
+   "12 MW",
+   "20 MW",
+   "100 % hydrogen",
+   "mixing skid",
+   "round-trip efficiency"
+  ]
+ },
+ {
+  "id": "b10-015",
+  "slide": 631,
+  "type": "open",
+  "prompt": "Slide 631 lists the hydrogen strategies of six fossil-fuel-exporting countries. Name the targets of at least four of them and explain the common logic that drives an oil or gas exporter into hydrogen.",
+  "solution": "Australia aims to become a major global player in clean hydrogen production by 2030, focused on Asian markets, with more than $1 billion of government money and 9 GW-scale projects planned.\\nCanada aims to be one of the world's top three clean hydrogen producers in 2050, using its hydropower.\\nOman aims at a hydrogen-centric society by 2040 and at large-scale export of green hydrogen and ammonia, with several GW-scale projects announced.\\nRussia aims to account for 20 % of the global hydrogen market by 2030, a larger share than it currently holds in natural gas, with a focus on blue hydrogen, and exports rising to 50 Mt/a by mid-century.\\nSaudi Arabia aims at pioneering green and blue hydrogen, ammonia, methanol and synthetic fuels, and announced the $5 bn NEOM Green Fuel Project in 2020, with operation starting 2025.\\nThe United Arab Emirates aim at 1.4 Mt/a of hydrogen by 2031 (1 green, 0.4 blue) and 15 Mt/a by 2050, expanding renewable capacity from 3.2 GW today to 14 GW in 2030.\\n\\nThe common logic is the defence of the export business model. These economies live on selling energy, and hydrogen and its derivatives are the only way to keep selling molecules once the customer decarbonises. They also possess the two assets the business needs: an outstanding renewable resource or cheap natural gas together with geological CO2 storage, and existing export ports, ships, trading houses and long-term supply relationships with the same customers. Note the split in the strategies: countries with cheap gas and storage (Russia, and partly Saudi Arabia and the UAE) push blue hydrogen, countries with sun, wind or hydro (Australia, Canada, Oman) push green.",
+  "keywords": [
+   "9 GW-scale",
+   "20 %",
+   "blue hydrogen",
+   "NEOM",
+   "1.4 Mt/a",
+   "export business model"
+  ]
+ },
+ {
+  "id": "b10-016",
+  "slide": 632,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The IRENA figure on slide 632 shows the geographic distribution of hydrogen-related patent families 2010-2020 and their split by technology type. Which split is correct?",
+  "options": [
+   "Fuel cells 41 %, hydrogen production 36 %, hydrogen storage 21 %, hydrogen distribution 2 %",
+   "Hydrogen production 41 %, fuel cells 36 %, hydrogen storage 21 %, hydrogen distribution 2 %",
+   "Fuel cells 41 %, hydrogen storage 36 %, hydrogen production 21 %, hydrogen distribution 2 %",
+   "Hydrogen distribution 41 %, fuel cells 36 %, hydrogen production 21 %, hydrogen storage 2 %"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The second option: fuel cells 41 %, hydrogen production 36 %, hydrogen storage 21 % and hydrogen distribution only 2 %. Two readings matter. First, the innovation effort is concentrated on the use of hydrogen (fuel cells) and on making it (electrolysis), while distribution - pipelines, compressors, terminals - attracts almost no patents. That is not because distribution is solved, but because it is classical, largely non-patentable mechanical engineering; it is nonetheless the part the lecture treats as the infrastructure bottleneck. Second, in the regional bars Europe and Japan hold the largest shares in every category, followed by the Republic of Korea and the United States, with China still small in this 2010-2020 window - which contrasts sharply with China's dominant position in installed electrolyser capacity today, and shows that manufacturing leadership and patent leadership are different things."
+ },
+ {
+  "id": "b10-017",
+  "slide": 633,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 633 gives the EHB cost assumptions for the European Hydrogen Backbone. Compare the capex of a new pipeline with that of a repurposed one, name the other parameters of the table, and explain what the comparison means for the design of the backbone.",
+  "solution": "New pipelines (low / medium / high case, in M EUR/km): small 1.4 / 1.5 / 1.8; medium 2.0 / 2.2 / 2.7; large 2.5 / 2.8 / 3.4; offshore medium 3.4 / 3.7 / 4.6; offshore large 4.3 / 4.8 / 5.8.\\nRepurposed pipelines: small 0.2 / 0.3 / 0.5; medium 0.2 / 0.4 / 0.5; large 0.3 / 0.5 / 0.6; offshore medium 0.3 / 0.4 / 0.5; offshore large 0.4 / 0.5 / 0.6.\\n\\nRepurposing is therefore cheaper by roughly a factor 5 to 10 per kilometre, and that single ratio is why the EHB routes the backbone along the existing natural gas corridors and why the maps distinguish repurposed from new lines. It is the same argument as the re-use of salt caverns and of gas import terminals: the cheapest hydrogen infrastructure is infrastructure that already exists.\\n\\nThe remaining parameters: compressor station capex 2.2 / 3.4 / 6.7 M EUR/MW_e; electricity price 40 / 60 / 80 EUR/MWh; pipeline operating and maintenance costs 0.8 / 0.9 / 1.0 % of capex per year; compressor O&M 1.7 % of capex per year in all cases; a weighted average cost of capital of 5.0 %; and depreciation over 40 years for pipelines and 25 years for compressors.\\n\\nWhat the parameter set implies: with a WACC of only 5 % and a 40-year life the annuity factor is small, so the levelised transport cost per kWh is low provided the pipeline is well utilised. Hydrogen pipeline transport is therefore cheap for the same reason gas transport is cheap - long-lived, low-return, high-throughput assets - and it becomes expensive only where the load factor is poor.",
+  "keywords": [
+   "repurposed",
+   "M EUR/km",
+   "factor 5 to 10",
+   "40 / 60 / 80",
+   "5.0 %",
+   "40 years",
+   "25 years"
+  ]
+ },
+ {
+  "id": "b10-018",
+  "slide": 633,
+  "type": "cloze",
+  "prompt": "In the EHB cost assumptions the weighted average cost of capital is 5.0 %, compressor stations are depreciated over 25 years and pipelines over ___ years.",
+  "accept": [
+   "40",
+   "40 years",
+   "forty"
+  ],
+  "solution": "40 years. The EHB Initiative assumes a technical and economic life of 40 years for the pipelines and 25 years for the compressor stations, at a WACC of 5.0 %. The long depreciation period together with a low cost of capital is what keeps the levelised transport cost per kWh small - the same regulatory logic as for regulated gas networks, where a long asset life and a regulated, modest return keep the tariff down. It is also why the EHB can present hydrogen transport at a few tenths of a cent per kWh over hundreds of kilometres despite the high capex per kilometre."
+ },
+ {
+  "id": "b10-019",
+  "slide": 634,
+  "type": "open",
+  "prompt": "Name and quantify the challenges that make hydrogen difficult as an energy carrier, as slide 634 lists them.",
+  "solution": "Five challenges, four of them with hard numbers.\\n\\n1. Low volumetric energy density. Compressed to 700 bar hydrogen holds only 1.3 kWh/l, and as a cryogenic liquid 2.4 kWh/l, against roughly 9.7 kWh/l for diesel. Per kilogram hydrogen is unbeatable at 33.33 kWh/kg; per litre it is poor, and transport and storage are volume problems, not mass problems.\\n\\n2. Very low boiling point of -253 °C. Liquefaction for storage and shipping costs 10 - 14 kWh per kg of hydrogen today, about one third of the energy content of the hydrogen itself. The future expectation is about 7 kWh/kgH2 and the theoretical minimum is 2.9 kWh/kgH2. Liquid hydrogen also boils off continuously, about 0.2 % per day.\\n\\n3. Highly flammable, with a very wide ignition range and a very low ignition energy, which is a safety problem especially in enclosed spaces and drives the cost of sensors, ventilation and clearance distances.\\n\\n4. No existing infrastructure. Elements of the natural gas infrastructure can potentially be re-used - pipelines, salt caverns, terminals - but compressors, seals, meters, valves and burners have to be replaced or adapted, and steel embrittlement limits which lines can be converted.\\n\\n5. Water demand, which is an export issue. Producing one kilogram of hydrogen consumes about 9 kg of water stoichiometrically, and about 18 kgH2O/kgH2 once cooling and demineralisation are included. Since the best solar and wind resources are in arid regions, export projects such as Coega or NEOM have to build seawater desalination as part of the plant.",
+  "keywords": [
+   "1.3 kWh/l",
+   "2.4 kWh/l",
+   "-253",
+   "10 - 14 kWh",
+   "2.9 kWh/kgH2",
+   "9 kg of water",
+   "18 kgH2O/kgH2"
+  ]
+ },
+ {
+  "id": "b10-020",
+  "slide": 634,
+  "type": "cloze",
+  "prompt": "Producing one kilogram of hydrogen by electrolysis requires about ___ kg of water stoichiometrically, and roughly twice that once cooling is included.",
+  "accept": [
+   "9",
+   "9 kg",
+   "8.94",
+   "~9",
+   "approx. 9",
+   "about 9",
+   "nine"
+  ],
+  "solution": "About 9 kg of water per kg of hydrogen; the exact stoichiometric value from 2 H2O -> 2 H2 + O2 is 8.94 kg, as calculated in Exercise 1c. Including cooling and water treatment the figure roughly doubles to about 18 kgH2O/kgH2. This is a siting constraint rather than a global resource constraint: 9 kg of water per kg of hydrogen is negligible next to agriculture, but the export projects sit in arid regions chosen for their sun and wind, so they need seawater desalination, which adds capital cost, energy and a brine disposal problem."
+ },
+ {
+  "id": "b10-021",
+  "slide": 634,
+  "type": "mc",
+  "prompt": "How much electricity does the liquefaction of hydrogen consume today, and how does that compare with the energy content of the hydrogen?",
+  "options": [
+   "About 33 kWh/kgH2, i.e. as much energy as the hydrogen itself contains.",
+   "About 7 kWh/kgH2 today, rising to 10 - 14 kWh/kgH2 as plants get larger.",
+   "About 10 - 14 kWh/kgH2, i.e. roughly one third of the lower heating value of 33.33 kWh/kg; the long-term expectation is about 7 kWh/kgH2.",
+   "About 2.9 kWh/kgH2, which is the thermodynamic minimum and about 9 % of the energy content."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The second option. Today's liquefaction plants need 10 - 14 kWh_el per kg of hydrogen; against a lower heating value of 33.33 kWh/kg that is roughly a third of the energy content spent before the cargo has left the port. Larger plants and better cycles are expected to bring this down to about 7 kWh/kgH2 - the value used in Exercise 2 - and the theoretical minimum is 2.9 kWh/kgH2, driven by the need to cool to -253 °C and to convert ortho- to para-hydrogen. Option 1 confuses the theoretical minimum with today's practice, option 3 inverts the trend, and option 4 exaggerates by a factor of about three."
+ },
+ {
+  "id": "b10-022",
+  "slide": 636,
+  "type": "open",
+  "prompt": "The Xinjiang Kuqa Green Hydrogen Pilot Project was, at its time, the largest green hydrogen project in the world. Give its technical data, explain what went wrong, and state the general lesson.",
+  "solution": "Kuqa combines 260 MW of alkaline electrolysis, rated at 20 kt/a of hydrogen, with a 300 MW PV park; it has been operational since 2023. The electrolysis is split between three Chinese manufacturers: Cockerill Jingli with 120 MW, Longi with 80 MW and Peric with 60 MW. The offtake is 100 % captive, everything going to Sinopec's Tahe Refining & Chemical plant. On site there is a 270,000 Nm3 hydrogen storage tank and a 28,000 Nm3/h pipeline.\\n\\nThe problem: the plant has been operating at less than a third of its installed capacity. The reasons are structural rather than accidental. A 300 MW PV park feeding 260 MW of electrolysis delivers only some 1,500-2,000 full load hours, so the stacks stand idle most of the time; alkaline electrolysers tolerate fluctuating and part load badly and cannot be turned down below roughly 20-40 % of nominal without gas crossover; and the refinery needs a steady hydrogen flow, which a 270,000 Nm3 tank can buffer for hours, not for nights and windless weeks.\\n\\nThe lesson is the central one of the whole hydrogen chapter: installed electrolyser capacity is not production. What decides the cost of hydrogen is the number of full load hours, so a project sized on nameplate megawatts rather than on annual kilograms produces expensive hydrogen. It also explains why the announced GW figures in the strategies must be discounted heavily before they are turned into tonnes.",
+  "keywords": [
+   "260 MW",
+   "300 MW",
+   "less than a third",
+   "captive",
+   "full load hours",
+   "installed electrolyser capacity is not production"
+  ]
+ },
+ {
+  "id": "b10-023",
+  "slide": 637,
+  "type": "mc",
+  "prompt": "The Chifeng project in China, operational since 07/2025, is described on slide 637. Which combination of figures is correct?",
+  "options": [
+   "260 MW of electrolysis, 100 % off-grid power, 20,000 t/a of green hydrogen, operated by Sinopec",
+   "500 MW of electrolysis, fully grid-connected, 320,000 t/a of green ammonia, expansion to 2.5 GW planned for 2028",
+   "500 MW of electrolysis (PEM and alkaline), 100 % off-grid power, 320,000 t/a of green ammonia, expansion to more than 2.5 GW and 1.5 Mt NH3/a in 2028",
+   "200 MW of electrolysis fed by offshore wind, 60 t/d of hydrogen, operated by Shell"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The second option. Chifeng is currently the largest green hydrogen project worldwide with 500 MW of electrolysis in a mixed PEM and alkaline configuration, and it runs 100 % off-grid on the biggest off-grid renewable park in the world. It produces 320,000 t/a of green ammonia, which also makes it the largest green ammonia project worldwide; part of the offtake goes to the Japanese trading house Marubeni. The operator is Envision, a Chinese wind turbine manufacturer, and the plan is to raise electrolyser capacity to more than 2.5 GW and 1.5 Mt NH3/a in 2028. Option 3 describes Xinjiang Kuqa and option 4 Holland Hydrogen 1. The off-grid design is the interesting engineering point: no grid fees and no connection queue, but the full intermittency has to be absorbed by the electrolysers and by an ammonia synthesis loop that dislikes load changes."
+ },
+ {
+  "id": "b10-024",
+  "slide": 638,
+  "type": "mc",
+  "prompt": "Holland Hydrogen 1 has been under construction in the Port of Rotterdam since 2022. Which description matches it?",
+  "options": [
+   "260 MW of electrolysis with a 300 MW PV park, captive offtake to a refinery, operating below a third of capacity",
+   "500 MW of electrolysis, off-grid, producing green ammonia for export to Japan",
+   "200 MW of PEM electrolysis fed by onshore wind, COD 2026, 50 % binding offtake by TotalEnergies",
+   "200 MW of electrolysis (60 t/d, 20 kt/a) fed by offshore wind, COD 2027, 20 MW alkaline modules by ThyssenKrupp Nucera, pipeline supply to Shell's refinery and regional industry"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The first option. Holland Hydrogen 1 is Shell's 200 MW electrolyser in the Port of Rotterdam: 60 t/d or 20 kt/a of hydrogen, fed by offshore wind, under construction since 2022 with a commercial operation date in 2027, built from 20 MW alkaline water electrolysis modules supplied by ThyssenKrupp Nucera, with the hydrogen going by pipeline to Shell's own refinery and to regional industry in Rotterdam. Option 2 is Normand'Hy (Air Liquide PEM, TotalEnergies offtake, COD 2026, IPCEI funding), option 3 is Chifeng, option 4 is Xinjiang Kuqa. Note the pattern across all the European first-of-a-kind projects: the offtaker is a refinery, i.e. an existing consumer that already buys grey hydrogen. That is the easiest market to enter, because no new demand and no new end-use technology has to be created - only the colour of the molecule changes."
+ },
+ {
+  "id": "b10-025",
+  "slide": 639,
+  "type": "cloze",
+  "prompt": "Normand'Hy in Normandy is a 200 MW electrolysis project (28 kt/a) with 50 % binding offtake by TotalEnergies for refining; the electrolyser is of the ___ type, built by Air Liquide in partnership with Siemens Energy.",
+  "accept": [
+   "PEM",
+   "PEM electrolyser",
+   "PEMEL",
+   "proton exchange membrane",
+   "polymer electrolyte membrane"
+  ],
+  "solution": "PEM, proton exchange membrane. Normand'Hy has been under construction since 2022 with a commercial operation date in 2026, has 200 MW of PEM electrolysis producing 28 kt/a of hydrogen alongside offshore wind, is 50 % contracted to TotalEnergies for refining, and receives IPCEI funding. PEM is the natural choice for a wind-driven plant because it follows a fluctuating profile far better than alkaline: it can be turned down to a few per cent of nominal and ramps within seconds, and it delivers hydrogen at elevated pressure. The price is a higher capex and the use of iridium and platinum in the stack, which is why the larger Holland Hydrogen 1 next door went with alkaline instead."
+ },
+ {
+  "id": "b10-026",
+  "slide": 640,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Exercise 1a. Two SUNFIRE HyLink systems are given: an alkaline system with a specific power consumption at system level of 4.7 kWh/Nm3 and a system power rating of 10 MW, and a SOEC system with 3.6 kWh/Nm3 and 2.68 MW. Calculate the overall efficiency of both systems. Hydrogen density 0.0899 kg/Nm3, lower heating value 33.33 kWh/kg.",
+  "solution": "The overall efficiency is the energy in the product divided by the electricity consumed. Convert the specific consumption from a volume basis to a mass basis, then compare with the lower heating value.\\n\\nAlkaline:\\nspecific consumption = 4.7 kWh/Nm3 / 0.0899 kg/Nm3 = 52.28 kWh_el/kgH2\\neta = 33.33 kWh/kg / 52.28 kWh_el/kg = 63.8 %\\nOr in one line, exactly as the official sheet writes it: 1 / [4.7 / 0.0899 / 33.33] = 63.8 %.\\n\\nSOEC:\\nspecific consumption = 3.6 kWh/Nm3 / 0.0899 kg/Nm3 = 40.04 kWh_el/kgH2\\neta = 33.33 / 40.04 = 83.2 %\\n\\nInterpretation: the SOEC is about 20 percentage points better because it operates at 700-850 °C and takes a part of the reaction enthalpy as heat instead of as electricity; where that heat is waste heat from a neighbouring process it is effectively free, and the electrical efficiency can even approach or exceed 100 % of the LHV. The catch is visible in the second row of the table: the SOEC system is rated at only 2.68 MW against 10 MW for the alkaline machine, it needs a steam supply, and stack degradation and thermal cycling still limit its lifetime.\\n\\nUnit warning: kWh/Nm3 is a volumetric figure and only becomes an efficiency after dividing by the density and by the LHV. Efficiencies quoted on an HHV basis are about 18 % higher for the same machine, so always state which heating value you used.",
+  "keywords": [
+   "52.28",
+   "63.8 %",
+   "40.04",
+   "83.2 %",
+   "lower heating value",
+   "waste heat"
+  ]
+ },
+ {
+  "id": "b10-027",
+  "slide": 640,
+  "type": "open",
+  "prompt": "Exercise 1b. Calculate the hourly net production rate in Nm3 H2/h of both electrolysis systems (alkaline 4.7 kWh/Nm3 at 10 MW, SOEC 3.6 kWh/Nm3 at 2.68 MW) and convert the results into kg/h and into kW of hydrogen.",
+  "solution": "Divide the power rating by the specific consumption, after converting MW into kWh per hour.\\n\\nAlkaline: 10 MW * 10^3 kWh/MWh / 4.7 kWh/Nm3 = 2,128 Nm3/h\\nSOEC: 2.68 MW * 10^3 kWh/MWh / 3.6 kWh/Nm3 = 744 Nm3/h\\n\\nIn mass terms, with the density of 0.0899 kg/Nm3:\\nalkaline 2,128 * 0.0899 = 191.3 kg/h\\nSOEC 744 * 0.0899 = 66.9 kg/h\\n\\nIn energy terms, with 33.33 kWh/kg:\\nalkaline 191.3 * 33.33 = 6,376 kW of hydrogen out of 10,000 kW of electricity in\\nSOEC 66.9 * 33.33 = 2,230 kW out of 2,680 kW in\\nwhich reproduces the 63.8 % and 83.2 % of part a and is the arithmetic check on the whole calculation.\\n\\nOver a year the difference in machine size dominates: at 4,000 full load hours the alkaline system makes about 765 t of hydrogen, the SOEC about 268 t. Unit trap: a MW is a power and a kWh/Nm3 is an energy per volume, so the quotient is a volume flow per hour; the factor 10^3 kWh/MWh is the entire conversion, and forgetting it is the classic way to lose the marks.",
+  "keywords": [
+   "2,128 Nm3/h",
+   "744 Nm3/h",
+   "191.3 kg/h",
+   "66.9 kg/h",
+   "63.8 %",
+   "10^3 kWh/MWh"
+  ]
+ },
+ {
+  "id": "b10-028",
+  "slide": 641,
+  "type": "open",
+  "prompt": "Exercise 1c. How much water does it take stoichiometrically to produce one kilogram of hydrogen? Molecular weight H 1.008 g/mol, O 15.999 g/mol. State the result with the correct unit.",
+  "solution": "Reaction: 2 H2O -> 2 H2 + O2, i.e. one mole of water per mole of hydrogen.\\n\\nMolar mass of water: 2 * 1.008 + 15.999 = 18.015 g/mol.\\nMolar mass of H2: 2 * 1.008 = 2.016 g/mol.\\nMoles of hydrogen in 1 kg: 1,000 g / 2.016 g/mol = 496 mol H2, and by the stoichiometry the same 496 mol of H2O.\\nWater required: 496 mol * 18.015 g/mol = 8,935 g = 8.94 kg of water per kg of hydrogen.\\n\\nBecause water has a density of about 1 kg/l this is also about 8.94 litres per kg of hydrogen. It is the number behind the statement of about 9 kgH2O/kgH2 on the challenges slide; with cooling and demineralisation the real demand is roughly twice as high, about 18 kgH2O/kgH2.\\n\\nCareful with the official solution sheet: it ends the calculation with \"8.94 kg / l\", which is not a unit at all. What is meant is 8.94 kg of water per kg of hydrogen, equivalently 8.94 litres per kg of hydrogen. In the exam always write the reference quantity explicitly - a specific figure without its reference is worth no marks.",
+  "keywords": [
+   "18.015 g/mol",
+   "496 mol",
+   "8.94 kg",
+   "18 kgH2O/kgH2",
+   "per kg of hydrogen"
+  ]
+ },
+ {
+  "id": "b10-029",
+  "slide": 643,
+  "type": "open",
+  "prompt": "Characterise ammonia: physical properties, natural occurrence, production volume, uses and footprint. How is it made, and where does the hydrogen for it come from today?",
+  "solution": "Ammonia NH3 is an inorganic, colourless gas with a pungent smell, caustic and corrosive. It boils at -33.34 °C, so it liquefies at ambient pressure with only moderate refrigeration, or at about 10 bar at room temperature; as a liquid its density is 0.68 kg/l. It occurs naturally, for example in the decomposition of dead plants and in animal excrement.\\n\\nWith a global production of 150 Mt/a it is one of the most common chemicals in the world. 85 % of it goes into fertiliser production, which is why ammonia is the molecule that feeds roughly half of humanity. Its production causes about 0.5 GtCO2/a, roughly 1 % of global carbon emissions, because the hydrogen comes from steam reforming of natural gas rather than from electrolysis.\\n\\nIt is produced by the Haber-Bosch process, N2 + 3 H2 -> 2 NH3.\\n\\nOne caveat on the slide: it states that 45 % of global hydrogen demand goes into ammonia. That does not square with the other figures of the lecture. 150 Mt/a of ammonia needs 150 * 0.18 = 27 Mt of hydrogen, which is about a quarter of the roughly 110 Mt/a of hydrogen produced globally, not 45 %. Quote the order of magnitude - ammonia is, after refining, the single largest hydrogen consumer - and derive the share stoichiometrically if you are asked for a number.",
+  "keywords": [
+   "-33.34",
+   "0.68 kg/l",
+   "150 Mt/a",
+   "85 %",
+   "0.5 GtCO2/a",
+   "27 Mt"
+  ]
+ },
+ {
+  "id": "b10-030",
+  "slide": 643,
+  "type": "cloze",
+  "prompt": "Global ammonia production is about ___ Mt/a, of which 85 % is used for fertiliser production.",
+  "accept": [
+   "150",
+   "150 Mt/a",
+   "150 Mt",
+   "ca. 150",
+   "approx. 150",
+   "~150",
+   "about 150"
+  ],
+  "solution": "150 Mt/a. Ammonia is one of the most produced chemicals in the world; 85 % of it becomes fertiliser (urea, ammonium nitrate), the remainder goes into plastics, explosives, refrigerants and AdBlue. That existing 150 Mt/a market is precisely why ammonia is the front-runner among the hydrogen derivatives: production, handling, shipping, terminals, regulation and trained personnel already exist at scale, with 126 ammonia terminals in place worldwide. The energy transition does not have to invent the ammonia chain, only to change the colour of the molecule - and, if hydrogen is what the customer wants, to add cracking at the far end."
+ },
+ {
+  "id": "b10-031",
+  "slide": 644,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 644 shows the bilateral ammonia trade patterns of 2023 as a Sankey diagram. Describe the trade landscape and compare it with hydrogen trade.",
+  "solution": "The Sankey plots exporters on the left and importers on the right, in USD million and per cent of the total. On the export side Trinidad and Tobago is the largest single country with 1,882 million USD or 20.84 %, followed by Saudi Arabia with 1,326 million or 14.69 %, Indonesia 10.07 %, Canada 8.73 %, the United States 6.11 %, then a long tail of Germany, the Netherlands, Malaysia, the Russian Federation and Australia between 1.4 and 3 % each; rest of world accounts for 27.78 %. On the import side the United States take 14.90 %, India 13.52 %, Morocco 9.52 %, Korea 6.33 %, Türkiye 4.76 %, Belgium 4.41 % and China 3.60 %, with rest of world at 42.95 %.\\n\\nTwo structural features. First, the trade is diversified and comparatively little regionalised, unlike hydrogen, which today barely crosses borders at all and is bound to short pipelines. Second, ammonia is a genuine global commodity, with a total trade value 38 times higher than that of hydrogen.\\n\\nA point that is easy to miss: the importers are fertiliser and industrial markets, not energy markets. Morocco imports ammonia to make phosphate fertiliser, India for urea, and the United States both export and import because of regional gas price differences. The ammonia trade already works and has worked for decades; what would be new in the energy transition is only the colour of the molecule and the intended end use, which is why ammonia is the derivative with the shortest path to a liquid international market.",
+  "keywords": [
+   "Trinidad and Tobago",
+   "Saudi Arabia",
+   "Morocco",
+   "38 times",
+   "global commodity",
+   "diversified"
+  ]
+ },
+ {
+  "id": "b10-032",
+  "slide": 645,
+  "type": "open",
+  "prompt": "Ammonia as an energy carrier: give its energy density and hydrogen content, describe the cracking process with its conditions and energy demand, and name the ways ammonia can be used directly.",
+  "solution": "Liquefied ammonia carries 5.17 kWh_LHV/kg and 3.2 kWh_LHV/l, and it contains 17.8 wt.% hydrogen (3 * 1.008 / 17.03 = 17.8 %). Per litre it beats liquid hydrogen, at 2.4 kWh/l, by about a third, and that is the entire point of making it.\\n\\nGetting the hydrogen back means cracking, 2 NH3 -> N2 + 3 H2, at high pressure of 50 - 100 bar and high temperatures of 600 - 900 °C over a catalyst, costing about 10 kWh_th/kgH2 plus 1.5 kWh_el/kgH2, plus a purification step, because fuel-cell-grade hydrogen must contain almost no residual ammonia. That is roughly 30 % of the hydrogen's own energy content, so cracking only pays where hydrogen itself is what the customer needs.\\n\\nAlternatively ammonia can be used directly: combusted in combustion engines - TRL 9 for ammonia-fuelled ships, with maiden journeys in 2025 - in fuel cells, in gas turbines, or co-fired in coal power plants, as Japan does.\\n\\nWatch a small inconsistency between the slides: 5.17 kWh/kg times the liquid density of 0.68 kg/l given on the properties slide would be 3.5 kWh/l, not the 3.2 kWh/l quoted here. The 3.2 figure corresponds to the lower density of about 0.62 kg/l that liquid ammonia has when stored under pressure at ambient temperature rather than refrigerated at -33.34 °C. Quote 3.2 kWh/l together with the storage condition and you are safe either way.",
+  "keywords": [
+   "5.17",
+   "3.2 kWh",
+   "17.8 wt.%",
+   "600 - 900 °C",
+   "10 kWh",
+   "TRL 9"
+  ]
+ },
+ {
+  "id": "b10-033",
+  "slide": 646,
+  "type": "open",
+  "prompt": "Describe the conventional (grey) ammonia production route in its four steps. Where does the nitrogen come from, and what turns grey ammonia into blue ammonia?",
+  "solution": "Step 1, steam reforming: CH4 + H2O -> CO + 3 H2. The reaction is strongly endothermic and the heat is provided by combusting methane and part of the hydrogen with air. That combustion with air is also where the nitrogen comes from: the secondary reformer is run with air, the oxygen is consumed by the combustion, and the nitrogen stays in the gas stream in roughly the ratio the synthesis needs. The conventional route therefore needs no air separation unit at all.\\n\\nStep 2, water-gas shift: CO + H2O -> CO2 + H2. The carbon monoxide is reacted with further steam to increase the hydrogen yield, and the CO2 is then washed out because it would poison the synthesis catalyst.\\n\\nStep 3, Haber-Bosch: N2 + 3 H2 -> 2 NH3, at high pressure and temperature over a catalyst.\\n\\nStep 4, carbon capture (optional): if the CO2 removed after the shift is captured and stored instead of vented, the product is blue ammonia. This is the cheapest capture in all of industry, because the stream comes off the process almost pure and has to be separated anyway; the dilute flue gas of the reformer furnace is a different matter, which is why blue plants typically capture only part of their total emissions.\\n\\nThe contrast with the renewable route lies exactly here: renewable ammonia replaces steps 1 and 2 with water electrolysis, and must then add a cryogenic air separation unit, because it no longer gets its nitrogen for free out of the combustion air.",
+  "keywords": [
+   "steam reforming",
+   "water-gas shift",
+   "combustion with air",
+   "blue ammonia",
+   "air separation",
+   "almost pure"
+  ]
+ },
+ {
+  "id": "b10-034",
+  "slide": 647,
+  "type": "open",
+  "prompt": "Describe the renewable (green) ammonia production route in its three steps with the energy demand of each, and say which step dominates the energy balance.",
+  "solution": "Step 1, water electrolysis, produces the hydrogen.\\nStep 2, air separation, produces the nitrogen, in cryogenic air separation units (ASUs) using the Linde process, with an energy demand of about 0.25 kWh/kgN2; since 1 kg of ammonia contains 0.82 kg of nitrogen this corresponds to about 0.21 kWh/kgNH3.\\nStep 3, Haber-Bosch synthesis, needs about 0.34 kWh/kgNH3, mainly for compression to 120 - 220 bar.\\nAir separation and synthesis together therefore require only about 0.55 kWh/kgNH3.\\n\\nThe electrolysis dwarfs both: about 40 - 50 kWh/kgH2, and with 0.18 kg of hydrogen per kg of ammonia this is about 8 - 10 kWh/kgNH3, i.e. some fifteen to twenty times everything else in the plant.\\n\\nThe consequence for design and for the exam: the cost and the efficiency of green ammonia are decided almost entirely by the electrolyser and by the price of the electricity feeding it. The air separation unit and the Haber-Bosch loop are close to a rounding error in the energy balance - though not in the capital cost, and above all not in the operability, since the Haber-Bosch loop is the inflexible part of the plant. Note that Exercise 2 uses a slightly different figure for steps 2 and 3, 0.6 MWh_el per tonne of ammonia, i.e. 0.6 kWh/kgNH3 instead of 0.55; either value is acceptable if you state it.",
+  "keywords": [
+   "0.25 kWh/kgN2",
+   "0.21 kWh/kgNH3",
+   "0.34 kWh/kgNH3",
+   "0.55 kWh/kgNH3",
+   "8 - 10 kWh/kgNH3",
+   "electrolyser"
+  ]
+ },
+ {
+  "id": "b10-035",
+  "slide": 648,
+  "type": "open",
+  "prompt": "The Haber-Bosch reaction converts less than 20 % of the feed per pass. Explain why, what the plant does about it, and what that means for the design of the synthesis loop.",
+  "solution": "N2 + 3 H2 -> 2 NH3 is exothermic, ΔH0 = -91.8 kJ/mol, and it reduces the number of moles from four to two. By Le Chatelier both facts push the equilibrium towards ammonia at low temperature and high pressure. But at low temperature the iron catalyst is far too slow, because splitting the very stable N2 triple bond has a high activation energy. The operating conditions of 400 - 450 °C and 120 - 220 bar are therefore a compromise between kinetics and equilibrium, and at that compromise the conversion per pass stays below 20 %. It is a thermodynamic limit, not a deficiency of the catalyst - which is why a better catalyst would not remove the recycle loop, only shift the compromise.\\n\\nThe plant's answer is exactly that recycle loop. The reactor effluent is cooled so that the ammonia condenses out (ammonia boils at -33.34 °C while nitrogen and hydrogen stay gaseous, so a simple condensation separates the product cleanly), the unconverted nitrogen and hydrogen are recompressed to make up the pressure drop and fed back to the reactor, and a small purge stream bleeds off the inert argon and methane that would otherwise accumulate.\\n\\nConsequences: the recycle compressors move several times the fresh feed, which is why compression is the dominant energy demand of the synthesis at about 0.34 kWh/kgNH3; the reactor, the condenser and the compressor form a thermally coupled system that cannot be started or stopped quickly, which is the root of the inflexibility problem; and the overall exothermic reaction lets a modern plant export steam. Stoichiometrically 1 kg of NH3 requires 0.18 kg H2 and 0.82 kg N2, and more than 90 % of global ammonia is made this way.",
+  "keywords": [
+   "-91.8 kJ/mol",
+   "400 - 450",
+   "120 - 220 bar",
+   "iron catalyst",
+   "recycle loop",
+   "purge",
+   "0.18 kg H2"
+  ]
+ },
+ {
+  "id": "b10-036",
+  "slide": 648,
+  "type": "mc",
+  "prompt": "Under which conditions does the Haber-Bosch process operate?",
+  "options": [
+   "600 - 900 °C and 50 - 100 bar over a nickel catalyst",
+   "400 - 450 °C and 120 - 220 bar over an iron catalyst",
+   "200 - 300 °C and 50 - 100 bar over a copper catalyst",
+   "150 - 200 °C and 30 - 50 bar over a platinum catalyst"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The second option: 400 - 450 °C, 120 - 220 bar, iron catalyst. The other three are the conditions of the neighbouring processes in this chapter and are worth learning as a set, because mixing them up is the most common way to lose marks here. 200 - 300 °C and 50 - 100 bar over a copper-based catalyst is the methanol synthesis; 600 - 900 °C at 50 - 100 bar is ammonia cracking; and 150 - 200 °C at 30 - 50 bar is the exothermic hydrogenation of a LOHC, whose endothermic dehydrogenation then runs at 250 - 400 °C."
+ },
+ {
+  "id": "b10-037",
+  "slide": 649,
+  "type": "open",
+  "prompt": "Why is a modern Haber-Bosch plant a problem when it is fed from renewable electricity, and what are the routes out of that problem?",
+  "solution": "The modern, high-efficiency Haber-Bosch process is optimised for constant operation and is therefore particularly inflexible: it needs a load above 75 % of nominal and tolerates load transition rates of only about 2 % per hour. The reasons are safety concerns, process instability, the energy consumption of restarts, and the lifetime of reactors, furnaces, catalysts and of the heat recovery boilers and exchangers, all of which suffer from thermal cycling. Against that stands an intermittent renewable electricity and hydrogen supply that can swing from zero to nominal within an hour.\\n\\nFour answers are listed on the slide.\\nFirst, buffers - hydrogen tanks and batteries. They can economically bridge only short-term energy variations and they rapidly increase the overall capital cost of the plant, because bridging a windless week means storing a week's worth of hydrogen.\\nSecond, increasing the flexibility of the Haber-Bosch loop itself: new catalysts with enhanced stability, replacement of the condensation step by absorptive ammonia separation so that the loop no longer has to be held at its condensation temperature, and new materials with higher thermal and mechanical stress resistance.\\nThird, the development of modular, small-scale, decentralised Haber-Bosch loops, where flexibility comes from switching individual trains on and off instead of modulating one large train.\\nFourth, implicitly, oversizing the renewable park and accepting curtailment, which is what Chifeng and Kuqa do - and which is also why Kuqa runs at less than a third of its capacity.\\n\\nIn practice a project combines them: hydrogen storage for hours to days, a synthesis loop sized on the firm rather than the peak supply, and a grid connection as backup where one is available.",
+  "keywords": [
+   "above 75 %",
+   "2 % per hour",
+   "thermal cycling",
+   "buffers",
+   "absorptive ammonia separation",
+   "modular"
+  ]
+ },
+ {
+  "id": "b10-038",
+  "slide": 650,
+  "type": "open",
+  "prompt": "Name the advantages of ammonia as an energy carrier and explain in each case which physical or economic property they rest on.",
+  "solution": "First, a higher volumetric energy density than liquid hydrogen: 3.2 kWh_LHV/l against 2.4 kWh/l, because the nitrogen atom packs the hydrogen into a much denser molecule.\\n\\nSecond, easier long-distance transport than hydrogen, thanks to the much higher boiling point: -33.34 °C instead of -253 °C. Ammonia liquefies with ordinary refrigeration, needs no vacuum-insulated cryogenic tank, and has far less boil-off; existing LPG and LNG ships can potentially be re-used.\\n\\nThird, well-experienced production, handling and transport. The world already makes 150 Mt/a of ammonia and has done so for a century, so there is essentially no technology risk in the chain from the synthesis loop to the ship.\\n\\nFourth, infrastructure re-use: 126 ammonia terminals are already in place globally, 38 export and 88 import terminals. The import side therefore does not start from zero, whereas a liquid hydrogen import terminal still has to be invented.\\n\\nFifth, limited flammability. Ammonia is hard to ignite and does not detonate readily - the opposite of hydrogen with its very wide ignition range and minimal ignition energy - which greatly simplifies the safety case on a ship or in a port.\\n\\nThe counterpart to keep in mind for the exam: everything ammonia gains in transport it gives back in the cracking step and in its toxicity, which is why the comparison with methanol and LOHC is always a comparison of where in the chain you want to pay.",
+  "keywords": [
+   "3.2 kWh",
+   "-33.34",
+   "126 ammonia terminals",
+   "38 export",
+   "88 import",
+   "limited flammability"
+  ]
+ },
+ {
+  "id": "b10-039",
+  "slide": 651,
+  "type": "open",
+  "prompt": "Name the challenges of ammonia as an energy carrier, with numbers where the lecture gives them.",
+  "solution": "First, a lower efficiency than the direct use of hydrogen: every conversion step costs energy, and ammonia adds air separation, synthesis and, at the far end, cracking to the chain.\\n\\nSecond, the cracking process is energy-intense: about 10 kWh_th/kgH2 plus about 1.5 kWh_el/kgH2, which is roughly 30 % of the hydrogen's own energy content, and it has to be paid in the importing country where energy is expensive.\\n\\nThird, the cracking process is not mature. The largest ammonia cracking plant in the world reached only 15 ktpa in 2025, at TRL 6 to 7, which is three orders of magnitude below the nameplate of a single import terminal.\\n\\nFourth, the direct usage processes - fuel cell, gas turbine, internal combustion engine - are not mature either. The first vessel powered solely by ammonia used a 200 kW engine and sits at TRL 6.\\n\\nFifth, combustion produces large amounts of NOx, a factor 100 more than methane, because the fuel itself carries nitrogen, so fuel NOx is unavoidable and every application needs selective catalytic reduction. Unburnt ammonia slip is a second emission problem and N2O, a very strong greenhouse gas, a third.\\n\\nSixth, ammonia is a corrosive, caustic and toxic substance. This is the decisive difference to methanol and to LOHC: a leak in a port is a public health event, and that drives the permitting risk more than any technical parameter does.",
+  "keywords": [
+   "10 kWh",
+   "1.5 kWh",
+   "not mature",
+   "factor 100",
+   "toxic",
+   "NOx"
+  ]
+ },
+ {
+  "id": "b10-040",
+  "slide": 652,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 652 maps the global clean ammonia projects that have reached FEED or beyond. What does FEED mean, how large is the pipeline, and how does it split between renewable and low-carbon ammonia?",
+  "solution": "FEED means front end engineering design - the basic engineering that follows the conceptual design and the feasibility study and precedes the final investment decision. A project in FEED+ therefore covers everything from FEED through FID, construction and operation, which makes it a far harder number than a mere announcement.\\n\\nThe map counts 35 mtpa of FEED+ clean ammonia capacity, roughly 30 % of the total announced 125 mtpa; a portion of it is intended for ammonia co-firing rather than for fertiliser or for cracking back to hydrogen.\\n\\nThe split by pathway: renewable ammonia has 6 mtpa committed (FID+) plus 7 mtpa in FEED, i.e. 13 mtpa in total; low-carbon ammonia has 8 mtpa committed plus 14 mtpa in FEED, i.e. 22 mtpa. Low-carbon - fossil-based with carbon capture - is thus clearly ahead in both the committed and the pre-FID part, because it can be built next to an existing steam reformer with cheap gas and a nearly pure CO2 stream. Geographically the clusters are the US Gulf Coast, the Middle East, India, China, Australia and Northwest Europe.\\n\\nThe slide adds the demand-side argument: low-emission ammonia raises the cost of a basket of food products by less than 1 % while cutting emissions by up to 30 %, at abatement costs of 50-150 USD per ton of CO2. Fertiliser, not energy, is therefore the cheapest first market for clean ammonia - the customer already exists and the price elasticity is favourable.",
+  "keywords": [
+   "front end engineering design",
+   "35 mtpa",
+   "125 mtpa",
+   "13 mtpa",
+   "22 mtpa",
+   "low-carbon"
+  ]
+ },
+ {
+  "id": "b10-041",
+  "slide": 653,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 653 lists three first-of-a-kind achievements for ammonia in 2025 with their technology readiness levels. Name them and say what each one proves.",
+  "solution": "First, shipping with an ammonia engine, TRL 6, in China: the maiden voyage of the world's first vessel powered solely by ammonia, using a 200 kW combustion engine. It proves that ammonia can be burnt as a marine fuel at all - the direct-use route, which avoids cracking entirely but has to deal with NOx and with ammonia slip.\\n\\nSecond, shipping with ammonia-to-power, TRL 4 rising to 5, in Spain and the United States: the maiden voyage of the first vessels using onboard ammonia cracking to hydrogen for fuel cell propulsion. It proves that a cracker can be miniaturised and operated on a moving platform. This is the harder of the two shipping routes, but it gives a fuel cell's efficiency and no NOx at all.\\n\\nThird, infrastructure, ammonia cracking with a reformer, TRL 6 rising to 7, in Belgium and France: the largest ammonia cracking plant, at 15 ktpa, starts operation with plans to scale up. It proves the import chain end to end, because a European ammonia import terminal is only useful for the hydrogen economy if the ammonia can be turned back into hydrogen at the quay.\\n\\nThe TRL numbers are the real message. 4 to 7 on a scale of 9 means demonstration, not commercial deployment, and 15 ktpa of cracking is about one two-hundredth of the 3 Mt/a nameplate of the Brunsbüttel import terminal. Ammonia as a hydrogen carrier is still a demonstration technology, while ammonia as a fertiliser feedstock is a century-old industry - and that asymmetry is the whole point of the derivatives chapter.",
+  "keywords": [
+   "200 kW",
+   "TRL 6",
+   "onboard ammonia cracking",
+   "15 ktpa",
+   "Belgium and France",
+   "demonstration"
+  ]
+ },
+ {
+  "id": "b10-042",
+  "slide": 655,
+  "type": "open",
+  "prompt": "The Coega Green Ammonia Plant in South Africa is a typical export project. List its components in the order of the value chain, explain why each one is needed, and give the key figures.",
+  "solution": "Announced in 2021: $4.6 bn, 780,000 t/a of ammonia production for export at Nelson Mandela Bay, built by a consortium of Hive Energy, BuiltAfrica and Linde, with full capacity to be reached in 2026.\\n\\nThe chain:\\n1. a 1,350 MW solar farm with battery storage - the primary energy source; the battery smooths the daily profile so that the downstream chemistry sees a steadier load;\\n2. seawater desalination, off-site, because electrolysis needs about 9 kg of demineralised water per kg of hydrogen, roughly double that including cooling, and the site is on an arid coast;\\n3. electrolysis, for the hydrogen;\\n4. air separation, for the nitrogen, which the green route no longer gets for free from combustion air;\\n5. Haber Bosch, for the ammonia;\\n6. the port itself, for export.\\n\\nThis is exactly the three-step renewable route of slide 647, with the two utilities - power and water - made explicit. What the component list says about the economics: 1,350 MW of solar in South Africa yields on the order of 2,500 full load hours, so the electrolyser and the synthesis loop must be sized far below the solar nameplate, and the mismatch between an intermittent supply and a Haber-Bosch loop that wants above 75 % load is precisely the problem the battery and a hydrogen buffer have to solve. The desalination unit is the item most often forgotten in exam answers, and it is the reason arid export sites have a cost item that a European plant does not.",
+  "keywords": [
+   "780,000 t/a",
+   "1,350 MW",
+   "seawater desalination",
+   "air separation",
+   "Haber Bosch",
+   "full load hours"
+  ]
+ },
+ {
+  "id": "b10-043",
+  "slide": 657,
+  "type": "cloze",
+  "prompt": "The Brunsbüttel ammonia import terminal in Germany, inaugurated in 10/2024 and operated by the Norwegian company Yara, has a capacity of ___ Mt/a.",
+  "accept": [
+   "3",
+   "3 Mt/a",
+   "3 Mt",
+   "three"
+  ],
+  "solution": "3 Mt/a. Yara inaugurated the terminal in October 2024; the company already runs fertiliser, conventional ammonia and AdBlue production in Brunsbüttel, which is exactly why the terminal was built there - an import terminal needs an anchor customer next door, otherwise the landed molecules have nowhere to go. Put the number in perspective: 3 Mt/a of ammonia corresponds to about 0.54 Mt/a of hydrogen at 0.18 kg H2 per kg NH3, or roughly 15 TWh_LHV of ammonia per year, against a German hydrogen demand in 2045 of 250 - 500 TWh. One terminal is a start, not a solution, and the ammonia it currently lands is conventional rather than green."
+ },
+ {
+  "id": "b10-044",
+  "slide": 658,
+  "type": "open",
+  "prompt": "Exercise 2a. 1 MWh of electricity is to be stored once in hydrogen and once in ammonia, via water electrolysis, air separation and Haber-Bosch. Calculate the mass and the energy content of each product. Data: density H2 0.0899 kg/Nm3; LHV H2 33.33 kWh/kg and NH3 5.17 kWh/kg; alkaline electrolysis 4.7 kWh/Nm3; air separation and Haber-Bosch 0.6 MWh_el/t_NH3; molecular weight H 1.008 g/mol, N 14.0067 g/mol.",
+  "solution": "Hydrogen route.\\nSpecific electricity demand per kg: 4.7 kWh/Nm3 / 0.0899 kg/Nm3 = 52.28 kWh_el/kgH2.\\nMass: 1,000 kWh_el / 52.28 kWh_el/kg = 19.13 kg H2.\\nEnergy content: 19.13 kg * 33.33 kWh/kg = 637.5 kWh.\\nStorage efficiency: 637.5 / 1,000 = 63.8 %, the same value as in Exercise 1a.\\n\\nAmmonia route.\\nStoichiometric hydrogen demand from N2 + 3 H2 -> 2 NH3: per 2 mol of NH3 you need 3 mol of H2, i.e. 3 * 2 * 1.008 = 6.048 g of hydrogen, while 2 mol of NH3 weigh 2 * (14.0067 + 3 * 1.008) = 34.06 g. Hence 6.048 / 34.06 = 0.178 kg H2 per kg NH3 - the 0.18 kg H2 per kg NH3 of the Haber-Bosch slide.\\nElectricity per kg of ammonia: 52.28 kWh_el/kgH2 * 0.178 kgH2/kgNH3 + 0.6 kWh_el/kgNH3 = 9.31 + 0.6 = 9.91 kWh_el/kgNH3.\\nMass: 1,000 kWh_el / 9.91 kWh_el/kgNH3 = 100.95 kg NH3.\\nEnergy content: 100.95 kg * 5.17 kWh/kg = 521.9 kWh.\\nStorage efficiency: 52.2 %.\\n\\nInterpretation: converting the hydrogen into ammonia costs about 11.6 percentage points of efficiency, 63.8 % against 52.2 %, and that is the price of transportability. The product mass is more than five times larger, but the stored energy is about 18 % lower - which is why the comparison is only decided once liquefaction, voyage losses and, if hydrogen is what the customer wants, cracking are added.\\n\\nCareful with the official solution sheet: in the ammonia step it writes \"1,000 MWh_el / [...]\". That must be 1,000 kWh_el, otherwise the result of 100.95 kg NH3 does not follow; the hydrogen step on the same page correctly uses 1,000 kWh.",
+  "keywords": [
+   "52.28",
+   "19.13 kg",
+   "637.5 kWh",
+   "0.178",
+   "100.95 kg",
+   "521.9 kWh",
+   "1,000 kWh_el"
+  ]
+ },
+ {
+  "id": "b10-045",
+  "slide": 659,
+  "type": "open",
+  "prompt": "Exercise 2b and 2c, extended. From the same 1 MWh of electricity, hydrogen must be liquefied (7 kWh_el/kgH2) before shipping from South Africa to Rotterdam, and it boils off at 0.2 % per day. Calculate the product that arrives after the 20-day voyage, compare it with the 100.95 kg / 521.9 kWh of ammonia from part a, and determine after how many days ammonia would overtake hydrogen in delivered energy.",
+  "solution": "b) The 1 MWh has to pay for electrolysis and liquefaction combined:\\n1,000 kWh / (52.28 + 7) kWh_el/kgH2 = 1,000 / 59.28 = 16.87 kg H2,\\nwith an energy content of 16.87 * 33.33 = 562.2 kWh, i.e. 56.2 % of the electricity input. Liquefaction alone eats 7 / 59.28 = 11.8 % of the input at the optimistic future value; at today's 10 - 14 kWh/kgH2 it would be roughly a third of the hydrogen's energy content, as the challenges slide states.\\n\\nc) A boil-off of 0.2 % per day over 20 days is a geometric decay:\\n16.87 kg * 0.998^20 = 16.87 * 0.9608 = 16.21 kg H2, i.e. 540.2 kWh.\\nOverall efficiency of the hydrogen chain: 54.0 %. Against the ammonia chain, which delivers 100.95 kg NH3 with 521.9 kWh and has no boil-off, hydrogen still wins after 20 days, but only by about 3.5 %.\\n\\nBreak-even: set 562.2 * 0.998^d = 521.9, so 0.998^d = 0.9283 and d = ln(0.9283) / ln(0.998) = -0.0744 / -0.002002 = 37 days. From a voyage of roughly 37 days onwards ammonia delivers more energy than liquid hydrogen.\\n\\nTwo remarks. The calculation is unfair to ammonia in one respect - it ignores the cracking energy of about 10 kWh_th/kgH2 that would be needed if the customer wants hydrogen rather than ammonia, which alone would flip the ranking immediately - and unfair to hydrogen in another, since the boil-off gas can partly be used as ship fuel. What the exam wants is the shape of the result: hydrogen starts ahead because it needs no conversion step, and it loses that lead continuously because its losses are proportional to time, whereas ammonia pays a single one-off conversion penalty and then keeps what it has.",
+  "keywords": [
+   "16.87 kg",
+   "562.2 kWh",
+   "0.998^20",
+   "16.21 kg",
+   "540.2 kWh",
+   "37 days",
+   "boil-off"
+  ]
+ },
+ {
+  "id": "b10-046",
+  "slide": 661,
+  "type": "open",
+  "prompt": "Characterise methanol: properties, natural occurrence, production volume and uses, the conventional production route and its footprint.",
+  "solution": "Methanol CH3OH is an organic, volatile, flammable liquid - an alcohol - colourless with a typical alcoholic odour. It boils at 65 °C and has a density of 0.79 kg/l, so it is a liquid at ambient pressure and temperature, which is the decisive practical advantage over both hydrogen and ammonia. It occurs naturally, for example as a metabolic product of bacteria and phytoplankton.\\n\\nGlobal production is about 98 Mt/a. Methanol is mainly a chemical precursor, above all for formaldehyde and plastics, and about 30 % is used as fuel or as a blending component. Conventionally it is produced by hydrogenation of natural-gas-based carbon monoxide, CO + 2 H2 -> CH3OH, which is exothermic. Its production causes about 0.3 GtCO2/a.\\n\\nOne blemish in the slides: the enthalpy of the methanol synthesis is given as ΔH0 = -91.8 kJ/mol, exactly the value the slides also give for the Haber-Bosch reaction. The textbook value for CO + 2 H2 -> CH3OH is about -90.5 kJ/mol, so the figure looks copied from the ammonia slide. It does not change the argument - both reactions are exothermic and both are equilibrium-limited at the temperature the catalyst needs, which is why both run at high pressure with a recycle loop - but if you are asked for the number, quote it as roughly -90 kJ/mol.",
+  "keywords": [
+   "65 °C",
+   "0.79 kg/l",
+   "98 Mt/a",
+   "formaldehyde",
+   "30 %",
+   "0.3 GtCO2/a"
+  ]
+ },
+ {
+  "id": "b10-047",
+  "slide": 661,
+  "type": "cloze",
+  "prompt": "Methanol is a liquid at ambient conditions, with a boiling point of 65 °C and a density of ___ kg/l.",
+  "accept": [
+   "0.79",
+   "0.79 kg/l",
+   "0,79",
+   "ca. 0.79",
+   "~0.79",
+   "about 0.79"
+  ],
+  "solution": "0.79 kg/l. Together with the lower heating value of 5.83 kWh/kg this gives the volumetric energy density of about 4.7 kWh_LHV/l quoted on the following slide, roughly twice that of liquid hydrogen (2.4 kWh/l) and about 45 % above liquid ammonia (3.2 kWh/l). Being a liquid at ambient pressure and temperature is what allows the potential re-use of mineral oil infrastructure: ordinary tanks, ordinary tankers, ordinary pumps and ordinary bunkering equipment - no cryogenics, no pressure vessels, no toxic gas cloud."
+ },
+ {
+  "id": "b10-048",
+  "slide": 662,
+  "type": "mc",
+  "prompt": "How is the global methanol trade structured according to slide 662?",
+  "options": [
+   "Supply comes mainly from Europe, which exports to India, Brazil and Korea.",
+   "Methanol is barely traded internationally, because it is produced where it is consumed.",
+   "Supply is dominated by coal producers such as Australia and Indonesia; the main market is the European Union.",
+   "Supply is dominated by producers of natural gas such as Trinidad and Tobago, Oman, Saudi Arabia and the United States; the main market is China with 35 % of global methanol imports in 2023."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The first option. Methanol supply follows cheap natural gas - Trinidad and Tobago, Oman, Saudi Arabia and the United States - because the conventional route starts from methane. The dominant buyer is China with about 35 % of global methanol imports in 2023, followed by India, the Netherlands, Brazil and Korea. Compare this with the ammonia trade landscape: the same gas-rich exporters reappear, Trinidad and Tobago and Saudi Arabia at the top of both lists, which is no coincidence, since both molecules are essentially packaged natural gas today. Methanol is in fact the highest volume chemical commodity shipped worldwide, which is why the shipping industry treats it as the pragmatic first low-carbon marine fuel: the vessels, the terminals and the IMO rules already exist."
+ },
+ {
+  "id": "b10-049",
+  "slide": 663,
+  "type": "open",
+  "prompt": "Methanol as an energy carrier: give the energy density and hydrogen content, describe how the hydrogen is recovered, where the carbon comes from, and how methanol can be used directly.",
+  "solution": "Methanol carries 5.83 kWh_LHV/kg and 4.7 kWh_LHV/l and contains 12.5 wt.% hydrogen. Volumetrically it is the best of the carriers in this chapter - about twice liquid hydrogen and some 45 % above liquid ammonia - and it achieves that at ambient pressure and temperature.\\n\\nHydrogen is recovered by cracking, i.e. steam reforming of methanol, which the slide puts at high pressure of 50 - 100 bar and temperatures of 600 - 900 °C, with an energy demand of about 4.5 kWh_th/kgH2 and 3.2 kWh_el/kgH2. Thermally that is less than half of ammonia cracking; electrically it is about twice as much.\\n\\nThe carbon is the crux. Methanol is organic, so the CO2 must come from direct air capture, from a point source, or from biomass gasification. Only then is the fuel potentially carbon neutral - and the lecture is deliberately careful with the wording: potentially carbon neutral, not zero carbon, because the carbon is released again on combustion and a fossil point source merely delays the emission by one use.\\n\\nDirect use is easy: in an internal combustion engine as an admixture to gasoline or as pure M100, or in a direct methanol fuel cell; and methanol derivatives such as biodiesel are already used as fuel in significant quantities.\\n\\nOne caveat on the slide: the cracking conditions of 50 - 100 bar and 600 - 900 °C are the ones given for ammonia. Industrial methanol steam reforming actually runs much milder, at roughly 250 - 350 °C, and that mildness is one of methanol's genuine advantages over ammonia. Quote the slide's numbers if asked, but know the physical point.",
+  "keywords": [
+   "5.83",
+   "4.7 kWh",
+   "12.5 wt.%",
+   "carbon neutral",
+   "M100",
+   "direct methanol fuel cell"
+  ]
+ },
+ {
+  "id": "b10-050",
+  "slide": 664,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 664 shows the block diagram of renewable methanol production. Reproduce the diagram, give the two reaction equations with their enthalpies and conditions, and state the stoichiometric input per kilogram of methanol.",
+  "solution": "Block diagram: two parallel inputs, Electrolysis (delivering hydrogen) and CO2 Capture (delivering carbon dioxide), both feeding Syngas Production, whose output goes to Synthesis, which produces the methanol.\\n\\nSyngas is a mixture of hydrogen and carbon monoxide. In the renewable route it is made from the captured CO2 by the endothermic reverse water-gas shift, rWGS:\\nCO2 + H2 -> CO + H2O, ΔH0 = +41.2 kJ/mol.\\nNote the name: it is the water-gas shift of the steam reforming route run backwards, and because it is endothermic it needs high temperature.\\n\\nThe synthesis itself runs at 50 - 100 bar and 200 - 300 °C:\\nCO + 2 H2 -> CH3OH, ΔH0 = -91.8 kJ/mol, exothermic.\\n\\nStoichiometry per kg of methanol: 0.1 kg H2 and 0.9 kg CO for the synthesis step alone; including the rWGS, which consumes one further mole of hydrogen to strip the oxygen off the CO2, 0.2 kg H2 and 1.4 kg CO2.\\n\\nThe three-to-one ratio is the key insight: three moles of hydrogen per mole of methanol, one of which is spent on making water in the rWGS rather than ending up in the product. That is a structural reason why the methanol chain has a lower efficiency than the direct use of hydrogen - and it is also why a well-designed plant recycles the water from the rWGS back to the electrolyser, and uses the exothermic heat of the synthesis to help drive the endothermic rWGS.",
+  "keywords": [
+   "rWGS",
+   "+41.2 kJ/mol",
+   "50 - 100 bar",
+   "200 - 300 °C",
+   "0.2 kg H2",
+   "1.4 kg CO2"
+  ]
+ },
+ {
+  "id": "b10-051",
+  "slide": 665,
+  "type": "open",
+  "prompt": "Compare direct air capture with point source capture: CO2 concentration, energy demand, cost, and where each makes sense.",
+  "solution": "Direct air capture works against a CO2 concentration of only 400 ppm, i.e. 0.04 %. That is a thermodynamic penalty no technology can remove, since the minimum separation work grows with the logarithm of the concentration ratio. Its energy demand is about 2 - 2.5 MWh per tonne of CO2, of which roughly 80 % is heat and 20 % electricity, so access to cheap low-temperature heat is the key to the process. The biggest plant is Climeworks' \"Orca\" in Iceland, 4,000 t/a at costs of 600 EUR/tCO2; costs might reach a level of below 100 EUR/tCO2 in the long term.\\n\\nPoint source capture takes a CO2-rich flue gas: 10 - 30 % at a cement or steel plant, 12 - 14 % at a coal power plant, only 3 - 6 % at a gas power plant. Separation is by chemical absorption, typically an amine wash, or by physical absorption. The heat demand is about 0.5 - 1 MWh/t and the electricity demand about 0.05-0.15 MWh/t, at costs of 20 - 70 EUR/t - roughly a factor of ten below DAC today. Biomass gasification is named as a third carbon source.\\n\\nWhen to use which: point source capture wherever a concentrated stream exists, because it is far cheaper; DAC where no point source sits near the cheap renewable electricity, where the carbon must be genuinely atmospheric so the fuel can be called carbon neutral, or where true negative emissions are the goal. The gas power plant figure shows the limit of point source capture: at 3 - 6 % CO2 the flue gas is already approaching the dilution problem of DAC, which is why post-combustion capture on a gas turbine is among the most expensive options in the whole CCS spectrum.",
+  "keywords": [
+   "400 ppm",
+   "2 - 2.5 MWh",
+   "600 EUR/tCO2",
+   "amine wash",
+   "20 - 70 EUR/t",
+   "3 - 6 %"
+  ]
+ },
+ {
+  "id": "b10-052",
+  "slide": 665,
+  "type": "mc",
+  "prompt": "Which CO2 concentrations does the lecture give for the different capture sources?",
+  "options": [
+   "Atmosphere 4,000 ppm, cement/steel plant 3 - 6 %, coal power plant 10 - 30 %, gas power plant 12 - 14 %",
+   "Atmosphere 0.4 %, cement/steel 30 - 50 %, coal power plant 20 - 25 %, gas power plant 10 - 15 %",
+   "Atmosphere 400 ppm (0.04 %), cement/steel plant 10 - 30 %, coal power plant 12 - 14 %, gas power plant 3 - 6 %",
+   "Atmosphere 40 ppm, cement/steel plant 1 - 3 %, coal power plant 5 - 8 %, gas power plant 12 - 14 %"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The second option. The atmosphere holds about 400 ppm, i.e. 0.04 %; cement and steel flue gas 10 - 30 %; coal power plant flue gas 12 - 14 %; gas power plant flue gas only 3 - 6 %, because a gas turbine runs with a large excess of air. This ranking explains the cost ranking directly: point source capture at 20 - 70 EUR/t against DAC at 600 EUR/t today. It also explains why cement and steel are the first serious CCS markets - they have unavoidable process CO2 at a high concentration - while capturing at a gas power plant is one of the most expensive places to do it."
+ },
+ {
+  "id": "b10-053",
+  "slide": 666,
+  "type": "open",
+  "prompt": "Slide 666 works out the carbon capture energy needed per kilogram of methanol. Reproduce the calculation for DAC and for point source capture and compare the result with the energy content of methanol.",
+  "solution": "Carbon demand: 1.4 kgCO2/kgMeOH, from the stoichiometry including the reverse water-gas shift.\\n\\nDAC: 1.4 kgCO2/kgMeOH * 2.5 kWh/kgCO2 = 3.5 kWh/kgMeOH.\\nPSC: 1.4 kgCO2/kgMeOH * 1.1 kWh/kgCO2 = 1.5 kWh/kgMeOH.\\n(2.5 kWh/kg is the upper end of the 2 - 2.5 MWh/t DAC range; 1.1 kWh/kg is the sum of about 1 MWh/t of heat and about 0.1 MWh/t of electricity for point source capture.)\\n\\nAgainst the energy density of methanol, 5.83 kWh_LHV/kgMeOH, the carbon supply alone consumes about 60 % of the product's energy content if the CO2 comes from the air, and about 26 % if it comes from a point source. And that is before the electrolysis: 0.2 kg H2 per kg of methanol at roughly 50 kWh/kgH2 is about 10 kWh/kgMeOH, by far the largest single item.\\n\\nTwo conclusions the lecture is after. First, most of the DAC demand is low-temperature heat, so the comparison is not entirely fair in exergy terms and the process should be heat-integrated - the methanol synthesis is exothermic and the rWGS endothermic, so there is real integration potential, and waste heat from a neighbouring plant can cover much of the DAC requirement. Second, and more important: e-methanol from DAC needs a total energy input well above twice its own energy content, which is why it will be reserved for aviation and shipping, where no direct electric alternative exists, and not used for heating or for road transport.",
+  "keywords": [
+   "1.4 kgCO2/kgMeOH",
+   "3.5 kWh/kgMeOH",
+   "1.5 kWh/kgMeOH",
+   "5.83",
+   "waste heat",
+   "aviation and shipping"
+  ]
+ },
+ {
+  "id": "b10-054",
+  "slide": 667,
+  "type": "open",
+  "prompt": "Name the advantages of methanol as an energy carrier and say which of them are specific to methanol, i.e. which ammonia does not share.",
+  "solution": "Methanol has a higher volumetric energy density than both liquid hydrogen and ammonia: 4.7 kWh_LHV/l against 2.4 and 3.2. It is easier to handle than either, being liquid at ambient conditions, so it needs neither cryogenics nor pressure vessels. Its production, handling and transport are well experienced - it is the highest volume chemical commodity shipped worldwide. It allows the potential re-use of mineral oil infrastructure: tanks, tankers, pipelines, pumps and bunkering equipment. Its combustion produces no SOx and no particulate matter, and comparably low NOx. A methanol fire is easily quenchable with water. Methanol is biodegradable. There are existing regulations from the International Maritime Organization, so a ship can be certified today. And methanol has a higher octane number, i.e. better knock resistance, than gasoline, which allows a higher compression ratio and therefore higher efficiency and faster vehicle acceleration - the reason it is frequently used in motorsports.\\n\\nSpecific to methanol, i.e. not shared with ammonia: liquid at ambient conditions; mineral oil infrastructure re-use; low NOx (ammonia produces a factor 100 more NOx than methane, because the fuel itself carries nitrogen); biodegradability; quenchability with water; the existing IMO regulation; and the octane advantage. Shared with ammonia: the higher volumetric density than liquid hydrogen, and a mature global production and trade.\\n\\nThe price methanol pays for all this is that it needs a carbon atom, so at best it is carbon neutral rather than zero carbon, and the carbon has to be captured at an energy cost of 1.5 to 3.5 kWh per kg of product.",
+  "keywords": [
+   "4.7 kWh",
+   "ambient conditions",
+   "mineral oil infrastructure",
+   "octane number",
+   "International Maritime Organization",
+   "carbon neutral"
+  ]
+ },
+ {
+  "id": "b10-055",
+  "slide": 668,
+  "type": "mc",
+  "prompt": "Which of the following is NOT among the challenges of methanol as an energy carrier listed on slide 668?",
+  "options": [
+   "The risk of (ground-)water contamination, because methanol is highly soluble in water",
+   "That it burns with an invisible flame",
+   "That it has to be kept at -33 °C or under pressure in order to stay liquid",
+   "The energy-intense extraction of CO2 from direct air capture or from a point source"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The third option is not a methanol challenge - it describes ammonia, which boils at -33.34 °C. Methanol is a liquid at ambient pressure and temperature, and that is its main advantage over both other carriers. The genuine challenges on the slide are: the energy-intense CO2 extraction from DAC or point source; a lower efficiency than the direct use of hydrogen, because of the extra conversion steps; that methanol is corrosive and degreasing, unlike gasoline and diesel, so seals, gaskets and fuel-system materials have to be changed; the invisible flame, a real safety problem in refuelling and firefighting; and the risk of ground water contamination, since methanol is highly soluble in water and, unlike a mineral oil spill, mixes with it rather than floating on top - which also makes it dangerous if swallowed."
+ },
+ {
+  "id": "b10-056",
+  "slide": 669,
+  "type": "cloze",
+  "prompt": "The George Olah Renewable Methanol Plant in Iceland, commissioned in 2012, was the first industrial-scale production of methanol from CO2 and large-scale electrolysis; its production capacity is ___ t/a.",
+  "accept": [
+   "4,000",
+   "4000",
+   "4,000 t/a",
+   "4000 t/a",
+   "4 kt/a",
+   "4000 t"
+  ],
+  "solution": "4,000 t/a, with a CO2 recycling capacity of 5,500 t/a, operated by Carbon Recycling International. Iceland is the natural site: geothermal power provides cheap, constant and fully renewable electricity, so the plant does not face the intermittency problem at all, and geothermal steam carries a CO2 stream that can be captured cheaply. Note the scale, because it is the point of the slide: 4,000 t/a is about one twenty-five-thousandth of the 98 Mt/a global methanol market, and about a tenth of the 42 kt/a Kassø plant that came online in 2025. Coincidentally, 4,000 t/a is also the capacity of the largest DAC plant, Climeworks' Orca, on the same island."
+ },
+ {
+  "id": "b10-057",
+  "slide": 671,
+  "type": "cloze",
+  "prompt": "The Kassø Power-to-X facility in Denmark, operational since 05/2025, is the largest e-methanol production worldwide, with a capacity of ___ kt/a.",
+  "accept": [
+   "42",
+   "42 kt/a",
+   "42 kt",
+   "42,000 t/a",
+   "42000 t/a"
+  ],
+  "solution": "42 kt/a. The plant runs a 52 MW electrolyzer fed by 304 MW of PV and wind, and consumes 60 kt/a of biogenous CO2 from local farms - so the carbon is biogenic rather than captured from the air, which is what makes the economics work at all. Investors are European Energy A/S and Mitsui, the electrolyzer comes from Siemens Energy, and the output is under binding offtake agreements with Maersk, Lego and Novo Nordisk. That offtake structure is the interesting part: buyers pay a green premium for shipping fuel and plastics feedstock, which is currently the only route by which an e-fuel plant reaches a final investment decision. Note also the ratio of 304 MW of renewables to a 52 MW electrolyzer, roughly six to one, sized so that the electrolyzer sees enough full load hours."
+ },
+ {
+  "id": "b10-058",
+  "slide": 672,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The GENA / Methanol Institute database on slide 672 gives the announced renewable and low-carbon methanol capacities for 2030. Which figures are correct?",
+  "options": [
+   "e-methanol 8.1 Mt, biomethanol 13.1 Mt, blue methanol 18.7 Mt, together 39.9 Mt, from 98 projects",
+   "e-methanol 1.0 Mt, biomethanol 4.5 Mt, blue methanol 11.3 Mt, together 16.8 Mt, from 190 projects",
+   "e-methanol 39.9 Mt, biomethanol 18.7 Mt, blue methanol 13.1 Mt, together 71.7 Mt, from 190 projects",
+   "e-methanol 18.7 Mt, biomethanol 13.1 Mt, blue methanol 8.1 Mt, together 39.9 Mt, from 190 projects"
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The first option. As of 11/2024 the database counts 190 renewable methanol projects globally, with announced 2030 capacities of 18.7 Mt of e-methanol, 13.1 Mt of biomethanol and 8.1 Mt of blue (low-carbon) methanol, i.e. 39.9 Mt in total. The pipeline chart shows how steeply that is meant to ramp: 0.8 Mt in 2023, 1.0 in 2024, 4.5 in 2025, 11.3 in 2026, 24.1 in 2027, 34.3 in 2028, 38.3 in 2029 and 39.9 Mt in 2030. Two reality checks. First, only about 50 % of these projects are judged to have a higher realisation probability, so halve the figure. Second, even the full 39.9 Mt would be about 40 % of today's 98 Mt/a conventional methanol market - ambitious, but for once an announced pipeline of the same order of magnitude as the existing market rather than a hundred times smaller, which is why methanol is often called the most realistic of the derivatives."
+ },
+ {
+  "id": "b10-059",
+  "slide": 674,
+  "type": "open",
+  "prompt": "What is a LOHC? Name the molecule pairs the lecture gives, the key figures, and the two process steps with their conditions.",
+  "solution": "A liquid organic hydrogen carrier is a liquid organic compound - a \"carrier oil\" - that can reversibly bond hydrogen. It is organic, but there is no CO2 release, because the carbon stays in the carrier molecule and the carrier is reused: it is a container, not a fuel. LOHCs are viscous liquids with flow characteristics similar to mineral oil, and many of them are by-products of oil refining.\\n\\nThe pairs, always given as lean form / rich form: methylcyclohexane MCH with toluol TOL; dibenzyltoluol H0-DBT with perhydro-dibenzyltoluol H18-DBT; benzyltoluol H0-BT (C14H14) with perhydro-benzyltoluol H12-BT (C14H26); and N-ethylcarbazole NEC with dodecahydro-N-ethylcarbazole DNEC. The number in the name counts the hydrogen atoms bound: H0-DBT is empty, H18-DBT is fully loaded with 18 hydrogen atoms, i.e. nine H2 molecules.\\n\\nKey figures: energy density about 2 kWh/kg and 1.6 kWh/l, with a hydrogen content of 4 - 7 wt.% - the lowest of all the carriers, because the heavy carrier molecule has to be transported in both directions.\\n\\nProcess: exothermal hydrogenation at 30 - 50 bar and 150 - 200 °C in the exporting country, and endothermic dehydrogenation to release the hydrogen at about 250 - 400 °C, costing 9 - 14 kWh/kgH2, in the importing country. That asymmetry is the whole economics of LOHC: the heat is released where energy is cheap and required where energy is expensive.",
+  "keywords": [
+   "reversibly",
+   "no CO2",
+   "H18-DBT",
+   "4 - 7 wt.%",
+   "1.6 kWh/l",
+   "9 - 14 kWh/kgH2",
+   "endothermic dehydrogenation"
+  ]
+ },
+ {
+  "id": "b10-060",
+  "slide": 674,
+  "type": "cloze",
+  "prompt": "In the LOHC pair dibenzyltoluol the hydrogen-lean form is written H0-DBT and the fully loaded, hydrogen-rich form is written ___.",
+  "accept": [
+   "H18-DBT",
+   "H18 DBT",
+   "H18DBT",
+   "perhydro-dibenzyltoluol",
+   "perhydro dibenzyltoluol",
+   "perhydro-dibenzyltoluene"
+  ],
+  "solution": "H18-DBT, perhydro-dibenzyltoluol. The number gives the hydrogen atoms bound to the carrier: H0-DBT is the empty carrier and H18-DBT carries 18 hydrogen atoms, i.e. nine molecules of H2 per carrier molecule, corresponding to about 6.2 wt.% hydrogen. The same convention appears in the other pairs: H0-BT (C14H14, benzyltoluol) and H12-BT (C14H26, perhydro-benzyltoluol) - note that C14H26 has twelve hydrogen atoms more than C14H14. Dibenzyltoluol is the industrially preferred carrier because it is a commercially available heat transfer oil, is not classified as hazardous, and has a very high boiling point, so it does not evaporate together with the released hydrogen."
+ },
+ {
+  "id": "b10-061",
+  "slide": 675,
+  "type": "open",
+  "prompt": "Name the advantages of LOHCs as energy carriers and explain what makes the safety argument for LOHC stronger than for hydrogen or ammonia.",
+  "solution": "LOHCs are easier to handle than hydrogen and ammonia because they are liquid at ambient conditions - no cryogenics, no pressure vessels. They allow the potential re-use of mineral oil infrastructure: tanker ships, rail and road transport and storage tanks, because the loaded carrier behaves like a mineral oil. They are hardly flammable and non-explosive, even when loaded with hydrogen, since the hydrogen is chemically bound in the molecule and cannot simply leak out. The carrier material is commercially available and reusable - it is shipped back empty and loaded again, so it is a working fluid rather than a consumable. And storage is loss-free, with no self-discharge: unlike liquid hydrogen with its 0.2 % per day boil-off, a loaded LOHC can stand in an ordinary tank for years without losing anything.\\n\\nThe safety argument is the strongest of these and it is worth stating precisely. Hydrogen is highly flammable over a very wide concentration range and ignites at extremely low energy; ammonia is toxic and caustic, so a release in a port is a public health event. A loaded LOHC is essentially a diesel-like oil: a leak is an environmental nuisance, not an explosion and not a toxic cloud, and it can be handled with the equipment, the standards and the trained personnel the oil industry already has. That is why the lecture's example company, Hydrogenious, targets shipping and small-scale container units - applications where the safety case and the permitting, not the energy density, decide whether the project happens.",
+  "keywords": [
+   "ambient conditions",
+   "mineral oil infrastructure",
+   "non-explosive",
+   "reusable",
+   "loss-free",
+   "self-discharge"
+  ]
+ },
+ {
+  "id": "b10-062",
+  "slide": 676,
+  "type": "open",
+  "prompt": "Name the challenges of LOHCs as energy carriers and explain why the dehydrogenation step is the decisive weakness.",
+  "solution": "Four challenges. First, the energy-intense, endothermal dehydrogenation process, which takes place in the energy importing country. Second, a lower energy density than hydrogen, ammonia and methanol: about 2 kWh/kg and 1.6 kWh/l, with only 4 - 7 wt.% hydrogen. Third, the dehydrogenation process is not mature. Fourth, further risks depend on the physical parameters of the chosen carrier oil - toxicity, viscosity, melting point and the behaviour of the degradation products differ from molecule to molecule, and the carrier slowly degrades over repeated cycles.\\n\\nDehydrogenation is decisive for three reasons. It costs 9 - 14 kWh/kgH2 at about 250 - 400 °C, roughly a third of the hydrogen's own energy content, and it demands that energy as high-temperature heat exactly where energy is expensive, in the importing country - whereas the exothermic hydrogenation releases its heat where energy is cheap and it is worth least. The temperature level is too high to be covered by the waste heat of a PEM fuel cell, so the plant must either burn part of the released hydrogen or find an external heat source. And the transport penalty compounds it: only 4 - 7 wt.% of the cargo is hydrogen, so a tanker carries roughly fifteen to twenty times as much carrier oil as hydrogen, and the empty carrier has to be shipped back, which doubles the shipping volume. That is why the lecture places LOHC at small demands and moderate distances rather than in the intercontinental bulk trade.",
+  "keywords": [
+   "endothermal dehydrogenation",
+   "4 - 7 wt.%",
+   "9 - 14 kWh/kgH2",
+   "250 - 400",
+   "carrier oil",
+   "shipped back"
+  ]
+ },
+ {
+  "id": "b10-063",
+  "slide": 677,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Slide 677 shows the cost surface from Reuß et al. (2019): the cost of hydrogen at the filling station as a function of hydrogen demand and of the average distance from the electrolyzer. Explain how the optimal supply chain changes across that surface and name the three regions.",
+  "solution": "The surface plots the cost of hydrogen in EUR/kg - roughly 7.2 up to more than 10.4 on the colour scale - over two axes: the demand of hydrogen, 0 to 100 t/day, and the average distance from the electrolyzer to the filling station, 0 to 500 km. It is divided into three regions, each labelled with the cheapest combination of storage and transport.\\n\\nLOHC-Tank / LOHC-Truck occupies the low-demand corner, and that corner is also the most expensive part of the surface, above 10 EUR/kg. At small throughput the fixed costs of a cavern or of a pipeline cannot be spread over enough kilograms, so the chain with the lowest capital intensity wins even though it is thermodynamically the poorest.\\n\\nGH2-Cavern / GH2-Truck takes the middle of the surface: once the demand justifies leaching a salt cavern, gaseous hydrogen stored underground and delivered in tube trailers is cheapest, as long as the distances stay moderate.\\n\\nGH2-Cavern / GH2-Pipe takes the high-demand, long-distance corner, which is also the cheapest area overall, down to about 5 - 7 EUR/kg. A pipeline is almost pure fixed cost with a negligible marginal cost per kilogram, so it needs both high utilisation and a long distance before it beats trucking.\\n\\nThe three bullets on the slide summarise exactly this: LOHC for smaller demands; transport by pipeline only for long distances combined with high demands; storage in an underground cavern for larger quantities. The economic logic is the one already used for gas and oil in this lecture - the choice between transport modes is a trade-off between fixed and variable costs, so the decisive variables are throughput and distance, not the technology as such.",
+  "keywords": [
+   "EUR/kg",
+   "100 t/day",
+   "500 km",
+   "LOHC-Tank",
+   "GH2-Cavern",
+   "GH2-Pipe",
+   "fixed and variable costs"
+  ]
+ },
+ {
+  "id": "b10-064",
+  "slide": 678,
+  "type": "cloze",
+  "prompt": "Hydrogenious LOHC Technologies, the global market leader in LOHC technology, is a German company from Erlangen founded in 2013 as a spin-off from the FAU; the carrier material it uses is ___.",
+  "accept": [
+   "benzyltoluene",
+   "benzyltoluol",
+   "BT",
+   "H0-BT",
+   "benzyl toluene",
+   "benzyl toluol"
+  ],
+  "solution": "Benzyltoluene (benzyltoluol), i.e. the H0-BT / H12-BT pair, chosen over dibenzyltoluol because of its lower viscosity and lower melting point, which suits the small-scale container units the company builds. Milestones from the slide: in 2017 the world's first LOHC plant for the storage and release of hydrogen, delivered to a US-based customer; in 2021 the joint venture \"Hydrogenious LOHC Maritime\" with the shipping company Østensjø Rederi in Norway, to establish LOHC in the shipping industry; the world's largest plant for storing green hydrogen in LOHCs at CHEMPARK Dormagen in North Rhine-Westphalia, with a capacity of 1,800 tH2 per year; and a hydrogen release plant in Bavaria with the same capacity of 1,800 tH2 per year, planned for 2028. Note the pairing of a storage plant in the Rhineland with a release plant in Bavaria: that is the LOHC business model in miniature - load the oil where the hydrogen is produced, move it with ordinary rail and road tankers, and release the hydrogen where the customer sits."
+ }
+]

@@ -1,0 +1,454 @@
+[
+ {
+  "id": "b09-001",
+  "slide": 551,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the path of electrical energy from the power plant to the household and name the voltage of every stage.",
+  "solution": "The chain has four stages: generation - transport - distribution - customer. Generators in large power plants produce at 6-21 kV; a machine transformer steps this up immediately, because transport at generator voltage would be impossible in terms of losses. Transport happens in the extra-high-voltage transmission network at 380, 220 kV, which carries the energy over long distances and connects the control areas with each other. Distribution then works downwards in three steps: the high voltage network (110 kV) supplies regions and large industry, the medium voltage network (e.g. 20, 10 kV) supplies districts, industrial estates and rail, and the low voltage level (400 V) delivers the final energy to the customer. Every step down is a transformer, and every transformer costs efficiency - which is why the German transport and transformation losses add up to about 4.7 %.",
+  "keywords": [
+   "6-21 kV",
+   "380, 220 kV",
+   "110 kV",
+   "20, 10 kV",
+   "400 V",
+   "transformer",
+   "4.7 %"
+  ]
+ },
+ {
+  "id": "b09-002",
+  "slide": 551,
+  "type": "cloze",
+  "prompt": "The German transport (transmission) network is operated at 380 kV and ___ kV.",
+  "accept": [
+   "220",
+   "220 kV",
+   "220kV"
+  ],
+  "solution": "220 kV. The transmission network works at 380 and 220 kV; 110 kV is already counted as distribution (high-voltage distribution network), even though it is called a high-voltage network as well."
+ },
+ {
+  "id": "b09-003",
+  "slide": 552,
+  "type": "cloze",
+  "prompt": "Public power grids in Europe use three-phase current at ___ Hz, in North America at 60 Hz.",
+  "accept": [
+   "50",
+   "50 Hz",
+   "50Hz"
+  ],
+  "solution": "50 Hz. Europe operates three-phase alternating current at 50 Hz, North America at 60 Hz. The operating resources of such a grid are generators, transformers, cables, switchgear, converters and the consumers themselves."
+ },
+ {
+  "id": "b09-004",
+  "slide": 553,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure shows the hierarchical structure of the energy supply system. Reproduce it: which voltage level feeds which type of consumer, and what do the two arrow colours mean?",
+  "solution": "At the top sits the maximum-voltage level, the 380 kV interconnected grid (Stromverbund) that links the large power plants (Kraftwerk) with each other and with the neighbouring countries. Below it the high voltage level, 220 kV and 110 kV, supplies research institutes and large industry as well as the railway. The medium voltage level, 20 kV, supplies industry, commerce, office and department stores. The low voltage level, 230/400 V, supplies residential houses, small businesses, agriculture and individual houses. Consumers can therefore be connected at every level, and the larger the consumer the higher the level - a smelter takes 110 kV, a household 400 V. The pink arrows pointing downwards are the apparent power flowing from generation to consumption; the green arrows pointing back upwards are the reactive power Q, which flows back and forth without doing work. The active power is the part of the apparent power that does work for the consumer, while the reactive power loads the grid and impairs the transmission of active power, which is why it is compensated with capacitors and coils.",
+  "keywords": [
+   "380 kV",
+   "220 kV",
+   "110 kV",
+   "20 kV",
+   "230/400 V",
+   "apparent power",
+   "reactive power",
+   "active power"
+  ]
+ },
+ {
+  "id": "b09-005",
+  "slide": 553,
+  "type": "cloze",
+  "prompt": "The proportion of the apparent power that actually does work for the consumer is called ___ power.",
+  "accept": [
+   "active",
+   "active power",
+   "real",
+   "real power",
+   "Wirkleistung"
+  ],
+  "solution": "Active power (Wirkleistung). It is the useful part of the apparent power; the remainder is reactive power Q, which puts a strain on the network, impairs the effective transmission of active power and therefore has to be compensated by technical measures."
+ },
+ {
+  "id": "b09-006",
+  "slide": 554,
+  "type": "open",
+  "prompt": "Describe the low-voltage and the medium-voltage network: what feeds them, what rated powers do the feeding stations have, and what determines their structure?",
+  "solution": "The low-voltage network carries out the final distribution to the customers, because the majority of electrical devices are low-voltage devices. It is fed from the higher-level medium-voltage network through network stations (Netzstationen) with a rated power of 250 kVA, 400 kVA or 630 kVA. The medium-voltage network in turn is fed from the high-voltage network through substations with a rated power of 20 to 50 MVA, and it distributes the energy via those network stations down to the low-voltage networks. What determines the structure of the networks, and also the choice of nominal voltage in the medium-voltage network, is the load density - the sum of all loads referred to the supplied area. A dense city centre therefore gets a different network topology and a different nominal voltage than a rural area with the same total load.",
+  "keywords": [
+   "250 kVA",
+   "630 kVA",
+   "20 to 50 MVA",
+   "network stations",
+   "substations",
+   "load density"
+  ]
+ },
+ {
+  "id": "b09-007",
+  "slide": 554,
+  "type": "cloze",
+  "prompt": "The parameter that gives the sum of all loads referred to the supplied area, and that decides both the structure of the networks and the choice of nominal voltage, is the ___.",
+  "accept": [
+   "load density",
+   "load-density",
+   "Lastdichte",
+   "load density parameter"
+  ],
+  "solution": "Load density (Lastdichte). It is the sum of all loads based on the supplied area; the higher it is, the higher the nominal voltage chosen for the medium-voltage network and the denser the structure of the low-voltage network."
+ },
+ {
+  "id": "b09-008",
+  "slide": 555,
+  "type": "open",
+  "prompt": "What distinguishes the high and extra-high voltage networks from the levels below them, and why is their availability so high?",
+  "solution": "The high and extra-high voltage networks are pure transport networks: they connect the power plants with the substations and the company's own transport network with those of its neighbours; they do not serve final customers. They are fed only to a small extent by individual medium- and peak-load power plants, predominantly by feed-ins from a superordinate high-voltage network, which are again called substations, with a rated power of 100 to 300 MVA. Their structure is comparatively simple - few nodes, meshed lines - and precisely this simplicity makes the extra-high voltage network particularly safe. On top of that comes a very intensive maintenance of the operating resources and a high degree of automation in network operation management, so that the availability of this level is very high. This is the level on which the (n-1) criterion is applied most strictly.",
+  "keywords": [
+   "transport networks",
+   "substations",
+   "100 to 300 MVA",
+   "availability",
+   "maintenance",
+   "automation"
+  ]
+ },
+ {
+  "id": "b09-009",
+  "slide": 556,
+  "type": "open",
+  "graphic": true,
+  "prompt": "How large are the losses of electricity transport in Germany, and how do they compare with the transport of chemical energy carriers? What does the comparison imply for a future energy system?",
+  "solution": "The transport losses for electrical energy in Germany amount to about 4.7 %, and this figure already includes the transformation losses of all the voltage-level changes, not just the ohmic losses of the lines. Referred to distance, electrical power loses 1-3 % per 1000 km. Chemical energy carriers - coal, oil, natural gas or hydrogen moved by ship, train or pipeline - lose only fractions of a percent per 1000 km. Electricity is therefore an expensive medium over long distances, which is exactly the argument used later in the lecture: electricity is a neighbourhood business, while molecules can be shipped around the globe. That is one of the three reasons for synthetic energy carriers, next to storability and hard-to-electrify applications.",
+  "keywords": [
+   "4.7 %",
+   "transformation losses",
+   "1-3 % per 1000 km",
+   "fractions of a percent",
+   "hydrogen"
+  ]
+ },
+ {
+  "id": "b09-010",
+  "slide": 556,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which statement about transport losses reproduces the comparison on the slide correctly?",
+  "options": [
+   "Electrical power loses fractions of a percent per 1000 km, chemical energy carriers 1-3 % per 1000 km.",
+   "The 4.7 % quoted for Germany are pure line losses; the transformation losses come on top of them.",
+   "Both electricity and chemical energy carriers lose 1-3 % per 1000 km; the difference lies only in the investment cost.",
+   "Electrical power loses 1-3 % per 1000 km, chemical energy carriers moved by ship, train or pipeline only fractions of a percent per 1000 km."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Electricity is the more lossy transport medium over distance: 1-3 % per 1000 km against fractions of a percent per 1000 km for coal, oil, natural gas or hydrogen by ship, train or pipeline. Option 3 simply swaps the two figures. Option 4 is wrong because the 4.7 % for Germany explicitly include the transformation losses. Option 2 contradicts the whole point of the slide, which is that the physics, not the capital cost, differs."
+ },
+ {
+  "id": "b09-011",
+  "slide": 557,
+  "type": "open",
+  "prompt": "Explain the (n-1) criterion and say what it means for the cause of a real blackout.",
+  "solution": "National power grids are planned and operated according to the (n-1) criterion: of n items of equipment, any single one - a transformer, a line, a power plant - may fail at any moment without the remaining equipment becoming overloaded and without the supply being interrupted. The system therefore always carries a reserve of one element. The consequence is that in a correctly operated system at least two events have to coincide before customers lose supply, for instance a power plant defect that also takes several transformers or lines with it. Utilities routinely name a power plant defect, damage to a line, a short circuit or a local overload as the reason for an area-wide outage - but if the (n-1) rule really worked, none of these single events would be a sufficient reason. Blackouts are thus almost always the result of a chain of failures, not of one component.",
+  "keywords": [
+   "(n-1) criterion",
+   "transformer",
+   "overloading",
+   "two events",
+   "short circuit"
+  ]
+ },
+ {
+  "id": "b09-012",
+  "slide": 558,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the NEP 2030 unit costs, estimate the investment for a 500 km HVDC link with 2 GW: once as an overhead line and once as an underground cable, in both cases including the two converter stations.",
+  "solution": "Take the NEP 2030 column. New construction of a DC overhead line costs 1.5 € million/km, new construction of a DC underground cable for 2 GW costs 4 € million/km, and a DC converter station costs 0.2 € million/MW.\n\nLine, overhead: 500 km x 1.5 € million/km = 750 € million.\nLine, underground: 500 km x 4 € million/km = 2,000 € million.\nConverter stations: 2 GW = 2,000 MW, so 2,000 MW x 0.2 € million/MW = 400 € million per station, and two stations (one at each end) give 800 € million.\n\nTotal overhead variant: 750 + 800 = 1,550 € million; total cable variant: 2,000 + 800 = 2,800 € million. The cable route is therefore roughly 1.8 times as expensive overall and 2.7 times as expensive per kilometre of route. Note also how much cheaper it is to use existing infrastructure: re-roping an existing 380 kV circuit costs 0.2 € million/km, and converting an existing AC line to DC likewise 0.2 € million/km - about one seventh of a new overhead line.",
+  "keywords": [
+   "1.5 € million/km",
+   "4 € million/km",
+   "750 € million",
+   "2,000 € million",
+   "0.2 € million/MW",
+   "converter station",
+   "1,550 € million"
+  ]
+ },
+ {
+  "id": "b09-013",
+  "slide": 558,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "According to the NEP 2030 cost estimates, which measure is the most expensive per kilometre?",
+  "options": [
+   "Conversion of an existing AC line to DC operation",
+   "New construction of a DC underground cable with 2 x 2 GW",
+   "New construction of a 380 kV double line on a new route",
+   "Circuit support / re-roping of an existing 220 kV line"
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The DC underground cable with 2 x 2 GW is listed at 8 € million/km in NEP 2030, by far the most expensive item - a single 2 GW cable already costs 4 € million/km. A new 380 kV double line on a new route costs 1.5 € million/km, re-roping an existing 220 kV circuit 0.15 € million/km and the AC-to-DC conversion 0.2 € million/km. The ranking is the reason why the grid operators fight for overhead lines and why re-use of existing routes is always the cheapest option."
+ },
+ {
+  "id": "b09-014",
+  "slide": 561,
+  "type": "open",
+  "prompt": "What was the UCTE, how did it come about, and how large was it? Which second interconnected system existed next to it?",
+  "solution": "UCTE stands for Union for the Coordination of the Transport of Electricity. Its predecessor organisation UCPTE was founded in 1951 and covered the states of Central and Western Europe plus Yugoslavia and Greece; since 1995 the Czech Republic, Slovakia, Poland and Hungary were added. In 1999 the UCPTE was transformed into the UCTE as a consequence of the liberalisation of the electricity market - the 'P' for production dropped out, because after unbundling the association coordinates only the transport, not the generation. The UCTE comprised 34 transmission system operators from 22 countries, and its task was the coordination of the operation and the expansion of the European interconnected network. Next to it stood NORDEL, the interconnected system of the Scandinavian countries: Finland, Sweden, Norway and the eastern parts of Denmark. Both have since been absorbed into ENTSO-E.",
+  "keywords": [
+   "UCPTE",
+   "1951",
+   "1999",
+   "liberalisation",
+   "34 transmission system operators",
+   "22 countries",
+   "NORDEL"
+  ]
+ },
+ {
+  "id": "b09-015",
+  "slide": 561,
+  "type": "cloze",
+  "prompt": "The interconnected system of the Scandinavian countries - Finland, Sweden, Norway and the eastern parts of Denmark - was called ___.",
+  "accept": [
+   "NORDEL",
+   "Nordel"
+  ],
+  "solution": "NORDEL. It was the Scandinavian counterpart to the continental UCTE; western Denmark belonged to the UCTE synchronous area, eastern Denmark to NORDEL. Both organisations were merged into ENTSO-E."
+ },
+ {
+  "id": "b09-016",
+  "slide": 562,
+  "type": "open",
+  "prompt": "Name and explain the tasks of the interconnected UCTE network on the real-time to short-term horizon.",
+  "solution": "Three tasks belong to the real-time and short-term horizon. First, better frequency maintenance: the larger the synchronous area, the more inertia and the more generators share a disturbance, so a given outage causes a smaller frequency deviation - this raises the quality of the electricity supply. Second, higher reliability of supply through rapid support in an emergency: a country that loses a large unit is immediately backed up by the surrounding systems. Third, higher economic efficiency by reducing the reserve holdings (rotating reserves) of each country: nobody has to hold reserve for the biggest failure alone, because the reserve is pooled across the interconnected system. The short- to medium-term tasks build on the same idea: compensation of temporal, local, meteorological and seasonal fluctuations in hydro power production, and the optimal use of power plants with respect to production costs and network losses while respecting network security.",
+  "keywords": [
+   "frequency",
+   "reliability",
+   "rapid support",
+   "rotating reserves",
+   "economic efficiency",
+   "hydraulic power plants"
+  ]
+ },
+ {
+  "id": "b09-017",
+  "slide": 563,
+  "type": "open",
+  "prompt": "Which tasks does the interconnected network fulfil on the medium- to long-term horizon?",
+  "solution": "Three medium- to long-term tasks are listed. First, the use of primary energies that are more expensive to transport than electrical energy - hydropower and lignite. Both are bound to their location: you cannot pipe a reservoir to Berlin, and lignite loses so much when transported that it is burnt at the pit. It is cheaper to convert them on site and move the electricity. Second, the compensation between the gaps of electricity demand and electricity supply, i.e. between over-investment and under-investment in generation capacity, which are mostly politically determined - one country builds too much nuclear capacity, its neighbour too little, and the interconnection evens this out. Third, the long-term economic optimisation of investments taking social and ecological aspects into account, meaning that new plants can be sited where they are cheapest and least harmful rather than where the demand happens to be.",
+  "keywords": [
+   "hydropower",
+   "lignite",
+   "over-investment",
+   "under-investment",
+   "politically determined",
+   "optimization of investments"
+  ]
+ },
+ {
+  "id": "b09-018",
+  "slide": 564,
+  "type": "open",
+  "prompt": "Trace the development of market coupling in Europe and explain what market coupling actually achieves.",
+  "solution": "Market coupling means that the day-ahead (and later the intraday) auctions of neighbouring price zones are cleared together, with the available cross-border capacity used implicitly by the algorithm instead of being auctioned separately. Electricity then always flows from the low-price to the high-price zone until either the prices converge or the interconnector is congested, which maximises welfare and removes the need for traders to buy transport capacity separately. The steps on the slide: Belgium - France - the Netherlands in 2008, extended to Germany in 2010; cross-border intraday trading in 2011 and intraday with Norway and the UK in 2012; North West European market coupling of Scandinavia, the UK and Central West Europe in 2014, immediately followed by the multi-regional coupling (MRC) with South West Europe in 2014, which opened the way to a single integrated price-coupled European day-ahead market. In 2015 CWE moved to flow-based market coupling, and in June 2021 the 4M MC countries (Czech Republic, Hungary, Slovenia, Slovakia) joined the MRC, adding couplings such as Poland-Germany and Czech Republic-Austria. Currently linked markets from 23 countries.",
+  "keywords": [
+   "day-ahead",
+   "2008",
+   "MRC",
+   "flow-based",
+   "2021",
+   "23 countries"
+  ]
+ },
+ {
+  "id": "b09-019",
+  "slide": 564,
+  "type": "cloze",
+  "prompt": "After the 4M Market Coupling countries joined the multi-regional coupling in June 2021, the coupled European market comprises linked markets from ___ countries.",
+  "accept": [
+   "23",
+   "23 countries"
+  ],
+  "solution": "23 countries. The June 2021 step connected the Czech Republic, Hungary, Slovenia and Slovakia to the MRC and added the couplings Poland-Germany, Poland-Czech Republic, Poland-Slovakia, Czech Republic-Austria, Hungary-Austria and Czech Republic-Germany."
+ },
+ {
+  "id": "b09-020",
+  "slide": 566,
+  "type": "open",
+  "prompt": "Why does the power system need system services at all? Name the physical reason, the tolerance band that has to be kept, the causes of imbalance and two system services besides control reserve.",
+  "solution": "The physical reason is that electrical energy cannot be stored to any significant extent. Feed-in and withdrawal must therefore balance permanently and at every instant; any imbalance appears immediately as a deviation of the system frequency from its target value of 50 Hz. The permitted tolerance band is 49.95 to 50.05 Hz - too much generation pushes the frequency up, too little pulls it down. Two groups of causes disturb the balance: unforeseeable events such as generation failures and grid disruptions, and forecast inaccuracies, which grow with the increasing use of stochastic energy sources, especially wind. Besides the control reserve ladder, the transmission system operators procure further system services: reactive power compensation, which keeps the voltage within its limits, and black start capability, i.e. units that can be started without any external supply to rebuild the grid after a blackout.",
+  "keywords": [
+   "cannot be stored",
+   "50 Hz",
+   "49.95 to 50.05 Hz",
+   "forecast inaccuracies",
+   "reactive power compensation",
+   "black start"
+  ]
+ },
+ {
+  "id": "b09-021",
+  "slide": 567,
+  "type": "cloze",
+  "prompt": "In the control-reserve diagram, the band that takes over from about 30 s and is fully available after up to 15 min is the ___ control band.",
+  "accept": [
+   "secondary",
+   "secondary control",
+   "secondary control reserve",
+   "Sekundaerregelung",
+   "Sekundärregelung",
+   "second"
+  ],
+  "solution": "Secondary control (Sekundärregelung). It relieves the primary control from about 30 s onwards, brings the frequency back to exactly 50 Hz and frees the primary reserve again, so it is fully available after a few minutes up to 15 min. Careful with this figure: the English label printed on the second band reads 'Primary control' a second time, which is a mistake in the slide - the German text layer underneath it says 'Sekundärregelung', and the German layer under the third band says 'Minutenreserve' for the tertiary control. Read the diagram along the time axis (5 s / 30 s / 15 min / 1 h) rather than by the English labels."
+ },
+ {
+  "id": "b09-022",
+  "slide": 567,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "From which point in time does the balancing group, rather than the transmission system operator, have to restore the balance?",
+  "options": [
+   "From 5 s",
+   "From 30 s",
+   "From 1 h",
+   "From 15 min"
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "From 1 h. The grey bar under the time axis is divided at exactly one hour: up to that point the transmission system operator procures and calls primary, secondary and tertiary (minute) reserve; beyond one hour the hourly reserve is the responsibility of the balancing group, which has to bring its own schedule back into balance. The three earlier marks 5 s, 30 s and 15 min separate the primary, secondary and tertiary bands from each other, not the responsibilities. Note that the second band is erroneously labelled 'Primary control' again in the English layer; it is the secondary control band."
+ },
+ {
+  "id": "b09-023",
+  "slide": 569,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain with the help of the load curve how a pumped storage plant works economically, and what it does to the merit order.",
+  "solution": "The figure shows a daily load curve over 24 hours and, on the right, the merit-order blocks 1 to 6 stacked by increasing marginal cost. In the night valley the plant runs in pumping operation: it adds artificial load, so the residual load curve is lifted, and the additional energy is supplied by the cheap base-load blocks 1 to 3 that are running anyway. At the midday peak the plant runs in turbine operation: it feeds back and shaves the peak, so the expensive peak-load blocks 5 and 6 are no longer needed. Comparing the load curve without pumped storage operation with the load curve with pumped storage operation, the pumped storage plant flattens the curve from both ends - it fills the valleys and shaves the peaks. The business case is exactly this price spread: buy cheap base-load energy at night, sell expensive peak energy at noon, and earn the difference minus the round-trip losses (a pumped storage plant returns roughly 75-80 % of the electricity it took in). The example on the slide is the Waldeck plant of E.ON.",
+  "keywords": [
+   "pumping operation",
+   "turbine operation",
+   "merit order",
+   "load curve",
+   "peak",
+   "spread"
+  ]
+ },
+ {
+  "id": "b09-024",
+  "slide": 570,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The diagram plots storage technologies over storage capacity and discharge duration. Reproduce its structure: which technology sits where, and what does the diagram tell you about seasonal storage?",
+  "solution": "The x-axis is the storage capacity from about 1 kWh to more than 1 TWh, the y-axis the discharge duration from 100 ms to a year; the reference marks at the top give the yearly demand of a household, a small village (100 p), a medium city (150,000 p) and Berlin (3.5 million p). Bottom left, at milliseconds to seconds and kWh, sit the electric and electro-magnetic stores, capacitors and inductors. Above them, at minutes to hours and kWh to MWh, sit flywheels and the electro-chemical batteries (lead-acid, lithium-ion, sodium-sulphur, redox-flow); thermal storage covers a broad band up to weeks. In the GWh range and hours to a day come the mechanical stores, compressed air and pumped storage. Only the chemical stores reach the far top right: cavern storage and pore storage, i.e. power-to-gas with hydrogen or methane, at TWh capacity and discharge durations of weeks to a year. The message is that no electrical or electro-chemical technology can do seasonal storage - a battery for Berlin's winter is off the chart by orders of magnitude - so seasonal balancing of a renewable system requires chemical energy carriers.",
+  "keywords": [
+   "discharge duration",
+   "storage capacity",
+   "capacitors",
+   "flywheels",
+   "pumped storage",
+   "cavern storage",
+   "power-to-gas",
+   "TWh"
+  ]
+ },
+ {
+  "id": "b09-025",
+  "slide": 570,
+  "type": "cloze",
+  "prompt": "In the storage diagram only the chemical stores reach the TWh scale and seasonal discharge durations: pore storage and ___ storage, i.e. power-to-gas.",
+  "accept": [
+   "cavern",
+   "cavern storage",
+   "salt cavern",
+   "Kavernenspeicher"
+  ],
+  "solution": "Cavern storage. Together with pore storage it forms the chemical branch of the diagram - hydrogen or synthetic methane stored underground, at TWh capacity and discharge durations of weeks to a year. Everything electric, electro-chemical or mechanical stays orders of magnitude below that."
+ },
+ {
+  "id": "b09-026",
+  "slide": 571,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows the annuity of a storage system with 1 kW and 4 kWh in three scenarios. Explain what the three scenarios are, and read off how the ranking of the technologies changes.",
+  "solution": "The costs are given as an annuity in €/kW/yr, i.e. the annualised investment of a very small reference system with 1 kW power and 4 kWh capacity, so that the technologies become comparable. The three groups on the x-axis are scenarios for the cost degression, labelled 43 %/22 %, 60 %/40 % and 90 %/60 % - the pessimistic, medium and optimistic assumption for how far the costs of the technologies still fall. Each bar is a bandwidth, not a point value. In the pessimistic scenario pumped storage is the cheapest option at roughly 100-170 €/kW/yr, while lithium batteries reach almost 290 and redox-flow batteries up to about 400 €/kW/yr. In the optimistic scenario the picture reverses: pumped storage stays where it is, because it is a mature civil-engineering technology with no learning curve left, while the batteries fall - the NaS battery down to roughly 70-95 and lithium to about 70-125 €/kW/yr, i.e. below pumped storage. The lesson is that the ranking of storage technologies is not a physical fact but a function of the assumed learning rates.",
+  "keywords": [
+   "annuity",
+   "€/kW/yr",
+   "1 kW and 4 kWh",
+   "pumped storage",
+   "lithium",
+   "redox-flow",
+   "bandwidth"
+  ]
+ },
+ {
+  "id": "b09-027",
+  "slide": 573,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the curtailment figures off the chart and explain why they are used as the argument for smart infrastructures.",
+  "solution": "The chart gives the curtailed renewable energy in Germany in GWh: total curtailment rises from 74 GWh in 2009 over 421 GWh (2011) and 555 GWh (2013) to 1,581 GWh in 2014 and 4,722 GWh in 2015 - a factor of more than 60 in six years. Almost all of it is curtailed wind onshore (4,110 of the 4,722 GWh in 2015), and the striking line is the regional one: 3,055 GWh, about two thirds of the German total, are curtailed in Schleswig-Holstein alone. That is the argument: the energy is physically there, and it is thrown away not because of a lack of demand but because the grid between the windy north and the consuming south cannot transport it. The three ways out are grid expansion, storage, and making the system smart - shifting demand to the wind, or converting the surplus into hydrogen (power-to-X) instead of switching the turbines off. In more recent years the German curtailment has settled at roughly 6 TWh per year.",
+  "keywords": [
+   "74 GWh",
+   "4,722 GWh",
+   "3,055 GWh",
+   "Schleswig-Holstein",
+   "wind onshore",
+   "grid expansion"
+  ]
+ },
+ {
+  "id": "b09-028",
+  "slide": 575,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the paradigm shift from the passive to the active network in the low and medium voltage level, and what it demands of the network operator.",
+  "solution": "The left half of the figure is the classical system: a few large power plants at the top, energy flowing strictly downwards through the voltage levels in a tree structure to the consumers at the bottom. The distribution network is purely passive - it has no generation, no measurement and no control below the substation, and the direction of the power flow is always known. The right half is the new situation: wind turbines, PV systems, biomass plants, CHP units, batteries, heat pumps and charging points sit inside the low and medium voltage network, so that every node is production and consumption at the same time, and the arrows point in both directions. The consequences for the operator are that the power flow becomes bidirectional and can reverse the voltage profile (feed-in raises the local voltage instead of lowering it), that protection settings designed for one direction no longer hold, and that the network can no longer be planned by the maximum load alone but has to be planned for the maximum feed-in as well. This is the technical reason why the distribution level needs measurement, communication and active control - i.e. why it has to become a smart grid.",
+  "keywords": [
+   "passive",
+   "active",
+   "bidirectional",
+   "voltage",
+   "decentralised generation",
+   "measurement"
+  ]
+ },
+ {
+  "id": "b09-029",
+  "slide": 576,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Name the elements of the future 'smart' power supply shown on the slide and say briefly what each contributes.",
+  "solution": "The slide lists seven building blocks. Measurements and sensors make the state of the distribution network visible in the first place - without metering there is no control. Control and communication carry that information and the set-points between the components. Energy management is the intelligence that decides what runs when, at building, plant and system level. DSM (demand side management) shifts load in time so that consumption follows generation instead of the other way round. Storage buffers the surplus over minutes to days. Power to X (gas, heat, mobility) couples the sectors and takes the surplus that storage and grid cannot absorb - it is the only path to seasonal amounts of energy. Smart network elements (FACTS, flexible AC transmission systems) are the power-electronic devices that actively control voltage, reactive power and load flow in the grid itself. Together they replace the old principle 'generation follows load' by a system in which grid, load, storage and conversion are all controllable.",
+  "keywords": [
+   "measurements and sensors",
+   "control and communication",
+   "energy management",
+   "DSM",
+   "storage",
+   "Power to X",
+   "FACTS"
+  ]
+ },
+ {
+  "id": "b09-030",
+  "slide": 576,
+  "type": "cloze",
+  "prompt": "Shifting consumption in time so that the load follows the generation instead of the other way round is called ___ (abbreviated DSM).",
+  "accept": [
+   "demand side management",
+   "demand-side management",
+   "DSM",
+   "Lastmanagement"
+  ],
+  "solution": "Demand side management (DSM). It is one of the seven smart elements on the slide, next to measurements and sensors, control and communication, energy management, storage, power to X and smart network elements (FACTS). DSM is attractive because it uses flexibility that already exists in the loads and needs no new energy conversion."
+ }
+]

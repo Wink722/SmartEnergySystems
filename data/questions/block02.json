@@ -1,0 +1,1001 @@
+[
+ {
+  "id": "b02-001",
+  "slide": 72,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the trilemma of energy policy and mark the IDEAL case in it. Name the three axes, say where the ideal polygon lies on each of them, and explain why the three goals form a trilemma rather than a simple list of aims.",
+  "solution": "The figure is a triangle spanned by three goals, one per axis: security of supply, sustainability and price. Each axis runs from 'low' in the centre of the triangle to 'high' at the corner.\n\nThe IDEAL polygon reaches out to 'high' on the security-of-supply axis and to 'high' on the sustainability axis, but stays in the centre, at 'low', on the price axis. In words: supply is always available, the system is clean, and energy is cheap at the same time.\n\nIt is a trilemma because the three goals are in conflict pairwise, so improving one normally costs one of the others. More sustainability means building renewables, storage and grids, which raises the price; more security of supply means redundant capacity, reserves and diversified import routes, which again raises the price; pushing the price down means cheap fuel, thin reserve margins and no premium for low emissions, i.e. it eats into both other corners. Energy policy therefore never optimises one number, it chooses a point inside the triangle, and regulation is the instrument that fixes the weighting.\n\n(Note: the slide's heading contains the typo 'Security of Suply'.)",
+  "keywords": [
+   "security of supply",
+   "sustainability",
+   "price",
+   "trilemma",
+   "conflict",
+   "low"
+  ]
+ },
+ {
+  "id": "b02-002",
+  "slide": 72,
+  "type": "cloze",
+  "prompt": "The conflict between the three goals security of supply, sustainability and price is called the ___ of energy policy.",
+  "accept": [
+   "trilemma",
+   "energy trilemma",
+   "trilemma of energy policy",
+   "Trilemma",
+   "Zieldreieck"
+  ],
+  "solution": "Trilemma of energy policy. The three corners of the triangle are security of supply, sustainability and price; the ideal case would be high security, high sustainability and a low price simultaneously, which is exactly what cannot be had - hence 'trilemma' and not 'goal'."
+ },
+ {
+  "id": "b02-003",
+  "slide": 73,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the '(currently) REAL' trilemma figure with the IDEAL one of the previous slide. Which corner has moved, in which direction, and what does that say about the current state of the European energy system?",
+  "solution": "In the IDEAL figure the polygon is stretched out to 'high' on the security-of-supply and sustainability axes but pulled back to the centre, i.e. to 'low', on the price axis.\n\nIn the REAL figure the polygon is pulled outwards along the price axis: the price is high, not low. At the same time the polygon no longer reaches the corners on the other two axes - security of supply sits at a medium level and sustainability only reaches roughly the middle of its axis. The area of the real polygon is visibly smaller and lopsided towards the expensive corner.\n\nReading: the system currently pays a high price and gets neither full security of supply nor full sustainability in return. The gap between the two figures is the political agenda - it is the reason for market design changes, for network regulation and for the subsidy and tendering instruments the Bundesnetzagentur administers. The picture also shows why the trilemma is drawn at all: every measure that pushes one corner outwards has to be paid for on another axis.",
+  "keywords": [
+   "price is high",
+   "security of supply",
+   "sustainability",
+   "medium",
+   "IDEAL"
+  ]
+ },
+ {
+  "id": "b02-004",
+  "slide": 74,
+  "type": "open",
+  "prompt": "Before a market is regulated at all, three criteria are reviewed. Name them and explain each one, including the factors that make a market 'vulnerable'.",
+  "solution": "The three review criteria of regulation are:\n\n1. Natural monopoly - one supplier can serve the whole market more cheaply than several, because of subadditive costs: the pipeline or the cable is built once and duplicating it would only duplicate the fixed costs. Networks are the textbook case, which is why the network, not the commodity, is regulated.\n\n2. Vulnerability of a market - how easily new companies can actually enter. It is determined by irreversible costs (sunk cost), cost differences from learning effects, technological advantages, information asymmetries, and the willingness of customers to switch, which brand names or long-term contracts can suppress. A market that is legally open but has high sunk cost and captive customers is not contestable, so opening it formally is not enough.\n\n3. Essential facility - a facility is essential when it is indispensable for reaching customers or for letting competitors do business, when it is not otherwise available in the market, and when it cannot reasonably be recreated with economic means. The transmission grid, the gas transport system and an LNG terminal are the classic examples.\n\nOnly if these criteria are met is regulation - network access, unbundling, tariff control - justified; where they are not, competition law is sufficient.",
+  "keywords": [
+   "natural monopoly",
+   "vulnerability",
+   "sunk cost",
+   "information asymmetries",
+   "essential facility",
+   "indispensable"
+  ]
+ },
+ {
+  "id": "b02-005",
+  "slide": 75,
+  "type": "mc",
+  "prompt": "Which authorities does the lecture name as responsible for energy regulation in Germany and in Europe?",
+  "options": [
+   "The Federal Ministry for Economic Affairs and Climate Action together with the Bundesnetzagentur for Germany, and the EU Commission together with ERGEG/ACER for Europe.",
+   "The Federal Cartel Office (Bundeskartellamt) for Germany and the European Central Bank for Europe.",
+   "The Federal Ministry for Digital and Transport for Germany, and DG Competition for Europe.",
+   "The Bundesnetzagentur alone for Germany, and the national grid operators' association ENTSO-E alone for Europe."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Germany: the Federal Ministry for Economic Affairs and Climate Action (BMWK) and the Bundesnetzagentur. The Bundesnetzagentur for Electricity, Gas, Telecommunications, Post and Railway is an independent higher federal authority seated in Bonn, operating within the remit of the BMWK and the Federal Ministry for Digital and Transport (BMDV), and has been responsible for the essential electricity, gas, telecommunications and postal infrastructures for over 20 years. Europe: the EU Commission plus ERGEG (European Regulators' Group for Electricity and Gas) and ACER (Agency for the Cooperation of Energy Regulators).\n\nThe Bundeskartellamt is the general competition authority, not the sector regulator; the ECB and ENTSO-E have no regulatory mandate in energy; the BMDV is only co-responsible for the agency, not the regulator itself. Note that ERGEG was wound up in 2011 when ACER took over its role, so listing both side by side is historical."
+ },
+ {
+  "id": "b02-006",
+  "slide": 76,
+  "type": "open",
+  "prompt": "Name the tasks and the objectives of the Bundesnetzagentur in the energy sector as the lecture lists them, and explain why access regulation and competition are treated as one package.",
+  "solution": "Tasks (energy): it supports the energy transition, endeavours that Germany's electricity supply is maintained, regulates access to the networks for new providers, and safeguards competition.\n\nObjectives: ensuring a network-based supply of electricity and gas for the general public that is as secure, low-priced, consumer-friendly, efficient and environmentally compatible as possible; and safeguarding effective and genuine competition in the supply of electricity and gas.\n\nThe two belong together because the network is the natural monopoly in the middle of an otherwise competitive chain. Generation, wholesale and retail can be competitive, but every supplier has to use the same wires or pipes. If the network owner can refuse access, discriminate on terms or set the tariff freely, it exports its monopoly into the competitive stages. Regulating third party access and the network tariff is therefore not a separate objective from competition - it is the precondition for it. The wording of the objectives is also a direct restatement of the trilemma: secure, low-priced and environmentally compatible at once.",
+  "keywords": [
+   "energy transition",
+   "access to the networks",
+   "safeguards competition",
+   "secure",
+   "low-priced",
+   "environmentally compatible"
+  ]
+ },
+ {
+  "id": "b02-007",
+  "slide": 77,
+  "type": "cloze",
+  "prompt": "By regularly confirming a ___ and by monitoring planned power plant closures, the Bundesnetzagentur creates the framework conditions for keeping the electricity supply secure.",
+  "accept": [
+   "grid reserve",
+   "grid-reserve",
+   "Netzreserve",
+   "network reserve",
+   "reserve"
+  ],
+  "solution": "Grid reserve (Netzreserve). Power plants that would be closed for commercial reasons but are needed to keep the network stable are kept available and are called on by the transmission system operators. The Bundesnetzagentur confirms the required volume regularly and has to approve or refuse announced closures, which is the instrument by which the security-of-supply corner of the trilemma is defended while the generation fleet changes."
+ },
+ {
+  "id": "b02-008",
+  "slide": 78,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Using the table of European regulatory authorities: which pairing of country and energy regulator is correct?",
+  "options": [
+   "Italy - AEEG; Poland - URE",
+   "France - Ofgem; United Kingdom - CRE",
+   "Spain - ERSE; Portugal - CNE",
+   "Austria - ElCom; Switzerland - E-Control"
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Italy is regulated by the Autorita per l'energia elettrica e il gas (AEEG) and Poland by the Urzad Regulacji Energetyki (URE).\n\nThe other rows are swapped: Ofgem (Office of Gas and Electricity Markets) is British and the Commission de regulation de l'energie (CRE) is French; E-Control is Austrian and ElCom is Swiss; the Comision Nacional de Energia (CNE) is Spanish and the Entidade Reguladora dos Servicos Energeticos (ERSE) is Portuguese. Germany appears with the Bundesnetzagentur, and at EU level the table lists DG Energy, ACER and ERGEG. The point of the table is that every member state has its own national regulator, which is why ACER exists to coordinate them for cross-border questions."
+ },
+ {
+  "id": "b02-009",
+  "slide": 79,
+  "type": "open",
+  "prompt": "Distinguish light-handed from heavy-handed regulation, give the example the lecture gives for each, and explain what normative regulatory theory adds.",
+  "solution": "Light-handed regulation: no regulatory authority is legally mandated for the sector. The tasks are carried out by other bodies - general competition authorities and the courts - which intervene only ex post, when abuse is alleged. Examples: New Zealand, and Germany's energy and railway sectors until 2005, where network access was arranged by negotiated agreements between the associations rather than by a regulator.\n\nHeavy-handed regulation: a regulatory authority determines the regulatory basis and the instruments itself and acts ex ante. Example: European telecommunications regulation. The risk here is overregulation - the authority regulates more, longer and more finely than the market failure justifies, and it accumulates its own institutional interest in doing so.\n\nNormative regulatory theory is the answer to both failure modes: it asks how far the competence of a regulatory authority should reach, and limits it, so that neither systematic overregulation nor systematic underregulation occurs. The practical translation is a sunset logic - regulate where and while a natural monopoly, a vulnerable market or an essential facility exists, and withdraw where it does not.",
+  "keywords": [
+   "light-handed",
+   "competition authorities",
+   "heavy-handed",
+   "overregulation",
+   "Normative Regulatory Theory",
+   "New Zealand"
+  ]
+ },
+ {
+  "id": "b02-010",
+  "slide": 80,
+  "type": "mc",
+  "prompt": "Which line assigns the five regulatory procedures of the lecture correctly to the two families?",
+  "options": [
+   "Cost-based: rate-of-return, cost-plus. Incentive-based: price cap, revenue cap, yardstick competition.",
+   "Cost-based: rate-of-return, price cap. Incentive-based: cost-plus, revenue cap, yardstick competition.",
+   "Cost-based: cost-plus, revenue cap. Incentive-based: rate-of-return, price cap, yardstick competition.",
+   "Cost-based: yardstick competition, cost-plus. Incentive-based: rate-of-return, price cap, revenue cap."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Cost-based regulation comprises rate-of-return regulation and cost-plus regulation; incentive-based regulation comprises price-cap regulation, revenue-cap regulation and yardstick competition.\n\nThe split is defined by the objective, and that is the sentence worth memorising: the objective of the cost-based family is an adequate return on invested capital, the objective of the incentive-based family is the decoupling of the direct connection between costs and regulated tariffs. As soon as the allowed price or revenue is fixed in advance and no longer follows the company's own cost, every euro saved stays with the company - that is the incentive."
+ },
+ {
+  "id": "b02-011",
+  "slide": 80,
+  "type": "cloze",
+  "prompt": "The stated objective of incentive-based regulation is the ___ of the direct connection between costs and regulated tariffs.",
+  "accept": [
+   "decoupling",
+   "decouple",
+   "decoupling",
+   "Entkopplung",
+   "separation"
+  ],
+  "solution": "Decoupling. Under cost-based regulation the tariff follows the company's own costs, so saving money only lowers the allowed revenue and cost reduction is pointless. Incentive-based regulation breaks that link: the allowed price (price cap), the allowed total revenue (revenue cap) or the required productivity gain (yardstick competition) is set in advance and independently of the individual firm's costs, so cost reductions turn into profit. The counterpart objective on the cost-based side is an adequate return on invested capital."
+ },
+ {
+  "id": "b02-012",
+  "slide": 81,
+  "type": "open",
+  "prompt": "Explain how the allowed return is determined under rate-of-return regulation, how the regulator reacts if the realised return is too high or too low, and why the permitted return must be higher than the risk-free market interest rate.",
+  "solution": "The regulator prescribes a return on capital that the company may not exceed. The measured quantity is Return on capital = Net income / (Value of assets and facilities), i.e. the profit related to the book value of the regulated asset base.\n\nThe control loop: if the realised return on capital turns out too high, the regulator orders price reductions; if it is too low, price increases are allowed. Formally the firm therefore performs monopolistic profit maximisation under the constraint of an upper limit on the return on capital.\n\nThe permitted return is called a 'fair' return and has to be greater than the risk-free market interest rate, because the investor carries entrepreneurial risk - demand risk, regulatory risk, technical risk - and would otherwise simply buy government bonds. If the regulator sets the rate too low, the company stops investing and the network deteriorates; that is the underregulation failure mode.\n\nThe weaknesses of the procedure are the Averch-Johnson effect (excessive capital and hence a distortion of the factor mix), the absence of any incentive for a more efficient factor allocation or for reducing operating costs, and information and control problems in implementation - the regulator cannot verify which costs were really necessary.",
+  "keywords": [
+   "Return on capital",
+   "Net income",
+   "price reductions",
+   "price increases",
+   "risk-free market interest rate",
+   "upper limit"
+  ]
+ },
+ {
+  "id": "b02-013",
+  "slide": 82,
+  "type": "open",
+  "prompt": "Describe cost-plus regulation and its three incentive problems. Then name the two problems that the lecture attributes to cost-based procedures in general.",
+  "solution": "Cost-plus regulation restricts the revenue of the regulated company to a markup ('mark-up') on its actual costs. Whatever the company spends is reimbursed, plus a margin.\n\nThe three incentive problems follow directly from that construction:\n- no incentive for cost minimization, because saved costs simply reduce the reimbursed amount;\n- an incentive for revenue maximization, because the margin grows with the cost base;\n- an incentive for inefficient resource allocation, because expensive inputs are as fully covered as cheap ones.\nOn top of that come the implementation problems: information and control problems, since the regulator cannot distinguish a necessary cost from a padded one.\n\nFor cost-based procedures in general the lecture names: information asymmetries, i.e. the classic Principal-Agent problem between regulator (principal) and company (agent), which knows its own costs far better; and the return/risk question together with the uncertainty of companies about the credibility of the regulator - if firms do not believe that the regulator will honour the allowed return over the life of an asset, they will not invest, no matter what the formula says.",
+  "keywords": [
+   "mark-up",
+   "actual costs",
+   "cost minimization",
+   "revenue maximization",
+   "Principal-Agent",
+   "credibility"
+  ]
+ },
+ {
+  "id": "b02-014",
+  "slide": 83,
+  "type": "cloze",
+  "prompt": "Under price-cap regulation the permitted price is raised by the inflation rate but reduced by a discount that reflects productivity improvements. This discount is called the ___.",
+  "accept": [
+   "efficiency factor X",
+   "efficiency factor",
+   "X factor",
+   "X-factor",
+   "factor X",
+   "X"
+  ],
+  "solution": "The efficiency factor X (the X in the RPI - X formula). The cap is set for a whole regulatory period; surcharges reflect the inflation rate, discounts reflect the efficiency factor X, so the allowed price falls in real terms every year and the company keeps whatever it saves beyond X. The cap is usually applied not to a single tariff but to the average price of several products. The historic example is the privatisation of British Telecom in the United Kingdom in 1984."
+ },
+ {
+  "id": "b02-015",
+  "slide": 84,
+  "type": "open",
+  "prompt": "Explain revenue-cap regulation: what exactly is capped, how the cap is adjusted, and why a quantity forecast is needed. Use the profit identity of the slide and state the specific problem of the procedure.",
+  "solution": "Under a revenue cap an upper limit is set for the total revenue that the network operator may earn in the regulatory period, derived primarily from the company's revenues in the previous period. The profit identity behind it is G = E - K = p * q - K: profit equals revenue minus cost, and revenue is price times quantity.\n\nAdjustment of the cap: discounts reflecting an efficiency factor X for productivity improvements, surcharges based on the inflation rate, and an adjustment for exogenous cost influences that the operator cannot control.\n\nA quantity forecast is needed because the operator does not sell 'revenue', it sells transported units at a tariff. To turn the allowed revenue into a tariff, future quantity developments have to be estimated: p = allowed revenue / forecast q.\n\nThe specific problem: if the actual quantities deviate from the forecast - a warm winter, seasonal consumption fluctuations, a large customer leaving - the realised revenue misses the cap and the prices must be recalculated, usually with a lag of one or two years and a regulatory account for the difference.\n\nThe advantage over the price cap is exactly the counterpart: because the total revenue and not the unit price is capped, the operator no longer profits from selling more volume, which is what makes a revenue cap compatible with energy-efficiency policy.",
+  "keywords": [
+   "upper limit",
+   "total revenue",
+   "previous period",
+   "efficiency factor X",
+   "inflation rate",
+   "recalculated"
+  ]
+ },
+ {
+  "id": "b02-016",
+  "slide": 85,
+  "type": "open",
+  "prompt": "Explain yardstick competition: the prerequisite, the mechanism, why it is said to give continuous incentives, and its two problems.",
+  "solution": "Prerequisite: comparability of the regulated companies with regard to their efficiency level, i.e. they must be genuinely comparable. Without a peer group of firms doing roughly the same job under roughly the same conditions, the benchmark means nothing - which is why structural parameters such as network length, customer density and topography have to be corrected for first.\n\nMechanism: each regulated company is given an efficiency target for every year which is derived from the average productivity improvement of the Peer Group. All companies must then reduce their prices by that determined productivity improvement rate. The decisive property is that the price is based on a measure outside the control of the respective company - it cannot influence the benchmark by its own behaviour, so it cannot game the formula the way it can game its own reported costs.\n\nIncentives are continuous because the yardstick is recalculated from the peer group again and again, instead of being reset only at the end of a regulatory period; and both ex ante and ex post supervision are feasible.\n\nProblems: the procedure assumes timely implementation - a benchmark based on stale data punishes or rewards the wrong firms; and it creates an incentive for 'coordination' of investments between the regulated companies, i.e. the peer group can collectively slow down, since every firm's target depends on what the others do. That is a cartel risk built into the instrument.",
+  "keywords": [
+   "comparability",
+   "Peer Group",
+   "productivity improvement",
+   "outside the control",
+   "ex ante",
+   "coordination"
+  ]
+ },
+ {
+  "id": "b02-017",
+  "slide": 86,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide sorts German energy law into blocks. Name the three sector-specific blocks, give two examples for each, and say where the EnWG and its ordinances belong.",
+  "solution": "The figure has three sector-specific columns plus a column of general rules:\n\n1. Competition law (WettbR): the EC Treaty (EGV), the Act against Restraints of Competition (GWB), the vertical block exemption regulation (VertikalVO) and the VWG. This is the general antitrust layer that applies to energy companies like to anyone else.\n\n2. Energy law in the narrow sense (EnergieR i. e. S.): the European electricity and gas directives (EltRL, GasRL), the acceleration directive (Beschleunigungsrichtlinie Elt/Gas) and the third package, and on the German side the Energiewirtschaftsgesetz (EnWG) with its ordinances - StromNZV and GasNZV (network access conditions), StromNEV and GasNEV (network tariffs), NAV/NDAV (connection), ARegV (incentive regulation ordinance), Strom/GasGVV (basic supply), AVBFernwaermeV, KAV and MessZV. Alongside stand EnSG, AtG, the Grid Code and the Distribution Code.\n\n3. Energy environmental law (EnergieumweltR): StromStG and MinOeStG (electricity and mineral oil tax), KWKModG (cogeneration) and EEG/EEWaermeG (renewables).\n\nThe EnWG is the centre of the middle column: it is the framework act, and the detailed rules that a network operator actually works with - access conditions, tariff calculation, the incentive regulation formula - are in the ordinances hanging below it. The general column (BGB, PAngVO) applies on top of everything, since a gas contract is still a contract.",
+  "keywords": [
+   "EnWG",
+   "ARegV",
+   "GasNZV",
+   "competition law",
+   "EEG",
+   "ordinances"
+  ]
+ },
+ {
+  "id": "b02-018",
+  "slide": 87,
+  "type": "cloze",
+  "prompt": "The first German Energiewirtschaftsgesetz was enacted in ___ and stayed in force until 1998.",
+  "accept": [
+   "1935"
+  ],
+  "solution": "1935. The development runs: 1857 the municipal gas works in Osnabrueck lights streets and squares; 1857-1884 individual installations per house or block; 1884 the start of public electricity supply in Berlin with the award of a concession, from which a system of concession and permission contracts on a private-law basis grew; 1935 the Energiewirtschaftsgesetz codifies that system, and it remains in force until the liberalisation act of 1998. Sixty-three years of a closed, area-monopoly regime is the baseline against which everything after 1998 is measured."
+ },
+ {
+  "id": "b02-019",
+  "slide": 88,
+  "type": "mc",
+  "prompt": "Which sequence of milestones of the German Energiewirtschaftsgesetz is correct?",
+  "options": [
+   "EnWG 1998 (gas) - 1st amendment 2003 (electricity) - 2nd amendment 2009 - 3rd package 2012.",
+   "EnWG 1935 - EnWG 1998 - 1st amendment 2005 (gas) - 2nd amendment 2011.",
+   "EnWG 2003 - 1st amendment 2005 - 2nd amendment 2009 - 3rd package 2011.",
+   "EnWG 1998 (electricity) - 1st amendment 2003 (gas) - 2nd amendment 2005 - implementation of the 3rd internal market package in July 2011."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "The order on the slide is: Energiewirtschaftsgesetz 1998, driven by the EU electricity directive and aimed at electricity; the first amendment in 2003, which brought gas; the second amendment in 2005, which replaced negotiated network access by regulated access and created the regulator's competence; and July 2011, the implementation of the third internal market package, producing the EnWG 2011 (followed by the 2012 version).\n\n2005 is the year to remember: before it, German network access was organised by the Verbaendevereinbarungen, i.e. light-handed regulation; from it, the Bundesnetzagentur regulates ex ante."
+ },
+ {
+  "id": "b02-020",
+  "slide": 89,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The timeline puts EU acts on one side and German acts on the other. Describe how the two interact between 1996 and 2011, and name the change of regime that happened in 2005.",
+  "solution": "The pattern is always the same: Europe legislates, Germany transposes with a delay of one to two years.\n\n1996 EU internal market directive for electricity, 1998 the corresponding directive for gas - Germany answers with the EnWG amendment of 1998. Network access, however, was not regulated by an authority but organised from 1998 to 2003 by the Verbaendevereinbarungen, the agreements between the industry associations: negotiated third party access, i.e. light-handed regulation.\n\n2003 the EU acceleration directives for electricity and gas and the electricity trading regulation, plus the first amendment of the EnWG 1998 for gas. 2005 the second amendment of the EnWG: this is the change of regime - from negotiated to regulated network access, with the Bundesnetzagentur as the sector regulator acting ex ante. 2005/2006 the implementing ordinances follow: network access conditions and network tariffs for gas and electricity, the basic supply ordinance and the connection ordinance. 2009 the third EU energy internal market package and the EU gas network access regulation, transposed in 2010/2011 into the EnWG 2011 and 2012.\n\nThe lesson for the exam: liberalisation (opening the market) and regulation (controlling the remaining monopoly) are two different steps, and Germany did the first in 1998 and the second only in 2005.",
+  "keywords": [
+   "1998",
+   "Verbaendevereinbarungen",
+   "2005",
+   "regulated network access",
+   "Bundesnetzagentur",
+   "third"
+  ]
+ },
+ {
+  "id": "b02-021",
+  "slide": 90,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the Eurostat curve of household electricity prices (EU-27, consumption between 2,500 and 5,000 kWh) and describe its shape from 2007 to 2022. What happens at the end of the series and why does it matter for the trilemma?",
+  "solution": "The curve starts at roughly 0.12 €/kWh in 2007-S1, rises slowly and then runs almost flat at about 0.125 to 0.13 €/kWh from 2012 until 2020 - more than a decade in which the household electricity price hardly moved in nominal terms. The euro area line runs consistently one to two cents above the EU-27 line over the whole period.\n\nFrom 2021-S1 the curve turns sharply upward and by 2022-S1 it reaches close to 0.20 €/kWh, an increase of roughly 50 % within about a year - by far the steepest movement in the fifteen years shown. The driver is the gas price, because gas-fired plants set the marginal price in the merit order for many hours of the year, so a gas crisis propagates into the electricity price.\n\nRelevance for the trilemma: the price corner, which had been quiet for a decade, moved violently, and it moved because of a security-of-supply event. That is the empirical demonstration that the three goals are coupled - and it is the reason why the 'currently REAL' trilemma figure is drawn with the price high and the other two corners only medium.",
+  "keywords": [
+   "0.12 €/kWh",
+   "flat",
+   "2022",
+   "0.20 €/kWh",
+   "euro area",
+   "gas price"
+  ]
+ },
+ {
+  "id": "b02-022",
+  "slide": 91,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The Eurostat chart of European household gas prices shows four lines: prices including taxes, prices excluding taxes, and both of them adjusted for inflation to the 2008-S1 base. What do the four lines together tell you about the composition and the real development of the gas price?",
+  "solution": "The two upper curves are the prices including taxes, the two lower ones the prices excluding taxes; the difference between them is the tax, levy and VAT wedge. Before the crisis the gas price including taxes runs at roughly 0.065 to 0.070 €/kWh while the price excluding taxes is only about 0.042 to 0.045 €/kWh - so about a third of what the household pays is not the commodity at all but taxes and levies. That share is a political variable and it is the fastest lever a government has on the price corner of the trilemma.\n\nThe development: both curves are almost flat from 2008 to 2021, then rise steeply, and the price including taxes peaks at almost 0.12 €/kWh in 2022-S2 and 2023-S1 - roughly a doubling. The price excluding taxes rises even more steeply in relative terms (from about 0.042 to about 0.098 €/kWh), which shows the shock came from the commodity, and that several governments cut gas taxes at the same time, damping the price the customer saw.\n\nThe two lines adjusted for inflation, indexed to 2008-S1, run visibly flatter and stay close to the starting level until 2021: in real terms the household gas price was roughly constant for more than a decade. Only the 2022 spike is real and not a monetary illusion. Always distinguish nominal from real when arguing about energy prices in the exam.",
+  "keywords": [
+   "including taxes",
+   "excluding taxes",
+   "0.12 €/kWh",
+   "adjusted for inflation",
+   "flat",
+   "2022"
+  ]
+ },
+ {
+  "id": "b02-023",
+  "slide": 94,
+  "type": "open",
+  "prompt": "The lecture decomposes the 'product' natural gas into two parts. Name them, name the elements of flexibility, and explain why a customer buys the second part at all.",
+  "solution": "The product natural gas consists of a commodity part and a flexibility part, and on top of that supplementary products can be sold.\n\nThe commodity is the energy itself - so many kWh of gas, indifferent to when they are delivered.\n\nThe flexibility is the right to take those kWh when the customer actually needs them. Its elements are transportation, storage, production flexibility and interruptibility. Transportation moves the gas from where it is to where the customer is, storage moves it from summer to winter, production flexibility lets the field swing its output, and interruptibility is the mirror image - the customer accepts being cut off in exchange for a lower price, so the supplier gains flexibility from him.\n\nThe customer buys flexibility because his demand is not flat. Space heating follows the temperature, industrial processes follow the shift plan, and a power plant follows the merit order. A pure commodity contract with a flat delivery profile would force him to store or to waste. On the supply side, flexibility is what the seller can charge for beyond the raw energy - which is why the value chain contains storage and transport as separate businesses at all.\n\nThe slide also frames the competition: gas competes as a feedstock and as a fuel with crude oil or oil products, coal and other fuels, and its uses run from feedstock and heating through industrial processes and electricity production to transport.",
+  "keywords": [
+   "commodity",
+   "flexibility",
+   "storage",
+   "production flexibility",
+   "interruptibility",
+   "transportation"
+  ]
+ },
+ {
+  "id": "b02-024",
+  "slide": 95,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Draw the natural gas value chain as the lecture draws it and mark which stages belong to upstream, midstream and downstream.",
+  "solution": "The chain is a row of six arrow-shaped boxes, left to right: Exploration/Production - Transport - Storage - Trading/Sales - Distribution - Services.\n\nThe three brackets above them:\n- 'upstream' covers exploration/production and reaches into transport, i.e. finding the gas, producing it and getting it off the field;\n- 'midstream' spans transport, storage and trading/sales, i.e. everything that moves the molecule and the title between the field and the local market;\n- 'downstream' covers distribution and services, i.e. the low-pressure network and everything sold to the end customer - metering, billing, appliance service.\n\nThe brackets overlap deliberately: transport is claimed by both upstream and midstream, and trading/sales sits at the boundary of midstream and downstream, because the same physical asset can be classified differently depending on who owns it. What matters for the exam is the order of the stages and the fact that the regulated natural monopolies - transport and distribution - sit in the middle and at the end, whereas production and trading are competitive.",
+  "keywords": [
+   "Exploration",
+   "Transport",
+   "Storage",
+   "Trading",
+   "Distribution",
+   "upstream",
+   "midstream",
+   "downstream"
+  ]
+ },
+ {
+  "id": "b02-025",
+  "slide": 95,
+  "type": "cloze",
+  "prompt": "In the natural gas value chain the stages transport, storage and trading/sales are grouped together as the ___ part of the chain.",
+  "accept": [
+   "midstream",
+   "mid-stream",
+   "midstream sector",
+   "Midstream"
+  ],
+  "solution": "Midstream. Upstream is exploration and production (plus the first transport off the field), midstream is transport, storage and trading/sales, and downstream is distribution and services to the end customer. The vocabulary is inherited from the oil industry and is used unchanged for gas."
+ },
+ {
+  "id": "b02-026",
+  "slide": 96,
+  "type": "open",
+  "prompt": "Both natural gas and electricity are network-based commodities. Name the four product-related differences the lecture lists and explain what each of them means for the infrastructure that has to be built.",
+  "solution": "The comparison holds for the 'product' only, not for services such as storage and transmission.\n\n1. Natural gas is a primary energy carrier, electricity is a secondary energy carrier. Gas comes out of the ground and can be used directly; electricity must first be produced by converting something else, with the corresponding conversion losses.\n\n2. Natural gas has no unrestricted interchangeability in the network because there are different qualities (H-gas and L-gas, different Wobbe indices); electricity offers extensive interchangeability - one kWh is like any other, provided frequency and voltage are right. Consequence: gas networks need quality tracking, conversion or blending, and physically separate L-gas and H-gas areas.\n\n3. The distribution of gas sources is geologically predetermined - you drill where the gas is - while electricity generation can be built consumption-oriented and demand-responsive. Consequence: gas needs long import pipelines and LNG chains from wherever the field happens to be; power plants can be sited near the load.\n\n4. Natural gas is storable, electricity is not. Consequence: the gas system buys its flexibility with caverns and pore storages and with linepack, while the electricity system must balance generation and load in real time, which is why it needs control reserve rather than storage. Strictly speaking electricity can be stored after conversion - pumped hydro, batteries - but not as electricity, and not in the quantities a gas storage holds.",
+  "keywords": [
+   "primary energy carrier",
+   "secondary energy carrier",
+   "interchangeability",
+   "different qualities",
+   "geologically predetermined",
+   "storable"
+  ]
+ },
+ {
+  "id": "b02-027",
+  "slide": 97,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The detailed value chain separates a physical flow from a 'contractual flow' of natural gas. Explain the difference and name the stations of each of the two paths.",
+  "solution": "The upper half of the figure is the physical flow of natural gas - where the molecules actually go: Exploration - Production - Processing, then the production site pipeline, from which two routes lead onwards. Either liquefaction, LNG carrier and re-gasification, or the transit pipeline; both feed the national pipeline and finally the distribution network. Storage sits underneath the chain at three points - next to liquefaction, before the national pipeline and next to distribution - because flexibility is needed at every pressure level.\n\nThe lower half is the contractual flow - where the title to the gas goes: wholesale, where gas is sold among national and international trading and sales companies bilaterally, via brokers or at exchanges; transportation, booked as pipeline capacity or as LNG (liquefaction, shipping, regasification); regional or national transportation; and finally retail to the customer. Flexibility/storage appears again as a separately contracted service at each stage.\n\nThe point of drawing the two halves separately: a molecule and a contract do not travel together. Gas can be sold ten times while it is in one pipeline, and a location swap moves the title without moving any gas at all. That separation is the precondition for hubs, for entry-exit pricing and for a gas exchange, and it is why 'transport' in a gas market means a booked capacity right, not a shipment.",
+  "keywords": [
+   "physical flow",
+   "contractual flow",
+   "Liquefaction",
+   "transit pipeline",
+   "wholesale",
+   "exchanges",
+   "Storage"
+  ]
+ },
+ {
+  "id": "b02-028",
+  "slide": 98,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The block diagram cuts the well stream into natural gas, NGL and LPG. Which components belong to which fraction, and why is the split made at all?",
+  "solution": "The full block on the right is natural gas as it comes out of the well ('ex well'): methane, ethane, propane, butanes, pentanes, hexanes, heptanes, octanes and heavier, plus non-hydrocarbons such as nitrogen.\n\nNGL (natural gas liquids) is the middle block: everything from ethane down to octanes and heavier, i.e. the well stream without methane and without the non-hydrocarbons. NGL is a byproduct of oil and natural gas production and is transported like oil.\n\nLPG (liquefied petroleum gas) is the smallest block inside NGL: propane and butanes only. LPG is separated partially before liquefaction.\n\nWhat remains after the cut - essentially methane plus whatever inert gas is tolerated - is the sales gas that goes into the pipeline.\n\nThe split is made for two reasons. Technically, the heavier hydrocarbons condense out under pipeline pressure and at low ambient temperature, which is exactly what the hydrocarbon dew point specification forbids; leaving them in would put liquid slugs in the line. Commercially, propane, butane and the condensate are worth considerably more per tonne as chemical feedstock or bottled fuel than as part of a cubic metre of pipeline gas, so removing them raises the value of the stream even though it lowers the calorific value of the gas sold.",
+  "keywords": [
+   "Methane",
+   "NGL",
+   "LPG",
+   "propane",
+   "butanes",
+   "non-hydrocarbons",
+   "dew point"
+  ]
+ },
+ {
+  "id": "b02-029",
+  "slide": 99,
+  "type": "open",
+  "prompt": "Give the working definition of natural gas used in gas contracts and name the gases from which natural gas has to be distinguished. What are LNG, NGL, biomethane and SNG?",
+  "solution": "Definition: natural gas means any hydrocarbon or mixture of hydrocarbons and other gases consisting primarily of methane which, at a temperature of 15 degrees Celsius and at atmospheric pressure, is predominantly in the gaseous state. Two elements matter - the composition (primarily methane) and the reference condition (15 °C and atmospheric pressure), because the reference condition is what separates the gas from the liquids that come out of the same well.\n\nTo be distinguished from natural gas: town gas (coke oven gas), refinery gas, other 'technical' gases and biogas. These are combustible gases too, but they have a different composition, a different calorific value and a different Wobbe index, so they cannot simply be fed into a natural gas network.\n\nThe related products:\n- LNG, liquefied natural gas (GNL in Italian and French) - the same methane, liquefied for shipping;\n- NGL, natural gas liquids - the heavier hydrocarbons, a byproduct of oil and gas production, transported like oil;\n- LPG, liquefied petroleum gas - propane and butanes, separated partially before liquefaction;\n- biomethane, i.e. 'bio-natural gas' - biogas upgraded until it is compatible with natural gas and can be injected into the network;\n- SNG, synthetic natural gas - a natural gas-like gas formed by cracking liquid hydrocarbons.\nCondensate is used in refineries for blending with heavy crude oil and as a raw material for chemical production.",
+  "keywords": [
+   "primarily of methane",
+   "15",
+   "gaseous state",
+   "town gas",
+   "biogas",
+   "biomethane",
+   "SNG"
+  ]
+ },
+ {
+  "id": "b02-030",
+  "slide": 99,
+  "type": "cloze",
+  "prompt": "Biogas that has been upgraded until it is fully compatible with natural gas and can be fed into the natural gas network is called ___.",
+  "accept": [
+   "biomethane",
+   "bio-methane",
+   "bio natural gas",
+   "bio-natural gas",
+   "Biomethan"
+  ],
+  "solution": "Biomethane, also called 'bio-natural gas'. Raw biogas from a digester contains roughly 50-60 % methane plus CO2 and traces; upgrading removes the CO2 and the contaminants until calorific value, Wobbe index and dew points meet the network specification. Do not confuse it with SNG (synthetic natural gas), which is a natural gas-like gas produced by cracking liquid hydrocarbons, nor with town gas, refinery gas or raw biogas - none of which may be injected as they are."
+ },
+ {
+  "id": "b02-031",
+  "slide": 100,
+  "type": "open",
+  "prompt": "Give the typical compositions of L-gas, North Sea H-gas and CIS H-gas, and explain what makes a gas an 'L' or an 'H' gas and what the difference means in practice for a German network operator.",
+  "solution": "Typical compositions on the slide:\n- L-Gas: approx. 85 % methane, 4 % other alkanes (ethane, propane, butane, pentane), 11 % inert gases;\n- H-Gas (North Sea): approx. 89 % methane, 8 % other alkanes, 3 % inert gases;\n- Natural gas 'H' (CIS): about 98 % methane, 1 % other alkanes, 1 % inert gases.\n\nL stands for 'low' and H for 'high' calorific value. What makes the difference is above all the inert gas content - mostly nitrogen, some CO2. Inert gases do not burn; they occupy volume and carry no energy, so 11 % of inerts directly removes about a tenth of the energy from every cubic metre. That is why L-gas has both a lower calorific value and a lower Wobbe index than H-gas.\n\nPractical consequence: L-gas and H-gas are not interchangeable. A burner adjusted to H-gas run on L-gas gets too little energy per volume, and vice versa it over-fires. Germany therefore operated separate L-gas and H-gas areas, and the depletion of the Dutch and German L-gas fields forced the market area conversion, in which every single appliance in the L-gas region has to be visited and readjusted. Cross-border, the same problem appears as a Wobbe index mismatch at the interconnection point.\n\nSmall inconsistency worth noting: the slide rounds CIS H-gas to about 98 % methane, while the composition table on the next slide gives 96.96 mol % for Russian H-gas.",
+  "keywords": [
+   "85 % methane",
+   "11 % inert gases",
+   "89 % methane",
+   "98 % methane",
+   "calorific value",
+   "interchangeable"
+  ]
+ },
+ {
+  "id": "b02-032",
+  "slide": 101,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Using the table of chemical compositions of Russian, North Sea and Danish H-gas and Dutch and German L-gas: which statement is correct?",
+  "options": [
+   "Russian H-gas has the highest methane content at 96.96 mol %, while Dutch L-gas contains 10.21 mol % nitrogen.",
+   "German L-gas contains more ethane than North Sea H-gas.",
+   "Dutch L-gas has both the highest methane content and the lowest CO2 content of the five gases.",
+   "Danish H-gas has the highest nitrogen content of the five gases listed."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Russian H-gas is the leanest and driest of the five: 96.96 mol % methane, only 0.86 mol % nitrogen and 1.37 mol % ethane. The two L-gases are marked by nitrogen - 10.21 mol % in the Dutch and 10.24 mol % in the German gas - which is exactly the inert ballast that pushes their calorific value down.\n\nThe distractors: Danish H-gas has the lowest nitrogen content (0.28 mol %), not the highest; German L-gas has 1.06 mol % ethane against 6.93 mol % in North Sea H-gas; Dutch L-gas has the second-lowest methane content (83.64 mol %) and 1.68 mol % CO2, which is not the lowest either. Note also the two rows that look boring but are specification-relevant: oxygen below 0.001 mol % and total sulphur below 3 to 5 mg/m3 in every gas."
+ },
+ {
+  "id": "b02-033",
+  "slide": 102,
+  "type": "cloze",
+  "prompt": "Chemical composition is translated into four physical parameters that describe natural gas in application: calorific value, density, pressure and the ___.",
+  "accept": [
+   "Wobbe index",
+   "Wobbe-Index",
+   "Wobbe",
+   "Wobbe number",
+   "Wobbe-Zahl"
+  ],
+  "solution": "The Wobbe index. The four application parameters are calorific value, Wobbe index, density and pressure; the German reference that fixes their permitted ranges is DVGW worksheet G 260/I, which is valid only in Germany - every country has its own specification, which is precisely why cross-border gas quality is a problem."
+ },
+ {
+  "id": "b02-034",
+  "slide": 103,
+  "type": "open",
+  "prompt": "Define the gross calorific value Ho and the net calorific value Hu of natural gas, state the reference conditions, and explain which of the two is the larger and why. Where does the difference show up in practice?",
+  "solution": "Gross calorific value Ho (Brennwert): the heat obtained from the complete combustion of 1 m3 of gas under standard conditions (1.01325 bar and 273.15 K) with air at 298.15 K, including the condensation heat of the water vapour formed during combustion.\n\nNet calorific value Hu (Heizwert): the same quantity but excluding the condensation heat, i.e. the water leaves as vapour and its latent heat is not counted.\n\nHo is therefore always the larger of the two - for natural gas by roughly 10 to 11 %, because methane burns to CO2 and two molecules of water and there is a lot of latent heat in that water. Simplified, both are Energy/Volume: the energy content of a cubic metre.\n\nWhere it matters:\n- Billing. German gas bills are settled on the gross calorific value, so the same physical gas yields a bigger number than if Hu were used. Comparing a Ho figure with an Hu figure is the classic factor-of-1.11 mistake.\n- Appliance efficiency. A condensing boiler recovers part of the condensation heat, which is why efficiencies quoted on Hu can exceed 100 % - a nonsense that disappears as soon as you relate them to Ho.\n- The Wobbe index is built on the gross calorific value Hs,n, so it inherits the same reference.\nAlways state which of the two you used, and at which reference condition.",
+  "keywords": [
+   "condensation heat",
+   "water vapor",
+   "1.01325 bar",
+   "273.15 K",
+   "excluding",
+   "Energy/Volume"
+  ]
+ },
+ {
+  "id": "b02-035",
+  "slide": 103,
+  "type": "cloze",
+  "prompt": "The calorific value that includes the condensation heat of the water vapour formed during combustion is the ___ calorific value, denoted Ho.",
+  "accept": [
+   "gross",
+   "gross calorific value",
+   "superior",
+   "higher",
+   "Brennwert",
+   "upper"
+  ],
+  "solution": "Gross calorific value Ho (German: Brennwert; also called the superior or higher heating value). Its counterpart is the net calorific value Hu (Heizwert, inferior or lower heating value), which excludes the condensation heat. For natural gas Ho is about 10-11 % higher than Hu, and German gas billing as well as the Wobbe index are based on Ho."
+ },
+ {
+  "id": "b02-036",
+  "slide": 104,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The table lists four different reference conditions for gas volumes. Name them with their temperatures and the countries that use them, and calculate by how much the same amount of gas differs in cubic metres between the German norm condition and the European standard condition.",
+  "solution": "All four use the same pressure, 1.01325 * 10^5 Pa (= 101.325 kPa = 1.01325 bar); they differ only in temperature:\n- Norm condition: 273.15 K = 0 °C - Germany, Denmark, Austria;\n- Standard (European): 288.15 K = 15 °C - Italy, United Kingdom;\n- Standard (US): 288.71 K = 60 °F - US, Middle East, Africa, Latin America;\n- Basic: 293.15 K = 20 °C - Russia and Eastern Europe.\n\nCalculation. For a fixed amount of gas at fixed pressure the ideal gas law gives V ~ T, so\nV(15 °C) / V(0 °C) = 288.15 K / 273.15 K = 1.0549.\n\nThe same quantity of gas is therefore 5.5 % more cubic metres when it is counted at 15 °C than when it is counted at 0 °C. Turned around: a cubic metre measured under the European standard condition contains 5.2 % less energy than a cubic metre measured under the German norm condition.\n\nWhy this is examinable: gas is traded by volume but paid for by energy. Booking a cross-border deal in 'm3' without stating the reference condition creates an error of several per cent - larger than the trading margin. The safe habit is to convert everything to kWh immediately, and to write Nm3 (norm) or Sm3 (standard) explicitly.\n\nNote a slip on the slide: the column is headed 'Pressure [kPa]' but the entry 1.01325 * 10^5 is the pressure in Pa; in kPa it would be 101.325.",
+  "keywords": [
+   "273.15 K",
+   "288.15 K",
+   "288.71 K",
+   "293.15 K",
+   "5.5 %",
+   "reference condition"
+  ]
+ },
+ {
+  "id": "b02-037",
+  "slide": 105,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Define the Wobbe index, give its formula and explain why it, rather than the calorific value, decides whether two gases can be exchanged. Use the table to reconstruct the gross calorific value of methane from its Wobbe index and its relative density.",
+  "solution": "The Wobbe index is the parameter for the exchangeability of gases. It is defined as\n\nWs,n = Hs,n / sqrt(d)\n\nwith Hs,n the specific gross calorific value (Brennwert) of the gas and d = rho_ngas / rho_nLuft its relative density, i.e. the density of the gas divided by the density of air at the same reference condition.\n\nWhy this combination and not the calorific value alone: a burner is a fixed nozzle at a fixed supply pressure. The volume flow through a nozzle scales with 1/sqrt(density), and the heat released is that volume flow times the calorific value - so the heat output is proportional to H/sqrt(d), which is exactly the Wobbe index. Two gases with the same Wobbe index release the same heat at the same burner and the same pressure, even if their compositions and their calorific values differ. That is why gas specifications are written as a Wobbe band, and why H-gas and L-gas, whose Wobbe indices do not overlap, need separate networks or appliance readjustment.\n\nCalculation for methane. The table gives Ws,n = 53.47 MJ/Nm3 and a relative density of 0.555. Then\nHs,n = Ws,n * sqrt(d) = 53.47 * sqrt(0.555) = 53.47 * 0.745 = 39.8 MJ/Nm3,\nwhich is the familiar gross calorific value of methane (about 11.1 kWh/Nm3). Checking the other rows: ethane 68.70, propane 81.13 and n-butane 92.66 MJ/Nm3 gross - the Wobbe index rises with the carbon number, which is why adding LPG to a lean gas is the standard way of raising the Wobbe index of a gas that is too poor.\n\n(Careful with the table: the column headed rho_n contains the relative density d - the dimensionless ratio to air - not the absolute density, which for methane would be 0.717 kg/m3.)",
+  "keywords": [
+   "exchangeability",
+   "sqrt",
+   "relative density",
+   "53.47",
+   "0.555",
+   "39.8"
+  ]
+ },
+ {
+  "id": "b02-038",
+  "slide": 105,
+  "type": "mc",
+  "prompt": "Two gases of different composition are to be burned in the same appliance, at the same supply pressure and without readjusting the burner. Which property must the two gases have in common?",
+  "options": [
+   "The same methane content.",
+   "The same Wobbe index.",
+   "The same net calorific value.",
+   "The same density."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The Wobbe index, Ws,n = Hs,n / sqrt(d), is by definition the parameter for the exchangeability of gases: at a fixed nozzle and a fixed pressure the heat output of the burner is proportional to the calorific value divided by the square root of the relative density, i.e. to the Wobbe index. Equal Wobbe index means equal heat output.\n\nThe other options each fix only one half of the ratio. Equal density says nothing about the energy content; equal methane content is neither necessary nor sufficient, since inert gases and heavier alkanes shift both H and d; and equal calorific value alone still leaves the throughput of the nozzle different, because a heavier gas flows more slowly through the same orifice. That is exactly the case of H-gas versus L-gas: they can be brought to a similar calorific value by ballasting, but if the Wobbe indices differ the appliances still have to be readjusted."
+ },
+ {
+  "id": "b02-039",
+  "slide": 106,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the DVGW G 260/I table for the 2nd gas family: give the Wobbe index ranges and nominal values for group L and group H, the gross calorific value range, the relative density range and the connection pressure. What does the small 'Schwankungsbereich' row regulate?",
+  "solution": "DVGW G 260/I, 2nd gas family (natural gas), at pn = 1013.25 hPa and Tn = 273.15 K:\n\nWobbe index Ws,n, total range:\n- group L: 10.5 to 13.0 kWh/m3, i.e. 37.8 to 46.8 MJ/m3;\n- group H: 12.8 to 15.7 kWh/m3, i.e. 46.1 to 56.5 MJ/m3.\nNominal value: group L 12.4 kWh/m3 (44.6 MJ/m3), group H 15.0 kWh/m3 (54.0 MJ/m3).\n\nGross calorific value Hs,n, for both groups: 8.4 to 13.1 kWh/m3, i.e. 30.2 to 47.2 MJ/m3.\nRelative density d: 0.55 to 0.75.\nConnection pressure pan: total range 18 to 24 mbar, nominal value 20 mbar - the pressure at the appliance, which is what makes the Wobbe index the right yardstick in the first place.\n\nThe 'Schwankungsbereich im oertlichen Versorgungsgebiet' row is the tighter rule that actually binds the network operator: within one local supply area the Wobbe index may deviate from the value the appliances are set to by only +0.6 / -1.4 kWh/m3 (group L) and +0.7 / -1.4 kWh/m3 (group H). The wide total range describes which gases may exist somewhere in Germany; the narrow fluctuation band describes how much the gas in one town may move without anyone having to visit the burners. Note that the ranges of L and H overlap slightly (12.8 to 13.0 kWh/m3), but the nominal values, 12.4 against 15.0, are far apart - which is why an L-gas area cannot simply be fed with H-gas.",
+  "keywords": [
+   "10.5 to 13.0 kWh/m3",
+   "12.8 to 15.7 kWh/m3",
+   "12.4 kWh/m3",
+   "15.0 kWh/m3",
+   "0.55 to 0.75",
+   "20 mbar",
+   "fluctuation"
+  ]
+ },
+ {
+  "id": "b02-040",
+  "slide": 106,
+  "type": "cloze",
+  "prompt": "According to DVGW G 260/I the nominal Wobbe index of group H gas is 15.0 kWh/m3, while for group ___ gas it is only 12.4 kWh/m3.",
+  "accept": [
+   "L",
+   "L-gas",
+   "L gas",
+   "Gruppe L",
+   "low"
+  ],
+  "solution": "Group L (L-gas, low calorific value). The total ranges are 10.5 to 13.0 kWh/m3 for L and 12.8 to 15.7 kWh/m3 for H; the nominal values are 12.4 and 15.0 kWh/m3 respectively. Both groups share the same gross calorific value range of 8.4 to 13.1 kWh/m3 and the same relative density band of 0.55 to 0.75, and both are supplied at a nominal connection pressure of 20 mbar."
+ },
+ {
+  "id": "b02-041",
+  "slide": 107,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which statement about the limits for accompanying substances (Gasbegleitstoffe) in DVGW G 260/I is correct?",
+  "options": [
+   "Oxygen is limited to 0.5 % by volume in dry distribution networks but 3 % is allowed in wet ones.",
+   "The water dew point must stay below -10 °C regardless of the pressure in the line.",
+   "Oxygen may reach 3 % by volume in dry distribution networks but only 0.5 % in wet ones.",
+   "Hydrogen sulphide is limited to 30 mg/m3 and mercaptan sulphur to 150 mg/m3."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "The oxygen limit is 3 % by volume in dry distribution networks and only 0.5 % in wet ones. The reason is corrosion: oxygen together with liquid water attacks the steel from the inside, so where moisture can be present the tolerance has to be an order of magnitude tighter.\n\nThe other options: the sulphur limits are the other way round in magnitude - hydrogen sulphide 5 mg/m3 (in exceptional cases 10 mg/m3 for a short time) and mercaptan sulphur 6 mg/m3 (16 mg/m3 short-term), while the 30 mg/m3 annual mean and 150 mg/m3 short-term figures refer to total sulphur without the odorant. And the dew point requirement in the DVGW sheet is not a fixed temperature at all: the hydrocarbon condensation point and the water dew point must lie below the ground temperature at the respective line pressure, which is a moving target - the fixed -10 °C at 69 barg is the British and Belgian contractual specification, not the German rule. Mist, dust and liquids must be 'technically free'."
+ },
+ {
+  "id": "b02-042",
+  "slide": 108,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Compare the gas specifications of the UK National Transmission System and the Belgian Distrigas system. Which statement is correct?",
+  "options": [
+   "Both systems cap the sulphur content at 15 ppm and CO2 at 2.0 mol %, and their Wobbe bands are almost identical.",
+   "The water dew point requirement is +10 °C at 69 barg in both systems.",
+   "The UK NTS accepts a higher gross calorific value than the Distrigas system.",
+   "The Wobbe index bands of the two systems differ by more than 5 MJ/m3."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Both specifications allow a maximum of 15 ppm sulphur and 2.0 mol % CO2, and both require a water dew point of -10 °C at 69 barg. Their Wobbe bands are practically the same: 48.1 to 51.4 MJ/m3 for gas ex UK NTS against 48.2 to 51.2 MJ/m3 for gas ex the Distrigas system - a difference of a few tenths, which is what makes the two systems compatible at the interconnector.\n\nThe gross calorific values, on the other hand, do differ: 36.9 to 42.3 MJ/m3 in the UK against 38.9 to 44.6 MJ/m3 in Belgium. This is the lesson of the slide: two gases with clearly different calorific values can still be exchanged, because it is the Wobbe index that has to match, not the calorific value."
+ },
+ {
+  "id": "b02-043",
+  "slide": 110,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The bar chart shows the permitted Wobbe index band of each European country in kWh/m3. Describe what the chart shows, name the country with the widest band, and explain the practical problem this creates for cross-border gas trade.",
+  "solution": "Each bar runs from the minimum to the maximum Wobbe index that the national specification permits, in kWh/m3, and the two dashed horizontal lines at roughly 13.6 and 15.8 kWh/m3 mark the band that most countries have in common.\n\nThe bars are not aligned. Germany has one of the widest bands, from 12.80 to 15.70 kWh/m3, precisely because it had to accommodate both L-gas and H-gas. Poland runs from 12.50 to 15.81 and Greece has the highest ceiling at 16.37 kWh/m3, while Ireland and the United Kingdom stop at 15.06 kWh/m3 - roughly 1.3 kWh/m3 lower. Several countries show no bar at all because no national figure was available.\n\nThe practical problem: a gas that is perfectly legal in one country can be off-specification a hundred metres further, on the other side of the interconnection point. The intersection of all national bands is far narrower than any single band, so a shipper who wants to move gas across several borders must meet the strictest specification on the whole route. The consequences are real costs - blending, ballasting with nitrogen, LPG injection to raise the Wobbe index, or simply a refusal to accept the gas - and they act as a non-tariff barrier inside a market that is legally a single one. That is the argument for harmonising cross-border gas quality at EU level, and it is the same argument that ACER exists for.",
+  "keywords": [
+   "Wobbe index",
+   "12.80",
+   "15.70",
+   "16.37",
+   "harmonis",
+   "specification",
+   "cross-border"
+  ]
+ },
+ {
+  "id": "b02-044",
+  "slide": 112,
+  "type": "open",
+  "prompt": "Name the main uses of natural gas. Explain in particular the three chemical processes the lecture lists and why they are the hardest to replace.",
+  "solution": "Main uses:\n- heating of residential and commercial spaces;\n- (industrial) process heat energy;\n- electric power generation;\n- chemical processes;\n- fuel for vehicles;\n- a long tail of other applications - the 'natural gas-supplied house', clothes dryers, fireplaces and tile stoves, patio heaters, gas heat pumps, diffusion-absorption heat pumps, fuel cells and absorption refrigeration.\n\nThe three chemical processes:\n1. Ammonia synthesis in the Haber-Bosch process, the basis of nitrogen fertilizer. Gas is used twice here: as the source of the hydrogen and as the energy for the process.\n2. Iron ore reduction in the blast furnace process, where the gas (or the hydrogen made from it) takes the oxygen out of the ore - the direct-reduction route that is meant to replace coke.\n3. Production of hydrogen, today overwhelmingly by steam reforming of methane.\n\nThese are hardest to replace because in them natural gas is a feedstock, not a fuel. In heating and in power generation the gas only delivers energy, and any other energy carrier - electricity from a heat pump, wind, solar - can deliver the same energy. In ammonia synthesis and in ore reduction the methane supplies the hydrogen atoms themselves, so it can only be substituted by another source of hydrogen, i.e. by electrolysis. That is exactly why the hydrogen chapters of the lecture matter to industry and why fertilizer and steel are the first candidates for green hydrogen.",
+  "keywords": [
+   "process heat",
+   "Electric power generation",
+   "Haber-Bosch",
+   "blast furnace",
+   "hydrogen",
+   "feedstock"
+  ]
+ },
+ {
+  "id": "b02-045",
+  "slide": 113,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Sketch the temperature-correlated consumption profile and label it. Explain the difference between quantity, flow and capacity in the figure, and what ACQ, QCQ and MCQ stand for.",
+  "solution": "Sketch: gas year on the horizontal axis, running from 1.10 (1 October) through the winter to 1.9 (1 September). The daily off-take is drawn as a jagged mountain: low at the start of October, rising through November and December, peaking in January/February, falling away through spring, reaching its minimum in July/August and rising again in September. The jaggedness is the weather - each spike is a cold day.\n\nThe three quantities in the figure:\n- quantity is the area under the curve, i.e. the energy actually taken over a period, measured in kWh or m3;\n- flow is the height of the curve at a given moment, i.e. the rate of off-take, measured in kWh/h or m3/h;\n- capacity is the horizontal line drawn above the highest peak: the maximum flow that has been booked and that the network must be able to deliver, in kWh/h or m3/h.\nCapacity is dimensioned by the single worst hour, not by the annual quantity - that is the entire economics of gas transport in one picture.\n\nThe contract quantities, all measured as quantity, not as capacity:\n- ACQ - annual contract quantity, the volume over the whole gas year;\n- QCQ - quarterly contract quantity;\n- MCQ - monthly contract quantity;\nand below them, not in this figure, the DCQ, the daily contract quantity. The nesting in the figure shows the hierarchy: MCQ inside QCQ inside ACQ.\n\nThe profile is called temperature-correlated because the off-take follows the ambient temperature almost linearly below the heating limit - it is the household and small commercial load, and it is what makes seasonal storage necessary.",
+  "keywords": [
+   "quantity",
+   "flow",
+   "capacity",
+   "ACQ",
+   "QCQ",
+   "MCQ",
+   "peak"
+  ]
+ },
+ {
+  "id": "b02-046",
+  "slide": 113,
+  "type": "open",
+  "prompt": "A municipal utility supplies a temperature-correlated load with an annual contract quantity of ACQ = 1,000 GWh/a. Its highest hourly off-take, on the coldest winter day, is 400 MW. Calculate the utilisation in full-load hours and the average flow, and compare the result with a customer who takes the same annual quantity as a flat band.",
+  "solution": "Step 1 - full-load hours (utilisation of the booked capacity):\nACQ / peak capacity = 1,000 GWh/a / 400 MW = 1,000,000 MWh/a / 400 MW = 2,500 h/a.\n\nStep 2 - average flow:\n1,000,000 MWh/a / 8,760 h/a = 114 MW.\nSo the average flow is 114 MW while the capacity that has to be booked and built is 400 MW - a peak-to-average ratio of about 3.5.\n\nStep 3 - the band comparison. A flat band customer with the same ACQ takes 114 MW in every hour of the year, so his capacity requirement is 114 MW and his utilisation is the full 8,760 h/a.\n\nInterpretation. Both customers buy exactly the same energy, but the temperature-correlated customer needs 3.5 times the capacity and uses it only 2,500 h/a, i.e. 29 % of the year. Since the capacity charge of an entry-exit tariff is paid per booked kWh/h and per year regardless of how much flows, the transport cost per transported kWh is roughly 3.5 times higher for him. This is why gas tariffs have a capacity component at all, why storage is worth building - it lets you buy transport as a band and release the peak locally - and why interruptible capacity is offered at a discount.\n\nIn volume terms, with a calorific value of about 10 kWh/m3, the ACQ is 100 million m3/a and the peak flow is 40,000 m3/h.",
+  "keywords": [
+   "2,500 h/a",
+   "114 MW",
+   "8,760 h/a",
+   "capacity",
+   "peak",
+   "storage"
+  ]
+ },
+ {
+  "id": "b02-047",
+  "slide": 114,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the industrial customer's consumption profile with the temperature-correlated one. What is different in the shape, what does the gap marked 'no off-take' mean, and what does that imply for the capacity that has to be booked?",
+  "solution": "Shape: the industrial profile is essentially flat at a high level over the whole gas year, with fast, high-frequency fluctuations from day to day and from shift to shift, but without the seasonal mountain of the temperature-correlated profile. The load follows the production plan, not the weather, and the daily peaks reach almost up to the capacity line all year round.\n\nThe gap marked 'no off-take' is the block in early summer - here between about 1.6 and 1.7 - where the curve falls to zero: the annual maintenance shutdown of the plant, or the works holiday. Nothing is taken for several weeks, and then the load returns at full level from one day to the next.\n\nConsequences:\n- Utilisation is high. The same ACQ is spread over almost the whole year, so the peak-to-average ratio is close to one and the full-load hours are far higher than for the household load. Transport cost per transported kWh is therefore much lower - the industrial customer is the good customer for the network.\n- But the capacity still has to be booked for the full peak and, because of the maintenance gap, it is paid for during weeks in which nothing flows. The customer will therefore try to align the shutdown with the annual capacity booking, take interruptible capacity, or sell the unused capacity on the secondary market.\n- For the supplier the two profiles are complementary: the industrial band consumes in summer, when the household load collapses, which is exactly the kind of portfolio effect that reduces the storage requirement of a supplier serving both.\nThe labels are the same as in the temperature-correlated figure: quantity as the area, flow as the height, capacity as the line above the peaks, and MCQ, QCQ and ACQ as the nested contract quantities.",
+  "keywords": [
+   "flat",
+   "no off-take",
+   "maintenance",
+   "capacity",
+   "utilisation",
+   "ACQ"
+  ]
+ },
+ {
+  "id": "b02-048",
+  "slide": 115,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "A customer takes gas as a flat band: the same off-take in every hour of the gas year. Which statement follows from the figure?",
+  "options": [
+   "The booked capacity is used in every hour, the utilisation is 8,760 h/a, and the transport cost per transported unit is at its minimum.",
+   "The load factor of a band is the same as that of a semi-annual profile.",
+   "For the same annual quantity the band needs a higher booked capacity than a temperature-correlated profile.",
+   "A band customer needs seasonal storage in order to cover his winter peak."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "In the band figure the rectangle of the quantity touches the capacity line over the whole year: flow equals capacity in every hour, so the utilisation is the full 8,760 h/a and the load factor is 100 %. Since a capacity booking is paid per year regardless of how much actually flows, this is the cheapest possible profile per transported kWh - the band is the reference case against which every other profile is priced.\n\nThe other options invert the logic: for a given annual quantity the band needs the lowest capacity, not the highest, because the peak equals the average; it needs no seasonal storage at all, since there is no seasonal swing to cover - it is precisely the profile that storage is used to create; and the semi-annual profile has a clearly lower load factor, because its capacity is set by the winter half while the summer half runs well below it."
+ },
+ {
+  "id": "b02-049",
+  "slide": 116,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the semi-annual consumption profile and compare its capacity requirement and its utilisation with the flat band of the previous slide.",
+  "solution": "The figure shows two steps within the gas year: from 1.10 to about 1.4, i.e. the winter half, the off-take sits at a high, constant level; from about 1.4 to the end of September, the summer half, it drops to a lower, again constant level - roughly half of the winter value in the drawing. Within each half the load is a band; the profile is a crude, two-step approximation of the seasonal heating swing.\n\nCapacity: the booked capacity is set by the winter half, because the network has to carry the higher of the two levels. The capacity arrow in the figure reaches from zero to the top of the winter block, and above the summer block there is unused space between the actual flow and the capacity line.\n\nUtilisation: the summer half uses only part of the booked capacity, so the full-load hours are clearly below 8,760 h/a. If the summer level is half the winter level, the annual quantity is 0.75 of what the same capacity could have carried as a band, i.e. about 6,570 full-load hours, and the transport cost per transported kWh is correspondingly a third higher than for a band.\n\nWhere it sits between the other profiles: the flat band is the best case with 100 % utilisation, the temperature-correlated household profile is the worst with a sharp winter peak and a summer collapse, and the semi-annual profile is the intermediate case. It is also the profile that a storage operator produces - storage turns a band purchase in summer into a semi-annual or peak delivery in winter, which is exactly the service the seasonal spread pays for.",
+  "keywords": [
+   "winter half",
+   "summer half",
+   "capacity",
+   "utilisation",
+   "8,760 h/a",
+   "band",
+   "storage"
+  ]
+ },
+ {
+  "id": "b02-050",
+  "slide": 118,
+  "type": "open",
+  "prompt": "Define transportation, transit, transmission, network access, third party access and (location) swap as the lecture defines them, and say which of these terms is preferred by regulators and why.",
+  "solution": "- Transportation: the movement of a volume of natural gas from point A to point B.\n- Transit: transportation through a country, i.e. the gas enters and leaves the same national system without being consumed there.\n- Transmission: used synonymously with transportation.\n- Network access: the delivery, i.e. the input, of natural gas at an inlet point, usually with the objective of withdrawing that gas at an outlet point.\n- Third party access (TPA): allowing parties who do not own the network to transport natural gas in the network owner's pipelines.\n- (Location) swap: virtual transport, i.e. a transaction with no relation to a network or a pipeline, mostly applied between hubs - one party delivers at hub 1 and receives the equivalent at hub 2 without a single molecule moving between them.\n\n'Network access' is the term used frequently by regulators and by the supporters of an entry-exit pricing system, and the reason is in the definition itself. 'Transportation from A to B' describes a path and invites a distance-related, point-to-point tariff, which is what produces pancaking when several such contracts are stacked across borders. 'Access at an inlet point with the right to withdraw at an outlet point' deliberately drops the path: the shipper books an entry capacity and, separately, an exit capacity, and what happens hydraulically in between is the network operator's problem. That linguistic shift is the whole entry-exit model, and it is why the regulator prefers the word.",
+  "keywords": [
+   "Transit",
+   "Transmission",
+   "Network Access",
+   "Third Party Access",
+   "swap",
+   "entry-exit"
+  ]
+ },
+ {
+  "id": "b02-051",
+  "slide": 118,
+  "type": "cloze",
+  "prompt": "A virtual transport with no relation to a network or a pipeline, usually agreed between two hubs, is called a (location) ___.",
+  "accept": [
+   "swap",
+   "location swap",
+   "Swap",
+   "swaps"
+  ],
+  "solution": "A (location) swap. Party A delivers gas to party B at hub 1 and B delivers the equivalent quantity to A at hub 2; no gas is physically moved between the two hubs, and no capacity is booked. It is the cheapest way of 'transporting' gas when both parties happen to be long in one place and short in the other, and it is the reason why the contractual flow of gas has to be drawn separately from the physical flow. The time-related counterpart is the time swap, which shifts gas between periods instead of between locations."
+ },
+ {
+  "id": "b02-052",
+  "slide": 119,
+  "type": "open",
+  "prompt": "Name the components of a pipeline system and state what each of them is for. Distinguish the three kinds of pipeline.",
+  "solution": "Components:\n- Pipelines, in three kinds:\n  - flow lines, which carry the raw stream from the individual well;\n  - gathering lines, which collect the flow lines of a field and bring the gas to the processing plant;\n  - transportation pipelines, the large-diameter, high-pressure lines that move processed sales gas over long distances.\n- Processing plants, which remove water, CO2, sulphur compounds and the heavier hydrocarbons (NGL, LPG) so that the gas meets the network specification.\n- Compressor stations, which restore the pressure lost to friction along the line, and which also compress gas into storage; typical spacing 80 to 500 km.\n- Metering stations, which measure quantity, pressure, temperature and gas quality - the basis for billing, since gas is sold by energy, not by volume.\n- Valves, which section the line so that a damaged segment can be isolated and blown down.\n- SCADA systems (supervisory control and data acquisition), which bring the measurements to the control room and allow the line to be operated remotely.\n\nThe ordering principle is the pressure level: the further downstream, the smaller the diameter and the lower the pressure - flow line, gathering line, processing, transport line at up to 100 bar, then the distribution network at a few bar and finally the household connection at about 20 mbar.",
+  "keywords": [
+   "flow lines",
+   "gathering lines",
+   "transportation pipelines",
+   "processing plants",
+   "compressor stations",
+   "metering stations",
+   "SCADA"
+  ]
+ },
+ {
+  "id": "b02-053",
+  "slide": 120,
+  "type": "open",
+  "prompt": "Give the relationship between the transport capacity of a pipeline and its four most important parameters, and use it to calculate: (a) the capacity gain from enlarging the diameter from 34 inches to 44 inches, and (b) the capacity gain from raising the inlet pressure from 60 to 80 bar at an outlet pressure of 40 bar. Which other parameters enter the exact calculation?",
+  "solution": "The capacity Q is, to a good approximation,\n\nQ ~ sqrt( (p1^2 - p2^2) / L ) * D^2.5\n\nwith p1 the inlet pressure, p2 the outlet pressure, L the length of the pipe and D the diameter. Two things should be memorised from this: the diameter enters with the exponent 2.5, and it is the difference of the squares of the pressures, not the pressure difference, that drives the flow.\n\n(a) Diameter 34 -> 44 inches, everything else unchanged:\nQ2/Q1 = (44/34)^2.5 = 1.294^2.5 = 1.9.\nA 29 % larger diameter gives about 90 % more capacity. Steel is bought by the tonne, i.e. roughly proportional to D, but capacity grows with D^2.5 - which is exactly why long-distance lines are built large, and why 'looping the line' is an alternative to adding compression.\n\n(b) Inlet pressure 60 -> 80 bar with p2 = 40 bar:\nQ2/Q1 = sqrt( (80^2 - 40^2) / (60^2 - 40^2) ) = sqrt( (6400 - 1600) / (3600 - 1600) ) = sqrt(4800/2000) = sqrt(2.4) = 1.55.\nA third more inlet pressure gives 55 % more capacity. Note also that doubling the length at fixed pressures costs a factor 1/sqrt(2) = 0.71, i.e. 29 % of the capacity, and that doubling the diameter would multiply the capacity by 2^2.5 = 5.66.\n\nThe other parameters that enter an exact calculation are the temperature of the gas, the pipe friction factor, the relative density of the gas and the gas compressibility factor.",
+  "keywords": [
+   "D^2.5",
+   "p1",
+   "p2",
+   "length",
+   "1.9",
+   "1.55",
+   "compressibility factor"
+  ]
+ },
+ {
+  "id": "b02-054",
+  "slide": 123,
+  "type": "open",
+  "prompt": "State the lecture's key figures for long-distance gas pipelines and their compressors. Then calculate how much of the transported gas a 4,000 km pipeline consumes for compression, and say what that means for the delivered quantity.",
+  "solution": "Key figures. Natural gas is transported by pipeline (gaseous), by ship (liquefied) and, less commonly, by vehicle (liquefied or gaseous). For pipelines: length up to 6,000 km, diameter up to 1,400 mm (occasionally more), pressure up to 100 bar. Compressors: their function is maintaining pressure; spacing 80 to 500 km; they are driven by natural gas or by electricity; consumption up to 0.5 % per 100 km of the transported natural gas, and highly variable.\n\nCalculation for 4,000 km at the upper figure of 0.5 % per 100 km:\nnumber of 100 km sections = 4,000 / 100 = 40\nlinear estimate: 40 * 0.5 % = 20 % of the transported gas is burned on the way.\nCompounded, because each station takes its share of what is left: 0.995^40 = 0.818, i.e. 18.2 % consumed and 81.8 % delivered.\n\nMeaning. Of 100 bcm injected, some 82 bcm arrive; the rest has been burned in the turbines. That is a fuel cost and a CO2 stream, and it is charged to the shipper as fuel gas. Three consequences follow:\n- distance is expensive for gas in a way it is not for oil, which is why the transport-mode diagram hands long distances to LNG;\n- electric drives instead of gas turbines move the emissions to the power sector and can be run on renewables;\n- the compressor fuel is one half of the diameter-versus-compression trade-off: a larger diameter loses less pressure, so it needs fewer stations and burns less gas, at the price of more steel.\nWith an assumed 8 % compression loss the same arithmetic over 4,000 km would already justify a considerably larger pipe.",
+  "keywords": [
+   "6,000 km",
+   "1,400 mm",
+   "100 bar",
+   "80 to 500 km",
+   "0.5 %",
+   "20 %",
+   "fuel"
+  ]
+ },
+ {
+  "id": "b02-055",
+  "slide": 123,
+  "type": "mc",
+  "prompt": "Which set of figures matches the lecture's data for long-distance natural gas pipelines?",
+  "options": [
+   "Length up to 600 km, diameter up to 140 mm, pressure up to 10 bar, compressor spacing 8 to 50 km.",
+   "Length up to 6,000 km, diameter up to 1,400 mm, pressure up to 1,000 bar, compressor spacing 5 to 20 km.",
+   "Length up to 2,000 km, diameter up to 800 mm, pressure up to 100 bar, compressors only at the entry point.",
+   "Length up to 6,000 km, diameter up to 1,400 mm, pressure up to 100 bar, compressor spacing 80 to 500 km."
+  ],
+  "correct": [
+   3
+  ],
+  "solution": "Length up to 6,000 km, diameter up to 1,400 mm (occasionally higher), operating pressure up to 100 bar, compressor stations every 80 to 500 km, driven by natural gas or electricity and consuming up to 0.5 % of the throughput per 100 km.\n\nThe implausible options fail on physics: 1,000 bar is far beyond what buried steel line pipe is built for, and a station every 5 to 20 km would mean hundreds of stations on one line; compressors only at the entry point would let the pressure - and with it the capacity - collapse after a few hundred kilometres, since the flow is driven by p1^2 - p2^2. Note that the compression economics slide narrows the spacing to about 200 to 500 km for large-diameter, long-distance lines; the wider 80 to 500 km band covers smaller lines as well."
+ },
+ {
+  "id": "b02-056",
+  "slide": 124,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the transport diagram with quantity in bcm/a on the vertical axis and distance from source to sink in km on the horizontal axis. Which mode wins in which region, and what happens in the bottom right corner?",
+  "solution": "The plane is divided by straight boundary lines that all start in the origin, so the decision is essentially about the ratio of quantity to distance.\n\n- Pipeline occupies the upper left region: large quantities - up to and beyond 16 bcm/a - over short to medium distances. Its cost is dominated by the line itself, which is paid per kilometre, so cost rises steeply with distance but hardly with volume. Big and near is the pipeline's case.\n- LNG occupies the wide middle and upper right region: from roughly 1,000-2,000 km onwards LNG takes over and stays economic out to 5,000 km and beyond, for quantities of a few bcm/a up to 16 bcm/a. The reason is the cost structure: liquefaction and regasification are large fixed costs at the two ends, but the marginal cost of one more kilometre of shipping is small. Far and large is the LNG case.\n- CNG occupies the small wedge at the bottom left: small quantities over short distances, where neither a dedicated pipeline nor a liquefaction train can be justified.\n- Bottom right, below the lowest boundary, the diagram is labelled: natural gas transportation is not economically viable there. Small quantities over very long distances cannot carry the fixed cost of any transport chain. The alternative is not to move the gas at all but to convert it at the source into a product that is cheap to ship - GTL (gas to liquids), and by the same logic ammonia, methanol or LNG-derived chemicals.\n\nThe economic idea behind the whole picture: every mode has a different split between fixed cost at the ends and variable cost per kilometre, so each one owns a region, and the boundaries move whenever steel, shipping or liquefaction costs change.",
+  "keywords": [
+   "Pipeline",
+   "LNG",
+   "CNG",
+   "GTL",
+   "distance",
+   "not economically viable"
+  ]
+ },
+ {
+  "id": "b02-057",
+  "slide": 125,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the pipeline transport of a liquid with that of a gas using the pressure and velocity curves of the slide. Why do the two curves behave differently, and what does the energy content comparison add?",
+  "solution": "Left figure, liquid: along the distance the pressure p falls almost linearly and the velocity v stays constant. A liquid is practically incompressible, so its density does not change when the pressure drops; by continuity the same mass flow through the same cross-section must move at the same speed. Friction simply eats a constant amount of pressure per kilometre.\n\nRight figure, gas: the pressure p falls slowly at first and then ever more steeply - the curve is concave and drops off at the end - while the velocity v rises, slowly at first and then sharply, crossing the pressure curve. A gas is compressible: as the pressure falls its density falls with it, so the same mass flow needs an ever larger volume flow, i.e. a higher velocity. The higher velocity in turn increases the friction losses, which accelerates the pressure drop further - a self-reinforcing effect. This is exactly why the pressure profile between two compressor stations is not a straight line, and why a line must not be run down to too low a pressure.\n\nEnergy content: 1 m3 of light fuel oil contains 9,900 kWh, 1 m3 of natural gas only 9.8 to 12.3 kWh. The ratio is 9,900 / 12.3 = 805 up to 9,900 / 9.8 = 1,010, i.e. a cubic metre of oil carries about 800 to 1,000 times the energy of a cubic metre of gas at atmospheric conditions.\n\nPut together, the two halves explain gas transport economics. To move a comparable amount of energy you have to move about a thousand times the volume, and moving that volume costs velocity, friction and hence compression energy. Compression to 100 bar recovers most of the factor - it raises the density roughly a hundredfold - which is why gas lines run at high pressure, why liquefaction (a factor of about 600) is the answer for long distances, and why oil can be pumped over thousands of kilometres with far less energy per unit of energy delivered.",
+  "keywords": [
+   "incompressible",
+   "compressible",
+   "velocity",
+   "9900 kWh",
+   "9.8 to 12.3 kWh",
+   "friction"
+  ]
+ },
+ {
+  "id": "b02-058",
+  "slide": 126,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart plots transmission cost in EUR per cubic metre against hours per year for three pipeline diameters, 34, 38 and 44 inches. Explain the shape of the curves, say which diameter is cheapest in which region, and why the curves for the smaller diameters turn upward.",
+  "solution": "The x-axis is the number of hours per year during which gas actually flows; the caption states that the flow rate remains constant at 1.4 mln m3/h while the duration of flow increases, so moving to the right means more volume through the same pipe, i.e. a higher load factor. The y-axis is the cost per transported cubic metre, between about 0.01 and above 0.02 EUR/cbm.\n\nShape. On the left every curve is high because the pipeline's capital cost - steel, welding, right of way - is a fixed cost that has to be recovered from very few cubic metres. As the utilisation grows, the same fixed cost is spread over more volume, so all curves fall. That is the classic degression of a capital-intensive infrastructure.\n\nWhy the small diameters turn upward again: a 34-inch line can only push 1.4 mln m3/h through by running at a high gas velocity, and the friction loss grows with the square of the velocity. Beyond a certain throughput the additional compression energy - fuel gas or electricity, which is a variable cost - grows faster than the fixed cost per unit falls, so the curve has a minimum and then rises steeply. The 34-inch curve turns up earliest and most sharply, the 38-inch curve later and more gently, and the 44-inch curve is still falling at 8,000 h/a because it never has to be driven that hard.\n\nWhich diameter wins where: at low utilisation, roughly below 2,500-3,000 h/a, the 34-inch line is cheapest because its fixed cost is smallest; in the middle region the 38-inch line has the lowest cost; from about 4,000 h/a onwards the 44-inch line is cheapest and stays cheapest. The arrow labelled 'downstream' points from the large to the small diameters: the further downstream in the system you go, the smaller the pipe and the lower the load factor, which is exactly consistent with the curves.\n\nRule for the exam: high, steady throughput justifies a large diameter; low or seasonal throughput does not.",
+  "keywords": [
+   "fixed cost",
+   "load factor",
+   "friction",
+   "compression",
+   "34",
+   "44",
+   "minimum"
+  ]
+ },
+ {
+  "id": "b02-059",
+  "slide": 127,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The optimisation figure shows the same transport task over 200 km realised with three different diameters. How many compressor stations does each case need?",
+  "options": [
+   "44 inches needs four stations, 38 inches two, 34 inches one.",
+   "34 inches needs two stations, 38 inches four, 44 inches eight.",
+   "44 inches needs one station, 38 inches two, 34 inches four.",
+   "All three cases need two stations; only the pressure level differs."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Case 1, 44 inches: a single compressor station at kilometre 0, and the pressure sags only gently over the whole 200 km. Case 2, 38 inches: two stations, one at 0 and one at about 100 km. Case 3, 34 inches: four stations, i.e. roughly one every 50 km, each followed by a steep pressure decay.\n\nThe figure is the graphic form of Q ~ sqrt(p1^2 - p2^2 / L) * D^2.5: the narrower the pipe, the higher the velocity for the same throughput, the faster the pressure falls, and the sooner it has to be restored. The economic reading is that transport capacity can be bought either as steel or as compression - a large diameter with few stations, or a small diameter with many. Steel is capital expenditure paid once; compression is capital plus fuel gas or electricity paid every year, which is why the optimum shifts towards a larger diameter when energy is expensive or the load factor is high, and towards more compression when the line is used only intermittently."
+ },
+ {
+  "id": "b02-060",
+  "slide": 128,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The pressure-versus-distance curve of a compressed pipeline is a sawtooth whose falling flanks are curved, not straight. Explain why the flanks are curved and in which direction, and what fixes the upper and the lower end of each tooth.",
+  "solution": "The curve: pressure on the vertical axis, distance along the line on the horizontal axis. Starting from a compressor the pressure falls, and at the next compressor it jumps vertically back to the design pressure - hence the sawtooth. In the figure four such teeth follow one another.\n\nThe falling flank is not a straight line. It starts almost flat and gets steeper and steeper towards the end of the section, i.e. it is concave from above. Two effects combine:\n- Physically, the flow is driven by the difference of the squares of the pressures, Q ~ sqrt((p1^2 - p2^2)/L). Solved for p along the line, p(x) = sqrt(p1^2 - k*x), which is a falling square-root curve - flat at the beginning, steep at the end.\n- Mechanically, the same thing seen through the gas: as the pressure falls, the gas expands, its density falls, and to carry the same mass flow the velocity must rise. Friction grows with the square of the velocity, so each further kilometre costs more pressure than the one before.\n\nThe upper end of each tooth is fixed by the maximum allowable operating pressure of the line - the steel, the wall thickness and the design code, up to about 100 bar - and by the discharge pressure the compressor can produce. The lower end is fixed by the minimum pressure that is still required: the pressure needed at the delivery or the suction pressure of the next station, plus the fact that running further down the flank becomes uneconomic, because the steepening curve means you lose a lot of pressure for little additional distance while the velocity and thus the friction losses explode.\n\nThe practical conclusion is the one the compression economics draws: the spacing of the stations, 80 to 500 km and typically 200 to 500 km on large-diameter lines, is chosen so that the tooth stays in the flat part of the curve.",
+  "keywords": [
+   "sawtooth",
+   "compressor",
+   "square",
+   "velocity",
+   "friction",
+   "maximum",
+   "minimum pressure"
+  ]
+ },
+ {
+  "id": "b02-061",
+  "slide": 129,
+  "type": "open",
+  "prompt": "When the demand on a pipeline exceeds its capacity, two options exist to increase it. Name them, compare them economically, and state the figures the lecture gives for compressor fuel consumption and station spacing.",
+  "solution": "The two options are 'looping the line' - laying a second pipe parallel to all or part of the existing one and connecting the two - and adding compression, i.e. building additional compressor stations or upgrading the existing ones.\n\nLooping increases the effective cross-section. Since capacity grows with D^2.5, a loop over part of the route removes the bottleneck without touching the pressure regime. It is pure capital expenditure: expensive up front, cheap to run, and it lasts for decades. Adding compression buys the same capacity by raising p1 and thus the term sqrt(p1^2 - p2^2). It is much cheaper to build but it has to be paid for every year in fuel: the cost of the energy for compression - fuel gas for turbine-driven compressors, or electricity for electrically driven ones - is a function of the compression ratio and of the flow rate. The lecture's example: for a ratio pOUT/pIN of about 2 the fuel consumption is about 0.6 % of the throughput per compressor station.\n\nThe design is therefore an economic compromise between the number of compressors and the pipeline diameter, and the balance depends on the expected load factor and on the price of energy: a line that will run at a high load factor for thirty years justifies steel, an intermittently used line justifies compression. For large-diameter and long-distance pipelines the resulting spacing is compression every 200 to 500 km, a somewhat narrower band than the 80 to 500 km quoted for pipelines in general.\n\nOne caution on the arithmetic: adding compression also adds fuel consumption, so part of the extra capacity is eaten by the compressors themselves - at 0.6 % per station and many stations this is not a rounding error.",
+  "keywords": [
+   "looping the line",
+   "adding compression",
+   "compromise",
+   "compression ratio",
+   "0.6 %",
+   "200 to 500 km"
+  ]
+ },
+ {
+  "id": "b02-062",
+  "slide": 130,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure plots pipeline capacity and ground temperature over the months of a gas year. Describe the relationship and explain the physics behind it. Why is this awkward - or convenient - for the system operator?",
+  "solution": "The two curves run in opposite phase. The ground temperature (dashed, right-hand axis) is at about 15 °C in October, falls to its minimum of roughly 6.5 °C in January/February, then rises through spring to a maximum of about 18.5 °C in August, and falls again. The capacity curve (solid) does the mirror image: it rises from October, peaks in January, decays through spring and summer, reaches its minimum in August and recovers in September. Capacity is highest when the ground is coldest.\n\nPhysics. A buried pipeline exchanges heat with the surrounding soil, so the gas takes on roughly the ground temperature. Cold gas is denser: at constant pressure the density scales with 1/T, so the same volume carries more mass and more energy. Cold gas is also more viscous-favourable in the sense that the lower volumetric flow for a given mass flow means lower velocity and therefore lower friction losses, so less pressure is lost per kilometre. Both effects push in the same direction: the colder the ground, the more energy per hour the same steel pipe can deliver.\n\nFor the operator this is a convenient coincidence rather than a problem: demand is temperature-correlated and peaks in exactly the months in which the pipeline delivers its maximum capacity, and it collapses in the summer when capacity is lowest. The transport system is therefore naturally matched to the load. The awkward side is that the firm capacity a network operator may sell has to be guaranteed under the worst conditions, so it must be calculated for the warm case in summer - and that capacity forecasts, maintenance planning and the technical capacity published at an entry or exit point are seasonal quantities, not constants.",
+  "keywords": [
+   "ground temperature",
+   "opposite",
+   "January",
+   "August",
+   "density",
+   "friction",
+   "temperature-correlated"
+  ]
+ },
+ {
+  "id": "b02-063",
+  "slide": 131,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the transportation principle of the lecture: what a shipper does physically and commercially between two hubs, and under which condition the business is profitable. Which transport options are listed?",
+  "solution": "The intended business: the shipper purchases gas at price psupply at location 1 and sells it at price psales at location 2. Physically he injects the gas at point A, at hub 1, into transportation capacity that he has reserved, the gas is transported at a price pTransport, and he withdraws it at point B, at hub 2, again out of reserved capacity.\n\nThe pricing requirement for profitability is\n\npsupply + pTransport < psales\n\nIn words: the purchase price plus the transport cost must be lower than the sales price. The margin is the location spread between the two hubs minus the cost of moving the gas - which means that transport is nothing other than the arbitrage of a price difference between two places, exactly as storage is the arbitrage of a price difference between two points in time.\n\nThree consequences follow, and they are the reason the slide exists:\n- The transport tariff sets a ceiling on the price difference that can persist between two connected hubs. If the spread exceeds pTransport, shippers book capacity until the spread is arbitraged away; if it is smaller, capacity stays unbooked and the pipe runs empty even though it is physically available.\n- Capacity must be reserved at both ends - entry at A and exit at B - and it is paid for whether or not gas flows, so an unused booking turns a positive spread into a loss.\n- Pancaking - stacking several point-to-point tariffs across borders - inflates pTransport until otherwise profitable trades die, which is the argument for the entry-exit system.\n\nThe transport options listed are pipeline, LNG, CNG and others; the choice between them is the quantity/distance diagram.",
+  "keywords": [
+   "psupply",
+   "pTransport",
+   "psales",
+   "capacity reserved",
+   "Hub 1",
+   "Hub 2",
+   "spread"
+  ]
+ },
+ {
+  "id": "b02-064",
+  "slide": 132,
+  "type": "cloze",
+  "prompt": "In the transportation principle every leg of the deal - the purchase at location 1, the transport from A to B and the sale at location 2 - has to be secured by ___ before the trade can be executed.",
+  "accept": [
+   "contracts",
+   "contract",
+   "a contract",
+   "Contract(s)",
+   "Vertraege",
+   "contractual agreements"
+  ],
+  "solution": "Contracts. The slide places a 'Contract(s)' box underneath the pipeline for exactly this reason: the arbitrage psupply + pTransport < psales only exists on paper until all three legs are contracted. The shipper needs a purchase contract at hub 1, a transport (capacity) contract for the entry at A and the exit at B, and a sales contract at hub 2 - and if any one of them is missing or has a different term, the position is open. The mismatch of terms is where the risk sits: capacity is typically booked for a year while a trade may last a day, so an unused booking turns a profitable spread into a loss."
+ }
+]

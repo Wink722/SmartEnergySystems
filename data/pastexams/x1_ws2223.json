@@ -1,0 +1,219 @@
+[
+ {
+  "id": "px-001",
+  "nr": 1,
+  "exam": "WS 22/23",
+  "prompt": "Name the types of compatibility that network nodes must provide, and give one example of each.",
+  "count": 1,
+  "hot": false,
+  "chapter": 1,
+  "slides": [53],
+  "solution": "A network only works if the nodes are compatible with each other; compatibility is the prerequisite of every network. The lecture distinguishes three types:\n\n1. Physical compatibility — the interface is a physical part of the product. Example: the flange and pressure class where two gas pipelines are coupled, or a plug that fits the socket.\n2. Communication compatibility — the nodes speak a common transmission protocol. Example: the SCADA telemetry between dispatching centres, or the standardised nomination messages exchanged between transmission system operators.\n3. Compatibility by convention — the interface works because the parties agreed on it, not because of physics. Example: a common currency, a common time reference such as the definition of the gas day, or an agreed gas quality band (Wobbe index).\n\nWithout compatibility at the nodes the individual lines stay isolated and the network effect — the value that grows with the number of connected participants — never materialises.",
+  "keywords": [
+   "physical compatibility",
+   "communication compatibility",
+   "convention",
+   "interface",
+   "protocol",
+   "prerequisite",
+   "network"
+  ]
+ },
+ {
+  "id": "px-002",
+  "nr": 2,
+  "exam": "WS 22/23",
+  "prompt": "Why can it be more advantageous to transport natural gas as LNG than through a pipeline?",
+  "count": 2,
+  "hot": true,
+  "chapter": 3,
+  "slides": [158, 160, 145, 156],
+  "solution": "The decisive argument is the cost structure over distance. Pipeline cost rises roughly linearly with distance: every additional kilometre needs more steel, more right of way and, every 80–500 km, another compressor station. The LNG chain instead carries very high fixed costs at the two ends — the liquefaction plant (42 % of the chain cost) and storage/regasification (27 %) — while the sea leg itself is comparatively cheap (20 %) and barely grows with distance. The two cost curves therefore cross: beyond a break-even distance LNG is cheaper. On the lecture's ENI chart LNG (roughly 2–2.5 US$/MMBtu, almost flat) undercuts an offshore pipeline from about 1,000 miles and a low-pressure onshore pipeline from roughly 3,000 miles; only a high-pressure onshore line stays competitive out to about 4,500 miles.\n\nBeyond cost there are strategic advantages: LNG is not tied to a fixed route and is therefore flexible — it diversifies supply, opens markets no pipeline reaches, avoids transit countries and the political and geographic restrictions that come with them, and cargoes can be re-directed to whichever market pays most (arbitrage). Pipelines in turn win at short distance, high and steady volumes and where a stable long-term relationship between two countries already exists.",
+  "keywords": [
+   "break-even distance",
+   "fixed costs",
+   "liquefaction",
+   "regasification",
+   "compressor station",
+   "transit countries",
+   "flexible",
+   "arbitrage"
+  ],
+  "note": "The memory protocol writes \"LNG (gaseous)\" — that is wrong. LNG is liquefied natural gas, cooled to about −162 °C, which shrinks its volume by a factor of roughly 600 and is exactly what makes sea transport possible."
+ },
+ {
+  "id": "px-003",
+  "nr": 3,
+  "exam": "WS 22/23",
+  "prompt": "Explain how working gas volume, injection rate and withdrawal rate are related to one another.",
+  "count": 2,
+  "hot": true,
+  "chapter": 4,
+  "graphic": true,
+  "slides": [207, 223],
+  "solution": "The three parameters describe one storage facility and are booked separately, but they are physically coupled — they cannot be chosen independently.\n\nTotal gas storage capacity = cushion gas + working gas volume. The cushion gas stays in the reservoir permanently and maintains the pressure; only the working gas volume can actually be cycled. The injection rate and the withdrawal rate are the maximum flows in and out, quoted in m³/h or kWh/h.\n\nThe coupling runs through reservoir pressure. When the store is full the pressure is high, so the withdrawal rate is at its maximum while the injection rate is at its lowest — pushing more gas in against a high pressure needs ever more compression. As the store empties the picture reverses: injection becomes easy, withdrawal falls off. The rates are therefore not constant but a function of the filling level, which is why storage contracts quote them together with a curve or with the reservoir type.\n\nWorking gas volume divided by the withdrawal rate gives the number of hours or days of full withdrawal, and its inverse is the cycling rate. A large working gas volume with a small withdrawal rate is a seasonal store (typically a depleted field or an aquifer); a small working gas volume with a high withdrawal rate is a peak-shaving store (typically a salt cavern). More cushion gas buys a higher rate for the same working gas volume — that is the trade-off the operator sizes.",
+  "keywords": [
+   "cushion gas",
+   "working gas volume",
+   "injection rate",
+   "withdrawal rate",
+   "reservoir pressure",
+   "filling level",
+   "cycling rate",
+   "salt cavern"
+  ]
+ },
+ {
+  "id": "px-004",
+  "nr": 4,
+  "exam": "WS 22/23",
+  "prompt": "Explain the \"time swap\" and, in that context, the intrinsic and the extrinsic value.",
+  "count": 1,
+  "hot": false,
+  "chapter": 4,
+  "slides": [272, 208, 273],
+  "solution": "Time swap. The intended business is to buy gas at time 1 at p_supply and sell it at time 2 at p_sales — physically that would need a storage facility. A time swap replaces the store with two market transactions at the *same* hub: the trader sells at time 1 at p1 and buys back at time 2 at p2. The lecture's profitability condition is p_supply − p1 < p_sales − p2, and compared with reserving storage capacity the swap is worthwhile whenever p2 − p1 < p_storage. Typically p1 < p2, so the swap costs money — but it may still be cheaper than the storage fee, and it needs no physical asset.\n\nIntrinsic value. The value a storage position can lock in today, risk-free, from the observable forward curve: buy the summer contract, sell the winter contract and hold the spread. It is simply the summer/winter spread minus the storage cost, capped by the injection and withdrawal rates. If the forward spread is smaller than the storage price, the intrinsic value is zero.\n\nExtrinsic value. The additional, optional value that only materialises if prices move. A store is not obliged to follow one seasonal cycle: it can re-optimise, inject and withdraw repeatedly and thus monetise volatility. That optionality is worth something even when the intrinsic value is zero, and it grows with price volatility and with the cycling rate of the facility. Total storage value = intrinsic value + extrinsic value.",
+  "keywords": [
+   "time swap",
+   "same hub",
+   "p_storage",
+   "intrinsic value",
+   "forward",
+   "spread",
+   "extrinsic value",
+   "volatility",
+   "optionality"
+  ],
+  "note": "The slides show the time swap and the comparison with storage, but they never use the terms \"intrinsic\" and \"extrinsic value\" — that part of the question goes beyond the deck. The definitions above are the standard ones and are consistent with the summer/winter-spread slides."
+ },
+ {
+  "id": "px-005",
+  "nr": 5,
+  "exam": "WS 22/23",
+  "prompt": "Why should transmission system operators be regulated?",
+  "count": 2,
+  "hot": true,
+  "chapter": 1,
+  "slides": [66, 62, 63, 65],
+  "solution": "Because transmission is a natural monopoly and therefore a monopolistic bottleneck. The cost function of a grid is sub-additive: one operator can serve the whole demand more cheaply than two, because the investment is huge, largely fixed and sunk, and economies of scale run right up to market size. Building a second parallel grid would waste capital, so competition *in* the network is not achievable — unlike production, trading and retail, where competition works perfectly well.\n\nLeft alone, the monopolist would restrict quantity, set monopoly prices and collect monopoly rents, and — if it is vertically integrated — deny or price out third-party access in order to protect its own sales business. The competitive stages upstream and downstream would then never develop.\n\nRegulation is the answer: the state creates \"as-if competition\" for the bottleneck by determining network access and prices or quantities, and it enforces unbundling so that the grid is separated from the competitive stages. The political objective is lower prices for end customers; the expected result is more suppliers of the commodity and genuine competition in its sale, together with non-discriminatory third-party access, security of supply and the investment that a purely profit-driven monopolist would not make.",
+  "keywords": [
+   "natural monopoly",
+   "monopolistic bottleneck",
+   "sub-additive",
+   "economies of scale",
+   "monopoly rents",
+   "as-if competition",
+   "third-party access",
+   "unbundling"
+  ]
+ },
+ {
+  "id": "px-006",
+  "nr": 6,
+  "exam": "WS 22/23",
+  "prompt": "Compare the transport of oil by pipeline and by truck. Name three aspects.",
+  "count": 1,
+  "hot": false,
+  "chapter": 5,
+  "slides": [294, 295, 296],
+  "solution": "1. Capacity. A pipeline moves up to about 1,500,000 bbl per day continuously; a truck carries up to roughly 750 bbl per trip. Between the two lie ships (800,000–1,000,000 bbl per cargo), barges (10,000–30,000 bbl) and rail (about 200 bbl per car). Pipelines are therefore the backbone for base volumes, trucks the last mile.\n\n2. Cost. The pipeline is capital-intensive — steel, right of way, pump stations, long approval times — but once it is utilised its unit cost per barrel-kilometre is by far the lowest. The truck needs almost no dedicated capital because it uses public infrastructure, but its specific cost is the highest of all modes, so it is only economic over short distances and small quantities.\n\n3. Flexibility. The pipeline is a fixed point-to-point link: the route is decided once and cannot be changed, and a new one takes years. The truck is fully flexible in destination and quantity, can serve any customer without an investment and can be redeployed at short notice.\n\nFurther aspects the lecture lists: safety and environment — pipeline transport has the lowest spill and accident rate per ton-kilometre, road the highest exposure — and energy efficiency, where the pipeline again wins per ton-kilometre.",
+  "keywords": [
+   "capacity",
+   "1,500,000 bbl",
+   "750 bbl",
+   "specific cost",
+   "capital-intensive",
+   "flexibility",
+   "last mile",
+   "safety"
+  ]
+ },
+ {
+  "id": "px-007",
+  "nr": 7,
+  "exam": "WS 22/23",
+  "prompt": "Name the four types of control reserve in the electricity system and state who is responsible for each.",
+  "count": 1,
+  "hot": false,
+  "chapter": 13,
+  "graphic": true,
+  "slides": [567, 566],
+  "solution": "Electrical energy cannot be stored to any relevant extent, so feed-in and withdrawal have to match permanently. Any imbalance shows up immediately as a frequency deviation from the 50 Hz target (tolerance band 49.95–50.05 Hz), caused by unforeseeable events — generation failures, grid disruptions — and by forecast inaccuracies, which grow with the share of stochastic wind and PV. Control reserve is graded by how fast it has to be there:\n\n1. Primary control — activated within seconds, fully available after 30 s. Stabilises the frequency; delivered by all connected generators jointly.\n2. Secondary control — takes over from about 30 s and is fully available after some minutes up to 15 min. Restores the frequency to 50 Hz and returns the primary reserve.\n3. Tertiary control / minute reserve — from 15 min up to about 1 h. Relieves the secondary reserve and covers longer disturbances.\n4. Hourly reserve — everything beyond one hour.\n\nResponsibility: the transmission system operator procures and calls the first three. From one hour onwards the balancing group manager has to restore its own balance, i.e. responsibility passes from the TSO to the balancing group. Further system services outside this ladder are reactive power compensation and black start capability.",
+  "keywords": [
+   "primary control",
+   "secondary control",
+   "tertiary control",
+   "hourly reserve",
+   "transmission system operator",
+   "balancing group",
+   "50 Hz",
+   "frequency"
+  ],
+  "note": "The slide labels the second band \"Primary control\" a second time — the German text layer underneath it reads \"Sekundärregelung\", so it is the secondary control band. Read the diagram along the time axis (5 s / 30 s / 15 min / 1 h) rather than by the English labels."
+ },
+ {
+  "id": "px-008",
+  "nr": 8,
+  "exam": "WS 22/23",
+  "prompt": "Draw the power-to-gas chain and label its steps.",
+  "count": 1,
+  "hot": false,
+  "chapter": 14,
+  "graphic": true,
+  "slides": [597, 610, 681, 683],
+  "solution": "Sketch the chain from left to right:\n\nRenewable electricity (wind, PV, surplus generation) → electrolyser → hydrogen → (optional) methanation → SNG → gas infrastructure → end use, with an optional return path to power.\n\n1. Electrolysis splits water: 2 H2O → 2 H2 + O2. The lecture's figures: alkaline about 4.7 kWh/Nm³ (≈ 64 % efficiency), SOEC about 3.6 kWh/Nm³ (≈ 83 %); PEM sits in between.\n2. The hydrogen can be used directly — fed into a hydrogen network or a re-used natural gas pipeline, stored in salt caverns, or consumed in industry and mobility.\n3. Or it is methanated with a CO2 stream from a point source or direct air capture to synthetic natural gas (SNG). The advantage the lecture stresses: SNG re-uses the *complete* existing natural gas infrastructure — pipelines, roughly 260 TWh of storage, power plants, heating systems, ships.\n4. Re-electrification in a gas turbine, CCGT or fuel cell closes the loop to power-to-gas-to-power.\n\nMark the losses at every arrow — that is what the examiner is looking for.",
+  "keywords": [
+   "electrolysis",
+   "2 H2O",
+   "hydrogen",
+   "methanation",
+   "SNG",
+   "gas infrastructure",
+   "re-electrification",
+   "losses"
+  ],
+  "note": "The WS 25/26 decks no longer contain a dedicated power-to-gas slide. The chain has to be assembled from the electrolysis slide, the natural-gas-infrastructure-re-use slide and the synthetic methane slides."
+ },
+ {
+  "id": "px-009",
+  "nr": 9,
+  "exam": "WS 22/23",
+  "prompt": "Which challenges does power-to-gas face in the context of the energy transition?",
+  "count": 1,
+  "hot": false,
+  "chapter": 14,
+  "slides": [634, 683, 684, 610],
+  "solution": "Efficiency. Every conversion costs: electrolysis 64–83 %, methanation again, re-electrification 40–60 %. The round trip therefore ends well below 40 %, so power-to-gas competes badly with direct electrification wherever direct use is possible — the clean hydrogen ladder puts it near the bottom for heating and cars.\n\nCost and full-load hours. Green hydrogen only becomes cheap with low electricity prices, but a plant that runs only on surplus power has too few full-load hours to earn back its capex. That is the central economic contradiction of the concept.\n\nCO2 supply. Methanation needs a carbon source. Point sources are cheap but fossil, direct air capture is climate-neutral but expensive and energy-intensive.\n\nInfrastructure. Hydrogen embrittles steel, so existing pipelines tolerate only limited blending; appliances, turbines and meters need adaptation. Re-use of the natural gas infrastructure is possible but not free. Volumetric energy density is low, storage needs caverns, and there is no liquid market or reliable pricing yet.\n\nWater and siting. About 9 kg of water per kg of hydrogen, roughly 18 kg including cooling — a hard constraint in exactly the sunny, windy regions that are attractive for production.\n\nRegulation and financing. Who pays for the hydrogen backbone, how is green hydrogen certified, and which subsidies bridge the gap until the technology is competitive.",
+  "keywords": [
+   "efficiency",
+   "conversion",
+   "full-load hours",
+   "CO2 source",
+   "embrittle",
+   "infrastructure",
+   "water",
+   "regulation"
+  ]
+ },
+ {
+  "id": "px-010",
+  "nr": 10,
+  "exam": "WS 22/23",
+  "prompt": "A CCGT plant generates 500 MW. It can be connected to the grid either with a 110 kV or with a 380 kV line; the resistance is 6 Ω. Calculate the power loss Pv for both cases.",
+  "count": 1,
+  "hot": false,
+  "chapter": 13,
+  "slides": [549],
+  "solution": "The lecture works with P = U · I and Pv = I² · R.\n\n110 kV line:\nI = P / U = 500 · 10^6 W / (110 · 10^3 V) = 4,545 A\nPv = I² · R = (4,545 A)² · 6 Ω = 1.24 · 10^8 W ≈ 124 MW\nThat is about 24.8 % of the transmitted 500 MW.\n\n380 kV line:\nI = P / U = 500 · 10^6 W / (380 · 10^3 V) = 1,316 A\nPv = I² · R = (1,316 A)² · 6 Ω = 1.04 · 10^7 W ≈ 10.4 MW\nThat is about 2.1 % of the transmitted 500 MW.\n\nBoth steps collapse into Pv = R · P² / U², which shows the mechanism directly: losses fall with the square of the voltage. Going from 110 kV to 380 kV reduces them by a factor of (380/110)² ≈ 11.9. Conclusion, exactly as on the slide: reduce resistance, reduce current, raise the voltage by transforming — which is why long-distance transmission uses the extra-high-voltage level.",
+  "keywords": [
+   "I = P / U",
+   "4,545 A",
+   "124 MW",
+   "1,316 A",
+   "10.4 MW",
+   "square of the voltage",
+   "transforming"
+  ],
+  "note": "The lecture uses the single-phase relation P = U · I. With the correct three-phase relation I = P/(√3·U·cos φ) and Pv = 3·I²·R you arrive at the same Pv = R·P²/U², so the numbers are unaffected — but write down the formula the lecture uses."
+ }
+]

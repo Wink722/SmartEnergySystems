@@ -1,0 +1,85 @@
+[
+ {
+  "id": "b06x-001",
+  "slide": 318,
+  "type": "open",
+  "prompt": "Why does the lecture show a real crude oil transportation contract, and which elements of such a contract decide who carries which risk?",
+  "solution": "The example exists to show that everything discussed abstractly — capacity, quality, nomination, liability — appears in a real document with money attached, and that oil transport is contractual before it is technical.\n\nThe elements that allocate risk are the ones to name. Quantity and quality specification: what is being moved and to which standard, because off-spec crude can be refused. Delivery and receipt points: where title and risk pass from shipper to carrier and back. Tariff and its components: a transport charge plus surcharges, often with a minimum volume commitment, so the shipper carries volume risk. Laytime and demurrage: how long loading and discharge may take and who pays once that time is exceeded — the classic dispute in shipping. Liability and force majeure: which failures excuse performance. And the term with its termination rights.\n\nThe pattern is the same as in the gas contracts: the party that can control a risk is normally the one that carries it, and everything outside anyone's control is pushed into force majeure.",
+  "keywords": [
+   "quality",
+   "delivery",
+   "title",
+   "risk",
+   "tariff",
+   "laytime",
+   "demurrage",
+   "force majeure"
+  ]
+ },
+ {
+  "id": "b06x-002",
+  "slide": 355,
+  "type": "open",
+  "prompt": "Electricity market models are generally split into two main categories. Name them and explain what distinguishes them.",
+  "solution": "Optimisation models and simulation models.\n\nAn optimisation model searches for the best decision under constraints: an objective function is minimised or maximised — typically total system cost — subject to technical and economic restrictions. It answers the normative question, what should happen if everyone behaves optimally. Linear programming for unit commitment and capacity expansion is the standard case.\n\nA simulation model reproduces the operation of a system over time. It does not optimise; it applies rules of behaviour to actors and lets the result emerge. It answers the descriptive question, what would plausibly happen given how the actors actually decide — including behaviour that is not cost-minimal.\n\nThe distinction is independent of the bottom-up versus top-down axis, which is why the two together form a grid. Agent-based electricity market models such as PowerACE and AMIRIS sit on the simulation side; PERSEUS and TIMES-type models sit on the optimisation side.",
+  "keywords": [
+   "optimisation models",
+   "simulation models",
+   "objective function",
+   "constraints",
+   "behaviour",
+   "over time",
+   "cost-minimal"
+  ]
+ },
+ {
+  "id": "b06x-003",
+  "slide": 359,
+  "type": "open",
+  "prompt": "What is a computer simulation, what has to exist before you can simulate, and which assumption does every simulation rest on?",
+  "solution": "A simulation reproduces the operation of a system over time. The prerequisite is the development of a model: you cannot simulate anything without first having built a representation of it.\n\nThe model must represent the key characteristics or behaviours of, and the interactions between, the selected physical or abstract systems, processes or actors. The lecture makes a precise distinction here that is worth repeating in an exam: the model represents the system itself, the simulation represents the operation of that system over time. Model and simulation are not synonyms.\n\nThe assumption everything rests on: the model behaves like the real system with respect to the variables being examined. Note the qualification — not in every respect, only for the examined variables. A model that reproduces prices well may be useless for grid flows, and that is not a defect as long as nobody uses it for grid flows. It is the same idea as the definition of a model as a target-oriented, simplified representation of reality.",
+  "keywords": [
+   "operation of the system",
+   "over time",
+   "model",
+   "key characteristics",
+   "interactions",
+   "behaves like the real system",
+   "examined variables"
+  ]
+ },
+ {
+  "id": "b06x-004",
+  "slide": 354,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide arranges well-known energy models on two axes. Name the axes and explain how you would read off where a given model sits.",
+  "solution": "The vertical axis is the spatial and sectoral scope: global, European, national or German, running from the electricity sector alone through the energy sector to cross-sectoral coverage. The horizontal axis is the modelling approach: bottom-up on one side, top-down on the other.\n\nReading a model off the chart means asking two questions. First, how much of the world does it contain — one national electricity market, or a global multi-sector economy? Second, does it resolve individual technologies and plants, which makes it bottom-up, or does it resolve economic sectors and their interactions, which makes it top-down?\n\nThe named examples make the pattern concrete: PowerACE and PERSEUS-ICE, both from IIP at KIT, are bottom-up electricity models; TIMES-D and IKARUS-MARKAL are bottom-up energy system models; DART, NEWAGE-W, PACE and GEM-E3 are top-down general equilibrium models; POLES, WEM and PRIMES sit at the global end.\n\nThe message of the slide is that no model covers everything: scope is bought at the price of resolution, and the choice of model follows from the question being asked.",
+  "keywords": [
+   "spatial",
+   "sectoral",
+   "bottom-up",
+   "top-down",
+   "technologies",
+   "PowerACE",
+   "PERSEUS",
+   "resolution"
+  ]
+ },
+ {
+  "id": "b06x-005",
+  "slide": 355,
+  "type": "mc",
+  "prompt": "Which statement correctly separates optimisation from simulation models in electricity market modelling?",
+  "options": [
+   "Optimisation models minimise an objective function subject to constraints; simulation models reproduce the behaviour of the system over time without optimising.",
+   "Optimisation models cover the electricity sector, simulation models cover the whole economy.",
+   "Optimisation models work with historical data, simulation models only with forecasts.",
+   "Optimisation models are always bottom-up, simulation models are always top-down."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Optimisation searches for the best decision under constraints; simulation reproduces the operation of the system over time. The other options confuse this distinction with the independent bottom-up versus top-down axis, or invent a difference in data or scope that does not exist — models of both kinds are calibrated on historical data and both exist at every scope."
+ }
+]

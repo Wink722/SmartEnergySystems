@@ -1,0 +1,1050 @@
+[
+ {
+  "id": "b03-001",
+  "slide": 133,
+  "type": "open",
+  "prompt": "The lecture defines transportation as the \"provision of capacity and related services at or between A and B during a defined term\". Break this definition into its three components, name the two parties, and say what each of them actually contracts for.",
+  "solution": "Transportation is not the sale of gas, it is the sale of a service, and the definition has three components.\n\n(1) Capacity and related services: what is sold is the right to a maximum flow (m3/h or kWh/h) that the transporter must keep available, plus the services that go with it - metering, receipt and confirmation of nominations, allocation, data management, billing.\n(2) At or between A and B: the service is tied to points. A is the delivery point (also receipt point, point of acceptance, inlet point) where the shipper hands the gas over; B is the redelivery point (also point of delivery, outlet point) where he takes it back.\n(3) During a defined term: every booking has a start and an end. Term is one of the four main contract clauses, together with capacity, price and location.\n\nThe two parties are the shipper, who reserves the transportation capacity and stays the owner of the gas from A to B, and the carrier or transporter, who owns and operates the pipeline and only moves the shipper's molecules. Because the shipper pays for the reserved capacity whether or not gas flows, capacity and utilisation must never be confused: a booking used at half load costs exactly as much as one used at full load, and the specific cost per MWh doubles.",
+  "keywords": [
+   "capacity",
+   "related services",
+   "defined term",
+   "shipper",
+   "carrier",
+   "delivery point",
+   "redelivery point",
+   "utilisation"
+  ]
+ },
+ {
+  "id": "b03-002",
+  "slide": 133,
+  "type": "cloze",
+  "prompt": "In the terminology defined on this slide, the point at which the shipper makes the gas available to the carrier - also called receipt point, point of acceptance or inlet point - is the ___.",
+  "accept": [
+   "delivery point",
+   "delivery-point",
+   "delivery points",
+   "Uebergabepunkt",
+   "Übergabepunkt"
+  ],
+  "solution": "Delivery point. The lecture deliberately uses \"delivery point\" for the entry side A (aliases: receipt point, point of acceptance, inlet point) and \"redelivery point\" for the exit side B (aliases: delivery point, point of delivery, outlet point). Watch the trap the slide creates itself: \"delivery point\" is also the everyday name for the exit point, and slides 183 and 191 use it in exactly that ordinary sense. In an exam, always say which end you mean or use entry and exit."
+ },
+ {
+  "id": "b03-003",
+  "slide": 133,
+  "type": "mc",
+  "prompt": "A shipper books 100,000 m3/h between A and B for one year but in the end moves only 40,000 m3/h on average. What has he bought and what does he owe?",
+  "options": [
+   "He has bought the reserved capacity of 100,000 m3/h for the whole term and pays for it in full, whatever the utilisation.",
+   "He has bought ownership transfer: the carrier buys the gas at A and sells it back at B, so the price difference settles the bill.",
+   "He has bought 40,000 m3/h of transport and pays only for the quantity actually moved.",
+   "He has bought a physical path through the network, so his bill changes whenever the carrier re-routes the flow."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The scope of service is capacity and related services at or between A and B during a defined term, so the bill follows the booking and not the flow: 100,000 m3/h for twelve months, paid in full. The first option confuses capacity with utilisation - the specific transport cost per MWh rises exactly in inverse proportion to the load factor. The third option is wrong because the shipper never loses title to the gas; the carrier only receives it at the delivery point and returns it at the redelivery point. The fourth option is wrong under entry-exit and postage-stamp pricing, where the charge depends on the booked points and capacity, not on the path the molecules take."
+ },
+ {
+  "id": "b03-004",
+  "slide": 135,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Compare the European pipeline map of 1970 (previous slide) with the map of about 2017 shown here. Describe how the system changed, and name the three supply directions that converge on Europe in the 2017 map.",
+  "solution": "In 1970 the map shows isolated bilateral links rather than a system: Dutch Groningen gas moving to Germany, Belgium and France, the first North Sea and Norwegian lines just beginning, a single line from the Soviet Union through Ushgorod, and a handful of coastal LNG receiving points (Canvey, Le Havre, Fos-sur-Mer, La Spezia, Barcelona) fed from Algeria. There is almost no meshing and no redundancy: each buyer hangs on one seller.\n\nBy about 2017 the map shows a meshed, continent-wide network. Its legend distinguishes lines integrated in the European system from other lines, and existing lines from those under construction or planned, and it marks gas fields, LNG receiving terminals in operation or projected, and liquefaction plants. Almost every country is connected to two or more neighbours.\n\nThree supply directions converge on it: from the north the Norwegian and North Sea fields, landing at Emden, Dornum, Zeebrugge, Easington and St Fergus, with the Melkoeya liquefaction plant in the far north; from the east the Russian corridors through Ukraine and Belarus plus Nord Stream across the Baltic, with a dashed Caspian and Turkish corridor still under construction; and from the south the Algerian and Libyan lines under the Mediterranean to Spain and Italy, plus LNG terminals along the whole Atlantic and Mediterranean coast.\n\nThe economic point is that this meshing is the physical precondition for entry-exit pricing, a virtual trading point and free re-routing. A 1970-style radial system cannot support them.",
+  "keywords": [
+   "meshed",
+   "Groningen",
+   "Norwegian",
+   "Nord Stream",
+   "LNG receiving terminals",
+   "liquefaction",
+   "entry-exit"
+  ]
+ },
+ {
+  "id": "b03-005",
+  "slide": 136,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the structure of the North Sea gas transport system on this map: which three kinds of element does the legend show, and why is the system built as a few large trunk lines instead of one line per field?",
+  "solution": "The legend names three kinds of element: pipelines, borders, and selected producing fields.\n\nStructure: offshore fields - Troll, Statfjord, Gullfaks, Oseberg, Sleipner, Frigg, Heimdal, Ekofisk, Brae, Britannia, Elgin/Franklin, Fulmar, Tyra - feed short gathering lines into a few junction or riser platforms such as Draupner, Sleipner and Ekofisk. From there a small number of long trunk lines run to a handful of landing points ashore: Kaarstoe and Kollsnes in Norway, St Fergus, Teesside, Easington, Theddlethorpe and Bacton in the UK, Zeebrugge in Belgium, Dunkirk in France, Emden and Dornum in Germany, Callantsoog and Uithuizen in the Netherlands, Esbjerg and Kaergaard in Denmark. The landing point is where the offshore system hands over to the onshore high-pressure grid.\n\nWhy trunk lines: offshore pipeline cost is almost entirely fixed cost - pipe, coating, route survey, laying vessel - and the cost per unit of capacity falls sharply with diameter, because cost per length grows roughly with the diameter while capacity grows with about the 2.58th power of it. Bundling many fields into one large-diameter trunk line therefore gives the lowest specific cost, and it lets a declining field be replaced by a new one without building a new line. The price of that choice is concentration risk: one trunk line and one landing point are a single point of failure, which is why junction platforms and cross-connections between the national systems exist.",
+  "keywords": [
+   "fields",
+   "trunk lines",
+   "landing point",
+   "Draupner",
+   "Zeebrugge",
+   "diameter",
+   "2.58"
+  ]
+ },
+ {
+  "id": "b03-006",
+  "slide": 137,
+  "type": "open",
+  "prompt": "Give the four dates the slide lists for the Dutch gas system and explain why the Groningen discovery is the reason Germany became a transit country.",
+  "solution": "The four dates: 1959 discovery of the Groningen field; 1966 first exports of Groningen gas to Germany; 1968 deliveries reaching as far south as Mannheim; 1974 start of operation of TENP, the transit line to Italy.\n\nThe logic: Groningen was far bigger than the Dutch market could absorb, so the gas had to be exported, and export means crossing borders - the Dutch border points on the map are Oude Statenzijl, Winterswijk, Zevenaar, Tegelen and Bocholtz. Once a line ran from Groningen down to Mannheim, extending it across the Alps to Italy was only one further step. From 1974 Germany was therefore not merely a customer for Dutch gas but a transit country: gas entered at the Dutch border and left again at the southern border without ever being sold in Germany.\n\nTwo consequences the lecture returns to: transit capacity becomes a cost item in its own right - it appears as an indirect fixed cost in the cost matrix of slide 173 - and transit creates the political dependence that later becomes the argument for LNG, because every additional transit country is one more party that can interrupt, tax or renegotiate.",
+  "keywords": [
+   "1959",
+   "Groningen",
+   "1966",
+   "Mannheim",
+   "1974",
+   "TENP",
+   "transit country"
+  ]
+ },
+ {
+  "id": "b03-007",
+  "slide": 137,
+  "type": "cloze",
+  "prompt": "The pipeline that has carried gas across Germany towards Italy since 1974 and turned Germany into a transit country is the ___.",
+  "accept": [
+   "TENP",
+   "Trans Europa Naturgas Pipeline",
+   "Trans-Europa-Naturgas-Pipeline",
+   "TENP pipeline"
+  ],
+  "solution": "TENP, the Trans Europa Naturgas Pipeline. In operation since 1974, it carried Dutch and later Norwegian gas from the German-Dutch border across Germany and, via Transitgas through Switzerland, to Italy. It is why Germany is a transit country and not only a consumer of imported gas."
+ },
+ {
+  "id": "b03-008",
+  "slide": 139,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide asks: \"Transport or separate product?\". Walk through the elements of the figure and then answer the question - is LNG just another way of transporting natural gas, or a product in its own right? Argue both readings.",
+  "solution": "The figure, left to right: gas fields feed gas processing facilities; a pipeline takes the treated gas to the liquefaction plant; it is stored in LNG tanks and loaded at the LNG loading terminal; an LNG carrier crosses the ocean; at the LNG terminal a carrier discharges into the receiving terminal's LNG tanks; regasification turns the liquid back into gas; a pipeline delivers it to gas utilities and to a power station.\n\nRead as transport: gas goes in at one end and gas comes out at the other. Liquefaction is only a physical trick - cooling to about -162 °C shrinks the volume by a factor of roughly 600 - and it exists solely to make sea transport possible. Nothing is added to the commodity, and the chain competes with a pipeline for exactly the same job, which is why the lecture judges it on delivered cost over distance.\n\nRead as a separate product: LNG is bought, sold, priced and shipped as a liquid in its own right. It has its own quality specification, its own price benchmarks, its own contract forms (FOB, DES, charterparties, heel, demurrage) and uses that pipeline gas cannot serve - ship bunkering, truck delivery to off-grid customers, small-scale LNG, power ships. Slide 161 makes this visible: the same molecule ends up at 7.8, 10.0 or 12.8 USD/MMBtu depending on which LNG product it becomes.\n\nThe lecture's answer is both: in the large-scale import business LNG is a transport option competing with pipelines; in the small- and medium-scale business it has become a product of its own.",
+  "keywords": [
+   "liquefaction",
+   "-162 °C",
+   "600",
+   "regasification",
+   "FOB",
+   "bunkering",
+   "12.8"
+  ]
+ },
+ {
+  "id": "b03-009",
+  "slide": 140,
+  "type": "open",
+  "graphic": true,
+  "prompt": "This figure adds the modern, non-classical parts of the LNG chain. Name the four floating or small-scale concepts it shows and explain, for FLNG and FSRU, what problem each of them solves.",
+  "solution": "Besides the classical route (offshore gas platform or gas field, onshore LNG plant, ocean-going carrier, onshore receiving terminal, city), the figure shows four newer concepts: near-shore FLNG, open-sea FLNG, FSRU, and small-scale LNG including a power ship supplying a city directly.\n\nFLNG (floating liquefied natural gas) is a liquefaction plant on a hull moored over or near the field. It solves the stranded-gas problem: a field that is too small, too remote or too deep to justify an offshore pipeline to shore plus an onshore plant plus a jetty. FLNG removes the pipeline to shore, the land acquisition and much of the permitting, and it can be moved to the next field when this one is depleted - so it converts an immovable, site-specific investment into a re-deployable asset.\n\nFSRU (floating storage and regasification unit) is the mirror image on the import side: a ship with LNG storage and vaporisers that discharges gas straight into the grid at a jetty. It solves the time and commitment problem: an onshore regasification terminal takes years to build and is sunk once built, whereas an FSRU can be chartered and be on stream within months and released again afterwards. That is exactly why Germany used FSRUs in 2022/23 - and why the load factors of slide 170 matter, since a chartered FSRU costs its hire whether it regasifies or not.\n\nSmall-scale LNG and power ships extend the chain past the grid: LNG is delivered by small vessel, truck or ISO container to customers with no pipeline connection, at the higher costs shown on slide 161.",
+  "keywords": [
+   "FLNG",
+   "FSRU",
+   "small-scale LNG",
+   "power ship",
+   "stranded",
+   "regasification",
+   "chartered"
+  ]
+ },
+ {
+  "id": "b03-010",
+  "slide": 140,
+  "type": "cloze",
+  "prompt": "A ship that stores LNG and vaporises it directly into the receiving grid, so that no onshore regasification terminal has to be built, is called an ___.",
+  "accept": [
+   "FSRU",
+   "floating storage and regasification unit",
+   "floating storage regasification unit",
+   "FSRUs"
+  ],
+  "solution": "FSRU - floating storage and regasification unit. Its advantage over an onshore terminal is speed and reversibility: it can be chartered and commissioned within months and returned afterwards, instead of a multi-year, sunk investment. Its counterpart on the export side is the FLNG, a floating liquefaction plant. All six German import points listed on slide 164 were FSRUs (\"schwimmend\") before stationary terminals were planned for 2026/27."
+ },
+ {
+  "id": "b03-011",
+  "slide": 141,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The figure marks two \"points of sale\" along the LNG supply chain, FOB and CIF. Explain where each of them sits, what the traditional split between buyers and sellers was, and which trend the two text boxes describe.",
+  "solution": "The chain runs from the natural gas field through the liquefaction plant, LNG carrier ships, the LNG receiving and regasification terminal and the distribution grid to the ultimate gas customer. Sellers push from the upstream end, buyers pull from the downstream end, and the point of sale is where the two meet.\n\nFOB (free on board) sits between the liquefaction plant and the carrier: the seller's obligation ends once the cargo is loaded, and the buyer supplies the ship and carries the freight cost and risk. CIF sits at the receiving terminal end: cost, insurance and freight are for the seller's account. The lecture adds an important caveat on slide 191 - CIF fixes who pays for freight and insurance, but it does not by itself say where title passes; DES (delivery ex ship) is the term that does.\n\nTraditionally buyers stayed downstream and sellers upstream, with the two perhaps overlapping only in the control of the LNG ships. The trend described in the two boxes runs against that: LNG buyers increasingly go upstream as joint-venture partners in fields and liquefaction plants, and LNG sellers invest downstream in terminals and grids. The reason given is commercial, not technical - a diversified seller integrated downstream can engage in short-term trading and exploit arbitrage between markets, because he then owns both a cargo and a place to land it.",
+  "keywords": [
+   "FOB",
+   "CIF",
+   "point of sale",
+   "upstream",
+   "downstream",
+   "arbitrage",
+   "short-term trading"
+  ]
+ },
+ {
+  "id": "b03-012",
+  "slide": 142,
+  "type": "open",
+  "prompt": "The slide shows the purchase strategy of an LNG importer along the chain Foerderung - Verfluessigung - Verschiffung - Regasifikation. State what the importer can acquire at each of the four stages, and name the three contract types that mark how far along the chain he takes ownership.",
+  "solution": "The four stages and the corresponding investments:\n- Foerderung (production): acquisition of stakes in the field itself (Erwerb von Feldesbeteiligungen).\n- Verfluessigung (liquefaction): participation in the liquefaction plant (Beteiligung an Verfluessigungsanlagen).\n- Verschiffung (shipping): purchase or charter of LNG vessels (Kauf oder Charter von LNG-Schiffen).\n- Regasifikation: participation in, or simply booking of, regasification capacity.\n\nThe three contract types mark how much of that chain the importer takes over:\n- FOB contract (free on board): he takes the cargo at the loading port, so he needs ships and regasification capacity himself - the most integrated position.\n- \"Ab Schiff\" contract (ex ship, DES): the seller brings the cargo to the import terminal; the importer needs regasification capacity but no ships.\n- Ex-Terminal contract: he buys gas that has already been regasified - effectively a pipeline-gas purchase, with no LNG-specific assets at all.\n\nThe two poles the slide names are the business models: voll-integriert, where the importer owns a share of every stage from the field to the grid and captures the whole margin but carries all the risk, and Markt, where he buys at the point of sale and leaves the chain to others. In practice importers choose a point in between, and the choice determines which of the risks of slide 156 - transit, chokepoints, plant outages - they carry themselves.",
+  "keywords": [
+   "Feldesbeteiligungen",
+   "Verfluessigungsanlagen",
+   "Charter",
+   "Regasifikation",
+   "FOB",
+   "Ab Schiff",
+   "Ex-Terminal",
+   "voll-integriert"
+  ]
+ },
+ {
+  "id": "b03-013",
+  "slide": 143,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide compares the two LNG cargo containment concepts. Sketch the cross-section, name the two concepts, and compare them using the four criteria the table gives.",
+  "solution": "The cross-section shows both concepts in one drawing, split down the middle. On the left the self-supporting tank: a free-standing sphere with a tank cover, a tank shell of aluminium alloy, sitting in the hull with water ballast spaces around it. On the right the membrane tank: the cargo follows the shape of the hull, with an outer hull, an inner hull, insulation on the inner hull and a thin membrane as the liquid-tight skin, again with water ballast spaces.\n\nThe four criteria:\n1. Tank: self-supporting is a heavy rigid metallic structure; membrane is a specialised light construction. Both are stated to have high material and fabrication cost.\n2. Tank capacity: identical in the example, 125,000 m3 - so the comparison is genuinely like for like.\n3. Ship tank material weight: 4,000 tons for the self-supporting tank against 400 tons for the membrane - a factor of ten. That is the decisive number: less steel means less displacement, so less fuel per tonne of cargo, and the membrane design uses the rectangular hull volume far better.\n4. Insulation: with the self-supporting tank the insulation is non-load-bearing and relatively cheap; with the membrane tank the insulation is rigid and load-bearing over the whole surface, and therefore relatively expensive.\n\nSo the trade-off is a heavy tank with cheap insulation against a light tank with expensive insulation. The membrane concept has won most of the modern fleet on weight and volume efficiency, while the self-supporting spherical (Moss) type is mechanically robust, tolerant of partial filling and sloshing, and easy to inspect.",
+  "keywords": [
+   "self-supporting",
+   "membrane",
+   "125,000 m3",
+   "4,000 tons",
+   "400 tons",
+   "insulation",
+   "load bearing"
+  ]
+ },
+ {
+  "id": "b03-014",
+  "slide": 143,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Which statement about the two LNG tank designs on the slide is correct?",
+  "options": [
+   "For the same 125,000 m3 capacity the membrane tank needs about 400 tons of tank material against about 4,000 tons for the self-supporting tank, but its insulation is load-bearing and relatively expensive.",
+   "The membrane tank is cheaper in both tank and insulation, which is why the spherical design has disappeared entirely.",
+   "The membrane tank has roughly ten times the capacity of a self-supporting tank of the same ship size.",
+   "The self-supporting tank needs no insulation, because the aluminium shell alone keeps the cargo at about -162 °C."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The table states the same capacity, 125,000 m3, for both designs, and the difference is the tank material weight: about 4,000 tons for the heavy rigid metallic self-supporting tank against about 400 tons for the specialised light membrane construction. The compensation is the insulation: non-load-bearing and relatively cheap for the self-supporting tank, rigid, load-bearing over the whole surface and relatively expensive for the membrane. The first option inverts the capacity statement, which is identical for both. The third is wrong because every LNG tank needs heavy insulation - the cargo is at about -162 °C and boil-off gas is unavoidable. The fourth is wrong because the slide explicitly gives both designs high material and fabrication cost, and the Moss spherical type is still in service."
+ },
+ {
+  "id": "b03-015",
+  "slide": 145,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Take the cost split of the LNG chain shown here (11 / 42 / 20 / 27 %). Which of these shares are capacity-related fixed costs at the ends of the chain, and what follows for an LNG project that runs at only 60 % of its nameplate capacity?",
+  "solution": "The split is exploration and production 11 %, refrigeration and liquefaction 42 %, transportation 20 %, storage and regasification 27 %.\n\nThe two end-of-chain stages, liquefaction with 42 % and storage and regasification with 27 %, together 69 % of the chain cost, are essentially capital cost of plants: trains, compressors, cryogenic tanks, jetties, vaporisers. Once built they cost almost the same whether they are loaded or not, and they do not grow with the shipping distance. Only the 20 % transportation share depends on distance, and even that is largely the charter cost of a vessel that has to be paid per day rather than per mile.\n\nConsequence for a plant at 60 % load: the fixed part of the cost is spread over 40 % less throughput, so the specific cost of that part rises by a factor 1/0.6 = 1.67. If 69 % of the chain cost is fixed at the two ends, the delivered cost rises to roughly 0.69/0.6 + 0.31 = 1.15 + 0.31 = 1.46, that is by about 46 % against full load. That is why liquefaction plants are built against long-term, take-or-pay style offtake and why the utilisation figures of slides 166, 170 and 171 are an economic and not a statistical question: European regasification terminals running at 27 to 70 % load factor are paying for capacity they do not use.\n\nThe same logic explains the shape of the LNG cost curve over distance: because the expensive stages sit at the two ends and are distance-independent, the LNG line starts high but stays nearly flat, while the pipeline line starts low and climbs.",
+  "keywords": [
+   "42 %",
+   "27 %",
+   "69 %",
+   "fixed",
+   "capacity",
+   "utilisation",
+   "distance-independent"
+  ]
+ },
+ {
+  "id": "b03-016",
+  "slide": 145,
+  "type": "cloze",
+  "prompt": "Along the LNG value chain the single most expensive stage, with 42 % of the total cost, is ___.",
+  "accept": [
+   "refrigeration and liquefaction",
+   "liquefaction",
+   "refrigeration & liquefaction",
+   "Verfluessigung",
+   "Verflüssigung"
+  ],
+  "solution": "Refrigeration and liquefaction, 42 %. The rest of the average cost breakdown: exploration and production 11 %, transportation 20 %, storage and regasification 27 %. Liquefaction and regasification together, 69 %, sit at the two ends of the chain and do not grow with distance - that is why LNG beats pipelines beyond a break-even distance."
+ },
+ {
+  "id": "b03-017",
+  "slide": 147,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The left-hand chart is a global cost curve of LNG projects. Explain how such a curve is built, what the dashed horizontal line means, and what the curve says about the position of the US export projects. Then say what the right-hand chart adds.",
+  "solution": "Construction: every LNG project is a point with a cost to supply in USD per MMBtu on the vertical axis and its capacity in million tonnes on the horizontal axis. The projects are sorted by cost, cheapest first, and their capacities are cumulated along the x-axis up to roughly 380 Mt. The result is a supply or merit-order curve for LNG, exactly the same construction principle as the merit order of power plants: read a demand volume off the x-axis and the curve gives the marginal cost of serving it.\n\nShape: the curve starts far below zero with Qatargas and Rasgas - Qatari cost to supply is negative in this presentation because condensate and LPG by-products are credited against the gas - then rises gently through Yamal LNG, Brunei LNG, NLNG, Adgas, AP LNG, PNG LNG, NWS LNG, Oman LNG and GLNG to about 2.5 to 3 USD/MMBtu at roughly 300 Mt, and then jumps steeply. The US projects, Sabine Pass and the Egyptian Idku plant, sit at the top of the step at roughly 5.5 to 6 USD/MMBtu, i.e. they are the marginal, price-setting suppliers.\n\nThe dashed horizontal line is the Asia spot price of June 2021, near the top of the axis. Its meaning: as long as the spot price lies above a project's cost to supply, that project is in the money and will produce; the line therefore separates the volumes that clear the market from those that do not. In June 2021 the spot price was above every project on the curve, so all capacity including the expensive US volumes was economic.\n\nThe right-hand chart shows monthly US exports by project since January 2019 - Sabine Pass, Elba Island, Corpus Christi, Freeport, Cove Point, Cameron - rising from about 1.5 Mt a month to over 6 Mt by spring 2021, with a visible collapse to under 1 Mt in mid-2020. That dip is the same logic seen from the other side: when Asian and European prices fell below the US cost to supply, cargoes were cancelled and the plants idled. It is the empirical proof that a marginal supplier's output is price-elastic.",
+  "keywords": [
+   "cost to supply",
+   "merit order",
+   "cumulated",
+   "Qatargas",
+   "Sabine Pass",
+   "spot price",
+   "marginal"
+  ]
+ },
+ {
+  "id": "b03-018",
+  "slide": 147,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "What does the dashed horizontal line labelled \"Asia spot prices June 2021\" tell you when read against the global LNG cost curve?",
+  "options": [
+   "It is a price cap set by the importing countries above which no cargo may be sold.",
+   "It separates projects whose cost to supply lies below the prevailing spot price, and which are therefore in the money, from projects that would produce at a loss.",
+   "It marks the volume of LNG traded in Asia in June 2021.",
+   "It is the average cost to supply of all projects on the curve."
+  ],
+  "correct": [
+   1
+  ],
+  "solution": "The line is a market price drawn into a supply curve, so its only economic content is the comparison with each project's cost to supply: everything below the line earns a margin and produces, everything above it would produce at a loss and shuts in or cancels cargoes. That is exactly what the right-hand panel shows happening to the US projects in mid-2020. The first option is wrong because the line is a price, not an average of the curve. The second invents a regulatory cap that does not exist in LNG. The fourth confuses the vertical axis (USD/MMBtu) with the horizontal one (million tonnes)."
+ },
+ {
+  "id": "b03-019",
+  "slide": 150,
+  "type": "open",
+  "graphic": true,
+  "prompt": "This is the first of a series of BP maps of major trade movements (2013, 2016, 2017, 2018, 2020, 2021). Read the 2013 map - what do the two arrow colours and the numbers mean - and describe the development the series as a whole shows.",
+  "solution": "Reading the map: red arrows are pipeline gas, blue arrows are LNG, the figures on the arrows are annual flows in bcm/yr, and the colours of the land masses group the world into the BP regions (US, Canada, Mexico, S. and Cent. America, Europe and Eurasia, Middle East, Africa, Asia Pacific). In 2013 the dominant single movements are pipeline flows: Russia to Europe, by far the largest arrow on the map at roughly 136 bcm/yr, and Canada to the US at about 79 bcm/yr. LNG appears as long blue arrows from the Middle East (Qatar) and from Africa to Europe and, above all, to Asia Pacific, which is the main LNG destination.\n\nWhat the series shows across the years:\n1. Total traded volume grows, and LNG grows much faster than pipeline gas, so the blue share of the picture increases steadily.\n2. New exporters appear on the blue arrows: Australia expands massively and the United States turns from an importer into a major exporter - in 2013 there is essentially no US LNG arrow at all.\n3. Asia Pacific remains the largest LNG destination throughout, with Japan, Korea, China and India pulling in most cargoes; China's growth is the single biggest demand change.\n4. Europe's picture changes at the end of the series: pipeline supply from Russia is still the biggest single flow in the earlier maps, while the later maps show LNG arriving from more origins - the diversification argument of slide 156.\n5. Trade becomes less bilateral and more of a network: the same origin serves several destinations, which is the physical basis for the destination flexibility that slide 162 shows rising from 25 % to 83 % of contracts.\n\nThe reason one map is enough for the exam is that the message of the series is the trend, not the individual year's figures.",
+  "keywords": [
+   "pipeline gas",
+   "LNG",
+   "bcm/yr",
+   "Asia Pacific",
+   "Australia",
+   "United States",
+   "diversification"
+  ]
+ },
+ {
+  "id": "b03-020",
+  "slide": 156,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "The slide contrasts a pipeline route from Iran to Western Europe with the LNG route, under the heading \"Political and geographic restrictions\". Which statement describes the contrast correctly?",
+  "options": [
+   "The pipeline route crosses six countries, each of which is a political risk and a possible transit fee; the LNG route avoids land borders but depends on a maritime chokepoint, the Suez Canal.",
+   "The pipeline route crosses no borders because it runs offshore, while the LNG route has to cross six national jurisdictions.",
+   "The LNG route is free of any geographic restriction, which is why LNG cost is independent of the origin of the cargo.",
+   "Both routes are politically identical; the only difference is that the LNG route is shorter."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The slide's own title states it: pipeline Iran to Western Europe means six countries, LNG means the Suez Canal. Each transit country is a party that can interrupt the flow, levy a transit fee, or renegotiate the terms, and each one must agree before the line can even be built - which is why such projects usually fail politically rather than technically. LNG replaces that chain of countries with the open sea, but it does not remove geography: cargoes from the Gulf to Europe pass Hormuz and Suez, and a closure forces the long way round the Cape, which adds thousands of kilometres and days of charter hire. The second option inverts the two routes. The third ignores exactly the point of the slide. The fourth is wrong because LNG cost does depend on distance - only much more weakly than pipeline cost, as slide 160 shows."
+ },
+ {
+  "id": "b03-021",
+  "slide": 156,
+  "type": "cloze",
+  "prompt": "For LNG from the Persian Gulf to Western Europe the decisive geographic restriction is not a transit country but a maritime chokepoint, namely the ___.",
+  "accept": [
+   "Suez Canal",
+   "Suez",
+   "Suezkanal",
+   "Suez canal"
+  ],
+  "solution": "The Suez Canal. LNG replaces the chain of transit countries a pipeline needs - six of them on the Iran to Western Europe route - by the open sea, but it does not escape geography: a closure or blockage of Suez forces cargoes around the Cape of Good Hope, adding several thousand kilometres, extra days of charter hire and extra boil-off. Chokepoint risk is the LNG counterpart of transit-country risk."
+ },
+ {
+  "id": "b03-022",
+  "slide": 157,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide gives pipeline and LNG distances for three supply sources to Europe. List them, compute for each the factor by which the LNG route is longer than the pipeline route, and explain why LNG can still be the cheaper option despite always being the longer way.",
+  "solution": "The three routes as given:\n1. Algeria: pipeline 2,700 km, LNG 3,370 km - factor 3,370/2,700 = 1.25.\n2. Nigeria: pipeline 6,200 km, LNG 8,560 km - factor 8,560/6,200 = 1.38.\n3. Qatar/Iran: pipeline 5,200 km, LNG 12,200 km - factor 12,200/5,200 = 2.35.\n\nSo the sea route is longer in every case, and dramatically longer for the Gulf, where the ship has to go around Arabia and through Suez while the pipeline could take the straight land route.\n\nWhy LNG can still win: the two modes have completely different cost structures. Pipeline cost is almost proportional to distance - every extra kilometre needs pipe, right of way and, every 80 to 500 km, another compressor station - so a longer route translates almost one to one into higher cost. LNG cost is dominated by the two fixed end points, liquefaction (42 % of chain cost) and storage and regasification (27 %), which do not care about distance at all; only the shipping leg scales with distance, and even it is charter hire per day rather than cost per kilometre. On slide 160 the LNG line rises by only about 0.1 USD/MMBtu per 1,000 km while a pipeline tariff is 0.5 to 1.0 USD/MMBtu per 1,000 km. A 2.35-fold longer LNG route therefore adds far less cost than the straight pipeline saves.\n\nOn top of that the pipeline route may be the shorter line on the map but not the feasible one: the Qatar/Iran pipeline would cross six countries, which is why the comparison on slide 156 is political as well as economic.",
+  "keywords": [
+   "2,700 km",
+   "3,370 km",
+   "6,200 km",
+   "8,560 km",
+   "5,200 km",
+   "12,200 km",
+   "compressor station",
+   "fixed"
+  ]
+ },
+ {
+  "id": "b03-023",
+  "slide": 158,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The ENI chart plots four pipeline cost lines and one LNG line against distance. Explain why there are four different pipeline lines and what determines their different slopes. Then explain the significance of the caption \"for 10 x 10^9 m3/year capacity\".",
+  "solution": "The four pipeline lines are two pairs. The first distinction is offshore versus onshore: the offshore line is by far the steepest, rising from under 1 USD per million Btu at 500 miles to about 4.4 at 2,600 miles, because laying pipe on the seabed needs specialised vessels, thicker walled and coated pipe, and gives no chance of intermediate compressor stations except on platforms. The second distinction, within the onshore family, is low pressure versus high pressure. A higher operating pressure carries more gas through the same diameter and stretches the distance between compressor stations, so the high-pressure line is the flattest of the four - it stays below the LNG line right out to 4,500 miles - while the low-pressure line reaches about 3.3 USD per million Btu at 4,500 miles and is overtaken by LNG at roughly 3,000 miles.\n\nThe slopes are therefore set by the cost of adding one more kilometre of transport capacity: steel and laying cost per kilometre plus the compression needed to overcome friction. The LNG line by contrast starts high, at about 1.8 to 2 USD per million Btu even at short distance, because liquefaction and regasification have to be paid regardless, and then rises only gently - the sea leg is cheap per kilometre.\n\nThe caption matters because the whole comparison is conditional on one capacity, 10 x 10^9 m3 per year. Both technologies have strong economies of scale, but not the same ones: pipeline specific cost falls with diameter roughly as capacity^(1/2.58 - 1), while the LNG chain scales with train and vessel size. Change the volume and all five lines move, and the break-even distances move with them. A cost comparison of transport options is therefore never a single number: it is always \"at this capacity, over this distance, with this pressure and this route\".",
+  "keywords": [
+   "offshore",
+   "onshore",
+   "high pressure",
+   "low pressure",
+   "compressor",
+   "break-even",
+   "capacity",
+   "economies of scale"
+  ]
+ },
+ {
+  "id": "b03-024",
+  "slide": 159,
+  "type": "open",
+  "graphic": true,
+  "prompt": "This chart (Jensen 2005) compares transport cost in US$/toe over distance for natural gas, oil and coal. Rank the six curves, read off the order of magnitude of the difference, and explain what this means for the structure of the world gas market compared with the oil market.",
+  "solution": "The ranking from most to least expensive, per tonne of oil equivalent:\n1. Erdgas offshore pipeline - the steepest line, reaching about 120 US$/toe at only 4,000 km.\n2. Erdgas onshore pipeline - about 127 US$/toe at 6,000 km.\n3. Erdgas as LNG - the only gas curve with a large intercept, about 52 US$/toe already at zero distance (liquefaction and regasification), rising only to about 108 US$/toe at 10,000 km.\n4. Erdoel onshore pipeline - about 20 US$/toe at 6,000 km.\n5. Erdoel by tanker - about 8 US$/toe at 8,000 km.\n6. Kohle by ship - about 6 US$/toe at 12,000 km, the flattest curve of all.\n\nThe crossing points are worth reading off: LNG becomes cheaper than an offshore pipeline at roughly 2,000 km and cheaper than an onshore pipeline at roughly 3,000 to 3,500 km.\n\nOrder of magnitude: moving gas costs roughly ten to twenty times as much per unit of energy as moving oil, and about twenty times as much as moving coal. The physical reason is density - at ambient conditions a cubic metre of gas carries about a thousandth of the energy of a cubic metre of oil, so gas must either be compressed and pushed through a dedicated fixed line or be liquefied.\n\nConsequence for market structure: oil and coal transport cost is small against the commodity price, so a tanker can be re-directed and one world price emerges. For gas the transport cost is a large fraction of the delivered price, and pipeline gas is bound to a fixed route between one seller and one buyer, so gas markets were historically regional with separate price levels (Henry Hub, TTF, JKM), organised in long-term contracts with take-or-pay and destination clauses. LNG is what has been eroding that: it is the only gas transport mode whose cost curve is flat enough over distance to make arbitrage between regions possible.",
+  "keywords": [
+   "offshore pipeline",
+   "LNG",
+   "tanker",
+   "Kohle",
+   "US$/toe",
+   "regional",
+   "arbitrage"
+  ]
+ },
+ {
+  "id": "b03-025",
+  "slide": 159,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the Jensen chart the LNG curve is the only one that does not start at the origin. Why?",
+  "options": [
+   "Because liquefaction and regasification have to be paid in full before a single kilometre is travelled, so the LNG chain has a large distance-independent cost intercept of about 52 US$/toe.",
+   "Because the chart's x-axis starts at the loading port, not at the field.",
+   "Because boil-off gas losses are charged as a lump sum at the start of every voyage.",
+   "Because LNG carriers have a minimum voyage length below which they may not be chartered."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The intercept is the fixed cost of the two plants at the ends of the chain - liquefaction and storage/regasification, together about 69 % of the LNG chain cost on slide 145. They exist whether the ship sails 100 km or 10,000 km, so the LNG cost curve starts high and then rises only gently, whereas both pipeline curves start at zero and climb steeply. That difference in shape is the whole LNG-versus-pipeline argument: two lines with different intercepts and different slopes cross at a break-even distance. The first option confuses the axis with the cost structure. The third invents a rule that does not exist. The fourth is wrong because boil-off is proportional to voyage time, i.e. it is part of the slope, not of the intercept."
+ },
+ {
+  "id": "b03-026",
+  "slide": 160,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Using the numbers in this figure - feedgas 1 USD/MMBtu, liquefaction and regasification 2.8 USD/MMBtu, LNG shipping about 0.1 USD/MMBtu per 1,000 km - calculate the break-even distance against a pipeline tariff of 1.0 USD/MMBtu per 1,000 km and against one of 0.5 USD/MMBtu per 1,000 km. Compare your results with the two circles marked on the chart.",
+  "solution": "Set up both cost functions as a function of distance d, measured in thousands of km.\n\nLNG: c_LNG(d) = feedgas + liquefaction and regasification + shipping = 1.0 + 2.8 + 0.1 d = 3.8 + 0.1 d [USD/MMBtu]. The intercept 3.8 is the green diamond on the chart at d = 0.\nPipeline: c_pipe(d) = feedgas + tariff x distance = 1.0 + t d, starting from the red diamond at 1.0.\n\nBreak-even: 3.8 + 0.1 d = 1.0 + t d, hence d = 2.8 / (t - 0.1).\n\nCase 1, t = 1.0 USD/MMBtu per 1,000 km: d = 2.8 / 0.9 = 3.11, i.e. about 3,100 km. Check: pipeline 1.0 + 3.11 = 4.11, LNG 3.8 + 0.31 = 4.11 USD/MMBtu. That is the left-hand circle on the chart, at roughly 3,000 km and just above 4 USD/MMBtu.\n\nCase 2, t = 0.5 USD/MMBtu per 1,000 km: d = 2.8 / 0.4 = 7.0, i.e. 7,000 km. Check: pipeline 1.0 + 3.5 = 4.5, LNG 3.8 + 0.7 = 4.5 USD/MMBtu. That is the right-hand circle, at about 7,000 km and 4.5 USD/MMBtu.\n\nInterpretation: below the break-even distance the pipeline is cheaper, above it LNG is. The break-even is extremely sensitive to the pipeline tariff - halving the tariff from 1.0 to 0.5 more than doubles the break-even distance, from about 3,100 to 7,000 km. It is equally sensitive to the LNG end costs: if liquefaction and regasification could be built for 2.0 instead of 2.8 USD/MMBtu, the break-even against t = 1.0 would fall to 2.0/0.9 = 2,200 km. The chart's LNG shipping slope is itself an assumption - it corresponds to a long-term charter at 80,000 USD per day.",
+  "keywords": [
+   "3.8",
+   "0.1",
+   "2.8",
+   "3,100 km",
+   "7,000 km",
+   "break-even",
+   "charter",
+   "80,000"
+  ]
+ },
+ {
+  "id": "b03-027",
+  "slide": 160,
+  "type": "cloze",
+  "prompt": "With an LNG chain at 3.8 USD/MMBtu at zero distance plus 0.1 USD/MMBtu per 1,000 km, and a pipeline at 1.0 USD/MMBtu feedgas plus a tariff of 1.0 USD/MMBtu per 1,000 km, the two become equally expensive at a distance of about ___ km.",
+  "accept": [
+   "3100",
+   "3,100",
+   "3000",
+   "3,000",
+   "3100 km",
+   "3,100 km",
+   "about 3000",
+   "about 3100"
+  ],
+  "solution": "About 3,100 km. Setting 3.8 + 0.1 d = 1.0 + 1.0 d with d in thousands of km gives d = 2.8/0.9 = 3.11, i.e. roughly 3,100 km, at a delivered cost of about 4.1 USD/MMBtu. With the cheaper pipeline tariff of 0.5 USD/MMBtu per 1,000 km the break-even moves out to 2.8/0.4 = 7,000 km."
+ },
+ {
+  "id": "b03-028",
+  "slide": 161,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The Wartsila cascade builds up the delivered LNG cost step by step for large, medium and small scale. Reproduce the large-scale chain with its increments, then explain how the medium- and small-scale chains branch off and why the end user pays 7.8, 10.0 and 12.8 USD/MMBtu respectively.",
+  "solution": "Large scale, adding up from left to right:\ngas production 3.0; + liquefaction 2.6 = 5.6; + large scale shipping 1.1 = 6.7; + large scale terminal/hub 0.8 = 7.5; + regasification 0.1 = 7.6; + pipeline 0.2 = 7.8 USD/MMBtu for the end user of natural gas.\n\nMedium scale branches off at the terminal/hub, i.e. at 7.5 USD/MMBtu, where the LNG is still a liquid: + medium scale shipping 1.3 = 8.8; + mid scale storage 1.0 = 9.8; + regasification 0.2 = 10.0 USD/MMBtu for the end user.\n\nSmall scale branches off again at 9.8 USD/MMBtu, after the mid-scale storage: + small scale shipping 1.5 = 11.3; + small scale storage 1.5 = 12.8 USD/MMBtu for the end user, who receives either LNG or natural gas. The chart shows the same 9.8 feeding truck transport in ISO containers and ship bunkering as well.\n\nWhy the cost rises by 2.2 and then another 2.8 USD/MMBtu: every further step down the scale means smaller batch sizes, smaller vessels and tanks, more handling operations and more transfers, and each transfer costs energy and boil-off. There are no economies of scale left to exploit, so the specific cost of shipping roughly doubles from 1.1 (large) to 1.3 (medium) to 1.5 (small) per step while the volumes shrink dramatically.\n\nTwo things to notice for the exam. First, delivered cost is a cascade, not a single figure - the same molecule is worth 7.8 or 12.8 USD/MMBtu depending only on how it is delivered, which is the concrete answer to the \"transport or separate product?\" question of slide 139. Second, this cascade prices the commodity in: gas production alone is 3.0 of the 7.8, i.e. 38 %, whereas the percentage split of slide 145 gives exploration and production only 11 %. The two slides count different things - slide 145 splits the cost of the chain, slide 161 builds the delivered price including the feedgas - and they should not be mixed in one answer.",
+  "keywords": [
+   "3.0",
+   "2.6",
+   "7.8",
+   "10.0",
+   "12.8",
+   "cascade",
+   "boil-off",
+   "economies of scale"
+  ]
+ },
+ {
+  "id": "b03-029",
+  "slide": 161,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "In the Wartsila cost cascade, where does the small-scale LNG chain branch off, and what does the end user pay?",
+  "options": [
+   "It branches off after the mid-scale storage at 9.8 USD/MMBtu and ends at 12.8 USD/MMBtu after small-scale shipping (+1.5) and small-scale storage (+1.5).",
+   "It branches off after regasification at 7.6 USD/MMBtu and ends at 9.8 USD/MMBtu.",
+   "It branches off after the large-scale terminal/hub at 7.5 USD/MMBtu and ends at 10.0 USD/MMBtu.",
+   "It branches off after gas production at 3.0 USD/MMBtu and ends at 7.8 USD/MMBtu."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "The small-scale chain takes the LNG from the mid-scale storage stage at 9.8 USD/MMBtu and adds small-scale shipping (+1.5) and small-scale storage (+1.5), reaching 12.8 USD/MMBtu for an end user supplied with LNG or natural gas; the same 9.8 also feeds truck transport in ISO containers and ship bunkering. The second option describes the medium-scale branch, which leaves at 7.5 and ends at 10.0. The first option is the large-scale chain, which ends at 7.8. The fourth misreads the branch point: the branches always leave the chain while the gas is still liquid, i.e. before regasification, since the point of small-scale LNG is to deliver a liquid to customers with no grid connection."
+ },
+ {
+  "id": "b03-030",
+  "slide": 162,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the three developments the LNG contract statistics for 2017 to 2019 show (volume, duration, destination flexibility) and explain why the movement in duration and the movement in destination flexibility are not a contradiction.",
+  "solution": "Volume: contracted volumes per contract grow strongly. In 2017 about three quarters of contracts were small (below 2 bcm/y) and only a few per cent large (above 4 bcm/y); by 2019 small contracts are down to under a third while large contracts make up roughly half.\n\nDuration: after a short-term phase the market swings back to long term. In 2017 short-term contracts (under 5 years) were about 57 % and long-term contracts (over 10 years) about 30 %; by 2019 short-term is only a few per cent and long-term is close to 90 %.\n\nDestination flexibility: fixed-destination contracts collapse. In 2017 about three quarters of contracts had a fixed destination; by 2019 more than 80 % are flexible.\n\nWhy longer and more flexible is not a contradiction: the two clauses answer different questions. Duration answers who carries the investment risk. A liquefaction train costs billions, 42 % of the chain cost, and it is a sunk, capacity-related fixed cost - no lender finances it against spot sales, so the sponsor needs a long-term offtake commitment. Destination flexibility answers who may capture the arbitrage. A destination clause forbids the buyer from re-selling the cargo elsewhere, which protects the seller's own market segmentation but destroys the buyer's option value. Buyers, backed by competition authorities that treat destination clauses as a restraint of trade, have pushed them out.\n\nThe result is the modern LNG contract: a long, large commitment to a volume - which finances the plant - combined with the freedom to send that volume wherever it earns most. That freedom is exactly what makes LNG a global arbitrage commodity rather than a set of point-to-point pipelines by sea, and it is the commercial counterpart of the physical picture in the trade-flow maps.",
+  "keywords": [
+   "large",
+   "long-term",
+   "destination flexibility",
+   "fixed",
+   "sunk",
+   "arbitrage",
+   "destination clause"
+  ]
+ },
+ {
+  "id": "b03-031",
+  "slide": 163,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The map shows LNG terminals in Europe in four states. Name the four states the legend distinguishes, describe the geographical pattern of the terminals, and explain why the map plots terminals together with gas pipeline projects and gas storage projects.",
+  "solution": "The legend distinguishes four states of an LNG terminal: operational; operational with an expansion planned; under construction; and planned. Alongside them the map plots gas pipeline projects and gas storage projects.\n\nGeographical pattern: the terminals sit on the periphery, on the coasts, while the consumption centres are inland. Three clusters stand out. First, the Iberian and Atlantic arc - Sines, Huelva, Cartagena, Sagunto, Barcelona, Bilbao, El Musel, Mugardos-El Ferrol, Montoir de Bretagne, Fos Tonkin and Fos Cavaou - the oldest cluster, built for Algerian and Nigerian LNG. Second, the north-west - Milford Haven (South Hook and Dragon), Isle of Grain, Teesside, Shannon, Cork, Zeebrugge, Rotterdam, Dunkerque, Brunsbuettel. Third, the Baltic and the south-east, which are the newest: Swinoujscie, Klaipeda, Tallinn/Paldiski, Hamina-Kotka, Tornio Manga, Rauma, Tahkuoto/Pori, Nynaeshamn, Lysekil, Gothenburg on one side, Krk, Revithoussa, Alexandroupolis, Panigaglia, Rovigo and Toscana offshore, Delimara and Vasilikos on the other. Several of the Italian and Adriatic ones are offshore terminals.\n\nWhy terminals, pipelines and storage on one map: an import terminal on its own is worthless. A cargo only reaches a customer if there is (a) grid capacity to carry the regasified gas inland - hence the pipeline projects, often reverse-flow interconnectors - and (b) storage to buffer the mismatch between the lumpy arrival of a 125,000 to 170,000 m3 cargo and a smooth daily demand curve, and between summer and winter. The three infrastructures are complements, and this is exactly why the newest clusters lie in the Baltic and the south-east: they were built to give countries previously supplied by a single pipeline from the east a physically different source.",
+  "keywords": [
+   "operational",
+   "under construction",
+   "planned",
+   "coast",
+   "storage",
+   "interconnector",
+   "complements"
+  ]
+ },
+ {
+  "id": "b03-032",
+  "slide": 164,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The table lists the German LNG import points with their commissioning dates and FSRU capacities. Add up the capacities, check the 31 Mrd. m3 figure given on the slide, convert it into a daily energy figure, and comment on the choice of floating rather than stationary terminals.",
+  "solution": "The six entries in the table: Wilhelmshaven 5, Brunsbuettel 7.5, Lubmin (operator's own figure) 3.5, Stade 5, Lubmin 5 and a second Wilhelmshaven 5 - all in Mrd. m3 (billion cubic metres) per year.\n\nSum: 5 + 7.5 + 3.5 + 5 + 5 + 5 = 31 Mrd. m3 per year, which confirms the 31 Mrd. m3 written on the slide.\n\nConversion, with a calorific value of about 10 kWh/m3:\n31 x 10^9 m3/a x 10 kWh/m3 = 310 x 10^9 kWh/a = 310 TWh/a.\nPer day: 310 TWh / 365 d = 0.85 TWh/d = about 850 GWh/d.\nAs a share of demand: German gas consumption was of the order of 90 Mrd. m3 per year before 2022, so the full FSRU programme corresponds to roughly a third of national consumption - broadly the volume that used to come from Russia by pipeline.\n\nOn the choice of technology: all six were floating units (schwimmend), and the second list on the slide shows stationary terminals at Wilhelmshaven, Brunsbuettel and Stade only from 2026/27. The reason is time and reversibility. An FSRU is a chartered ship: it can be on stream within months, and the charter ends. A stationary terminal takes years, and once built it is a sunk, capacity-related fixed cost that has to be earned back over decades - a serious risk if gas demand falls on the way to climate neutrality. The price of the fast solution is the charter rate, which has to be paid whether the unit regasifies or not; that is why the German load factor on slide 170 - 50 % in both 2023-Q4 and 2024-Q4 - is a cost problem and not just a statistic.",
+  "keywords": [
+   "31",
+   "Mrd. m3",
+   "310 TWh",
+   "850 GWh",
+   "FSRU",
+   "schwimmend",
+   "charter",
+   "load factor"
+  ]
+ },
+ {
+  "id": "b03-033",
+  "slide": 165,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the chart of German LNG imports in 2023: in which order did the three terminals come on stream, what magnitude do the daily flows reach, and how does that compare with the installed regasification capacity?",
+  "solution": "The chart shows LNG imports via Brunsbuettel, Lubmin and Wilhelmshaven in GWh per day over 2023, stacked.\n\nOrder of start-up: Wilhelmshaven first, delivering from the very beginning of January 2023; Lubmin joins within the first weeks; Brunsbuettel is the last, its band appearing from about mid-March 2023. From spring onwards all three run in parallel, and the total fluctuates strongly from day to day because deliveries arrive as discrete cargoes - a terminal receiving one ship shows a burst of send-out and then a gap, which is exactly why storage is a complement to any import terminal.\n\nMagnitude: the daily total mostly lies between about 100 and 200 GWh/d, with peaks above 250 GWh/d around June.\n\nComparison with capacity: the three units in service in 2023 had 5 + 3.5 + 7.5 = 16 Mrd. m3 per year of nominal capacity. At about 10 kWh/m3 that is 160 TWh/a, or 160,000 GWh / 365 d = about 440 GWh/d. Observed flows of 100 to 200 GWh/d therefore correspond to a load factor of roughly 25 to 45 %, with the peaks reaching a little under 60 %. That matches the 50 % German load factor reported on slide 170 for Q4 2023 and Q4 2024.\n\nThe inset puts it in proportion: total German gas imports are of the order of several thousand GWh/d, so LNG covered only a modest share of supply in 2023 - it replaced part of the Russian pipeline volume, not all of it.",
+  "keywords": [
+   "Wilhelmshaven",
+   "Brunsbuettel",
+   "GWh",
+   "250",
+   "load factor",
+   "cargoes",
+   "storage"
+  ]
+ },
+ {
+  "id": "b03-034",
+  "slide": 166,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart shows nominal liquefaction capacity by country for 2016 and 2022 plus the 2016 utilisation on the right-hand axis. Describe the three things it tells you, and explain what a utilisation figure near 100 % versus one near 0 % means for a liquefaction plant.",
+  "solution": "Three messages.\n\n1. Concentration and its shift. In 2016 Qatar is by far the largest single exporter with roughly 77 MTPA, ahead of Australia at about 57 MTPA. In the 2022 projection Australia rises to about 88 MTPA and overtakes Qatar, which stays flat. The other established exporters - Algeria, Nigeria, Malaysia, Indonesia - barely move.\n\n2. The new entrant. The United States goes from about 11 MTPA in 2016 to about 67 MTPA in 2022, the largest absolute increase of any country. Russia roughly triples from about 11 to about 28 MTPA. Growth is therefore concentrated in two countries, not spread across the world.\n\n3. Utilisation varies enormously. The blue dots for 2016 run from essentially 0 % to over 100 %. The good performers - Qatar, Australia, Norway, Russia, Papua New Guinea, Malaysia - sit at or slightly above 100 %; the weak ones include several African plants (Angola at around 15 %, Cameroon effectively nothing) and the United States at roughly 48 %, since its first trains had only just started.\n\nWhat that means: liquefaction is the capital-intensive heart of the chain, 42 % of the chain cost on slide 145, and it is almost entirely fixed cost. Specific cost is therefore inversely proportional to utilisation - a plant at 50 % load has roughly twice the specific liquefaction cost of the same plant at full load, which is what pushes a project up the global cost curve of slide 147. A figure near 100 % means the plant is earning its capital back as planned; a figure near 0 % means the capital is still being serviced while nothing is being produced, and the cause is normally not the plant itself but upstream feedgas shortage, civil unrest, or commissioning delay. Figures slightly above 100 % are normal and not an error: nameplate capacity is a design value and a well-run train can be over-fired, especially in cold ambient conditions.",
+  "keywords": [
+   "Qatar",
+   "Australia",
+   "United States",
+   "utilisation",
+   "42 %",
+   "fixed",
+   "nameplate"
+  ]
+ },
+ {
+  "id": "b03-035",
+  "slide": 166,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Several countries in the chart show a 2016 utilisation of slightly more than 100 % of nominal liquefaction capacity. How should that be read?",
+  "options": [
+   "It means those countries import LNG and re-export it, so the extra volume did not come from their own plants.",
+   "It means the plants were expanded during 2016, so the capacity shown is the pre-expansion figure.",
+   "Nameplate capacity is a design value, so a well-run train can exceed it, for example in cold ambient conditions; a figure above 100 % simply means the plant was operated above its design point.",
+   "It is a plotting error - utilisation can never exceed 100 %."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Nominal or nameplate capacity is a design assumption based on stated feed composition and ambient conditions, not a physical ceiling. Liquefaction throughput improves when ambient temperature falls, because the refrigeration cycle rejects heat more easily, so trains in cold climates - Norway, Russia - routinely run above their rating. The same phenomenon appears on the regasification side on slide 170, where Belgium reaches 160 % and Poland over 110 %. The first option is wrong precisely because nameplate is not a limit. The second describes transhipment, which exists but is not what this chart measures. The fourth would show up as a change between the 2016 and 2022 bars, not as a utilisation above 100 %."
+ },
+ {
+  "id": "b03-036",
+  "slide": 170,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart gives EU regasification load factors for Q4 of 2022, 2023 and 2024 by country. Describe how the EU average moved, name the countries at the two extremes, and explain what a load factor of 27 % means economically for a terminal owner.",
+  "solution": "The EU average moves 74 % in 2022-Q4, up to 87 % in 2023-Q4, and back down to 70 % in 2024-Q4. The peak in 2023 is the reaction to the loss of Russian pipeline gas; the fall afterwards has two causes acting together - mild weather and demand destruction on one side, and a wave of new regasification capacity commissioned in 2023 and 2024 on the other. A load factor is a ratio, so it falls when the denominator grows even if imports stay constant.\n\nThe extremes. High: Belgium at 160 %, 163 % and 112 %, and Poland at 110 %, 116 % and 116 % - both above nominal capacity, because nameplate is a design figure and because Zeebrugge in particular handles transhipment and reloading in addition to send-out. France also runs high, 119 %, 119 %, 93 %. Low: Spain at 47 %, 41 % and 27 %, the lowest in the sample, because Spain has by far the largest terminal fleet in Europe but only weak pipeline connections across the Pyrenees, so its terminals cannot serve the rest of the EU. Germany appears only from 2023 - its first FSRUs started around the turn of 2022/23 - and sits at 50 % in both years.\n\nWhat 27 % means: regasification cost is essentially a capacity-related fixed cost, so specific cost is inversely proportional to the load factor. At 27 % the same annual capital charge is spread over roughly a quarter of the design throughput, so the regasification cost per MWh is about 3.7 times what it would be at full load. The terminal owner is normally protected by long-term capacity bookings - the shipper pays for the booked capacity whether he uses it or not, exactly as on slide 133 - so the loss is borne by whoever holds the booking, and ultimately by the consumer. This is the concrete reason why the utilisation figures matter and why slide 171 warns about underutilisation of new European projects.",
+  "keywords": [
+   "74 %",
+   "87 %",
+   "70 %",
+   "Belgium",
+   "Spain",
+   "27 %",
+   "load factor",
+   "fixed"
+  ]
+ },
+ {
+  "id": "b03-037",
+  "slide": 170,
+  "type": "cloze",
+  "prompt": "Belgium and Poland show regasification load factors above 100 %. This is possible because the reference value, the ___ capacity, is a design figure and not a physical upper limit.",
+  "accept": [
+   "nominal",
+   "nameplate",
+   "nominal capacity",
+   "nameplate capacity",
+   "Nennkapazitaet",
+   "Nennkapazität",
+   "design"
+  ],
+  "solution": "The nominal (nameplate) capacity. It is derived from assumed LNG composition, seawater or air temperature and a design send-out rate, so real operation can exceed it - and at Zeebrugge transhipment and reloading of cargoes add throughput that is not send-out into the grid at all. The same effect appears on the liquefaction side on slide 166, where Norway, Russia and Papua New Guinea show utilisation slightly above 100 %."
+ },
+ {
+  "id": "b03-038",
+  "slide": 171,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The chart plots European LNG trade against European regasification capacity from 2022 to 2024, both in million mt per month. Describe the two curves, quantify the gap, and explain the risk the source article points to.",
+  "solution": "Two series. The bars are actual LNG trade (imports) in million metric tonnes per month; they oscillate between roughly 7.5 and 13.7, with a clear seasonal pattern - high in the winter months, with the peak around December 2022, low in the summer. The line is installed regasification capacity, which does not oscillate at all: it rises monotonically from about 15.5 million mt per month in early 2022 to about 20.4 by mid-2024, in steps as each new terminal is commissioned.\n\nThe gap: even in the highest month, trade reaches only about two thirds to at most three quarters of capacity, and in weak summer months it falls to roughly 40 %. Averaged over the period the utilisation is of the order of 50 to 60 %, and - this is the point of the chart - the gap widens over time, because capacity keeps rising while trade does not.\n\nThe risk is underutilisation, and it is an economic risk, not a technical one. Regasification is a capacity-related fixed cost: once the terminal or the FSRU charter exists, almost the entire cost falls due regardless of throughput, so the specific cost per MWh rises inversely with the load factor. New European projects therefore risk being stranded assets - built in the emergency of 2022 to guarantee security of supply, and then competing for a shrinking volume as European gas demand declines on the way to climate neutrality. The counter-argument, and the reason the capacity was built anyway, is that regasification capacity is insurance: paying for spare capacity is the price of never again depending on one pipeline supplier, and the same reserve-margin logic applies to peak-load capacity in electricity.",
+  "keywords": [
+   "regasification capacity",
+   "trade",
+   "seasonal",
+   "underutilisation",
+   "fixed",
+   "stranded",
+   "security of supply"
+  ]
+ },
+ {
+  "id": "b03-039",
+  "slide": 173,
+  "type": "open",
+  "prompt": "The slide categorises the main transportation costs from the demand perspective in a two-by-two matrix. Draw the matrix, fill in the four boxes with the examples given, and explain the difference between the direct and the indirect row.",
+  "solution": "The matrix has the columns Fixed Costs and Variable Costs and the rows Direct costs and Indirect costs. From the demand (shipper's or supplier's) perspective:\n\n- Direct / fixed: exit capacity at the customer's off-take point, for example the plant gate; and storage capacity, if it can be attributed directly to that customer.\n- Direct / variable: the quantity delivered.\n- Indirect / fixed: transit capacity; entry capacity into the market area; storage capacity (the part that serves the portfolio as a whole).\n- Indirect / variable: fuel gas, if applicable.\n\nThe fixed/variable distinction is the familiar one: fixed cost arises from the booked capacity and is due whether gas flows or not; variable cost arises per unit transported.\n\nThe direct/indirect distinction is the interesting one, and it is a question of attribution, not of cost behaviour. Direct costs can be assigned to one identified customer without a key: the exit capacity booked at his plant gate exists only because of him, so if he leaves, the cost disappears. Indirect costs are incurred for the portfolio: entry capacity into the market area, transit capacity and general storage are booked once for many customers, and any allocation to an individual customer requires an allocation key. If one customer leaves, they do not disappear - they are simply spread over the others.\n\nWhy this matters: pricing and margin calculation. Only the direct costs of a customer are relevant to the decision whether an individual supply deal covers its own cost; the indirect fixed costs are common costs that have to be earned from the portfolio as a whole. Note that the same item, storage capacity, appears in both rows - it is direct if it is attributable directly and indirect otherwise, which shows that the classification depends on the contract structure and not on the physical asset.",
+  "keywords": [
+   "exit capacity",
+   "entry capacity",
+   "transit capacity",
+   "quantity delivered",
+   "fuel gas",
+   "direct",
+   "indirect",
+   "allocation"
+  ]
+ },
+ {
+  "id": "b03-040",
+  "slide": 173,
+  "type": "mc",
+  "prompt": "In the demand-side cost matrix, into which box does the entry capacity into the market area fall?",
+  "options": [
+   "Direct and fixed, because it belongs to one identifiable customer.",
+   "Direct and variable, because it is paid per cubic metre entering the market area.",
+   "Indirect and fixed, because it is booked for the whole portfolio and falls due regardless of the quantity actually flowing.",
+   "Indirect and variable, together with the fuel gas."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Entry capacity is a capacity booking, so it is fixed - it is paid whether gas flows or not - and it is booked once for the whole market-area portfolio, so it cannot be assigned to any single customer without an allocation key, which makes it indirect. The slide lists it in that box together with transit capacity and general storage capacity. Direct and fixed is reserved for the exit capacity at an identified customer's off-take point, and for storage capacity where it is directly attributable. Direct and variable is the quantity delivered. Indirect and variable is fuel gas."
+ },
+ {
+  "id": "b03-041",
+  "slide": 174,
+  "type": "open",
+  "prompt": "From the transporter's perspective, list the fixed cost items of a pipeline system and the factors that drive them. Which of these drivers can the planner still influence at the design stage, and which are given?",
+  "solution": "Fixed cost items on the slide. Investment for construction of pipelines, itself driven by the cost of material (the pipes), planning including the acquisition of rights of way, and construction work; investment in compressors; investment in measurement stations. On top of the capital cost come running fixed costs: personnel, insurance, accruals and deferrals, and maintenance.\n\nThe drivers listed: capacity, length, the compressor/diameter ratio, topography, legal conditions and the regulatory environment, ecological requirements, and safety requirements.\n\nWhat the planner can influence:\n- Capacity and diameter: the classic design decision, and the one with the largest lever. Cost per length grows roughly with the diameter while capacity grows with about the 2.58th power of it, so cost per unit of capacity falls as diameter increases - which is why lines are deliberately oversized against the expected initial flow.\n- The compressor/diameter ratio: for a required throughput, one can build a wide pipe with few compressor stations (high capital cost in steel, low fuel gas and low operating cost) or a narrow pipe with many stations (less steel, more compression and more fuel gas). This is the central trade-off of pipeline design, and slide 179 shows both branches of it.\n- The route, and with it partly the topography and the length.\n\nWhat is given: the distance between the source and the market as a lower bound on length; the terrain the route has to cross; legal conditions, permitting and rights of way; ecological and safety requirements. These enter as constraints, and the striking point of this slide is how large a share of pipeline cost is not steel at all but planning, permits and rights of way - which is also why re-using an existing corridor, for example for hydrogen, is so much cheaper than building a new one.\n\nAnd the crucial consequence, stated on slide 176: about 95 % of the total cost of gas transport is fixed.",
+  "keywords": [
+   "rights of way",
+   "compressors",
+   "measurement stations",
+   "maintenance",
+   "diameter",
+   "topography",
+   "safety requirements",
+   "95 %"
+  ]
+ },
+ {
+  "id": "b03-042",
+  "slide": 175,
+  "type": "open",
+  "prompt": "Name the variable cost items of a transporter and explain what fuel gas is and why it is the most important of them. Point out the inconsistency between this slide and the fixed-cost slide.",
+  "solution": "The items listed: fuel gas; operation; the variable part of maintenance; services; taxes and insurances; transaction cost such as the drafting and handling of transportation contracts, administration and back-office; and losses, if applicable.\n\nFuel gas is the gas the transporter takes out of the stream itself to drive the compressors. Gas turbines on compressor stations are usually fired with the transported gas, so moving gas physically consumes gas - typically a few per cent of throughput over a long line. It is genuinely variable: no flow, no compression, no fuel gas. It is the most important item because it is by far the largest of them and because it is the one that couples the transport business to the gas price - when the gas price rises, the transporter's variable cost rises with it. It is also the physical link back to the design decision of slide 174: a narrower pipe with more compressor stations saves capital but burns more fuel gas for ever.\n\nLosses are the small residual quantities lost through leakage, venting, blow-downs and metering differences, which also have to be procured.\n\nThe inconsistency: insurance appears on both slides - as a fixed cost on slide 174 (\"Insurance\") and again here under variable costs as \"taxes and insurances\". Economically insurance premiums for a pipeline are a fixed cost: they depend on the insured asset, not on how much gas flows through it. Only a premium component that is explicitly volume-dependent would be variable. In an exam, list insurance under fixed costs and, if you mention the slide, say that the item appears twice.\n\nThe quantitative point that makes all of this secondary: slide 176 states that about 95 % of the costs are fixed, so the whole variable block is a small part of the total - which is precisely the economic signature of a network industry and the reason gas transport is treated as a natural monopoly.",
+  "keywords": [
+   "fuel gas",
+   "compressors",
+   "transaction cost",
+   "losses",
+   "insurance",
+   "95 %",
+   "variable"
+  ]
+ },
+ {
+  "id": "b03-043",
+  "slide": 175,
+  "type": "cloze",
+  "prompt": "The gas that a transporter takes out of the transported stream itself in order to fire the turbines of his compressor stations, and which is therefore his largest genuinely variable cost, is called ___.",
+  "accept": [
+   "fuel gas",
+   "fuel-gas",
+   "Brenngas",
+   "Eigenverbrauch",
+   "fuelgas"
+  ],
+  "solution": "Fuel gas. Compressor stations are normally driven by gas turbines burning the transported gas, so transporting gas consumes gas - a few per cent of the throughput on a long line. It is genuinely variable (no flow, no compression, no fuel gas), it ties the transporter's cost to the gas price, and it is the running counterpart of the capital decision behind the compressor/diameter ratio: a narrower pipe with more compression is cheaper to build and more expensive to run for ever."
+ },
+ {
+  "id": "b03-044",
+  "slide": 176,
+  "type": "open",
+  "graphic": true,
+  "prompt": "The slide draws three consequences from the cost structure of pipelines. State them, explain the chain of reasoning that leads to \"costs per unit of capacity decrease with increasing diameter\", and point out where the slide's own wording is imprecise.",
+  "solution": "The statements on the slide: about 95 % of the costs are fixed; costs per length are proportional to diameter and capacity; capacity increases over-proportionally with diameter; therefore costs per unit of capacity decrease with increasing diameter. The 3D surface behind them shows total cost rising with both capacity and length.\n\nThe chain of reasoning. The cost of one kilometre of pipeline is essentially the cost of the steel and of laying it, and that grows roughly in proportion to the diameter D - a wall of given thickness wrapped around a larger circle. The throughput, however, does not grow with D: friction in a pipe falls as the pipe gets wider, so the flow that can be pushed through at a given pressure drop grows roughly with D^2.58 (that is the pipeline coefficient gamma = 2.58 of slide 177). Divide the one by the other: cost per unit of capacity behaves like D / D^2.58 = D^-1.58, i.e. it falls sharply as the pipe gets bigger. That is a pure economy of scale, and it is the technical origin of the natural monopoly in gas transport: one large line is always cheaper per unit than two small ones, so competing parallel pipelines are wasteful.\n\nWhere the wording is imprecise: the second bullet says costs per length are proportional to \"diameter and capacity\". Both cannot be true at once. If cost per length were proportional to capacity, and capacity grows as D^2.58, then cost per length would grow as D^2.58 as well and the third bullet - and the conclusion - would collapse. The correct statement, and the one the formula on slide 177 implements, is that cost per length is proportional to the diameter, and therefore proportional to capacity^(1/2.58), i.e. to about capacity^0.39. Read the bullet as \"cost per length rises with diameter, and hence with capacity, but under-proportionally in capacity\".\n\nThe 95 % figure carries the rest of the lecture: with almost all cost fixed, the specific transport cost is dictated by utilisation, marginal cost is close to zero, and average cost falls over the whole relevant output range - the textbook definition of a natural monopoly and the reason network tariffs must be regulated.",
+  "keywords": [
+   "95 %",
+   "diameter",
+   "over-proportional",
+   "2.58",
+   "economy of scale",
+   "natural monopoly",
+   "utilisation"
+  ]
+ },
+ {
+  "id": "b03-045",
+  "slide": 176,
+  "type": "cloze",
+  "prompt": "The slide states that about ___ % of the costs of gas transport are fixed.",
+  "accept": [
+   "95",
+   "95 %",
+   "95%",
+   "ninety-five",
+   "rund 95"
+  ],
+  "solution": "95 %. With about 95 % of cost fixed, the marginal cost of moving one more unit is close to zero, average cost falls over the whole relevant output range, and the specific cost per unit transported is determined almost entirely by utilisation. That is the economic signature of a network industry: it makes gas transport a natural monopoly, makes the capacity booking rather than the flow the object of the contract, and makes duplicating a pipeline wasteful."
+ },
+ {
+  "id": "b03-046",
+  "slide": 177,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain the cost function K_Pipeline = a'_1 * kappa^(1/gamma) * d + a_2 * d term by term. What does gamma = 2.58 represent? Then calculate by how much the capacity-dependent cost term and the specific cost per unit of capacity change if the capacity is doubled.",
+  "solution": "The formula: K_Pipeline = a'_1 * kappa^(1/gamma) * d + a_2 * d, with a'_1 a parameter depending on the pipeline construction, d the distance, kappa the capacity and gamma = 2.58 the pipeline coefficient.\n\nTerm by term:\n- a'_1 * kappa^(1/gamma) * d is the capacity-dependent part. Because the flow through a pipe grows roughly with the 2.58th power of the diameter, the diameter needed for a capacity kappa grows only with kappa^(1/2.58), and since cost per length is roughly proportional to diameter, so does this cost term. It is proportional to distance.\n- a_2 * d is the capacity-independent part: everything that costs the same per kilometre whatever the diameter - route survey, planning, rights of way, trenching, crossings, permitting.\n- Both terms are linear in d, so total cost is strictly proportional to distance. There is no economy of scale in length, only in capacity.\n\ngamma = 2.58 is the pipeline coefficient, the exponent linking capacity to diameter, kappa ~ D^2.58. It comes from the hydraulic flow equation for turbulent flow in a rough pipe, where the throughput at a given pressure drop grows with roughly D^2.5.\n\nCalculation for doubling the capacity, kappa -> 2 kappa:\n1/gamma = 1/2.58 = 0.3876.\nFactor on the capacity-dependent term: 2^0.3876 = e^(0.3876 * ln 2) = e^(0.3876 * 0.6931) = e^0.2687 = 1.308.\nSo doubling the capacity raises that cost term by only about 31 %.\nSpecific cost per unit of capacity: the term per unit of kappa changes by 1.308/2 = 0.654, i.e. it falls by about 35 %.\n\nInterpretation: 100 % more capacity for 31 % more cost. That is exactly the \"costs per unit of capacity decrease with increasing diameter\" of slide 176, quantified, and it is why pipelines are deliberately oversized against initial demand and why a second parallel line is almost never the efficient answer.",
+  "keywords": [
+   "kappa",
+   "2.58",
+   "distance",
+   "0.3876",
+   "1.308",
+   "31 %",
+   "35 %",
+   "economy of scale"
+  ]
+ },
+ {
+  "id": "b03-047",
+  "slide": 177,
+  "type": "cloze",
+  "prompt": "In the pipeline cost function K = a'_1 * kappa^(1/gamma) * d + a_2 * d the pipeline coefficient gamma has the value ___.",
+  "accept": [
+   "2.58",
+   "2,58",
+   "2.58 (pipeline coefficient)",
+   "gamma = 2.58"
+  ],
+  "solution": "gamma = 2.58. It is the exponent linking capacity to diameter, kappa ~ D^2.58, taken from the hydraulic flow equation for turbulent flow. Because capacity enters the cost function as kappa^(1/2.58) = kappa^0.39, doubling the capacity raises the capacity-dependent cost term by only 2^0.39 = 1.31, i.e. 31 %, so the specific cost per unit of capacity falls by about 35 %."
+ },
+ {
+  "id": "b03-048",
+  "slide": 178,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Describe the shape of the surface \"specific costs [EUR/(m3/h)] as a function of distance and capacity\": how does it behave along each of the two axes, and why? What follows for the sizing of a new pipeline?",
+  "solution": "The surface plots specific cost, i.e. cost per unit of booked capacity in EUR per (m3/h), over the two axes capacity [m3/h] and length [m].\n\nAlong the length axis the surface rises linearly. Both terms of the cost function of slide 177 are proportional to distance, so dividing by capacity leaves the proportionality to d untouched: twice the distance, twice the specific cost. There is no economy of scale in distance - which is exactly the reason a pipeline loses against LNG beyond a break-even distance.\n\nAlong the capacity axis the surface falls steeply and then flattens out - a hyperbola-like decay. Dividing the cost function by kappa gives specific cost proportional to a'_1 * kappa^(1/2.58 - 1) * d + a_2 * d / kappa, i.e. proportional to about kappa^-0.61 for the first term and to 1/kappa for the second. Both fall with capacity, so specific cost collapses as the line gets bigger and then approaches a floor: the marginal saving from making an already large pipe still larger becomes small.\n\nThe combination gives the characteristic shape: a steep cliff at small capacity that becomes a gently sloping plane at large capacity, tilted upwards towards long distances.\n\nConsequences for sizing a new pipeline. First, build big: because the specific cost falls so sharply at the left-hand edge, an undersized line is very expensive per unit and, worse, cannot be fixed later - capacity can only be added by looping or by more compression, both more expensive than having chosen a larger diameter at the start. Second, size against expected long-run demand and not against the first year, accepting low initial utilisation. Third, the flattening at large capacity says where to stop: once the surface is nearly flat, further oversizing buys almost nothing and only ties up capital. And fourth, since specific cost rises linearly with distance but falls with capacity, long lines must be big lines - which is exactly the trunk-line structure of the North Sea system.",
+  "keywords": [
+   "specific cost",
+   "linear",
+   "distance",
+   "capacity",
+   "flattens",
+   "oversized",
+   "utilisation"
+  ]
+ },
+ {
+  "id": "b03-049",
+  "slide": 179,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Read the two charts: pipeline unit cost against diameter, and compressor station unit cost against installed power. Give the values at the ends of each curve, state what both curves have in common, and explain the design trade-off between the two.",
+  "solution": "Left chart, pipeline unit cost in thousand US$ per km per bcm per year against pipeline diameter in mm: the fitted curve falls from about 235 at a diameter of 250 mm to roughly 85 at 900 mm, i.e. by about two thirds, and the fall clearly flattens beyond about 600 mm. The scatter of the individual projects is wide - at 750 mm the observations range from about 90 to 130 - which shows that route, terrain and country matter as much as diameter.\n\nRight chart, compressor station unit cost against installed station power in MW: the curve falls from about 4.5 at 1 to 2 MW to about 2.3 at 10 MW, 2.0 at 20 MW and 1.3 at 70 MW. Note that the axis is labelled EUR/MW, which cannot be meant literally - a compressor station costs of the order of 10^6 EUR per MW, so the label is missing its scale factor; read the values as millions of EUR per MW.\n\nWhat both have in common: both are declining unit-cost curves, i.e. both components show economies of scale, and both flatten out. Small pipes and small compressor stations are disproportionately expensive per unit of what they deliver, so \"many small\" is always worse than \"few large\".\n\nThe trade-off: for a given throughput over a given distance, the required capacity can be provided by a large diameter with few compressor stations, or by a smaller diameter with more or bigger compression to overcome the higher friction. That is the compressor/diameter ratio named among the cost drivers on slide 174. More diameter means more capital in steel but less compression and, above all, less fuel gas for the whole life of the line; more compression means less steel but a permanent variable cost that rises with the gas price and a lower overall efficiency. Both charts say the same thing about how to resolve it: since unit costs fall on both axes, the optimum is a small number of large stations on a large-diameter line rather than many small stations on a narrow one.",
+  "keywords": [
+   "diameter",
+   "unit cost",
+   "compressor",
+   "installed power",
+   "economies of scale",
+   "fuel gas",
+   "compressor/diameter"
+  ]
+ },
+ {
+  "id": "b03-050",
+  "slide": 179,
+  "type": "mc",
+  "graphic": true,
+  "prompt": "Both charts on this slide show unit costs falling with size. Which conclusion for pipeline design follows correctly?",
+  "options": [
+   "Because both curves flatten out, size no longer matters above about 600 mm and 20 MW, and the cheapest solution is always the smallest pipe that just meets today's demand.",
+   "The two curves are contradictory, so the design has to be decided by topography alone.",
+   "Since unit costs fall with both diameter and station power, a line should be built with the largest diameter and the smallest possible number of large compressor stations rather than with many small ones.",
+   "Since unit costs fall with station power, compression should replace diameter: the narrowest possible pipe with very many large compressor stations is cheapest."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Both curves are declining unit-cost curves, so both components show economies of scale and the efficient design uses few large units of each: a large diameter, which also minimises the compression needed and thus the fuel gas burned for the life of the line, plus a small number of large compressor stations. The second option only exploits one of the two curves and ignores that a narrower pipe needs disproportionately more compression, permanently increasing fuel gas consumption. The third is wrong: the curves are not contradictory, they are two branches of one optimisation, the compressor/diameter ratio. The fourth misreads the flattening - the curves flatten, they do not turn upwards, and sizing against today's demand ignores that capacity can only be added later by looping or more compression, both dearer than having chosen the larger diameter at the start."
+ },
+ {
+  "id": "b03-051",
+  "slide": 182,
+  "type": "open",
+  "prompt": "Along which three dimensions does the lecture categorise transportation agreements? Give the categories within each dimension and explain the economic difference between the two main types of service.",
+  "solution": "Three dimensions.\n\n1. Regional scope: international off-shore transportation; international transit; national transportation in the high-pressure system; and local distribution. The scope determines which regulatory regime applies - a transit contract crosses jurisdictions, a distribution contract sits inside one.\n\n2. Type of service: firm transportation; interruptible transportation; and other forms.\n\n3. Duration or term: long term; short term; and day-to-day.\n\nThe economic difference between firm and interruptible. Firm capacity is guaranteed: the transporter must make it available at any time within the contract, and may curtail it only under force majeure. It is what a supplier needs who has to meet a customer's demand on the coldest day of the year, and it is what the transporter has to build physical capacity for. Interruptible capacity may be curtailed by the transporter whenever the firm bookings need the pipe - it is the residual capacity that exists only because the firm bookings are not all used at the same time. Interruptible capacity is therefore substantially cheaper, and that discount is the price of the risk that it is not there exactly when it is most wanted, namely at peak demand.\n\nFor the transporter the two products are the way to sell the same asset twice: firm to those who need security, interruptible to those who can switch or stop, which raises the utilisation of a system whose cost is 95 % fixed. For the shipper the choice is a classic reliability-versus-price decision, and it belongs among the strategic issues on slide 184 (\"Products (firm, interruptible)\").",
+  "keywords": [
+   "regional scope",
+   "transit",
+   "firm",
+   "interruptible",
+   "duration",
+   "day-to-day",
+   "curtail",
+   "utilisation"
+  ]
+ },
+ {
+  "id": "b03-052",
+  "slide": 182,
+  "type": "cloze",
+  "prompt": "Transport capacity that the transporter may curtail whenever the firm bookings need the pipeline, and which is therefore sold at a discount, is called ___ transportation.",
+  "accept": [
+   "interruptible",
+   "interruptible transportation",
+   "unterbrechbar",
+   "unterbrechbare",
+   "non-firm"
+  ],
+  "solution": "Interruptible transportation. Its counterpart is firm transportation, which the transporter has to make available at any time and may curtail only under force majeure. Interruptible capacity exists only because firm bookings are not all used simultaneously; selling it raises the utilisation of an asset whose cost is about 95 % fixed, and the shipper accepts a lower price in exchange for the risk of being cut exactly at peak demand."
+ },
+ {
+  "id": "b03-053",
+  "slide": 183,
+  "type": "open",
+  "prompt": "Name the four main clauses of a transportation contract and show that they are exactly the definition of transportation from the start of the chapter. Then name at least five of the further clauses and say what risk each of them allocates.",
+  "solution": "The four main clauses: capacity; prices; location, meaning delivery point and redelivery point; and term.\n\nThey are the definition of slide 133 turned into contract language. That definition said: provision of capacity and related services (= the capacity and price clauses), at or between A and B (= the location clause, delivery point and redelivery point), during a defined term (= the term clause). If you can reproduce the definition you can reproduce the main clauses, and vice versa - the four clauses are simply the four parameters that have to be fixed before a transport service exists.\n\nFurther clauses and the risk each of them allocates:\n- Definitions: interpretation risk - it fixes what \"day\", \"capacity\" or \"quantity\" means, which is where most disputes start.\n- Quality, normally by reference to the national or regional quality specification: the risk that gas which is off specification (Wobbe index, water or sulphur content, oxygen) is injected and damages equipment or cannot be redelivered.\n- Invoicing and payment (billing): payment timing and dispute handling.\n- Nominations: the operational risk - the shipper has to announce in advance how much he will inject and take off, so the transporter can steer the system.\n- Measurement and facilities: metering risk, i.e. who measures, with what accuracy, and what happens when a meter fails.\n- Credit risk / performance assurance: the risk that the shipper cannot pay, covered by guarantees, prepayment or collateral.\n- Force majeure: the risk of events outside either party's control, which suspends the obligation without making it a breach.\n- Other clauses: taxes and public charges, exchange of information, applicable law, language and settlement of disputes, assignment, consents and approvals, severability, the entire-contract clause, amendments, warranties and representations, insurances.\n\nThe structural point: the four main clauses define the product, everything else allocates a risk. That is why the list looks long - a transport contract is mostly an agreement about who carries which risk when something does not go to plan.",
+  "keywords": [
+   "capacity",
+   "prices",
+   "delivery point",
+   "redelivery point",
+   "term",
+   "nominations",
+   "force majeure",
+   "credit risk"
+  ]
+ },
+ {
+  "id": "b03-054",
+  "slide": 184,
+  "type": "open",
+  "prompt": "The slide lists the strategic issues a gas transport decision involves. Name them and explain, for four of them, what the actual decision is and which slide of this chapter supplies the criterion.",
+  "solution": "The list: Transport at all? LNG versus pipeline (versus GTL)? Routing? Market area? Delivery point? Network expansion? Pricing? Products (firm or interruptible)?\n\nFour of them in detail:\n\n1. \"Transport?\" - the make-or-buy question. Instead of moving the gas one can move the value: convert it at the source into LNG, into electricity, or into a liquid via GTL, or simply sell the gas to someone closer. The criterion is the delivered cost comparison of slides 158 to 161, and the answer depends entirely on distance and volume.\n\n2. LNG versus pipeline (versus GTL) - the mode choice, and the central exam question of this chapter. The criterion is the break-even distance where the flat, high-intercept LNG cost curve crosses the steep, low-intercept pipeline curve: about 3,100 km against a 1.0 USD/MMBtu per 1,000 km pipeline tariff on slide 160. Added to the pure cost comparison are the political and geographic restrictions of slide 156 and the flexibility and arbitrage value of a cargo that can be re-directed.\n\n3. Routing and market area - which physical path, and into which entry-exit zone the gas is delivered. Under entry-exit pricing the market area, not the route, determines the charge, and it also determines which trading point the gas can reach and therefore which price it can earn.\n\n4. Products (firm or interruptible) - the reliability-versus-price decision of slide 182: guaranteed capacity at full price, or curtailable capacity at a discount.\n\nThe delivery point decision fixes where title and risk pass, i.e. the FOB-versus-DES question of slide 191. Network expansion is the investment decision proper, dominated by the fact that 95 % of the cost is fixed and sunk, so it must be sized against long-run demand. Pricing is the choice of system - distance-related, entry-exit or postage stamp.\n\nA slide like this is the lecturer stating what he considers examinable: each bullet is a decision with a criterion attached, and an exam answer should always name the criterion, not just the option.",
+  "keywords": [
+   "LNG versus pipeline",
+   "routing",
+   "market area",
+   "delivery point",
+   "network expansion",
+   "firm",
+   "interruptible",
+   "break-even"
+  ]
+ },
+ {
+  "id": "b03-055",
+  "slide": 185,
+  "type": "open",
+  "prompt": "State the transportation principle and the profitability condition on this slide, and apply it: gas costs 28 EUR/MWh at Hub 1 and can be sold at 33 EUR/MWh at Hub 2. Is a transport at 3 EUR/MWh worthwhile? What if the transport costs 6 EUR/MWh, and what changes if the capacity has already been booked and 5 of those 6 EUR/MWh are the capacity charge?",
+  "solution": "The principle: the shipper buys gas at location 1 (Hub 1) at the price p_supply, injects it at A into the reserved transport capacity, has it transported at p_transport, withdraws it at B and sells it at location 2 (Hub 2) at p_sales. The condition for the intended business transaction to be profitable is\n\np_supply + p_transport < p_sales.\n\nCase 1: 28 + 3 = 31 < 33. The condition holds; the transaction earns a margin of 33 - 31 = 2 EUR/MWh. The transport is worthwhile.\n\nCase 2: 28 + 6 = 34 > 33. The condition fails by 1 EUR/MWh. The transaction destroys value and should not be done - the capacity stays unused, which is exactly how a transport tariff that is too high leaves physically available capacity idle and keeps two market areas apart. The maximum transport price the shipper can pay here is the locational spread itself, p_sales - p_supply = 5 EUR/MWh.\n\nCase 3: capacity already booked, 5 of the 6 EUR/MWh being the capacity charge. Then the 5 EUR/MWh is sunk: it is due whether or not gas flows, so it must not enter the decision. The relevant comparison uses only the avoidable, variable part: 28 + 1 = 29 < 33, margin 4 EUR/MWh. The shipper should transport. The general rule is that the booking decision is taken on full cost, while the dispatch decision once the booking exists is taken on variable cost only - the same distinction as between long-run and short-run marginal cost in power generation.\n\nThat is also why a transporter can sell interruptible capacity cheaply and why secondary capacity markets exist: a shipper who cannot cover his full booking cost from the spread will still use or resell capacity as long as it covers its variable cost.",
+  "keywords": [
+   "p_supply",
+   "p_transport",
+   "p_sales",
+   "2 EUR/MWh",
+   "spread",
+   "sunk",
+   "variable cost"
+  ]
+ },
+ {
+  "id": "b03-056",
+  "slide": 186,
+  "type": "open",
+  "prompt": "List the tasks of the transporter under a transportation contract, grouping them into the two core obligations and the ancillary services.",
+  "solution": "Two core obligations, which are simply the two ends of the transport service.\n\n1. Receipt: he must accept the natural gas made available by the shipper at the receipt point, within the restrictions stipulated in the contract - i.e. up to the booked capacity, within the pressure window and within the quality specification.\n2. Redelivery: he must return the gas made available by the shipper at the delivery point, observing the restrictions and rules applicable at that point, in particular the quality parameters valid there. Note the wording: the transporter returns gas, he does not sell it. The shipper keeps title throughout, which is why this is a service contract and not a purchase contract.\n\nBetween the two ends sits the third duty: management and steering of the pipeline system, and operating and maintaining the pipeline and its ancillary facilities. This is where the compressor stations, the pressure management and the whole physical system operation belong.\n\nAncillary services listed:\n- measurement, including metering the quantity and analysing and metering the quality of the gas at both the receipt and the delivery point;\n- receipt and confirmation of nominations and renominations;\n- data management, collection and transfer;\n- allocation and attribution of quantities to the various shippers;\n- evaluation of measurements;\n- documentation;\n- billing.\n\nThe point to take away: the ancillary services are not a courtesy, they are what makes the service tradable. Since many shippers use the same physical pipe simultaneously, someone has to nominate, measure, allocate and account for each shipper's share - that is the \"related services\" half of the definition on slide 133, and it is the informational infrastructure without which unbundled third-party access could not work.",
+  "keywords": [
+   "receipt point",
+   "redelivery",
+   "quality",
+   "nominations",
+   "allocation",
+   "billing",
+   "related services"
+  ]
+ },
+ {
+  "id": "b03-057",
+  "slide": 187,
+  "type": "mc",
+  "prompt": "Which of the following is NOT among the shipper's tasks as the slide lists them?",
+  "options": [
+   "Operation and maintenance of the pipeline and its ancillary facilities, including the compressor stations.",
+   "Payment of the contractually agreed transportation fees.",
+   "Delivering the quantities at the receipt point in accordance with the contract, observing the pressure specification, the quality parameters, the capacity reserved and the balancing rules.",
+   "Nomination of the quantities to be transported."
+  ],
+  "correct": [
+   0
+  ],
+  "solution": "Operating and maintaining the pipeline and its ancillary facilities, and steering the system, are the transporter's tasks (slide 186), not the shipper's. The shipper has three: pay the transportation charge; nominate the quantities; and deliver those quantities at the receipt point in line with the contract - which specifically means observing the compatibility of the maximum hourly or daily quantity with the capacity reserved, observing the contractual, regulatory and legal restrictions on gas quality, observing the contractual pressure specification at the receipt point, observing any minimum-flow requirement, and observing the balancing rules. The division is clean: the shipper commits volumes and pays, the transporter runs the pipe."
+ },
+ {
+  "id": "b03-058",
+  "slide": 188,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Both cases in the figure show balanced transport, yet only one of them is contractually acceptable. Explain what the figure shows and why being balanced is not enough.",
+  "solution": "Both panels plot, for a period such as an hour, the input or injection at A and the output or off-take at B, together with a horizontal line marking the capacity reserved.\n\nLeft panel: balanced transport within the capacity reservation. Injection equals off-take, and both bars stay below the reserved-capacity line. Everything is in order.\n\nRight panel: balanced transport exceeding the capacity reservation. Injection still equals off-take - the shipper takes out exactly what he puts in, so his balance is perfect - but both bars stick out above the reserved capacity line.\n\nWhy balance is not enough: balance and capacity are two independent requirements that answer two different questions.\n- Balance is a quantity condition over a period: did the shipper inject as much as he withdrew? It protects the system's inventory (the line pack) and ensures no shipper draws gas belonging to someone else.\n- Capacity is a rate condition at every moment: is the flow at any instant within what was booked? It protects the physical limit of the pipe and, above all, the rights of the other shippers, whose firm bookings were dimensioned on the assumption that everybody stays within his own.\n\nA perfectly balanced shipper flowing at twice his booking is therefore still in breach: he is using a pipe that has been sold to someone else. The consequences in practice are an overrun or excess charge - normally punitive, several times the ordinary capacity price, so that exceeding the booking is never cheaper than buying more capacity - the possibility for the transporter to curtail the flow, and in the extreme a duty to buy additional capacity after the event. Conversely, staying within capacity does not excuse an imbalance: that case is on the following slide.",
+  "keywords": [
+   "capacity reserved",
+   "balanced",
+   "input",
+   "off-take",
+   "overrun",
+   "curtail",
+   "firm"
+  ]
+ },
+ {
+  "id": "b03-059",
+  "slide": 189,
+  "type": "open",
+  "graphic": true,
+  "prompt": "Explain, with the two panels of this figure, what a negative and what a positive imbalance is, how each of them arises, and why the transporter charges for both.",
+  "solution": "Both panels again plot input or injection at A against output or off-take at B for a period, with the reserved capacity marked, and both stay within the capacity line - so the issue here is not capacity but balance.\n\nLeft panel, negative imbalance: the off-take at B is larger than the injection at A. The difference is a deficit - the shipper has taken more gas out of the system than he put in, so he has borrowed gas from the system. It arises when actual demand at the exit exceeds the nomination, when a supply source at the entry fails, or when the weather forecast that the nomination was based on turns out too warm.\n\nRight panel, positive imbalance: the injection at A is larger than the off-take at B. The difference is a surplus - the shipper has left gas in the system. It arises when demand comes in below nomination, or when the shipper deliberately over-injects.\n\nWhy both are charged. The transporter has to keep the system physically balanced at every moment: pressure, and thus line pack, must stay within limits. Every shipper imbalance has to be offset by the transporter using his own balancing energy - line pack, storage, or purchases and sales on the balancing market - and that costs money. A negative imbalance is settled at a price at or above the market price (the shipper has to buy the borrowed gas back, at a penalty), a positive one at or below it (the shipper is credited less than the market price for the gas he has left behind). The deliberate spread on both sides is what makes it unattractive to use the network as a free storage facility or a free source of short-term supply, and it is why nominations and renominations are a contract clause in their own right.\n\nNote the difference to the previous slide: there the shipper was balanced but over his capacity; here he is within his capacity but unbalanced. Both requirements have to be met at once.",
+  "keywords": [
+   "negative imbalance",
+   "positive imbalance",
+   "deficit",
+   "surplus",
+   "line pack",
+   "balancing",
+   "nomination"
+  ]
+ },
+ {
+  "id": "b03-060",
+  "slide": 189,
+  "type": "cloze",
+  "prompt": "A shipper who takes more gas off the system at B than he injects at A over the balancing period creates a deficit, which the figure calls a ___ imbalance.",
+  "accept": [
+   "negative",
+   "negative imbalance",
+   "negativ",
+   "short"
+  ],
+  "solution": "A negative imbalance: off-take exceeds injection, so the shipper has borrowed gas from the system. Its counterpart is the positive imbalance, where injection exceeds off-take and the shipper has left a surplus behind. The transporter has to offset both with balancing energy, so a negative imbalance is settled at a price at or above the market price and a positive one at or below it - the spread is what stops shippers using the network as free storage or free short-term supply."
+ },
+ {
+  "id": "b03-061",
+  "slide": 190,
+  "type": "open",
+  "prompt": "How does an LNG buyer obtain shipping capacity, and what does a charterparty regulate? Explain the terms lay time, demurrage and heel.",
+  "solution": "LNG transportation contracts are, as the slide says, usually tailor-made - there is no standardised transport product as there is for pipeline capacity. Transport capacity is obtained in one of two ways: with the buyer's own ships, or through charterparty arrangements, and these come in two forms. Under a time charter the charterer hires the vessel and its crew for a period and decides where it sails, paying hire per day. Under a voyage charter he buys one defined voyage from a loading port to a discharging port, paying freight for that voyage. Accordingly the slide notes that the ports and terminals matter especially for voyage charters, while the duration of the charter matters especially for time charters.\n\nA charterparty stipulates, among other things: the vessel's name and IMO number with a detailed description of capacities, performance such as speed, and condition; details of the cargo to be loaded, for example quantity and temperature; loading and discharging rates; lay time; loading and discharging port and the respective terminals; duration of the charter; freight and hire; demurrage rates; ownership and maximum quantity of heel, plus the LNG price used to settle any change in the level of heel during the charter; and billing and payment.\n\nThe three terms:\n- Lay time is the time allowed, free of extra charge, for loading and discharging the cargo. It converts a physical operation into a contractual deadline.\n- Demurrage is what the charterer pays when the lay time is exceeded - compensation for keeping the ship idle at the berth. It is the reason terminal congestion is expensive and why loading and discharging rates are contractually fixed.\n- Heel is the quantity of LNG deliberately left in the tanks after discharge. It keeps the tanks cold on the ballast voyage, so that the next cargo can be loaded without a slow and costly cool-down, and it supplies boil-off gas as fuel. Because heel is real LNG with real value, the charterparty must say who owns it, how much of it there may be at most, and at what price a change in its level is settled at the end of the charter.\n\nThe common theme: a ship is a time-based asset. Almost everything in a charterparty puts a price on time - hire per day, demurrage per day, and the cool-down time that heel avoids.",
+  "keywords": [
+   "time charter",
+   "voyage charter",
+   "lay time",
+   "demurrage",
+   "heel",
+   "boil-off",
+   "IMO number"
+  ]
+ },
+ {
+  "id": "b03-062",
+  "slide": 190,
+  "type": "mc",
+  "prompt": "What is the \"heel\" whose ownership and maximum quantity a LNG charterparty has to stipulate?",
+  "options": [
+   "The minimum cargo temperature below which the terminal may refuse to accept the cargo.",
+   "The commission the shipbroker receives for arranging the charter.",
+   "The quantity of LNG deliberately left in the tanks after discharge, which keeps them cold on the ballast voyage and supplies boil-off gas as fuel.",
+   "The penalty the charterer pays when the agreed lay time for loading or discharging is exceeded."
+  ],
+  "correct": [
+   2
+  ],
+  "solution": "Heel is the LNG left on board on purpose after discharge. Cargo tanks have to stay at about -162 °C; if they warm up, the next loading needs a slow cool-down that wastes days of hire and destroys cargo through flash-off. The heel keeps them cold and doubles as fuel via boil-off gas. Because it is real LNG with real value, the charterparty fixes who owns it, its maximum quantity, and the LNG price at which a change in its level during the charter is settled. The third option describes demurrage, which is a separate item in the same list; the first and fourth are not charterparty concepts on this slide."
+ },
+ {
+  "id": "b03-063",
+  "slide": 191,
+  "type": "open",
+  "prompt": "Compare the two delivery terms on this slide, FOB and DES for LNG. For each, say who provides the ship, who bears the transport cost, and at which physical moment title and risk pass. Why does the slide add a note about CIF?",
+  "solution": "FOB, or delivery at an upstream location in or near the production area:\n- The seller is obliged to deliver the cargo onto the ship at the loading port, or the gas into the supply pipeline at a specified upstream location.\n- The buyer is obliged, at his own expense, to provide a suitable ship or supply transportation capacity to the market area, and he is responsible for the cost of transportation.\n- Title and risk of damage or contamination pass to the buyer as soon as the cargo passes the ship's manifold, or the gas enters the supply pipeline in the production area.\n\nDES (delivered ex ship), or delivery at a downstream location in or near the market area:\n- The seller is obliged to deliver the cargo ex ship at the unloading port, or the gas ex supply pipeline at a specified downstream location.\n- The seller is obliged, at his own expense, to provide a suitable ship or transportation capacity to the market area, and he bears the cost of transportation.\n- Title and risk pass to the buyer once the cargo passes the terminal flange, or the gas leaves the supply pipeline at the market destination.\n\nSo the two terms mirror each other, and the physical transfer point - ship's manifold versus terminal flange - is what decides everything else: who charters the vessel, who carries freight, war-risk, boil-off and delay, and who insures the cargo at sea. Commercially FOB gives the buyer control of the ship and therefore the freedom to re-direct the cargo, which is the destination flexibility of slide 162 and the precondition for arbitrage; DES leaves that optionality with the seller, which is why traditional sellers preferred it.\n\nThe note about CIF is a warning against a common mistake: CIF says only that cost, insurance and freight are for the seller's account. It does not specify where title passes between seller and buyer. Cost allocation and transfer of title are two separate questions, and in LNG only DES (or FOB) answers the second one. In an exam, never treat CIF as the opposite of FOB in the sense of transfer of title.",
+  "keywords": [
+   "FOB",
+   "DES",
+   "ship's manifold",
+   "terminal flange",
+   "title",
+   "risk",
+   "CIF",
+   "destination flexibility"
+  ]
+ },
+ {
+  "id": "b03-064",
+  "slide": 191,
+  "type": "cloze",
+  "prompt": "The LNG delivery term under which the seller provides the ship at his own expense and title and risk pass to the buyer only when the cargo passes the terminal flange at the unloading port is ___.",
+  "accept": [
+   "DES",
+   "delivered ex ship",
+   "delivery ex ship",
+   "DES (delivered ex ship)",
+   "Ab Schiff",
+   "ex ship"
+  ],
+  "solution": "DES, delivered ex ship (in German the \"Ab Schiff\" contract of slide 142). Its counterpart is FOB, where the buyer provides the ship and title and risk pass at the ship's manifold in the loading port. Do not confuse DES with CIF: CIF only puts cost, insurance and freight on the seller's account and says nothing about where title passes."
+ }
+]

@@ -1,0 +1,23 @@
+# Study progress (personal, does not belong in the repo)
+.progress.json
+
+# Slide renderings for the authoring pass (regenerate with tools/render_slides.py)
+.slides_png/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Tooling / editors
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
