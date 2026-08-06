@@ -1,0 +1,642 @@
+[
+ {
+  "id": "px-014",
+  "short": "- Material infrastructure: physical capital stock — pipelines, power lines, substations, storage, roads, ports, LNG terminals.\n- Institutional infrastructure: legal framework, regulators, standards, market rules (Energiewirtschaftsgesetz, EU directives, Bundesnetzagentur, unbundling, DVGW, entry-exit model).\n- Immaterial infrastructure: human capital — education, qualification, know-how, health, mobility, willingness to work.\n- Jochimsen's classification. Point: infrastructure is not just steel in the ground — a pipeline needs a legal access regime and skilled people to run it."
+ },
+ {
+  "id": "px-018",
+  "short": "- Weakness of rate-of-return (cost-based) regulation, opposite of incentive-based regulation.\n- Firm earns a fixed % return on invested capital → profit rises with the capital base → over-invests, uses excess capital, distorts factor mix toward capital.\n- = systematic gold-plating.\n- Also under cost-based regulation: no incentive to cut operating costs or allocate factors efficiently; regulator can't easily tell necessary from unnecessary investment.\n- Fix: incentive-based regulation (price cap, revenue cap, yardstick competition) decouples revenue from the firm's own costs."
+ },
+ {
+  "id": "b02-003",
+  "short": "- IDEAL: high security of supply, high sustainability, low price.\n- REAL: price corner pulled outward (price is high); security of supply and sustainability only reach medium level — smaller, lopsided polygon.\n- Reading: system currently pays a high price without full security of supply or sustainability.\n- Gap between the two figures = political agenda (market design, network regulation, subsidy/tender instruments).\n- Every corner pushed outward has to be paid for on another axis."
+ },
+ {
+  "id": "b02-036",
+  "short": "| Condition | T | Used in |\n| Norm | 273.15 K = 0°C | Germany, Denmark, Austria |\n| Standard (EU) | 288.15 K = 15°C | Italy, UK |\n| Standard (US) | 288.71 K = 60°F | US, Middle East, Africa, Latin America |\n| Basic | 293.15 K = 20°C | Russia, Eastern Europe |\n- Same pressure for all four: 1.01325·10^5 Pa.\nF: V(15°C)/V(0°C) = 288.15/273.15 = 1.0549\nResult: same gas volume is 5.5% larger at 15°C than at 0°C (a European-standard m³ holds 5.2% less energy than a German-norm m³).\nNote: slide column is headed \"Pressure [kPa]\" but the value 1.01325·10^5 is in Pa (= 101.325 kPa)."
+ },
+ {
+  "id": "px-022",
+  "short": "- Sketch: x-axis distance along pipeline, y-axis pressure; sawtooth line — steady drop from friction, jump up at each compressor station; mark minimum allowed pressure and maximum design pressure.\n- Compressors maintain pressure: gas flows only along a pressure gradient, friction erodes it, so throughput collapses after a few hundred km without re-compression.\n- Typical figures: pipelines up to 6,000 km, diameter up to 1,400 mm, pressure up to 100 bar, stations every 80-500 km, driven by gas or electricity, using up to ~0.5% of throughput per 100 km.\n- Capacity can be bought with more steel (larger diameter) or more compression (more stations) — economic trade-off between the two.\n- Also needed at storage sites, to inject gas against reservoir pressure."
+ },
+ {
+  "id": "b02-058",
+  "short": "- x-axis: hours/year gas flows (constant 1.4 mln m³/h) → rightward means higher utilisation; y-axis: cost per m³ transported.\n- All curves fall left to right: fixed cost (steel, laying, right of way) spread over more volume as utilisation rises.\n- Small diameters turn back up at high utilisation: higher gas velocity needed → friction loss grows with velocity² → compression energy (variable cost) grows faster than fixed cost per unit falls.\n- Cheapest diameter by region: 34-inch below ~2,500-3,000 h/a, 38-inch in the middle range, 44-inch from ~4,000 h/a onward (still falling at 8,000 h/a).\n- Rule: high, steady throughput justifies a large diameter; low or seasonal throughput does not."
+ },
+ {
+  "id": "b03-023",
+  "short": "- Four pipeline lines = two pairs: offshore vs onshore, and within onshore: low-pressure vs high-pressure.\n- Offshore steepest (~1 USD/MMBtu at 500 mi → ~4.4 at 2,600 mi): seabed laying needs special vessels, thicker/coated pipe, no intermediate compressor stations.\n- Onshore high-pressure flattest, stays below LNG out to 4,500 mi: higher pressure moves more gas per diameter, longer compressor spacing.\n- Onshore low-pressure reaches ~3.3 USD/MMBtu at 4,500 mi, overtaken by LNG at ~3,000 mi.\n- LNG line starts high (~1.8-2 USD/MMBtu even at short distance: liquefaction/regasification is a fixed cost) but rises gently (cheap sea leg).\n- Caption states capacity 10·10^9 m³/yr: comparison only holds at this capacity — pipeline and LNG both have strong but different economies of scale, so break-even distances shift with volume."
+ },
+ {
+  "id": "b03-034",
+  "short": "- 2016: Qatar largest (~77 MTPA) ahead of Australia (~57 MTPA).\n- 2022 projection: Australia overtakes Qatar (~88 MTPA vs flat ~77); other established exporters barely move.\n- New entrants: US ~11→~67 MTPA (largest absolute growth), Russia ~11→~28 MTPA — growth concentrated in two countries.\n- 2016 utilisation spans ~0% to >100%: Qatar, Australia, Norway, Russia, PNG, Malaysia at/above 100%; weak spots Angola (~15%), Cameroon (~0%), US (~48%, new trains ramping up).\n- Liquefaction is capital-intensive (42% of chain cost, mostly fixed) → specific cost is inversely proportional to utilisation.\n- Near 100% = capital earning as planned; near 0% = capital serviced with no output, usually feedgas shortage, unrest or commissioning delay. Slightly >100% is normal (nameplate is a design value)."
+ },
+ {
+  "id": "px-020",
+  "short": "- Compensation of demand fluctuations: seasonal (fill in summer, empty in winter) and daily/hourly peak shaving — demand is temperature-driven, production/pipeline capacity stays close to flat.\n- Compensation of supply fluctuations: substitutes when a field, pipeline or LNG cargo fails — security-of-supply function (EU/German filling obligation since 2022).\n- (Economic) optimisation: trading asset — buy cheap, sell expensive.\nF: p_supply + p_storage < p_sales\n- Re-optimised as prices move → option value.\n- Technical match: seasonal stores (depleted fields, aquifers: large volume, low rates) serve functions 1 and 2; salt caverns (small volume, high rates, several cycles/year) serve peak shaving and trading."
+ },
+ {
+  "id": "px-004",
+  "short": "- Time swap: intended trade is buy at t1 (p_supply), sell at t2 (p_sales) via physical storage. Swap replaces it with two trades at the same hub: sell at t1 (p1), buy back at t2 (p2).\nF: p_supply − p1 < p_sales − p2\n- Worthwhile vs. booking storage capacity if p2 − p1 < p_storage. Typically p1 < p2 (swap costs money) but can still beat the storage fee, with no physical asset needed.\n- Intrinsic value: risk-free value locked in today from the forward curve — summer/winter spread minus storage cost, capped by injection/withdrawal rates; zero if spread < storage cost.\n- Extrinsic value: extra optional value from re-optimising as prices move — monetises volatility, grows with volatility and cycling rate.\nF: storage value = intrinsic value + extrinsic value\nNote: the slides show the time swap but never use the terms \"intrinsic\"/\"extrinsic value\" — standard definitions used here."
+ },
+ {
+  "id": "b05-022",
+  "short": "- May 2020: ~3 €/MWh → summer 2022: >300 €/MWh — factor ~100 in two years.\n- Covid 2020: demand collapse while supply kept flowing, storages filled early → price fell to near variable-cost floor.\n- Autumn 2021: Russian pipeline flows throttled, Gazprom-controlled German storages left unfilled → Europe entered winter short, forward curve priced in scarcity.\n- After Feb 2022: lost Russian volumes replaced by LNG bought against Asia; filling mandates forced buying regardless of price → inelastic demand meets inelastic supply.\n- Not a cost-based price — a scarcity price rationing demand until industrial consumers stopped buying."
+ },
+ {
+  "id": "b05-052",
+  "short": "- Crude side (above refinery): Production → Refinery mainly by pipeline (central trunk); fed by ships (cargoes) harbour-to-harbour and rail station-to-station.\n- Products side (below refinery): refinery → harbour-to-barges, station-to-rail, station-to-truck.\n- Asymmetry: crude arrives in few, large, continuous streams → large-unit, low-cost modes (pipeline, tanker); products go to many small, dispersed customers → small-unit, flexible modes (barge, rail, truck) dominate.\n- Refinery is the funnel between the two: few large flows in, many small flows out → transport cost per barrel rises downstream of it.\n- Every mode change needs a node (harbour, station, tank farm) — where storage, quantity/quality measurement and ownership transfer happen."
+ },
+ {
+  "id": "b06-017",
+  "short": "- Two drivers: ambitious RES expansion targets + decentralisation of energy systems → structural rearrangement needed.\n- Challenges: capacity overloads despite growing regional imbalance between production and consumption; power flow reversion and voltage stability problems in distribution grids; growing share of market players not driven mainly by economic criteria (behavioural aspects); overarching — maintain security of supply and system stability.\n- Options: grid expansion, build-up of reserve capacity, more electricity export/import, storage and/or demand response, RES injection management (curtailment of excess generation)."
+ },
+ {
+  "id": "b06-054",
+  "short": "F: 25 GJ/t ÷ 3.6 GJ/MWh = 6.944 MWh_th/t\nF: Fuel: 100 EUR/t ÷ 6.944 = 14.4 EUR/MWh_th ÷ 0.40 = 36.00 EUR/MWh_el\nF: Logistics: 10 EUR/t ÷ 6.944 = 1.44 EUR/MWh_th ÷ 0.40 = 3.60 EUR/MWh_el\nF: CO2: 0.35 t/MWh_th · 10 EUR/t = 3.50 EUR/MWh_th ÷ 0.40 = 8.75 EUR/MWh_el\nF: Auxiliary: 2.00 EUR/MWh_el (already electrical — not divided by efficiency)\nF: Total = 36.00 + 3.60 + 8.75 + 2.00 = 50.35 EUR/MWh_el\nResult: bid price of the plant — it produces only when the market price exceeds 50.35 EUR/MWh_el (fixed costs are sunk short-run; every thermal item must be divided by efficiency, auxiliary costs must not)."
+ },
+ {
+  "id": "b07-020",
+  "short": "- 1,000 MW plant, 10% outage probability, applied independently to every block.\n- Block: 7,000 MW for 30 h.\nF: 0.9 · 30 h = 27 h at 6,000 MW (7,000 − 1,000)\nF: 0.1 · 30 h = 3 h at 7,000 MW (plant out, covered by later plants)\nF: Energy supplied = 1,000 MW · 27 h = 27,000 MWh\n- Full 160 h curve, if always in merit: 1,000 MW · 160 h · 0.9 = 144,000 MWh.\n- Sketch: block splits into two steps — short high step at original level (outage hours) and long low step at level-minus-capacity; repeat per block, re-sort descending → residual load duration curve, roughly double the steps of the original."
+ },
+ {
+  "id": "b07-035",
+  "short": "F: a = i(1+i)^n / [(1+i)^n − 1]\nF: n=40: a = 0.1·45.259/44.259 = 0.10226\nF: n=30: a = 0.1·17.449/16.449 = 0.10608\nF: n=20: a = 0.1·6.7275/5.7275 = 0.11746\n| Technology | Invest·a + Fix cost | Annualised fixed cost |\n| Lignite (n=40) | 2,200·0.10226 + 60 | 284,971 EUR/MWa |\n| Hard coal (n=40) | 1,750·0.10226 + 40 | 218,954 EUR/MWa |\n| CCGT (n=30) | 875·0.10608 + 25 | 117,819 EUR/MWa |\n| OCGT (n=20) | 450·0.11746 + 15 | 67,857 EUR/MWa |\nResult: multiply EUR/kWa by 1,000 to get EUR/MWa.\nNote: the official Excel solution uses 900 EUR/kW for CCGT, not 875 — giving 120,471 EUR/MWa."
+ },
+ {
+  "id": "b07-049",
+  "short": "- European power plant park aggregated into technology classes (~3-4 per energy carrier), grouped by size, efficiency, investment etc.; individual units not modelled.\n| Level | Technical | Economic (parameters / restrictions) | Ecological |\n| Installation | capacity, availability, technical lifetime | invest, fix cost / de-/commissioning limits, exogenous expansion | — |\n| Process | inputs/outputs 1-3 with shares, efficiency | variable & auxiliary fuel cost, ramping cost / baseload limit, exogenous operating modes, full load hours | CO2 emission factors, green certificates |\n- Fixed input/output shares per class → also an energy and material flow model (a class can produce several outputs, e.g. electricity and heat, in fixed proportion)."
+ },
+ {
+  "id": "b07-081",
+  "short": "- Two decision problems: operational planning/power plant utilisation (short-term) and strategic planning/investment in power plants (long-term).\n| Uncertainty | Operational planning | Strategic planning |\n| Power plant outages | yes | no |\n| Load uncertainty | yes | yes |\n| Price uncertainty | yes | yes |\n| Strategic behaviour (competitors) | yes | yes |\n| Technological development | no | yes |\n| Political/regulatory framework | no | yes |\n- Operational uncertainties are short-lived and statistically describable → handled with probabilities (e.g. convolution); strategic uncertainties are one-off and structural → no probability distribution, handled with scenario planning."
+ },
+ {
+  "id": "b08-024",
+  "short": "F: C0 = r(1+i)^-1 + r(1+i)^-2 + ... + r(1+i)^-n = r · [(1+i)^n − 1] / [(1+i)^n · i] = r · PVA\nF: r = C0 · [(1+i)^n · i] / [(1+i)^n − 1] = C0 · CRF\nF: CRF = 1/PVA\n- First payment falls at t=1, one period after C0.\n- CRF > i always (covers interest and repayment), CRF → i only as n → ∞."
+ },
+ {
+  "id": "b08-042",
+  "short": "- Matrix: columns Certainty / Risk / Uncertainty; rows one decision criterion (payoff, NPV) / multiple criteria (economic, ecological, sociological).\n- Entrepreneurial perspective: upper row, ellipse reaches into the Uncertainty column — one monetary criterion.\n- Governmental perspective: lower row, ellipse reaches into the Uncertainty column — multiple criteria weighed together.\n- Strategic decision making in energy systems: the whole Uncertainty column — both perspectives sit here, since neither certainty nor known probabilities exist at the relevant horizon."
+ },
+ {
+  "id": "b08-058",
+  "short": "- Conductor loop rotates in a constant magnetic field (N-S pole); linked flux changes with the rotation angle → induced voltage tapped via slip rings and carbon brushes.\n- Three labelled parts: conductor loop, slip rings, carbon brushes.\nF: u(t) = u_max · sin(ωt)\nF: i(t) = i_max · sin(ωt)\nF: ω = 2π · f\n- At f = 50 Hz: ω = 314 s⁻¹, T = 1/f = 20 ms.\n- Note: for a purely ohmic load u and i are in phase; a phase shift appears only with reactive components."
+ },
+ {
+  "id": "b09-023",
+  "short": "- Night valley: pumping operation adds artificial load, lifting the residual load curve; extra energy comes from cheap base-load blocks 1-3.\n- Midday peak: turbine operation feeds back, shaving the peak; expensive peak-load blocks 5-6 are no longer needed.\n- Net effect: flattens the load curve from both ends.\n- Business case: buy cheap base-load power at night, sell expensive peak power at noon, earn the spread minus round-trip losses (~75-80% return efficiency).\n- Example: Waldeck plant, E.ON."
+ },
+ {
+  "id": "b09x-007",
+  "short": "- Today hydrogen is an industrial feedstock, not an energy carrier. Largest use: ammonia/fertiliser via Haber-Bosch.\nF: N2 + 3 H2 → 2 NH3\n- Second use: refining (hydrocracking, denitrification, desulfurization).\n- Both sourced almost entirely from steam methane reforming of natural gas or coal gasification → grey/brown hydrogen (~9.6 kg CO2/kg H2).\n- New segments: industry (steel via DRI, process heat >1,000°C, chemicals), transportation (heavy-duty trucks, shipping, aviation), power sector (flexible generation, large-scale storage)."
+ },
+ {
+  "id": "b10-002",
+  "short": "Correct: salt caverns — conversion to hydrogen is feasible (impermeable, chemically inert, sterile rock salt), at the cost of ~80% less working gas volume than natural gas; depleted fields/aquifers are porous, hydrogen suitability not proven (168 TWh salt cavern vs 94 TWh porous storage in Europe).\nOthers fail: aquifers' water seal does not stop H2 diffusion or bacterial conversion to H2S/CH4; not all three types convert equally, so working-gas-volume-only is wrong; residual hydrocarbons in depleted fields are a contamination problem, not an advantage."
+ },
+ {
+  "id": "px-023",
+  "short": "F: CH4 + H2O → CO + 3 H2\n- steam reforming, endothermic; heat from burning CH4 + H2 with air (also supplies N2 for ammonia synthesis)\nF: CO + H2O → CO2 + H2\n- water-gas shift, raises H2 yield; capturing the CO2 here gives blue H2/ammonia\nF: 2 H2O → 2 H2 + O2\n- electrolysis; alkaline ~4.7 kWh/Nm³ (≈64%), SOEC ~3.6 kWh/Nm³ (≈83%)\nF: N2 + 3 H2 → 2 NH3, ΔH° = −91.8 kJ/mol\n- Haber-Bosch, 400-450°C, 120-220 bar, Fe catalyst; conversion per pass <20%, unreacted gas recycled\n- 1 kg NH3 needs 0.18 kg H2 and 0.82 kg N2."
+ },
+ {
+  "id": "b11-003",
+  "short": "F: 4 H2 + CO2 → CH4 + 2 H2O\n- Sabatier process; ΔH° = −164.9 kJ/mol, highly exothermic — reactor needs cooling, heat is a usable by-product.\n- Operating window: 300-450°C, 1-5 bar.\n- Efficiency ≈80% (theoretical limit 83%); the gap is the reaction enthalpy lost as heat.\n- Per kg CH4: 0.50 kg H2 + 2.74 kg CO2 (stoichiometric) — always needs a paired CO2 source.\n- TRL 7 (system prototype demonstrated in operational environment)."
+ },
+ {
+  "id": "b11-024",
+  "short": "- Axes: x = gravimetric energy density (kWh_LHV/kg, 0-35), y = volumetric energy density (kWh_LHV/l, 0-10).\n- Hydrogen: liquid ~33 kWh/kg / 2.4 kWh/l; 700 bar compressed ~33 kWh/kg / 1.3 kWh/l — best gravimetric, worst volumetric.\n- LOHC ~2.1/1.6, ammonia ~5.2/3.2, methanol ~5.8/4.7, liquefied methane 13.9/6.3 (kWh/kg / kWh/l).\n- Best volumetric: syn-kerosene/diesel ~11.5-12 kWh/kg, ~9.6-9.7 kWh/l; syn-gasoline ~8.5 kWh/l.\n- Trade-off: H2 wins gravimetric by ~3×, loses volumetric by ~4×; volume-limited applications (ships, aircraft, tanks) favour carbon-bound derivatives — no carrier is high on both axes."
+ },
+ {
+  "id": "px-015",
+  "short": "- Material: gas pipeline, 380 kV line, underground gas storage, LNG terminal, compressor station\n- Institutional: EnWG, Bundesnetzagentur, unbundling rules, entry-exit model/PRISMA, DVGW gas quality standards\n- Immaterial: engineers'/dispatchers' qualification, training system, operator know-how, workforce health, willingness to cooperate\n- Rule of thumb: trip over it → material; law/rule/body → institutional; in people's heads → immaterial"
+ },
+ {
+  "id": "b01-018",
+  "short": "- Jochimsen (1966): infrastructure = entirety of material, institutional and personnel facilities/conditions available to the division-of-labour economy\n- Function: equal factor payments for equal factor services via purposeful allocation of resources — unifies the economy into one market, so capital and labour earn the same return everywhere\n- Three types: material, institutional, immaterial\n- Note: the definition itself says \"personnel\", the type list says \"immaterial\" — same concept (human capital); use the lecture's own list: material, institutional, immaterial"
+ },
+ {
+  "id": "b01-002",
+  "short": "- Order: primary → secondary → end → usable energy\n- Primary: naturally occurring, unconverted (coal, lignite, oil, gas, uranium, renewables)\n- Secondary: from conversion in power plants/refineries, with conversion losses (electricity, district heat, heating oil, gasoline)\n- End energy: reaches the consumer after distribution losses (the kWh on the meter)\n- Usable energy: after the final conversion in the device (light, heat, mechanical work)\n- Example: lignite (primary) → power-plant electricity, ~40% efficiency (secondary) → socket after grid losses (end) → light from the lamp (usable); each step loses efficiency"
+ },
+ {
+  "id": "b02-037",
+  "short": "- Wobbe index: the parameter for exchangeability of gases\nF: W_s,n = H_s,n / √d  (d = ρ_gas/ρ_air)\n- Same W → same heat output at a given burner and pressure: flow ∝ 1/√d, heat = flow·H ∝ H/√d = W — calorific value alone doesn't guarantee interchangeability\nF: H_s,n = W_s,n · √d = 53.47 · √0.555 = 53.47 · 0.745\nResult: 39.8 MJ/Nm³ (methane's gross calorific value)\nNote: the table's ρ_n column is the relative density d, not the absolute density (methane's absolute density is 0.717 kg/m³)"
+ },
+ {
+  "id": "px-021",
+  "short": "- Exploration & production (11% of cost)\n- Refrigeration & liquefaction: strip CO2/H2O/H2S/heavy hydrocarbons, cool to about −162°C, volume shrinks ~600× (42% — the costliest step)\n- Transportation: LNG carriers, boil-off gas used as fuel (20%)\n- Storage & regasification at the import terminal: tanks, vaporisers, feed into the grid (27%)\n- Customer\n- Liquefaction dominates cost; shipping is comparatively cheap and doesn't grow much with distance — why LNG beats pipelines over long distances"
+ },
+ {
+  "id": "b02-059",
+  "short": "44″ needs one compressor station, 38″ needs two, 34″ needs four — a narrower pipe means higher velocity for the same throughput, so pressure drops faster and has to be restored sooner.\nOption 1 reverses the pattern, option 2 invents numbers not on the chart, and option 4 claims all cases need the same count, contradicting the figure."
+ },
+ {
+  "id": "b03-026",
+  "short": "F: c_LNG(d) = 1.0 + 2.8 + 0.1d = 3.8 + 0.1d [USD/MMBtu], d in 1,000 km\nF: c_pipe(d) = 1.0 + t·d ; break-even: d = 2.8 / (t − 0.1)\nResult: t=1.0 → d = 2.8/0.9 = 3.11 → ~3,100 km (left circle, ≈4.1 USD/MMBtu); t=0.5 → d = 2.8/0.4 = 7.0 → 7,000 km (right circle, ≈4.5 USD/MMBtu)\n- Below break-even the pipeline is cheaper, above it LNG is; the break-even is very sensitive to the pipeline tariff"
+ },
+ {
+  "id": "b03-044",
+  "short": "- Slide: ~95% of costs are fixed; cost/length ∝ diameter & capacity; capacity grows over-proportionally with diameter ⇒ cost per unit of capacity falls as diameter grows\n- Reasoning: cost/length ~ D (steel, laying); capacity ~ D^2.58 (pipeline coefficient γ=2.58) ⇒ cost/capacity ~ D^−1.58 — an economy of scale, the technical root of the natural monopoly\nNote: \"cost/length ∝ diameter and capacity\" is self-contradictory since capacity grows faster than diameter; correct: cost/length ∝ diameter, i.e. ∝ capacity^(1/2.58) ≈ capacity^0.39\n- 95% fixed costs ⇒ average cost keeps falling ⇒ why network tariffs must be regulated"
+ },
+ {
+  "id": "px-033",
+  "short": "F: κ_E = κ_V · GCV = 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h = 110 MW\nF: entry = 110,000 kW · 2 €/kW/a = 220,000 €/a\nF: exit = 110,000 kW · 0.01 €/kW/day · 365 d = 401,500 €/a\nResult: 220,000 + 401,500 = 621,500 €/a\n- Convert volume to energy first, and check the price period — €/(kWh/h)/a and €/kW/a are the same unit"
+ },
+ {
+  "id": "b04-037",
+  "short": "- Axes: filling level (working gas volume) horizontal, rate vertical\n- Withdrawal rate: low when empty, rises, saturates at max when full\n- Injection rate: max when empty, flat, falls sharply near full; the two curves cross around 50% filling\n- Physics: reservoir pressure — a full store pushes gas out easily (high withdrawal), injecting against high pressure needs more compression; cushion gas keeps withdrawal usable at low filling\n- Contract: rate is given as a curve/ratchet table vs. filling level, not one fixed number — the store delivers least exactly when most needed (a drawn-down winter)"
+ },
+ {
+  "id": "b05-023",
+  "short": "- Essential difference: Henry Hub stayed within a few US$/MMBtu; the German price rose by roughly a factor of 100\n- Slide's reason for the US rise at end of 2022: increased exports to Europe\n- Structural cause: the US is a self-sufficient producer, priced by domestic production and storage; Europe is import-dependent, priced by willingness to pay for scarce LNG against Asia\n- Markets link only via liquefaction capacity, which was fully booked — arbitrage (normally ~2-3 USD/MMBtu) could not close the gap, the signature of a physical bottleneck"
+ },
+ {
+  "id": "b05-053",
+  "short": "Pipeline, ships (cargoes) via harbours, and rail via stations bring crude to the refinery.\nTruck/rail/barge (option 1) is the outbound products side; option 3 omits ships, the main crude carrier; option 4 omits the pipeline, the highest-capacity, lowest-cost mode."
+ },
+ {
+  "id": "b06-027",
+  "short": "- Formulate the problem\n- Define the system\n- Data collection\n- Model development & implementation\n- Model validation\n- Model application\n- Interpret results and draw conclusions\n- Take decision\n- Feedback 'model needs refinement': from validation back to data collection and model development\n- Feedback 'results are not plausible': from application/interpretation back to data collection\n- Questions at the first two boxes: what shortcomings does the system have? which elements/boundaries are investigated? what's the target of modelling? how are results used in the decision? who uses the model? which decision criteria count?"
+ },
+ {
+  "id": "b06-055",
+  "short": "F: fuel = 120/6,944 = 17.28 EUR/MWh_th ÷0.40 = 43.20 EUR/MWh_el\nF: logistics = 10/6,944 = 1.44 EUR/MWh_th ÷0.40 = 3.60 EUR/MWh_el\nF: CO2 = 0.35 · 80 = 28.00 EUR/MWh_th ÷0.40 = 70.00 EUR/MWh_el\nResult: 43.20 + 3.60 + 70.00 + 2.00 (aux) = 118.80 EUR/MWh_el (was 50.35)\n- CO2 price is the stronger lever: +61.25 vs +7.20 EUR/MWh_el from coal; each €/t CO2 costs this plant 0.35/0.40=0.875 €/MWh_el — dirtier, less efficient plants are hit hardest, so a rising CO2 price rotates the merit order"
+ },
+ {
+  "id": "b07-021",
+  "short": "- The residual curve still touches the old peak because in the outage hours (10% of the top block) plant 1 delivers nothing, so load stays at ~7,000 MW there — only the other 90% is reduced by the plant's 1,000 MW\n- Dispatch shifts down only the available fraction of load, never the whole curve — a sliver at high load always survives, so 100% supply certainty is impossible (basis of expected unserved energy)\n- Step count roughly doubles per plant: every block splits into an available and unavailable part, then the pieces are re-sorted in descending order"
+ },
+ {
+  "id": "b07-036",
+  "short": "0.1023 (0.10226)\nF: a = i(1+i)^n / ((1+i)^n − 1), i=0.10, n=40 → 1.1^40=45.259 → a = 0.1·45.259/44.259 = 0.1023"
+ },
+ {
+  "id": "b07-061",
+  "short": "- Axes: unit cost K/x (vertical) vs. cumulative production volume x, the \"experience\" (horizontal)\n- Central statement: unit cost falls as cumulative production rises\n- Quantification: each doubling of cumulative volume cuts unit cost by 20-30% (two curves shown; the 30% one falls faster)\n- Shape: decaying power function, steep then flat — not a physical limit, just that each doubling needs ever more absolute added volume\n- Later redrawn on a log-log scale, where the same relationship becomes a straight line"
+ },
+ {
+  "id": "b07-086",
+  "short": "- 2020: 17-47 EUR/t (most 20-34); 2030: 19-93 EUR/t; 2050: 46-103 EUR/t (only 4 studies left) — spread widens with the time horizon\n- Reflects differing assumptions on climate policy, technology and demand, not measurement noise\n- CO2 price decides the coal-vs-gas merit-order switch point (~48 EUR/t); the scenario band straddles it, so the same coal plant is base-load in some scenarios and stranded in others\n- Investment decision: evaluate across scenarios, find the switching point, pick the option that's robust across the whole band — not the average"
+ },
+ {
+  "id": "b08-025",
+  "short": "F: CRF(20;10%) = 0.1·1.1^20/(1.1^20−1) = 0.1·6.7275/5.7275 = 0.1175\nF: investment value at 2014 = 30·1.1 + 70 = 103.0 M EUR\nF: capital-cost annuity = 103.0 · 0.1175 = 12.1 M EUR/a\nResult: project annuity = 14 − 12.1 = 1.9 M EUR/a (positive → invest)\n- Check: 1.9 · PVA(20;10%) = 1.9·8.514 = 16.2 M in 2014 → /1.1 = 14.7 M in 2013 = NPV"
+ },
+ {
+  "id": "b08-044",
+  "short": "| Rule | Result | Choice |\n| Maximax | max(20,25) = 25 | d2 |\n| Maximin | max(6,3) = 6 | d1 |\n| Minimax regret | max regret: d1=5, d2=3 | d2 |\n| Laplace | avg: d1=13, d2=14 | d2 |\n| Hurwicz (a=0.8) | d1=17.2, d2=20.6 | d2 |\nd2 has the better best case and the worse worst case — the riskier option; only the conservative maximin picks d1."
+ },
+ {
+  "id": "b08-059",
+  "short": "F: P = U_max·sin(ωt) · I_max·sin(ωt−φ)\n- Ohmic load: φ=0 → P = U_max·I_max·sin²(ωt)\n- sin² is never negative → the power curve never goes negative, oscillating at twice the frequency of u and i\n- Physically: the resistor absorbs power every instant and releases it as heat — none flows back to the source\n- Average power = U_max·I_max/2 = U_eff·I_eff = active power P; with an inductive/capacitive load the curve dips negative and the average drops below U_eff·I_eff"
+ },
+ {
+  "id": "b09-027",
+  "short": "- Curtailed renewable energy in Germany (GWh): 74 (2009) → 421 (2011) → 555 (2013) → 1,581 (2014) → 4,722 (2015) — over 60× in six years\n- Almost all onshore wind (4,110 of 4,722 GWh in 2015); about two-thirds of the German total (3,055 GWh) is curtailed in Schleswig-Holstein alone\n- Argument: the energy exists but can't reach demand — the grid from the windy north to the consuming south is the bottleneck, not lack of demand\n- Fixes: grid expansion, storage, or smart solutions (shift demand to the wind, or power-to-X instead of switching turbines off); recent years settle around ~6 TWh/a"
+ },
+ {
+  "id": "b09x-008",
+  "short": "Existing industry use (refining, ammonia, ~90 Mt) stays roughly flat; all growth to 660 Mt by 2050 comes from new industry feedstock, building/industry heat, transport and power generation.\nThe chart is in million tons, not TWh; existing use does not expand to 500 Mt; and only 140 Mt is reached by 2030 (385 Mt is the 2040 value), so growth is not concentrated in this decade."
+ },
+ {
+  "id": "b10-011",
+  "short": "- Import matches domestic production because Europe can't make cheap H2 at scale: electrolysis needs ~50 kWh_el/kg, so cost tracks local renewable full-load hours — cheaper in North Africa, the Middle East, Chile, Australia\n- Land, grid and permits for renewables are scarce in Europe; losing Russian pipeline gas also pushed the EU toward diversified supply\n- Target: 40 GW electrolysis in the EU plus 40 GW in the neighbourhood → >10 Mt/a domestic + >10 Mt/a import by 2030\n- Phase 1 (2020-24): pilot, 6 GW, >1 Mt/a — largely missed (~2 GW installed worldwide by end 2024)\n- Phase 3 (2030-50): no capacity target — hydrogen technologies mature to decarbonise sectors hard to electrify (steel, chemicals, aviation, shipping, dispatchable power)"
+ },
+ {
+  "id": "px-027",
+  "short": "F: electrolysis: 4.7 kWh/Nm³ ÷ 0.0899 kg/Nm³ = 52.28 kWh_el/kg H2 → η = 33.33/52.28 = 63.8%\nF: + liquefaction 7 kWh_el/kg: 1,000 kWh ÷ 59.28 kWh/kg = 16.87 kg H2 = 562.2 kWh → η = 56.2%\nF: boil-off 0.2%/day, 10 d: 16.87 · 0.998^10 = 16.54 kg = 551.3 kWh\nResult: 551.3/1,000 = 55.1% overall efficiency after 10 days\nNote: the solution sheet writes '1,000 MWh_el' for the ammonia step — it must be 1,000 kWh_el, or 100.95 kg NH3 doesn't follow; use kWh throughout"
+ },
+ {
+  "id": "b11-004",
+  "short": "Methanation (Sabatier reaction)\nCatalytic 4 H2 + CO2 → CH4 + 2 H2O at 300-450°C; methanisation is the different, biological route (anaerobic digestion of organic matter → biogas)."
+ },
+ {
+  "id": "b11-025",
+  "short": "Liquid hydrogen — highest gravimetric density of any fuel (~33 kWh/kg) but lowest volumetric (2.4 kWh/l).\nLOHC is poor on both axes (2.1 kWh/kg, 1.6 kWh/l); liquefied methane (13.9 kWh/kg, 6.3 kWh/l) is a mid-field compromise; syn-kerosene is the volumetric winner (9.6 kWh/l), not the loser."
+ },
+ {
+  "id": "px-019",
+  "short": "- Five traits: high capital requirements, external effects, economies of scale, step costs, high fixed-cost share.\n- Economies of scale: average unit cost falls as output grows - fixed cost spread over more units, and pipe capacity grows faster than the steel needed. Basis of the natural monopoly.\n- Step costs: capacity is added only in discrete jumps (pipe diameter, compressor size), so new capacity sits under-utilised until demand catches up."
+ },
+ {
+  "id": "b01x-010",
+  "short": "Sub-additive\nCost function property: one firm can serve the whole market cheaper than several firms could - typically from high fixed cost / low marginal cost, often together with economies of scale."
+ },
+ {
+  "id": "b01-007",
+  "short": "- Economies of scale: average unit cost falls as output rises.\n- Internal: advantage inside the firm - specialisation, technology, bargaining power. E.g. a 35,000 km TSO spreads control-centre and maintenance costs further and buys transformers in bulk.\n- External: advantage outside the firm, industry- or region-wide - skilled labour, shared infrastructure. E.g. the Ruhr pipeline-engineering cluster, or a port region with existing LNG berths and know-how.\n- Both raise profit and market share; in infrastructure they are the economic root of the natural monopoly."
+ },
+ {
+  "id": "b02-039",
+  "short": "| | Group L | Group H\n| Wobbe index range / nominal | 10.5-13.0, nom. 12.4 kWh/m³ | 12.8-15.7, nom. 15.0 kWh/m³\n| GCV range (same both groups) | 8.4-13.1 kWh/m³ | 8.4-13.1 kWh/m³\n| density / conn. pressure (same both) | 0.55-0.75 / 18-24 mbar, nom. 20 | 0.55-0.75 / 18-24 mbar, nom. 20\n- Schwankungsbereich (local supply area): the Wobbe index may deviate from the appliance setting by only +0.6/-1.4 kWh/m³ (L) and +0.7/-1.4 kWh/m³ (H) - much tighter than the nationwide range.\n- L and H overlap slightly (12.8-13.0 kWh/m³), but the nominal values (12.4 vs 15.0) are far apart, so an L-gas area cannot simply be fed H-gas."
+ },
+ {
+  "id": "px-002",
+  "short": "- Pipeline cost rises ~linearly with distance: steel, right-of-way, a compressor station every 80-500 km.\n- LNG chain: high fixed cost at both ends - liquefaction 42% of chain cost, storage/regasification 27% - but the sea leg (20%) is cheap and barely grows with distance.\n- The cost curves cross: beyond a break-even distance LNG is cheaper. LNG (~2-2.5 US$/MMBtu) undercuts an offshore pipeline from ~1,000 miles and a low-pressure onshore line from ~3,000 miles; only a high-pressure onshore line stays competitive to ~4,500 miles.\n- Strategic edge: LNG is not tied to one route - diversifies supply, reaches markets no pipeline does, avoids transit countries, allows cargo arbitrage. Pipelines still win at short distance and steady high volumes.\nNote: LNG is liquefied natural gas (~-162 °C), not gaseous - liquefaction shrinks its volume by a factor of ~600, which is what makes sea transport possible."
+ },
+ {
+  "id": "b03-008",
+  "short": "- Chain: gas field -> processing -> pipeline -> liquefaction -> LNG tanks/loading terminal -> carrier -> receiving terminal/tanks -> regasification -> pipeline -> gas utilities/power station.\n- As transport: gas in, gas out. Liquefaction (cooling to ~-162 °C, ~600-fold volume reduction) only enables sea transport; nothing is added, so it competes with pipelines on delivered cost.\n- As a product: LNG has its own spec, price benchmarks and contracts (FOB, DES, charterparties) and serves uses pipeline gas can't (bunkering, small-scale LNG, power ships) - the same molecule ends up priced 7.8-12.8 USD/MMBtu depending on the end product.\n- Lecture's answer: both - a transport option in large-scale trade, a product in its own right in the small/medium-scale business."
+ },
+ {
+  "id": "b04-001",
+  "short": "- Scope of service = capacity, not gas: shipper books a maximum flow the transporter must keep available, at a point, for a period, sometimes over a distance - hence the unit's three parts (flow, [km], /a).\nF: κ_E = κ_V · GCV (links the m³/h and kWh/h unit variants; €/(kWh/h)/a = €/kW/a, a capacity price)\n- Available: volume not energy - the pipe moves m³; how many kWh that is depends on gas quality.\n- Capacity ≠ utilization - paid whether or not gas flows, so a booking used at 50% costs the same, doubling the specific cost in €/MWh.\n- Price ≠ cost - it's the regulated or negotiated tariff, not the transporter's actual cost; the two coincide only under strict cost-based regulation.\nTrap: a price may be quoted per day - multiply by 365 before adding it to an annual charge."
+ },
+ {
+  "id": "b03-055",
+  "short": "F: p_supply + p_transport < p_sales\n- Case 1: 28+3=31 < 33 -> margin 2 €/MWh - worthwhile.\n- Case 2: 28+6=34 > 33 -> fails by 1 €/MWh - not worthwhile; max payable transport = spread = 5 €/MWh.\n- Case 3: capacity already booked, 5 of the 6 €/MWh is a sunk capacity charge -> only the variable part counts: 28+1=29 < 33, margin 4 €/MWh - now worthwhile.\n- Rule: the booking decision uses full cost; the dispatch decision once booked uses variable cost only (like long-run vs short-run marginal cost)."
+ },
+ {
+  "id": "px-034",
+  "short": "F: T_storage = p_inj · κ_inj + p_wd · κ_wd + p_wg · v_wg\nF: κ_inj = κ_wd = 3,000 m³/h · 11 kWh/m³ = 33,000 kW\nF: withdrawal: 33,000 kW · 2 €/kW/a = 66,000 €/a\nF: injection: 33,000 kW · 2.5 €/kW/a = 82,500 €/a\nF: working gas: 12,000,000 m³ · 11 kWh/m³ = 132,000,000 kWh · 0.003 €/kWh/a = 396,000 €/a\nResult: 66,000 + 82,500 + 396,000 = 544,500 €/a\nNote: the working-gas price is €/kWh/a (energy price); injection/withdrawal are €/kW/a (capacity price) - don't mix them."
+ },
+ {
+  "id": "b04-038",
+  "short": "Correct: the withdrawal rate is at its maximum and the injection rate at its minimum, because the reservoir pressure is high.\nOthers fail: reversing the two describes the nearly empty store; claiming both rates depend only on compressor size ignores that they depend on filling level; the cushion-gas option is wrong because cushion gas holds pressure up at low filling, not high."
+ },
+ {
+  "id": "b05-024",
+  "short": "- Price oscillates ~30-60 €/MWh with dips below zero (2013, 2017, 2019) until 2021.\n- From late 2021 it breaks out: climbs through 200-400 €/MWh, peaks ~700 €/MWh in H2 2022, then falls back.\n- Belongs in the gas chapter via the merit order: gas plants often set the price, so day-ahead price ≈ gas price / electrical efficiency + CO2 cost. At ~50% efficiency, 300 €/MWh gas alone implies ~600 €/MWh - the size of the 2022 peak.\n- The earlier negative prices have a different cause: high RES feed-in plus inflexible must-run capacity at low demand - cheaper to pay for off-take than to shut down and restart."
+ },
+ {
+  "id": "b05-054",
+  "short": "F: Rail: 1,500,000/200 = 7,500 cars/day -> 75 unit trains/day (one every 20 min)\nF: Truck: 1,500,000/750 = 2,000 loads/day (one every 43 s)\nF: Barge: 1,500,000 / 10,000-30,000 bbl = 50-150 barges/day\nF: Ship: 1,500,000 / 800,000-1,000,000 bbl = 1.5-1.9 cargoes/day (one every 12-16 h)\n- Only pipeline and tanker are the same order of magnitude; rail and truck are 2-4 orders smaller - a feasibility limit, not a cost one. Pipeline = base-load mode, rail/truck = peaking and distribution.\nNote: on the slide the truck figure (750 bbl) exceeds the rail figure (200 bbl), which is backwards - a real rail tank car holds ~650-700 bbl, a truck ~200 bbl. Use the slide's numbers in the exam anyway."
+ },
+ {
+  "id": "b06-029",
+  "short": "| | Bottom-up (energy process models) | Top-down (energy economic models)\n| detail | disaggregated, explicit tech (efficiencies, capacities) | aggregated, no tech detail\n| units | energetic (MWh, PJ) | monetary (value flows between sectors)\n| representatives | optimisation, simulation models | general equilibrium, econometric models\n- Choice follows the question: technology substitution or price levels need bottom-up; employment or growth effects need top-down."
+ },
+ {
+  "id": "b07-001",
+  "short": "F: cost_th = (fuel + logistics)/heating value + CO2 factor · 10 €/t\nF: Lignite: (20+1)/3.06 + 0.40·10 = 6.87+4.00 = 10.87 €/MWh_th -> /0.38 + 1.39 = 28.61+1.39 = 30.00 €/MWh_el\nF: Hard coal: (100/1.25+5)/6.94 + 0.35·10 = 12.24+3.50 = 15.74 €/MWh_th -> /0.40 + 0.65 = 39.35+0.65 = 40.00 €/MWh_el\nF: CCGT: (25+2)/0.9262 + 0.184·10 = 29.15+1.84 = 30.99 €/MWh_th -> /0.53 + 1.53 = 58.47+1.53 = 60.00 €/MWh_el\nResult: 30.00 / 40.00 / 60.00 €/MWh_el (lignite / hard coal / CCGT)\n- Traps: convert USD to EUR for the coal price; add the CO2 cost before dividing by efficiency, never after."
+ },
+ {
+  "id": "px-031",
+  "short": "| | Perfect foresight | Time-step\n| characteristics | knows all inputs over the whole horizon; optimises all periods at once | knows only the current step's inputs; solved sequentially, inherits the prior capacity stock\n| advantage | true system optimum, path-optimal | realistic decision behaviour; reproduces lock-in and stranded assets\n| disadvantage | unrealistic knowledge; understates stranded assets and cost | path-dependent, not the global optimum\n- One-liner: perfect foresight answers \"what would be optimal\", time-step answers \"what would plausibly happen\"."
+ },
+ {
+  "id": "b07-037",
+  "short": "Correct: lignite, ≈285,000 EUR/MWa (2,200 EUR/kW · 0.10226 annuity factor + 60 EUR/kWa fixed = 284.97 EUR/kWa).\nOthers are lower (CCGT ≈118,000; hard coal ≈219,000; OCGT ≈68,000 EUR/MWa) - lignite is the most capital-intensive technology, hence the base-load plant that needs the most full-load hours to pay off."
+ },
+ {
+  "id": "px-030",
+  "short": "- Three time bands (rows): online/<1a (short-term), 1-5a (mid-term), >5a (long-term/strategic); each split into \"physical world\" and \"trading\" columns.\n- Short-term physical: day-ahead planning/unit commitment; real-time balancing (on behalf of the TSO, the \"online\" row).\n- Short-term trading: day-ahead trading; intraday trading.\n- Mid-term physical: portfolio optimisation; maintenance planning.\n- Mid-term trading: future and forward trading; hedging/risk management.\n- Long-term physical: investment/expansion; disinvestment/decommissioning.\n- Long-term trading: structured products / \"virtual power plants\".\n- Right-hand axis: an uncertainty wedge, deterministic at the bottom to increasing uncertainty at the top; matching method per horizon - deterministic optimisation (short), stochastic approaches (mid), scenario planning (long)."
+ },
+ {
+  "id": "b08-018",
+  "short": "F: NPV = Σ(t=0..n) (Revenue_t - Expenditure_t)/(1+i)^t = Σ(t=0..n) CashFlow_t/(1+i)^t\n- t: period; n: project lifetime; i: discount rate; CashFlow_t = Revenue_t - Expenditure_t.\n- Rate used in practice: WACC (weighted average cost of capital) - blends the required return on equity and the cost of debt by their shares. A positive NPV then means a surplus above fully remunerating both capital providers."
+ },
+ {
+  "id": "b08-014",
+  "short": "- Static: single-period methods (profit comparison, cost comparison, average return) plus multi-period (payback method) - compare one representative or average year, ignore the time value of money.\n- Dynamic (this chapter): NPV, annuity, internal rate of return, discounted payback - discount every cash flow with (1+i)^t.\n- Separating criterion: treatment of time. Dynamic methods need the full cash-flow profile over the whole lifetime plus an interest rate; static methods need only one typical year."
+ },
+ {
+  "id": "b08-046",
+  "short": "- Row maxima: d1=40 (s1), d2=30 (s1), d3=22 (s3).\nF: max(40, 30, 22) = 40 -> choose d1 (hard coal)\n- This reveals an optimist: judges each option only by its best case, as if s1 will occur - ignoring that d1 is the only option with a loss (-10 in s3, the worst case) and has the weakest middle-scenario result (15)."
+ },
+ {
+  "id": "b09-020",
+  "short": "- Electricity can't be stored - feed-in and withdrawal must balance at every instant; any imbalance shows up as a frequency deviation from 50 Hz.\n- Tolerance band: 49.95-50.05 Hz.\n- Causes: unforeseeable events (generation failures, grid disruptions) and forecast errors (growing with stochastic RES, especially wind).\n- Other system services: reactive power compensation (keeps voltage within limits); black start capability (restarts the grid after a blackout without external supply)."
+ },
+ {
+  "id": "px-008",
+  "short": "- Renewable electricity (wind, PV, surplus) -> electrolyser -> H2.\nF: 2 H2O -> 2 H2 + O2\n- Efficiency: alkaline ≈4.7 kWh/Nm³ (≈64%), SOEC ≈3.6 kWh/Nm³ (≈83%), PEM in between.\n- Direct use: H2 network or a re-used natural gas pipeline, salt-cavern storage, industry, mobility.\n- Or methanation with CO2 (point source or direct air capture) -> SNG - reuses the whole existing gas infrastructure (pipelines, ~260 TWh storage, power plants, heating, ships).\n- Re-electrification: gas turbine, CCGT or fuel cell -> power, closing the power-to-gas-to-power loop.\n- Mark the energy losses at every arrow.\nNote: WS 25/26 has no dedicated power-to-gas slide - the chain is assembled from the electrolysis, gas-infrastructure-reuse and synthetic-methane slides."
+ },
+ {
+  "id": "b09x-009",
+  "short": "- Unabated H2: ~11-12 EJ in 2024 (mostly industry/refining), shrinks to ~3 EJ by 2050.\n- Low-emissions H2: near 0 in 2024 -> ~12 EJ (2035) -> ~38 EJ (2050) - grey demand is replaced and a much larger new demand is added, mainly industry and transport.\n- 2050 shares: shipping >50% (mostly ammonia), aviation ~40% (synthetic hydrocarbons), steel ~25%, chemicals ~14%.\n- Hydrogen reaches transport mainly through derivatives, not as the pure molecule."
+ },
+ {
+  "id": "b10-019",
+  "short": "- Low volumetric density: 1.3 kWh/l at 700 bar, 2.4 kWh/l liquid, vs ~9.7 kWh/l for diesel - though 33.33 kWh/kg by mass is unbeatable.\n- Boiling point -253 °C: liquefaction costs 10-14 kWh/kgH2 today (~1/3 of its own energy content), ~7 kWh/kgH2 in future, theoretical min 2.9 kWh/kgH2; boil-off ~0.2%/day.\n- Highly flammable: wide ignition range, very low ignition energy -> costly sensors, ventilation, clearance distances.\n- No existing infrastructure: NG pipelines, caverns and terminals are partly reusable, but compressors, seals, meters, valves and burners must be replaced; steel embrittlement limits which lines can convert.\n- Water demand: ~9 kgH2O/kgH2 stoichiometric, ~18 kgH2O/kgH2 incl. cooling - forces desalination at arid export sites (e.g. Coega, NEOM)."
+ },
+ {
+  "id": "b10-029",
+  "short": "- NH3: colourless, pungent, caustic/corrosive gas; boils at -33.34 °C (liquefies at ~10 bar at room temp); liquid density 0.68 kg/l; occurs naturally in decomposing plants and animal excrement.\nF: N2 + 3 H2 -> 2 NH3 (Haber-Bosch)\n- Global production 150 Mt/a; 85% goes into fertiliser.\n- Footprint ~0.5 GtCO2/a (~1% of global emissions), because today's H2 comes from steam reforming of natural gas, not electrolysis.\nNote: the slide's \"45% of global H2 demand\" doesn't match the lecture's other figures - stoichiometrically 150 Mt · 0.18 ≈ 27 Mt H2, about a quarter of the ~110 Mt/a global H2 output, not 45%."
+ },
+ {
+  "id": "b11-005",
+  "short": "Correct: it is highly exothermic (dH0 = -164.9 kJ/mol) and runs at 300-450 °C, 1-5 bar.\nOthers fail: the sign is reversed - the reaction releases heat, it doesn't need it; the high-pressure option confuses methanation with Haber-Bosch (150-300 bar); the last option is wrong twice - the products are CH4 and H2O, not O2, and 2.74 kg CO2 is needed per kg CH4, so a carbon source is required."
+ },
+ {
+  "id": "b11-047",
+  "short": "Correct: conventional fuels fall from 94.5% to 92.6%, alternative fuels rise from 5.5% to 7.4%, and almost all of the alternative share is LNG (6.65% in 2024).\nOthers fail: battery/hybrid is marginal (0.32% in 2024), not dominant; the alternative share is rising, not stagnating, and LNG is growing, not being phased out; conventional fuels stay above 90%, and methanol is still statistically negligible (0.09%) despite topping the orderbook."
+ },
+ {
+  "id": "px-001",
+  "short": "- Physical compatibility: interface is a physical part of the product, e.g. flange/pressure class of a pipeline coupling\n- Communication compatibility: common transmission protocol, e.g. SCADA telemetry or TSO nomination messages\n- Compatibility by convention: interface works by agreement, not physics, e.g. common currency, time (gas day), or Wobbe index band"
+ },
+ {
+  "id": "b01x-011",
+  "short": "F: C(a+b) ≤ C(a) + C(b)\n- producing a and b together never costs more than producing them separately\n- reflects economies of scale/scope: shared fixed assets, better utilisation of an indivisible plant\n- reason a grid is cheaper run by one operator than split between two\nNote: economies of scale are sufficient but not necessary for sub-additivity; economies of scope alone are not sufficient either"
+ },
+ {
+  "id": "b01-026",
+  "short": "- Left: US infrastructure investment as % of GDP, 1957-2019, falls from ~3.0% to ~2.0%, trough <1.8% early 1990s, local peak ~2009 (stimulus)\n- Right: Bipartisan Infrastructure Deal (Nov 2021), $550bn total, of which $112.5bn for public transport ($66bn rail, $39bn transit, $5bn buses, $2.5bn ferries)\n- Tension: $550bn looks huge but against ~$23tn GDP spread over several years is well under 1% of GDP/year - it slows the decline, doesn't reverse it\n- Lesson: infrastructure packages must be normalised by GDP and by years before judging them"
+ },
+ {
+  "id": "b02-040",
+  "short": "L (L-gas, low calorific value)\n- nominal Wobbe index 12.4 kWh/m³ vs 15.0 kWh/m³ for H-gas\n- total ranges: L 10.5-13.0, H 12.8-15.7 kWh/m³\n- both share GCV range 8.4-13.1 kWh/m³, relative density 0.55-0.75, 20 mbar connection pressure"
+ },
+ {
+  "id": "px-016",
+  "short": "κ_V = 10,000 m³/h, GCV = 11 kWh/m³, p_Entry = 1.7 €/kWh/h/a, p_Exit = 0.00219178 €/kWh/h/d\nF: κ_E = κ_V · GCV = 10,000 · 11 = 110,000 kWh/h\nF: C_TE = κ_E · p_Entry + κ_E · p_Exit · 365 = 110,000 · 1.7 + 110,000 · 365 · 0.00219178\nResult: 275,000 €/a\nConvert m³/h to kWh/h first; check whether the exit price is per year or per day (here per day, ×365)."
+ },
+ {
+  "id": "b03-009",
+  "short": "- near-shore FLNG, open-sea FLNG, FSRU, small-scale LNG (incl. power ship)\n- FLNG: liquefaction plant on a hull at the field; solves stranded gas - no pipeline, jetty or land needed, and it can move to the next field\n- FSRU: floating storage and regasification unit on the import side; solves the time/commitment problem - chartered, on stream within months instead of the years an onshore terminal takes, released again after use (e.g. Germany 2022/23)\n- small-scale LNG/power ships: deliver gas past the grid, by small vessel, truck or container"
+ },
+ {
+  "id": "b04-002",
+  "short": "Gross calorific value (GCV, Brennwert), in kWh/m³\nF: κ_E = κ_V · GCV\ne.g. 10,000 m³/h · 11 kWh/m³ = 110,000 kWh/h = 110 MW"
+ },
+ {
+  "id": "px-003",
+  "short": "- total storage capacity = cushion gas + working gas volume; only the working gas can be cycled\n- injection/withdrawal rates are max flows, coupled to the filling level via reservoir pressure\n- full store: withdrawal at max, injection at min; empty store: reverse\n- working gas volume / withdrawal rate = hours of full withdrawal; its inverse is the cycling rate\n- large working gas + low rate = seasonal store (depleted field/aquifer); small working gas + high rate = peak-shaving store (salt cavern); more cushion gas buys a higher rate for the same working gas volume"
+ },
+ {
+  "id": "px-035",
+  "short": "40,000,000 m³ at 20 €/MWh, GCV 11 kWh/m³\nF: Energy = 40,000,000 · 11 = 440,000,000 kWh = 440,000 MWh\nF: Cost = 440,000 · 20\nResult: 8,800,000 €\nCommodity dominates procurement cost (vs 621,500 € transport, 544,500 € storage); keep 440,000 MWh for the next (specific-cost) step."
+ },
+ {
+  "id": "b04-056",
+  "short": "F: T_storage = p_inj · κ_inj + p_wd · κ_wd + p_wg · v_wg\n- p_inj, p_wd (injection/withdrawal price): capacity prices, €/(kWh/h)/a = €/kW/a - a rate is a flow (power)\n- p_wg (working gas price): quantity price, €/kWh/a - working gas is an amount of energy, not a flow\n- mixing the two up (wrong price on wrong term) is the standard error, off by orders of magnitude\n- offers are only comparable as a total annual charge, divided by a reference quantity (MWh working gas or kW withdrawal) - one component price alone says nothing"
+ },
+ {
+  "id": "b05-001",
+  "short": "- Volume: buyer not tied to a fixed off-take; annual contract quantity has a min/max band; take-or-pay = pay for the minimum share, call anything up to the maximum freely\n- Price: not tied to one price formula; can switch volume to a hub-indexed price instead of e.g. oil-indexation, so falling market prices benefit the buyer\n- Location: gas may be delivered, resold or diverted elsewhere; e.g. an LNG cargo without a destination clause can be re-routed to the highest-priced market\n- the three interact - volume you can't move to where it's worth something is worth little"
+ },
+ {
+  "id": "b05-036",
+  "short": "- x-axis: API gravity (density), heavy (left, ~20) to light (right, ~50); y-axis: sulfur content %, sweet (bottom, ~0) to sour (top, ~3.5); sweet/sour split ~0.5% S\n| Crude | API | Sulfur |\n| Brent / WTI | ~38-40 | ~0.4% (sweet) |\n| Arab Heavy | ~27 | 2.9% (sour) |\n| Maya | ~22 | 3.3% (sour) |\n- light+sweet crude gives a high share of valuable light products and needs little desulfurisation - cheap to refine; heavy+sour needs conversion and desulfurisation capacity - trades at a discount to Brent"
+ },
+ {
+  "id": "px-032",
+  "short": "- merit order: plants bid variable cost, cheapest called first, marginal plant sets the price - so being high or low cost is relative to the national merit order\n- Germany: long, low merit order (nuclear/lignite base, coal, near-zero-cost renewables) - low-cost plant runs most hours; high-cost gas peaker only runs in a few scarcity hours, needs high price spreads\n- Italy: gas/import/hydro dominated, almost no coal/lignite - merit order sits higher, prices structurally higher - a plant that counts as high-cost in Germany can be mid- or base-load in Italy\n- deploy the low-marginal-cost plant always; high marginal cost is only a label relative to which country's merit order the plant sits in"
+ },
+ {
+  "id": "b06-039",
+  "short": "- machine I: 8 t/week if only P1, 8 t/week if only P2, so 1 t P1 uses 1/8 of I and 1 t P2 uses 1/8 of I\nF: x1 + x2 ≤ 8 (machine I)\n- machine II: 10 t/week if only P1, 5 t/week if only P2, so 1 t P1 uses 1/10 of II and 1 t P2 uses 1/5 of II\nF: x1 + 2·x2 ≤ 10 (machine II)\n- plus x1 ≥ 0, x2 ≥ 0\nMachine II costs twice as much capacity per tonne of P2 as of P1, so II (not I) restricts the more profitable product."
+ },
+ {
+  "id": "b07-025",
+  "short": "- three columns: scenario assumptions (left), market model (middle), results (right)\n- left inputs: plant technology data (capex/opex/efficiency), RES technology data and potentials/generation profiles, fuel price scenarios (world market + domestic), CO2 price/limits, macro data (GDP, inflation, FX), regional demand (amount + profile)\n- from above: existing assets/decided projects - thermal park (capacities, efficiencies), hydro storages (volumes, discharge rates)\n- from below: external policy-driven developments, e.g. German nuclear phase-out 2012-2022\n- middle: market model minimises system expenses for load coverage - draw the merit order (var. cost €/MWh vs available capacity GW: renewables, nuclear, lignite, hard coal, CCGT, OCGT) against system/residual load\n- right outputs: regional power plant park development, fuel consumption, CO2 emissions, marginal prices (short-/long-run), total system expenses"
+ },
+ {
+  "id": "b07-077",
+  "short": "- target: minimise total expenses over the whole horizon, NPV approach - discount all future expenditures to one reference date, sum, minimise\n- expensive because the whole horizon is one single optimisation problem - a 2030 decision is coupled, via the capacity stock carried over, to 2045 prices, so periods can't be solved separately\n- problem size ≈ variables per period × number of periods; more regions/technologies/finer time resolution multiplies it further, which is why resolution is usually reduced to typical days\n- also unrealistic: no investor really knows prices and policy 30 years ahead"
+ },
+ {
+  "id": "b08-001",
+  "short": "- plants were decided ~2007/08, not 2013 (5-7 year lead time) - judge against 2007/08 expectations: high/rising fuel and power prices, moderate CO2 price, good clean dark spread, base-load gap expected from the nuclear phase-out\n- a modern, efficient hard coal plant looked like the cheapest way to fill mid/base load\n- by commissioning: RES expansion cut the residual load and prices (merit order effect), demand stagnated after the crisis, low CO2 price couldn't offset the lost running hours\n- lesson: with decade-long lead times and lifetimes, one deterministic forecast is not a valid investment basis - need scenario planning against a bandwidth of futures"
+ },
+ {
+  "id": "b08-019",
+  "short": "1000 €/kW, 100 MW, WACC 10%, invest 30%/70% two/one year before commissioning, feed-in tariff 8 ct/kWh, 2000 FLH/a, fixed O&M 2% of invest\nF: Investment = 100,000 kW · 1000 €/kW = 100,000,000 €\nF: split: 30% = 30,000,000 € (t-2), 70% = 70,000,000 € (t-1)\nF: generation = 100 MW · 2000 h/a = 200,000 MWh/a\nF: revenue = 200,000 MWh/a · 80 €/MWh = 16,000,000 €/a\nF: O&M = 0.02 · 100,000,000 € = 2,000,000 €/a\nF: net cash flow = 16,000,000 - 2,000,000\nResult: 14,000,000 €/a\nProfile: -30M (t-2), -70M (t-1), then +14M/a for 20 years - input for NPV, annuity, IRR and payback."
+ },
+ {
+  "id": "b08-028",
+  "short": "Zero\nF: Σ (Revenue_t - Expenditure_t)/(1+i)^t - Investment = 0, solve for i\n- choose the alternative with the highest IRR; realise a project only if IRR > cost of capital\n- for n>2 no closed form - needs simulation, a graphical solution, or Newton's method\n- advantage: independent of project size (it's a %); same reason is the weakness - a large project with a lower IRR can create more value than a small one with a high IRR"
+ },
+ {
+  "id": "b08-037",
+  "short": "- appraisal changes from one NPV to a bandwidth of NPVs, one per scenario - can be positive in one, negative in another (same for IRR etc.)\n- challenge 1, communication: how to communicate/visualise the chances and risks to decision makers understandably - a board decides on a project, not a distribution\n- challenge 2, interpretation: how to use the uncertainty information in the decision - answered by decision rules under uncertainty (maximax, maximin, minimax regret, Laplace, Hurwicz)"
+ },
+ {
+  "id": "b09-021",
+  "short": "Secondary control (Sekundärregelung)\n- takes over from ~30 s, restores frequency to exactly 50 Hz and frees the primary reserve again; fully available after a few minutes up to 15 min\nNote: the slide's English label wrongly repeats \"Primary control\" for the second band; the German layer underneath correctly reads Sekundärregelung, and Minutenreserve for the third (tertiary) band - read the diagram by the time axis, not the English labels"
+ },
+ {
+  "id": "px-025",
+  "short": "- today: ~110 Mt/a global H2 production/consumption, renewable share <1% (~0.09 Mt/a)\n- almost all used as chemical feedstock, not energy carrier: ~45% ammonia/fertiliser, most of the rest refining, plus methanol and steel\n- 2050: projections ~500-700 Mt/a (5-6x today), new demand from steel (direct reduction), shipping/aviation fuel, high-temperature industrial heat, some power generation\nNote: 110 Mt/a and <1% renewable are the hard slide numbers; the 2050 figure varies strongly by source (IEA/IRENA/Hydrogen Council) - quote it as a range and name the scenario"
+ },
+ {
+  "id": "b09x-038",
+  "short": "| Element | Max H2 blend |\n| Distribution grid | ~50% (up to 100% in some cases) |\n| Gas meters | ~50% |\n| Boilers/cooking | ~30% |\n| CNG tanks | ~30% (in some cases) |\n| Transmission grid | ~20% |\n| Compressors | ~10% |\n| Engines | ~5% |\n| Underground storage | ~2% |\n| Gas turbines | ~2% |\n- system limit = weakest element actually present in the chain (storage/turbines ~2%) - blend share stays low single-digit system-wide, or must be organised locally (a distribution-only island can go far higher)\n- also thermodynamically weak: H2 has ~1/3 the volumetric energy of methane, so 20 vol% H2 replaces only ~7% of the energy - real answer is dedicated H2 networks, not blending"
+ },
+ {
+  "id": "b10-020",
+  "short": "9 kg H2O per kg H2\n- stoichiometric, from 2 H2O -> 2 H2 + O2: 8.94 kg H2O/kg H2; with cooling and water treatment ≈18 kg H2O/kg H2\n- not a resource problem (negligible vs agriculture) but a siting one: export sites are arid (chosen for sun/wind) - need seawater desalination, adding capex, energy and a brine disposal problem"
+ },
+ {
+  "id": "b10-046",
+  "short": "- CH3OH: colourless, flammable alcohol, boiling point 65°C, density 0.79 kg/l - liquid at ambient conditions, the key advantage over H2 and ammonia; occurs naturally (bacteria/phytoplankton metabolism)\n- global production ~98 Mt/a; mainly a chemical precursor (formaldehyde, plastics), ~30% used as fuel/blending\nF: CO + 2 H2 → CH3OH (exothermic)\n- conventional route: hydrogenation of natural-gas-based CO; causes ~0.3 GtCO2/a\nNote: slide gives ΔH0 = -91.8 kJ/mol, the same value it gives for Haber-Bosch (looks copied); textbook value is ≈-90.5 kJ/mol - quote ~-90 kJ/mol"
+ },
+ {
+  "id": "b10-059",
+  "short": "- liquid organic compound that reversibly bonds hydrogen; carbon stays in the carrier and the carrier is reused - a container, not a fuel; viscous like mineral oil, often a refining by-product\n| Lean | Rich |\n| MCH | Toluol (TOL) |\n| H0-DBT | H18-DBT |\n| H0-BT (C14H14) | H12-BT (C14H26) |\n| NEC | DNEC |\n- energy density ≈2 kWh/kg, 1.6 kWh/l, H2 content 4-7 wt% - lowest of all carriers, because the heavy carrier molecule travels both ways\n- hydrogenation (loading): exothermic, 30-50 bar, 150-200°C, in the exporting country\n- dehydrogenation (release): endothermic, ~250-400°C, costs 9-14 kWh/kgH2, in the importing country"
+ },
+ {
+  "id": "b11-056",
+  "short": "- axes as before: gravimetric (kWh/kg) vs volumetric (kWh/l) energy density, but y-axis now runs to 25 - the metals break the old scale\n| Metal | Gravimetric | Volumetric |\n| Aluminium | ~8.6 kWh/kg | ~23.5 kWh/l (powder ~14) |\n| Iron | ~2.05 kWh/kg | ~16.1 kWh/l (powder ~9.7) |\n- best chemical fuels for comparison: syn-kerosene 9.6 kWh/l, LNG 6.3 kWh/l, liquid H2 2.4 kWh/l\n- metals are gravimetrically poor (iron ≈ LOHC level, 1/16 of H2) but volumetrically beat every fuel - good where volume/storability matters and mass doesn't: seasonal storage in a heap, bulk shipping, retrofitted coal plants; bad for aviation/road transport\nNote: powder values are the practical ones - a burner is fed powder, not a solid block"
+ },
+ {
+  "id": "px-005",
+  "short": "- Transmission is a natural monopoly: sub-additive cost function (economies of scale, huge fixed/sunk investment) — one operator serves demand cheaper than two.\n- Competition in the network itself is not achievable, unlike production, trading and retail.\n- Unregulated, the monopolist restricts quantity, sets monopoly prices, and (if vertically integrated) blocks third-party access to protect its own sales.\n- Regulation creates \"as-if competition\": the state sets network access and prices/quantities, and enforces unbundling.\n- Goal: lower end-customer prices; result: more suppliers, real competition in the commodity, non-discriminatory access, security of supply."
+ },
+ {
+  "id": "b01x-013",
+  "short": "- Sub-additive cost function (economies of scope/scale, sunk costs) → natural monopoly by definition.\n- Natural monopoly → risk of monopoly rents: no competitive pressure lets the monopolist price above cost (a risk, not automatic — the monopoly itself is efficient).\n- Risk of monopoly rents → unbundling: separate the vertically integrated firm so the network isn't run by a party with an interest in who uses it.\n- Unbundling → regulation: separation alone doesn't set access prices, so the remaining monopoly is regulated sector-specifically.\n- Aim: not to break the natural monopoly (that would raise costs) but to stop it being exploited."
+ },
+ {
+  "id": "b01x-007",
+  "short": "F: Price = Monetary Compensation / Scope of Services\n- A number alone is not a price; it only means something once these four dimensions are fixed.\n- Scope of service: what exactly is being priced, defined in detail.\n- Location: where the price applies.\n- Time: when the price applies.\n- Other restrictions: further conditions limiting validity."
+ },
+ {
+  "id": "b02-023",
+  "short": "- Natural gas = commodity (the energy itself, kWh, indifferent to timing) + flexibility (the right to take it when needed).\n- Flexibility elements: transportation, storage, production flexibility, interruptibility (customer accepts cut-off for a lower price).\n- Customer buys flexibility because demand isn't flat: heating follows temperature, industry follows shift plans, power plants follow merit order.\n- Without it he'd have to store or waste gas himself; on the supply side, flexibility is what sellers charge for beyond raw energy."
+ },
+ {
+  "id": "b02-054",
+  "short": "- Pipelines: length up to 6,000 km, diameter up to 1,400 mm, pressure up to 100 bar.\n- Compressors: maintain pressure, spacing 80–500 km, driven by gas or electricity, consumption up to 0.5 %/100 km (highly variable).\nF: sections = 4,000 km / 100 km = 40\nF: delivered share = 0.995^40 = 0.818\nResult: 81.8 % delivered, 18.2 % consumed for compression\nNote: compounding, not linear (40 · 0.5 % = 20 % would be wrong) — each station takes its share of what's left."
+ },
+ {
+  "id": "b03-010",
+  "short": "FSRU – floating storage and regasification unit; vaporises LNG directly into the grid, no onshore terminal needed.\n- Faster and reversible than a stationary terminal (chartered and returned, not a sunk multi-year build).\n- Counterpart on the export side: FLNG (floating liquefaction unit)."
+ },
+ {
+  "id": "b04-003",
+  "short": "| System | Formula | Bill depends on\n| Distance-related | C = Price · Distance · Capacity | route length and booked capacity\n| Entry-exit | C = Entry-Price·Entry-Cap + Exit-Price·Exit-Cap | entry/exit points and capacity booked, not distance or path\n| Postage stamp | C = Price · Capacity | booked capacity only, one uniform tariff\n- EU uses entry-exit today — it enables a virtual trading point and free re-routing."
+ },
+ {
+  "id": "px-012",
+  "short": "F: condition: p_supply + p_storage < p_sales\nF: storage cost = 544,500 € / 132,000 MWh = 4.125 €/MWh\nF: spread = 28 − 27 = 1 €/MWh\n1 €/MWh < 4.125 €/MWh → not profitable\nResult: −412,500 €/a (132,000 MWh · 1 €/MWh − 544,500 €)\nNote: the spread alone says nothing — only spread minus storage cost decides."
+ },
+ {
+  "id": "px-036",
+  "short": "F: total cost = 8,800,000 + 621,500 + 544,500 = 9,966,000 €\nF: specific cost = 9,966,000 € / 440,000 MWh\nResult: 22.65 €/MWh\n- Breakdown: gas 20.00, transport 1.41, storage 1.24 €/MWh.\nNote: capacity charges are a fixed cost, paid whether or not used — lower utilisation raises the specific cost."
+ },
+ {
+  "id": "b04-057",
+  "short": "F: T_storage = p_inj · κ_inj + p_wd · κ_wd + p_wg · v_wg\nF: κ_wd = 5,000 m³/h · 10 kWh/m³ = 50,000 kW; κ_inj = 4,000 · 10 = 40,000 kW\nF: withdrawal = 50,000 kW · 1.8 €/kW/a = 90,000 €/a\nF: injection = 40,000 kW · 2.2 €/kW/a = 88,000 €/a\nF: working gas = 20,000,000 m³ · 10 kWh/m³ = 200,000 MWh; charge = 200,000 MWh · 2.5 €/MWh/a = 500,000 €/a\nResult: T_storage = 90,000 + 88,000 + 500,000 = 678,000 €/a\nF: specific cost = 678,000 € / 200,000 MWh = 3.39 €/MWh\nNote: needs a summer/winter spread above 3.39 €/MWh to break even; working gas is 74 % of the cost."
+ },
+ {
+  "id": "b05-017",
+  "short": "- In force since 1 May 2022 (§ 35b EnWG + EU regulation 2022/1032).\n- Filling levels: 90 % by 1 Nov, 45 % by 1 Feb, plus intermediate summer-month figures.\n- Primarily private storage holders must fill; if they don't, Trading Hub Europe (market area manager) must.\n- Three-stage incentive: (1) tenders for base provision (SSBO options), (2) market area manager can auction capacities if still under-filled, (3) unused capacity returned to the market area manager, who buys gas to fill it (use-it-or-lose-it).\nNote: the regulation number on the slide (\"2022/10321\") is a typo; correct is (EU) 2022/1032."
+ },
+ {
+  "id": "b06-001",
+  "short": "| Relation | Pipeline $/bbl | Rail $/bbl\n| Alberta→Cushing | 3.78 (light) / 4.54 (heavy) | –\n| Cushing→Houston | 2.71 (light) / 3.26 (heavy) | –\n| Alberta→Houston (heavy) | 7.80 (sum of legs) | 16.73\n- Rail ≈ 2× pipeline cost on the comparable Alberta–Houston relation, 3–4× per leg.\n- Pipeline: capital-intensive fixed asset, low variable cost/bbl, economies of scale with volume.\n- Rail: high variable cost (traction, crew, terminal), no comparable scale economies; used where pipeline capacity is missing.\n- Heavy > light crude on every relation: more viscous, needs dilution/heating, flows slower."
+ },
+ {
+  "id": "px-028",
+  "short": "F: c_var = fuel/η + (CO2_spec/η) · p + aux\nF: c_coal = 12.24/0.40 + (0.35/0.40)·p + 0.65 = 31.25 + 0.875·p\nF: c_CCGT = 29.15/0.53 + (0.184/0.53)·p + 1.53 = 56.52 + 0.347·p\nF: 31.25 + 0.875p = 56.52 + 0.347p\nResult: p ≈ 47.9 €/tCO2\nNote: above ≈48 €/t, CCGT undercuts coal — the CO2 price hits the dirtier plant harder and rotates the merit order."
+ },
+ {
+  "id": "b06-047",
+  "short": "- Chain: extraction (gas/oil/coal/uranium) → conventional generation (renewables enter in parallel here) → energy trading & optimisation (supply, transport, storage) + transmission → sales/distribution → end consumers.\n- Markets overlaid: world fuel markets cover extraction+generation; EU emission market and wholesale electricity market cover generation+trading+transmission; ancillary service markets sit at generation/transmission; retail market covers sales+distribution+consumer.\n- Renewables: no extraction stage, so no exposure to world fuel markets.\n- Prosumers: flow is no longer one-directional — energy also flows from the end consumer back into the distribution grid."
+ },
+ {
+  "id": "b07-031",
+  "short": "- Each technology's annual cost: intercept = fixed cost, slope = variable cost.\nF: C(t) = C_fix + C_var · t\n- Cost-minimal technology for a given operating time = lower envelope of all cost lines.\nF: t* = (C_fix,B − C_fix,A) / (C_var,A − C_var,B)\n- Break points t1, t2, t3 map onto the load duration curve: capacity of each technology = load between consecutive break points (peak on top, base at bottom).\n- Price per time segment = variable cost of the marginal technology there → highest price in the shortest (peak) segment, letting the peaker recover its fixed cost."
+ },
+ {
+  "id": "b07-078",
+  "short": "NPV – net present value approach.\nAll expenditures over the whole horizon are discounted to one reference date and summed, so costs from different years become comparable (a time-step model cannot do this)."
+ },
+ {
+  "id": "b08-002",
+  "short": "| Horizon | Uncertainties\n| Short-term (online – <1 a) | weather, RES forecast, load forecast, PP outages\n| Long-term (1–5 a, >5 a) | fuel/CO2 prices, load development, RES expansion, political risk, market prices, economic situation, meteorological years\n- Short-term errors are bounded, resolved within hours, correctable via re-dispatch/intraday/balancing, and hedgeable on liquid markets.\n- Long-term uncertainties are structural (change the system itself), have no reliable probability distribution, can't be hedged, and compound over years."
+ },
+ {
+  "id": "b08-020",
+  "short": "F: E = 100 MW · 2,000 h/a = 200,000 MWh/a = 200 GWh/a\nNote: 2,000 h/a ≈ capacity factor 23 % (2000/8760), typical for onshore wind."
+ },
+ {
+  "id": "b08-032",
+  "short": "- Cumulated discounted cash flow crosses zero in 2028.\nResult: discounted payback period = 14 years of operation (2015–2028)\nF: undiscounted payback = 100,000,000 € / 14,000,000 €/a ≈ 7.1 years\nNote: discounting more than doubles the payback time because later cash flows are worth much less (14 M€ in 2034 ≈ 1.9 M€ in 2013 at 10 %); the remaining years after payback still deliver the whole NPV."
+ },
+ {
+  "id": "px-010",
+  "short": "F: P_v = R · P² / U²\nF: 110 kV: I = 500·10^6 / 110·10^3 = 4,545 A → P_v = 4,545² · 6 ≈ 124 MW (24.8 % of P)\nF: 380 kV: I = 500·10^6 / 380·10^3 = 1,316 A → P_v = 1,316² · 6 ≈ 10.4 MW (2.1 % of P)\nResult: P_v(110 kV) ≈ 124 MW; P_v(380 kV) ≈ 10.4 MW\nNote: losses ∝ 1/U² — 380 kV cuts losses by (380/110)² ≈ 11.9× versus 110 kV. Lecture uses single-phase P = U·I; three-phase gives the same P_v = R·P²/U²."
+ },
+ {
+  "id": "b09-001",
+  "short": "- Generation: 6–21 kV at the generator, stepped up immediately by a machine transformer.\n- Transport: extra-high-voltage transmission network, 380/220 kV, long distance, connects control areas.\n- Distribution – high voltage: 110 kV (regions, large industry).\n- Distribution – medium voltage: 20/10 kV (districts, industrial estates, rail).\n- Distribution – low voltage: 400 V (household customer).\nNote: every step down is a transformer, and every transformer costs efficiency — German transport + transformation losses ≈4.7 %."
+ },
+ {
+  "id": "px-026",
+  "short": "- Installed: ≈2 GW worldwide (end 2024), ≈5 GW expected end 2025.\n- Needed: ≈5,000 GW by 2050.\n- Today's capacity is about 0.04 % of what 2050 scenarios require — three orders of magnitude short.\nNote: current H2 production ≈110 Mt/a, of which <1 % renewable."
+ },
+ {
+  "id": "b09x-039",
+  "short": "Correct: underground storage and gas turbines, ≈2 % — lowest tolerance (storage: microbiology/reservoir chemistry; turbines: flame speed, flashback, NOx).\nOthers fail because they tolerate far more: distribution/meters ≈50 %, boilers/cooking ≈30 %, transmission pipelines ≈20 % (compressors ≈10 %)."
+ },
+ {
+  "id": "b09x-017",
+  "short": "F: 33.33 kWh/kg · 0.07 kg/l = 2.33 kWh/l ≈ 2.4 kWh/l (slide value)\n- Diesel ≈10 kWh/l → liquid H2 needs about 4× the volume for the same energy; gaseous H2 (0.09 g/l) is far worse.\n- Per kg, H2 is the best fuel (≈2.8× diesel's heating value); per litre, the worst.\n- All densification (700 bar compression, −253 °C liquefaction, LOHC, ammonia) trades energy/equipment for volumetric density."
+ },
+ {
+  "id": "b10-047",
+  "short": "0.79 kg/l.\n- With LHV 5.83 kWh/kg gives volumetric energy density ≈4.7 kWh/l — about 2× liquid H2 (2.4 kWh/l), 45 % above liquid ammonia (3.2 kWh/l).\n- Liquid at ambient conditions → can reuse ordinary mineral-oil tanks, tankers and pumps; no cryogenics, no pressure vessels."
+ },
+ {
+  "id": "b11-019",
+  "short": "- Conventional chain (4 steps): CO2 capture → electrolysis → syngas production (rWGS) → FT synthesis.\n- Innovative chain (3 steps): electrolysis and syngas production merged into one step, via high-temperature co-electrolysis in a solid oxide cell — H2O + captured CO2 → H2 + CO in one stack.\n- Gain: no separate rWGS stage, minimal conversion losses, one fewer reactor/capex stage.\n- Example: Sunfire \"SynLink SOEC\"."
+ },
+ {
+  "id": "px-017",
+  "short": "- Cost-based regulation (rate-of-return, cost-plus): allowed revenue follows the company's own costs.\n- Incentive-based regulation (price cap, revenue cap, yardstick competition): price/revenue fixed in advance, decoupled from costs, so savings stay with the firm.\n- Price-cap regulation: ceiling on the price per regulatory period, RPI − X formula (rises with inflation, falls by productivity factor X).\n- Pros: strong efficiency incentive, low information burden on the regulator.\n- Cons: quality can be cut to save cost (needs separate quality regulation); if X was set too low, profits become excessive and politically hard to defend."
+ },
+ {
+  "id": "b02-001",
+  "short": "- Triangle with three axes: security of supply, sustainability, price.\n- Each axis: low at the centre, high at the corner.\n- IDEAL polygon: high security of supply, high sustainability, low price — all three corners good at once.\n- Trilemma because the goals conflict pairwise: more sustainability or security raises price; a low price cuts security and sustainability.\nNote: slide heading misspells it \"Security of Suply\"."
+ },
+ {
+  "id": "b02-017",
+  "short": "- Competition law (WettbR): GWB, EGV/VertikalVO — general antitrust, applies to energy firms like any company.\n- Energy law narrow sense (EnergieR i.e.S.): EnWG, EltRL/GasRL — sector-specific rules.\n- Energy environmental law (EnergieumweltR): EEG/EEWärmeG, StromStG — renewables and energy taxes.\n- EnWG is the framework act in the middle column; operational detail (access, tariffs, incentive regulation) sits in its ordinances below it — StromNZV, StromNEV, ARegV, Strom/GasGVV etc."
+ },
+ {
+  "id": "b02-045",
+  "short": "- x-axis: gas year, 1.10 to 1.9. y-axis: daily off-take.\n- Jagged curve: low in October, rising through winter to a peak in Jan/Feb, falling to a summer minimum in Jul/Aug, rising again in September.\n- quantity = area under the curve (kWh, m³)\n- flow = height of the curve at a point (kWh/h, m³/h)\n- capacity = horizontal line above the highest peak — booked maximum flow (kWh/h, m³/h)\n- ACQ = annual, QCQ = quarterly, MCQ = monthly contract quantity, nested MCQ ⊂ QCQ ⊂ ACQ."
+ },
+ {
+  "id": "b02-057",
+  "short": "| | Liquid (oil) | Gas |\n| pressure p | falls linearly with distance | falls slowly, then steeply (concave) |\n| velocity v | constant | rises, sharply near the end |\n| why | incompressible, constant density | compressible: density falls as p falls → higher v → more friction → self-reinforcing pressure drop |\nEnergy content: 1 m³ oil = 9,900 kWh vs 1 m³ gas = 9.8–12.3 kWh, factor ≈ 800–1,000.\nSo moving the same energy needs ~1,000× the gas volume — why gas lines run at high pressure (compression ~100-fold) and long distances use LNG instead."
+ },
+ {
+  "id": "b03-020",
+  "short": "Correct: the pipeline crosses six countries (political risk, transit fees each); LNG avoids land borders but depends on the Suez Canal chokepoint.\nOthers fail: the pipeline is not offshore/borderless; LNG is not free of geography, and its cost does depend on distance, just far less steeply than pipeline cost."
+ },
+ {
+  "id": "b03-001",
+  "short": "- Transportation = capacity + related services: booked maximum flow, plus metering, nomination, allocation, billing.\n- At/between A and B: A = delivery/receipt point, B = redelivery point.\n- During a defined term: fixed start and end.\n- Shipper: books the capacity, stays owner of the gas from A to B. Carrier/transporter: owns and operates the pipeline, moves the shipper's gas.\n- Capacity is paid regardless of use — a half-loaded booking costs the same, so cost per MWh doubles."
+ },
+ {
+  "id": "px-013",
+  "short": "F: p_sales = p_supply + p_storage\nF: p_sales = 27 + 4.125 = 31.125 €/MWh\nResult: winter price ≥ 31.13 €/MWh, i.e. spread of 4.125 €/MWh, not the 1 €/MWh shown.\nAt the actual 28 €/MWh: loss = 3.125 €/MWh × 132,000 MWh = −412,500 €."
+ },
+ {
+  "id": "px-011",
+  "short": "F: T_storage = p_inj·κ_inj + p_wd·κ_wd + p_wg·v_wg\nGCV = 11 kWh/m³; injection/withdrawal capacity 3,000 m³/h each; working gas 12,000,000 m³.\nF: Working gas: 12,000,000·11 = 132,000,000 kWh → ·0.003 €/kWh/a = 396,000 €/a\nF: Withdrawal: 3,000·11 = 33,000 kW → ·2 €/kW/a = 66,000 €/a\nF: Injection: 33,000 kW → ·2.5 €/kW/a = 82,500 €/a\nF: Total = 396,000 + 66,000 + 82,500 = 544,500 €/a\nResult: 544,500 €/a — specific cost 4.125 €/MWh.\nNote: €/(kWh/h)/a = €/kW/a is a capacity price, not an energy price."
+ },
+ {
+  "id": "b04-058",
+  "short": "Correct: €/kW/a — kWh/h is an energy per hour, i.e. a power, so 1 kWh/h = 1 kW.\nOthers fail: €/kWh/a is the working-gas quantity price, a different term; €/MWh is a commodity/specific-cost figure; €/kW without /a is a one-off investment cost, not an annual tariff."
+ },
+ {
+  "id": "px-006",
+  "short": "| Aspect | Pipeline | Truck |\n| Capacity | up to 1,500,000 bbl/day | up to ~750 bbl/trip |\n| Cost | capital-intensive, lowest cost per bbl once utilised | low capital, highest specific cost |\n| Flexibility | fixed route, years to build | flexible destination and quantity, redeployable at short notice |"
+ },
+ {
+  "id": "b06-009",
+  "short": "- Four tank types: cone roof, dome roof, external floating roof, internal floating roof.\n- Floating roof rests on the liquid, no vapour space above it → suppresses evaporation and prevents an explosive vapour-air mix — needed for crude oil and light products.\n- Fixed (cone/dome) roofs used where evaporation matters less.\nF: 6 months storage = 6 × 0.5–1 US$/bbl = 3–6 US$/bbl\nResult: worthwhile only if the 6-month forward price exceeds spot by more than 3–6 US$/bbl (contango beyond storage cost); if the spread is smaller, or the market is in backwardation, sell now instead."
+ },
+ {
+  "id": "px-029",
+  "short": "Load blocks: 600 MW/1,500 h, 400 MW/3,000 h, 200 MW/4,260 h (rest of the year).\nF: Energy = 600·1,500 + 400·3,000 + 200·4,260 = 2,952,000 MWh/a\nF: Import cost if fully imported = 600·1,500·300 + 400·3,000·200 + 200·4,260·100 ≈ 595.2 million €/a\n- Actual cost is lower: dispatch the plants by merit order — cheapest first covers a block whenever its marginal cost is below that block's import price; only the remainder is imported.\n- Operator's margin per block = (import price − own marginal cost) × own energy served, summed over blocks.\nNote: exact plant marginal costs are not recorded here — plug in the values given on the exam sheet."
+ },
+ {
+  "id": "b07-018",
+  "short": "- Left: real weekly load duration curve (~168 h), sorted descending — starts ≈8,000 MW, drops to ≈6,500 MW by hour 15, declines near-linearly to ≈3,500 MW by hour 160, then to zero.\n- Right: same curve turned into ~5 constant steps (e.g. 7,000 / 5,700 / 5,000 / 4,600 / 3,500 MW blocks).\n- Why: convolution needs discrete states — each step is one load level with a known duration, so a plant's outage probability can be applied to it.\n- The approximation must preserve the area (energy) and the peak.\n- Cost: chronology is lost — only how many hours a level occurs matters, matching convolution's assumption that outages are independent of time."
+ },
+ {
+  "id": "b07-032",
+  "short": "F: C(t) = C_fix + C_var · t\n- Technology 4's cost line never lies on the lower envelope: for every utilisation time t (0–8,760 h) another technology is cheaper.\n- Rule: a technology is only built if it wins on some interval — lower fixed cost than the technology to its left, lower variable cost than the one to its right.\n- Optimal park = the technologies forming the vertices of the lower cost envelope; anything dominated gets zero capacity."
+ },
+ {
+  "id": "b07-023",
+  "short": "- Corners: economic efficiency, security of supply, environmental compatibility.\n- Conflict: more environmental compatibility raises cost and can cut firm capacity; more security of supply raises cost; minimising cost alone keeps the cheapest, often dirtiest, plants running.\n- No unique optimum — a weighting between the three goals has to be chosen.\n- The future path and the time t to reach it are also unknown — motivates energy system models (cost-minimal path) and scenario planning (uncertainty in the assumptions)."
+ },
+ {
+  "id": "b08-012",
+  "short": "Correct: rather unattractive for hard coal and pumped storage; possibly attractive for nuclear/RES; rather unattractive for CCGTs.\nOthers fail: one flips hard coal to attractive, another flips nuclear/RES and pumped storage, another confuses price level with clean spark spread — a high price level doesn't widen the spread if fuel/CO2 costs caused it."
+ },
+ {
+  "id": "b08-023",
+  "short": "Correct: it transfers revenues and expenditures into a uniform yearly series (annuity, t = 1…n) instead of a total NPV — same recommendation as the NPV method, just expressed per year (or €/MWh as levelised cost).\nOthers fail: it does not add non-financial criteria, does not swap WACC for IRR, and does not replace discounting with a static average."
+ },
+ {
+  "id": "b08-034",
+  "short": "Correct: in an integrated system it is hard to assign a proportionate revenue or investment to one project, and non-financial/qualitative factors (acceptance, strategy, security of supply) are ignored — so investment decisions are entrepreneurial, not purely appraisal-based.\nOthers fail: probabilities-for-all-states is a different limitation; there is no 30-year lifetime cap; discounting works fine with negative cash flows."
+ },
+ {
+  "id": "px-007",
+  "short": "- Frequency deviates from 50 Hz (band 49.95–50.05 Hz) whenever feed-in ≠ withdrawal.\n- Primary control: seconds, full within 30 s — stabilises frequency, delivered jointly by all connected generators.\n- Secondary control: from ~30 s, full after minutes up to 15 min — restores 50 Hz, frees the primary reserve.\n- Tertiary/minute reserve: 15 min to ~1 h — relieves the secondary reserve.\n- Hourly reserve: beyond 1 h.\n- Responsibility: TSO procures and calls the first three; beyond 1 h the balancing group manager restores its own balance.\nNote: the slide mislabels the second band \"Primary control\" again — the German layer underneath reads \"Sekundärregelung\" (secondary)."
+ },
+ {
+  "id": "b09x-001",
+  "short": "- Legend: 380 kV AC lines, 220 kV AC lines, HVDC overhead lines/cables, substations, converter stations.\n- Change 1: voltage upgrade — many 220 kV corridors in 2003 are 380 kV by 2020 (lower current → lower ohmic losses, which scale with I²).\n- Change 2: 2020 map adds offshore North Sea/Baltic connections and new north–south HVDC links (wind in the north, load and closing nuclear plants in the south).\nNote: the heading says \"Electricity exchange in Europe\" but both maps show only the German grid."
+ },
+ {
+  "id": "px-009",
+  "short": "- Efficiency: electrolysis 64–83%, re-electrification 40–60% → round trip below 40%, weak against direct electrification.\n- Cost/full-load hours: cheap H2 needs cheap surplus power, but few full-load hours can't repay the capex.\n- CO2 for methanation: point source is cheap but fossil, direct air capture is clean but expensive and energy-intensive.\n- Infrastructure: H2 embrittles steel, so blending into existing pipelines is limited; low volumetric energy density; storage needs caverns; no liquid market yet.\n- Water: ≈9 kg H2O/kg H2 (≈18 kg incl. cooling) — competes for water in the sunny, windy regions best suited for production.\n- Regulation: financing of the H2 backbone, certification of green hydrogen, bridging subsidies."
+ },
+ {
+  "id": "b10-001",
+  "short": "- Left map: salt formations for caverns — a belt from the Netherlands/N. Germany through Poland, plus North Sea/UK, further east, and smaller patches in France, Spain, Portugal, the Alps.\n- Right map: existing gas storages — depleted fields (red, most common, spread across Europe), salt caverns (green, clustered on the salt belt), aquifers (yellow).\n- Only salt caverns are proven for H2: impermeable, inert, no hydrocarbons or microbes, fast cycling.\n- Porous formations (depleted fields, aquifers) risk H2 loss by diffusion, mineral reactions, and microbial conversion to CH4/H2S — not yet proven.\n- So H2 caverns are only possible on the salt belt (N. Germany, Netherlands, Denmark, UK, Poland); Southern/SE Europe would need porous storage, above-ground tanks, or pipeline imports from the north."
+ },
+ {
+  "id": "b09x-032",
+  "short": "- Factor 5 = cost ratio between the cheapest (<1.00 $/kg) and most expensive (>2.50 $/kg) production locations.\n- Cheap producers: South America (864 Mt/a), North Africa (597 Mt/a), Australia (380 Mt/a), Middle East (290 Mt/a), Namibia/South Africa.\n- Demand centres: Europe, China, Japan/South Korea, India, US — Japan/South Korea fall in the most expensive category, so they can't produce competitively.\n- Conclusion: best production sites and demand centres don't coincide → hydrogen transport is required."
+ },
+ {
+  "id": "b10-049",
+  "short": "- Energy density: 5.83 kWhLHV/kg, 4.7 kWhLHV/l; 12.5 wt% hydrogen.\n- Best volumetric density of the carriers (~2× liquid H2, ~45% above liquid ammonia), at ambient pressure and temperature.\n- H2 recovery: steam reforming/cracking, ≈4.5 kWhth/kgH2 + 3.2 kWhel/kgH2.\n- Carbon: from DAC, a point source, or biomass gasification — organic carrier, so \"potentially carbon neutral\", not zero-carbon (released again on combustion).\n- Direct use: ICE (blend or M100) or direct methanol fuel cell; derivatives such as biodiesel already used as fuel.\nNote: the slide's cracking conditions (50–100 bar, 600–900°C) are actually ammonia's; real methanol reforming is milder, ≈250–350°C."
+ },
+ {
+  "id": "px-024",
+  "short": "| Carrier | Ship | Pipeline | Underground storage |\n| Hydrogen | no reuse, 1 prototype (2,200 dwt) | reuse possible, 10–35% of new-build cost | salt caverns only; porous formations unproven |\n| Ammonia | established, up to 75,000 dwt, 126 terminals; LPG carriers reusable | no reuse | refrigerated/pressure tanks (fertiliser industry) |\n| Methanol | established, potential reuse of oil tankers | compatibility unclear | high — liquid at ambient conditions, ordinary tanks |"
+ }
+]
