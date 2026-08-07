@@ -18,8 +18,12 @@ import html as H
 import json
 import os
 import re
+import sys
 
 import fitz
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from shrink_pdf import shrink  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEL = os.path.join(ROOT, "tools", "selection_compact.json")
@@ -273,8 +277,14 @@ def main() -> None:
     doc.set_metadata({"title": "Exam drill – compact, print version",
                       "author": "Smart Energy Infrastructure, KIT WiSe 2025/26"})
     doc.save(OUT, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
-    print(f"{len(sel)} Fragen -> {doc.page_count} Seiten -> {OUT}")
+    pages = doc.page_count
     doc.close()
+
+    # DocumentWriter writes uncompressed streams and the appendix is appended
+    # incrementally, which only ever adds bytes - without this the file is 61 MB
+    # instead of under 4.
+    shrink(OUT, in_place=True)
+    print(f"{len(sel)} Fragen -> {pages} Seiten -> {OUT}")
 
 
 if __name__ == "__main__":
