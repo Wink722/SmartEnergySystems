@@ -131,7 +131,7 @@ def block(q, nr, short):
     return "".join(out)
 
 
-def build_html(sel, answers):
+def intro_html(sel):
     n_past = sum(1 for q in sel if q.get("recall"))
     n_sec = len({(q["chapter"], q.get("section")) for q in sel if q.get("section")})
     parts = [
@@ -156,15 +156,25 @@ def build_html(sel, answers):
         'the merged 736-page script in the repository Wink722/SmartEnergySystems, where '
         'the same questions live in the app with longer explanations and spaced '
         'repetition.</p>',
+        '<p class="small"><b>No question is split across a page break</b> — every '
+        'question and its complete answer sit together on one page.</p>',
     ]
-    cur, nr = None, 0
+    return "".join(parts)
+
+
+def question_blocks(sel, answers):
+    """One self-contained HTML block per question. A chapter heading is glued to
+    the question that follows it, so a heading can never end up alone at the
+    foot of a page."""
+    blocks, cur, nr = [], None, 0
     for q in sel:
+        head = ""
         if q["chapter"] != cur:
             cur = q["chapter"]
-            parts.append(f'<h2>{cur} &middot; {H.escape(q["chapter_title"])}</h2>')
+            head = f'<h2>{cur} &middot; {H.escape(q["chapter_title"])}</h2>'
         nr += 1
-        parts.append(block(q, nr, answers.get(q["id"], "")))
-    return "".join(parts)
+        blocks.append(head + block(q, nr, answers.get(q["id"], "")))
+    return blocks
 
 
 def append_figures(sel):
@@ -215,18 +225,42 @@ def main() -> None:
             q["fignum"] = n
 
     mediabox = fitz.paper_rect("a4")
-    where = mediabox + (52, 48, -52, -52)
+    x0, x1 = 52, mediabox.x1 - 52
+    top, bottom = 48, mediabox.y1 - 56
+
+    def height_of(html: str) -> float:
+        """What the block needs, measured in a column of unlimited height."""
+        probe = fitz.Story(html, user_css=CSS)
+        _, filled = probe.place(fitz.Rect(x0, top, x1, top + 5000))
+        return fitz.Rect(filled).y1 - top
+
     writer = fitz.DocumentWriter(OUT)
-    story = fitz.Story(build_html(sel, answers), user_css=CSS)
-    more, pages = 1, 0
-    while more:
-        dev = writer.begin_page(mediabox)
-        more, _ = story.place(where)
-        story.draw(dev)
-        writer.end_page()
-        pages += 1
-        if pages > 140:
-            break
+    dev = writer.begin_page(mediabox)
+    y = top
+
+    def put(html: str) -> None:
+        """Places one block, starting a new page rather than splitting it."""
+        nonlocal dev, y
+        need = height_of(html)
+        if y > top and y + need > bottom:
+            writer.end_page()
+            dev = writer.begin_page(mediabox)
+            y = top
+        story = fitz.Story(html, user_css=CSS)
+        more = 1
+        while more:
+            more, filled = story.place(fitz.Rect(x0, y, x1, bottom))
+            story.draw(dev)
+            y = fitz.Rect(filled).y1
+            if more:  # only for a block that is taller than a whole page
+                writer.end_page()
+                dev = writer.begin_page(mediabox)
+                y = top
+
+    put(intro_html(sel))
+    for html in question_blocks(sel, answers):
+        put(html)
+    writer.end_page()
     writer.close()
 
     append_figures(sel)
